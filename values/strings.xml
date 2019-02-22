@@ -141,7 +141,7 @@
     <string name="not_saved_load_error">User %1$s not saved because of previous load error. Unlock edit mode to force save.</string>
     <string name="collection_infos_general">Name: %1$s\nCollection ID: %2$s\nPublic Name: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s</string>
     <string name="collection_deleted">Collection %1$s deleted</string>
-    <string name="collection_sharing_retracted">Shared collection %1$s was retracted by the owner</string>
+    <string name="collection_sharing_retracted">Shared collection %1$s has been retracted by the owner</string>
     <string name="collection_sharing_retracted_ok">Shared collection was retracted for %1$s</string>
     <string name="collection_retract_sharing">Select items to retract sharing</string>
     <string name="title_collection_shared_with_me">Collection shared</string>
@@ -208,12 +208,14 @@
     <string name="user_name_contains_invalid_characters">Name contains invalid characters</string>
     <!-- version 5.6.4 -->
     <string name="transfer_collection">"Transfer collections"</string>
-    <string name="not_my_collection_title">"Owner of collection changed"</string>
-    <string name="not_my_collection_message">"Do you want to keep '%1$s'?"</string>
-    <string name="not_master_title">"Collection has been transfered"</string>
-    <string name="not_master_message">"Do you want to keep '%1$s'?"</string>
     <!-- version 5.6.5 -->
     <string name="building_album_please_wait">"Building album - please wait"</string>
+    <!-- version 5.6.10 -->
+    <string name="collection_transferred_title">"Collection '%1$s' has been transferred to another device."</string>
+    <string name="owner_this_device">"This device"</string>
+    <string name="owner_your_other_device">"One of your other devices"</string>
+    <string name="collection_now_online_managed">"Editing collection is now also possible on your other devices"</string>
+    <string name="collection_now_device_managed">"Editing collection is now only possible on this device"</string>
 
     <!-- version 6.0 -->
     <string name="action_trading_partners">"Trading partners"</string>
@@ -238,6 +240,12 @@
     <string name="trading_session_empty_no_sending">"No coins for trading selected. Please add coins before sending to counterparty."</string>
     <string name="trading_collection_deleted_by_counterparty">"The trading collection was deleted by the counterparty."</string>
     <string name="ok">"Ok"</string>
+    <string name="split_collection">"Split"</string>
+    <string name="enter_number_of_coins_for_splitting">"Please enter the number of coins per available coin you want to transfer to the first copy. Remaining ones will go into the second copy of this collection. The original collection will not be changed or deleted."</string>
+    <string name="collection_split_ok">"Collection has been split into 2 new collections. After reviewing those you can delete the original collection."</string>
+    <string name="account_not_activated">"Account not active. Please register your mail address and confirm the registration link or deactivate the cloud features in the settings."</string>
+    <string name="transfer_collection_error">"Error while transfering the collection '%1$s'</string>
+
     <string name="how_trading_partner_works">"
 - You can get trading partners for your selected collection.
 - To get a trading partner you first need to share your collection to the public.
@@ -267,14 +275,17 @@
 - After you deleted the underlying counterparty collection your own collection will in the future not be machted against this collection again until you select 'restart'.
         "</string>
 
-    <string name="version_history_current">"Version 5.6.9\n
-        Added all known commemorative coins for 2019 but with a common picture only\n
+    <string name="version_history_current">"Version 5.6.10\n
+        Added feature to split collection.\n
+        Fixed synchronization bug for shared collections.\n
+        Fixed russian translation."</string>
+
+    <string name="version_history_last">"Version 5.6.9\n
+        Added all known commemorative coins for 2019 (some pictures still missing)\n
+        Added commemorative coin Italy 2018\n
         Fixed bug if a common coin (left side) was touched\n
         In EU view show collected commemorative coins when clicked on it\n
         Avoid rebuilding the album view when closing certain dialogs"</string>
-
-    <string name="version_history_last">"Version 5.6.8\n
-        Fixed crash while rotating the device fast"</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
