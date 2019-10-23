@@ -53,7 +53,6 @@
     <string name="pref_show_statistics">"Статистика"</string>
     <string name="pref_language">"язык / Language"</string>
     <string name="added_date">"Дата"</string>
-    <string name="change_added_date">"изм"</string>
     <string name="paid">"Оплачено"</string>
     <string name="value">"Стоимость"</string>
     <string name="note">"Заметка"</string>

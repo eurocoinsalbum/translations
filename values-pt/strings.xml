@@ -38,7 +38,6 @@
     <string name="pref_show_statistics">Mostrar estatísticas</string>
     <string name="pref_language">Língua / Language</string>
     <string name="added_date">Data</string>
-    <string name="change_added_date">alterar</string>
     <string name="paid">Pago</string>
     <string name="value">Valor</string>
     <string name="note">Nota</string>

@@ -37,4 +37,33 @@
         <item name="RU">ru</item>
     </string-array>
 
+
+    <string-array name="pref_country_residence_array">
+        <item name="N_">-</item>
+        <item name="DE">Deutschland</item>
+        <item name="UK">United Kingdom</item>
+        <item name="FR">France</item>
+        <item name="ES">España</item>
+        <item name="IT">Italia</item>
+        <item name="PT">Portugual</item>
+        <item name="LT">Lietuvių</item>
+        <item name="NL">Nederland</item>
+        <item name="RU">русский</item>
+        <item name="W_">Other</item>
+    </string-array>
+
+    <string-array name="pref_country_residence_array_values">
+        <item name="N_">n_</item>
+        <item name="DE">de</item>
+        <item name="UK">uk</item>
+        <item name="FR">fr</item>
+        <item name="ES">es</item>
+        <item name="IT">it</item>
+        <item name="PT">pt</item>
+        <item name="LT">lt</item>
+        <item name="NL">nl</item>
+        <item name="RU">ru</item>
+        <item name="W_">w_</item>
+    </string-array>
+
 </resources>

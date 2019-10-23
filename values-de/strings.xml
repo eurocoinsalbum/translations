@@ -51,15 +51,14 @@
     <string name="pref_collect_years">Jahre sammeln</string>
     <string name="pref_show_statistics">Statistik anzeigen</string>
     <string name="pref_language">Sprache / Language</string>
-    <string name="added_date">Datum</string>
-    <string name="change_added_date">ändern</string>
+    <string name="added_date">Datum gesammelt</string>
     <string name="paid">Bezahlt</string>
     <string name="value">Wert</string>
     <string name="note">Notiz</string>
     <string name="pref_show_only_missing_coins">Zeige nur fehlende Münzen</string>
     <string name="pref_show_official_coin_set_marker">Zeige \'nur als KMS\' Markierung (*)</string>
     <string name="condition">Zustand</string>
-    <string name="condition_helper">(A&#8211;Z or 1&#8211;9)</string>
+    <string name="condition_helper">Benutzerdefinierter Zustand (A&#8211;Z or 1&#8211;9)</string>
     <string name="action_open_url_comment">Nachricht schreiben</string>
     <string name="action_close">Beenden</string>
     <string name="index_cc">Index</string>
@@ -84,6 +83,11 @@
     <string name="pref_background_color">Hintergrundfarbe</string>
     <string name="pref_hide_not_existing_coins">Nicht existierende Münzen ausblenden</string>
     <string name="click_the_coin_set_expand_button">Um die Gruppe zu öffnen drücke den Plus-Button</string>
+    <string name="action_manage_shared_collection">Verwalten</string>
+    <string name="collection_is_not_shared">Diese Sammlung wurde nicht geteilt</string>
+    <string name="register">Registrieren</string>
+    <string name="trading_hint_colours">"Die hellen Bilder sind die Münzen, die Sie noch nicht besitzen, aber Ihr Tauschpartner. Für die dunklen Münzbilder ist dies umgekehrt. Die obere Reihe zeigt die Münzen, die Sie bekommen werden, und die untere, die Sie zu Ihrem Tauschpartner senden."</string>
+    <string name="block_trading">"Tausch sperren"</string>
     <!-- v5.0 -->
     <string name="pref_text_size_3">Textgröße 3 (Selektionsliste)</string>
     <string name="version_history">Versionshistorie</string>
@@ -206,6 +210,12 @@
     <string name="transfer_collection">"Sammlungen übertragen"</string>
     <!-- version 5.6.5 -->
     <string name="building_album_please_wait">"Album wird vorbereitet - bitte warten"</string>
+    <!-- version 5.6.9 -->
+    <string name="ok">"Ok"</string>
+    <string name="split_collection">"Aufteilen"</string>
+    <string name="enter_number_of_coins_for_splitting">"Bitte geben Sie die Anzahl der Münzen pro möglicher Münze an, die in die erste Kopie übertragen werden soll. Übrige Münzen werden in die zweite Kopie dieser Sammlung übertragen. Die Originalsammlung wird dabei nicht verändert oder gelöscht."</string>
+    <string name="collection_split_ok">"Die Sammlung wurde in zwei neue Sammlungen aufgeteilt. Nach einer Kontrolle können Sie die Originalsammlung löschen."</string>
+    <string name="transfer_collection_error">"Fehler beim Übertragen der Sammlung '%1$s'</string>
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Sammlung '%1$s' wurde auf ein anderes Gerät übertragen."</string>
     <string name="owner_this_device">"Dieses Gerät"</string>
@@ -214,14 +224,19 @@
     <string name="collection_now_device_managed">"Ab jetzt ist das Editieren der Sammlung nur noch auf diesem Gerät möglich"</string>
 
     <!-- version 6.0 -->
+    <string name="countryname_world">"Weltweit"</string>
     <string name="action_trading_partners">"Tauschpartner"</string>
-    <string name="no_trading_partners_found">"Keine Tauschpartner gefunden"</string>
+    <string name="title_no_trading_partners_found">"Keine Tauschpartner gefunden"</string>
+    <string name="title_trading_partner_found">"Tauschpartner"</string>
+    <string name="change_my_country_only_hint">"Sie finden eventuell mehr Tauschpartner, wenn Sie auch Tauschpartner außerhalb Ihres eigenen Landes (Wohnort) im Einstellungen Dialog erlauben."</string>
+    <string name="pref_trading_partners_from_my_country_only">"Zeige nur Tauschpartner aus meinem Land."</string>
+    <string name="number_of_coins">"Münzen"</string>
+    <string name="confirm_reset_trading_partners">"Möchten Sie die Suche zurücksetzen und alte Tauschpartner einbeziehen?"</string>
     <string name="enter_new_public_name">"Bitte neuen öffentlichen Namen eingeben"</string>
     <string name="change_public_name">"Öffentlichen Namen ändern"</string>
     <string name="collection_is_not_public">"Die Sammlung ist nicht öffentlich"</string>
     <string name="coin_to_trading_basket_added">"Münze wurde zur Tauschaktion hinzugefügt"</string>
-    <string name="enter_star_to_publish_trading">"Geben Sie ein Stern '*' ein, um die Sammlung zum Tauschen zu veröffentlichen (ein zusätzlicher Bestätigungsdialog erscheint im Anschluss)."</string>
-    <string name="confirm_publish_trading_collection">Möchten Sie Ihre Sammlung wirklich als Tauschsammlung veröffentlichen? Alle Daten (z.B. Notizen zu Münzen) der Sammlung werden für andere sichtbar.</string>
+    <string name="confirm_publish_trading_collection">"Möchten Sie Ihre Sammlung wirklich als Tauschsammlung veröffentlichen? Alle Daten (z.B. Notizen zu Münzen) der Sammlung werden für andere sichtbar. Von jeder Ihrer Münzen wird '%1$d' Münze(n) zurückgehalten und wird nicht für den Tausch zur Verfügung gestellt. Diese Zahl kann in den Einstellungen geändert werden."</string>
     <string name="collection_is_trading">"Diese Sammlung kann noch nicht gelöscht werden, da sie in den folgenden Tauschsammlungen verwendet wird:%1$s"</string>
     <string name="action_get_next_trading_partners">"Nächster"</string>
     <string name="action_reset_trading_partners">"Neustart"</string>
@@ -229,30 +244,84 @@
     <string name="ask_link_trading_collection">"Ein Benutzer möchte Münzen mit Ihrer öffentliche Sammlung '%1$s' tauschen. Die Tauschsammlung '%2$s' wird geladen."</string>
     <string name="action_help_trading_partners">"Anleitung"</string>
     <string name="not_your_trading_turn">"Sie können die Tauschsammlung jetzt nicht editieren, da Ihr Tauschpartner am Zug ist."</string>
-    <string name="trading_confirmed">"Diese Tauschsammlung wurde bereits beidseitig bestätigt."</string>
+    <string name="trading_confirmed_already">"Diese Tauschsammlung wurde bereits beidseitig bestätigt. Kontaktieren Sie '%1$s' und versenden die Münzen. Danach markieren Sie die Tauschsammlung als durchgeführt."</string>
     <string name="action_send_to_trading_partner">"An Tauschpartner senden"</string>
     <string name="action_confirm_trade">"Tauschhandel bestätigen"</string>
+    <string name="confirm_trade_confirmation_message">"Möchten Sie den Tausch der Münzen wirklich bestätigen?"</string>
     <string name="device_time_too_old">"Die aktuelle Uhrzeit auf Ihrem Gerät ist zu alt."</string>
     <string name="trading_session_empty_no_sending">"Es wurden keine Münzen ausgewählt. Bitte Münzen auswählen, bevor die Tauschsammlung an den Tauschpartner gesendet wird."</string>
     <string name="trading_collection_deleted_by_counterparty">"Die Tauschsammlung wurde vom Tauschpartner gelöscht."</string>
-    <string name="ok">"Ok"</string>
-    <string name="split_collection">"Aufteilen"</string>
-    <string name="enter_number_of_coins_for_splitting">"Bitte geben Sie die Anzahl der Münzen pro möglicher Münze an, die in die erste Kopie übertragen werden soll. Übrige Münzen werden in die zweite Kopie dieser Sammlung übertragen. Die Originalsammlung wird dabei nicht verändert oder gelöscht."</string>
-    <string name="collection_split_ok">"Die Sammlung wurde in zwei neue Sammlungen aufgeteilt. Nach einer Kontrolle können Sie die Originalsammlung löschen."</string>
     <string name="account_not_activated">"Das Benutzerkonto wurde noch nicht aktiviert. Bitte Mail-Adresse registrieren und den Aktivierungslink bestätigen oder Cloud (Internet) Funktionilatität in den Einstellungen deaktivieren."</string>
-    <string name="transfer_collection_error">"Fehler beim Übertragen der Sammlung '%1$s'</string>
+    <string name="action_share_public">"Veröffentlichen..."</string>
+    <string name="action_retract_share_public">"Zurückziehen"</string>
+    <string name="collection_published_for_trading">"Die Sammlung wurde veröffentlicht. Sie können jetzt mit der Suche nach Tauschpartnern beginnen."</string>
+    <string name="collection_retracted_for_trading">"Die Sammlung wurde zurückgezogen und ist für neue Tauschpartner nicht mehr verfügbar."</string>
+    <string name="public_name_empty">"Öffentlicher Name darf nicht leer sein."</string>
+    <string name="email_invalid">"Mailadresse ist ungültig"</string>
+    <string name="collection_is_public">"Öffentlich"</string>
+    <string name="trading_your_turn">"Sie sind jetzt an der Reihe die Tauschsammlung '%1$s' zu bearbeiten. Anschließend senden Sie diese bitte zurück an Ihren Tauschpartner oder bestätigen den Tausch, sofern Sie keine Änderungswünsche vorgenommen haben."</string>
+    <string name="trading_confirmed">"Die Tauschsammlung '%1$s' wurde von Ihren und Ihrem Tauschpartner '%2$s' akzeptiert. Sie erhalten eine E-Mail mit den Details. Bitte tauschen Sie per E-Mail Ihre Anschriften aus."</string>
+    <string name="trading_sent_collection">"Die Tauschsammlung wurde an Ihren Tauschpartner gesendet. Dieser kann nun die Tauschsammlung ändern order den jetzigen Stand akzeptieren."</string>
+    <string name="pref_trading_coins_to_keep">"Tauschsammlung: Anzahl zu behaltender Münzen"</string>
+    <string name="collection_has_no_tradable_coins">"Diese Sammlung hat keine tauschbare Münze. Bitte fügen Sie Münzen hinzu oder reduzieren ggf. die Anzahl der zu behaltenden Münzen in den Einstellungen."</string>
+    <string name="trade_is_blocking_coin">"Die Münze wird von den folgenden Tauschsammlungen geblockt"</string>
+    <string name="user_keeps_non_tradable_coins">"Die Sammlung '%1$s' hält die verbleibenden Münzen als nicht tauschbar zurück."</string>
+    <string name="trading_coins_removed">"Folgende Münzen wurden aus der Tauschsammlung '%1$s' entfernt."</string>
+    <string name="trade_was_executed">"Die Tauschsammlung wurde als 'durchgeführt' markiert."</string>
+    <string name="action_trade_set_executed">"Tausch durchgeführt"</string>
+    <string name="no_executed_trades">"Kein durchgeführter Tausch gefunden. Teile Deine Sammlung und tausche Münzen mit anderen Benutzern!"</string>
+    <string name="action_show_executed_trades">"Durchgeführte Tauschsammlungen"</string>
+    <string name="missing_coin_infos_for_trade_confirmation">Zustand oder Bilder von Münzen fehlen</string>
+    <string name="condition_not_set">"Unbekannt"</string>
+    <string name="condition_uncirculated">"Unzirkuliert"</string>
+    <string name="condition_circulated_quality_high">"Zirkuliert qualität hoch"</string>
+    <string name="condition_circulated_quality_medium">"Zirkuliert qualität mittel"</string>
+    <string name="condition_circulated_quality_low">"Zirkuliert qualität niedrig"</string>
+    <string name="condition_abr_not_set">"?"</string>
+    <string name="condition_abr_uncirculated">"Unc"</string>
+    <string name="condition_abr_circulated_quality_high">"ZH"</string>
+    <string name="condition_abr_circulated_quality_medium">"ZM"</string>
+    <string name="condition_abr_circulated_quality_low">"ZN"</string>
+    <string name="fixed_unsupported_settings_germany">"Die Einstellung 'Deutsche Prägestätten sammeln' wurde ausgeschaltet, da sie in Kombination mit der Einstellung 'Jahre sammeln' nicht unterstützt wird, sofern diese ausgeschaltet ist."</string>
+    <string name="fixed_unsupported_settings_years_series">"Die Einstellungen 'Jahre sammeln' und 'Münzserien sammeln' dürfen nicht gemeinsam ausgewählt werden. Die Einstellung 'Münzserien sammeln' wurde ausgeschaltet."</string>
+    <string name="collect_years_and_series_is_invalid">"Jahre UND Münzserien sammeln ist eine nicht unterstützte Kombination."</string>
+    <string name="delete_photo">"Möchten Sie das Foto wirklich löschen?"</string>
+    <string name="uploading_coin_image">"Bild wird hochgeladen..."</string>
+    <string name="uploaded_coin_image">"Bild wurde hochgeladen."</string>
+    <string name="coin_image_upload_error">"Fehler beim Hochladen des Bildes. Bitte versuchen Sie es später erneut."</string>
+    <string name="report_photo">"Bild melden"</string>
+    <string name="photo_reported">"Das Bild wurde gemeldet"</string>
+    <string name="report_photo_message">"Möchten Sie das Bild wirklich als Verstoß gegen die Nutzungsbedingungen melden?"</string>
+    <string name="collection_has_reported_coin_images">"Die Sammlung '%1$s' beinhaltet Bilder, die von anderen Benutzern gemeldet wurden. Bitte überprüfen und aktualisieren Sie Ihre Sammlung. Missbräuchliche Nutzung führt zur Löschung des Benutzerkontos."</string>
+    <string name="reported_photos_title">"Gemeldete Bilder"</string>
+    <string name="trading_collection_deleted_by_underlying">"Die Tausch-Sammlung '%1$s' wurde automatisch gelöscht, da die beteiligte Sammlung '%2$s' ebenfalls gelöscht wurde."</string>
+    <string name="message_history">"Zeige alle"</string>
+    <string name="title_messages">"Nachrichten"</string>
+    <string name="delete_messages">"Alle löschen"</string>
+    <string name="swipe_to_delete">"Wischen (swipe) zum Löschen"</string>
+    <string name="country_residence">"Wohnort"</string>
+    <string name="pref_country_residence">"Ihr Land (Wohnort)"</string>
+    <string name="set_pref_country_residence">"Bitte wählen Sie in den Einstellungen Ihr Land (Wohnort) aus."</string>
+    <string name="no_collections_found">"Keine Sammlungen gefunden."</string>
+    <string name="trading_user_linked">"Tauschsammlung '%1$s' verbunden."</string>
+    <string name="confirm_send_to_trading_partner">"Sind Sie soweit, die Tauschsammlung an Ihren Tauschpartner zu senden?"</string>
+    <string name="execute_trade_confirmation_message">"Haben Sie die Münzen mit Ihrem Tauschpartner getauscht?"</string>
+    <string name="linked_for_trading_collection_type">"Tauschpartner"</string>
+    <string name="confirmed_trade_type">"Bestätigt"</string>
+    <string name="executed_trade_type">"Durchgeführt"</string>
+    <string name="waiting_trade_type">"Warten"</string>
+    <string name="action_special_features">"Spezialfunktionen"</string>
 
-    <string name="version_history_current">"Version 5.6.10\n
+
+    <string name="version_history_current">"Version 6.0\n
+        Funktionalität zum Tauschen von Münzen mit anderen Benutzern hinzugefügt.\n
+        Anzeige des Münzbildes im Münz-Dialog.\n
+        Anzeige eines vertikalen Balkens alle 5 Jahre und horizontaler Linien."</string>
+
+    <string name="version_history_last">"Version 5.6.10\n
         Funktionalität zum Aufteilen einer Sammlung hinzugefügt.\n
-        Synchronisationsfehler für neu geteilte Sammlungen behoben.
+        Synchronisationsfehler für neu geteilte Sammlungen behoben.\n
         Übersetzungsfehler in russischer Sprachdatei behoben."</string>
-
-    <string name="version_history_last">"Version 5.6.9\n
-        Alle derzeit bekannten Gedenkmünzen für 2019 hizugefügt (einige Münzebilder fehlen noch)\n
-        Gedenkmünze Italien 2018 hinzugefügt\n
-        Fehler behoben, dass beim Drücken auf einer der gemeinsame Münzenbilder (linke Seite) zu viele Auswahlmöglichkeiten gezeigt werden\n
-        In der EU-Ansicht werden die gesammelten Gedenkmünzen angezeigt, wenn auf eine dieser gedrückt wird\n
-        Erneutes Erstellen der Album-Ansicht beim Schließen einige Dialoge unterbunden"</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
@@ -287,9 +356,8 @@
     <string name="countryname_es">Spanien</string>
     <string name="countryname_va">Vatikan</string>
     <string name="countryname_au">Österreich</string>
-    <string name="action_manage_shared_collection">Verwalten</string>
-    <string name="collection_is_not_shared">Diese Sammlung wurde nicht geteilt</string>
-    <string name="register">Registrieren</string>
+
+    <string name="countryname_uk">Vereinigtes Königreich</string>
 
     <!-- DSGVO -->
     <string name="action_show_data_privacy">Datenschutz</string>

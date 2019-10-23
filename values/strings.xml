@@ -54,15 +54,14 @@
     <string name="pref_collect_years">Collect years</string>
     <string name="pref_show_statistics">Show statistics</string>
     <string name="pref_language">Language</string>
-    <string name="added_date">Date</string>
-    <string name="change_added_date">change</string>
+    <string name="added_date">Date collected</string>
     <string name="paid">Paid</string>
     <string name="value">Value</string>
     <string name="note">Note</string>
     <string name="pref_show_only_missing_coins">Show only missing coins</string>
     <string name="pref_show_official_coin_set_marker">Show \'mint set only\' marker (*)</string>
     <string name="condition">Condition</string>
-    <string name="condition_helper">(A&#8211;Z or 1&#8211;9)</string>
+    <string name="condition_helper">Custom condition (A&#8211;Z or 1&#8211;9)</string>
     <string name="action_open_url_comment">Send message</string>
     <string name="action_close">Exit</string>
     <string name="coin_collected_marker">X</string>
@@ -88,6 +87,10 @@
     <string name="pref_background_color">Background color</string>
     <string name="pref_hide_not_existing_coins">Hide not existing coins</string>
     <string name="click_the_coin_set_expand_button">To open the coin set group touch the plus button</string>
+    <string name="action_manage_shared_collection">Manage</string>
+    <string name="collection_is_not_shared">This collection has not been shared</string>
+    <string name="register">Register</string>
+
     <!-- v5.0 -->
     <string name="pref_text_size_3">Text size 3 (selection list)</string>
     <string name="version_history">Version history</string>
@@ -210,6 +213,12 @@
     <string name="transfer_collection">"Transfer collections"</string>
     <!-- version 5.6.5 -->
     <string name="building_album_please_wait">"Building album - please wait"</string>
+    <!-- version 5.6.9 -->
+    <string name="ok">"Ok"</string>
+    <string name="split_collection">"Split"</string>
+    <string name="enter_number_of_coins_for_splitting">"Please enter the number of coins per available coin you want to transfer to the first copy. Remaining ones will go into the second copy of this collection. The original collection will not be changed or deleted."</string>
+    <string name="collection_split_ok">"Collection has been split into 2 new collections. After reviewing those you can delete the original collection."</string>
+    <string name="transfer_collection_error">"Error while transfering the collection '%1$s'</string>
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Collection '%1$s' has been transferred to another device."</string>
     <string name="owner_this_device">"This device"</string>
@@ -218,74 +227,143 @@
     <string name="collection_now_device_managed">"Editing collection is now only possible on this device"</string>
 
     <!-- version 6.0 -->
+    <string name="countryname_world">"Worldwide"</string>
     <string name="action_trading_partners">"Trading partners"</string>
-    <string name="no_trading_partners_found">"No trading partners found"</string>
+    <string name="title_no_trading_partners_found">"No trading partners found"</string>
+    <string name="title_trading_partner_found">"Trading partners"</string>
+    <string name="change_my_country_only_hint">"You may find trading partners if you also allow trading partners from other countries than your own one in the settings dialog."</string>
+    <string name="pref_trading_partners_from_my_country_only">"Show trading partner from my country only."</string>
+    <string name="number_of_coins">"Coins"</string>
+    <string name="confirm_reset_trading_partners">"Do you want to reset your search and include old trading partners?"</string>
     <string name="enter_new_public_name">"Enter new public collection name"</string>
     <string name="change_public_name">"Change public name"</string>
     <string name="collection_is_not_public">"Collection is not public"</string>
     <string name="coin_to_trading_basket_added">"Coin added to trading basket"</string>
-    <string name="enter_star_to_publish_trading">"Enter a star '*' to publish as tradable collection (an additional confirmation dialog will shown next)."</string>
-    <string name="confirm_publish_trading_collection">Do you really want to publish your collection as a tradable collection? All data (for example notes of coins) of the collection will be visible to others.</string>
+    <string name="confirm_publish_trading_collection">"Do you really want to publish your collection as a tradable collection? All data (for example notes of coins) of the collection will be visible to others. From each of your coins '%1$d' coin(s) will be hold back and will not be available for trading. You can change this number in the settings."</string>
     <string name="collection_is_trading">"This collection cannot be deleted because it is being used in the following trading collections:%1$s"</string>
     <string name="action_get_next_trading_partners">"Get next"</string>
     <string name="action_reset_trading_partners">"Restart"</string>
     <string name="trading_partners_resetted">"Old trading partners have been reactivated."</string>
     <string name="ask_link_trading_collection">"A user want's to trade coins with your public collection '%1$s'. The trading collection '%2$s' will be loaded."</string>
     <string name="action_help_trading_partners">"Usage"</string>
-    <string name="not_your_trading_turn">"You cannot edit the trading collection now because it's your counterparty's turn."</string>
-    <string name="trading_confirmed">"This trading collection was already confirmed from both sides."</string>
-    <string name="action_send_to_trading_partner">"Send to counterparty"</string>
+    <string name="not_your_trading_turn">"You cannot edit the trading collection now because it's your trading partner's turn."</string>
+    <string name="trading_confirmed_already">"This trading collection was already confirmed by both sides. Contact '%1$s' and send the coins. If done so mark this trade as executed."</string>
+    <string name="action_send_to_trading_partner">"Send to trading partner"</string>
     <string name="action_confirm_trade">"Confirm trade"</string>
+    <string name="confirm_trade_confirmation_message">"Do you really want to confirm the trade?"</string>
     <string name="device_time_too_old">"The current time on your device is too old."</string>
-    <string name="trading_session_empty_no_sending">"No coins for trading selected. Please add coins before sending to counterparty."</string>
-    <string name="trading_collection_deleted_by_counterparty">"The trading collection was deleted by the counterparty."</string>
-    <string name="ok">"Ok"</string>
-    <string name="split_collection">"Split"</string>
-    <string name="enter_number_of_coins_for_splitting">"Please enter the number of coins per available coin you want to transfer to the first copy. Remaining ones will go into the second copy of this collection. The original collection will not be changed or deleted."</string>
-    <string name="collection_split_ok">"Collection has been split into 2 new collections. After reviewing those you can delete the original collection."</string>
+    <string name="trading_session_empty_no_sending">"No coins for trading selected. Please add coins before sending to trading partner."</string>
+    <string name="trading_collection_deleted_by_counterparty">"The trading collection has been deleted by the trading partner."</string>
     <string name="account_not_activated">"Account not active. Please register your mail address and confirm the registration link or deactivate the cloud features in the settings."</string>
-    <string name="transfer_collection_error">"Error while transfering the collection '%1$s'</string>
+    <string name="action_share_public">"Publish..."</string>
+    <string name="action_retract_share_public">"Retract"</string>
+    <string name="collection_published_for_trading">"Collection has been published. You can now start searching for trading partners."</string>
+    <string name="collection_retracted_for_trading">"Collection has been retracted from the public. This collection will not be available for new trads any longer."</string>
+    <string name="public_name_empty">"Public name must not be empty"</string>
+    <string name="email_invalid">"mail address is invalid"</string>
+    <string name="collection_is_public">"Public"</string>
+    <string name="trading_your_turn">"It's now your turn to edit trading collection '%1$s'. When you are done then send it back to your trading partner or confirm the trade if you didn't change anything."</string>
+    <string name="trading_confirmed">"The trade for the trading collection '%1$s' was confirmed by you and your trading partner '%2$s'. You will receive an e-mail with the details. Please share your post address with your trading partner."</string>
+    <string name="trading_sent_collection">"The collection has been sent to your trading partner. It's now your trading partner's turn to edit the trading collection or confirm the current state."</string>
+    <string name="pref_trading_coins_to_keep">"Trading: coins to keep"</string>
+    <string name="collection_has_no_tradable_coins">"Your collection does not have any tradable coin. Add more coins or reduce the number of coins to keep in the settings."</string>
+    <string name="trade_is_blocking_coin">"This coin is blocked by the following active trades"</string>
+    <string name="user_keeps_non_tradable_coins">"The collection '%1$s' keeps it's remaining coins as not tradable."</string>
+    <string name="trading_coins_removed">"The following trading coins have been removed from the collection '%1$s'."</string>
+    <string name="trade_was_executed">"The trading collection was marked as 'executed'."</string>
+    <string name="action_trade_set_executed">"Trade was executed"</string>
+    <string name="no_executed_trades">"No executed trades found. Go and share your collection and trade your coins with other users!"</string>
+    <string name="action_show_executed_trades">"Executed trades"</string>
+    <string name="missing_coin_infos_for_trade_confirmation">Coin conditions or images are missing</string>
+    <string name="condition_not_set">"Unknown"</string>
+    <string name="condition_uncirculated">"Uncirculated"</string>
+    <string name="condition_circulated_quality_high">"Circulated quality high"</string>
+    <string name="condition_circulated_quality_medium">"Circulated quality medium"</string>
+    <string name="condition_circulated_quality_low">"Circulated quality low"</string>
+    <string name="condition_abr_not_set">"?"</string>
+    <string name="condition_abr_uncirculated">"Unc"</string>
+    <string name="condition_abr_circulated_quality_high">"CH"</string>
+    <string name="condition_abr_circulated_quality_medium">"CM"</string>
+    <string name="condition_abr_circulated_quality_low">"CL"</string>
+    <string name="fixed_unsupported_settings_germany">"The setting 'Collect german mints' has been switched off as it's not supported in combination with the setting 'collect years' if this was switched off."</string>
+    <string name="fixed_unsupported_settings_years_series">"The settings 'collect years' and 'collect series' should not be enabled together. The setting 'collect series' has been switched off."</string>
+    <string name="collect_years_and_series_is_invalid">"Collecting years AND series is an unsupported combination."</string>
+    <string name="delete_photo">"Do you really want to delete the photo?"</string>
+    <string name="uploading_coin_image">"Uploading image..."</string>
+    <string name="uploaded_coin_image">"Image uploaded."</string>
+    <string name="coin_image_upload_error">"Error while uploading image. Please try again later."</string>
+    <string name="report_photo">"Report image"</string>
+    <string name="photo_reported">"The image has been reported"</string>
+    <string name="report_photo_message">"Do you really want to report the image as a violation of the terms of conditions?"</string>
+    <string name="collection_has_reported_coin_images">"The collection '%1$s' contains images which have been reported by other users. Please check and update your collection. An abuse will lead to the deletion of your account."</string>
+    <string name="reported_photos_title">"Reported images"</string>
+    <string name="trading_collection_deleted_by_underlying">"The trading collection '%1$s' was automatically deleted because the underlying collection '%2$s' was deleted too."</string>
+    <string name="message_history">"Show history"</string>
+    <string name="title_messages">"Messages"</string>
+    <string name="delete_messages">"Delete all"</string>
+    <string name="swipe_to_delete">"Swipe to delete"</string>
+    <string name="country_residence">"Residence"</string>
+    <string name="pref_country_residence">"Your country (residence)"</string>
+    <string name="set_pref_country_residence">"Please select your country (residence) in the settings dialog first."</string>
+    <string name="no_collections_found">"No collections found"</string>
+    <string name="trading_user_linked">"Linked trading collection '%1$s'."</string>
+    <string name="confirm_send_to_trading_partner">"Are you ready to send the trading collection to your trading partner?"</string>
+    <string name="execute_trade_confirmation_message">"Did you you exchange the coins with your trading partner?"</string>
+    <string name="linked_for_trading_collection_type">"Trading partner"</string>
+    <string name="confirmed_trade_type">"Confirmed"</string>
+    <string name="executed_trade_type">"Executed"</string>
+    <string name="waiting_trade_type">"Waiting"</string>
+    <string name="action_special_features">"Special features"</string>
+    <string name="trading_hint_colours">"The bright images are those coins which you do not have but your trading partner. Vice-versa for the dark images. The top row shows the coins you selected for receiving whereas the bottom row shows those coins which will go to your trading partner."</string>
+    <string name="block_trading">"Block trading"</string>
 
     <string name="how_trading_partner_works">"
-- You can get trading partners for your selected collection.
-- To get a trading partner you first need to share your collection to the public.
-- All coins of your collection will be available to others for selection and trading.
+- You grant permission to publish any information (notes, images, name, e-mail, country, ...) of your collection and yourself as needed to use the trading functionality.
+- You can trade coins with other users BUT using the trading functionality of this app MUST NOT be considered as an offer or as a contract in legal terms! Whatever you do or see in this app - it is not binding anyone to anything.
+- You can find trading partners for your selected collection(s).
+- To find a trading partner you first need to share your collection to the public.
+- All coins of your collection will be available to others for selection except those of which you do not own as many as you specified in the settings.
 - If you don't want that all your coins are available for trading you have to split your collection first.
-- Your collection needs to get a public name which will be visible to others.
-- All information inside your collection will be visible to others (notes etc.).
-- You will receive one counterparty collection per request.
-- The counterparty collection will be downloaded and linked on your device too so that you can browse it fully.
-- A new trading collection will be created on your device which combines your collection and the counterparty collection (base collections).
+- Your collection needs to get a public name which will also be visible to others. The same applies to your e-mail adress.
+- All information inside your collection will be visible to the public (notes, ...). By adding information you agree to only add valid information about the coin. Any abuse can be reported by others and might lead to the deletion of your account.
+- You can select an image or take a photo and assign it to a coin. Any assigned image will be visible to the public. By doing so you agree to only assign images where you have the rights to do so and which shows the corresponding coin only. Any abuse can be reported by others and might lead to the deletion of your account.
+- An abuse of the abuse feature might lead to the deletion of your account.
+- You will receive one trading partner collection per request.
+- By default you will receive trading partners having the same country of residence as you choosed in the settings. This behaviour could also be changed in the settings. Then you receive trading partners from all countries.
+- The trading partner collection will be downloaded and linked on your device too so that you can browse it fully.
+- A new trading collection will be created on your device which combines your collection and the trading partner collection.
 - The trading collection shows only these coins which only one of both base collections contain.
-- The coins which your collection does NOT contain but are part of the counterparty collection will be shown with a darker image.
-- the coins which your collection contains but are NOT part of the counterparty collection will be shown with a brighter image.
+- The coins which your collection does NOT contain but are part of the trading partner's collection will be shown with a brighter image.
+- the coins which your collection contains but are NOT part of the trading partner's collection will be shown with a darker image.
 - Initially a '0' is shown on each coin indicating that this coin is not part of the trading basket.
 - Touch one of the coins to view the details of that coin.
-- In the Detail-View you can use the 'add' button to add that coin to the trading basket.
+- In the Detail-View (if you enabled the edit mode) you can use the 'add' button to add that coin to the trading basket.
 - With the 'remove' button you can remove it.
 - You can add and remove both sides: the coins you want to have and those you will give away.
-- You should only add and remove coins of your counterparty when you have a good reason.
-- After you add a coin to the trading basket it will show up a '1' indicating that one of these type of coins was selected.
-- If your collection or the counterparty collection contain muliple coins of one specific coin then you can browse in the details view each of those coins. Choose exactly this coin you want to add to the trading basket which you want to have. Different coins may be in differnt conditions.
-- Once you finished your selection send the trading request to the counterparty.
-- The counterparty user will be informed that a new trading session was initiated. Now your counterparty can edit the trading collection and send it back to you.
+- You should only add and remove coins of your trading partner when you have a good reason.
+- After you add a coin to the trading basket a '1' will show up indicating that one of coins was selected and added to the trading basket. A negativ number means that you give that coin away whereas a positive number indicates that you will receive that coin.
+- If your collection or the trading partner's collection contain muliple coins of one specific coin then you can browse in the details view each of those coins. Choose exactly this coin you want to add to the trading basket which you want to have. Different coins may be in different conditions.
+- On the top of the screen all coins which you will receive are listed. On the bottom all coins that you will give away will be listed. Touch any of those coins to switch to that coin. Long hold a coin to remove it from the trading collection. You can horizontally scroll through these lists.
+- The statistic for trading collections is different to normal collections. x/y/z x=always negativ and showing how many coins you will give away; y=number of possible differnt coins to trade; z=always positiv and showing how many coins you will receive.
+- Once you finished your selection send the trading request to your trading partner.
+- The trading partner will be informed that a new trading session was initiated. Now your trading partner can edit the trading collection and send it back to you.
 - Both users can edit the trading basket after each other until one user does not change the collection any more but confirm the trade.
-- After the trade was settled you and your counterparty will receive an email with the postal addresses, the e-mail-addresses and a list with the coins which have been selected for trading.
-- If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying counterparty selection too.
-- After you deleted the underlying counterparty collection your own collection will in the future not be machted against this collection again until you select 'restart'.
-        "</string>
+- A trade can only be confirmed if each traded coin has either the coin condition property set or an individual image attached.
+- After the trade was confirmed you and your trading partner will receive an email with each others e-mail-addresses and a list with the coins which have been selected for trading.
+- When you successfully sent your coins to your trading partner and received your new coins mark the trading collection as executed via the trading collection menu. Then the collection will not appear in the user's menu any more but in menu->collection->trading_partners->executed trades.
+- If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as weel.
+- After you deleted the underlying trading parnter collection your own collection will not be machted against this collection again until you select 'restart' in the trading partner menu.
+"</string>
 
-    <string name="version_history_current">"Version 5.6.10\n
+    <string name="version_history_current">"Version 6.0\n
+        Added feature to trade coins with other users.\n
+        Show coin image in coin dialog.\n
+        Show vertical bar every 5 years and horizontal lines to increase readability."</string>
+
+    <string name="version_history_last">"Version 5.6.10\n
         Added feature to split collection.\n
         Fixed synchronization bug for shared collections.\n
         Fixed russian translation."</string>
-
-    <string name="version_history_last">"Version 5.6.9\n
-        Added all known commemorative coins for 2019 (some pictures still missing)\n
-        Added commemorative coin Italy 2018\n
-        Fixed bug if a common coin (left side) was touched\n
-        In EU view show collected commemorative coins when clicked on it\n
-        Avoid rebuilding the album view when closing certain dialogs"</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
@@ -322,6 +400,8 @@
     <string name="countryname_sm">San Marino</string>
     <string name="countryname_es">Spain</string>
     <string name="countryname_va">Vatican</string>
+
+    <string name="countryname_uk">United Kingdom</string>
 
     <string name="twoeuro_comm_2004_gr_title">Olympische Spiele 2004 in Athen</string>
     <string name="twoeuro_comm_2004_gr_desc">Die Gedenkmünze zeigt die Abbildung der antiken Statue eines Diskuswerfers, umringt von den zwölf Sternen der Europäischen Union. Der Sockel der Statue bedeckt einen kleinen Teil des äußeren Rings (äußerer Teil) der Münze. Links befindet sich das Logo der Olympischen Spiele "ATHEN 2004" mit den fünf olympischen Ringen; rechts befinden sich untereinander die Zahl "2" und das Wort "????". Neben dem mittleren Stern unten ist das Prägejahr in zwei getrennten Zahlengruppen angegeben</string>
@@ -1153,13 +1233,11 @@
     <string name="twoeuro_comm_2016_ad_desc">"Mikrofon und eine Antenne, umgeben von mehreren kreisförmigen Linien. Außerdem sind der Schriftzug „25è ANIVERSARI DE RÀDIO I TELEVISIÓ D’ANDORRA“, das Ausgabejahr „2016“ und der Ausgabestaat „ANDORRA“ zu lesen. Mit der Gedenkmünze wird das 25-jährige Jubiläum der öffentlich-rechtlichen Rundfunkanstalt Andorras und damit der Beginn der Ausstrahlung des andorranischen öffentlichen Radios und Fernsehens begangen."</string>
     <string name="twoeuro_comm_2016_ad_volume">"85.000"</string>
     <string name="twoeuro_comm_2016_ad_date">"01.06.2017"</string>
-    <string name="twoeuro_comm_2016_ad_abr" translatable="false">"Ru"</string>
     <string name="twoeuro_comm_2016_ad_short_title">"25 Jahre Rundfunk"</string>
     <string name="twoeuro_comm_2016_ad_2_title">"150-jähriges Jubiläum der Neuen Reform von 1866"</string>
     <string name="twoeuro_comm_2016_ad_2_desc">"Hauptsaal der „Casa de la Vall“ (Sitz des andorranischen Parlaments) mit dem Schriftzug „150 ANYS DE LA NOVA REFORMA DE 1866“, dem Ausgabejahr „2016“ und dem Ausgabestaat „ANDORRA“. Mit dieser Gedenkmünze wird das 150. Jubiläum des Neuen Reformdekrets begangen — einer der bedeutendsten Meilensteine in der Geschichte des Landes und des andorranischen Parlaments („Consell General“), der einen gesellschaftlichen und politischen Wandel im Fürstentum Andorra einläutete."</string>
     <string name="twoeuro_comm_2016_ad_2_volume">"85.000"</string>
     <string name="twoeuro_comm_2016_ad_2_date">"01.06.2017"</string>
-    <string name="twoeuro_comm_2016_ad_2_abr" translatable="false">"Rt"</string>
     <string name="twoeuro_comm_2016_ad_2_short_title">"Jubiläum der Neuen Reform"</string>
     <string name="twoeuro_comm_2016_au_title">200. Jahrestag der Gründung der Oesterreichischen Nationalbank</string>
     <string name="twoeuro_comm_2016_au_desc">Das von Herbert Wähner gestaltete Motiv zeigt zwei Götter der römischen Mythologie, die auf dem steinernen Relief über dem Eingang des Hauptgebäudes der Oesterreichischen Nationalbank (OeNB) zu sehen sind:[720] Links Merkur, der Götterbote und Gott der Kaufleute und des Handels; rechts Fortuna, die Göttin des Schicksals und des Wohlstands, die mit einem Füllhorn dargestellt ist. Im Hintergrund des Münzinneren erstreckt sich das Hauptgebäude der OeNB vom linken zum rechten Rand. Entlang des unteren Rands des Münzinneren verläuft ein Band, das an das rot-weiß-rote Muster der österreichischen Flagge verweist; nach den heraldischen Regeln der Tingierung symbolisiert eine vertikale Schraffierung die Farbe Rot. Die Jahresangaben „1816“ und „2016“ links von Merkur beziehen sich auf das Gründungsjahr der OeNB und ihr zweihundertjähriges Jubiläum. Die Inschriften entlang der Ränder des Münzinneren lauten „Republik Österreich“ und „200 Jahre Oesterreichische Nationalbank“. Die ersten Exemplare der Gedenkmünze wurden mit dem Kursmünzensatz bereits im Dezember 2015 ausgegeben – die Rollenware folgt im Januar 2016.</string>
@@ -1648,163 +1726,152 @@
     <string name="twoeuro_comm_2018_va_2_volume">"101.000"</string>
     <string name="twoeuro_comm_2018_va_2_date">"31.05.2018"</string>
     <string name="twoeuro_comm_2018_va_2_short_title">"Padre Pio"</string>
-    
+
+    <string name="twoeuro_comm_2019_ad_title">"Ski-Weltcup-Finale in Andorra 2019"</string>
+    <string name="twoeuro_comm_2019_ad_desc">"Ski-Weltcup-Finale in Andorra 2019"</string>
+    <string name="twoeuro_comm_2019_ad_volume">""</string>
+    <string name="twoeuro_comm_2019_ad_date">"2019"</string>
+    <string name="twoeuro_comm_2019_ad_short_title">"Ski-Weltcup"</string>
 	<string name="twoeuro_comm_2019_be_title">"25. Gründungstag des Europäischen Währungsinstituts"</string>
 	<string name="twoeuro_comm_2019_be_desc">"Porträt von Alexandre Lamfalussy, dem ersten Präsidenten des EWI und unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb sein Name. Linkerhand mittig die Abkürzung „EMI“ und darüber die Jahreszahl „1994“, als das Währungsinstitut gegründet und Lamfalussy zum ersten Präsidenten ernannt wurde. Unter dem Schriftzug „EMI“ sind mehrere aufeinander fallende Münzen mit der Aufschrift „EUR“, „ECU“ bzw. „BEF“ (von oben nach unten) abgebildet. Oberhalb links befindet sich der Schriftzug „European Monetary Institute“."</string>
 	<string name="twoeuro_comm_2019_be_volume">"155.000"</string>
 	<string name="twoeuro_comm_2019_be_date">"01/2019"</string>
-	<string name="twoeuro_comm_2019_be_abr" translatable="false">"EW"</string>
 	<string name="twoeuro_comm_2019_be_short_title">"Europäisches Währungsinstitut"</string>
 	<string name="twoeuro_comm_2019_be_2_title">"450. Todestag von Pieter Bruegel dem Älteren"</string>
 	<string name="twoeuro_comm_2019_be_2_desc">"Porträt des berühmten belgischen Malers Pieter Bruegel des Älteren zusammen mit einem Gemälde auf einer Staffelei. Darüber finden sich der Name „P. BRUEGEL“, die Jahreszahl „1569“ mit einem dezenten Kreuz für das Todesjahr sowie das Ausgabejahr „2019“. Linkerhand das Münzzeichen von Utrecht, ein Hermesstab, und das belgische Zeichen der Münzmeisterin Ingrid Herzele, das Wappen der Gemeinde Herzele, sowie der Ländercode BE. Die Initialen LL des Münzdesigners Luc Luycx befinden sich rechts."</string>
 	<string name="twoeuro_comm_2019_be_2_volume">"155.000"</string>
 	<string name="twoeuro_comm_2019_be_2_date">"01/2019"</string>
-	<string name="twoeuro_comm_2019_be_2_abr" translatable="false">"PB"</string>
 	<string name="twoeuro_comm_2019_be_2_short_title">"Pieter Bruegel"</string>
 	<string name="twoeuro_comm_2019_de_title">"70 Jahre Bundesrat"</string>
 	<string name="twoeuro_comm_2019_de_desc">"Perspektivische Darstellung des Garten- und Gebäudeensembles des Bundesrats. Unten mittig ist der Name der Institution „BUNDESRAT“ und das „D“ für den Ausgabestaat zu erkennen. Über dem Bild ist das Ausgabejahr „2019“ und links davon das Zeichen der jeweiligen Prägeanstalt („A“, „D“, „F“, „G“ bzw. „J“) zu lesen. Die Initialen des Künstlers Michael Otto runden das Motiv nach rechts oben hin ab. Auflagen der Prägestätten: A: 6.000.000, D: 6.300.000, F: 7.200.000, G: 4.200.000, J: 6.300.000"</string>
 	<string name="twoeuro_comm_2019_de_volume">"30.000.000"</string>
 	<string name="twoeuro_comm_2019_de_date">"29.01.2019"</string>
-	<string name="twoeuro_comm_2019_de_abr" translatable="false">"BR"</string>
 	<string name="twoeuro_comm_2019_de_short_title">"Bundesrat"</string>
+    <string name="twoeuro_comm_2019_de_2_title">"30 Jahre Mauerfall"</string>
+    <string name="twoeuro_comm_2019_de_2_desc">""</string>
+    <string name="twoeuro_comm_2019_de_2_volume">""</string>
+    <string name="twoeuro_comm_2019_de_2_date">"10.10.2019"</string>
+    <string name="twoeuro_comm_2019_de_2_short_title">"Mauerfall"</string>
 	<string name="twoeuro_comm_2019_ee_title">"150. Jahrestag des ersten estnischen Liederfestivals"</string>
 	<string name="twoeuro_comm_2019_ee_desc">"Die Tradition des estnischen Liederfests wurde 1869 begründet. Sie ist im Kontext des Erstarkens eines estnischen Nationalbewusstseins zu sehen. Das estnische Liederfest findet derzeit alle fünf Jahre in Tallinn statt. Beim Liederfest 2014 traten über 33.000 Sänger vor fast 153.000 Zuhörern auf. Der gemeinsame Chor bestand aus 22.000 Sängern. Die Bildseite zeigt drei singende Kinder mittig, umgeben von Noten auf Notenlinien, die an den Wänden der Sängerbühne (Laululava) in Tallinn widerhallen und sich mit einem Schal mit traditionellen Mustern verwebt."</string>
 	<string name="twoeuro_comm_2019_ee_volume">"Auflage noch unbekannt"</string>
 	<string name="twoeuro_comm_2019_ee_date">"Erste Hälfte 2019"</string>
-	<string name="twoeuro_comm_2019_ee_abr" translatable="false">"LF"</string>
 	<string name="twoeuro_comm_2019_ee_short_title">"Estnisches Liederfestival"</string>
 	<string name="twoeuro_comm_2019_ee_2_title">"100. Jahrestag der Gründung der Universität Tartu"</string>
 	<string name="twoeuro_comm_2019_ee_2_desc">"Die Universität Tartu ist die älteste Universität Estlands und dessen einzige Volluniversität. Sie wurde 1632 von König Gustav II. Adolf von Schweden in Dorpat gegründet, der Stadt, die heute Tartu heißt. Seit der estnischen Unabhängigkeit von Russland im Jahr 1918/19 heißt sie Tartu Ülikool („Universität Tartu“) und ist die erste estnischsprachige Universität weltweit."</string>
 	<string name="twoeuro_comm_2019_ee_2_volume">"Auflage noch unbekannt"</string>
 	<string name="twoeuro_comm_2019_ee_2_date">"2019"</string>
-	<string name="twoeuro_comm_2019_ee_2_abr" translatable="false">"UT"</string>
 	<string name="twoeuro_comm_2019_ee_2_short_title">"Universität Tartu"</string>
 	<string name="twoeuro_comm_2019_fr_title">"30 Jahre Fall der Berliner Mauer"</string>
 	<string name="twoeuro_comm_2019_fr_desc">"Zwei bemalte und beschriftete Fragmente der Berliner Mauer. Das linke Fragment zeigt zugleich den Ausgabeanlass „30 ANS LA CHUTE DU MUR DE BERLIN – 30 JAHRE MAUERFALL“ Sie wurde in der Mitte durchbrochen und es strömen jubelnde Menschen mit erhobenen Händen durch sie hindurch. Darüber fliegen drei Tauben, die den Frieden in Europa symbolisieren. Im Hintergrund, am oberen Bildrand, ist das Brandenburger Tor zu sehen. Am rechten Bildrand die das Signet der Französischen Republik „RF” abgebildet, unten die Jahreszahl „2019“ und die Münzzeichen der Prägestätte in Pessac, des Münzmeisters Yves Sampo sowie das Rechteck des Künstlers Joaquin Jimenez."</string>
 	<string name="twoeuro_comm_2019_fr_volume">"15.000.000"</string>
 	<string name="twoeuro_comm_2019_fr_date">"11.2019"</string>
-	<string name="twoeuro_comm_2019_fr_abr" translatable="false">"BM"</string>
 	<string name="twoeuro_comm_2019_fr_short_title">"Fall Berliner Mauer"</string>
 	<string name="twoeuro_comm_2019_fr_2_title">"60 Jahre Asterix"</string>
 	<string name="twoeuro_comm_2019_fr_2_desc">"60 Jahre Asterix"</string>
 	<string name="twoeuro_comm_2019_fr_2_volume">"15.000.000"</string>
 	<string name="twoeuro_comm_2019_fr_2_date">"01.02.2019"</string>
-	<string name="twoeuro_comm_2019_fr_2_abr" translatable="false">"AX"</string>
 	<string name="twoeuro_comm_2019_fr_2_short_title">"Asterix"</string>
 	<string name="twoeuro_comm_2019_gr_title">"150 Jahre Gedenken an Andreas Kalvos"</string>
 	<string name="twoeuro_comm_2019_gr_desc">"Mit dieser 2 Euro Gedenkmünze erinnert Griechenland 2019 an den Tod des Schriftsteller Andreas Kalvos im Jahr 1869."</string>
 	<string name="twoeuro_comm_2019_gr_volume">"750.000"</string>
 	<string name="twoeuro_comm_2019_gr_date">"2019"</string>
-	<string name="twoeuro_comm_2019_gr_abr" translatable="false">"AK"</string>
 	<string name="twoeuro_comm_2019_gr_short_title">"Andreas Kalvos"</string>
 	<string name="twoeuro_comm_2019_gr_2_title">"100. Geburtstag von Manolis Andronikos"</string>
 	<string name="twoeuro_comm_2019_gr_2_desc">"In Erinnerung an den 100. Geburtstag von Manolis Andronikos im Jahr 1919 wird diese 2 Euro Münze von Griechenland herausgegeben. Der griechische Archäolge lebte von 1919 bis 1992."</string>
 	<string name="twoeuro_comm_2019_gr_2_volume">"750.000"</string>
 	<string name="twoeuro_comm_2019_gr_2_date">"2019"</string>
-	<string name="twoeuro_comm_2019_gr_2_abr" translatable="false">"MK"</string>
 	<string name="twoeuro_comm_2019_gr_2_short_title">"Manolis Andronikos"</string>
 	<string name="twoeuro_comm_2019_ir_title">"100. Jahrestag der ersten Versammlung in Dáil Éireann"</string>
 	<string name="twoeuro_comm_2019_ir_desc">"Darstellung der ersten Sitzung des Dail Eireann im "Round Room" des Mansion House (offizielle Residenz des Lord Mayor von Dublin) . Der obere "Balken" stellt die Empore mit Zuschauern dar, die sich über den großen Plenarsaal mit den vielen durch Punkten dargestellten Köpfen darunter wölbt. Zentral ist der Schriftzug „An Chead Dail“ (sinngemäß Parlamentssitzung des ersten Dail) in irischer Schrift zu sehen, oberhalb das Jahr „1919“. Der Landesname „EIRE“ und das Ausgabejahr „2019“ runden das Motiv nach unten hin ab."</string>
 	<string name="twoeuro_comm_2019_ir_volume">"1.000.000"</string>
 	<string name="twoeuro_comm_2019_ir_date">"21.01.2019"</string>
-	<string name="twoeuro_comm_2019_ir_abr" translatable="false">"DE"</string>
 	<string name="twoeuro_comm_2019_ir_short_title">"Versammlung in Dáil Éireann"</string>
 	<string name="twoeuro_comm_2019_it_title">"500. Todestag von Leonardo da Vinci"</string>
 	<string name="twoeuro_comm_2019_it_desc">"Ausschnitt aus dem Gemälde „Dama con l'ermellino“ (dt. Die Dame mit dem Hermelin) von Leonardo da Vinci, welches im Czartoryjski-Museum in Krakau ausgestellt ist. Linkerhand die Inschrift „Leonardo“, die Initialen „M.A.C.“ der Künstlerin Maria Angela Cassol und die Initialen der italienischen Republik „RI“, rechts neben dem Porträt ist das Münzzeichen „R“ der Münzstätte Rom sowie die Daten „1519“, das Todesjahr von da Vinci und „2019“ als Ausgabe- und Jubiläumsjahr zu sehen."</string>
 	<string name="twoeuro_comm_2019_it_volume">"3.018.000"</string>
 	<string name="twoeuro_comm_2019_it_date">"01/2019"</string>
-	<string name="twoeuro_comm_2019_it_abr" translatable="false">"LD"</string>
 	<string name="twoeuro_comm_2019_it_short_title">"Leonardo da Vinci"</string>
 	<string name="twoeuro_comm_2019_lt_title">"Litauische Volkslieder - Sutartines"</string>
 	<string name="twoeuro_comm_2019_lt_desc">"Stilisierte Komposition, in der sich mittig drei singende Frauen befinden, deren langen Haare sich in feinen Linien zum Bildrand hin winden. Darin sind traditionelle litauische Ornamente enthalten. Oberhalb ist der Name des Ausgabestaates „LIETUVA“ sowie die Initialen des Münzgestalters Liudas Parulskis, rechterhand das Ausgabejahr „2019“ und unterhalb davon der litauische Wappenreiter Vytis und das Münzzeichen der litauischen Prägestätte abgebildet. Linkerhand ist das Ausgabethema „SUTARTINES“ zwischen zwei Vögeln zu sehen."</string>
 	<string name="twoeuro_comm_2019_lt_volume">"505.000"</string>
 	<string name="twoeuro_comm_2019_lt_date">"3. Quartal 2019"</string>
-	<string name="twoeuro_comm_2019_lt_abr" translatable="false">"LV"</string>
 	<string name="twoeuro_comm_2019_lt_short_title">"Litauische Volkslieder - Sutartines"</string>
 	<string name="twoeuro_comm_2019_lt_2_title">"Litauische Ethnographische Regionen: Zemaitija"</string>
 	<string name="twoeuro_comm_2019_lt_2_desc">"Litauische Ethnographische Regionen: Zemaitija"</string>
 	<string name="twoeuro_comm_2019_lt_2_volume">"505.000"</string>
 	<string name="twoeuro_comm_2019_lt_2_date">"2019"</string>
-	<string name="twoeuro_comm_2019_lt_2_abr" translatable="false">"LZ"</string>
 	<string name="twoeuro_comm_2019_lt_2_short_title">"Litauische Regionen - Zemaitija"</string>
 	<string name="twoeuro_comm_2019_lu_title">"100. Jahrestag Thronbesteigung von Großherzogin Charlotte"</string>
 	<string name="twoeuro_comm_2019_lu_desc">"Linkerhand das Porträt seiner Königlichen Hoheit Großherzog Henri und rechts das Porträt der Großherzogin Charlotte. Unten sind der Ausgabestaat „LUXEMBOURG“ und darunter das Ausgabejahr „2019“ zu lesen. Oben befindet sich halbkreisförmig um die Kopfbildnisse der Schriftzug „Centenaire de l’accession au trône de la Grande-Duchesse Charlotte“."</string>
 	<string name="twoeuro_comm_2019_lu_volume">"500.000"</string>
 	<string name="twoeuro_comm_2019_lu_date">"01/2019"</string>
-	<string name="twoeuro_comm_2019_lu_abr" translatable="false">"GC"</string>
 	<string name="twoeuro_comm_2019_lu_short_title">"Großherzogin Charlotte"</string>
 	<string name="twoeuro_comm_2019_lu_2_title">"100 Jahre Allgemeines Wahlrecht in Luxemburg"</string>
 	<string name="twoeuro_comm_2019_lu_2_desc">"100 Jahre Allgemeines Wahlrecht in Luxemburg"</string>
 	<string name="twoeuro_comm_2019_lu_2_volume">"400.000"</string>
 	<string name="twoeuro_comm_2019_lu_2_date">"4. Quartal 2019"</string>
-	<string name="twoeuro_comm_2019_lu_2_abr" translatable="false">"AW"</string>
 	<string name="twoeuro_comm_2019_lu_2_short_title">"Allgemeines Wahlrecht"</string>
 	<string name="twoeuro_comm_2019_mt_title">"Erbe &amp; Tradition (Serie: Von Kindern mit Solidarität)"</string>
 	<string name="twoeuro_comm_2019_mt_desc">"Das Programm, welches in Zusammenarbeit mit „The Malta Community Chest Fund“ (dt. etwa Gemeindeverfügungsfonds) offiziell am 5. Juni 2015 durch die Präsidentin von Malta Marie-Louise Coleiro Preca eröffnet wurde. Was das Design angeht, so wird in den Schulen Maltas ein Wettbewerb veranstaltet werden. Das Münzdesign wird symbolisiert die Liebe im weiteren Sinne, um den wichtigen Aspekt der Solidarität Rechnung zu tragen. Nach einer Auswahl von 5 Projekten für jedes Jahr, wird eine Wahl den jeweiligen Sieger küren. Die folgenden Plätze werden auch ausgezeichnet und auf den Gedenkmünzen Maltas in den kommenden Jahren abgebildet."</string>
 	<string name="twoeuro_comm_2019_mt_volume">"300.000"</string>
 	<string name="twoeuro_comm_2019_mt_date">"2019"</string>
-	<string name="twoeuro_comm_2019_mt_abr" translatable="false">"ET"</string>
 	<string name="twoeuro_comm_2019_mt_short_title">"Erbe und Tradition"</string>
 	<string name="twoeuro_comm_2019_mt_2_title">"Ta’ Hagrat (Serie: Prähistorische Stätten Maltas)"</string>
 	<string name="twoeuro_comm_2019_mt_2_desc">"Ta’ Hagrat (Serie: Prähistorische Stätten Maltas)"</string>
 	<string name="twoeuro_comm_2019_mt_2_volume">"300.000"</string>
 	<string name="twoeuro_comm_2019_mt_2_date">"2019"</string>
-	<string name="twoeuro_comm_2019_mt_2_abr" translatable="false">"TH"</string>
 	<string name="twoeuro_comm_2019_mt_2_short_title">"Ta’ Hagrat"</string>
 	<string name="twoeuro_comm_2019_mc_title">"200. Todestag von Fürst Honoré IV."</string>
 	<string name="twoeuro_comm_2019_mc_desc">"Die 2 Euro Gedenkmünze 2019 aus Monaco erinnert an den 200. Todestag von Fürst Honoré IV. von Monaco. Honoré IV. lebte von 1758 bis 1819 und war von 1814 bis zu seinem Tod regierender Fürst von Monaco."</string>
 	<string name="twoeuro_comm_2019_mc_volume">"15.000"</string>
 	<string name="twoeuro_comm_2019_mc_date">"2019"</string>
-	<string name="twoeuro_comm_2019_mc_abr" translatable="false">"FH"</string>
 	<string name="twoeuro_comm_2019_mc_short_title">"Fürst Honoré"</string>
 	<string name="twoeuro_comm_2019_po_title">"500 Jahre Magellan Weltumsegelung"</string>
 	<string name="twoeuro_comm_2019_po_desc">"Porträt eines bärtigen Ferdinand Magellan im Dreiviertelprofil. Die Umschrift „2019 · PORTUGAL“ linkerhand sowie rechts unterhalb „CIRCUM NAVEGACÃO 1519 FERNÃO · DE · MAGALHÃES“ ergänzen das Motiv. Oberhalb des Motivs ist eine stilisierte Armillarsphäre abgebildet."</string>
 	<string name="twoeuro_comm_2019_po_volume">"750.000"</string>
 	<string name="twoeuro_comm_2019_po_date">"07/2019"</string>
-	<string name="twoeuro_comm_2019_po_abr" translatable="false">"MW"</string>
 	<string name="twoeuro_comm_2019_po_short_title">"Magellan Weltumsegelung"</string>
 	<string name="twoeuro_comm_2019_po_2_title">"600 Jahre Entdeckung der Insel Madeira"</string>
 	<string name="twoeuro_comm_2019_po_2_desc">"Umrisse der Inselgruppe, die aus den drei Inseln Madeira, Porto Santo sowie Desertas besteht. Im Hintergrund ist der Ausschnitt historischer „Längen- und Breitenkreise“ einer Portolankarte zu erkennen. Die Umschrift lautet „600 anos do Descobrimento da Madeira e de Porto Santo“ (dt. 600 Jahre Entdeckung von Madeira und Porto Santo). Das Signet des Designers (?) ist unterhalb des Wortes „Madeira“ zu sehen."</string>
 	<string name="twoeuro_comm_2019_po_2_volume">"500.000"</string>
 	<string name="twoeuro_comm_2019_po_2_date">"10/2019"</string>
-	<string name="twoeuro_comm_2019_po_2_abr" translatable="false">"IM"</string>
 	<string name="twoeuro_comm_2019_po_2_short_title">"Insel Madeira"</string>
 	<string name="twoeuro_comm_2019_sm_title">"550. Todestag von Filippo Lippi"</string>
 	<string name="twoeuro_comm_2019_sm_desc">"550. Todestag von Filippo Lippi"</string>
 	<string name="twoeuro_comm_2019_sm_volume">"60.500"</string>
 	<string name="twoeuro_comm_2019_sm_date">"2019"</string>
-	<string name="twoeuro_comm_2019_sm_abr" translatable="false">"FL"</string>
 	<string name="twoeuro_comm_2019_sm_short_title">"Filippo Lippi"</string>
 	<string name="twoeuro_comm_2019_sm_2_title">"500. Todestag von Leonardo da Vinci"</string>
 	<string name="twoeuro_comm_2019_sm_2_desc">"500. Todestag von Leonardo da Vinci"</string>
 	<string name="twoeuro_comm_2019_sm_2_volume">"60.500"</string>
 	<string name="twoeuro_comm_2019_sm_2_date">"2019"</string>
-	<string name="twoeuro_comm_2019_sm_2_abr" translatable="false">"DV"</string>
 	<string name="twoeuro_comm_2019_sm_2_short_title">"Leonardo da Vinci"</string>
 	<string name="twoeuro_comm_2019_sk_title">"100. Todestag von Milan Rastislav Štefánik"</string>
 	<string name="twoeuro_comm_2019_sk_desc">"Porträt von Milan Rastislav Štefánik in Militäruniform. Am linken Rand des Münzinneren ist der Ausgabestaat „SLOVENSKO“ von unten nach oben abgebildet, innerhalb davon in umgekehrter Richtung „MILAN RATISLAV ŠTEFÁNIK“ sowie zwischen Text und Porträt die Daten „1880 – 1919“. Das Ausgabejahr „2019“ ist am rechten Bildrand zu sehen."</string>
 	<string name="twoeuro_comm_2019_sk_volume">"1.000.000"</string>
 	<string name="twoeuro_comm_2019_sk_date">"04/2019"</string>
-	<string name="twoeuro_comm_2019_sk_abr" translatable="false">"RS"</string>
 	<string name="twoeuro_comm_2019_sk_short_title">"Rastislav Štefánik"</string>
 	<string name="twoeuro_comm_2019_si_title">"100. Jahrestag der Gründung der Universität von Ljubljana"</string>
 	<string name="twoeuro_comm_2019_si_desc">"Rechteckiges Logo der Laibacher Universität. Auf der linken Seite der Münze ist die Fassade der Universität oberhalb des soliden Rechtecks, welches Teil des ursprünglichen Logos darstellt, durch den Schriftzug „100 LET UNIVERZE V LJUBLJANI“ ersetzt worden. Die Hintergrundfläche des Münzkerns ist texturiert, um ein größeren Effekt bei der Inschrift mit dem soliden Rechteck zu erzielen. Am unteren rechten Bildrand ist der Schriftzug „SLOVENIJA 2019“ abgebildet."</string>
 	<string name="twoeuro_comm_2019_si_volume">"1.000.000"</string>
 	<string name="twoeuro_comm_2019_si_date">"4. Quartal 2019"</string>
-	<string name="twoeuro_comm_2019_si_abr" translatable="false">"UL"</string>
 	<string name="twoeuro_comm_2019_si_short_title">"Universität von Ljubljana"</string>
 	<string name="twoeuro_comm_2019_es_title">"UNESCO Welterbeserie - Altstadt von Ávila und Kirchen außerhalb der Stadtmauer"</string>
 	<string name="twoeuro_comm_2019_es_desc">"Die Bildseite zeigt mittig einen Teil der Stadtmauer von Ávila. Der Name des Ausgabestaates „ESPANA“ erscheint am oberen rechten Rand des inneren Kreises verlaufend und darunter das Ausgabejahr „2019“. Das Münzzeichen der spanischen Prägestätte ist am rechten Bildrand platziert."</string>
 	<string name="twoeuro_comm_2019_es_volume">"1.000.000"</string>
 	<string name="twoeuro_comm_2019_es_date">"1. Quartal 2019"</string>
-	<string name="twoeuro_comm_2019_es_abr" translatable="false">"AA"</string>
 	<string name="twoeuro_comm_2019_es_short_title">"Altstadt von Ávila"</string>
 	<string name="twoeuro_comm_2019_va_title">"25 Jahre seit Abschluss der Restaurierung der Sixtinischen Kapelle"</string>
 	<string name="twoeuro_comm_2019_va_desc">"Das Jüngste Gericht von Michelangelo Buonarroti zeigen soll. Es wurde von ihm in den Jahren 1534 – 1541 in der Sixtinischen Kapelle in Auftrag von Papst Paul III. zentral über dem Altar angebracht. 1994 wurden nach einer umfassenden Restaurierung Luftentfeuchter, Klimaanlage und Filter in der Kapelle installiert, da die veraltete Technik dem zunehmenden Besucheransturm nicht mehr gewachsen war. Und seit 2014 erstrahlen die weltberühmten Fresken wieder in voller Farbenpracht, da nach dreijähriger Bauphase zusätzlich eine komplett neue LED-Lichtanlage und ein modernes Belüftungssystem fertiggestellt."</string>
 	<string name="twoeuro_comm_2019_va_volume">"101.000"</string>
 	<string name="twoeuro_comm_2019_va_date">"2019"</string>
-	<string name="twoeuro_comm_2019_va_abr" translatable="false">"SK"</string>
 	<string name="twoeuro_comm_2019_va_short_title">"Sixtinische Kapelle"</string>
+    <string name="twoeuro_comm_2019_va_2_title">"90 Jahre Gründung des Staates Vatikanstadt"</string>
+    <string name="twoeuro_comm_2019_va_2_desc">"90 Jahre Gründung des Staates Vatikanstadt"</string>
+    <string name="twoeuro_comm_2019_va_2_volume">""</string>
+    <string name="twoeuro_comm_2019_va_2_date">"2019"</string>
+    <string name="twoeuro_comm_2019_va_2_short_title">"90 Jahre Vatikanstadt"</string>
     
     <string name="twoeuro_comm_2007_eu_rv_title">50. Jahrestag der Unterzeichnung des Vertrags von Rom</string>
     <string name="twoeuro_comm_2007_eu_rv_desc">Das Münzinnere zeigt das von den sechs Gründungsländern unterzeichnete Vertragswerk vor einem Hintergrund, der an die (von Michelangelo entworfene) Pflasterung des Kapitolsplatzes in Rom erinnert, wo der Vertrag am 25. März 1957 unterzeichnet wurde. Die Aufschriften „Vertrag von Rom 50 Jahre“ und „EUROPA“ sowie der Name des Ausgabelandes sind in den jeweiligen Sprachen des Euroraums oder in Latein zu sehen. Der Text variiert daher von Land zu Land, das Münzbild hingegen ist identisch. Der Vertrag von Rom begründete die Europäische Wirtschaftsgemeinschaft und führte letztendlich zur Einführung des Euro im Jahr 1999 sowie der Euro-Banknoten und -Münzen im Jahr 2002. Der Jahrestag wird am 25. März 2007 gefeiert. Die Länder des Euroraums haben beschlossen, aus diesem Anlass gemeinsam diese Gedenkmünze auszugeben. Das Design wurde nach der Durchführung eines von den europäischen Münzstätten organisierten Wettbewerbs ausgewählt. </string>
@@ -1945,10 +2012,6 @@ limitations under the License.
         "when a user tries to pick up one of cards.\n\n"
     </string>
 
-    <string name="action_manage_shared_collection">Manage</string>
-    <string name="collection_is_not_shared">This collection has not been shared</string>
-    <string name="register">Register</string>
-
     <!-- DSGVO -->
     <string name="action_show_data_privacy">Data privacy</string>
     <string name="dsgvo_ack_title">IMPORTANT</string>
@@ -1962,10 +2025,11 @@ limitations under the License.
         "Matthias Kleiber, matthias@online.de\n\n"
 
         "Reason of data processing:\n"
-        "The App generated and saves on the device of the user after positiv agreement to data processing a private and unique user identification (UUID).\n"
-        "This UUID serves as identification of the device at every communication of the App with the Server.\n"
+        "The App generates and saves on the device of the user (after positiv agreement to data processing) a private and unique user identification (UUID).\n"
+        "This UUID serves as identification of the device in every communication of the App with the Server.\n"
         "Additionally the user can enter his e-mail-address inside the app to use even more features. The user receives an e-mail to his address in which he will find a link with which he can approve the address. Additionally the e-mail-address will be used to send e-mails to the user to confirm requests he entered into the App like transfer of data to another device. The App does not send e-mails for advertisement or similar.\n"
-        "The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n\n"
+        "The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n"
+        "Pictures of coins the user takes in the app will also be uploaded to the server and are available to those users with which the user shares his/her collection. Pictures from trading collections are shared to the public.\n\n"
 
         "Base of data processing:\n"
         "The data processing is needed for the features of the App to operate.\n\n"

@@ -51,7 +51,6 @@
     <string name="pref_show_statistics">"Pokaži statistiko"</string>
     <string name="pref_language">"Jezik"</string>
     <string name="added_date">"Datum"</string>
-    <string name="change_added_date">"sprememba"</string>
     <string name="paid">"Plačano"</string>
     <string name="value">"Vrednost"</string>
     <string name="note">"Opomba"</string>
