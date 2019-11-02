@@ -86,8 +86,7 @@
     <string name="action_manage_shared_collection">Verwalten</string>
     <string name="collection_is_not_shared">Diese Sammlung wurde nicht geteilt</string>
     <string name="register">Registrieren</string>
-    <string name="trading_hint_colours">"Die hellen Bilder sind die Münzen, die Sie noch nicht besitzen, aber Ihr Tauschpartner. Für die dunklen Münzbilder ist dies umgekehrt. Die obere Reihe zeigt die Münzen, die Sie bekommen werden, und die untere, die Sie zu Ihrem Tauschpartner senden."</string>
-    <string name="block_trading">"Tausch sperren"</string>
+
     <!-- v5.0 -->
     <string name="pref_text_size_3">Textgröße 3 (Selektionsliste)</string>
     <string name="version_history">Versionshistorie</string>
@@ -235,11 +234,11 @@
     <string name="enter_new_public_name">"Bitte neuen öffentlichen Namen eingeben"</string>
     <string name="change_public_name">"Öffentlichen Namen ändern"</string>
     <string name="collection_is_not_public">"Die Sammlung ist nicht öffentlich"</string>
-    <string name="coin_to_trading_basket_added">"Münze wurde zur Tauschaktion hinzugefügt"</string>
+    <string name="coin_to_trading_basket_added">"Münze wurde zum Tausch hinzugefügt"</string>
     <string name="confirm_publish_trading_collection">"Möchten Sie Ihre Sammlung wirklich als Tauschsammlung veröffentlichen? Alle Daten (z.B. Notizen zu Münzen) der Sammlung werden für andere sichtbar. Von jeder Ihrer Münzen wird '%1$d' Münze(n) zurückgehalten und wird nicht für den Tausch zur Verfügung gestellt. Diese Zahl kann in den Einstellungen geändert werden."</string>
     <string name="collection_is_trading">"Diese Sammlung kann noch nicht gelöscht werden, da sie in den folgenden Tauschsammlungen verwendet wird:%1$s"</string>
-    <string name="action_get_next_trading_partners">"Nächster"</string>
-    <string name="action_reset_trading_partners">"Neustart"</string>
+    <string name="action_get_next_trading_partners">"Nächster Tauschpartner"</string>
+    <string name="action_reset_trading_partners">"Neustart der Suche"</string>
     <string name="trading_partners_resetted">"Alte Tauschpartner wurden wieder aktiviert."</string>
     <string name="ask_link_trading_collection">"Ein Benutzer möchte Münzen mit Ihrer öffentliche Sammlung '%1$s' tauschen. Die Tauschsammlung '%2$s' wird geladen."</string>
     <string name="action_help_trading_partners">"Anleitung"</string>
@@ -252,9 +251,9 @@
     <string name="trading_session_empty_no_sending">"Es wurden keine Münzen ausgewählt. Bitte Münzen auswählen, bevor die Tauschsammlung an den Tauschpartner gesendet wird."</string>
     <string name="trading_collection_deleted_by_counterparty">"Die Tauschsammlung wurde vom Tauschpartner gelöscht."</string>
     <string name="account_not_activated">"Das Benutzerkonto wurde noch nicht aktiviert. Bitte Mail-Adresse registrieren und den Aktivierungslink bestätigen oder Cloud (Internet) Funktionilatität in den Einstellungen deaktivieren."</string>
-    <string name="action_share_public">"Veröffentlichen..."</string>
-    <string name="action_retract_share_public">"Zurückziehen"</string>
-    <string name="collection_published_for_trading">"Die Sammlung wurde veröffentlicht. Sie können jetzt mit der Suche nach Tauschpartnern beginnen."</string>
+    <string name="action_share_public">"Diese Sammlung veröffentlichen"</string>
+    <string name="action_retract_share_public">"Zurückziehen dieser Sammlung"</string>
+    <string name="collection_published_for_trading">"Die Sammlung wurde veröffentlicht. Möchten Sie jetzt nach Tauschpartnern suchen?"</string>
     <string name="collection_retracted_for_trading">"Die Sammlung wurde zurückgezogen und ist für neue Tauschpartner nicht mehr verfügbar."</string>
     <string name="public_name_empty">"Öffentlicher Name darf nicht leer sein."</string>
     <string name="email_invalid">"Mailadresse ist ungültig"</string>
@@ -264,7 +263,6 @@
     <string name="trading_sent_collection">"Die Tauschsammlung wurde an Ihren Tauschpartner gesendet. Dieser kann nun die Tauschsammlung ändern order den jetzigen Stand akzeptieren."</string>
     <string name="pref_trading_coins_to_keep">"Tauschsammlung: Anzahl zu behaltender Münzen"</string>
     <string name="collection_has_no_tradable_coins">"Diese Sammlung hat keine tauschbare Münze. Bitte fügen Sie Münzen hinzu oder reduzieren ggf. die Anzahl der zu behaltenden Münzen in den Einstellungen."</string>
-    <string name="trade_is_blocking_coin">"Die Münze wird von den folgenden Tauschsammlungen geblockt"</string>
     <string name="user_keeps_non_tradable_coins">"Die Sammlung '%1$s' hält die verbleibenden Münzen als nicht tauschbar zurück."</string>
     <string name="trading_coins_removed">"Folgende Münzen wurden aus der Tauschsammlung '%1$s' entfernt."</string>
     <string name="trade_was_executed">"Die Tauschsammlung wurde als 'durchgeführt' markiert."</string>
@@ -311,12 +309,17 @@
     <string name="executed_trade_type">"Durchgeführt"</string>
     <string name="waiting_trade_type">"Warten"</string>
     <string name="action_special_features">"Spezialfunktionen"</string>
-
+    <string name="trading_hint_colours">"Die hellen Bilder sind die Münzen, die Sie noch nicht besitzen, aber Ihr Tauschpartner. Für die dunklen Münzbilder ist dies umgekehrt. Die obere Reihe zeigt die Münzen, die Sie bekommen werden, und die untere, die Sie zu Ihrem Tauschpartner senden."</string>
+    <string name="block_trading">"Tausch sperren"</string>
+    <string name="coins_removed_from_trading">"Automatisch aus der Tauschsammlung entfernte MünzenCoins."</string>
+    <string name="coin_used_in_trade">"Die Münze wurde in der Tauschsammlung '%1$s' bereits ausgewählt. Stellen Sie sicher, dass die Münze aus der Tauschsammlung entfernt wird."</string>
 
     <string name="version_history_current">"Version 6.0\n
         Funktionalität zum Tauschen von Münzen mit anderen Benutzern hinzugefügt.\n
-        Anzeige des Münzbildes im Münz-Dialog.\n
-        Anzeige eines vertikalen Balkens alle 5 Jahre und horizontaler Linien."</string>
+        Funktionalität zur Aufnahme eines individuellen Münzbildes hinzugefügt.\n
+        Münzbilder von anderen Benutzern können als Verstoß gegen die Nutzungsbedingungen gemeldet werden.\n
+        Anzeige eines vertikalen Balkens alle 5 Jahre und horizontaler Linien.\n
+        Weitere 2€ Gedenkmünzen für 2019 hinzugefügt."</string>
 
     <string name="version_history_last">"Version 5.6.10\n
         Funktionalität zum Aufteilen einer Sammlung hinzugefügt.\n

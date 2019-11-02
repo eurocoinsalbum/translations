@@ -241,8 +241,8 @@
     <string name="coin_to_trading_basket_added">"Coin added to trading basket"</string>
     <string name="confirm_publish_trading_collection">"Do you really want to publish your collection as a tradable collection? All data (for example notes of coins) of the collection will be visible to others. From each of your coins '%1$d' coin(s) will be hold back and will not be available for trading. You can change this number in the settings."</string>
     <string name="collection_is_trading">"This collection cannot be deleted because it is being used in the following trading collections:%1$s"</string>
-    <string name="action_get_next_trading_partners">"Get next"</string>
-    <string name="action_reset_trading_partners">"Restart"</string>
+    <string name="action_get_next_trading_partners">"Get next trading partner"</string>
+    <string name="action_reset_trading_partners">"Restart search"</string>
     <string name="trading_partners_resetted">"Old trading partners have been reactivated."</string>
     <string name="ask_link_trading_collection">"A user want's to trade coins with your public collection '%1$s'. The trading collection '%2$s' will be loaded."</string>
     <string name="action_help_trading_partners">"Usage"</string>
@@ -256,18 +256,17 @@
     <string name="trading_collection_deleted_by_counterparty">"The trading collection has been deleted by the trading partner."</string>
     <string name="account_not_activated">"Account not active. Please register your mail address and confirm the registration link or deactivate the cloud features in the settings."</string>
     <string name="action_share_public">"Publish..."</string>
-    <string name="action_retract_share_public">"Retract"</string>
-    <string name="collection_published_for_trading">"Collection has been published. You can now start searching for trading partners."</string>
+    <string name="action_retract_share_public">"Retract the collection from trading"</string>
+    <string name="collection_published_for_trading">"Collection has been published. Do you want to search for trading partners now?"</string>
     <string name="collection_retracted_for_trading">"Collection has been retracted from the public. This collection will not be available for new trads any longer."</string>
     <string name="public_name_empty">"Public name must not be empty"</string>
-    <string name="email_invalid">"mail address is invalid"</string>
+    <string name="email_invalid">"E-mail address is invalid"</string>
     <string name="collection_is_public">"Public"</string>
     <string name="trading_your_turn">"It's now your turn to edit trading collection '%1$s'. When you are done then send it back to your trading partner or confirm the trade if you didn't change anything."</string>
     <string name="trading_confirmed">"The trade for the trading collection '%1$s' was confirmed by you and your trading partner '%2$s'. You will receive an e-mail with the details. Please share your post address with your trading partner."</string>
     <string name="trading_sent_collection">"The collection has been sent to your trading partner. It's now your trading partner's turn to edit the trading collection or confirm the current state."</string>
     <string name="pref_trading_coins_to_keep">"Trading: coins to keep"</string>
     <string name="collection_has_no_tradable_coins">"Your collection does not have any tradable coin. Add more coins or reduce the number of coins to keep in the settings."</string>
-    <string name="trade_is_blocking_coin">"This coin is blocked by the following active trades"</string>
     <string name="user_keeps_non_tradable_coins">"The collection '%1$s' keeps it's remaining coins as not tradable."</string>
     <string name="trading_coins_removed">"The following trading coins have been removed from the collection '%1$s'."</string>
     <string name="trade_was_executed">"The trading collection was marked as 'executed'."</string>
@@ -295,7 +294,7 @@
     <string name="report_photo">"Report image"</string>
     <string name="photo_reported">"The image has been reported"</string>
     <string name="report_photo_message">"Do you really want to report the image as a violation of the terms of conditions?"</string>
-    <string name="collection_has_reported_coin_images">"The collection '%1$s' contains images which have been reported by other users. Please check and update your collection. An abuse will lead to the deletion of your account."</string>
+    <string name="collection_has_reported_coin_images">"The collection '%1$s' contains images which have been reported as a violation of the terms of conditions by other users. Please check and update your collection. An abuse will lead to the deletion of your account."</string>
     <string name="reported_photos_title">"Reported images"</string>
     <string name="trading_collection_deleted_by_underlying">"The trading collection '%1$s' was automatically deleted because the underlying collection '%2$s' was deleted too."</string>
     <string name="message_history">"Show history"</string>
@@ -316,13 +315,16 @@
     <string name="action_special_features">"Special features"</string>
     <string name="trading_hint_colours">"The bright images are those coins which you do not have but your trading partner. Vice-versa for the dark images. The top row shows the coins you selected for receiving whereas the bottom row shows those coins which will go to your trading partner."</string>
     <string name="block_trading">"Block trading"</string>
+    <string name="coins_removed_from_trading">"Automatically removed coins from the trading basket"</string>
+    <string name="coin_used_in_trade">"This coin was already selected in the trading collection '%1$s'. Ensure that it will be removed from the trading basket."</string>
 
     <string name="how_trading_partner_works">"
 - You grant permission to publish any information (notes, images, name, e-mail, country, ...) of your collection and yourself as needed to use the trading functionality.
 - You can trade coins with other users BUT using the trading functionality of this app MUST NOT be considered as an offer or as a contract in legal terms! Whatever you do or see in this app - it is not binding anyone to anything.
 - You can find trading partners for your selected collection(s).
 - To find a trading partner you first need to share your collection to the public.
-- All coins of your collection will be available to others for selection except those of which you do not own as many as you specified in the settings.
+- All coins of your collection will be available to others for selection except as many as you specified in the settings 'Trading: Coins to keep'.
+- You can explicitally exclude individual coins and prevent them from being traded via the coin's property 'Block trading'. Have in mind that even blocked coins will be visible to the public.
 - If you don't want that all your coins are available for trading you have to split your collection first.
 - Your collection needs to get a public name which will also be visible to others. The same applies to your e-mail adress.
 - All information inside your collection will be visible to the public (notes, ...). By adding information you agree to only add valid information about the coin. Any abuse can be reported by others and might lead to the deletion of your account.
@@ -352,13 +354,14 @@
 - After the trade was confirmed you and your trading partner will receive an email with each others e-mail-addresses and a list with the coins which have been selected for trading.
 - When you successfully sent your coins to your trading partner and received your new coins mark the trading collection as executed via the trading collection menu. Then the collection will not appear in the user's menu any more but in menu->collection->trading_partners->executed trades.
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as weel.
-- After you deleted the underlying trading parnter collection your own collection will not be machted against this collection again until you select 'restart' in the trading partner menu.
 "</string>
 
     <string name="version_history_current">"Version 6.0\n
-        Added feature to trade coins with other users.\n
-        Show coin image in coin dialog.\n
-        Show vertical bar every 5 years and horizontal lines to increase readability."</string>
+        Added feature to trade coins with other users. Please read menu->Collection->Trading Partners->Usage.\n
+        Added feature to take an individual picture of a coin.\n
+        Coin images of other users could be reported as a violation of the terms of conditions\n
+        Show vertical bar every 5 years and horizontal lines to increase readability.\n
+        Added more 2€ commemorative coins for 2019."</string>
 
     <string name="version_history_last">"Version 5.6.10\n
         Added feature to split collection.\n
@@ -1164,7 +1167,7 @@
     <string name="twoeuro_comm_2015_lv_date">Jan. 2015</string>
     <string name="twoeuro_comm_2015_lv_short_title">Council EU</string>
     <string name="twoeuro_comm_2015_lv_2_title">Storch</string>
-    <string name="twoeuro_comm_2015_lv_2_desc">Von Mitte April bis Ende August prägen die Nester des Weißstorchs und ihre Bewohner die lettische Landschaft – 5 % aller Weißstörche weltweit werden hier erbrütet. Dem scheuen und versteckt brütenden Schwarzstorch – im Baltikum häufiger als in Mittel- und Westeuropa – gilt seit 10 Jahren ein von der vor 30 Jahren gegründeten „Lettischen Ornithologischen Gesellschaft“ gefördertes Schutzprogramm. Störche generell gelten als Symbol für den Naturschutz. Das Motiv des Storches gab es schon auf der vormaligen nationalen Währung Lats, und zwar auf der 1-Lats-Umlaufmünze. Die von Olga Šilova gestaltete Münze wurde bei der Litauischen Münzstätte „Lietuvos monetu kalykla“ in Vilnius geprägt.</string>
+    <string name="twoeuro_comm_2015_lv_2_desc">Von Mitte April bis Ende August prägen die Nester des Weißstorchs und ihre Bewohner die lettische Landschaft – 5&amp; aller Weißstörche weltweit werden hier erbrütet. Dem scheuen und versteckt brütenden Schwarzstorch – im Baltikum häufiger als in Mittel- und Westeuropa – gilt seit 10 Jahren ein von der vor 30 Jahren gegründeten „Lettischen Ornithologischen Gesellschaft“ gefördertes Schutzprogramm. Störche generell gelten als Symbol für den Naturschutz. Das Motiv des Storches gab es schon auf der vormaligen nationalen Währung Lats, und zwar auf der 1-Lats-Umlaufmünze. Die von Olga Šilova gestaltete Münze wurde bei der Litauischen Münzstätte „Lietuvos monetu kalykla“ in Vilnius geprägt.</string>
     <string name="twoeuro_comm_2015_lv_2_volume">1.020.000 Münzen</string>
     <string name="twoeuro_comm_2015_lv_2_date">1. Dezember 2015</string>
     <string name="twoeuro_comm_2015_lv_2_short_title">Stork Bird</string>
