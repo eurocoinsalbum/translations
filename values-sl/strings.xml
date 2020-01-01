@@ -1,6 +1,5 @@
 <resources>
-
-    <string name="language_code">"si"</string>
+    <string name="language_code">"sl"</string>
     <string name="action_settings">"Nastavitve"</string>
     <string name="action_country">"Država"</string>
     <string name="action_user">"Uporabnik"</string>
@@ -29,7 +28,7 @@
     <string name="import_ok">"Uvozi OK"</string>
     <string name="help">"Pomoč"</string>
     <string name="help_message">"Če mi želite poslati kakršne koli težave, napake, vprašanja ali zahteve po funkciji, prosim uporabite \"pošlji sporočilo\" v meniju (http://eurocoins-album.jimdo.com). Te pripombe ne smejo biti objavljene v trgovini za predvajanje."</string>
-    <string name="help_statistics">"Format statistike je x / y / zx = število možnih različnih kovancev, ki ste jih izbrali; y = število možnih različnih kovancev, ki jih je mogoče zbrati; z = število skupnih kovancev, ki ste jih zbrali (če imate kovanec več kot enkrat, glejte podrobnosti o kovancih). Decimalna številka prikazuje znesek denarja, ki ste ga zbrali, in dodatno zneske za plačano in vrednost, če ste jih vnesli v podrobnosti o kovancih."</string>
+    <string name="help_statistics">"Format statistike je x/y/z x = število možnih različnih kovancev, ki ste jih izbrali; y = število možnih različnih kovancev, ki jih je mogoče zbrati; z = število skupnih kovancev, ki ste jih zbrali (če imate kovanec več kot enkrat, glejte podrobnosti o kovancih). Decimalna številka prikazuje znesek denarja, ki ste ga zbrali, in dodatno zneske za plačano in vrednost, če ste jih vnesli v podrobnosti o kovancih."</string>
     <string name="help_coin_marker">"\"X\" na kovancu pomeni, da ta kovanec sploh ni kovanec (če imate druge informacije, prosim pošljite mail). \"*\" Na kovancu je uradni kovanec, ki označuje marker, če ste aktivirali to nastavitev."</string>
     <string name="help_eu_view">"Pogled EU kaže, ali ima trenutni uporabnik ta kovanec v vseh letih / državah (in kovnice) ali če manjka eno leto / država (meta). To je odvisno od načina eu-view (glej spodaj). V letnem načinu se dotaknite kovanega gumba, da vidite, za katere države je uporabnik že kupil ta kovanec. Dotaknite se 2 € priložnostne kovance, da si ogledate vse 2 € -coins tega leta / države!"</string>
     <string name="help_eu_mode_switch">"V pogledu EU lahko z gumbom v zgornjem levem kotu preklopite med letnim načinom in državo"</string>
@@ -56,8 +55,7 @@
     <string name="note">"Opomba"</string>
     <string name="pref_show_only_missing_coins">"Prikaži samo manjkajoče kovance"</string>
     <string name="pref_show_official_coin_set_marker">"Prikaži oznako \"samo mint\" (*)"</string>
-    <string name="condition">"Pogoj"</string>
-    <string name="condition_helper">"(A-Z ali 1-9)"</string>
+    <string name="coinCondition">"Pogoj"</string>
     <string name="action_open_url_comment">"Pošlji sporočilo"</string>
     <string name="action_close">"Izhod"</string>
     <string name="coin_collected_marker">"X"</string>
@@ -83,6 +81,7 @@
     <string name="pref_background_color">"Barva ozadja"</string>
     <string name="pref_hide_not_existing_coins">"Skrij ne obstoječe kovance"</string>
     <string name="click_the_coin_set_expand_button">"Če želite odpreti skupino za nastavitev kovancev, se dotaknite gumba plus"</string>
+
     <!-- v5.0 -->
     <string name="pref_text_size_3">"Velikost besedila 3 (izbirni seznam)"</string>
     <string name="version_history">"Zgodovina različice"</string>
@@ -113,6 +112,7 @@
     <string name="email_sent_confirm_delete_account">"%1$s je bila poslana e-pošta. Preverite SPAM. Prosimo, kliknite povezavo znotraj e-pošte, da izbrišete svoj spletni račun."</string>
     <string name="help_transfer_id">"Če želite eno ID uporabnika prenesti v drugo napravo (telefon, tablični računalnik), vnesite ta ID uporabnika na ciljno napravo preko menija Information-&gt; My User ID&gt; Prenos ID uporabnika. Prvotni lastnik bo prejel e-pošto, kjer mora potrditi prenos. Vse vaše stare spletne varnostne kopije bodo premaknjene v novi ID uporabnika."</string>
     <string name="delete_online_account">"Izbriši spletni račun"</string>
+
     <!-- 5.1 -->
     <string name="deletedBackups">"Izbrisane varnostne kopije v napravi: \ n %1$s \ nDeleted varnostne kopije v oblaku: \ n %2$s"</string>
     <string name="backup_upload_error">"Napaka med nalaganjem varnostne kopije"</string>
@@ -155,6 +155,7 @@
     <string name="no_matching_coins_found">"Nobenih ujemajočih kovancev ni bilo mogoče najti"</string>
     <string name="pref_collect_series">"Zbirajte serije"</string>
     <string name="pref_commemorative_coins">"Spominski kovanci"</string>
+
     <!-- changed in 5.1 -->
     <string name="pref_collect_two_euro_only">"Ne zberi standardnih kovancev"</string>
 
@@ -181,6 +182,7 @@
     <string name="error_saving_collection">"Napaka med shranjevanjem zbirke %1$s"</string>
     <string name="invalid_value">"Neveljavna vrednost"</string>
     <string name="invalid_year">"Neveljavno leto"</string>
+
     <!-- version 5.4 -->
     <string name="collection_modus_to_offline">"Upravljajte v napravi"</string>
     <string name="collection_modus_to_online">"Upravljanje v spletu"</string>
@@ -198,6 +200,7 @@
     <string name="pref_collect_german_mints">"Zberite nemške kovnice"</string>
     <string name="pref_collect_greece_2002_foreign_mints">"Zbiranje tujih kovnic v Grčiji 2002"</string>
     <string name="collect_no_years_but_german_mints_is_invalid">"Ni zbiranje let, a nemška kovnica je nepodprta kombinacija"</string>
+
     <!-- version 5.6 -->
     <string name="user_name_already_exists">"Ime že obstaja"</string>
     <string name="user_name_contains_invalid_characters">"Ime vsebuje neveljavne znake"</string>

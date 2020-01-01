@@ -24,10 +24,10 @@
     <string name="action_export">Exportieren</string>
     <string name="action_createpdf">pdf erstellen</string>
     <string name="pdfApiLevelTooLow">Sorry, pdf Erstellung benötigt min. Android 4.4</string>
-    <string name="export_failed">Export fehlgeschlagen</string>   
-    <string name="import_failed">Import fehlgeschlogen</string>   
-    <string name="export_ok">Export OK</string>   
-    <string name="import_ok">Import OK</string>   
+    <string name="export_failed">Export fehlgeschlagen</string>
+    <string name="import_failed">Import fehlgeschlogen</string>
+    <string name="export_ok">Export OK</string>
+    <string name="import_ok">Import OK</string>
     <string name="help">Hilfe</string>
     <string name="help_message">Bitte Probleme, Fehlermeldungen, Fragen oder Erweiterungswünsche üben den Menüpunkt "Nachricht senden" melden (http://eurocoins-album.jimdo.com). Solche Kommentare bitte nicht im play store posten.</string>
     <string name="help_statistics">Das Statistikformat ist x/y/z x=Anzahl möglicher unterschiedlicher Münzen, die gesammelt wurden; y=Anzahl möglicher unterschiedlicher Münzen, die gesammelt werden können; z=Gesamtanzahl der gesammelten Münzen (für den Fall, dass die Münze mehr als einmal gesammelt wurde; siehe Münzeigenschaften). Die Dezimalzahl zeigt den Geldbetrag,der gesammelt wurde und zusätzlich den Betrag für Wert und Bezahlt, falls diese Daten bei den Münzeigenschaften eingetragen wurden.</string>
@@ -43,7 +43,7 @@
     <string name="help_coinset_expand">Um die Übersichtlichkeit zu erhöhen wurden die deutschen Münzsätze gruppiert, sofern die Einstellung \'Jahre und Prägestätten\' aktiviert wurde. Der plus/minus Button über den gemeinsamen Münzbildern (linke Seite) funktioniert in zweierlei Hinsicht: kurzes Drücken führt die Aktion für alle Münzsätze aus, wohingegen langes Drücken das Gegenteil bewirkt.</string>
     <string name="help_menu">Über die Einstellungen im Menü lassen sich folgende Parameter verändern: Sprache, Münzbildgröße, Textgröße (Titel und Münztext), nur 2€ Gedenkmünzen, alle Jahrgänge/Prägestätten sammeln oder nur eine pro Land und vieles weitere. Eine besondere Funktion hat \'Individuelle Einstellungen verwenden\', womit jeder Benutzer/Sammlung seine eigenen Einstellungen haben kann oder ob alle die gleichen Einstellungen verwenden.</string>
     <string name="help_title_setting">Durch Drücken der Spaltenüberschrift lässt sich die entsprechende Hintergrundfarbe ändern.</string>
-    <string name="show_licenses">Lizenzen</string>    
+    <string name="show_licenses">Lizenzen</string>
     <string name="pref_use_individual_settings">Individuelle Einstellungen verwenden</string>
     <string name="pref_image_size">Bildgröße</string>
     <string name="pref_text_size_1">Textgröße 1 (Titel)</string>
@@ -57,8 +57,7 @@
     <string name="note">Notiz</string>
     <string name="pref_show_only_missing_coins">Zeige nur fehlende Münzen</string>
     <string name="pref_show_official_coin_set_marker">Zeige \'nur als KMS\' Markierung (*)</string>
-    <string name="condition">Zustand</string>
-    <string name="condition_helper">Benutzerdefinierter Zustand (A&#8211;Z or 1&#8211;9)</string>
+    <string name="coinCondition">Zustand</string>
     <string name="action_open_url_comment">Nachricht schreiben</string>
     <string name="action_close">Beenden</string>
     <string name="index_cc">Index</string>
@@ -120,7 +119,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">Gelöschte Dateien auf dem Gerät:\n%1$s\nGelöschte Dateien in der Cloud:\n%2$s</string>
     <string name="backup_upload_error">Fehler beim Speichern der Sicherung in die Cloud</string>
-    <string name="action_share_with">Teilen mit&#8230;</string>
+    <string name="action_share_with">Teilen mit ...</string>
     <string name="action_add_share_with">Neue hinzufügen</string>
     <string name="action_retract_share">Zurückziehen</string>
     <string name="share_with_ok">Geteilt mit %1$s</string>
@@ -246,10 +245,10 @@
     <string name="trading_confirmed_already">"Diese Tauschsammlung wurde bereits beidseitig bestätigt. Kontaktieren Sie '%1$s' und versenden die Münzen. Danach markieren Sie die Tauschsammlung als durchgeführt."</string>
     <string name="action_send_to_trading_partner">"An Tauschpartner senden"</string>
     <string name="action_confirm_trade">"Tauschhandel bestätigen"</string>
-    <string name="confirm_trade_confirmation_message">"Möchten Sie den Tausch der Münzen wirklich bestätigen?"</string>
+    <string name="confirm_trade_confirmation_message">"Möchten Sie dem Tausch der Münzen wirklich zustimmen? Hierdurch wird KEIN Vertrag geschlossen. Sie und Ihr Tauschpartner werden eine E-Mail erhalten und Sie müssen sich dann über weitere Tauschmodalitäten einige werden."</string>
     <string name="device_time_too_old">"Die aktuelle Uhrzeit auf Ihrem Gerät ist zu alt."</string>
     <string name="trading_session_empty_no_sending">"Es wurden keine Münzen ausgewählt. Bitte Münzen auswählen, bevor die Tauschsammlung an den Tauschpartner gesendet wird."</string>
-    <string name="trading_collection_deleted_by_counterparty">"Die Tauschsammlung wurde vom Tauschpartner gelöscht."</string>
+    <string name="trading_collection_deleted_by_counterparty">"Die Tauschsammlung '%1$s' wurde vom Tauschpartner gelöscht."</string>
     <string name="account_not_activated">"Das Benutzerkonto wurde noch nicht aktiviert. Bitte Mail-Adresse registrieren und den Aktivierungslink bestätigen oder Cloud (Internet) Funktionilatität in den Einstellungen deaktivieren."</string>
     <string name="action_share_public">"Diese Sammlung veröffentlichen"</string>
     <string name="action_retract_share_public">"Zurückziehen dieser Sammlung"</string>
@@ -269,14 +268,14 @@
     <string name="action_trade_set_executed">"Tausch durchgeführt"</string>
     <string name="no_executed_trades">"Kein durchgeführter Tausch gefunden. Teile Deine Sammlung und tausche Münzen mit anderen Benutzern!"</string>
     <string name="action_show_executed_trades">"Durchgeführte Tauschsammlungen"</string>
-    <string name="missing_coin_infos_for_trade_confirmation">Zustand oder Bilder von Münzen fehlen</string>
+    <string name="missing_coin_infos_for_trade_confirmation">"Zustand oder Bilder von Münzen fehlen. Fügen Sie die fehlenden Informationen zu Ihren Münzen hinzu."</string>
     <string name="condition_not_set">"Unbekannt"</string>
     <string name="condition_uncirculated">"Unzirkuliert"</string>
     <string name="condition_circulated_quality_high">"Zirkuliert qualität hoch"</string>
     <string name="condition_circulated_quality_medium">"Zirkuliert qualität mittel"</string>
     <string name="condition_circulated_quality_low">"Zirkuliert qualität niedrig"</string>
     <string name="condition_abr_not_set">"?"</string>
-    <string name="condition_abr_uncirculated">"Unc"</string>
+    <string name="condition_abr_uncirculated">"Unz"</string>
     <string name="condition_abr_circulated_quality_high">"ZH"</string>
     <string name="condition_abr_circulated_quality_medium">"ZM"</string>
     <string name="condition_abr_circulated_quality_low">"ZN"</string>
@@ -284,7 +283,7 @@
     <string name="fixed_unsupported_settings_years_series">"Die Einstellungen 'Jahre sammeln' und 'Münzserien sammeln' dürfen nicht gemeinsam ausgewählt werden. Die Einstellung 'Münzserien sammeln' wurde ausgeschaltet."</string>
     <string name="collect_years_and_series_is_invalid">"Jahre UND Münzserien sammeln ist eine nicht unterstützte Kombination."</string>
     <string name="delete_photo">"Möchten Sie das Foto wirklich löschen?"</string>
-    <string name="uploading_coin_image">"Bild wird hochgeladen..."</string>
+    <string name="uploading_coin_image">"Bild wird hochgeladen."</string>
     <string name="uploaded_coin_image">"Bild wurde hochgeladen."</string>
     <string name="coin_image_upload_error">"Fehler beim Hochladen des Bildes. Bitte versuchen Sie es später erneut."</string>
     <string name="report_photo">"Bild melden"</string>
@@ -302,18 +301,87 @@
     <string name="set_pref_country_residence">"Bitte wählen Sie in den Einstellungen Ihr Land (Wohnort) aus."</string>
     <string name="no_collections_found">"Keine Sammlungen gefunden."</string>
     <string name="trading_user_linked">"Tauschsammlung '%1$s' verbunden."</string>
-    <string name="confirm_send_to_trading_partner">"Sind Sie soweit, die Tauschsammlung an Ihren Tauschpartner zu senden?"</string>
-    <string name="execute_trade_confirmation_message">"Haben Sie die Münzen mit Ihrem Tauschpartner getauscht?"</string>
+    <string name="confirm_send_to_trading_partner">"Sind Sie soweit, die Tauschsammlung an Ihren Tauschpartner zu senden? Bedenken Sie bitte, dass Ihr Tauschpartner den Tausch eventuell so akzeptiert wie Sie Ihn absenden."</string>
     <string name="linked_for_trading_collection_type">"Tauschpartner"</string>
     <string name="confirmed_trade_type">"Bestätigt"</string>
     <string name="executed_trade_type">"Durchgeführt"</string>
     <string name="waiting_trade_type">"Warten"</string>
     <string name="action_special_features">"Spezialfunktionen"</string>
-    <string name="trading_hint_colours">"Die hellen Bilder sind die Münzen, die Sie noch nicht besitzen, aber Ihr Tauschpartner. Für die dunklen Münzbilder ist dies umgekehrt. Die obere Reihe zeigt die Münzen, die Sie bekommen werden, und die untere, die Sie zu Ihrem Tauschpartner senden."</string>
+    <string name="trading_hint_colours">"Die hellen Bilder sind die Münzen, die Sie noch nicht besitzen, aber Ihr Tauschpartner. Für die dunklen Münzbilder ist dies umgekehrt. Die obere Reihe zeigt die Münzen, die Sie bekommen werden, und die untere, die Sie zu Ihrem Tauschpartner senden. Die Zahlen auf den Münzen bedeuten: x/y/z x=Anzahl der Münzen, die Sie abgeben (das Minuszeichen verdeutlicht dies nochmals), y=Anzahl der Münzen, die für den Tausch zur Verfügung stehen, z=Anzahl der Münzen, die Sie bekommen."</string>
     <string name="block_trading">"Tausch sperren"</string>
-    <string name="coins_removed_from_trading">"Automatisch aus der Tauschsammlung entfernte MünzenCoins."</string>
+    <string name="coins_removed_from_trading">"Automatisch aus der Tauschsammlung entfernte Münzen."</string>
     <string name="coin_used_in_trade">"Die Münze wurde in der Tauschsammlung '%1$s' bereits ausgewählt. Stellen Sie sicher, dass die Münze aus der Tauschsammlung entfernt wird."</string>
+    <string name="trading_hint_edit_collection_and_send">"Fügen Sie Münzen zur Sammlung hinzu oder entfernen Münzen, so wie Sie dies auch mit Ihrer normalen Sammlung machen (entsperren und auf eine Münze mit hellem Münzbild drücken). Wenn Sie fertig sind, drücken Sie den Senden-Button, um die Tauschsammlung Ihrem Tauschpartner zu senden. Möchten Sie den Tausch beenden, können Sie die Sammlung einfach löschen."</string>
+    <string name="trading_hint_confirm_trade">"Sie können Die Tauschsammlung entweder abändern, indem Sie Münzen hinzufügen oder entfernen, oder Sie akzeptieren den Tausch so wie er Ihnen vom Tauschpartner zugesendet wurde durch drücken des Bestätigungs-Button. Dies wird zwischen Ihnen KEINEN Vertrag schließen! Wenn der nominale Betrag der ausgewählten Münzen voneinander abweicht, muss die Differenz ausgeglichen werden, indem der Fehlbetrag beim Versand hinzugefügt wird."</string>
+    <string name="trading_hint_executed_trade">"Wenn Sie die Münzen an Ihren Tauschpartner gesendet und Ihre Münzen erhalten haben, denn können Sie den Tausch als durchgeführt markieren, indem Sie den Mail-Button drücken."</string>
+    <string name="edit_trade_before_executed">"Ändern"</string>
+    <string name="action_trade_set_executed_merge">"Wenn der Tausch wie geplant durchgeführt wurde, können Sie durch Bestätigen mit 'Ja' Ihre Sammlung automatisch aktualisieren. Oder Sie wählen 'Nein', um diese selbständig zu aktualisiseren. Wenn die getauschten Münzen nicht der Tauschsammlung entsprechen, können Sie die Tauschsammlung mit 'Ändern' anschließend korrigieren, bevor Sie diese dann als durchgeführt markieren. Änderungen an der Tauschsammlung werden nicht mehr mit Ihrem Tauschpartner synchronisiert."</string>
+    <string name="confirmed_trade_is_editable">"Sie können die bereits bestätigte Tauschsammlung durch drücken des Schloss-Buttons abändern. Die Tauschsammlung wird allerdings NICHT mehr mit Ihrem Tauschpartner synchronisiert. Wenn die Tauschsammlung den tatsächlich getauschten Münzen entspricht, markieren Sie diese erneut als 'durchgeführt'."</string>
+    <string name="no_coins_from_trade_merged">"Es wurden KEINE Münzen zu Ihrer Sammlung hinzugefügt oder entfernt."</string>
+    <string name="not_all_coins_from_trade_merged">"Es wurden NICHT ALLE Münzen zu Ihrer Sammlung hinzugefügt oder entfernt."</string>
+    <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"Sie haben keine Münze zum Erhalt ausgewählt, sondern nur solche zum Weggeben. Die hellen Münzbilder sind die Münzen, die Sie derzeit noch nicht besitzen."</string>
+    <string name="no_coin_in_trading_collection">"Es wurden noch keine Münzen zur Tauschsammlung hinzugefügt. Bitte fügen Sie Münzen hinzu, die Sie von Ihrem Tauschpartner erhalten möchten. Drücken Sie hierfür auf die hellen Münzen."</string>
+    <string name="trade_exceeds_value_limit">"Der Differenzbetrag der zu tauschenden Münzen (%1$s %3$s) überschreitet das erlaubte Limit von %2$s %3$s."</string>
+    <string name="cent">Cent</string>
+    <string name="trading_coin_replaced_other_condition">"Die folgende Münze der Tauschsammlung hatte bisher keinen Münz-Zustand, hat aber jetzt einen zugewiesen bekommen: '%1$s':\n%2$s %3$s %4$s %5$s"</string>
+    <string name="trading_collection_contains_deleted_coins">"Die Tauschsammlung enthält Münzen, die in der zugrundeliegenden Sammlung nicht enthalten sind."</string>
+    <string name="trading_collection_image_error">"Die Tauschsammlung konnte nicht alle Münzbilder laden. Bitte löschen Sie die Tauschsammlung, um Missverständnisse zu vermeiden."</string>
+    <string name="trading_condition_available">"Sie haben eine Münze ausgewählt, die keinen Zustand und kein Foto eingetragen hat, aber es gibt eine Münze, die einen Zustand eingetragen hat. Sie können Ihre Auswahl so belassen, wenn Sie mit dem Zustand der anderen Münzen nicht zufrieden sind, aber Ihr Tauschpartner wird für die anderen Münzen evtl. keine weiteren Zustände eintragen. Normalerweise ist es besser, Münzen mit eingetragenem Zustand oder Foto auszuwählen."</string>
+    <string name="trading_no_condition_available">"Sie haben eine Münze ausgewählt, die keinen Zustand eingetragen hat. Nach Sie die Tauschsammlung Ihrem Tauschpartner zugesendet haben, muss dieser einen Zustand eintragen. Im Anschluss sollten Sie überprüfen, ob der Zustand Ihren Erwartungen entspricht."</string>
+    <string name="trading_diff_amount_pay">"Das ist der Betrag, den Sie Ihrem Tauschpartner zusätzlich zahlen müssen."</string>
+    <string name="trading_diff_amount_receive">"Das ist der Betrag, den Sie von Ihrem Tauschpartner zusätzlich erhalten."</string>
+    <string name="no_files_for_import_found">"Keine Dateien im Downloads-Verzeichnis gefunden."</string>
+    <string name="email_confirmed">"E-Mail-Adresse wurde bestätigt."</string>
+    <string name="setup_account">"Konto einrichten"</string>
+    <string name="device_new_master">"Ist dieses Gerät Ihr Hauptgerät?"</string>
 
+    <string name="how_trading_partner_works">"
+    - Die Tauschfunktionalität ist NICHT für Anfänger.
+    - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
+    - Der Tausch von Münzen mit anderen Benutzers ist viel komplexer als Sie vielleicht denken. Insbesondere wenn die Einigung über die zu tauschenden Münzen länger als einige Stunden dauert, müssen Sie berücksichtigen, dass sich die Sammlung Ihres Tauschpartners in der Zwischenzeit möglicherweise geändert hat. Das hat natürlich Auswirkungen auf bereits zum Tausch ausgewählte Münzen.
+    - Sie erteilen die Erlaubnis, Informationen (Notizen, Bilder, Name, E-Mail, Land, ...) Ihrer Sammlung mithilfe der Tauschfunktion zu veröffentlichen.
+    - Sie können mit anderen Benutzern Münzen tauschen, ABER mit der Tauschfunktion dieser App DÜRFEN SIE DEN TAUSCHVORSCHLAG NICHT als Angebot oder als Vertrag im rechtlichen Sinne betrachtet werden! Was auch immer Sie in dieser App tun oder sehen - sie bindet niemanden an irgendetwas.
+    - Die Tauschfunktion kann Tauschpartner für Ihre aktuell ausgewählte Sammlung finden.
+    - Um einen Tauschpartner zu finden, müssen Sie Ihrer Sammlung zunächst einen öffentlichen Namen geben, der für andere sichtbar ist, und Ihre Sammlung für die Öffentlichkeit freigeben.
+    - Alle Münzen Ihrer Sammlung stehen anderen zur Auswahl, mit Ausnahme derjenigen, die Sie in den Einstellungen "Tauschsammlung: Anzahl zu behaltender Münzen" festgelegt haben.
+    - Sie können einzelne Münzen explizit ausschließen und über die Eigenschaft 'Tausch blockieren' der Münze den Tausch dieser verhindern. Beachten Sie, dass auch gesperrte Münzen für die Öffentlichkeit sichtbar sind.
+    - Wenn Sie nicht möchten, dass alle Ihre Münzen für den Tausch verfügbar sind, müssen Sie zuerst Ihre Sammlung aufteilen.
+    - Ihre Sammlung muss einen öffentlichen Namen haben, der auch für andere sichtbar ist. Gleiches gilt für Ihre E-Mail-Adresse.
+    - Alle Informationen in Ihrer Sammlung sind für die Öffentlichkeit sichtbar (Notizen, ...). Durch das Hinzufügen von Informationen erklären Sie sich damit einverstanden, nur gültige Informationen zur Münze hinzuzufügen. Jeder Missbrauch kann von anderen gemeldet werden und zur Löschung Ihres App-Kontos führen.
+    - Sie können ein Bild auswählen oder ein Foto aufnehmen und einer Münze zuordnen. Jedes zugewiesene Bild ist für die Öffentlichkeit sichtbar. Sie erklären sich damit einverstanden, nur Bilder zu verwenden, für die Sie berechtigt sind und auf denen nur die entsprechende Münze abgebildet ist. Jeder Missbrauch kann von anderen gemeldet werden und zur Löschung Ihres App-Kontos führen.
+    - Ein Missbrauch der Meldefunktion kann zur Löschung Ihres App-Kontos führen.
+    - Pro Anfrage erhalten Sie eine Tauschpartnersammlung angeboten. Sie können den angezeigten Tauschpartner verlinken oder den nächsten anfordern. Sobald Sie alle Tauschpartner gefunden haben, beginnt die Suche von vorne.
+    - Standardmäßig erhalten Sie Tauschpartner mit demselben Wohnsitzland, das Sie in den Einstellungen ausgewählt haben. Dieses Verhalten kann auch in den Einstellungen geändert werden. Dann erhalten Sie Tauschpartner aus allen Ländern.
+    - In der Suche werden nur die Tauschpartner angezeigt, die die App in den letzten Tagen benutzt haben. Dies soll sicherstellen, dass Sie keine veralten Sammlungen angezeigt bekommen.
+    - Wenn Sie möchten, dass Ihre Sammlung von anderen Benutzern gefunden wird, müssen Sie die App einmal pro Woche öffnen. Derzeit gibt es keine Push-Benachrichtigung für Benutzer, die mit Ihnen handeln möchten. Sie müssen die App öffnen - erst dann synchronisiert die App die Tauschsammlungen und sie sehen, ob jemand mit Ihnen Münzen tauschen möchte.
+    - Die Tauschpartnersammlung wird heruntergeladen und auch auf Ihrem Gerät verlinkt, damit Sie sie vollständig durchsuchen können.
+    - Auf Ihrem Gerät wird eine neue Tauschsammlung erstellt, die Ihre Sammlung und die Tauschpartnersammlung kombiniert.
+    - Die Tauschsammlung zeigt nur die Münzen an, die nur in einer der beiden Basissammlungen enthalten sind.
+    - Die Münzen, die in Ihrer Sammlung NICHT enthalten sind, aber Teil der Sammlung des Tauschpartners sind, werden mit einem helleren Bild angezeigt.
+    - Die Münzen, die Ihre Sammlung enthält, aber NICHT Teil der Sammlung des Tauschpartners sind, werden mit einem dunkleren Bild angezeigt.
+    - Münzen, die für den Tausch ausgewählt wurden, werden im Warenkorb angezeigt. Der obere Korb zeigt die Münzen, die Sie erhalten, während der untere die Münzen anzeigt, die Sie an Ihren Tauschpartner senden müssen.
+    - Sie können eine Münze aus dem Warenkorb entfernen, wenn Sie die Münze lange berühren oder im Münzendetail-Dialog, in dem Sie die Münze hinzugefügt haben, auf die Schaltfläche zum Entfernen klicken. Wenn Sie auf eine beliebige Münze im Warenkorb tippen, wird diese Münze in der Sammlungsansicht hervorgehoben.
+    - Ein kleines rotes Stopp-Symbol auf dem Münzbild im Warenkorb zeigt an, dass dieser Münze kein Münzzustand oder Foto zugewiesen wurde. Bevor der Tausch am Ende bestätigt werden kann, muss diese entfernt oder ein Münzzustand oder ein Foto in der entsprechenden Sammlung, die die Münze besitzt, zugeordnet werden.
+    - Zu Beginn wird auf jeder Münze eine '0' angezeigt, um anzuzeigen, dass diese Münze nicht Teil des Warenkorbs ist.
+    - Berühren Sie eine der Münzen, um die Details dieser Münze anzuzeigen.
+    - In der Detailansicht (wenn Sie den Bearbeitungsmodus aktiviert haben) können Sie mit der Schaltfläche 'Hinzufügen' diese Münze in den Warenkorb legen.
+    - Mit der Schaltfläche 'Entfernen' können Sie eine Münze entfernen.
+    - Sie können für beide Seiten Münzen hinzufügen und entfernen: die Münzen, die Sie haben möchten, und die, die Sie versenden werden.
+    - Sie sollten nur Münzen Ihres Tauschpartners hinzufügen und entfernen, wenn Sie einen guten Grund haben.
+    - Nachdem Sie eine Münze in den Warenkorb gelegt haben, wird eine "1" angezeigt, die angibt, dass eine der Münzen ausgewählt und in den Warenkorb gelegt wurde. Eine negative Zahl bedeutet, dass Sie diese Münze abgeben, während eine positive Zahl anzeigt, dass Sie diese Münze erhalten.
+    - Wenn Ihre Sammlung oder die Sammlung des Tauschpartners mehrere Münzen einer bestimmten Münze enthält, können Sie in der Detailansicht jede dieser Münzen durchsuchen. Wählen Sie genau diese Münze aus, die Sie in den gewünschten Warenkorb legen möchten. Unterschiedliche Münzen können sich in unterschiedlichen Zuständen befinden.
+    - Oben auf dem Bildschirm werden alle Münzen aufgelistet, die Sie erhalten. Am unteren Rand werden alle Münzen aufgelistet, die Sie versenden. Berühren Sie eine dieser Münzen, um zu dieser Münze zu wechseln. Halten Sie eine Münze lange gedrückt, um sie aus der Tauschsammlung zu entfernen. Sie können horizontal durch diese Listen scrollen.
+    - Die Statistik für Tauschsammlungen unterscheidet sich von normalen Sammlungen. x/y/z x=immer negativ und zeigt an, wie viele Münzen Sie versenden werden; y=Anzahl der möglichen zu tauschenden Münzen; z=immer positiv und zeigt an, wie viele Münzen Sie erhalten.
+    - Sobald Sie Ihre Auswahl der Münzen abgeschlossen haben, senden Sie die Tauschanfrage an Ihren Tauschpartner.
+    - Der Tauschpartner wird informiert, dass eine neue Tauschsammlung eingeleitet wurde. Jetzt kann Ihr Tauschpartner die Tauschsammlung bearbeiten und an Sie zurücksenden.
+    - Um einen besseren Überblick zu haben, ist es möglicherweise sinnvoll, die für den Tausch ausgewählten Münzen auf Papier zu notieren. Derzeit unterstützt die App keine Historie der Tauschsammlung. Sie sehen immer nur den aktuellen Status.
+    - Beide Benutzer können den Warenkorb nacheinander bearbeiten, bis ein Benutzer die Sammlung nicht mehr ändert, sondern den Tausch bestätigt. Wenn sich der Nennwert der Münzen zwischen den beiden Tauschpartnern unterscheidet, muss dies durch Hinzufügen des korrekten Betrags zum Paket ausgeglichen werden.
+    - Ein Tausch kann nur bestätigt werden, wenn für jede gehandelte Münze entweder die Eigenschaft "Zustand" festgelegt oder ein eigenes Bild angehängt wurde.
+    - Nachdem der Tausch bestätigt wurde, erhalten Sie und Ihr Tauschpartner eine E-Mail mit den E-Mail-Adressen und einer Liste mit den Münzen, die für den Tausch ausgewählt wurden.
+    - Wenn Sie Ihrem Tauschpartner erfolgreich Ihre Münzen zuzüglich eines eventuellen Geldbetrags zum Ausgleich einer Differenz des Nennwerts geschickt und Ihre neuen Münzen erhalten haben, markieren Sie die Tauschsammlung als ausgeführt über das Tauschpartner-Menü. Die Sammlung wird dann nicht mehr im Menü des Benutzers angezeigt, sondern unter Menü->Sammlungen-> Tauschpartner->Durchgeführte Tauschsammlungen.
+    - Während Sie die Tauschsammlung auf "ausgeführt" setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie "Nein", um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und "Ja" wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
+    - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
+"</string>
     <string name="version_history_current">"Version 6.0\n
         Funktionalität zum Tauschen von Münzen mit anderen Benutzern hinzugefügt.\n
         Funktionalität zur Aufnahme eines individuellen Münzbildes hinzugefügt.\n
@@ -334,7 +402,7 @@
     <string name="coin_50cent">50 Cent</string>
     <string name="coin_1euro">1 Euro</string>
     <string name="coin_2euro">2 Euro</string>
-    
+
     <string name="countryname_eu">EU</string>
     <string name="countryname_ad">Andorra</string>
     <string name="countryname_be">Belgien</string>

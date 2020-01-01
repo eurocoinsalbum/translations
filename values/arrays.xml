@@ -23,6 +23,8 @@
         <item name="LT">Lietuvių</item>
         <item name="NL">Nederlands</item>
         <item name="RU">русский</item>
+        <item name="SL">Slovenski</item>
+        <item name="SV">Svenska</item>
     </string-array>
 
     <string-array name="pref_language_array_values">
@@ -35,6 +37,8 @@
         <item name="LT">lt</item>
         <item name="NL">nl</item>
         <item name="RU">ru</item>
+        <item name="SL">sl</item>
+        <item name="SV">sv</item>
     </string-array>
 
 
@@ -49,6 +53,8 @@
         <item name="LT">Lietuvių</item>
         <item name="NL">Nederland</item>
         <item name="RU">русский</item>
+        <item name="SL">Slovenija</item>
+        <item name="SV">Sverige</item>
         <item name="W_">Other</item>
     </string-array>
 
@@ -63,6 +69,8 @@
         <item name="LT">lt</item>
         <item name="NL">nl</item>
         <item name="RU">ru</item>
+        <item name="SL">sl</item>
+        <item name="SV">sv</item>
         <item name="W_">w_</item>
     </string-array>
 

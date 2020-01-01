@@ -48,7 +48,6 @@
     <string name="pref_image_size">Formaat afbeelding</string>
     <string name="pref_text_size_1">Tekstgrootte 1 (titels)</string>
     <string name="pref_text_size_2">Tekstgrootte 2 (munten)</string>
-    <string name="pref_collect_two_euro_only">Verzamel alleen 2 Euromunten</string>
     <string name="pref_collect_years">Verzamel jaar en munttekens</string>
     <string name="pref_show_statistics">Statistieken</string>
     <string name="pref_language">Taal / Language</string>
@@ -58,8 +57,7 @@
     <string name="note">Notitie</string>
     <string name="pref_show_only_missing_coins">Alleen ontbrekende munten</string>
     <string name="pref_show_official_coin_set_marker">Markering \'alleen muntsets\' (*)</string>
-    <string name="condition">Kwaliteit</string>
-    <string name="condition_helper">(A&#8211;Z or 1&#8211;9)</string>
+    <string name="coinCondition">Kwaliteit</string>
     <string name="action_open_url_comment">Verstuur bericht</string>
     <string name="action_close">Afsluiten</string>
     <string name="coin_collected_marker">X</string>
@@ -107,15 +105,300 @@
     <string name="no_backups_available">Geen back-ups beschikbaar</string>
     <string name="internet_not_available_for_backup">Internet niet beschikbaar. Alleen lokale back-ups worden gemaakt.</string>
     <string name="register_email">Registreer e-mail</string>
+    <string name="data_saved">De gegevens werden opgeslagen</string>
+    <string name="switch_id">Transfer User ID</string>
+    <string name="enter_id_to_be_transferred">Voer de gebruikers-ID die u wilt overnemen. Deze gegevens zullen worden samengevoegd tot uw account.</string>
+    <string name="no_internet_no_registration">Internet niet beschikbaar. Activate internettoegang en schrijf uw mail via het gebruikersmenu.</string>
+    <string name="no_internet">internet niet beschikbaar</string>
+    <string name="email_sent_confirm_delete_account">Een e-mail is verzonden naar%1$s. Controleer SPAM. Klik op de link in de e-mail om uw online account te verwijderen.</string>
+    <string name="help_transfer_id">Wilt u een gebruikers-ID naar een ander apparaat (telefoon, tablet) in te voeren dan is deze User ID op het doel apparaat via het menu Informatie-> Mijn gebruikers-ID.> Transfer gebruikers-ID. De oorspronkelijke eigenaar ontvangt een e-mail waarin hij de transfer te bevestigen ontvangen. Al uw oude online back-ups zullen worden verplaatst naar de nieuwe gebruikers-ID.</string>
+    <string name="delete_online_account">Delete online account</string>
 
-    <string name="version_history_current">"Versie 5.6.9\n
-        Alle bekende herdenkingsmunten voor 2019 toegevoegd, maar met alleen een gemeenschappelijke foto\n
-        Bug verholpen als een gemeenschappelijke munt (linkerzijde) werd aangeraakt\n
-        In EU-weergave tonen verzamelde herdenkingsmunten wanneer erop wordt geklikt\n
-        Vermijd het opnieuw opbouwen van de albumweergave bij het sluiten van bepaalde dialogen"</string>
+    <!-- 5.1 -->
+    <string name="deletedBackups">Verwijderde files op apparaat:\n%1$s\nDeleted files in cloud:\n%2$s</string>
+    <string name="backup_upload_error">Fout bij het uploaden van back-up</string>
+    <string name="action_share_with">Delen met ...</string>
+    <string name="action_add_share_with">nieuw toevoegen</string>
+    <string name="action_retract_share">intrekken</string>
+    <string name="share_with_ok">gedeeld met %1$s</string>
+    <string name="share_with_error">Fout bij het delen met%1$s</string>
+    <string name="action_unshare_with_ok">Ingetrokken het delen van deze collectie met%1$s</string>
+    <string name="enter_email_to_share_to">Voer de e-mail die u wilt deze collectie delen.</string>
+    <string name="action_sync_collections">synchroniseren</string>
+    <string name="collection_linked">Gekoppelde gedeelde verzameling%1$s</string>
+    <string name="start">start</string>
+    <string name="cancel">annuleren</string>
+    <string name="sync_collection_ok">Collection%1$s gesynchroniseerd</string>
+    <string name="sync_collection_error">Synchronisatie fout voor verzameling%1$s</string>
+    <string name="sync_collections_error">synchronisatiefout</string>
+    <string name="linked_collection_read_only">Gelinkte shared collecties worden alleen-lezen</string>
+    <string name="load_file_error">Load file fout%1$s</string>
+    <string name="no_cloud_features_activated">Cloud (Internet) functies worden uitgeschakeld.</string>
+    <string name="not_saved_load_error">Gebruiker%1$s niet opgeslagen vanwege eerdere lading fout. Unlock edit mode te dwingen save.</string>
+    <string name="collection_infos_general">Naam:%1$s\nCollection ID:%2$s\nPublic naam:%3$s\nShared:%4$s\nOwner:%5$s\nSynchronized:%6$s\nTrading Partners:%7$s</string>
+    <string name="collection_deleted">Collection%1$s verwijderd</string>
+    <string name="collection_sharing_retracted">Gedeelde verzameling%1$s is ingetrokken door de eigenaar</string>
+    <string name="collection_sharing_retracted_ok">Gedeelde collectie werd ingetrokken voor%1$s</string>
+    <string name="collection_retract_sharing">Selecteer items terug te trekken sharing</string>
+    <string name="title_collection_shared_with_me">Collection gedeelde</string>
+    <string name="ask_link_collection">%1$s heeft deelde zijn collectie \'%2$s\' met je mee. Wilt u het te koppelen?</string>
+    <string name="wrong_app_version_update">Werk de app naar de nieuwste versie!</string>
+    <string name="session_expired_try_again">sessie is verlopen. probeer het opnieuw.</string>
+    <string name="forum">forum</string>
+    <string name="logged_in">aangemeld</string>
+    <string name="pref_other_special_coins">Andere speciale munten</string>
+    <string name="coin_parse_error">Load fout (zie meldingen voor details)</string>
+    <string name="switch_id_error">Fout tijdens het overbrengen van gebruikers-ID.</string>
+    <string name="register_mail_error">Fout bij het registreren e-mailadres</string>
+    <string name="login_error">Fout bij het inloggen</string>
+    <string name="search_coin">zoek munt</string>
+    <string name="enter_coin_search_text">beschrijving</string>
+    <string name="no_matching_coins_found">Geen overeenkomende munten gevonden</string>
+    <string name="pref_collect_series">Collect-serie</string>
+    <string name="pref_commemorative_coins">herdenkingsmunten</string>
 
-    <string name="version_history_last">"Versie 5.6.8\n
-        Vaste crash tijdens het snel roteren van het apparaat"</string>
+    <!-- changed in 5.1 -->
+    <string name="pref_collect_two_euro_only">Verzamel geen standaardmunten</string>
+
+    <!-- version 5.3 -->
+    <string name="enter_coin_value">Voer muntwaarde</string>
+    <string name="select_image">selecteer afbeelding</string>
+    <string name="no_camera_permission">In Android menu apps activate \'Permissions\' voor \'Camera\'</string>
+    <string name="pref_coin_photo_size">camerabeeld grootte</string>
+    <string name="permission_error">toestemmingsfout</string>
+    <string name="image_load_error">fout tijdens laden van de afbeelding</string>
+    <string name="not_registered_user_email">\'%1$s\' is geen geregistreerde e-mail van een gebruiker.</string>
+    <string name="action_force_sync_collections">Force synchroniseren</string>
+    <string name="is_2_euro_cc">Het is een herdenkingsmunt van 2 €</string>
+    <string name="confirm_rename_collection_title">collectie hernoemd</string>
+    <string name="confirm_rename_collection">Wilt u de collectie \'%1$s\' aan \'%2$s\' hernoemen</string>
+    <string name="show_newest_added_coins">Nieuwste munten</string>
+    <string name="i_dont_have_this_coin">ik heb deze munt niet</string>
+    <string name="create_as_multiview">Maak multi-view</string>
+    <string name="select_collections">collecties selecteren</string>
+    <string name="country_statistic">Country statistiek</string>
+    <string name="country_statistic_message">%1$s van%2$s mogelijke verschillende munten verzameld\n%3$s coins algemene verzameld\n%4$s € is de nominale waarde\n%5$s € is wat je betaald\n%6$s € is de waarde</string>
+    <string name="compare_against_other_collection">vergelijk</string>
+    <string name="no_differences_in_collections_found">Er werden geen verschillen gevonden</string>
+    <string name="error_saving_collection">Fout bij het opslaan verzameling %1$s</string>
+    <string name="invalid_value">ongeldige waarde</string>
+    <string name="invalid_year">ongeldig jaar</string>
+
+    <!-- version 5.4 -->
+    <string name="collection_modus_to_offline">Beheren apparaat</string>
+    <string name="collection_modus_to_online">Beheer online</string>
+    <string name="no_internet_no_modus_on_offline">Internet beschikbaar zijn voor het schakelen van deze functie</string>
+    <string name="set_collection_modus_error">Fout tijdens schakelen collectie modus. Probeer het later opnieuw.</string>
+    <string name="editing_only_in_collection_mode_online">Stel deze collectie online worden beheerd op uw master-apparaat, zodat het bewerken op al uw apparaten</string>
+    <string name="no_internet_no_editing">Internet niet beschikbaar, maar is verplicht voor online beheerde collectie.</string>
+    <string name="collection_editing_locked">Collectie vergrendeld door een ander apparaat</string>
+    <string name="collection_not_locked">Collection zat niet op slot of slot werd opgeheven door een ander apparaat</string>
+    <string name="collection_editing_locked_force_unlock">Wilt u te dwingen te vergrendelen voor uw apparaat? Niet gesynchroniseerde wijzigingen zullen verloren gaan.</string>
+    <string name="request_edit_token_error">Fout bij het aanvragen van online edit mode</string>
+    <string name="release_edit_token_error">Fout bij het vrijgeven van de online bewerken lock</string>
+    <string name="collection_not_online_managed">Collectie is niet online beheerd</string>
+    <string name="close">sluiten</string>
+    <string name="pref_collect_german_mints">Collect duits mints</string>
+    <string name="pref_collect_greece_2002_foreign_mints">Verzamel griekenland 2002 buitenlandse pepermuntjes</string>
+    <string name="collect_no_years_but_german_mints_is_invalid">Niet het verzamelen van jaren, maar duits mints is een niet-ondersteunde combinatie</string>
+
+    <!-- version 5.6 -->
+    <string name="user_name_already_exists">naam bestaat al</string>
+    <string name="user_name_contains_invalid_characters">naam bevat ongeldige tekens</string>
+
+    <!-- version 5.6.4 -->
+    <string name="transfer_collection">"Transfer collecties"</string>
+
+    <!-- version 5.6.5 -->
+    <string name="building_album_please_wait">"Building album - please wait"</string>
+
+    <!-- version 5.6.9 -->
+    <string name="ok">"OK"</string>
+    <string name="split_collection">"Split"</string>
+    <string name="enter_number_of_coins_for_splitting">"Voer het aantal munten per beschikbare munt die u wilt overbrengen naar het eerste exemplaar. Resterende degenen zullen in het tweede exemplaar van deze collectie te gaan. Het oorspronkelijke collectie zal niet worden gewijzigd of verwijderd."</string>
+    <string name="collection_split_ok">"Collection is gesplitst geweest in 2 nieuwe collecties. Na het bekijken van mensen die je kunt de originele collectie te verwijderen."</string>
+    <string name="transfer_collection_error">"Fout tijdens het overbrengen van de collectie '%1$s'</string>
+
+    <!-- version 5.6.10 -->
+    <string name="collection_transferred_title">"Collection '%1$s' is overgebracht naar een ander apparaat."</string>
+    <string name="owner_this_device">"Dit apparaat"</string>
+    <string name="owner_your_other_device">"Een van uw andere apparaten"</string>
+    <string name="collection_now_online_managed">"Bewerken collectie is nu ook mogelijk op uw andere apparaten"</string>
+    <string name="collection_now_device_managed">"Bewerken collectie is nu alleen mogelijk op dit apparaat"</string>
+
+    <!-- version 6.0 -->
+    <string name="countryname_world">"Wereldwijd"</string>
+    <string name="action_trading_partners">"Handelspartners"</string>
+    <string name="title_no_trading_partners_found">"Geen handelspartners gevonden"</string>
+    <string name="title_trading_partner_found">"Handelspartners"</string>
+    <string name="change_my_country_only_hint">"Je kunt handelspartners te vinden als je ook toestaan ​​handelspartners uit andere landen dan uw eigen één in het dialoogvenster instellingen."</string>
+    <string name="pref_trading_partners_from_my_country_only">"Laat handelspartner van mijn land alleen."</string>
+    <string name="number_of_coins">"Coins"</string>
+    <string name="confirm_reset_trading_partners">"Wilt u uw zoekopdracht opnieuw in te stellen en omvatten oude handelspartners?"</string>
+    <string name="enter_new_public_name">"Voer een nieuwe openbare collectie naam"</string>
+    <string name="change_public_name">"Change openbare naam"</string>
+    <string name="collection_is_not_public">"Collection is niet openbaar"</string>
+    <string name="coin_to_trading_basket_added">"Coin toegevoegd aan trading mandje"</string>
+    <string name="confirm_publish_trading_collection">"Wil je echt aan uw collectie als een verhandelbaar verzameling publiceren? Alle gegevens (bijvoorbeeld noten van munten) van de collectie zal zichtbaar zijn voor anderen. Uit elk van uw munten '% 1 $ d' coin (s) zal zijn greep terug en zal niet beschikbaar zijn voor de handel zijn. U kunt dit nummer in de instellingen te wijzigen."</string>
+    <string name="collection_is_trading">"Deze collectie kan niet worden verwijderd omdat het wordt gebruikt in de volgende trading collecties:%1$s"</string>
+    <string name="action_get_next_trading_partners">"Get next handelspartner"</string>
+    <string name="action_reset_trading_partners">"Restart search"</string>
+    <string name="trading_partners_resetted">"Old handelspartners zijn geactiveerd."</string>
+    <string name="ask_link_trading_collection">"Een gebruiker behoefte aan munten ruilen met je openbare collectie '%1$s'. De handel verzameling%2$s 'zal worden geladen."</string>
+    <string name="action_help_trading_partners">"Gebruik"</string>
+    <string name="not_your_trading_turn">"Je kunt de trading collectie nu niet bewerken, omdat het de beurt aan uw handelspartner."</string>
+    <string name="trading_confirmed_already">"Deze trading collectie werd al bevestigd door beide partijen. Contact '%1$s' en stuur de munten. Als dat zo is gedaan markeren deze handel als terechtgesteld."</string>
+    <string name="action_send_to_trading_partner">"Verzenden naar handelspartner"</string>
+    <string name="action_confirm_trade">"Confirm trade"</string>
+    <string name="confirm_trade_confirmation_message">"Wil je echt wilt om de handel te bevestigen? Dit is niet van een contract tussen u beiden te creëren. Beide ontvangt u een e-mail te ontvangen en u eens moeten worden over hoe de handel uit te voeren."</string>
+    <string name="device_time_too_old">"De huidige tijd op het apparaat is te oud."</string>
+    <string name="trading_session_empty_no_sending">"Er zijn geen munten voor de handel geselecteerd. Gelieve munten toe te voegen vóór verzending naar handelspartner."</string>
+    <string name="trading_collection_deleted_by_counterparty">"De handel collectie '%1$s' is verwijderd door de handelspartner."</string>
+    <string name="account_not_activated">"Account niet actief. Registreer uw e-mailadres in en bevestig de registratie link of deactiveren de cloud is voorzien in de instellingen."</string>
+    <string name="action_share_public">"Publiceren..."</string>
+    <string name="action_retract_share_public">"Trek de collectie van de handel"</string>
+    <string name="collection_published_for_trading">"Collection is gepubliceerd. Wilt u zoeken naar handelspartners nu?"</string>
+    <string name="collection_retracted_for_trading">"Collection is teruggetrokken uit het publiek. Deze collectie zal niet langer beschikbaar voor nieuwe Trads zijn."</string>
+    <string name="public_name_empty">"Openbare naam mag niet leeg zijn"</string>
+    <string name="email_invalid">"E-mailadres is ongeldig"</string>
+    <string name="collection_is_public">"Openbaar"</string>
+    <string name="trading_your_turn">"Nu is het jouw beurt om te bewerken trading collectie '%1$s'. Als je dan klaar bent stuur het terug naar uw handelspartner of bevestigen de handel als je niet veranderen niets."</string>
+    <string name="trading_confirmed">"De handel voor de handel collectie '%1$s' werd bevestigd door u en uw handelspartner%2$s '. U ontvangt een e-mail met de details. Gelieve te delen uw postadres met uw handelspartner."</string>
+    <string name="trading_sent_collection">"De collectie is verzonden naar uw handelspartner. Het is nu de beurt van je handelspartner te bewerken de trading collectie of bevestigen dat de huidige staat."</string>
+    <string name="pref_trading_coins_to_keep">"Trading: munten te houden"</string>
+    <string name="collection_has_no_tradable_coins">"Uw collectie heeft geen verhandelbare munt. Voeg meer munten of verminderen van het aantal munten in de instellingen te houden."</string>
+    <string name="user_keeps_non_tradable_coins">"De collectie '%1$s' houdt het resterende munten als niet verhandelbaar."</string>
+    <string name="trading_coins_removed">"De volgende trading munten zijn verwijderd uit de collectie '%1$s'."</string>
+    <string name="trade_was_executed">"De trading collectie werd gemarkeerd als 'uitgevoerd'."</string>
+    <string name="action_trade_set_executed">"Trade werd geëxecuteerd"</string>
+    <string name="no_executed_trades">"No uitgevoerde transacties gevonden. Ga en deel uw collectie en ruil uw munten met andere gebruikers!"</string>
+    <string name="action_show_executed_trades">"Uitgevoerd trades"</string>
+    <string name="missing_coin_infos_for_trade_confirmation">"Coin voorwaarden of afbeeldingen ontbreken. Voeg de ontbrekende gegevens in uw collectie."</string>
+    <string name="condition_not_set">"Onbekend"</string>
+    <string name="condition_uncirculated">"Niet in omloop"</string>
+    <string name="condition_circulated_quality_high">"Verspreid kwaliteit hoog"</string>
+    <string name="condition_circulated_quality_medium">"Verspreid kwaliteit medium"</string>
+    <string name="condition_circulated_quality_low">"Verspreid kwaliteit lage"</string>
+    <string name="condition_abr_not_set">"?"</string>
+    <string name="condition_abr_uncirculated">"n.o."</string>
+    <string name="condition_abr_circulated_quality_high">"CH"</string>
+    <string name="condition_abr_circulated_quality_medium">"CM"</string>
+    <string name="condition_abr_circulated_quality_low">"CL"</string>
+    <string name="fixed_unsupported_settings_germany">"De instelling 'Collect duits mints' is uitgeschakeld omdat het niet wordt ondersteund in combinatie met de instelling 'collect jaar als dit is uitgeschakeld."</string>
+    <string name="fixed_unsupported_settings_years_series">" 'Collect jaar' De instellingen en 'collect-serie' mag niet worden samen ingeschakeld. De instelling 'collect-serie' is uitgeschakeld."</string>
+    <string name="collect_years_and_series_is_invalid">"Het verzamelen van jaar en serie is een niet-ondersteunde combinatie."</string>
+    <string name="delete_photo">"Wil je echt om de foto te verwijderen?"</string>
+    <string name="uploading_coin_image">"Afbeelding uploaden."</string>
+    <string name="uploaded_coin_image">"Afbeelding geüpload."</string>
+    <string name="coin_image_upload_error">"Afbeelding uploaden Fout bij. Probeer het later opnieuw."</string>
+    <string name="report_photo">"Afbeelding rapporteren"</string>
+    <string name="photo_reported">"Het beeld is gemeld"</string>
+    <string name="report_photo_message">"Wil je echt om het beeld te melden als een schending van de voorwaarden van de voorwaarden?"</string>
+    <string name="collection_has_reported_coin_images">"De collectie '%1$s' bevat beelden die zijn gemeld als een schending van de voorwaarden van de voorwaarden die door andere gebruikers. Controleer en update uw collectie. Een misbruik zal leiden tot het verwijderen van je account."</string>
+    <string name="reported_photos_title">"Gerapporteerde images"</string>
+    <string name="trading_collection_deleted_by_underlying">"De handel collectie '%1$s' is automatisch verwijderd omdat de onderliggende verzameling%2$s 'ook is verwijderd."</string>
+    <string name="message_history">"Toon geschiedenis"</string>
+    <string name="title_messages">"Berichten"</string>
+    <string name="delete_messages">"Verwijder alles"</string>
+    <string name="swipe_to_delete">"Swipe om te verwijderen"</string>
+    <string name="country_residence">"Residentie"</string>
+    <string name="pref_country_residence">"Uw land (woonplaats)"</string>
+    <string name="set_pref_country_residence">"Selecteer uw land (woonplaats) in de instellingen dialoogvenster aan."</string>
+    <string name="no_collections_found">"Geen collecties gevonden"</string>
+    <string name="trading_user_linked">"Linked trading collectie '%1$s'."</string>
+    <string name="confirm_send_to_trading_partner">"Ben je klaar om de handel collectie naar uw handelspartner? Have rekening mee dat uw handelspartner van de trading collectie zou behalve zoals u het te verzenden."</string>
+    <string name="linked_for_trading_collection_type">"Handelspartner"</string>
+    <string name="confirmed_trade_type">"Bevestigd"</string>
+    <string name="executed_trade_type">"Uitgevoerd"</string>
+    <string name="waiting_trade_type">"Aan het wachten"</string>
+    <string name="action_special_features">"Special Features"</string>
+    <string name="trading_hint_colours">"De heldere beelden zijn die munten die je niet hebt, maar je handelspartner. Vice-versa voor de donkere beelden. De bovenste rij toont de munten die u hebt geselecteerd voor het ontvangen, terwijl de onderste rij toont de munten die zal gaan naar uw handelspartner. de nummers op elke munt zijn x/y/z x = hoeveel van deze munt je weggeeft (het minteken is slechts een hint voor u dat u deze munt weggeven), y = hoeveel van deze munt kan worden verhandeld, z = hoeveel van deze munt u zult ontvangen."</string>
+    <string name="block_trading">"Block trading"</string>
+    <string name="coins_removed_from_trading">"Automatisch verwijderd munten uit de trading mandje"</string>
+    <string name="coin_used_in_trade">"Deze munt is al geselecteerd in de handel verzameling%1$s '. Zorg ervoor dat het uit de handel mand zullen worden verwijderd."</string>
+    <string name="trading_hint_edit_collection_and_send">"Toevoegen of munten te verwijderen om de handel mand als je met je normale collectie (unlock en raak munt helder beeld). Als je klaar bent druk op de knop Verzenden (of via het menu) naar de trading collectie naar uw handelspartner. Om stoppen met de handel gewoon de trading collectie te verwijderen."</string>
+    <string name="trading_hint_confirm_trade">"Verander de trading collectie of accepteren precies zoals uw handelspartner stuurde het naar u zonder verdere veranderingen door het aanraken van de bevestigings-knop. Dit zal geen contract tussen jullie beiden te maken! Als er een verschil in de nominale waarde van de munten tussen beide handelspartners dan moet dit worden vereffend door toevoeging van de juiste hoeveelheid om het pakket."</string>
+    <string name="trading_hint_executed_trade">"Als je de munten verzonden naar uw handelspartner en ontvangst van uw munten kunt u instellen zoals uitgevoerd door het aanraken van de e-mail-knop."</string>
+    <string name="edit_trade_before_executed">"Bewerk"</string>
+    <string name="action_trade_set_executed_merge">"Als de handel werd uitgevoerd zoals verwacht kunt u automatisch uw primaire collectie bij te werken door te kiezen voor 'Ja'. Of je kunt kiezen voor 'No' om uw collectie handmatig bij te werken. Als de verhandelde munten niet overeenkomen met de trading collectie selecteer 'Bewerken' om verandering de trading collectie voordat het naar later worden uitgevoerd. Wijzigingen in de trading collectie zal niet worden gesynchroniseerd met je handelspartner niet langer."</string>
+    <string name="confirmed_trade_is_editable">"Je kunt het al bevestigd trading collectie bewerken door ontsluiten. De trading collectie zal niet meer worden gesynchroniseerd met je handelspartner. Zodra de trading collectie overeenkomt met de verhandelde munten markeren het weer als 'uitgevoerd'."</string>
+    <string name="no_coins_from_trade_merged">"NO munten zijn toegevoegd of verwijderd aan of uit uw collectie."</string>
+    <string name="not_all_coins_from_trade_merged">"Nog niet alle munten zijn toegevoegd of verwijderd aan of uit uw collectie."</string>
+    <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"Je hebt geen munt te selecteren voor het ontvangen, maar alleen om weg te geven. De lichte munt beelden zijn die u op dit moment niet hebben."</string>
+    <string name="no_coin_in_trading_collection">"Er zijn geen munten zijn toegevoegd aan de handel collectie. Toevoegen Gelieve munten die je wilt door het selecteren van de heldere munt beelden te ontvangen van uw handelspartner."</string>
+    <string name="trade_exceeds_value_limit">"Het verschil in de hoeveelheid van de munten te verhandelen (%1$s%3$s) hoger is dan de toegestane limiet van%2$s%3$s."</string>
+    <string name="cent">cent</string>
+    <string name="trading_coin_replaced_other_condition">"De volgende munt van de handelsdag collectie had geen munt voorwaarde vóór en nu worden toegewezen: '%1$s'\n%2$s%3$s%4$s%5$s."</string>
+    <string name="trading_collection_contains_deleted_coins">"De trading collectie bevat munten die niet in de onderliggende collectie zijn."</string>
+    <string name="trading_collection_image_error">"De trading collectie kan niet alle afbeeldingen van de munten goed geladen. Verwijder het trading collectie om te voorkomen dat missunderstanding."</string>
+    <string name="trading_condition_available">"Je voegde een munt die geen munt gestelde voorwaarde heeft, maar er is nog een munt die een munt aandoening of een aangepaste foto heeft. Uw keuze kan blijven als u niet tevreden bent met de andere munten, maar je handelspartner zou de munt voorwaarde niet toe te voegen aan andere munten. Meestal is het beter om munten die reeds een munt staat of aangepaste foto set hebben te selecteren."</string>
+    <string name="trading_no_condition_available">"Je voegde een munt die geen munt voorwaarde set heeft. Nadat u de trading collectie te sturen naar uw handelspartner hij / zij heeft om de collectie bij te werken. U moet achteraf controleren of de munt voorwaarde voldoet aan uw verwachtingen."</string>
+    <string name="trading_diff_amount_pay">"Dit is de hoeveelheid geld die je moet betalen om je handelspartner extra."</string>
+    <string name="trading_diff_amount_receive">"Dit is de hoeveelheid geld die je zal bovendien ontvangt van uw handelspartner."</string>
+    <string name="no_files_for_import_found">"No-bestanden voor import in de map Downloads."</string>
+    <string name="email_confirmed">"E-mailadres is bevestigd."</string>
+    <string name="setup_account">"Account aanmaken"</string>
+    <string name="device_new_master">"Is dit apparaat uw master-apparaat?"</string>
+
+    <string name="how_trading_partner_works">"
+- De trading functionaliteit is niet voor beginners.
+- Lees alle deze zorgvuldig! Anders kun je teleurgesteld worden door de handel functionaliteit.
+- Trading munten met andere handelaren is veel complexer dan u misschien denkt. Vooral wanneer de tijd overeenstemming te bereiken over de munten in te ruilen is meer nodig dan een paar uur je moet overwegen dat de inning van uw handelspartner kan veranderd zijn in de tussentijd. Dit heeft een impact.
+- U verleent toestemming om alle informatie (nota's, beelden, naam, e-mail, land, ...) van uw collectie te publiceren met behulp van de handel functionaliteit.
+- Je kunt munten ruilen met andere gebruikers, maar met behulp van de handel functionaliteit van deze app MOGEN NIET worden beschouwd als een aanbod of als een contract in juridische zin! Wat je ook doet of zien in deze app - het is niet bindend iedereen om het even wat.
+- De trading functionaliteit kan handelspartners voor uw geselecteerde collectie op te sporen.
+- Om het vinden van een handelspartner moet u eerst uw collectie een openbare naam die voor anderen zichtbaar zal zijn en deel uw collectie aan het publiek te geven.
+- Alle munten van uw collectie zal beschikbaar zijn voor anderen voor de selectie zijn, behalve zo veel als je in de instellingen opgegeven 'Trading: Coins te houden'.
+- Je kunt explicitally uitsluiten individuele munten en voorkomen dat ze worden verhandeld via eigendom van de munt 'block trading'. In gedachten hebben dat zelfs geblokkeerd munten zichtbaar voor het publiek zal zijn.
+- Als u niet wilt dat al uw munten zijn beschikbaar voor de handel moet je je collectie eerste splitsen.
+- Uw collectie nodig heeft om een ​​openbare naam die ook zichtbaar is voor anderen zullen krijgen. Hetzelfde geldt voor uw e-mail adres.
+- Alle informatie die in je collectie zal zichtbaar zijn voor het publiek (noten, ...). Door het toevoegen van informatie gaat u ermee akkoord alleen geldig informatie toe te voegen over de munt. Elk misbruik kan worden gemeld door anderen en kan leiden tot het verwijderen van je account.
+- U kunt een afbeelding selecteren of een foto maken en deze toewijzen aan een munt. Elke toegewezen afbeelding wordt zichtbaar voor het publiek. Door dit te doen gaat u akkoord met alleen toewijzen beelden waar je de rechten om dit te doen en die toont slechts de bijbehorende munt. Elk misbruik kan worden gemeld door anderen en kan leiden tot het verwijderen van je account.
+- Een misbruik van het kenmerk misbruik zou kunnen leiden tot het verwijderen van je account.
+- U heeft één handelspartner collectie per aanvraag ontvangen. U kunt koppelen aan de getoonde handelspartner of requenst de volgende. Zodra u alle handelspartners kreeg de zoektocht zal beginnen.
+- Standaard kunt u handelspartners met dezelfde woonland als u in de instellingen koos ontvangen. Dit gedrag kan ook worden gewijzigd in de instellingen. Dan ontvangt u handelspartners uit alle landen.
+- Alleen die handelspartners zullen worden gepresenteerd in de zoektocht die de app in de afgelopen dagen hebben gebruikt. Dit is om ervoor te zorgen dat je niet muf collecties te krijgen.
+- Als u uw verzameling gevonden wilt worden door andere gebruikers moet je de app een keer per week te openen. Momenteel is er geen push-notificatie voor gebruikers die willen ruilen. Je moet de app te openen - alleen dan is de app synchroniseert de trading collecties en je zien of iemand behoefte is om munten te ruilen.
+- De handelspartner collectie zal worden gedownload en gekoppeld op uw apparaat ook, zodat je volledig kunt bladeren.
+- Een nieuwe trading collectie zal worden gemaakt op uw apparaat dat uw collectie en de handelspartner collectie combineert.
+- de handel collectie toont slechts deze munten die slechts in één van beide base collecties.
+- De munten die je collectie niet bevat, maar maken deel uit van de collectie van het handelspartner zal worden getoond een helderder beeld met.
+- De munten die je collectie bevat maar maken geen deel uit van de collectie van het handelspartner zal worden getoond beeld donkerder.
+- Munten die zijn geselecteerd voor de handel zal verschijnen in de handel mand. De mand aan de top shows de munten die u, terwijl de een aan de onderkant die welke je krijgt te sturen naar uw handelspartner.
+- U kunt een munt uit de handel mand verwijderen als u lang de munt of met de remove-knop in de munt meer informatie dialoogvenster waarin u de munt toegevoegd aan te raken. Een tik op een munt in de handel mand zal de medaille in de collectie uitzicht te markeren.
+- Een kleine rode stop symbool van het muntstuk in de handel mand op geeft aan dat deze munt heeft geen munt staat of foto toegewezen. Voordat de handel kan worden bevestigd aan het einde moet worden verwijderd of een munt aandoening of een foto heeft in de bijbehorende collectie die de munt eigenaar moet worden toegewezen.
+- aanvankelijk een '0' wordt op elke munt aangeeft dat deze munt is geen onderdeel van de handel mand.
+- Druk op een van de munten om de details van de medaille zien.
+- In de Detail-View (als u de edit mode ingeschakeld) kunt u de knop 'toevoegen' te gebruiken om de medaille toe te voegen aan de handel mand.
+- Met de knop 'verwijderen' kunt u het verwijderen.
+- U kunt toevoegen en verwijderen van beide kanten: de munten die je wilt hebben en die u weg te geven.
+- Je moet alleen toevoegen en verwijderen munten van je handelspartner als je een goede reden.
+- Nadat u een munt toe te voegen aan de handel basket een '1' zal laten zien om aan te geven dat een van de munten werd geselecteerd en toegevoegd aan de handel mand. Een negativ getal betekent dat je de medaille weg, terwijl een positief getal geeft aan dat je de munt zal ontvangen.
+- Als uw collectie of de collectie van het handelspartner meerdere munten van één specifieke munt dan kunt u bladeren in de gegevens bevatten die elk van deze munten. Kies precies deze munt die u wilt toevoegen aan de handel mand die je wilt hebben. Verschillende munten kan in verschillende omstandigheden.
+- Op de bovenkant van het scherm alle munten die u ontvangt worden vermeld. Op de bodem van alle munten die je weg zal geven zullen worden vermeld. Tik op een van deze munten om te schakelen naar die munt. Long het bezit van een munt om het uit de handel collectie te verwijderen. U kunt horizontaal te scrollen door middel van deze lijsten.
+- De statistiek voor de handel collecties is anders dan normaal collecties. x/y/z x = altijd Negativ en laten zien hoeveel munten u weg zal geven; y = aantal mogelijke differnt munten handel; z = altijd positiv en laten zien hoeveel munten u zult ontvangen.
+- Zodra u klaar uw keuze sturen de handel verzoek om uw handelspartner.
+- De handelspartner wordt geïnformeerd dat er een nieuwe trading sessie werd geïnitieerd. Nu kan je handelspartner van de trading collectie bewerken en stuur het naar u terug.
+- Om een ​​beter hebben overzicht is het misschien zinvol om te schrijven op papier de munten die zijn geselecteerd voor de handel. Momenteel is de app niet een geschiedenis van de handel collectie te ondersteunen. Je hoeft alleen de huidige status altijd.
+- Beide gebruikers kunnen de handel mand na elkaar bewerken tot één gebruiker de collectie niet meer verandert, maar bevestigen dat de handel. Als er een verschil in de nominale waarde van de munten tussen beide handelspartners dan moet dit worden vereffend door toevoeging van de juiste hoeveelheid aan de verpakking.
+- Een handel kan alleen worden bevestigd als elke verhandeld munt heeft ofwel de munt staat eigenschap is ingesteld of een bijgevoegde individuele afbeelding.
+- Nadat de handel werd bevestigd u en uw handelspartner zal een e-mail met elkaars e-mailadressen en een lijst met de munten die zijn geselecteerd voor de handel ontvangen.
+- Als u met succes uw munten plus een uiteindelijk bedrag van geld om een ​​verschil in de nominale waarde gelijk aan uw handelspartner verzonden en ontvangen uw nieuwe munten markeer de trading collectie als plaats via de trading collectie menu. Dan zal de collectie niet in het menu van de gebruiker niet meer, maar in menu-> collectie-> trading_partners-> uitgevoerde transacties.
+- Tijdens het instellen van de trading collectie 'geëxecuteerd' kunt u ervoor kiezen om uw collectie automatisch bij te werken. Kies 'Nee' om uw collectie handmatig bijwerken. Met 'Edit' je mag bewerken de trading collectie, zelfs nadat het werd bevestigd. Gebruik dit voor het geval dat de verhandelde munten om niet overeen met de trading collectie. Maar de handel collectie zal niet worden gesynchroniseerd met je handelspartner niet meer. Na de verhandelde munten en de trading collectie overeenkomen met bent u opnieuw markeren de collectie als uitgevoerd en kies 'Ja' om automatisch uw eigen collectie bij te werken.
+- Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
+"</string>
+
+    <string name="version_history_current">"Versie 6.0\n
+        Toegevoegde functie om de handel munten met andere gebruikers. Lees menu-> Collectie-> Trading Partners-> Usage.\n
+        Toegevoegd functie om een ​​individueel beeld van een muntstuk n te nemen. \
+        Coin beelden van andere gebruikers kunnen worden gerapporteerd als een schending van de voorwaarden van de voorwaarden\n
+        Toon verticale balk om de 5 jaar en horizontale lijnen om de leesbaarheid te vergroten.\n
+        meer 2 toegevoegd? herdenkingsmunten voor 2019."</string>
+
+    <string name="version_history_last">"Versie 5.6.10\n
+        Toegevoegd functie om split collectie.\n
+        Vaste synchronisatie bug gedeelde collecties.\n
+        Vaste Russische vertaling."</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>

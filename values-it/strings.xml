@@ -30,7 +30,7 @@
     <string name="import_ok">Importazione OK</string>
     <string name="help">Aiuto</string>
     <string name="help_message">i problemi soddisfanno, messaggi di errore, domande o richieste di funzionalità che praticano la voce di menu "Invia messaggio" Relazione (http://eurocoinsalbum.jimdo.com). Invia Tali osservazioni non dovrebbe in Play Store.</string>
-    <string name="help_statistics">Il formato di Statistica è x / y / z x = numero di possibili monete diverse che sono stati raccolti; y = numero di possibili monete diverse che possono essere raccolti; z = numero totale di monete raccolte (nel caso in cui la moneta è stato raccolto più di una volta; vedere Proprietà moneta). Il numero decimale indica la quantità di denaro, che è stato raccolto e in aggiunta la quantità di valore e pagato, se sono stati inseriti questi dati nelle proprietà della moneta.</string>
+    <string name="help_statistics">Il formato di Statistica è x/y/z x=numero di possibili monete diverse che sono stati raccolti; y = numero di possibili monete diverse che possono essere raccolti; z = numero totale di monete raccolte (nel caso in cui la moneta è stato raccolto più di una volta; vedere Proprietà moneta). Il numero decimale indica la quantità di denaro, che è stato raccolto e in aggiunta la quantità di valore e pagato, se sono stati inseriti questi dati nelle proprietà della moneta.</string>
     <string name="help_coin_marker">Un \'X\' sulla moneta indica che la moneta non è stato influenzato (se si dispone di altre informazioni a riguardo, potete darmi questa felici zumailen). Un \'*\' sulla moneta indica che questo è stato coniato solo come KMS, se tale impostazione è attivata.</string>
     <string name="help_eu_view">La vista UE indica se l\'utente corrente, questa moneta per tutti i paesi (e zecche) ha raccolto, o se almeno uno mancante. Premere il moneta indica quali paesi questa moneta è già stato raccolto.</string>
     <string name="help_multi_user">Il punto di vista multi-utente indica se tutti gli utenti hanno la moneta, o se manca almeno un utente.</string>
@@ -44,7 +44,6 @@
     <string name="pref_image_size">Dimensione dell\'immagine</string>
     <string name="pref_text_size_1">Dimensione del testo 1 (titolo)</string>
     <string name="pref_text_size_2">Dimensione del testo  2 (monete)</string>
-    <string name="pref_collect_two_euro_only">Solo 2 Euro monete</string>
     <string name="pref_collect_years">anni e coniature</string>
     <string name="pref_show_statistics">Mostra statistiche</string>
     <string name="pref_language">Lingua / Language</string>
@@ -54,8 +53,7 @@
     <string name="note">Nota</string>
     <string name="pref_show_only_missing_coins">Mostrare solo monete mancanti</string>
     <string name="pref_show_official_coin_set_marker">Spettacolo marcatore \'Moneta ufficiale impostata\' (*)</string>
-    <string name="condition">Stato</string>
-    <string name="condition_helper">(A&#8211;Z or 1&#8211;9)</string>
+    <string name="coinCondition">Stato</string>
     <string name="action_open_url_comment">Scrivi messaggio</string>
     <string name="action_close">Chiudere</string>
     <string name="index_cc">Indice</string>
@@ -80,16 +78,326 @@
     <string name="pref_background_color">Background color</string>
     <string name="pref_hide_not_existing_coins">Hide not existing coins</string>
     <string name="click_the_coin_set_expand_button">To open the coin set group touch the plus button</string>
-    <!-- v4.5 -->
+    <string name="action_manage_shared_collection">gestisci</string>
+    <string name="collection_is_not_shared">Questa collezione non è stato condiviso</string>
+    <string name="register">registrati</string>
 
-    <string name="version_history_current">"Versione 5.6.9\n
-        Aggiunte tutte le monete commemorative conosciute per il 2019 ma con una sola immagine comune\n
-        Risolto un bug se è stata toccata una moneta comune (lato sinistro)\n
-        In vista dell'UE mostra le monete commemorative raccolte quando vi si clicca sopra.\n
-        Evitare di ricostruire la visualizzazione dell'album quando si chiudono determinate finestre di dialogo"</string>
+    <!-- v5.0 -->
+    <string name="pref_text_size_3">Dimensione testo 3 (lista di selezione)</string>
+    <string name="version_history">elenco delle versioni</string>
+    <string name="pref_use_cloud_features">Usa nuvola (Internet) presenta</string>
+    <string name="backup_no_cloud_features_activated">Cloud (Internet) sono disattivate. I backup vengono memorizzati sul solo il telefono cellulare.</string>
+    <string name="action_create_backup">crea backup</string>
+    <string name="action_show_notifications">notifiche</string>
+    <string name="action_show_info">informazioni</string>
+    <string name="action_save">salva</string>
+    <string name="help_cloud_features">Quando Caratteristiche cloud sono attivati ​​allora i backup settimanali saranno inoltre in fase caricati sul web-storage di Eurocoins dell\'album. È possibile ripristinare loro come presenta i backup comuni\nCloud utilizza un ID utente univoco che viene generato da questa applicazione per identificare il backup. È possibile trovare questo ID utente nel menu Informazioni - Il mio ID utente.</string>
+    <string name="help_email">L\'ID utente verrà inviato all\'indirizzo di posta elettronica immesso in impostazioni - E-Mail.</string>
+    <string name="action_show_uuid">il mio user id</string>
+    <string name="id_created">ID utente creato. Vedere il menù: informazioni - My User ID</string>
+    <string name="no_internet_no_backup">Internet non è disponibile. Backup non verrà caricato nel cloud.</string>
+    <string name="pref_email">e-mail</string>
+    <string name="send_id">ID Utente Invia</string>
+    <string name="email_sent">Una e-mail è stata inviata a %1$s</string>
+    <string name="email_sent_confirm">Una e-mail è stata inviata a %1$s. Controllare SPAM. Cliccate il seguente link all\'interno della e-mail per confermare l\'indirizzo di posta elettronica.</string>
+    <string name="enter_email">Si prega di registrare il proprio indirizzo di posta elettronica.</string>
+    <string name="no_backups_available">nessun backup disponibile</string>
+    <string name="internet_not_available_for_backup">Internet non è disponibile. Solo saranno trattati backup locali.</string>
+    <string name="register_email">registra email</string>
+    <string name="data_saved">i dati sono stati salvati</string>
+    <string name="switch_id">Trasferimento User ID</string>
+    <string name="enter_id_to_be_transferred">Inserisci l\'ID utente che si desidera prendere il sopravvento. Questi dati verranno fuse sul tuo conto.</string>
+    <string name="no_internet_no_registration">Internet non è disponibile. Attiva l\'accesso a Internet e registrare la posta tramite user menu.</string>
+    <string name="no_internet">internet non disponibile</string>
+    <string name="email_sent_confirm_delete_account">Una e-mail è stata inviata a%1$s. Controllare SPAM. Cliccate il seguente link all\'interno della e-mail di cancellare il tuo account online.</string>
+    <string name="help_transfer_id">Se si desidera trasferire ID utente ad un altro dispositivo (telefono, tablet) quindi immettere l\'ID utente sul dispositivo di destinazione tramite il menu informazioni-> Il mio ID utente.> ID Trasferimento utente. Il proprietario originale riceverà una e-mail dove deve confermare il trasferimento. Tutti i tuoi vecchi backup online saranno spostati nel nuovo ID utente.</string>
+    <string name="delete_online_account">Elimina account online</string>
 
-    <string name="version_history_last">"Versione 5.6.8\n
-        Crash fisso durante la rotazione veloce del dispositivo"</string>
+    <!-- 5.1 -->
+    <string name="deletedBackups">backup su dispositivo eliminato:\n%1$s backup\nDeleted nel cloud:\n%2$s</string>
+    <string name="backup_upload_error">Errore durante il caricamento di backup</string>
+    <string name="action_share_with">Condividi con ...</string>
+    <string name="action_add_share_with">aggiungi nuovo</string>
+    <string name="action_retract_share">ritratta</string>
+    <string name="share_with_ok">condiviso con %1$s</string>
+    <string name="share_with_error">Errore durante la condivisione con%1$s</string>
+    <string name="action_unshare_with_ok">Ritratta condividere questa collezione con%1$s</string>
+    <string name="enter_email_to_share_to">Inserisci l\'e-mail che si desidera condividere questa collezione con.</string>
+    <string name="action_sync_collections">sincronizza</string>
+    <string name="collection_linked">Linked condivisi di raccolta%1$s</string>
+    <string name="start">inizia</string>
+    <string name="cancel">annulla</string>
+    <string name="sync_collection_ok">Collezione%1$ssincronizzato</string>
+    <string name="sync_collection_error">Errore di sincronizzazione per la raccolta%1$s</string>
+    <string name="sync_collections_error">errore di sincronizzazione</string>
+    <string name="linked_collection_read_only">raccolte condivise collegati sono di sola lettura</string>
+    <string name="load_file_error">file di caricamento di errore%1$s</string>
+    <string name="no_cloud_features_activated">Cloud (Internet) sono disattivate.</string>
+    <string name="not_saved_load_error">L\'utente %1$s non salvato a causa del precedente errore di caricamento. modalità di modifica Sblocca per forzare Salva.</string>
+    <string name="collection_infos_general">Nome: %1$s\nCollection ID: %2$s\nPublic Nome: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s</string>
+    <string name="collection_deleted">Collezione%1$scancellato</string>
+    <string name="collection_sharing_retracted">Condiviso raccolta %1$s è stato ritirato dal proprietario</string>
+    <string name="collection_sharing_retracted_ok">raccolta condivisa è stato ritirato per %1$s</string>
+    <string name="collection_retract_sharing">Selezionare gli elementi da condivisione di ritrazione</string>
+    <string name="title_collection_shared_with_me">raccolta condivisa</string>
+    <string name="ask_link_collection">%1$s ha condiviso la sua collezione \'%2$s\' con voi. Vuoi collegarlo?</string>
+    <string name="wrong_app_version_update">"aggiorna l'app all'ultima versione!"</string>
+    <string name="session_expired_try_again">la sessione è scaduta. prova ancora.</string>
+    <string name="forum">forum</string>
+    <string name="logged_in">connessi</string>
+    <string name="pref_other_special_coins">Altre monete speciali</string>
+    <string name="coin_parse_error">Errore di carico (vedi le notifiche per i dettagli)</string>
+    <string name="switch_id_error">Errore durante il trasferimento ID utente.</string>
+    <string name="register_mail_error">Errore durante l\'indirizzo di posta registrazione</string>
+    <string name="login_error">Errore durante l\'accesso a</string>
+    <string name="search_coin">cerca moneta</string>
+    <string name="enter_coin_search_text">Inserisci il testo da ricercare</string>
+    <string name="no_matching_coins_found">Nessun monete corrispondente trovata</string>
+    <string name="pref_collect_series">serie Raccogliere</string>
+    <string name="pref_commemorative_coins">monete commemorative</string>
+
+    <!-- changed in 5.1 -->
+    <string name="pref_collect_two_euro_only">Non raccogliere monete standard</string>
+
+    <!-- version 5.3 -->
+    <string name="enter_coin_value">Inserisci il valore delle monete</string>
+    <string name="select_image">scegli le foto</string>
+    <string name="no_camera_permission">In Android menu di apps attivare \'Permessi\' per \'Camera\'</string>
+    <string name="pref_coin_photo_size">dimensioni immagine della telecamera</string>
+    <string name="permission_error">errore di autorizzazione</string>
+    <string name="image_load_error">"si è verificato un errore durante il caricamento dell'immagine"</string>
+    <string name="not_registered_user_email">\'%1$s\' non è un e-mail registrato di un utente.</string>
+    <string name="action_force_sync_collections">forza sincronizzazione</string>
+    <string name="is_2_euro_cc">E 2€ moneta commemorativa</string>
+    <string name="confirm_rename_collection_title">raccolta rinominata</string>
+    <string name="confirm_rename_collection">Vuoi rinominare la raccolta \'%1$s\' a \'%2$s\'</string>
+    <string name="show_newest_added_coins">recenti monete</string>
+    <string name="i_dont_have_this_coin">non ho questa moneta</string>
+    <string name="create_as_multiview">Creare Multi View</string>
+    <string name="select_collections">seleziona raccolte</string>
+    <string name="country_statistic">paese statistica</string>
+    <string name="country_statistic_message">%1$s di %2$s possibili diversi tipi di monete raccolte\n %3$s monete raccolte complessiva\n%4$s € è il valore nominale\n%5$s € è quello che hai pagato\n%6$s € è il valore</string>
+    <string name="compare_against_other_collection">confronta</string>
+    <string name="no_differences_in_collections_found">Nessuna differenza trovato</string>
+    <string name="error_saving_collection">Errore durante il salvataggio di raccolta%1$s</string>
+    <string name="invalid_value">valore non valido</string>
+    <string name="invalid_year">anno non valido</string>
+
+    <!-- version 5.4 -->
+    <string name="collection_modus_to_offline">Gestire il dispositivo</string>
+    <string name="collection_modus_to_online">gestire in linea</string>
+    <string name="no_internet_no_modus_on_offline">connessione a Internet deve essere disponibile per la commutazione questa modalità</string>
+    <string name="set_collection_modus_error">Errore durante il passaggio collezione Modus. Per favore riprova più tardi.</string>
+    <string name="editing_only_in_collection_mode_online">Impostare questa collezione ad essere gestito online sul tuo dispositivo master per consentire la modifica su tutti i dispositivi</string>
+    <string name="no_internet_no_editing">Internet non è disponibile, ma è obbligatoria per le collezioni on-line gestite.</string>
+    <string name="collection_editing_locked">Raccolta bloccata da un altro dispositivo</string>
+    <string name="collection_not_locked">Collezione non è stato bloccato o blocco è stato sollevato da un altro dispositivo</string>
+    <string name="collection_editing_locked_force_unlock">Vuoi forza di bloccaggio per il vostro dispositivo? Non verranno perse le modifiche sincronizzate.</string>
+    <string name="request_edit_token_error">Errore durante la richiesta di modalità di modifica in linea</string>
+    <string name="release_edit_token_error">Errore durante il rilascio della serratura editing on-line</string>
+    <string name="collection_not_online_managed">Collection non è gestito in linea</string>
+    <string name="close">chiudi</string>
+    <string name="pref_collect_german_mints">zecche tedesche Raccogliere</string>
+    <string name="pref_collect_greece_2002_foreign_mints">Raccogliere grecia 2002 zecche straniere</string>
+    <string name="collect_no_years_but_german_mints_is_invalid">Non raccogliere anni ma zecche tedesche è una combinazione non supportata</string>
+
+    <!-- version 5.6 -->
+    <string name="user_name_already_exists">nome già esistente</string>
+    <string name="user_name_contains_invalid_characters">il nome della cartella contiene caratteri non validi</string>
+
+    <!-- version 5.6.4 -->
+    <string name="transfer_collection">"collezioni di trasferimento"</string>
+
+    <!-- version 5.6.5 -->
+    <string name="building_album_please_wait">"Album Building - attendere"</string>
+
+    <!-- version 5.6.9 -->
+    <string name="ok">"Ok"</string>
+    <string name="split_collection">"Diviso"</string>
+    <string name="enter_number_of_coins_for_splitting">"Si prega di inserire il numero di gettoni per ogni gettone a disposizione si desidera trasferire alla prima copia. Rimanenti andranno nella seconda copia di questa collezione. La collezione originale non verrà modificato o eliminato."</string>
+    <string name="collection_split_ok">"Collezione è stata suddivisa in 2 nuove collezioni. Dopo aver esaminato quelli che si possono eliminare la raccolta originale."</string>
+    <string name="transfer_collection_error">"Errore durante il trasferimento della collezione '%1$s'</string>
+
+    <!-- version 5.6.10 -->
+    <string name="collection_transferred_title">"Collection '%1$s' è stato trasferito a un altro dispositivo."</string>
+    <string name="owner_this_device">"Questo dispositivo"</string>
+    <string name="owner_your_other_device">"Uno degli altri dispositivi"</string>
+    <string name="collection_now_online_managed">"Modifica collezione è ora possibile anche su altri dispositivi"</string>
+    <string name="collection_now_device_managed">"Modifica collezione è ora possibile solo su questo dispositivo"</string>
+
+    <!-- version 6.0 -->
+    <string name="countryname_world">"In tutto il mondo"</string>
+    <string name="action_trading_partners">"Soci in affari"</string>
+    <string name="title_no_trading_partners_found">"Nessun partner commerciali trovato"</string>
+    <string name="title_trading_partner_found">"Soci in affari"</string>
+    <string name="change_my_country_only_hint">"Si possono trovare partner commerciali se si consente anche partner commerciali di altri paesi di uno proprio nella finestra delle impostazioni."</string>
+    <string name="pref_trading_partners_from_my_country_only">"Mostra negoziazione socio solo dal mio paese."</string>
+    <string name="number_of_coins">"Monete"</string>
+    <string name="confirm_reset_trading_partners">"Vuoi reimpostare la ricerca e includere i vecchi partner commerciali?"</string>
+    <string name="enter_new_public_name">"Inserire il nuovo nome raccolta pubblica"</string>
+    <string name="change_public_name">"Cambiare nome pubblico"</string>
+    <string name="collection_is_not_public">"Raccolta non è pubblico"</string>
+    <string name="coin_to_trading_basket_added">"Coin è stato aggiunto alla negoziazione"</string>
+    <string name="confirm_publish_trading_collection">"Vuoi davvero pubblicare la vostra collezione come un insieme negoziabile? Tutti i dati (ad esempio note di monete) della collezione sarà visibile agli altri. Da ciascuna delle vostre monete '%1$d' coin (s) sarà attesa indietro e non sarà disponibile per la negoziazione. È possibile modificare questo numero nelle impostazioni."</string>
+    <string name="collection_is_trading">"Questa collezione non può essere eliminato perché è utilizzato nelle seguenti collezioni di negoziazione: %1$s"</string>
+    <string name="action_get_next_trading_partners">"Get prossimo partner commerciale"</string>
+    <string name="action_reset_trading_partners">"Ricerca Restart"</string>
+    <string name="trading_partners_resetted">"I vecchi partner commerciali sono state riattivate."</string>
+    <string name="ask_link_trading_collection">"A voler utente di monete al commercio con la vostra collezione pubblica '%1$s'. La collezione di trading '%2$s' sarà caricato."</string>
+    <string name="action_help_trading_partners">"Utilizzo"</string>
+    <string name="not_your_trading_turn">"Non si può modificare la collezione di trading ora perché è il turno del tuo partner commerciale."</string>
+    <string name="trading_confirmed_already">"Questa collezione di trading è stata già confermata da entrambe le parti. Contatto '%1$s' e inviare le monete. Se fatto in modo da marcare questo commercio come eseguito."</string>
+    <string name="action_send_to_trading_partner">"Invia al partner commerciale"</string>
+    <string name="action_confirm_trade">"Conferma il commercio"</string>
+    <string name="confirm_trade_confirmation_message">"Vuoi davvero confermare il commercio? Questo non crea un contratto tra i due di voi. Entrambi si riceverà una e-mail e si deve stabilire le modalità per eseguire il commercio."</string>
+    <string name="device_time_too_old">"L'ora corrente del dispositivo è troppo vecchio."</string>
+    <string name="trading_session_empty_no_sending">"Nessun monete per la negoziazione selezionata. Si prega di aggiungere le monete prima di inviare al partner commerciale".</string>
+    <string name="trading_collection_deleted_by_counterparty">"'%1$s' La collezione di trading è stato eliminato dal partner commerciale."</string>
+    <string name="account_not_activated">"Account non attivo. Si prega di registrare il proprio indirizzo di posta elettronica e confermare il link di registrazione o disattivare la nube presenta nelle impostazioni."</string>
+    <string name="action_share_public">"Pubblicare..."</string>
+    <string name="action_retract_share_public">"Ritrarre la collezione di negoziazione"</string>
+    <string name="collection_published_for_trading">"Collection è stato pubblicato. Vuoi per la ricerca di partner commerciali, adesso?"</string>
+    <string name="collection_retracted_for_trading">"Collection è stato ritirato da parte del pubblico. Questa raccolta non sarà disponibile per i nuovi Trads più."</string>
+    <string name="public_name_empty">"Nome pubblico non può essere vuoto"</string>
+    <string name="email_invalid">"L'indirizzo email non è valido"</string>
+    <string name="collection_is_public">"Pubblico"</string>
+    <string name="trading_your_turn">"E 'ora il tuo turno di raccolta di modifica di trading '%1$s'. Quando si è fatto poi inviarlo di nuovo al vostro partner commerciale o confermare il commercio se non ha cambiato nulla."</string>
+    <string name="trading_confirmed">"Il commercio per la raccolta di trading '%1$s' è stata confermata da voi e il vostro partner commerciale '%2$s'. Riceverai una e-mail con i dettagli. Si prega di condividere il tuo indirizzo post con il vostro partner commerciale."</string>
+    <string name="trading_sent_collection">"La collezione è stato inviato al partner commerciale. E 'ora il turno del tuo partner commerciale per modificare la raccolta di trading o confermare lo stato attuale."</string>
+    <string name="pref_trading_coins_to_keep">"Trading: monete per mantenere"</string>
+    <string name="collection_has_no_tradable_coins">"La tua collezione non ha alcuna moneta negoziabile. Aggiungere più monete o ridurre il numero di monete per mantenere nelle impostazioni."</string>
+    <string name="user_keeps_non_tradable_coins">"'%1$s' La collezione conserva è rimasto monete come non negoziabile".</string>
+    <string name="trading_coins_removed">"I seguenti monete di scambio sono stati rimossi dalla raccolta '%1$s'."</string>
+    <string name="trade_was_executed">"La collezione di trading è stato contrassegnato come 'giustiziato'."</string>
+    <string name="action_trade_set_executed">"Il commercio è stato eseguito"</string>
+    <string name="no_executed_trades">"Commercio Nessuna eseguiti trovato. Go e condividere la vostra collezione e del commercio le monete con altri utenti!"</string>
+    <string name="action_show_executed_trades">"negoziazioni eseguite"</string>
+    <string name="missing_coin_infos_for_trade_confirmation">"Le condizioni o le immagini delle monete sono mancanti. Aggiungere le informazioni mancanti nella vostra collezione."</string>
+    <string name="condition_not_set">"Sconosciuto"</string>
+    <string name="condition_uncirculated">"Non in circolazione"</string>
+    <string name="condition_circulated_quality_high">"Alta qualità Circulated"</string>
+    <string name="condition_circulated_quality_medium">"Qualità media Circulated"</string>
+    <string name="condition_circulated_quality_low">"Bassa qualità Circulated"</string>
+    <string name="condition_abr_not_set">"?"</string>
+    <string name="condition_abr_uncirculated">"n.c."</string>
+    <string name="condition_abr_circulated_quality_high">"CH"</string>
+    <string name="condition_abr_circulated_quality_medium">"CM"</string>
+    <string name="condition_abr_circulated_quality_low">"CL"</string>
+    <string name="fixed_unsupported_settings_germany">"L'impostazione 'zecche Collect tedesco' è stato spento in quanto non è supportato in combinazione con l'impostazione 'raccolta' anni, se questo è stato spento."</string>
+    <string name="fixed_unsupported_settings_years_series">"'Anni raccolta' le impostazioni e 'serie raccolta' non dovrebbe essere attivata insieme. L'impostazione 'serie raccolta' è stato spento."</string>
+    <string name="collect_years_and_series_is_invalid">"Raccolta anni e la serie è una combinazione non supportata."</string>
+    <string name="delete_photo">"Vuoi veramente cancellare la foto?"</string>
+    <string name="uploading_coin_image">"Immagine Uploading."</string>
+    <string name="uploaded_coin_image">"Immagine caricato."</string>
+    <string name="coin_image_upload_error">"Image uploading Errore durante. Si prega di riprovare più tardi."</string>
+    <string name="report_photo">"Segnala l'immagine"</string>
+    <string name="photo_reported">"L'immagine è stata segnalata"</string>
+    <string name="report_photo_message">"Vuoi davvero segnalare l'immagine come una violazione dei termini di condizioni?"</string>
+    <string name="collection_has_reported_coin_images">"'%1$s' La collezione contiene le immagini che sono stati segnalati come una violazione dei termini di condizioni da parte di altri utenti. Si prega di verificare e aggiornare la vostra collezione. Un abuso porterà alla cancellazione del tuo account."</string>
+    <string name="reported_photos_title">"immagini segnalati"</string>
+    <string name="trading_collection_deleted_by_underlying">"La collezione di trading '%1$s' è stato cancellato automaticamente, perché la collezione sottostante '%2$s' è stato cancellato anche."</string>
+    <string name="message_history">"Mostra la storia"</string>
+    <string name="title_messages">"Messaggi"</string>
+    <string name="delete_messages">"Cancella tutto"</string>
+    <string name="swipe_to_delete">"Scorri per eliminare"</string>
+    <string name="country_residence">"Residenza"</string>
+    <string name="pref_country_residence">"Il vostro paese (residenza)"</string>
+    <string name="set_pref_country_residence">"Purtroppo per il (residenza) nelle impostazioni di dialogo prima."</string>
+    <string name="no_collections_found">"Nessun collezioni trovato"</string>
+    <string name="trading_user_linked">"Collezione di trading Linked '%1$s'."</string>
+    <string name="confirm_send_to_trading_partner">"Sei pronto a inviare la raccolta di trading al partner commerciale? Avere in mente che il vostro partner commerciale potrebbe tranne la raccolta trading come lo si invia."</string>
+    <string name="linked_for_trading_collection_type">"Partner commerciale"</string>
+    <string name="confirmed_trade_type">"Confermato"</string>
+    <string name="executed_trade_type">"Eseguito"</string>
+    <string name="waiting_trade_type">"In attesa"</string>
+    <string name="action_special_features">"Caratteristiche particolari"</string>
+    <string name="trading_hint_colours">"Le immagini luminose sono quelle monete che non ho, ma il vostro partner commerciale. Viceversa per le immagini scure. Gli spettacoli top fila le monete selezionate per la ricezione, mentre gli spettacoli riga in basso quelle monete che andranno al vostro partner commerciale. i numeri su ogni moneta sono x/y/z x = quanti di questa moneta si dà via (il segno meno è solo un suggerimento per voi che vi danno questa moneta di distanza), y = quanti di questa moneta potrebbe essere scambiato, z = quanti di questa moneta riceverete ".</string>
+    <string name="block_trading">"Trading Block"</string>
+    <string name="coins_removed_from_trading">"Rimosso automaticamente le monete dal cestello di negoziazione"</string>
+    <string name="coin_used_in_trade">"Questa moneta è stato già selezionato in '%1$s' la collezione di trading. Assicurarsi che verrà rimosso dal cestino di trading".</string>
+    <string name="trading_hint_edit_collection_and_send">"Aggiungere o rimuovere le monete per il basket trading come si fa con la vostra collezione normale (di sblocco e toccare moneta immagine luminosa con). Una volta che siete toccare Fatto il pulsante di invio (o tramite menu) per inviare la raccolta di trading al partner commerciale. Per fermare il commercio semplicemente eliminare la raccolta di trading ".</string>
+    <string name="trading_hint_confirm_trade">"O cambiare la raccolta di trading o accettare esattamente come vostro partner commerciale ha inviato a voi senza ulteriori modifiche toccando il pulsante di conferma. Questo non creerà un contratto tra i due di voi! Se c'è una differenza nel valore nominale delle monete tra i due partner commerciali, allora questo deve essere equalizzato aggiungendo l'importo corretto per il pacchetto ".</string>
+    <string name="trading_hint_executed_trade">"Quando hai mandato le monete per il vostro partner commerciale e ricevuto le monete è possibile impostarlo come eseguito toccando il pulsante di posta elettronica."</string>
+    <string name="edit_trade_before_executed">"Modificare"</string>
+    <string name="action_trade_set_executed_merge">"Se è stato eseguito il commercio come previsto è possibile aggiornare automaticamente la vostra collezione di primaria selezionando 'Sì'. Oppure si può scegliere 'No' per aggiornare la vostra collezione manualmente. Se le monete negoziati non corrispondono alla raccolta di trading selezionare 'Modifica' per il cambiamento la collezione di trading prima di poter essere eseguito in seguito. le modifiche della collezione di negoziazione non sarà sincronizzato con il partner commerciale più ".</string>
+    <string name="confirmed_trade_is_editable">"È possibile modificare la collezione di trading già confermato sbloccando esso. La collezione negoziazione non verrà sincronizzata più con il vostro partner commerciale. Una volta che la collezione di trading corrisponde alle monete negoziati segnano di nuovo come 'giustiziato'."</string>
+    <string name="no_coins_from_trade_merged">"NO monete sono stati aggiunti o rimossi da o verso la vostra collezione."</string>
+    <string name="not_all_coins_from_trade_merged">"Non sono stati aggiunti o rimossi tutte le monete da o verso la vostra collezione."</string>
+    <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"Non è stata selezionata alcuna medaglia per la ricezione, ma solo per dare via. Le immagini luminose della moneta sono quelli che attualmente non si dispone."</string>
+    <string name="no_coin_in_trading_collection">"Non sono le monete sono state aggiunte alla collezione di trading. Si prega di aggiungere le monete che si desidera ricevere dal proprio partner commerciale selezionando le immagini luminose della moneta."</string>
+    <string name="trade_exceeds_value_limit">"La differenza del valore delle monete da negoziare (%1$s %3$s) supera il limite consentito di %2$s %3$s".</string>
+    <string name="cent">"centesimo"</string>
+    <string name="trading_coin_replaced_other_condition">"La seguente moneta della collezione di trading non aveva alcuna condizione di moneta prima e ha ora essere assegnato: '%1$s'\n%2$s %3$s %4$s %5$s."</string>
+    <string name="trading_collection_contains_deleted_coins">"La collezione di trading contiene le monete che non sono presenti nella collezione di fondo."</string>
+    <string name="trading_collection_image_error">"La collezione di trading non può caricare tutte le immagini delle monete correttamente. Si prega di eliminare la raccolta di trading per evitare malinteso."</string>
+    <string name="trading_condition_available">"Hai aggiunto una moneta che non ha impostato condizione moneta Ma c'è un'altra moneta che ha una condizione moneta o una foto personalizzata. La selezione può rimanere se non sono soddisfatti con le altre monete ma il vostro partner commerciale potrebbe non aggiungere la condizione moneta altre monete. di solito è meglio selezionare le monete che hanno già un set fotografico condizione di moneta o personalizzate ".</string>
+    <string name="trading_no_condition_available">"Hai aggiunto una moneta che non ha impostato condizione di moneta. Dopo aver inviato la collezione di trading al partner commerciale lui / lei deve aggiornare la collezione. Si dovrebbe poi controllare se la condizione moneta soddisfa le vostre aspettative."</string>
+    <string name="trading_diff_amount_pay">"Questa è la quantità di denaro che si deve pagare per il vostro partner commerciale in aggiunta."</string>
+    <string name="trading_diff_amount_receive">"Questa è la quantità di denaro che si riceverà dal vostro partner commerciale in aggiunta."</string>
+    <string name="no_files_for_import_found">"Nessun file per l'importazione trovano nella cartella Download."</string>
+    <string name="email_confirmed">"È stato confermato l'indirizzo e-mail."</string>
+    <string name="setup_account">"Conto Setup"</string>
+    <string name="device_new_master">"Questo dispositivo è il dispositivo padrone?"</string>
+
+    <string name="how_trading_partner_works">"
+- La funzionalità di trading non è per principianti.
+- Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
+- Trading monete con altri operatori è molto più complessa di quanto si possa pensare. Soprattutto quando il tempo di concordare le monete per essere scambiato prende più di un paio d'ore si deve considerare che la raccolta del vostro partner commerciale potrebbe essere cambiato nel frattempo. Questo ha un impatto.
+- Si concede il permesso di pubblicare qualsiasi informazione (note, immagini, nome, e-mail, il paese, ...) della vostra collezione utilizzando la funzionalità di trading.
+- È possibile scambiare monete con altri utenti ma utilizzando la funzione di negoziazione di questa applicazione non deve essere considerato come un'offerta o come un contratto in termini legali! Qualunque cosa fare o vedere in questa applicazione - è non è vincolante a chiunque di qualsiasi cosa.
+- La funzionalità di trading può trovare partner commerciale per la vostra collezione attualmente selezionato.
+- Per trovare un partner commerciale è necessario prima di dare la vostra collezione un nome pubblico che sarà visibile agli altri e condividere la vostra collezione al pubblico.
+- Tutte le monete della vostra collezione saranno disponibili ad altri per la selezione ad eccezione di quanto molti come specificato nelle impostazioni 'Trading: Le monete da tenere'.
+- È explicitally possibile escludere singole monete e impedire loro di essere stato ceduto tramite la proprietà della moneta 'blocco commerciale'. Hanno in mente che le monete, anche bloccati saranno visibili al pubblico.
+- Se non vuoi che tutti i tuoi monete sono disponibili per la negoziazione è necessario dividere la vostra collezione di prima.
+- La tua collezione ha bisogno di ottenere un nome pubblico che sarà anche visibile agli altri. Lo stesso vale per il vostro indirizzo e-mail.
+- Tutte le informazioni all'interno della vostra collezione sarà visibile al pubblico (note, ...). Con l'aggiunta di informazioni si accettano solo aggiungere informazioni valide circa la moneta. Ogni abuso può essere segnalato da altri e potrebbe portare alla cancellazione del tuo account.
+- È possibile selezionare un'immagine o scattare una foto e assegnarlo a una moneta. Qualsiasi immagine assegnata sarà visibile al pubblico. In questo modo l'utente accetta di immagini solo assegnare in cui si dispone dei diritti per farlo e che solo la moneta corrispondente spettacoli. Ogni abuso può essere segnalato da altri e potrebbe portare alla cancellazione del tuo account.
+- Un abuso della funzione abuso potrebbe portare alla cancellazione del tuo account.
+- Riceverete un partner collezione di trading per ogni richiesta. È possibile collegare al partner commerciale mostrato o requenst quello successivo. Una volta che hai tutti i partner commerciali la ricerca si ricominciare.
+- Per impostazione predefinita, si riceverà i partner commerciali che hanno lo stesso paese di residenza come choosed nelle impostazioni. Questo comportamento potrebbe anche essere modificata nelle impostazioni. Poi si riceve partner commerciali di tutti i paesi.
+- Solo i partner commerciali saranno presentati nella ricerca, che hanno utilizzato l'applicazione negli ultimi giorni. Questo per garantire che non si ottiene collezioni stantio.
+- Se si desidera la vostra collezione di essere trovati da altri utenti è necessario aprire l'applicazione una volta alla settimana. Attualmente non esiste una spinta di notifica per gli utenti che vogliono commerciare con voi. È necessario aprire l'applicazione - solo allora l'applicazione sincronizza le collezioni di trading e si vede se qualcuno voglia è di commerciare monete con voi.
+- La collezione partner commerciale sarà scaricato e collegato sul dispositivo anche in modo che è possibile sfogliare completamente.
+- Una nuova collezione di trading verrà creato sul dispositivo che combina la vostra collezione e la collezione partner commerciale.
+- Gli spettacoli di raccolta di negoziazione solo queste monete che sono presenti solo in una delle due collezioni di base.
+- Le monete che la vostra collezione non contiene, ma fanno parte della collezione del partner commerciale si visualizzeranno un'immagine più luminosa con.
+- Le monete che la vostra collezione contiene, ma non fanno parte della collezione del partner commerciale si visualizzeranno un'immagine scura con.
+- Monete che sono stati selezionati per la negoziazione verranno visualizzati nel paniere di trading. Il cestino in alto mostra le monete che riceverete mentre quello in basso quelli che si deve inviare al partner commerciale.
+- È possibile rimuovere una moneta dal basket trading se si tocca a lungo la moneta o con il tasto Rimuovi nella finestra di dialogo dettagli moneta in cui si è aggiunto la moneta. Un rubinetto su ogni moneta nel cestino commercio metterà in evidenza quella moneta all'interno della vista di raccolta.
+- Una piccola icona rossa fermata l'immagine moneta nel cestino negoziazione su indica che questa moneta non ha alcuna condizione di moneta o foto assegnato. Prima il commercio può essere confermata a fine deve essere rimosso o una condizione moneta o una fotografia deve essere assegnato nell'insieme corrispondente che possiede la moneta.
+- Inizialmente un '0' è indicata su ogni moneta che indica che questa moneta non è parte del paniere di trading.
+- uno tocco delle monete per visualizzare i dettagli di quella moneta.
+- Nel dettaglio-View (se è stata attivata la modalità di modifica) è possibile utilizzare il pulsante 'Aggiungi' per aggiungere quella moneta a canestro di trading.
+- Con il pulsante 'Rimuovi' è possibile rimuoverlo.
+- È possibile aggiungere e rimuovere entrambi i lati: le monete che si desidera avere e quelli che darà via.
+- Si deve solo aggiungere e monete rimuovere dei vostri partner commerciale quando si ha una buona ragione.
+- Dopo aver aggiunto una moneta degli scambi canestro un '1' apparirà indicando che una delle monete è stato selezionato e ha aggiunto al paniere di trading. Un mezzo numero negativ che ti danno quella moneta di distanza, mentre un numero positivo indica che riceverete quella moneta.
+- Se la vostra collezione o la raccolta del partner commerciale contengono più monete di uno specifico moneta quindi è possibile navigare nei dettagli visualizzare ciascuna di queste monete. Scegliere esattamente questa moneta che si desidera aggiungere al paniere di negoziazione che si desidera avere. Diverse le monete possono essere in condizioni diverse.
+- Sulla parte superiore dello schermo sono elencati tutte le monete che si riceverà. Sul fondo verranno elencate tutte le monete che si darà via. Tocca una di queste monete per passare a quella moneta. Lungo tenere una moneta per rimuoverlo dalla raccolta di trading. È possibile scorrere orizzontalmente queste liste.
+- La statistica per le collezioni di trading è diverso da collezioni normali. x/y/z = x sempre negativ e mostrando quante monete si darà via; y = numero di possibili monete le diverse al commercio; z = sempre positiv e mostrando quante monete che riceverete.
+- Una volta che hai finito la tua selezione inviare la richiesta di trading al partner commerciale.
+- Il partner commerciale sarà informato che una nuova sessione di negoziazione è stata avviata. Ora il vostro partner commerciale in grado di modificare la raccolta di trading e inviare di nuovo a voi.
+- Per avere una migliore visione d'insieme che potrebbe senso scrivere nero su bianco le monete che sono stati selezionati per la negoziazione. Attualmente l'applicazione non supporta una storia della collezione di trading. Si vedono sempre solo lo stato corrente.
+- Entrambi gli utenti possono modificare il paniere negoziazione dopo l'altro fino a quando un utente non modifica la raccolta più che confermare il commercio. Se v'è una differenza nel valore nominale delle monete tra i due partner commerciali allora questo deve essere equalizzato aggiungendo la quantità corretta al pacchetto.
+- Un commercio può essere confermata solo se ogni moneta scambiato ha sia impostata la proprietà condizione moneta o una singola immagine allegata.
+- Dopo che il commercio è stata confermata voi e il vostro partner commerciale verrà inviata un'e-mail con ogni altri indirizzi e-mail e una lista con le monete che sono stati selezionati per la negoziazione.
+- Quando hai inviato con successo le monete più una somma di denaro alla fine a pareggiare la differenza del valore nominale al partner commerciale e ha ricevuto le vostre nuove monete segnano la raccolta trading come eseguita tramite il menu di raccolta di trading. Poi la collezione non apparirà nel menù l'utente più ma in menu-> Collezione>> trading_partners- negoziazioni eseguite.
+- Durante l'impostazione della collezione di trading per 'giustiziato' puoi scegliere di aggiornare automaticamente la vostra collezione. Scegliere 'No' per aggiornare la vostra collezione manualmente. Con 'Modifica' si è permesso di modificare la raccolta di trading, anche dopo che è stato confermato. Utilizzare questo per il caso che le monete negoziati non corrispondono alla raccolta di trading. Ma la collezione di trading non sarà sincronizzato con il partner commerciale più. Dopo le monete scambiati e la collezione di trading corrispondono è nuovamente possibile contrassegnare la collezione come eseguito e scegliere 'Sì' per aggiornare automaticamente la propria collezione.
+- Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
+"</string>
+
+    <string name="version_history_current">"La versione 6.0\n
+        Aggiunta funzione per le monete commerciali con altri utenti. Si prega di leggere menu-> Collezioni-> Trading PARTNERS-> Utilizzo.\n
+        Aggiunta funzione per prendere una singola immagine di una moneta.\n
+        immagini Coin di altri utenti potrebbero essere segnalati come una violazione dei termini di condizioni\n
+        Mostra barra verticale ogni 5 anni e le linee orizzontali per aumentare la leggibilità.\n
+        Aggiunto più 2? monete commemorative per il 2019."</string>
+
+    <string name="version_history_last">"La versione 5.6.10\n
+        Aggiunta funzione per la raccolta di divisione.\n
+        bug di sincronizzazione fisso per raccolte condivise.\n
+        Corretto traduzione russa."</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>

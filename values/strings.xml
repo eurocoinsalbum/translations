@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="language_code">en</string>
     <string name="app_name">Euro Coins Album</string>
     <string name="title_activity_album">AlbumActivity</string>
@@ -31,7 +30,7 @@
     <string name="export_ok">Export OK</string>
     <string name="import_ok">Import OK</string>
     <string name="help">Help</string>
-    <string name="help_myname" translatable="false">&#169; Matthias Kleiber</string>
+    <string name="help_myname" translatable="false">(copyright) Matthias Kleiber</string>
     <string name="help_message">If you want to send me any problems, bugs, questions or feature requests please use "send message" in the menu (http://eurocoins-album.jimdo.com). Those comments should not be posted in the play store.</string>
     <string name="help_statistics">The statistics format is x/y/z x=number of possible different coins you have selected; y=number of possible different coins that can be collected; z=number of total coins you have collected (in case that you have a coin more than once; see coin details). The decimal number shows the amount of money you have collected and additionally the amounts for paid and value in case you entered those in the coin details.</string>
     <string name="help_coin_marker">A \'X\' on a coin means that this coin was not minted at all (if you have other information please mail me). A \'*\' at the coin is the official coins set marker in case you activated this setting.</string>
@@ -41,7 +40,7 @@
     <string name="help_touch_hold_coins">In edit mode touch and hold a coin to set the number of coins you have and other properties.</string>
     <string name="help_touch_hold_two_euro_coins">In locked mode touch and hold the special 2 Euro coins to get additional information.</string>
     <string name="help_touch_common_coins">Touch one of the 8 common coins on the left side to see the back side of this coin for all countries.</string>
-    <string name="help_imexport">The files for export will be named \'euro_coin_list_&lt;username&gt;.txt\'. Imported users will be added and will not be overwritten.</string>
+    <string name="help_imexport">The files for export will be named \'euro_coin_list_username.txt\'. Imported users will be added and will not be overwritten.</string>
     <string name="help_backup">Every week the app create automatically a backup of all collections. With the help of the menu \'Restore backup\' one can easily add an old backup to the currently loaded collections</string>
     <string name="help_coinset_expand">To increase usability the german coinsets are grouped by year if you enabled the \'Collect years and mints\' setting. The plus/minus button over the common coins (left side) can be used in two ways: short touch to expand/collapse all groups in once and long touch to do the opposite.</string>
     <string name="help_menu">Use the settings menu to change: coin image size, text size (title and coin text), collecting only 2€ commemorative coins, collecting all years and mints (or just one per country), and much more. Special functionality is the \'use individual settings\' with which each user/collection can have it\'s own settings or if all users share the same settings!</string>
@@ -60,8 +59,7 @@
     <string name="note">Note</string>
     <string name="pref_show_only_missing_coins">Show only missing coins</string>
     <string name="pref_show_official_coin_set_marker">Show \'mint set only\' marker (*)</string>
-    <string name="condition">Condition</string>
-    <string name="condition_helper">Custom condition (A&#8211;Z or 1&#8211;9)</string>
+    <string name="coinCondition">Condition</string>
     <string name="action_open_url_comment">Send message</string>
     <string name="action_close">Exit</string>
     <string name="coin_collected_marker">X</string>
@@ -121,10 +119,11 @@
     <string name="email_sent_confirm_delete_account">An e-mail has been sent to %1$s. Check SPAM. Please click the link inside the e-mail to delete your online account.</string>
     <string name="help_transfer_id">If you want to transfer one User ID to another device (phone, tablet) then enter this User ID on the target device via the menu Information->My User ID.>Transfer User ID. The original owner will receive an e-mail where he has to confirm the transfer. All your old online backups will be moved to the new User ID.</string>
     <string name="delete_online_account">Delete online account</string>
+
     <!-- 5.1 -->
     <string name="deletedBackups">Deleted backups on device:\n%1$s\nDeleted backups in cloud:\n%2$s</string>
     <string name="backup_upload_error">Error while uploading backup</string>
-    <string name="action_share_with">Share with&#8230;</string>
+    <string name="action_share_with">Share with ...</string>
     <string name="action_add_share_with">Add new</string>
     <string name="action_retract_share">Retract</string>
     <string name="share_with_ok">Shared with %1$s</string>
@@ -163,8 +162,9 @@
     <string name="no_matching_coins_found">No matching coins found</string>
     <string name="pref_collect_series">Collect series</string>
     <string name="pref_commemorative_coins">Commemorative coins</string>
+
     <!-- changed in 5.1 -->
-    <string name="pref_collect_two_euro_only">Don\'t collect standard coins</string>
+    <string name="pref_collect_two_euro_only">"Don't collect standard coins"</string>
 
     <!-- version 5.3 -->
     <string name="enter_coin_value">Enter coin value</string>
@@ -179,7 +179,7 @@
     <string name="confirm_rename_collection_title">Collection renamed</string>
     <string name="confirm_rename_collection">Do you want to rename the collection \'%1$s\' to \'%2$s\'</string>
     <string name="show_newest_added_coins">Newest coins</string>
-    <string name="i_dont_have_this_coin">I don\'t have this coin</string>
+    <string name="i_dont_have_this_coin">"I don't have this coin"</string>
     <string name="create_as_multiview">Create multi view</string>
     <string name="select_collections">Select collections</string>
     <string name="country_statistic">Country statistic</string>
@@ -189,6 +189,7 @@
     <string name="error_saving_collection">Error while saving collection %1$s</string>
     <string name="invalid_value">Invalid value</string>
     <string name="invalid_year">Invalid year</string>
+
     <!-- version 5.4 -->
     <string name="collection_modus_to_offline">Manage on device</string>
     <string name="collection_modus_to_online">Manage online</string>
@@ -206,19 +207,24 @@
     <string name="pref_collect_german_mints">Collect german mints</string>
     <string name="pref_collect_greece_2002_foreign_mints">Collect greece 2002 foreign mints</string>
     <string name="collect_no_years_but_german_mints_is_invalid">Not collecting years but german mints is an unsupported combination</string>
+
     <!-- version 5.6 -->
     <string name="user_name_already_exists">Name already exists</string>
     <string name="user_name_contains_invalid_characters">Name contains invalid characters</string>
+
     <!-- version 5.6.4 -->
     <string name="transfer_collection">"Transfer collections"</string>
+
     <!-- version 5.6.5 -->
     <string name="building_album_please_wait">"Building album - please wait"</string>
+
     <!-- version 5.6.9 -->
     <string name="ok">"Ok"</string>
     <string name="split_collection">"Split"</string>
     <string name="enter_number_of_coins_for_splitting">"Please enter the number of coins per available coin you want to transfer to the first copy. Remaining ones will go into the second copy of this collection. The original collection will not be changed or deleted."</string>
     <string name="collection_split_ok">"Collection has been split into 2 new collections. After reviewing those you can delete the original collection."</string>
     <string name="transfer_collection_error">"Error while transfering the collection '%1$s'</string>
+
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Collection '%1$s' has been transferred to another device."</string>
     <string name="owner_this_device">"This device"</string>
@@ -250,10 +256,10 @@
     <string name="trading_confirmed_already">"This trading collection was already confirmed by both sides. Contact '%1$s' and send the coins. If done so mark this trade as executed."</string>
     <string name="action_send_to_trading_partner">"Send to trading partner"</string>
     <string name="action_confirm_trade">"Confirm trade"</string>
-    <string name="confirm_trade_confirmation_message">"Do you really want to confirm the trade?"</string>
+    <string name="confirm_trade_confirmation_message">"Do you really want to confirm the trade? This does NOT create a contract between the both of you. Both of you will receive an e-mail and you have to agree on how to execute the trade."</string>
     <string name="device_time_too_old">"The current time on your device is too old."</string>
     <string name="trading_session_empty_no_sending">"No coins for trading selected. Please add coins before sending to trading partner."</string>
-    <string name="trading_collection_deleted_by_counterparty">"The trading collection has been deleted by the trading partner."</string>
+    <string name="trading_collection_deleted_by_counterparty">"The trading collection '%1$s' has been deleted by the trading partner."</string>
     <string name="account_not_activated">"Account not active. Please register your mail address and confirm the registration link or deactivate the cloud features in the settings."</string>
     <string name="action_share_public">"Publish..."</string>
     <string name="action_retract_share_public">"Retract the collection from trading"</string>
@@ -273,7 +279,7 @@
     <string name="action_trade_set_executed">"Trade was executed"</string>
     <string name="no_executed_trades">"No executed trades found. Go and share your collection and trade your coins with other users!"</string>
     <string name="action_show_executed_trades">"Executed trades"</string>
-    <string name="missing_coin_infos_for_trade_confirmation">Coin conditions or images are missing</string>
+    <string name="missing_coin_infos_for_trade_confirmation">"Coin conditions or images are missing. Add the missing information in your collection."</string>
     <string name="condition_not_set">"Unknown"</string>
     <string name="condition_uncirculated">"Uncirculated"</string>
     <string name="condition_circulated_quality_high">"Circulated quality high"</string>
@@ -288,7 +294,7 @@
     <string name="fixed_unsupported_settings_years_series">"The settings 'collect years' and 'collect series' should not be enabled together. The setting 'collect series' has been switched off."</string>
     <string name="collect_years_and_series_is_invalid">"Collecting years AND series is an unsupported combination."</string>
     <string name="delete_photo">"Do you really want to delete the photo?"</string>
-    <string name="uploading_coin_image">"Uploading image..."</string>
+    <string name="uploading_coin_image">"Uploading image."</string>
     <string name="uploaded_coin_image">"Image uploaded."</string>
     <string name="coin_image_upload_error">"Error while uploading image. Please try again later."</string>
     <string name="report_photo">"Report image"</string>
@@ -306,23 +312,48 @@
     <string name="set_pref_country_residence">"Please select your country (residence) in the settings dialog first."</string>
     <string name="no_collections_found">"No collections found"</string>
     <string name="trading_user_linked">"Linked trading collection '%1$s'."</string>
-    <string name="confirm_send_to_trading_partner">"Are you ready to send the trading collection to your trading partner?"</string>
-    <string name="execute_trade_confirmation_message">"Did you you exchange the coins with your trading partner?"</string>
+    <string name="confirm_send_to_trading_partner">"Are you ready to send the trading collection to your trading partner? Have in mind that your trading partner might except the trading collection as you send it."</string>
     <string name="linked_for_trading_collection_type">"Trading partner"</string>
     <string name="confirmed_trade_type">"Confirmed"</string>
     <string name="executed_trade_type">"Executed"</string>
     <string name="waiting_trade_type">"Waiting"</string>
     <string name="action_special_features">"Special features"</string>
-    <string name="trading_hint_colours">"The bright images are those coins which you do not have but your trading partner. Vice-versa for the dark images. The top row shows the coins you selected for receiving whereas the bottom row shows those coins which will go to your trading partner."</string>
+    <string name="trading_hint_colours">"The bright images are those coins which you do not have but your trading partner. Vice-versa for the dark images. The top row shows the coins you selected for receiving whereas the bottom row shows those coins which will go to your trading partner. The numbers on each coin are x/y/z x=how many of this coin you give away (the minus sign is just a hint for you that you give this coin away), y=how many of this coin could be traded, z=how many of this coin you will receive."</string>
     <string name="block_trading">"Block trading"</string>
     <string name="coins_removed_from_trading">"Automatically removed coins from the trading basket"</string>
     <string name="coin_used_in_trade">"This coin was already selected in the trading collection '%1$s'. Ensure that it will be removed from the trading basket."</string>
+    <string name="trading_hint_edit_collection_and_send">"Add or remove coins to the trading basket as you do with your normal collection (unlock and touch coin with bright image). Once you are done touch the send button (or via menu) to send the trading collection to your trading partner. To stop the trade simply delete the trading collection."</string>
+    <string name="trading_hint_confirm_trade">"Either change the trading collection or accept it exactly as your trading partner sent it to you without any further changes by touching the confirmation-button. This will NOT create a contract between the both of you! If there is a difference in the nominal value of the coins between the two trading partners then this has to be equalized by adding the correct amount to the package."</string>
+    <string name="trading_hint_executed_trade">"When you sent the coins to your trading partner AND received your coins you can set it as executed by touching the mail-button."</string>
+    <string name="edit_trade_before_executed">"Edit"</string>
+    <string name="action_trade_set_executed_merge">"If the trade was executed as expected you can automatically update your primary collection by selecting 'Yes'. Or you can choose 'No' to update your collection manually. If the traded coins do not match the trading collection select 'Edit' to change the trading collection before setting it to be executed later on. Changes in the trading collection will not be synchronized with your trading partner any longer."</string>
+    <string name="confirmed_trade_is_editable">"You can edit the already confirmed trading collection by unlocking it. The trading collection will NOT be synchronized any more with your trading partner. Once the trading collection matches the traded coins mark it again as 'executed'."</string>
+    <string name="no_coins_from_trade_merged">"NO coins have been added or removed to or from your collection."</string>
+    <string name="not_all_coins_from_trade_merged">"NOT ALL coins have been added or removed to or from your collection."</string>
+    <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"You did not select any coin for receiving but only to give away. The bright coin images are those you currently do not have."</string>
+    <string name="no_coin_in_trading_collection">"No coins have been added to the trading collection. Please add coins you want to receive from your trading partner by selecting the bright coin images."</string>
+    <string name="trade_exceeds_value_limit">"The difference of the amount of the coins to be traded (%1$s %3$s) exceeds the allowed limit of %2$s %3$s."</string>
+    <string name="cent">Cent</string>
+    <string name="trading_coin_replaced_other_condition">"The following coin of the trading collection had no coin condition before and has now be assigned: '%1$s'.\n%2$s %3$s %4$s %5$s"</string>
+    <string name="trading_collection_contains_deleted_coins">"The trading collection contains coins which are not present in the underlying collection."</string>
+    <string name="trading_collection_image_error">"The trading collection cannot load all images of the coins correctly. Please delete the trading collection to avoid missunderstanding."</string>
+    <string name="trading_condition_available">"You added a coin which has no coin condition set but there is another coin which has a coin condition or a custom photo. Your selection can stay if you are not satisfied with the other coins but your trading partner might not add the coin condition to other coins. Usually it's better to select coins which have already a coin condition or custom photo set."</string>
+    <string name="trading_no_condition_available">"You added a coin which has no coin condition set. After you send the trading collection to your trading partner he/she has to update the collection. You should afterwards check if the coin condition meets your expectation."</string>
+    <string name="trading_diff_amount_pay">"This is the amount of money you have to pay to your trading partner additionally."</string>
+    <string name="trading_diff_amount_receive">"This is the amount of money you will receive from your trading partner additionally."</string>
+    <string name="no_files_for_import_found">"No files for import found in Downloads folder."</string>
+    <string name="email_confirmed">"E-Mail address was confimed."</string>
+    <string name="setup_account">"Setup account"</string>
+    <string name="device_new_master">"Is this device your master device?"</string>
 
     <string name="how_trading_partner_works">"
-- You grant permission to publish any information (notes, images, name, e-mail, country, ...) of your collection and yourself as needed to use the trading functionality.
+- The trading functionality is NOT for beginners.
+- Read ALL this carefully! Otherwise you may be disappointed by the trading functionality.
+- Trading coins with other traders is much more complex than you may think. Especially when the time of agreeing on the coins to be traded takes more than just a couple of hours you have to consider that the collection of your trading partner may have changed in the meantime. This has an impact.
+- You grant permission to publish any information (notes, images, name, e-mail, country, ...) of your collection by using the trading functionality.
 - You can trade coins with other users BUT using the trading functionality of this app MUST NOT be considered as an offer or as a contract in legal terms! Whatever you do or see in this app - it is not binding anyone to anything.
-- You can find trading partners for your selected collection(s).
-- To find a trading partner you first need to share your collection to the public.
+- The trading functionality can find trading partners for your currently selected collection.
+- To find a trading partner you first need to give your collection a public name which will be visible to others and share your collection to the public.
 - All coins of your collection will be available to others for selection except as many as you specified in the settings 'Trading: Coins to keep'.
 - You can explicitally exclude individual coins and prevent them from being traded via the coin's property 'Block trading'. Have in mind that even blocked coins will be visible to the public.
 - If you don't want that all your coins are available for trading you have to split your collection first.
@@ -330,30 +361,37 @@
 - All information inside your collection will be visible to the public (notes, ...). By adding information you agree to only add valid information about the coin. Any abuse can be reported by others and might lead to the deletion of your account.
 - You can select an image or take a photo and assign it to a coin. Any assigned image will be visible to the public. By doing so you agree to only assign images where you have the rights to do so and which shows the corresponding coin only. Any abuse can be reported by others and might lead to the deletion of your account.
 - An abuse of the abuse feature might lead to the deletion of your account.
-- You will receive one trading partner collection per request.
+- You will receive one trading partner collection per request. You can link to the shown trading partner or requenst the next one. Once you got all trading partners the search will start over.
 - By default you will receive trading partners having the same country of residence as you choosed in the settings. This behaviour could also be changed in the settings. Then you receive trading partners from all countries.
+- Only those trading partners will be presented in the search which have used the app within the last days. This is to ensure that you do not get stale collections.
+- If you want your collection to be found by other users you have to open the app once a week. Currently there is no push-notification for users who want to trade with you. You have to open the app - only then the app synchronizes the trading collections and you see if someone want's to trade coins with you.
 - The trading partner collection will be downloaded and linked on your device too so that you can browse it fully.
 - A new trading collection will be created on your device which combines your collection and the trading partner collection.
-- The trading collection shows only these coins which only one of both base collections contain.
+- The trading collection shows only these coins which are only present in one of the two base collections.
 - The coins which your collection does NOT contain but are part of the trading partner's collection will be shown with a brighter image.
-- the coins which your collection contains but are NOT part of the trading partner's collection will be shown with a darker image.
+- The coins which your collection contains but are NOT part of the trading partner's collection will be shown with a darker image.
+- Coins which have been selected for trading will show up in the trading basket. The basket at the top shows the coins which you will receive whereas the one at the bottom those which you have to send to your trading partner.
+- You can remove a coin from the trading basket if you long touch the coin or with the remove-button in the coin details dialog where you added the coin. A tap on any coin in the trading basket will highlight that coin inside the collection view.
+- A small red stop icon on the coin image in the trading basket indicates that this coin has no coin condition or photo assigned. Before the trade can be confirmed at the end it has to be removed or a coin condition or a photo has to be assigned in the corresponding collection which owns the coin.
 - Initially a '0' is shown on each coin indicating that this coin is not part of the trading basket.
 - Touch one of the coins to view the details of that coin.
 - In the Detail-View (if you enabled the edit mode) you can use the 'add' button to add that coin to the trading basket.
 - With the 'remove' button you can remove it.
 - You can add and remove both sides: the coins you want to have and those you will give away.
 - You should only add and remove coins of your trading partner when you have a good reason.
-- After you add a coin to the trading basket a '1' will show up indicating that one of coins was selected and added to the trading basket. A negativ number means that you give that coin away whereas a positive number indicates that you will receive that coin.
-- If your collection or the trading partner's collection contain muliple coins of one specific coin then you can browse in the details view each of those coins. Choose exactly this coin you want to add to the trading basket which you want to have. Different coins may be in different conditions.
+- After you add a coin to the trading basket a '1' will show up indicating that one of the coins was selected and added to the trading basket. A negativ number means that you give that coin away whereas a positive number indicates that you will receive that coin.
+- If your collection or the trading partner's collection contain multiple coins of one specific coin then you can browse in the details view each of those coins. Choose exactly this coin you want to add to the trading basket which you want to have. Different coins may be in different conditions.
 - On the top of the screen all coins which you will receive are listed. On the bottom all coins that you will give away will be listed. Touch any of those coins to switch to that coin. Long hold a coin to remove it from the trading collection. You can horizontally scroll through these lists.
 - The statistic for trading collections is different to normal collections. x/y/z x=always negativ and showing how many coins you will give away; y=number of possible differnt coins to trade; z=always positiv and showing how many coins you will receive.
 - Once you finished your selection send the trading request to your trading partner.
 - The trading partner will be informed that a new trading session was initiated. Now your trading partner can edit the trading collection and send it back to you.
-- Both users can edit the trading basket after each other until one user does not change the collection any more but confirm the trade.
+- To have a better overview it might makes sense to write down on paper the coins which have been selected for trading. Currently the app does not support a history of the trading collection. You always see only the current status.
+- Both users can edit the trading basket after each other until one user does not change the collection any more but confirm the trade. If there is a difference in the nominal value of the coins between the two trading partners then this has to be equalized by adding the correct amount to the package.
 - A trade can only be confirmed if each traded coin has either the coin condition property set or an individual image attached.
 - After the trade was confirmed you and your trading partner will receive an email with each others e-mail-addresses and a list with the coins which have been selected for trading.
-- When you successfully sent your coins to your trading partner and received your new coins mark the trading collection as executed via the trading collection menu. Then the collection will not appear in the user's menu any more but in menu->collection->trading_partners->executed trades.
-- If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as weel.
+- When you successfully sent your coins plus an eventually amount of money to equalize a difference in the nominal value to your trading partner and received your new coins mark the trading collection as executed via the trading collection menu. Then the collection will not appear in the user's menu any more but in menu->collection->trading_partners->executed trades.
+- While setting the trading collection to 'executed' you can choose to automatically update your collection. Choose 'No' to update your collection manually. With 'Edit' you are allowed to edit the trading collection even after it was confirmed. Use this for the case that the traded coins to not match the trading collection. But the trading collection will not be synchronized with your trading partner any more. After the traded coins and the trading collection match you can again mark the collection as executed and choose 'Yes' to automatically update your own collection.
+- If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
     <string name="version_history_current">"Version 6.0\n
@@ -406,6 +444,56 @@
 
     <string name="countryname_uk">United Kingdom</string>
 
+    <!-- DSGVO -->
+    <string name="action_show_data_privacy">Data privacy</string>
+    <string name="dsgvo_ack_title">IMPORTANT</string>
+    <string name="dsgvo_ack_yes">I agree</string>
+    <string name="dsgvo_ack_no">I do NOT agree</string>
+    <string name="dsgvo_agreed_message">You agreed at: %1$s</string>
+    <string name="dsgvo_data_privacy">
+        "Data privacy declaration of 'Eurocoins Album' named as 'App'.\n\n"
+
+        "Name and contact:\n"
+        "Matthias Kleiber, matthias@online.de\n\n"
+
+        "Reason of data processing:\n"
+        "The App generates and saves on the device of the user (after positiv agreement to data processing) a private and unique user identification (UUID).\n"
+        "This UUID serves as identification of the device in every communication of the App with the Server.\n"
+        "Additionally the user can enter his e-mail-address inside the app to use even more features. The user receives an e-mail to his address in which he will find a link with which he can approve the address. Additionally the e-mail-address will be used to send e-mails to the user to confirm requests he entered into the App like transfer of data to another device. The App does not send e-mails for advertisement or similar.\n"
+        "The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n"
+        "Pictures of coins the user takes in the app will also be uploaded to the server and are available to those users with which the user shares his/her collection. Pictures from trading collections are shared to the public.\n\n"
+
+        "Base of data processing:\n"
+        "The data processing is needed for the features of the App to operate.\n\n"
+
+        "Recipients of personal data:\n"
+        "The server being used by the App belongs to the company STRATO and is operated by this. Personal data will not transferred explicitely to STRATO but can be accessed to fullfill their contract.\nPersonal data will not be transferred to any other third party.\n\n"
+
+        "Duration of storing personal data:\n"
+        "Personal data will be stored until the user asks for deleting his personal data or account.\n\n"
+
+        "Rights of the user:\n"
+        "The approval of the user to process and store personal data can be revoked or corrected at any time. The user can ask for the personal data which was processed and stored. This can be achieved for example by sending an e-mail to matthias@online.de.\n"
+        "The user can contact the corresponding institution for data privacy."
+    </string>
+
+    <string name="dsgvo_agree_data_privacy">
+        "I read and understood the following declaration of data privacy of the App. This is viewable in the App at menu "Information - Data Privacy."
+    </string>
+
+    <string name="dsgvo_1">
+        "I agree that my personal data that I entered into the App will be processed, stored and transferred to third parties as long as it is needed for the features of the App to operate."
+    </string>
+
+    <string name="specialeuro_2016_de_planet_title">Blue Planet</string>
+    <string name="specialeuro_2016_de_planet_short_title">Blue Planet</string>
+    <string name="specialeuro_2017_de_clima_title">Climazone Tropical</string>
+    <string name="specialeuro_2017_de_clima_short_title">Climazone Tropical</string>
+    <string name="specialeuro_2018_de_clima_title">Climazone Sub-Tropical</string>
+    <string name="specialeuro_2018_de_clima_short_title">Climazone Sub-Tropical</string>
+    <string name="specialeuro_2019_de_clima_title">Temperate climate</string>
+    <string name="specialeuro_2019_de_clima_short_title">Temperate climate</string>
+
     <string name="twoeuro_comm_2004_gr_title">Olympische Spiele 2004 in Athen</string>
     <string name="twoeuro_comm_2004_gr_desc">Die Gedenkmünze zeigt die Abbildung der antiken Statue eines Diskuswerfers, umringt von den zwölf Sternen der Europäischen Union. Der Sockel der Statue bedeckt einen kleinen Teil des äußeren Rings (äußerer Teil) der Münze. Links befindet sich das Logo der Olympischen Spiele "ATHEN 2004" mit den fünf olympischen Ringen; rechts befinden sich untereinander die Zahl "2" und das Wort "????". Neben dem mittleren Stern unten ist das Prägejahr in zwei getrennten Zahlengruppen angegeben</string>
     <string name="twoeuro_comm_2004_gr_volume">höchstens 50 Millionen Münzen</string>
@@ -432,7 +520,7 @@
     <string name="twoeuro_comm_2004_sm_date">Dezember 2004</string>
     <string name="twoeuro_comm_2004_sm_short_title">Borghesi</string>
     <string name="twoeuro_comm_2004_va_title">75. Jahrestag der Gründung des Staates Vatikanstadt</string>
-    <string name="twoeuro_comm_2004_va_desc">Das Münzbild zeigt eine schematische Darstellung der Umgrenzungsmauern der Vatikanstadt mit dem Petersdom im Vordergrund. Ebenfalls im Münzbild befinden sich die Aufschriften "75° ANNO DELLO STATO" und "1929&#8211;2004" sowie, in kleineren Buchstaben, der Name des Designers "VEROI" und die Initialen des Graveurs "L.D.S. INC.". Der äußere Münzring trägt die zwölf Sterne der Europäischen Union und die Aufschrift "CITTA' DEL VATICANO".</string>
+    <string name="twoeuro_comm_2004_va_desc">Das Münzbild zeigt eine schematische Darstellung der Umgrenzungsmauern der Vatikanstadt mit dem Petersdom im Vordergrund. Ebenfalls im Münzbild befinden sich die Aufschriften "75° ANNO DELLO STATO" und "1929-2004" sowie, in kleineren Buchstaben, der Name des Designers "VEROI" und die Initialen des Graveurs "L.D.S. INC.". Der äußere Münzring trägt die zwölf Sterne der Europäischen Union und die Aufschrift "CITTA' DEL VATICANO".</string>
     <string name="twoeuro_comm_2004_va_volume">höchstens 100 000 Münzen</string>
     <string name="twoeuro_comm_2004_va_date">15. Dezember 2004</string>
     <string name="twoeuro_comm_2004_va_short_title">75 Vatican</string>
@@ -467,7 +555,7 @@
     <string name="twoeuro_comm_2005_sm_date">Oktober 2005</string>
     <string name="twoeuro_comm_2005_sm_short_title">Physic</string>
     <string name="twoeuro_comm_2005_es_title">500. Geburtstag von Giorgio Vasari</string>
-    <string name="twoeuro_comm_2005_es_desc">Diese Münze ist dem Maler, Schriftsteller und Architekten Giorgio Vasari (30. Juli 1511 &#8211; 27. Juni 1574) gewidmet, der sich als Biograf italienischer Künstler einen Namen machte und heute als ideologischer Begründer der Kunsthistorik gilt. Die Abbildung im Münzinneren zeigt einen Ausschnitt seines Werks "Judith enthauptet Holofernes". Unterhalb des Motivs sind mittig die Jahreszahlen "1511&#8211;2011" zu lesen, links bzw. rechts neben dem Bildausschnitt folgen der Name "G. VASARI" bzw. die Länderbezeichnung "SAN MARINO" dem Verlauf des inneren Münzrands. Das Münzzeichen "R" ist links vom Motiv zu sehen, rechts direkt neben der Abbildung sind die Buchstaben "CM" erkennbar, welche für die Initialen der Designerin Claudia Momoni stehen. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt.</string>
+    <string name="twoeuro_comm_2005_es_desc">Diese Münze ist dem Maler, Schriftsteller und Architekten Giorgio Vasari (30. Juli 1511 - 27. Juni 1574) gewidmet, der sich als Biograf italienischer Künstler einen Namen machte und heute als ideologischer Begründer der Kunsthistorik gilt. Die Abbildung im Münzinneren zeigt einen Ausschnitt seines Werks "Judith enthauptet Holofernes". Unterhalb des Motivs sind mittig die Jahreszahlen "1511-2011" zu lesen, links bzw. rechts neben dem Bildausschnitt folgen der Name "G. VASARI" bzw. die Länderbezeichnung "SAN MARINO" dem Verlauf des inneren Münzrands. Das Münzzeichen "R" ist links vom Motiv zu sehen, rechts direkt neben der Abbildung sind die Buchstaben "CM" erkennbar, welche für die Initialen der Designerin Claudia Momoni stehen. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt.</string>
     <string name="twoeuro_comm_2005_es_volume">130 000 Münzen</string>
     <string name="twoeuro_comm_2005_es_date">2011</string>
     <string name="twoeuro_comm_2005_es_short_title">Vasari</string>
@@ -502,7 +590,7 @@
     <string name="twoeuro_comm_2006_lu_date">Januar 2006</string>
     <string name="twoeuro_comm_2006_lu_short_title">Guillaume</string>
     <string name="twoeuro_comm_2006_sm_title">500. Todestag von Christoph Kolumbus</string>
-    <string name="twoeuro_comm_2006_sm_desc">Das Münzinnere zeigt Christoph Kolumbus und drei Karavellen. Die Aufschrift "SAN MARINO" ist oberhalb seines Porträts zu sehen. Rechts befinden sich eine Windrose und das Münzzeichen "R". Die Jahreszahlen "1506 &#8211; 2006" sind auf einer Schriftrolle unterhalb seines Porträts abgebildet. Der Außenring der Münze trägt die zwölf Sterne der Europäischen Union.</string>
+    <string name="twoeuro_comm_2006_sm_desc">Das Münzinnere zeigt Christoph Kolumbus und drei Karavellen. Die Aufschrift "SAN MARINO" ist oberhalb seines Porträts zu sehen. Rechts befinden sich eine Windrose und das Münzzeichen "R". Die Jahreszahlen "1506 - 2006" sind auf einer Schriftrolle unterhalb seines Porträts abgebildet. Der Außenring der Münze trägt die zwölf Sterne der Europäischen Union.</string>
     <string name="twoeuro_comm_2006_sm_volume">120 000 Münzen</string>
     <string name="twoeuro_comm_2006_sm_date">Oktober 2006</string>
     <string name="twoeuro_comm_2006_sm_short_title">C. Kolumbus</string>
@@ -612,7 +700,7 @@
     <string name="twoeuro_comm_2009_fi_date">2009</string>
     <string name="twoeuro_comm_2009_fi_short_title">Porvoo</string>
     <string name="twoeuro_comm_2009_it_title">200. Jahrestag der Geburt von Louis Braille</string>
-    <string name="twoeuro_comm_2009_it_desc">Auf der Münze ist eine Hand abgebildet, die mit dem Tastsinn der Finger ein in Blindenschrift verfasstes aufgeschlagenes Buch liest. Der Zeigefinger deutet auf die vertikale Inschrift "LOUIS BRAILLE 1809&#8211;2009". Oberhalb der Hand sind zwei fliegende Vögel zu sehen, die für die Freiheit des Wissens stehen. Das Monogramm der Italienischen Republik "RI" befindet sich oben und das Münzzeichen "R" unten auf der rechten Seite. Unterhalb des Buches ist Brailles Name in der von ihm erfundenen Schrift zu lesen. Die Initialen "MCC" der Künstlerin Maria Carmela Colaneri erscheinen unten im inneren Münzrand. Der äußere Münzring trägt die zwölf Sterne der Europäischen Union.</string>
+    <string name="twoeuro_comm_2009_it_desc">Auf der Münze ist eine Hand abgebildet, die mit dem Tastsinn der Finger ein in Blindenschrift verfasstes aufgeschlagenes Buch liest. Der Zeigefinger deutet auf die vertikale Inschrift "LOUIS BRAILLE 1809-2009". Oberhalb der Hand sind zwei fliegende Vögel zu sehen, die für die Freiheit des Wissens stehen. Das Monogramm der Italienischen Republik "RI" befindet sich oben und das Münzzeichen "R" unten auf der rechten Seite. Unterhalb des Buches ist Brailles Name in der von ihm erfundenen Schrift zu lesen. Die Initialen "MCC" der Künstlerin Maria Carmela Colaneri erscheinen unten im inneren Münzrand. Der äußere Münzring trägt die zwölf Sterne der Europäischen Union.</string>
     <string name="twoeuro_comm_2009_it_volume">2 Millionen Münzen</string>
     <string name="twoeuro_comm_2009_it_date">September/Oktober 2009</string>
     <string name="twoeuro_comm_2009_it_short_title">L. Braille</string>
@@ -620,14 +708,14 @@
     <string name="twoeuro_comm_2009_lu_desc">Die Münze zeigt den Großherzog Henri und die Großherzogin Charlotte. Rechts neben dem Doppelporträt erscheinen senkrecht die Inschrift "LËTZEBUERG" sowie die Jahresangabe "2009", eingerahmt vom Zeichen des Münzmeisters und der Münze. Der äußere Münzring trägt die zwölf Sterne der Europäischen Union.</string>
     <string name="twoeuro_comm_2009_lu_volume">1,4 Millionen Münzen</string>
     <string name="twoeuro_comm_2009_lu_date">1. Januar 2009</string>
-    <string name="twoeuro_comm_2009_lu_short_title">Henri &amp; Charlotte</string>
+    <string name="twoeuro_comm_2009_lu_short_title">Henri + Charlotte</string>
     <string name="twoeuro_comm_2009_po_title">2nd Games of Lusophony</string>
     <string name="twoeuro_comm_2009_po_desc"></string>
     <string name="twoeuro_comm_2009_po_volume">1.25 Mio. Münzen</string>
     <string name="twoeuro_comm_2009_po_date">Juni 2009</string>
     <string name="twoeuro_comm_2009_po_short_title">Lusophony</string>
     <string name="twoeuro_comm_2009_sk_title">20. Jahrestag des 17. November 1989 (Tag des Kampfes für Freiheit und Demokratie)</string>
-    <string name="twoeuro_comm_2009_sk_desc">Auf der Münze ist eine stilisierte Glocke abgebildet, in deren Inneren Schlüssel als Klöppel dienen. Das Münzmotiv ruft die Demonstration vom 17. November 1989 in Erinnerung, als Demonstranten mit ihren Schlüsseln rasselten, um das Öffnen von Türen symbolisch darzustellen. Dieses Ereignis markierte den Beginn der Samtrevolution in der damaligen Tschechoslowakei. Unterhalb des Motivs befinden sich das Zeichen des Künstlers und das Münzzeichen der slowakischen Münzprägeanstalt (Mincov?a Kremnica). Die Glocke ist von der Legende "17. NOVEMBER SLOBODA DEMOKRACIA", den Jahreszahlen "1989&#8211;2009" sowie dem Name des Ausgabelands, "SLOVENSKO", umgeben.</string>
+    <string name="twoeuro_comm_2009_sk_desc">Auf der Münze ist eine stilisierte Glocke abgebildet, in deren Inneren Schlüssel als Klöppel dienen. Das Münzmotiv ruft die Demonstration vom 17. November 1989 in Erinnerung, als Demonstranten mit ihren Schlüsseln rasselten, um das Öffnen von Türen symbolisch darzustellen. Dieses Ereignis markierte den Beginn der Samtrevolution in der damaligen Tschechoslowakei. Unterhalb des Motivs befinden sich das Zeichen des Künstlers und das Münzzeichen der slowakischen Münzprägeanstalt (Mincov?a Kremnica). Die Glocke ist von der Legende "17. NOVEMBER SLOBODA DEMOKRACIA", den Jahreszahlen "1989-2009" sowie dem Name des Ausgabelands, "SLOVENSKO", umgeben.</string>
     <string name="twoeuro_comm_2009_sk_volume">1 Million Münzen</string>
     <string name="twoeuro_comm_2009_sk_date">November 2009</string>
     <string name="twoeuro_comm_2009_sk_short_title">Democracy</string>
@@ -672,7 +760,7 @@
     <string name="twoeuro_comm_2010_fr_date">Juni 2010</string>
     <string name="twoeuro_comm_2010_fr_short_title">Appel</string>
     <string name="twoeuro_comm_2010_it_title">200. Jahrestag der Geburt des Grafen von Cavour</string>
-    <string name="twoeuro_comm_2010_it_desc">Die Münze würdigt den 200. Jahrestag der Geburt von Camillo Benso Graf von Cavour (1810&#8211;1861). Dieser spielte bei der Vereinigung Italiens sowie im frühen italienischen Liberalismus eine führende Rolle und war zudem Gründer der politischen Zeitung "Il Risorgimento". Das Münzinnere zeigt ein Porträt des Grafen, das auf einem Gemälde von Francesco Hayez aus dem Jahr 1864 basiert.</string>
+    <string name="twoeuro_comm_2010_it_desc">Die Münze würdigt den 200. Jahrestag der Geburt von Camillo Benso Graf von Cavour (1810-1861). Dieser spielte bei der Vereinigung Italiens sowie im frühen italienischen Liberalismus eine führende Rolle und war zudem Gründer der politischen Zeitung "Il Risorgimento". Das Münzinnere zeigt ein Porträt des Grafen, das auf einem Gemälde von Francesco Hayez aus dem Jahr 1864 basiert.</string>
     <string name="twoeuro_comm_2010_it_volume">4 Millionen Münzen</string>
     <string name="twoeuro_comm_2010_it_date">März 2010</string>
     <string name="twoeuro_comm_2010_it_short_title">Cavour</string>
@@ -692,12 +780,12 @@
     <string name="twoeuro_comm_2010_si_date">März 2010</string>
     <string name="twoeuro_comm_2010_si_short_title">Garden Ljubljana</string>
     <string name="twoeuro_comm_2010_sm_title">500. Todestag von Sandro Botticelli</string>
-    <string name="twoeuro_comm_2010_sm_desc">Die Münze gedenkt des 500. Todestages von Alessandro di Mariano di Vanni Filipepi (1445&#8211;1510), dem italienischen Maler der Florentiner Schule, der besser bekannt ist als Sandro Botticelli oder "Il Boticello" (das Fässchen).</string>
+    <string name="twoeuro_comm_2010_sm_desc">Die Münze gedenkt des 500. Todestages von Alessandro di Mariano di Vanni Filipepi (1445-1510), dem italienischen Maler der Florentiner Schule, der besser bekannt ist als Sandro Botticelli oder "Il Boticello" (das Fässchen).</string>
     <string name="twoeuro_comm_2010_sm_volume">130 000 Münzen</string>
     <string name="twoeuro_comm_2010_sm_date">2010</string>
     <string name="twoeuro_comm_2010_sm_short_title">S. Botticelli</string>
     <string name="twoeuro_comm_2010_va_title">Jahr der Priester</string>
-    <string name="twoeuro_comm_2010_va_desc">Die Münze ist dem Jahr der Priester (19. Juni 2009&#8211;19. Juni 2010) gewidmet, das von Papst Benedikt XVI. ausgerufen und im Rahmen einer internationalen Zusammenkunft von Priestern im Beisein des Papstes abgeschlossen wurde. Auf der Münze ist ein Schäfer abgebildet, der ein Lamm aus dem Maul eines Löwen befreit.</string>
+    <string name="twoeuro_comm_2010_va_desc">Die Münze ist dem Jahr der Priester (19. Juni 2009-19. Juni 2010) gewidmet, das von Papst Benedikt XVI. ausgerufen und im Rahmen einer internationalen Zusammenkunft von Priestern im Beisein des Papstes abgeschlossen wurde. Auf der Münze ist ein Schäfer abgebildet, der ein Lamm aus dem Maul eines Löwen befreit.</string>
     <string name="twoeuro_comm_2010_va_volume">115 000 Münzen</string>
     <string name="twoeuro_comm_2010_va_date">2010</string>
     <string name="twoeuro_comm_2010_va_short_title">Priests</string>
@@ -745,7 +833,7 @@
     <string name="twoeuro_comm_2011_mc_desc">Das Münzinnere zeigt mittig die Porträts von Fürst Albert und Fürstin Charlène. Darunter sind – eingerahmt vom Münzzeichen und vom Zeichen des Graveurs – der Name des Ausgabestaats "MONACO" und das Ausgabejahr "2011" eingeprägt.</string>
     <string name="twoeuro_comm_2011_mc_volume">148 000 Münzen</string>
     <string name="twoeuro_comm_2011_mc_date">2. Juli 2011</string>
-    <string name="twoeuro_comm_2011_mc_short_title">Albert &amp; Charlene</string>
+    <string name="twoeuro_comm_2011_mc_short_title">Albert + Charlene</string>
     <string name="twoeuro_comm_2011_mt_title">Verfassungsgeschichte – erste Wahl von Abgeordneten im Jahr 1849</string>
     <string name="twoeuro_comm_2011_mt_desc">Diese Münze gehört zu einer fünfteiligen Serie, die Meilensteinen der maltesischen Verfassungsgeschichte gewidmet ist und deren Ausgabe sich über einen Fünfjahreszeitraum erstreckt. Die im Münzinneren abgebildete Hand wirft einen Stimmzettel in eine Wahlurne. Das Motiv steht für die Wahl von 1849, bei der über die ersten maltesischen Abgeordneten des Regierungsrats abgestimmt wurde. Dieses Gremium stand dem britischen Gouverneur Maltas beratend zur Seite; seit dem Vertrag von Paris (1814) war die Insel eine Kolonie Großbritanniens gewesen. Im inneren Münzring verlaufen die Worte "MALTA – First elected representatives 1849" von links oben nach rechts unten. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union abgebildet.</string>
     <string name="twoeuro_comm_2011_mt_volume">430 000 Münzen</string>
@@ -772,7 +860,7 @@
     <string name="twoeuro_comm_2011_si_date">März 2011</string>
     <string name="twoeuro_comm_2011_si_short_title">Rozman-Stane</string>
     <string name="twoeuro_comm_2011_sm_title">500. Geburtstag von Giorgio Vasari</string>
-    <string name="twoeuro_comm_2011_sm_desc">Diese Münze ist dem Maler, Schriftsteller und Architekten Giorgio Vasari (30. Juli 1511 &#8211; 27. Juni 1574) gewidmet, der sich als Biograf italienischer Künstler einen Namen machte und heute als ideologischer Begründer der Kunsthistorik gilt. Die Abbildung im Münzinneren zeigt einen Ausschnitt seines Werks "Judith enthauptet Holofernes". Unterhalb des Motivs sind mittig die Jahreszahlen "1511&#8211;2011" zu lesen, links bzw. rechts neben dem Bildausschnitt folgen der Name "G. VASARI" bzw. die Länderbezeichnung "SAN MARINO" dem Verlauf des inneren Münzrands. Das Münzzeichen "R" ist links vom Motiv zu sehen, rechts direkt neben der Abbildung sind die Buchstaben "CM" erkennbar, welche für die Initialen der Designerin Claudia Momoni stehen. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt.</string>
+    <string name="twoeuro_comm_2011_sm_desc">Diese Münze ist dem Maler, Schriftsteller und Architekten Giorgio Vasari (30. Juli 1511 - 27. Juni 1574) gewidmet, der sich als Biograf italienischer Künstler einen Namen machte und heute als ideologischer Begründer der Kunsthistorik gilt. Die Abbildung im Münzinneren zeigt einen Ausschnitt seines Werks "Judith enthauptet Holofernes". Unterhalb des Motivs sind mittig die Jahreszahlen "1511-2011" zu lesen, links bzw. rechts neben dem Bildausschnitt folgen der Name "G. VASARI" bzw. die Länderbezeichnung "SAN MARINO" dem Verlauf des inneren Münzrands. Das Münzzeichen "R" ist links vom Motiv zu sehen, rechts direkt neben der Abbildung sind die Buchstaben "CM" erkennbar, welche für die Initialen der Designerin Claudia Momoni stehen. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt.</string>
     <string name="twoeuro_comm_2011_sm_volume">130 000 Münzen</string>
     <string name="twoeuro_comm_2011_sm_date">2011</string>
     <string name="twoeuro_comm_2011_sm_short_title">G. Vasari</string>
@@ -781,8 +869,8 @@
     <string name="twoeuro_comm_2011_va_volume">115 000 Münzen</string>
     <string name="twoeuro_comm_2011_va_date">Oktober 2011</string>
     <string name="twoeuro_comm_2011_va_short_title">Youth Day</string>
-    <string name="twoeuro_comm_2012_be_title">75. Jahrestag des Königin&#8211;Elisabeth&#8211;Wettbewerbs</string>
-    <string name="twoeuro_comm_2012_be_desc">Das Münzinnere zeigt das Logo des Königin&#8211;Elisabeth&#8211;Wettbewerbs innerhalb des Linksprofils der Namensgeberin und Initiatorin des 1937 eingeführten Musikwettbewerbs. Das Zeichen des Münzmeisters, eine Feder, ist links vom Motiv zu sehen; auf der rechten Seite ist das Münzzeichen, der Kopf des Erzengels Michael, erkennbar. Der Schriftzug "QUEEN ELISABETH COMPETITION" bildet einen Halbkreis am unteren Rand des Münzinneren; die Jahreszahlen "1937 &#8211; 2012", die auf den 75. Jahrestag der Gründung des Wettbewerbs hinweisen, schmiegen sich an den oberen Rand. Die Buchstaben "BE" rechts neben dem Motiv stehen für das Ausgabeland.</string>
+    <string name="twoeuro_comm_2012_be_title">75. Jahrestag des Königin-Elisabeth-Wettbewerbs</string>
+    <string name="twoeuro_comm_2012_be_desc">Das Münzinnere zeigt das Logo des Königin-Elisabeth-Wettbewerbs innerhalb des Linksprofils der Namensgeberin und Initiatorin des 1937 eingeführten Musikwettbewerbs. Das Zeichen des Münzmeisters, eine Feder, ist links vom Motiv zu sehen; auf der rechten Seite ist das Münzzeichen, der Kopf des Erzengels Michael, erkennbar. Der Schriftzug "QUEEN ELISABETH COMPETITION" bildet einen Halbkreis am unteren Rand des Münzinneren; die Jahreszahlen "1937 - 2012", die auf den 75. Jahrestag der Gründung des Wettbewerbs hinweisen, schmiegen sich an den oberen Rand. Die Buchstaben "BE" rechts neben dem Motiv stehen für das Ausgabeland.</string>
     <string name="twoeuro_comm_2012_be_volume">5 Millionen Münzen</string>
     <string name="twoeuro_comm_2012_be_date">Mai 2012</string>
     <string name="twoeuro_comm_2012_be_short_title">Queen Elisabeth</string>
@@ -797,7 +885,7 @@
     <string name="twoeuro_comm_2012_es_date">März 2012</string>
     <string name="twoeuro_comm_2012_es_short_title">Burgos</string>
     <string name="twoeuro_comm_2012_fi_title">150. Geburtstag der Künstlerin Helene Schjerfbeck</string>
-    <string name="twoeuro_comm_2012_fi_desc">Das Münzmotiv ist ein stilisiertes Selbstporträt der Künstlerin. Links neben dem Porträt ist der Name "HELENE SCHJERFBECK" als vertikaler Schriftzug eingraviert, rechts sind Geburts&#8211; und Todesjahr "1862&#8211;1946" ebenfalls vertikal angeordnet. Am unteren linken Rand sind neben dem Porträt das Kürzel "FI" des Ausgabestaats sowie das Ausgabejahr "2012" zu erkennen. Das Münzzeichen befindet sich am inneren Münzrand unterhalb des Geburts&#8211; und Todesjahrs.</string>
+    <string name="twoeuro_comm_2012_fi_desc">Das Münzmotiv ist ein stilisiertes Selbstporträt der Künstlerin. Links neben dem Porträt ist der Name "HELENE SCHJERFBECK" als vertikaler Schriftzug eingraviert, rechts sind Geburts- und Todesjahr "1862-1946" ebenfalls vertikal angeordnet. Am unteren linken Rand sind neben dem Porträt das Kürzel "FI" des Ausgabestaats sowie das Ausgabejahr "2012" zu erkennen. Das Münzzeichen befindet sich am inneren Münzrand unterhalb des Geburts- und Todesjahrs.</string>
     <string name="twoeuro_comm_2012_fi_volume">2 Millionen Münzen</string>
     <string name="twoeuro_comm_2012_fi_date">September 2012</string>
     <string name="twoeuro_comm_2012_fi_short_title">H. Schjerfbeck</string>
@@ -815,7 +903,7 @@
     <string name="twoeuro_comm_2012_lu_desc">Auf der linken Seite des Münzinneren sind seine Königliche Hoheit, der Großherzog Henri, sowie versetzt dahinter sein Urgroßvater, Großherzog Wilhelm IV., abgebildet. Beide Männer sind im Halbprofil mit Blick nach rechts dargestellt. Unterhalb der Porträts ist jeweils der Name des Porträtierten – "HENRI" bzw. "GUILLAUME IV" – zu lesen, im Fall Guillaumes ergänzt um dessen Todesjahr († 1912). Oben ist die Jahreszahl "2012" eingeprägt, die vom Münzzeichen (dem Merkurstab) und dem Zeichen des Münzmeisters (einem Segelboot) eingerahmt ist. Darunter verläuft die Inschrift "GRANDS-DUCS DE LUXEMBOURG" (Großherzöge von Luxemburg). Die Stadt Luxemburg ziert den Hintergrund der Münze.</string>
     <string name="twoeuro_comm_2012_lu_volume">1,4 Millionen Münzen</string>
     <string name="twoeuro_comm_2012_lu_date">Januar 2012</string>
-    <string name="twoeuro_comm_2012_lu_short_title">Henry &amp; Wilhelm</string>
+    <string name="twoeuro_comm_2012_lu_short_title">Henry + Wilhelm</string>
     <string name="twoeuro_comm_2012_lu_2_title">Hochzeit von Prinz Guillaume, dem Erbgroßherzog von Luxemburg, mit Gräfin Stéphanie de Lannoy</string>
     <string name="twoeuro_comm_2012_lu_2_desc"> Im Münzinneren sind am linken Rand seine Königliche Hoheit Großherzog Henri, am rechten Rand Prinz Guillaume und in ihrer Mitte Gräfin Stéphanie zu sehen, wobei sich die Porträts leicht überlagern. Im unteren Teil des Münzinneren verlaufen die Worte „PRËNZENHOCHZAÏT“ und „LËTZEBUERG“ in zwei Reihen oberhalb der Jahreszahl (2012) und werden durch das Münzzeichen sowie die Initialien des Münzmeisters flankiert. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt. </string>
     <string name="twoeuro_comm_2012_lu_2_volume">1,4 Mio. Münzen</string>
@@ -920,7 +1008,7 @@
     <string name="twoeuro_comm_2013_ne_desc"></string>
     <string name="twoeuro_comm_2013_ne_volume"></string>
     <string name="twoeuro_comm_2013_ne_date">28. Januar 2013</string>
-    <string name="twoeuro_comm_2013_ne_short_title">Beatrix &amp; Willem</string>
+    <string name="twoeuro_comm_2013_ne_short_title">Beatrix + Willem</string>
     <string name="twoeuro_comm_2013_ne_2_title">200 Jahre Königreich</string>
     <string name="twoeuro_comm_2013_ne_2_desc"></string>
     <string name="twoeuro_comm_2013_ne_2_volume"></string>
@@ -937,7 +1025,7 @@
     <string name="twoeuro_comm_2013_sk_date">Juli 2013</string>
     <string name="twoeuro_comm_2013_sk_short_title">Konstantin</string>
     <string name="twoeuro_comm_2013_si_title">800. Jahrestag des ersten Besuchs der Höhle von Postojna</string>
-    <string name="twoeuro_comm_2013_si_desc">Das Motiv dieser Gedenkmünze ist eine stilisierte Spirale, die auf der linken Seite des Münzinneren mit dem Schriftzug „POSTOJNSKA JAMA • 1213 &#8211; 2013 • SLOVENIJA“ beginnt, dann schneckenförmig verläuft und schließlich mit zwei stilisierten Tropfsteinen endet.</string>
+    <string name="twoeuro_comm_2013_si_desc">Das Motiv dieser Gedenkmünze ist eine stilisierte Spirale, die auf der linken Seite des Münzinneren mit dem Schriftzug „POSTOJNSKA JAMA • 1213 - 2013 • SLOVENIJA“ beginnt, dann schneckenförmig verläuft und schließlich mit zwei stilisierten Tropfsteinen endet.</string>
     <string name="twoeuro_comm_2013_si_volume">1 Million Münzen</string>
     <string name="twoeuro_comm_2013_si_date">Februar 2013</string>
     <string name="twoeuro_comm_2013_si_short_title">Postojna</string>
@@ -1051,11 +1139,11 @@
     <string name="twoeuro_comm_2014_mt_2_volume">400000 Münzen</string>
     <string name="twoeuro_comm_2014_mt_2_date">Oktober 2014</string>
     <string name="twoeuro_comm_2014_mt_2_short_title">Independence</string>
-    <string name="twoeuro_comm_2014_ne_title">Doppelportrait - Willem-Alexander &amp; Beatrix</string>
+    <string name="twoeuro_comm_2014_ne_title">Doppelportrait - Willem-Alexander + Beatrix</string>
     <string name="twoeuro_comm_2014_ne_desc">Das Münzinnere zeigt die Porträts von König Willem-Alexander und der früheren Königin Beatrix. Am linken Rand erscheint halbkreisförmig der Schriftzug „WILLEM-ALEXANDER KONING DER NEDERLANDEN“ und am rechten Rand halbkreisförmig der Schriftzug „BEATRIX PRINSES DER NEDERLANDEN“. Oben zwischen den beiden Schriftzügen ist das Kronensymbol eingraviert, unten das Münzmeisterzeichen und das Münzzeichen und dazwischen das Ausgabejahr „2014“. Im äußeren Münzring bilden die zwölf Sterne der Europäischen Union einen Kreis um das Hauptmotiv.</string>
     <string name="twoeuro_comm_2014_ne_volume">1 Mio. Münzen</string>
     <string name="twoeuro_comm_2014_ne_date">Mai 2014</string>
-    <string name="twoeuro_comm_2014_ne_short_title">Willem &amp; Beatrix</string>
+    <string name="twoeuro_comm_2014_ne_short_title">Willem + Beatrix</string>
     <string name="twoeuro_comm_2014_po_title">Jahr der familienbetriebenen Landwirtschaft</string>
     <string name="twoeuro_comm_2014_po_desc"> Im Zentrum des Münzmotivs werden in der traditionellen Landwirtschaft typischerweise verwendete Werkzeuge neben landwirtschaftlichen Produkten dargestellt: ein Huhn, umringt von Kürbissen, einem Korb Kartoffeln sowie anderem Gemüse und Blumen. Links ist halbkreisförmig der Ausgabeanlass „AGRICULTURA FAMILIAR“ (familienbetriebene Landwirtschaft) zu lesen und rechts, ebenfalls im Halbkreis, der Ausgabestaat „PORTUGAL“ gefolgt vom Ausgabejahr „2014“. Links unten befindet sich das Münzzeichen „INCM“. Im äußeren Münzring sind die zwölf Sterne der Europäischen Union dargestellt. </string>
     <string name="twoeuro_comm_2014_po_volume">500000 Münzen</string>
@@ -1167,7 +1255,7 @@
     <string name="twoeuro_comm_2015_lv_date">Jan. 2015</string>
     <string name="twoeuro_comm_2015_lv_short_title">Council EU</string>
     <string name="twoeuro_comm_2015_lv_2_title">Storch</string>
-    <string name="twoeuro_comm_2015_lv_2_desc">Von Mitte April bis Ende August prägen die Nester des Weißstorchs und ihre Bewohner die lettische Landschaft – 5&amp; aller Weißstörche weltweit werden hier erbrütet. Dem scheuen und versteckt brütenden Schwarzstorch – im Baltikum häufiger als in Mittel- und Westeuropa – gilt seit 10 Jahren ein von der vor 30 Jahren gegründeten „Lettischen Ornithologischen Gesellschaft“ gefördertes Schutzprogramm. Störche generell gelten als Symbol für den Naturschutz. Das Motiv des Storches gab es schon auf der vormaligen nationalen Währung Lats, und zwar auf der 1-Lats-Umlaufmünze. Die von Olga Šilova gestaltete Münze wurde bei der Litauischen Münzstätte „Lietuvos monetu kalykla“ in Vilnius geprägt.</string>
+    <string name="twoeuro_comm_2015_lv_2_desc">Von Mitte April bis Ende August prägen die Nester des Weißstorchs und ihre Bewohner die lettische Landschaft – 5% aller Weißstörche weltweit werden hier erbrütet. Dem scheuen und versteckt brütenden Schwarzstorch – im Baltikum häufiger als in Mittel- und Westeuropa – gilt seit 10 Jahren ein von der vor 30 Jahren gegründeten „Lettischen Ornithologischen Gesellschaft“ gefördertes Schutzprogramm. Störche generell gelten als Symbol für den Naturschutz. Das Motiv des Storches gab es schon auf der vormaligen nationalen Währung Lats, und zwar auf der 1-Lats-Umlaufmünze. Die von Olga Šilova gestaltete Münze wurde bei der Litauischen Münzstätte „Lietuvos monetu kalykla“ in Vilnius geprägt.</string>
     <string name="twoeuro_comm_2015_lv_2_volume">1.020.000 Münzen</string>
     <string name="twoeuro_comm_2015_lv_2_date">1. Dezember 2015</string>
     <string name="twoeuro_comm_2015_lv_2_short_title">Stork Bird</string>
@@ -1735,6 +1823,11 @@
     <string name="twoeuro_comm_2019_ad_volume">""</string>
     <string name="twoeuro_comm_2019_ad_date">"2019"</string>
     <string name="twoeuro_comm_2019_ad_short_title">"Ski-Weltcup"</string>
+    <string name="twoeuro_comm_2019_ad_2_title">"600. Jahrestag des Consell de la Terra"</string>
+    <string name="twoeuro_comm_2019_ad_2_desc">""</string>
+    <string name="twoeuro_comm_2019_ad_2_volume">"60.000"</string>
+    <string name="twoeuro_comm_2019_ad_2_date">"11.11.2019"</string>
+    <string name="twoeuro_comm_2019_ad_2_short_title">"Consell de la Terra"</string>
 	<string name="twoeuro_comm_2019_be_title">"25. Gründungstag des Europäischen Währungsinstituts"</string>
 	<string name="twoeuro_comm_2019_be_desc">"Porträt von Alexandre Lamfalussy, dem ersten Präsidenten des EWI und unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb unterhalb sein Name. Linkerhand mittig die Abkürzung „EMI“ und darüber die Jahreszahl „1994“, als das Währungsinstitut gegründet und Lamfalussy zum ersten Präsidenten ernannt wurde. Unter dem Schriftzug „EMI“ sind mehrere aufeinander fallende Münzen mit der Aufschrift „EUR“, „ECU“ bzw. „BEF“ (von oben nach unten) abgebildet. Oberhalb links befindet sich der Schriftzug „European Monetary Institute“."</string>
 	<string name="twoeuro_comm_2019_be_volume">"155.000"</string>
@@ -1762,7 +1855,7 @@
 	<string name="twoeuro_comm_2019_ee_short_title">"Estnisches Liederfestival"</string>
 	<string name="twoeuro_comm_2019_ee_2_title">"100. Jahrestag der Gründung der Universität Tartu"</string>
 	<string name="twoeuro_comm_2019_ee_2_desc">"Die Universität Tartu ist die älteste Universität Estlands und dessen einzige Volluniversität. Sie wurde 1632 von König Gustav II. Adolf von Schweden in Dorpat gegründet, der Stadt, die heute Tartu heißt. Seit der estnischen Unabhängigkeit von Russland im Jahr 1918/19 heißt sie Tartu Ülikool („Universität Tartu“) und ist die erste estnischsprachige Universität weltweit."</string>
-	<string name="twoeuro_comm_2019_ee_2_volume">"Auflage noch unbekannt"</string>
+	<string name="twoeuro_comm_2019_ee_2_volume">"1.000.000"</string>
 	<string name="twoeuro_comm_2019_ee_2_date">"2019"</string>
 	<string name="twoeuro_comm_2019_ee_2_short_title">"Universität Tartu"</string>
 	<string name="twoeuro_comm_2019_fr_title">"30 Jahre Fall der Berliner Mauer"</string>
@@ -1815,7 +1908,7 @@
 	<string name="twoeuro_comm_2019_lu_2_volume">"400.000"</string>
 	<string name="twoeuro_comm_2019_lu_2_date">"4. Quartal 2019"</string>
 	<string name="twoeuro_comm_2019_lu_2_short_title">"Allgemeines Wahlrecht"</string>
-	<string name="twoeuro_comm_2019_mt_title">"Erbe &amp; Tradition (Serie: Von Kindern mit Solidarität)"</string>
+	<string name="twoeuro_comm_2019_mt_title">"Erbe + Tradition (Serie: Von Kindern mit Solidarität)"</string>
 	<string name="twoeuro_comm_2019_mt_desc">"Das Programm, welches in Zusammenarbeit mit „The Malta Community Chest Fund“ (dt. etwa Gemeindeverfügungsfonds) offiziell am 5. Juni 2015 durch die Präsidentin von Malta Marie-Louise Coleiro Preca eröffnet wurde. Was das Design angeht, so wird in den Schulen Maltas ein Wettbewerb veranstaltet werden. Das Münzdesign wird symbolisiert die Liebe im weiteren Sinne, um den wichtigen Aspekt der Solidarität Rechnung zu tragen. Nach einer Auswahl von 5 Projekten für jedes Jahr, wird eine Wahl den jeweiligen Sieger küren. Die folgenden Plätze werden auch ausgezeichnet und auf den Gedenkmünzen Maltas in den kommenden Jahren abgebildet."</string>
 	<string name="twoeuro_comm_2019_mt_volume">"300.000"</string>
 	<string name="twoeuro_comm_2019_mt_date">"2019"</string>
@@ -1875,14 +1968,14 @@
     <string name="twoeuro_comm_2019_va_2_volume">""</string>
     <string name="twoeuro_comm_2019_va_2_date">"2019"</string>
     <string name="twoeuro_comm_2019_va_2_short_title">"90 Jahre Vatikanstadt"</string>
-    
+
     <string name="twoeuro_comm_2007_eu_rv_title">50. Jahrestag der Unterzeichnung des Vertrags von Rom</string>
     <string name="twoeuro_comm_2007_eu_rv_desc">Das Münzinnere zeigt das von den sechs Gründungsländern unterzeichnete Vertragswerk vor einem Hintergrund, der an die (von Michelangelo entworfene) Pflasterung des Kapitolsplatzes in Rom erinnert, wo der Vertrag am 25. März 1957 unterzeichnet wurde. Die Aufschriften „Vertrag von Rom 50 Jahre“ und „EUROPA“ sowie der Name des Ausgabelandes sind in den jeweiligen Sprachen des Euroraums oder in Latein zu sehen. Der Text variiert daher von Land zu Land, das Münzbild hingegen ist identisch. Der Vertrag von Rom begründete die Europäische Wirtschaftsgemeinschaft und führte letztendlich zur Einführung des Euro im Jahr 1999 sowie der Euro-Banknoten und -Münzen im Jahr 2002. Der Jahrestag wird am 25. März 2007 gefeiert. Die Länder des Euroraums haben beschlossen, aus diesem Anlass gemeinsam diese Gedenkmünze auszugeben. Das Design wurde nach der Durchführung eines von den europäischen Münzstätten organisierten Wettbewerbs ausgewählt. </string>
     <string name="twoeuro_comm_2007_eu_rv_volume">von Land zu Land unterschiedlich</string>
     <string name="twoeuro_comm_2007_eu_rv_date">25. März 2007</string>
     <string name="twoeuro_comm_2007_eu_rv_short_title">Contract Rome</string>
-    <string name="twoeuro_comm_2009_eu_emu_title">10. Jahrestag der Wirtschafts&#8211; und Währungsunion</string>
-    <string name="twoeuro_comm_2009_eu_emu_desc">Im Münzinneren ist ein mit dem €&#8211;Symbol verbundenes Strichmännchen dargestellt. Die Münze soll den Gedanken widerspiegeln, der der gemeinsamen Währung und somit der Wirtschafts&#8211; und Währungsunion (WWU) – als letztem Schritt in Europas langer Geschichte des Handels und der wirtschaftlichen Integration – zugrunde liegt. Die Münze wird von allen Ländern des Euroraums ausgegeben. Sie trägt neben dem jeweiligen Landesnamen auch die Inschrift „WWU 1999&#8211;2009“ in der/den entsprechenden Sprache(n). Über das Münzdesign hatten Bürgerinnen und Bürger der Europäischen Union online abgestimmt. Dabei konnten sie sich zwischen fünf in die engere Auswahl gekommenen Motiven entscheiden. Der Entwurf stammt von George Stamatopoulos, der in der Münzabteilung der Bank von Griechenland als Bildhauer tätig ist. </string>
+    <string name="twoeuro_comm_2009_eu_emu_title">10. Jahrestag der Wirtschafts- und Währungsunion</string>
+    <string name="twoeuro_comm_2009_eu_emu_desc">Im Münzinneren ist ein mit dem €-Symbol verbundenes Strichmännchen dargestellt. Die Münze soll den Gedanken widerspiegeln, der der gemeinsamen Währung und somit der Wirtschafts- und Währungsunion (WWU) – als letztem Schritt in Europas langer Geschichte des Handels und der wirtschaftlichen Integration – zugrunde liegt. Die Münze wird von allen Ländern des Euroraums ausgegeben. Sie trägt neben dem jeweiligen Landesnamen auch die Inschrift „WWU 1999-2009“ in der/den entsprechenden Sprache(n). Über das Münzdesign hatten Bürgerinnen und Bürger der Europäischen Union online abgestimmt. Dabei konnten sie sich zwischen fünf in die engere Auswahl gekommenen Motiven entscheiden. Der Entwurf stammt von George Stamatopoulos, der in der Münzabteilung der Bank von Griechenland als Bildhauer tätig ist. </string>
     <string name="twoeuro_comm_2009_eu_emu_volume">von Land zu Land unterschiedlich</string>
     <string name="twoeuro_comm_2009_eu_emu_date">1. Januar 2009</string>
     <string name="twoeuro_comm_2009_eu_emu_short_title">Eco. Cur. Union</string>
@@ -1897,16 +1990,7 @@
     <string name="twoeuro_comm_2015_eu_euf_date">2015</string>
     <string name="twoeuro_comm_2015_eu_euf_short_title">30y EU Flag</string>
 
-    <string name="specialeuro_2016_de_planet_title">Blue Planet</string>
-    <string name="specialeuro_2016_de_planet_short_title">Blue Planet</string>
-    <string name="specialeuro_2017_de_clima_title">Climazone Tropical</string>
-    <string name="specialeuro_2017_de_clima_short_title">Climazone Tropical</string>
-    <string name="specialeuro_2018_de_clima_title">Climazone Sub-Tropical</string>
-    <string name="specialeuro_2018_de_clima_short_title">Climazone Sub-Tropical</string>
-    <string name="specialeuro_2019_de_clima_title">Temperate climate</string>
-    <string name="specialeuro_2019_de_clima_short_title">Temperate climate</string>
-
-    <string name="license_flags">License for Flags: Copyright &#169; 2013 Go Squared Ltd. http://www.gosquared.com/ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+    <string name="license_flags">License for Flags: Copyright (c) 2013 Go Squared Ltd. http://www.gosquared.com/ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
 
     <string name="license_ambilwarna">
 License for Amilbwarna Color Chooser
@@ -2013,47 +2097,6 @@ limitations under the License.
         "On the layout level, design your app layout to minimize opportunities for interference. "
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
-    </string>
-
-    <!-- DSGVO -->
-    <string name="action_show_data_privacy">Data privacy</string>
-    <string name="dsgvo_ack_title">IMPORTANT</string>
-    <string name="dsgvo_ack_yes">I agree</string>
-    <string name="dsgvo_ack_no">I do NOT agree</string>
-    <string name="dsgvo_agreed_message">You agreed at: %1$s</string>
-    <string name="dsgvo_data_privacy">
-        "Data privacy declaration of 'Eurocoins Album' named as 'App'.\n\n"
-
-        "Name and contact:\n"
-        "Matthias Kleiber, matthias@online.de\n\n"
-
-        "Reason of data processing:\n"
-        "The App generates and saves on the device of the user (after positiv agreement to data processing) a private and unique user identification (UUID).\n"
-        "This UUID serves as identification of the device in every communication of the App with the Server.\n"
-        "Additionally the user can enter his e-mail-address inside the app to use even more features. The user receives an e-mail to his address in which he will find a link with which he can approve the address. Additionally the e-mail-address will be used to send e-mails to the user to confirm requests he entered into the App like transfer of data to another device. The App does not send e-mails for advertisement or similar.\n"
-        "The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n"
-        "Pictures of coins the user takes in the app will also be uploaded to the server and are available to those users with which the user shares his/her collection. Pictures from trading collections are shared to the public.\n\n"
-
-        "Base of data processing:\n"
-        "The data processing is needed for the features of the App to operate.\n\n"
-
-        "Recipients of personal data:\n"
-        "The server being used by the App belongs to the company STRATO and is operated by this. Personal data will not transferred explicitely to STRATO but can be accessed to fullfill their contract.\nPersonal data will not be transferred to any other third party.\n\n"
-
-        "Duration of storing personal data:\n"
-        "Personal data will be stored until the user asks for deleting his personal data or account.\n\n"
-
-        "Rights of the user:\n"
-        "The approval of the user to process and store personal data can be revoked or corrected at any time. The user can ask for the personal data which was processed and stored. This can be achieved for example by sending an e-mail to matthias@online.de.\n"
-        "The user can contact the corresponding institution for data privacy."
-    </string>
-
-    <string name="dsgvo_agree_data_privacy">
-        "I read and understood the following declaration of data privacy of the App. This is viewable in the App at menu "Information - Data Privacy."
-    </string>
-
-    <string name="dsgvo_1">
-        "I agree that my personal data that I entered into the App will be processed, stored and transferred to third parties as long as it is needed for the features of the App to operate."
     </string>
 
 </resources>

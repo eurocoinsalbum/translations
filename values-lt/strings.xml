@@ -57,9 +57,8 @@
 	<string name="note">Pastaba</string>
 	<string name="pref_show_only_missing_coins">Rodyti tik trūkstamas monetas</string>
 	<string name="pref_show_official_coin_set_marker">Rodyti \'skirtingos kalyklos\' žymę (*)</string>
-	<string name="condition">Būklė</string>
-	<string name="condition_helper">(A&#8211;Z arba 1&#8211;9)</string>
-	<string name="action_open_url_comment">Nusiųsti žinutę</string>
+	<string name="coinCondition">Būklė</string>
+    <string name="action_open_url_comment">Nusiųsti žinutę</string>
 	<string name="action_close">Išeiti</string>
 	<string name="coin_collected_marker">X</string>
 	<string name="index_cc">Indeksas</string>
@@ -84,6 +83,7 @@
 	<string name="pref_background_color">Fono spalva</string>
 	<string name="pref_hide_not_existing_coins">Nerodyti neegzistuojančių monetų</string>
 	<string name="click_the_coin_set_expand_button">Palieskite pliuso ženklą norėdami išskleisti monetų grupę</string>
+
 	<!-- v4.5 -->
 	<string name="pref_text_size_3">Šrifto dydis 3 (pasirinkimai)</string>
 	<string name="version_history">Pasikeitimų istorija</string>
