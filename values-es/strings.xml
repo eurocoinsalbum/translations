@@ -392,17 +392,16 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 6.0\n
+    <string name="version_history_last">"Versión 6.0\n
         característica añadida a las monedas de comercio con otros usuarios. Por favor, lea menu-> Collection-> Comercio Partners-> Uso.\n
         Añadida función para tomar una imagen individual de una moneda.\n
         imágenes de monedas de otros usuarios podrían ser incluidos como una violación de los términos de las condiciones\n
         Mostrar barra vertical cada 5 años y las líneas horizontales para aumentar la legibilidad.\n
         Añadido más 2€ monedas conmemorativas de 2019."</string>
 
-    <string name="version_history_last">"Versión 5.6.10\n
-        característica añadida a la colección dividida.\n
-        error de sincronización fijo para las colecciones compartidas.\n
-        Fijo de traducción Ruso".</string>
+    <string name="version_history_current">"Versión 6.1\n
+        Se han añadido 2 monedas conmemorativas de 2 euros en el 2020.\n
+        Se ha corregido el fallo de la aplicación."</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

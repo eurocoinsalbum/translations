@@ -335,6 +335,9 @@
     <string name="setup_account">"Konto einrichten"</string>
     <string name="device_new_master">"Ist dieses Gerät Ihr Hauptgerät?"</string>
 
+    <!-- version 6.1 -->
+    <string name="collection_not_yet_initialized">Sammlung nicht initialisiert</string>
+
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
@@ -382,17 +385,16 @@
     - Während Sie die Tauschsammlung auf "ausgeführt" setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie "Nein", um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und "Ja" wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 6.0\n
+    <string name="version_history_last">"Version 6.0\n
         Funktionalität zum Tauschen von Münzen mit anderen Benutzern hinzugefügt.\n
         Funktionalität zur Aufnahme eines individuellen Münzbildes hinzugefügt.\n
         Münzbilder von anderen Benutzern können als Verstoß gegen die Nutzungsbedingungen gemeldet werden.\n
         Anzeige eines vertikalen Balkens alle 5 Jahre und horizontaler Linien.\n
         Weitere 2€ Gedenkmünzen für 2019 hinzugefügt."</string>
 
-    <string name="version_history_last">"Version 5.6.10\n
-        Funktionalität zum Aufteilen einer Sammlung hinzugefügt.\n
-        Synchronisationsfehler für neu geteilte Sammlungen behoben.\n
-        Übersetzungsfehler in russischer Sprachdatei behoben."</string>
+    <string name="version_history_current">"Version 6.1\n
+        2€ Gedenkmünzen für 2020 hinzugefügt.\n
+        Einige Abstürze behoben."</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
