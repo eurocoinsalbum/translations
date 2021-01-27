@@ -29,7 +29,7 @@
     <string name="export_ok">"Exportar OK"</string>
     <string name="import_ok">"Importar OK"</string>
     <string name="help">"Ayuda"</string>
-    <string name="help_message">"Si desea enviarme algún problema, error, pregunta o solicitud de funciones, utilice \"enviar mensaje\" en el menú (http://eurocoins-album.jimdo.com). Esos comentarios no deberían publicarse en Play Store."</string>
+    <string name="help_message">"Si desea enviarme algún problema, error, pregunta o solicitud de funciones, utilice \"enviar mensaje\" en el menú (https://eurocoins-album.jimdosite.com). Esos comentarios no deberían publicarse en Play Store."</string>
     <string name="help_statistics">"El formato de estadísticas es x/y/z x = número de monedas diferentes posibles que ha seleccionado; y = número de posibles monedas diferentes que se pueden recolectar; z = número total de monedas que ha recolectado (en caso de que tenga una moneda más de una vez, vea los detalles de la moneda). El número decimal muestra la cantidad de dinero que ha cobrado y, además, los importes pagados y el valor en caso de que los haya ingresado en los detalles de la moneda."</string>
     <string name="help_coin_marker">"Una 'X' en una moneda significa que esta moneda no fue acuñada en absoluto (si tiene otra información, por favor envíeme un correo electrónico). Un '*' en la moneda es el marcador de conjunto de monedas oficial en caso de que haya activado esta configuración."</string>
     <string name="help_eu_view">"La vista de la UE muestra si el usuario actual tiene esta moneda en todos los años / países (y casas de moneda) o si falta al menos un año / país (acuñación). Esto depende del eu-view-mode (ver a continuación). En modo año, toque una moneda para ver para qué países el usuario tiene esta moneda ya recolectada. ¡Toca una moneda conmemorativa de 2 € para ver las 2 monedas de este año / país!"</string>
@@ -342,7 +342,7 @@
     <string name="no_files_for_import_found">"No hay archivos para la importación encuentran en la carpeta Descargas."</string>
     <string name="email_confirmed">"Se confirmó dirección de correo electrónico."</string>
     <string name="setup_account">"Configurar la cuenta"</string>
-    <string name="device_new_master">"¿Es este dispositivo el dispositivo maestro?"</string>
+    <string name="device_new_master">"¿Quieres transferir tus colecciones existentes a este teléfono?"</string>
 
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
@@ -392,16 +392,15 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 6.0\n
-        característica añadida a las monedas de comercio con otros usuarios. Por favor, lea menu-> Collection-> Comercio Partners-> Uso.\n
-        Añadida función para tomar una imagen individual de una moneda.\n
-        imágenes de monedas de otros usuarios podrían ser incluidos como una violación de los términos de las condiciones\n
-        Mostrar barra vertical cada 5 años y las líneas horizontales para aumentar la legibilidad.\n
-        Añadido más 2€ monedas conmemorativas de 2019."</string>
+    <string name="version_history_current">"Versión 6.3\n
+        Mónaco, el Vaticano, Andorra, Francia, Luxemburgo y Chipre: se añaden monedas conmemorativas de 2 euros en 2020.\n
+        Set Finlandia 2019 monedas no existentes.\n
+        Se ha solucionado el problema del desvío del año.\n
+        Corregido el fallo en la creación de pdf."</string>
 
-    <string name="version_history_current">"Versión 6.1\n
+    <string name="version_history_last">"Versión 6.2.3\n
         Se han añadido 2 monedas conmemorativas de 2 euros en el 2020.\n
-        Se ha corregido el fallo de la aplicación."</string>
+        Bélgica 2018 conmemorativas de 2 euros"</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

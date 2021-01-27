@@ -28,7 +28,7 @@
     <string name="export_ok">Exportation OK</string>
     <string name="import_ok">Importation OK</string>
     <string name="help">Assistance</string>
-    <string name="help_message">Si vous voulez m’envoyer les problèmes, bugs que vous rencontrez, ou encore vos questions et propositions d’améliorations, merci d’utiliser le formulaire disponible via le menu "Envoyer un message" (http://eurocoinsalbum.jimdo.com). Ces commentaires ne devraient pas être postés via le play store.</string> 
+    <string name="help_message">Si vous voulez m’envoyer les problèmes, bugs que vous rencontrez, ou encore vos questions et propositions d’améliorations, merci d’utiliser le formulaire disponible via le menu "Envoyer un message" (https://eurocoins-album.jimdosite.com). Ces commentaires ne devraient pas être postés via le play store.</string>
     <string name="help_statistics">Le format statistique est x/y/z avec x = le nombre de pièces différentes dans la vue que vous avez sélectionnée; y = nombre de pièces différentes possibles qui peuvent être collectées; z = nombre total de pièces collectées (dans le cas où la pièce a été recueilli plus d\'une fois, voir les propriétés de pièces de monnaie). Les nombres décimaux indiquent le montant d\'argent payé pour chaque pièce de monnaie et ainsi que la somme de leur valeur, si ces données ont été renseignées dans les propriétés de pièces de monnaie.</string>
     <string name="help_coin_marker">Un \'X\' sur une pièce de monnaie signifie que cette pièce n’a jamais été frappée (pas de tirage existant) (si vous avez plus d’information, merci de me contacter par mail). Un \'* \' sur une pièce de monnaie est un marqueur pour les pièces éditées en séries officielles (kit), visible uniquement dans le cas où l\'option est activée dans les paramètres de l’application.</string>
     <string name="help_eu_view">La vue UE montre pour l\'utilisateur actif, s’il a cette pièce de monnaie dans toutes les années/pays (et tirages) ou s\'il lui manque au moins une année/pays (tirage). Sélectionner une pièce de monnaie pour voir le détails des pays dans lesquels cette pièce a déjà été recueillie.</string> 
@@ -333,7 +333,7 @@
     <string name="no_files_for_import_found">"Aucun pour l'importation dans le dossier Téléchargements trouvés."</string>
     <string name="email_confirmed">"Adresse e-mail a été confirmée."</string>
     <string name="setup_account">"Mettre en place compte"</string>
-    <string name="device_new_master">"Est-ce dispositif votre appareil maître?"</string>
+    <string name="device_new_master">"Vous souhaitez transférer vos collections existantes vers ce téléphone"</string>
 
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
@@ -383,17 +383,15 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 6.0\n
-        Ajout d'une fonction aux pièces commerciales avec d'autres utilisateurs. S'il vous plaît lire menu-> Collection-> Commerce Associes> Utilisation.\n
-        Ajout d'une fonction pour prendre une image individuelle d'une pièce de monnaie.\n
-        images pièces d'autres utilisateurs pourraient être déclarés comme une violation des termes de conditions de la n
-        Afficher la barre verticale tous les 5 ans et des lignes horizontales pour augmenter la lisibilité.\n
-        Ajouté plus 2? des pièces commémoratives pour 2019."</string>
+    <string name="version_history_current">"Version 6.3\n
+        Monaco, Vatican, Andorre, France, Luxembourg, Chypre 2€ pièces commémoratives 2020 ajoutées.\n
+        Set Finlande 2019 pièces non existantes.\n
+        Émission d'un déviateur à année fixe.\n
+        Correction d'un crash dans la création de pdf"</string>
 
-    <string name="version_history_last">"Version 5.6.10\n
-        Ajout d'une fonction à la collection partagée.\n
-        bug de synchronisation fixe pour les collections partagées.\n
-        Fixe traduction russe".</string>
+    <string name="version_history_last">"Version 6.2.3\n
+        Ajout de pièces commémoratives de 2 euros en 2020.\n
+        Ajout d'une pièce commémorative de 2€ pour 2018.".</string>
 
     <string name="coin_1cent">1 Centime</string>
     <string name="coin_2cent">2 Centimes</string>
