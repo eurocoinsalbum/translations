@@ -397,15 +397,12 @@
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
-    <string name="version_history_current">"Version 6.3\n
-        Monaco, Vatican, Andorra, France, Luxembourg, Cyprus 2€ commemorative coins 2020 added.\n
-        Set Finland 2019 not existing coins.\n
-        Fixed year devider issue.\n
-        Fixed crash in pdf creation."</string>
+    <string name="version_history_last">"Version 6.5\n
+        Fixed crash in export collection and create pdf."</string>
 
-    <string name="version_history_last">"Version 6.2.3\n
-        More 2€ commemorative coins 2020 added.\n
-        Added 2018 2€ commemorative coin."</string>
+    <string name="version_history_current">"Version 6.6\n
+        Fixed crash in export collection and create pdf.\n
+        2€ commemorative coin 2020 added."</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
@@ -2007,11 +2004,11 @@
     <string name="twoeuro_comm_2020_be_2_volume">"155.000 (150.000 / 5.000)"</string>
     <string name="twoeuro_comm_2020_be_2_date">"2. Jahreshälfte 2020"</string>
     <string name="twoeuro_comm_2020_be_2_short_title">"Jan van Eyck"</string>
-    <string name="twoeuro_comm_2020_cy_2_title">"30 Jahre Institut für Neurologie und Genetik"</string>
-    <string name="twoeuro_comm_2020_cy_2_desc">"Neuron mit seinen Synapsen, stellvertretend für die Aktivitäten des Instituts für Neurologie und Genetik. Der Ausgabeanlass „ΙΝΣΤΙΤΟΥΤΟ ΝΕΥΡΟΛΟΓΙΑΣ &amp; ΓΕΝΕΤΙΚΗΣ ΚΥΠΡΟΥ“ sowie die Jahreszahlen „1990“ und „2020“ entlang des inneren Münzrandes abgebildet, am unteren Bildrand ist der Ausgabestaat „KYΠPOΣ – CYPRUS“ zu sehen."</string>
-    <string name="twoeuro_comm_2020_cy_2_volume">"412.000"</string>
-    <string name="twoeuro_comm_2020_cy_2_date">"November 2020"</string>
-    <string name="twoeuro_comm_2020_cy_2_short_title">"Neurologie Genetik"</string>
+    <string name="twoeuro_comm_2020_cy_title">"30 Jahre Institut für Neurologie und Genetik"</string>
+    <string name="twoeuro_comm_2020_cy_desc">"Neuron mit seinen Synapsen, stellvertretend für die Aktivitäten des Instituts für Neurologie und Genetik. Der Ausgabeanlass „ΙΝΣΤΙΤΟΥΤΟ ΝΕΥΡΟΛΟΓΙΑΣ &amp; ΓΕΝΕΤΙΚΗΣ ΚΥΠΡΟΥ“ sowie die Jahreszahlen „1990“ und „2020“ entlang des inneren Münzrandes abgebildet, am unteren Bildrand ist der Ausgabestaat „KYΠPOΣ – CYPRUS“ zu sehen."</string>
+    <string name="twoeuro_comm_2020_cy_volume">"412.000"</string>
+    <string name="twoeuro_comm_2020_cy_date">"November 2020"</string>
+    <string name="twoeuro_comm_2020_cy_short_title">"Neurologie Genetik"</string>
     <string name="twoeuro_comm_2020_de_title">"Brandenburg Schloss Sanssouci"</string>
     <string name="twoeuro_comm_2020_de_desc">"Südseite von Schloss Sanssouci mit den als Rokokogarten gestalteten Weinberg-Terrassenstufen in Potsdam. Unten mittig ist der Name des Bundeslands „BRANDENBURG“ und das „D“ für den Ausgabestaat zu sehen. Oberhalb ist das Ausgabejahr „2020“ sowie das Zeichen der jeweiligen Prägeanstalt („A“, „D“, „F“, „G“ bzw. „J“) linkerhand sowie die ineinandergefügten Initialen „JT“ des Künstlers Jordi Truxa zu erkennen. Auflagen der Prägestätten: A: 6.000.000, D: 6.300.000, F: 7.200.000, G: 4.200.000, J: 6.300.000"</string>
     <string name="twoeuro_comm_2020_de_volume">"30.000.000"</string>
@@ -2092,11 +2089,16 @@
     <string name="twoeuro_comm_2020_lu_volume">"300.000 (7.500 / 1.000)"</string>
     <string name="twoeuro_comm_2020_lu_date">"03/2020"</string>
     <string name="twoeuro_comm_2020_lu_short_title">"Prinz Heinrich"</string>
-    <string name="twoeuro_comm_2020_lu_2_title">"Geburt des großherzoglichen Nachwuchses"</string>
-    <string name="twoeuro_comm_2020_lu_2_desc">"Die 2-Euro-Gedenkmünze 2020 wird anlässlich der „Geburt des großherzoglichen Nachwuchses“ ausgegeben."</string>
-    <string name="twoeuro_comm_2020_lu_2_volume">"500.000 – 600.000"</string>
-    <string name="twoeuro_comm_2020_lu_2_date">"10/2020"</string>
-    <string name="twoeuro_comm_2020_lu_2_short_title">"Großherzoglicher Nachwuchs"</string>
+    <string name="twoeuro_comm_2020_lu_2_title">"Relief! Geburt von Prinz Charles von Luxemburg"</string>
+    <string name="twoeuro_comm_2020_lu_2_desc">"Prinz Charles Jean Philippe Joseph Marie Guillaume von Luxemburg ist das erste Kind Erbgroßherzog Guillaumes sowie der Erbgroßherzogin Stéphanie und steht nach seinem Vater an zweiter Stelle der luxemburgischen Thronfolge. Die von Alain Hoffmann gestaltete Münze zeigt den Prinzen nach einem Foto[1358] vor seinen Eltern, im Alter von sechs Wochen. Der ansonsten auf luxemburgischen Gedenkmünzen abzubildende Großherzog Henri, Großvater des Prinzen, ist links durch sein Monogramm, ein „H“ unter einer Königskrone, repräsentiert. Laut dem Designer musste hierfür die Luxemburger Verfassung nicht geändert werden.[1359] Die Münze wird in zwei Prägevarianten gefertigt, in normaler Reliefprägung und in MPI-Fotoprägung. Neben dem links in vertikal verlaufender Schrift dargestellten Landesnamen „LËTZEBUERG“ stehen unten zweizeilig der Titel und das Geburtsdatum des Prinzen: „S.A.R. DE PRËNZ CHARLES“ (Son Altesse royale / Seine königliche Hoheit der Prinz Charles) und „★ 10.5.2020“. Die Umlaufmünzen tragen neben dem 5-Uhr-Stern einen Hermesstab als Münzstättenzeichen der niederländischen Prägestätte Koninklijke Nederlandse Munt in Utrecht und neben dem 7-Uhr-Stern das nationale Münzzeichen, den Luxemburger Löwen mit Doppelschweif. Die in Coincards verausgabten Exemplare zeigen stattdessen links das Münzmeisterzeichen Stephan Satijns, die Servaasbrug (Sint-Servaas-Brücke in Maastricht). Im Herstellungsverfahren „Polierte Platte“ gefertigte Münzexemplare stellen links ebenfalls die Servasbrug dar, rechts allerdings das nationale Münzzeichen, den Luxemburger Löwen."</string>
+    <string name="twoeuro_comm_2020_lu_2_volume">"160.000"</string>
+    <string name="twoeuro_comm_2020_lu_2_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2020_lu_2_short_title">"Relief Prinz Charles"</string>
+    <string name="twoeuro_comm_2020_lu_3_title">"Foto! Geburt von Prinz Charles von Luxemburg"</string>
+    <string name="twoeuro_comm_2020_lu_3_desc">"Prinz Charles Jean Philippe Joseph Marie Guillaume von Luxemburg ist das erste Kind Erbgroßherzog Guillaumes sowie der Erbgroßherzogin Stéphanie und steht nach seinem Vater an zweiter Stelle der luxemburgischen Thronfolge. Die von Alain Hoffmann gestaltete Münze zeigt den Prinzen nach einem Foto[1358] vor seinen Eltern, im Alter von sechs Wochen. Der ansonsten auf luxemburgischen Gedenkmünzen abzubildende Großherzog Henri, Großvater des Prinzen, ist links durch sein Monogramm, ein „H“ unter einer Königskrone, repräsentiert. Laut dem Designer musste hierfür die Luxemburger Verfassung nicht geändert werden.[1359] Die Münze wird in zwei Prägevarianten gefertigt, in normaler Reliefprägung und in MPI-Fotoprägung. Neben dem links in vertikal verlaufender Schrift dargestellten Landesnamen „LËTZEBUERG“ stehen unten zweizeilig der Titel und das Geburtsdatum des Prinzen: „S.A.R. DE PRËNZ CHARLES“ (Son Altesse royale / Seine königliche Hoheit der Prinz Charles) und „★ 10.5.2020“. Die Umlaufmünzen tragen neben dem 5-Uhr-Stern einen Hermesstab als Münzstättenzeichen der niederländischen Prägestätte Koninklijke Nederlandse Munt in Utrecht und neben dem 7-Uhr-Stern das nationale Münzzeichen, den Luxemburger Löwen mit Doppelschweif. Die in Coincards verausgabten Exemplare zeigen stattdessen links das Münzmeisterzeichen Stephan Satijns, die Servaasbrug (Sint-Servaas-Brücke in Maastricht). Im Herstellungsverfahren „Polierte Platte“ gefertigte Münzexemplare stellen links ebenfalls die Servasbrug dar, rechts allerdings das nationale Münzzeichen, den Luxemburger Löwen."</string>
+    <string name="twoeuro_comm_2020_lu_3_volume">"160.000"</string>
+    <string name="twoeuro_comm_2020_lu_3_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2020_lu_3_short_title">"Foto! Prinz Charles"</string>
     <string name="twoeuro_comm_2020_mc_title">"300. Geburtstag von Fürst Honoré III."</string>
     <string name="twoeuro_comm_2020_mc_desc">"Honoré III. (1720–1795), Sohn von Fürstin Louise-Hippolyte, wurde 1732 im Alter von 11 Jahren Fürst von Monaco, zu dem seinerzeit auch Menton und Roquebrune gehörten. Er überließ allerdings seinem Onkel Antoine Grimaldi die Regentschaft. Erst nach dessen Tod kehrte er 1784 aus Paris nach Monaco zurück. Durch die Französische Revolution von 1789 verloren die Grimaldis in Frankreich ihre Adelsprivilegien und ihren dortigen Besitz. Mit der Absetzung Ludwigs XVI. wurde Frankreich 1792 Republik und annektierte 1793 Monaco. Honoré III. wurde verhaftet und starb 1795 in einem Kerker in Paris. Die Münze zeigt ihn gemäß einem im Thronsaal des Fürstenpalasts in Monaco präsentierten Gemälde von Jean-Baptiste van Loo (1684–1745).[1314] Links steht „HONORÉ III“. rechts „MONACO“, unten „1720 ♦ Naissance ♦ 2020“ (1720 ♦ Geburt ♦ 2020). Ein Füllhorn als Münzstättenzeichen der französischen Prägestätte Monnaie de Paris in Pessac ist links dargestellt, ein Fünfeck als Münzmeisterzeichen Yves Sampos rechts. "</string>
     <string name="twoeuro_comm_2020_mc_volume">"15.000"</string>
@@ -2117,6 +2119,11 @@
     <string name="twoeuro_comm_2020_po_volume">"500.000 (5.000 / 5.000)"</string>
     <string name="twoeuro_comm_2020_po_date">"07/2020"</string>
     <string name="twoeuro_comm_2020_po_short_title">"Vereinte Nationen"</string>
+    <string name="twoeuro_comm_2020_po_2_title">"730 Jahre Universität Coimbra"</string>
+    <string name="twoeuro_comm_2020_po_2_desc">"Am 1. März 1290 unterzeichnete der portugiesische König Dionysius aus dem Haus Burgund den „Scientiae thesaurus mirabilis“ (bewundernswerter Wissensschatz) genannten Gründungsvertrag der Universität, die die Fakultäten Kunst, Theologie, Kanonisches Recht, Zivilrecht und Medizin umfassen sollte. Durch die päpstliche Bulle „De statu regni Portugaliae“ (Der Staat Portugal) wurde dies am 9. August 1290 von Papst Nikolaus IV. bestätigt. Im selben Jahr begann der Bau der Universität – sie ist somit die älteste Bildungsanstalt Portugals und eine der ältesten und renommiertesten der Welt. Allerdings wurde sie zunächst in Lissabon errichtet – aber bis 1377 zweimal vorübergehend nach Coimbra verlagert – und erst 1537 auf Anweisung von König João III. endgültig nach Coimbra verlegt. 2013 wurde sie zum UNESCO-Weltkulturerbe erhoben. Die Universität, an der heute 1.500 Dozenten 22.000 Studenten unterrichten, bildet mit 38 anderen traditionsreichen multidisziplinären Universitäten von hohem internationalem Format in Europa das Netzwerk der Coimbra-Gruppe. Der auf der Münze abgebildete große Uhrturm der historischen Universitätsgebäude[1285] stammt aus dem 18. Jahrhundert und gilt als Beispiel für den spätbarocken Stil aus der Zeit Joãos V. Er liegt am höchsten Punkt der Stadt und wurde so zum Wahrzeichen Coimbras. Der Ausgabeanlass „UNIVERSIDADE DE COIMBRA 730 ANOS“ (Universität Coimbra 730 Jahre) wird vierzeilig dargestellt, wobei das „DE“ ligiert geschrieben ist. Unten steht „PORTUGAL 2020“, rechts das Signet „Esc. J. J. BRITO“ des Bildhauers (portugiesisch Escultor = Esc.) und Münzgestalters José João Brito, daneben das Münzstättenzeichen „CASA DA MOEDA“. "</string>
+    <string name="twoeuro_comm_2020_po_2_volume">"510.000"</string>
+    <string name="twoeuro_comm_2020_po_2_date">"01.09.2020"</string>
+    <string name="twoeuro_comm_2020_po_2_short_title">"Insel Madeira"</string>
     <string name="twoeuro_comm_2020_sm_title">"500. Todestag von Raffael"</string>
     <string name="twoeuro_comm_2020_sm_desc">"Die 2-Euro-Gedenkmünze 2020 wird anlässlich des „500. Todestags von Raffael“ ausgegeben."</string>
     <string name="twoeuro_comm_2020_sm_volume">"noch unbekannt"</string>
@@ -2160,6 +2167,185 @@
     <string name="twoeuro_comm_2020_va_2_short_title">"Johannes Paul II."</string>
 
 
+    <string name="twoeuro_comm_2021_be_title">"500 Jahre Karlsgulden"</string>
+    <string name="twoeuro_comm_2021_be_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_be_volume">"?"</string>
+    <string name="twoeuro_comm_2021_be_date">"2021"</string>
+    <string name="twoeuro_comm_2021_be_short_title">"Karlsgulden"</string>
+
+    <string name="twoeuro_comm_2021_be_2_title">"100 Jahre Wirtschaftsunion mit Luxemburg"</string>
+    <string name="twoeuro_comm_2021_be_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_be_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_be_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_be_2_short_title">"Wirtschaftsunion mit Luxemburg"</string>
+
+    <string name="twoeuro_comm_2021_de_title">"Magdeburger Dom - Sachsen-Anhalt"</string>
+    <string name="twoeuro_comm_2021_de_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_de_volume">"30.000.000"</string>
+    <string name="twoeuro_comm_2021_de_date">"01.02.2021"</string>
+    <string name="twoeuro_comm_2021_de_short_title">"Magdeburger Dom"</string>
+
+    <string name="twoeuro_comm_2021_ee_title">"Nationaltier Wolf"</string>
+    <string name="twoeuro_comm_2021_ee_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_ee_volume">"?"</string>
+    <string name="twoeuro_comm_2021_ee_date">"15.4.2021"</string>
+    <string name="twoeuro_comm_2021_ee_short_title">"Nationaltier Wolf"</string>
+
+    <string name="twoeuro_comm_2021_ee_2_title">"Finno-Ugrische Völker"</string>
+    <string name="twoeuro_comm_2021_ee_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_ee_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_ee_2_date">"15.9.2021"</string>
+    <string name="twoeuro_comm_2021_ee_2_short_title">"Finno-Ugrische Völker"</string>
+
+    <string name="twoeuro_comm_2021_es_title">"UNESCO Weltkulturerbe - Altstadt von Toledo"</string>
+    <string name="twoeuro_comm_2021_es_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_es_volume">"4.000.000"</string>
+    <string name="twoeuro_comm_2021_es_date">"01.02.2021"</string>
+    <string name="twoeuro_comm_2021_es_short_title">"Altstadt von Toledo"</string>
+
+    <string name="twoeuro_comm_2021_fi_title">"Journalismus und offene Kommunikation zur Unterstützung Demokratie"</string>
+    <string name="twoeuro_comm_2021_fi_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fi_volume">"800.000"</string>
+    <string name="twoeuro_comm_2021_fi_date">"2021"</string>
+    <string name="twoeuro_comm_2021_fi_short_title">"Journalismus"</string>
+
+    <string name="twoeuro_comm_2021_fi_2_title">"100. Jahre Selbstverwaltung der Alandinseln"</string>
+    <string name="twoeuro_comm_2021_fi_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fi_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_fi_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_fi_2_short_title">"Selbstverwaltung der Alandinseln"</string>
+
+    <string name="twoeuro_comm_2021_fr_title">"Olympische Sommerspiele 2024 in Paris (1 von 4)"</string>
+    <string name="twoeuro_comm_2021_fr_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fr_volume">"?"</string>
+    <string name="twoeuro_comm_2021_fr_date">"2021"</string>
+    <string name="twoeuro_comm_2021_fr_short_title">"Olympische Sommerspiele 2024"</string>
+
+    <string name="twoeuro_comm_2021_fr_2_title">"75 Jahre UNICEF"</string>
+    <string name="twoeuro_comm_2021_fr_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fr_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_fr_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_fr_2_short_title">"75 Jahre UNICEF"</string>
+
+    <string name="twoeuro_comm_2021_gr_title">"200 Jahre Griechische Revolution"</string>
+    <string name="twoeuro_comm_2021_gr_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_gr_volume">"1.500.000"</string>
+    <string name="twoeuro_comm_2021_gr_date">"2021"</string>
+    <string name="twoeuro_comm_2021_gr_short_title">"Griechische Revolution"</string>
+
+    <string name="twoeuro_comm_2021_it_title">"150. Jahrestag der Deklarierung Roms als Hauptstadt Italiens"</string>
+    <string name="twoeuro_comm_2021_it_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_it_volume">"?"</string>
+    <string name="twoeuro_comm_2021_it_date">"2021"</string>
+    <string name="twoeuro_comm_2021_it_short_title">"Deklarierung Roms"</string>
+
+    <string name="twoeuro_comm_2021_it_2_title">"Grazie Gesundheitswesen"</string>
+    <string name="twoeuro_comm_2021_it_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_it_2_volume">"3.000.000"</string>
+    <string name="twoeuro_comm_2021_it_2_date">"22.6.2021"</string>
+    <string name="twoeuro_comm_2021_it_2_short_title">"Grazie Gesundheitswesen"</string>
+
+    <string name="twoeuro_comm_2021_lt_title">"Litauische Ethnographische Regionen - Dzūkija"</string>
+    <string name="twoeuro_comm_2021_lt_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lt_volume">"500.000"</string>
+    <string name="twoeuro_comm_2021_lt_date">"2021"</string>
+    <string name="twoeuro_comm_2021_lt_short_title">"Region Dzūkija"</string>
+
+    <string name="twoeuro_comm_2021_lt_2_title">"Biosphärenreservat Žuvintas"</string>
+    <string name="twoeuro_comm_2021_lt_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lt_2_volume">"500.000"</string>
+    <string name="twoeuro_comm_2021_lt_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_lt_2_short_title">"Biosphärenreservat Žuvintas"</string>
+
+    <string name="twoeuro_comm_2021_lu_title">"Relief! 100. Geburtstag des Großherzogs Jean"</string>
+    <string name="twoeuro_comm_2021_lu_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lu_volume">"160.000"</string>
+    <string name="twoeuro_comm_2021_lu_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2021_lu_short_title">"Relief! Geburtstag Großherzog Jean"</string>
+
+    <string name="twoeuro_comm_2021_lu_2_title">"Relief! 40. Geburtstag des Erbgroßherzoges Guillaume &amp; Hochzeit von Großherzog Henri und Großherzogin Maria Theresa"</string>
+    <string name="twoeuro_comm_2021_lu_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_2_volume">"160.000"</string>
+    <string name="twoeuro_comm_2021_lu_2_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2021_lu_2_short_title">"Relief! Hochzeit Henri und Maria"</string>
+
+    <string name="twoeuro_comm_2021_lu_3_title">"Foto! 40. Geburtstag des Erbgroßherzoges Guillaume &amp; Hochzeit von Großherzog Henri und Großherzogin Maria Theresa"</string>
+    <string name="twoeuro_comm_2021_lu_3_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_3_volume">"160.000"</string>
+    <string name="twoeuro_comm_2021_lu_3_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2021_lu_3_short_title">"Relief! Hochzeit Henri und Maria"</string>
+
+    <string name="twoeuro_comm_2021_lu_4_title">"Foto! 100. Geburtstag des Großherzogs Jean"</string>
+    <string name="twoeuro_comm_2021_lu_4_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_4_volume">"160.000"</string>
+    <string name="twoeuro_comm_2021_lu_4_date">"21.01.2021"</string>
+    <string name="twoeuro_comm_2021_lu_4_short_title">"Foto! Geburtstag Großherzog Jean"</string>
+
+    <string name="twoeuro_comm_2021_lv_title">"100. Jahrestag der internationalen Anerkennung Lettlands"</string>
+    <string name="twoeuro_comm_2021_lv_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lv_volume">"412.000"</string>
+    <string name="twoeuro_comm_2021_lv_date">"2021"</string>
+    <string name="twoeuro_comm_2021_lv_short_title">"Int. Anerkennung Lettlands"</string>
+
+    <string name="twoeuro_comm_2021_mt_title">"Tempel von Tarxien (Serie Prähistorische Stätten Maltas)"</string>
+    <string name="twoeuro_comm_2021_mt_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_mt_volume">"170.000"</string>
+    <string name="twoeuro_comm_2021_mt_date">"2021"</string>
+    <string name="twoeuro_comm_2021_mt_short_title">"Tempel von Tarxien"</string>
+
+    <string name="twoeuro_comm_2021_mt_2_title">"Helden der Pandemie"</string>
+    <string name="twoeuro_comm_2021_mt_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_mt_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_mt_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_mt_2_short_title">"Helden der Pandemie"</string>
+
+    <string name="twoeuro_comm_2021_po_title">"Portugals EU-Ratspräsidentschaft"</string>
+    <string name="twoeuro_comm_2021_po_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_po_volume">"510.000"</string>
+    <string name="twoeuro_comm_2021_po_date">"04.1.2021"</string>
+    <string name="twoeuro_comm_2021_po_short_title">"EU-Ratspräsidentschaft"</string>
+
+    <string name="twoeuro_comm_2021_po_2_title">"Teilnahme an den Olympischen Spielen in Tokio"</string>
+    <string name="twoeuro_comm_2021_po_2_desc">XXX"</string>
+    <string name="twoeuro_comm_2021_po_2_volume">"500.000"</string>
+    <string name="twoeuro_comm_2021_po_2_date">"01.7.2021"</string>
+    <string name="twoeuro_comm_2021_po_2_short_title">"Olympischen Spiele Tokio"</string>
+
+    <string name="twoeuro_comm_2021_si_title">"200 Jahre Regionalmuseum Kranj"</string>
+    <string name="twoeuro_comm_2021_si_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_si_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2021_si_date">"2021"</string>
+    <string name="twoeuro_comm_2021_si_short_title">"Regionalmuseum Kranj"</string>
+
+    <string name="twoeuro_comm_2021_sk_title">"100. Geburtstag von Alexander Dubček"</string>
+    <string name="twoeuro_comm_2021_sk_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_sk_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2021_sk_date">"2021"</string>
+    <string name="twoeuro_comm_2021_sk_short_title">"Alexander Dubček"</string>
+
+    <string name="twoeuro_comm_2021_sm_title">"550. Geburtstag von Albrecht Dürer"</string>
+    <string name="twoeuro_comm_2021_sm_desc">"Die 2 Euro-Gedenkmünze wird anlässlich des 550. Geburtstag von Albrecht Dürer ausgegeben."</string>
+    <string name="twoeuro_comm_2021_sm_volume">"?"</string>
+    <string name="twoeuro_comm_2021_sm_date">"2021"</string>
+    <string name="twoeuro_comm_2021_sm_short_title">"Albrecht Dürer"</string>
+
+    <string name="twoeuro_comm_2021_sm_2_title">"450. Geburtstag von Caravaggio"</string>
+    <string name="twoeuro_comm_2021_sm_2_desc">"Die 2 Euro-Gedenkmünze wird anlässlich des 450. Geburtstag von Caravaggio ausgegeben."</string>
+    <string name="twoeuro_comm_2021_sm_2_volume">"?"</string>
+    <string name="twoeuro_comm_2021_sm_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_sm_2_short_title">"San Marino - Caravaggio"</string>
+
+    <string name="twoeuro_comm_2021_va_title">"450. Geburtstag von Caravaggio"</string>
+    <string name="twoeuro_comm_2021_va_desc">"Die 2 Euro-Gedenkmünze wird anlässlich des 450. Geburtstag von Caravaggio ausgegeben."</string>
+    <string name="twoeuro_comm_2021_va_volume">"76.000"</string>
+    <string name="twoeuro_comm_2021_va_date">"2021"</string>
+    <string name="twoeuro_comm_2021_va_short_title">"Vatikan - Caravaggio"</string>
+
+    <string name="twoeuro_comm_2021_va_2_title">"700. Todestag von Dante Alighieri"</string>
+    <string name="twoeuro_comm_2021_va_2_desc">"Die 2 Euro-Gedenkmünze wird anlässlich des 700. Geburtstag von Dante Alighieri ausgegeben."</string>
+    <string name="twoeuro_comm_2021_va_2_volume">"76.000"</string>
+    <string name="twoeuro_comm_2021_va_2_date">"2021"</string>
+    <string name="twoeuro_comm_2021_va_2_short_title">"Dante Alighieri"</string>
 
     <string name="twoeuro_comm_2007_eu_rv_title">50. Jahrestag der Unterzeichnung des Vertrags von Rom</string>
     <string name="twoeuro_comm_2007_eu_rv_desc">Das Münzinnere zeigt das von den sechs Gründungsländern unterzeichnete Vertragswerk vor einem Hintergrund, der an die (von Michelangelo entworfene) Pflasterung des Kapitolsplatzes in Rom erinnert, wo der Vertrag am 25. März 1957 unterzeichnet wurde. Die Aufschriften „Vertrag von Rom 50 Jahre“ und „EUROPA“ sowie der Name des Ausgabelandes sind in den jeweiligen Sprachen des Euroraums oder in Latein zu sehen. Der Text variiert daher von Land zu Land, das Münzbild hingegen ist identisch. Der Vertrag von Rom begründete die Europäische Wirtschaftsgemeinschaft und führte letztendlich zur Einführung des Euro im Jahr 1999 sowie der Euro-Banknoten und -Münzen im Jahr 2002. Der Jahrestag wird am 25. März 2007 gefeiert. Die Länder des Euroraums haben beschlossen, aus diesem Anlass gemeinsam diese Gedenkmünze auszugeben. Das Design wurde nach der Durchführung eines von den europäischen Münzstätten organisierten Wettbewerbs ausgewählt. </string>

@@ -387,17 +387,12 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"La versione 6.0\n
-        Aggiunta funzione per le monete commerciali con altri utenti. Si prega di leggere menu-> Collezioni-> Trading PARTNERS-> Utilizzo.\n
-        Aggiunta funzione per prendere una singola immagine di una moneta.\n
-        immagini Coin di altri utenti potrebbero essere segnalati come una violazione dei termini di condizioni\n
-        Mostra barra verticale ogni 5 anni e le linee orizzontali per aumentare la leggibilità.\n
-        Aggiunto più 2? monete commemorative per il 2019."</string>
+    <string name="version_history_last">"Version 6.5\n
+        Crash fisso nell'esportazione della collezione e nella creazione di pdf"</string>
 
-    <string name="version_history_last">"La versione 5.6.10\n
-        Aggiunta funzione per la raccolta di divisione.\n
-        bug di sincronizzazione fisso per raccolte condivise.\n
-        Corretto traduzione russa."</string>
+    <string name="version_history_current">"La versione 6.6\n
+        Crash fisso nell'esportazione della collezione e nella creazione di pdf\n
+        2€ monete commemorative 2020 aggiunte"</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>

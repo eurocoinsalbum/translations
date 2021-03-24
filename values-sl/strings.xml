@@ -205,14 +205,12 @@
     <string name="user_name_already_exists">"Ime že obstaja"</string>
     <string name="user_name_contains_invalid_characters">"Ime vsebuje neveljavne znake"</string>
 
-    <string name="version_history_current">"Različica 5.6.9\n
-         Vsi znani spominski kovanci so bili dodani za leto 2019, vendar s skupno sliko\n
-         Popravljen napako, če se je dotaknil skupni kovanec (leva stran)\n
-         Po mnenju EU so zbrani spominski kovanci, ko so kliknili nanj\n
-         Izogibajte se ponovni izdelavi pogleda albuma, ko zaprete določena pogovorna okna"</string>
+    <string name="version_history_last">"Version 6.5\n
+        Odpravljen zlom v zbirki za izvoz in ustvarjanje pdf"</string>
 
-    <string name="version_history_last">"Različica 5.6.8\n
-         Popravil je sesutje, medtem ko je naprava hitro vrtela"</string>
+    <string name="version_history_current">"Različica 6.6\n
+        Odpravljen zlom v zbirki za izvoz in ustvarjanje pdf\n
+         2 € dodani spominski kovanci 2020. "</string>
 
     <string name="coin_1cent">"1 cent"</string>
     <string name="coin_2cent">"2 cent"</string>

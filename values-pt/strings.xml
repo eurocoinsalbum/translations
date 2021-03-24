@@ -390,17 +390,12 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 6.0\n
-        Adicionado recurso a moedas de comércio com outros usuários. Por favor, leia menu-> Collection-> Troca Partners-> Uso.\n
-        Adicionado recurso para tirar uma imagem individual de uma moeda.\n
-        imagens de moedas de outros usuários poderia ser relatado como uma violação dos termos de condições\n
-        Mostrar barra vertical a cada 5 anos e linhas horizontais para aumentar a legibilidade.\n
-        Adicionado mais 2? moedas comemorativas para 2019."</string>
+    <string name="version_history_last">"Version 6.5\n
+        Fixação de crash na colecção de exportação e criação de pdf"</string>
 
-    <string name="version_history_last">"Versão 5.6.10\n
-        característica adicionada à coleção de divisão.\n
-        bug sincronização fixo para coleções compartilhados.\n
-        Corrigido tradução russa."</string>
+    <string name="version_history_current">"Versão 6.6\n
+        Fixação de crash na colecção de exportação e criação de pdf\n
+        2 euros de moedas comemorativas 2020 adicionadas."</string>
 
     <string name="coin_1cent">1 Cêntimo</string>
     <string name="coin_2cent">2 Cêntimos</string>

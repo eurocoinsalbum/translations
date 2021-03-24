@@ -392,15 +392,12 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 6.3\n
-        Mónaco, el Vaticano, Andorra, Francia, Luxemburgo y Chipre: se añaden monedas conmemorativas de 2 euros en 2020.\n
-        Set Finlandia 2019 monedas no existentes.\n
-        Se ha solucionado el problema del desvío del año.\n
-        Corregido el fallo en la creación de pdf."</string>
+    <string name="version_history_last">"Versión 6.5\n
+        Corregido el fallo en la exportación de la colección y la creación de pdf"</string>
 
-    <string name="version_history_last">"Versión 6.2.3\n
-        Se han añadido 2 monedas conmemorativas de 2 euros en el 2020.\n
-        Bélgica 2018 conmemorativas de 2 euros"</string>
+    <string name="version_history_current">"Versión 6.6\n
+        Corregido el fallo en la exportación de la colección y la creación de pdf\n
+        Se añaden las monedas conmemorativas de 2€ 2020"</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

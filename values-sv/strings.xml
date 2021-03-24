@@ -394,17 +394,12 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 6,0\n
-        Extra funktion till handels mynt med andra användare. Vänligen läs Menu-> Collection-> Trading Partner-> Användning.\n
-        Extra funktion för att ta en enskild bild av ett mynt.\n
-        Mynt bilder av andra användare kan redovisas som ett brott mot villkoren för villkor\n
-        Visa lodrätt streck var 5 år och horisontella linjer för att öka läsbarheten.\n
-        Lagt till fler 2€ minnesmynt för 2019."</string>
+	<string name="version_history_current">"Version 6.5\n
+        Fixad krasch i exportsamlingen och skapa pdf."</string>
 
-	<string name="version_history_last">"Version 5.6.10\n
-        Extra funktion till delad samling.\n
-        Fast synkronisering bugg för delade samlingar.\n
-        Fast rysk översättning."</string>
+	<string name="version_history_last">"Version 6.6\n
+		Fixad krasch i exportsamlingen och skapa pdf\n
+        Pridané 2 pamätné mince v roku 2020."</string>
 
 	<string name="coin_1cent">en Cent</string>
 	<string name="coin_2cent">2 Cent</string>

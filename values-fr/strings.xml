@@ -383,15 +383,12 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 6.3\n
-        Monaco, Vatican, Andorre, France, Luxembourg, Chypre 2€ pièces commémoratives 2020 ajoutées.\n
-        Set Finlande 2019 pièces non existantes.\n
-        Émission d'un déviateur à année fixe.\n
-        Correction d'un crash dans la création de pdf"</string>
+    <string name="version_history_last">"Version 6.5\n
+    Correction d'un crash dans la collecte des exportations et création d'un pdf"</string>
 
-    <string name="version_history_last">"Version 6.2.3\n
-        Ajout de pièces commémoratives de 2 euros en 2020.\n
-        Ajout d'une pièce commémorative de 2€ pour 2018.".</string>
+    <string name="version_history_current">"Version 6.6\n
+        Correction d'un crash dans la collecte des exportations et création d'un pdf\n
+        Ajout de pièces commémoratives de 2 euros en 2020."</string>
 
     <string name="coin_1cent">1 Centime</string>
     <string name="coin_2cent">2 Centimes</string>

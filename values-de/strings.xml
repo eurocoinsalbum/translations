@@ -385,15 +385,12 @@
     - Während Sie die Tauschsammlung auf "ausgeführt" setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie "Nein", um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und "Ja" wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 6.3\n
-        Monaco, Vatikan, Andorra, Frankreich, Luxemburg, Zypern 2€ Gedenkmünzen 2020 hinzugefügt.\n
-        Finnland 2019 nicht geprägte Münzen eingetragen.\n
-        Fehler Anzeige Jahreszahl-Trenner behoben.\n
-        Fehler bei der pdf Erzeugung behoben."</string>
+    <string name="version_history_last">"Version 6.5\n
+        Fehler bei Export Sammlung und Erzeuge PDF behoben."</string>
 
-    <string name="version_history_last">"Version 6.2.3\n
-        Mehr 2€ Gedenkmünzen für 2020 hinzugefügt.\n
-        Belgien 2018 2€ Gedenkmünzen hinzugefügt"</string>
+    <string name="version_history_current">"Version 6.6\n
+        Fehler bei Export Sammlung und Erzeuge PDF behoben.\n
+        2€ Gedenkmünzen für 2020 hinzugefügt"</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>

@@ -388,17 +388,12 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Versie 6.0\n
-        Toegevoegde functie om de handel munten met andere gebruikers. Lees menu-> Collectie-> Trading Partners-> Usage.\n
-        Toegevoegd functie om een ​​individueel beeld van een muntstuk n te nemen. \
-        Coin beelden van andere gebruikers kunnen worden gerapporteerd als een schending van de voorwaarden van de voorwaarden\n
-        Toon verticale balk om de 5 jaar en horizontale lijnen om de leesbaarheid te vergroten.\n
-        meer 2 toegevoegd? herdenkingsmunten voor 2019."</string>
+    <string name="version_history_last">"Version 6.5\n
+        Crash in exporteren van collectie en aanmaken pdf verholpen"</string>
 
-    <string name="version_history_last">"Versie 5.6.10\n
-        Toegevoegd functie om split collectie.\n
-        Vaste synchronisatie bug gedeelde collecties.\n
-        Vaste Russische vertaling."</string>
+    <string name="version_history_current">"Versie 6.6\n
+        Crash in exporteren van collectie en aanmaken pdf verholpen\n
+        2€ herdenkingsmunten 2020 toegevoegd.."</string>
 
     <string name="coin_1cent">1 Cent</string>
     <string name="coin_2cent">2 Cent</string>
