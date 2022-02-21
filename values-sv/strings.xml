@@ -1,216 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="language_code">sv</string>
-	<string name="app_name">Euromynt Album</string>
-	<string name="title_activity_album">albumactivity</string>
-	<string name="action_settings">inställningar</string>
-	<string name="action_country">land</string>
-	<string name="action_user">användare</string>
-	<string name="action_collection">galleri</string>
-	<string name="action_mode">växla redigeringsläge</string>
-	<string name="new_collection">ny samling</string>
-	<string name="enter_new_name">ange nytt namn</string>
-	<string name="delete_collection">radera</string>
-	<string name="change_name">ändra namn</string>
-	<string name="default_collection_name">Collection1</string>
-	<string name="how_to_unlock">Tryck på låssymbolen i menyraden</string>
-	<string name="use_long_touch_to_force_details">Coin inte existerar. Använd lång kontakt för att tvinga öppna mynt detaljer dialogen.</string>
-	<string name="mode_unlock_not_in_multiuser_or_eu">Ingen redigering i Multiuser och EU view</string>
-	<string name="yes">ja</string>
-	<string name="no">nej</string>
-	<string name="multi_collection_view">Multi view</string>
-	<string name="source_ecb">Källa: Europeiska centralbanken</string>
-	<string name="ecb_info">Den information och bilder av alla euromynt kan erhållas kostnadsfritt genom ECBs webbplats</string>
-	<string name="action_import">importera</string>
-	<string name="action_export">exportera</string>
-	<string name="action_createpdf">skapa pdf</string>
-	<string name="pdfApiLevelTooLow">Tyvärr behöver skapa PDF-filer min. android 4,4</string>
-	<string name="export_failed">export misslyckades</string>
-	<string name="import_failed">import misslyckades</string>
-	<string name="export_ok">export OK</string>
-	<string name="import_ok">import OK</string>
-	<string name="help">hjälp</string>
-	<string name="help_myname" translatable="false">(Copyright) Matthias Kleiber</string>
-	<string name="help_message">Om du vill skicka några problem, buggar, frågor mig eller önskemål funktionen kan du använda "skicka meddelande" i menyn (http://eurocoins-album.jimdo.com). Dessa synpunkter bör inte publiceras i Play Store.</string>
-	<string name="help_statistics">Den statistik formatet är x /y /z x = antal möjliga olika mynt som du har valt; y = antal möjliga olika mynt som kan samlas in; z = totala antalet mynt du har samlat (i fall att du har ett mynt mer än en gång, se mynt detaljer). Decimaltalet visar hur mycket pengar du har samlat och dessutom beloppen för betalda och värde om du angett de i mynt detaljer.</string>
-	<string name="help_coin_marker">A \'X \' på ett mynt innebär att detta mynt inte präglades alls (om du har annan information maila mig). A \'* \' på myntet är den officiella mynt som markör i fall du har aktiverat den här inställningen.</string>
-	<string name="help_eu_view">EU-view-program om den aktuella användaren har detta mynt i alla år /länder (och myntverk) eller om minst ett år /land (mint) saknas. Detta beror på EU-view-läge (se nedan). År-mode röra ett mynt för att se vilka länder användaren har detta mynt redan samlats in. Tryck på en 2? minnesmynt för att se alla 2? -coins i år /land!</string>
-	<string name="help_eu_mode_switch">I EU-view kan du använda knappen i det övre vänstra hörnet för att växla mellan år läge och land-mode</string>
-	<string name="help_multi_user">Multianvändar view shows om alla användare har detta mynt eller om åtminstone en användare spelar ingen \'t har det. Tryck på ett mynt för att se vilka av användarna har detta mynt redan samlats in.</string>
-	<string name="help_touch_hold_coins">I redigeringsläge touch och håller ett mynt för att ställa in antalet mynt du har och andra egenskaper.</string>
-	<string name="help_touch_hold_two_euro_coins">I låst läge touch och håller speciella 2 Euro mynt för att få ytterligare information.</string>
-	<string name="help_touch_common_coins">Tryck på en av de 8 gemensamma mynt på vänster sida för att se baksidan av detta mynt för alla länder.</string>
-	<string name="help_imexport">Filerna för export kommer att namnges \'euro_coin_list_username.txt \'. Importerade användare kommer att läggas och kommer inte att skrivas över.</string>
-	<string name="help_backup">Varje vecka appen automatiskt skapa en säkerhetskopia av alla samlingar. Med hjälp av menyn \'Restore backup \' kan man enkelt lägga till en gammal backup till den inlästa samlingarna</string>
-	<string name="help_coinset_expand">För att öka användbarheten de tyska coinsets är grupperade efter år om du aktiverat \'Samla år och myntverk \' inställningen. Plus /minusknappen under de gemensamma mynt (vänster sida) kan användas på två sätt: kort kontakt att expandera /komprimera alla grupper i gång och lång touch göra motsatsen.</string>
-	<string name="help_menu">Använd inställningsmenyn för att ändra: mynt bildstorlek, textstorlek (titel och mynt text), endast två samla? minnesmynt, samla alla år och myntverk (eller bara ett per land), och mycket mer. Special funktion är \'använda individuella inställningar \' som varje användare /uppsamling kan ha det \'s egna inställningar eller om alla användare delar samma inställningar!</string>
-	<string name="help_title_setting">Genom att klicka på kolumnrubriken motsvarande bakgrundsfärg kan ändras.</string>
-	<string name="show_licenses">licenser</string>
-	<string name="pref_use_individual_settings">Använd individuella inställningar</string>
-	<string name="pref_image_size">bildstorlek</string>
-	<string name="pref_text_size_1">Textstorlek 1 (titlar)</string>
-	<string name="pref_text_size_2">Textstorlek 2 (mynt)</string>
-	<string name="pref_collect_years">Samla år</string>
-	<string name="pref_show_statistics">visa statistik</string>
-	<string name="pref_language">språk</string>
-	<string name="added_date">Datum samlas</string>
-	<string name="paid">betald</string>
-	<string name="value">värde</string>
-	<string name="note">anteckning</string>
-	<string name="pref_show_only_missing_coins">Visa bara saknade mynt</string>
-	<string name="pref_show_official_coin_set_marker">Show \mint set endast \'markör (*)</string>
-	<string name="coinCondition">villkor</string>
-	<string name="action_open_url_comment">skicka meddelande</string>
-	<string name="action_close">avsluta</string>
-	<string name="coin_collected_marker">x</string>
-	<string name="index_cc">index</string>
-	<string name="enter_coin_name">Ange år och korta mynt namn</string>
-	<string name="custom_coin_name">namn</string>
-	<string name="year">år</string>
-	<string name="count">antal</string>
-	<string name="mint">mynta</string>
-	<string name="remove_coin">Ta bort mynt</string>
-	<string name="label">etikett</string>
-	<string name="prev_coin">Föregående.</string>
-	<string name="next_coin">nästa</string>
-	<string name="new_coin">ny</string>
-	<string name="attention">obs!</string>
-	<string name="force_unlock_user">Den här användaren hade en last fel. Force låsa?</string>
-	<string name="action_restore_backup">återställ säkerhetskopia</string>
-	<string name="action_delete_old_backups">Radera gamla säkerhetskopior</string>
-	<string name="delete_old_backups">Ta bort alla säkerhetskopior utom de från nuvarande vecka?</string>
-	<string name="no_external_storage_permission">I Android \'s appmenyn aktivera \' Behörigheter \' för \'Förvaring \'</string>
-	<string name="commemorative_coins_full">Jubileumsmynt fulla</string>
-	<string name="pref_use_background_color">Använd bakgrundsfärg</string>
-	<string name="pref_background_color">bakgrundsfärg</string>
-	<string name="pref_hide_not_existing_coins">Göm inte befintliga mynt</string>
-	<string name="click_the_coin_set_expand_button">För att öppna myntserie gruppen röra på plusknappen</string>
-	<string name="action_manage_shared_collection">hantera</string>
-	<string name="collection_is_not_shared">Denna samling har inte delats</string>
-	<string name="register">registrera</string>
+	<string name="language_code">"sv"</string>
+	<string name="app_name">"Euromynt Album"</string>
+	<string name="action_settings">"inställningar"</string>
+	<string name="action_global_settings">"globala inställningar"</string>
+	<string name="action_country">"land"</string>
+	<string name="action_user">"användare"</string>
+	<string name="action_collection">"galleri"</string>
+	<string name="action_mode">"växla redigeringsläge"</string>
+	<string name="new_collection">"ny samling"</string>
+	<string name="enter_new_name">"ange nytt namn"</string>
+	<string name="delete_collection">"radera"</string>
+	<string name="change_name">"ändra namn"</string>
+	<string name="default_collection_name">"Collection1"</string>
+	<string name="how_to_unlock">"Tryck på låssymbolen i menyraden"</string>
+	<string name="use_long_touch_to_force_details">"Coin inte existerar. Använd lång kontakt för att tvinga öppna mynt detaljer dialogen."</string>
+	<string name="mode_unlock_not_in_multiuser_or_eu">"Ingen redigering i Multiuser och EU view"</string>
+	<string name="yes">"ja"</string>
+	<string name="no">"nej"</string>
+	<string name="multi_collection_view">"Multi view"</string>
+	<string name="source_ecb">"Källa: Europeiska centralbanken"</string>
+	<string name="ecb_info">"Den information och bilder av alla euromynt kan erhållas kostnadsfritt genom ECBs webbplats"</string>
+	<string name="action_import">"importera"</string>
+	<string name="action_export">"exportera"</string>
+	<string name="action_createpdf">"skapa pdf"</string>
+	<string name="pdfApiLevelTooLow">"Tyvärr behöver skapa PDF-filer min. android 4,4"</string>
+	<string name="export_failed">"export misslyckades"</string>
+	<string name="import_failed">"import misslyckades"</string>
+	<string name="export_ok">"export OK"</string>
+	<string name="import_ok">"import OK"</string>
+	<string name="help">"hjälp"</string>
+	<string name="help_message">"Om du vill skicka några problem, buggar, frågor mig eller önskemål funktionen kan du använda \"skicka meddelande\" i menyn (http://eurocoins-album.jimdo.com). Dessa synpunkter bör inte publiceras i Play Store."</string>
+	<string name="help_statistics">"Den statistik formatet är x /y /z x = antal möjliga olika mynt som du har valt; y = antal möjliga olika mynt som kan samlas in; z = totala antalet mynt du har samlat (i fall att du har ett mynt mer än en gång, se mynt detaljer). Decimaltalet visar hur mycket pengar du har samlat och dessutom beloppen för betalda och värde om du angett de i mynt detaljer."</string>
+	<string name="help_coin_marker">"A \'X \' på ett mynt innebär att detta mynt inte präglades alls (om du har annan information maila mig). A \'* \' på myntet är den officiella mynt som markör i fall du har aktiverat den här inställningen."</string>
+	<string name="help_eu_view">"EU-view-program om den aktuella användaren har detta mynt i alla år /länder (och myntverk) eller om minst ett år /land (mint) saknas. Detta beror på EU-view-läge (se nedan). År-mode röra ett mynt för att se vilka länder användaren har detta mynt redan samlats in. Tryck på en 2? minnesmynt för att se alla 2? -coins i år /land!"</string>
+	<string name="help_eu_mode_switch">"I EU-view kan du använda knappen i det övre vänstra hörnet för att växla mellan år läge och land-mode"</string>
+	<string name="help_multi_user">"Multianvändar view shows om alla användare har detta mynt eller om åtminstone en användare spelar ingen \'t har det. Tryck på ett mynt för att se vilka av användarna har detta mynt redan samlats in."</string>
+	<string name="help_touch_hold_coins">"I redigeringsläge touch och håller ett mynt för att ställa in antalet mynt du har och andra egenskaper."</string>
+	<string name="help_touch_hold_two_euro_coins">"I låst läge touch och håller speciella 2 Euro mynt för att få ytterligare information."</string>
+	<string name="help_touch_common_coins">"Tryck på en av de 8 gemensamma mynt på vänster sida för att se baksidan av detta mynt för alla länder."</string>
+	<string name="help_imexport">"Filerna för export kommer att namnges \'euro_coin_list_username.txt \'. Importerade användare kommer att läggas och kommer inte att skrivas över."</string>
+	<string name="help_backup">"Varje vecka appen automatiskt skapa en säkerhetskopia av alla samlingar. Med hjälp av menyn \'Restore backup \' kan man enkelt lägga till en gammal backup till den inlästa samlingarna"</string>
+	<string name="help_coinset_expand">"För att öka användbarheten de tyska coinsets är grupperade efter år om du aktiverat \'Samla år och myntverk \' inställningen. Plus /minusknappen under de gemensamma mynt (vänster sida) kan användas på två sätt: kort kontakt att expandera /komprimera alla grupper i gång och lång touch göra motsatsen."</string>
+	<string name="help_menu">"Använd inställningsmenyn för att ändra: mynt bildstorlek, textstorlek (titel och mynt text), endast två samla? minnesmynt, samla alla år och myntverk (eller bara ett per land), och mycket mer. Special funktion är \'använda individuella inställningar \' som varje användare /uppsamling kan ha det \'s egna inställningar eller om alla användare delar samma inställningar!"</string>
+	<string name="help_title_setting">"Genom att klicka på kolumnrubriken motsvarande bakgrundsfärg kan ändras."</string>
+	<string name="show_licenses">"licenser"</string>
+	<string name="pref_use_individual_settings">"Använd individuella inställningar"</string>
+	<string name="pref_image_size">"bildstorlek"</string>
+	<string name="pref_text_size_1">"Textstorlek 1 (titlar)"</string>
+	<string name="pref_text_size_2">"Textstorlek 2 (mynt)"</string>
+	<string name="pref_collect_years">"Samla år"</string>
+	<string name="pref_show_statistics">"visa statistik"</string>
+	<string name="pref_language">"språk"</string>
+	<string name="added_date">"Datum samlas"</string>
+	<string name="paid">"betald"</string>
+	<string name="value">"värde"</string>
+	<string name="note">"anteckning"</string>
+	<string name="pref_show_only_missing_coins">"Visa bara saknade mynt"</string>
+	<string name="pref_show_official_coin_set_marker">"Show \mint set endast \'markör (*)"</string>
+	<string name="coinCondition">"villkor"</string>
+	<string name="action_open_url_comment">"skicka meddelande"</string>
+	<string name="action_close">"avsluta"</string>
+	<string name="coin_collected_marker">"x"</string>
+	<string name="index_cc">"index"</string>
+	<string name="enter_coin_name">"Ange år och korta mynt namn"</string>
+	<string name="custom_coin_name">"namn"</string>
+	<string name="year">"år"</string>
+	<string name="count">"antal"</string>
+	<string name="mint">"mynta"</string>
+	<string name="remove_coin">"Ta bort mynt"</string>
+	<string name="label">"etikett"</string>
+	<string name="prev_coin">"Föregående."</string>
+	<string name="next_coin">"nästa"</string>
+	<string name="new_coin">"ny"</string>
+	<string name="attention">"obs!"</string>
+	<string name="force_unlock_user">"Den här användaren hade en last fel. Force låsa?"</string>
+	<string name="action_restore_backup">"återställ säkerhetskopia"</string>
+	<string name="action_delete_old_backups">"Radera gamla säkerhetskopior"</string>
+	<string name="delete_old_backups">"Ta bort alla säkerhetskopior utom de från nuvarande vecka?"</string>
+	<string name="no_external_storage_permission">"I Android \'s appmenyn aktivera \' Behörigheter \' för \'Förvaring \'"</string>
+	<string name="commemorative_coins_full">"Jubileumsmynt fulla"</string>
+	<string name="pref_use_background_color">"Använd bakgrundsfärg"</string>
+	<string name="pref_background_color">"bakgrundsfärg"</string>
+	<string name="pref_hide_not_existing_coins">"Göm inte befintliga mynt"</string>
+	<string name="click_the_coin_set_expand_button">"För att öppna myntserie gruppen röra på plusknappen"</string>
+	<string name="action_manage_shared_collection">"hantera"</string>
+	<string name="collection_is_not_shared">"Denna samling har inte delats"</string>
+	<string name="register">"registrera"</string>
 
 	<!-- v5.0 -->
-	<string name="pref_text_size_3">Textstorlek 3 (urvalslista)</string>
-	<string name="version_history">versionshistorik</string>
-	<string name="pref_use_cloud_features">Använd cloud (Internet) har</string>
-	<string name="backup_no_cloud_features_activated">Cloud (Internet) funktioner inaktiverade. Säkerhetskopior lagras på endast telefonen.</string>
-	<string name="action_create_backup">skapa säkerhetskopiering</string>
-	<string name="action_show_notifications">aviseringar</string>
-	<string name="action_show_info">information</string>
-	<string name="action_save">spara</string>
-	<string name="help_cloud_features">När Cloud funktioner aktiveras då veckosäkerhetskopior kommer också laddas upp till webb lagring av Eurocoins album. Du kan återställa dem som vanliga säkerhetskopior\nCloud har använder en unik användar-ID som genereras av denna applikation för att identifiera din backup. Du hittar den här användar-ID i menyn Information - mitt användar-ID.</string>
-	<string name="help_email">Användar-ID kommer att skickas till den e-postadress du angett vid inställningarna - E-Mail.</string>
-	<string name="action_show_uuid">Mitt användar-ID</string>
-	<string name="id_created">Användar-ID skapas. Se meny: Information - mitt användar-ID</string>
-	<string name="no_internet_no_backup">Internet är inte tillgänglig. Backup inte laddas upp i molnet.</string>
-	<string name="pref_email">e-mejl</string>
-	<string name="send_id">Skicka användar-ID</string>
-	<string name="email_sent">Ett e-postmeddelande har skickats till%1$s</string>
-	<string name="email_sent_confirm">Ett e-postmeddelande har skickats till%1$s. Kontrollera SPAM. Klicka på länken i e-postmeddelandet för att bekräfta din e-postadress.</string>
-	<string name="enter_email">Vänligen registrera din e-postadress.</string>
-	<string name="no_backups_available">ingen säkerhetskopiering hittades</string>
-	<string name="internet_not_available_for_backup">Internet är inte tillgänglig. Endast lokala säkerhetskopior kommer att behandlas.</string>
-	<string name="register_email">registrera email</string>
-	<string name="data_saved">Data sparades</string>
-	<string name="switch_id">Överförings användar-ID</string>
-	<string name="enter_id_to_be_transferred">Ange användar-ID som du vill ta över. Dessa data kommer att slås samman till ditt konto.</string>
-	<string name="no_internet_no_registration">Internet är inte tillgänglig. Aktivera internet och registrera din e-post via meny användare.</string>
-	<string name="no_internet">internet inte tillgängligt</string>
-	<string name="email_sent_confirm_delete_account">Ett e-postmeddelande har skickats till%1$s. Kontrollera SPAM. Klicka på länken i e-postmeddelandet för att ta bort ditt online-konto.</string>
-	<string name="help_transfer_id">Om du vill överföra en användar-ID till en annan enhet (mobil, surfplatta) och ange detta användar-ID på målenheten via menyn Informations-> Min användar-ID.> Överför användar-ID. Den ursprungliga ägaren får ett e-postmeddelande där han har att bekräfta överföringen. Alla dina gamla online backup kommer att flyttas till den nya användar-ID.</string>
-	<string name="delete_online_account">Delete online-konto</string>
+	<string name="pref_text_size_3">"Textstorlek 3 (urvalslista)"</string>
+	<string name="version_history">"versionshistorik"</string>
+	<string name="pref_use_cloud_features">"Använd cloud (Internet) har"</string>
+	<string name="backup_no_cloud_features_activated">"Cloud (Internet) funktioner inaktiverade. Säkerhetskopior lagras på endast telefonen."</string>
+	<string name="action_create_backup">"skapa säkerhetskopiering"</string>
+	<string name="action_show_notifications">"aviseringar"</string>
+	<string name="action_show_info">"information"</string>
+	<string name="action_save">"spara"</string>
+	<string name="help_cloud_features">"När Cloud funktioner aktiveras då veckosäkerhetskopior kommer också laddas upp till webb lagring av Eurocoins album. Du kan återställa dem som vanliga säkerhetskopior\nCloud har använder en unik användar-ID som genereras av denna applikation för att identifiera din backup. Du hittar den här användar-ID i menyn Information - mitt användar-ID."</string>
+	<string name="help_email">"Användar-ID kommer att skickas till den e-postadress du angett vid inställningarna - E-Mail."</string>
+	<string name="action_show_uuid">"Mitt användar-ID"</string>
+	<string name="id_created">"Användar-ID skapas. Se meny: Information - mitt användar-ID"</string>
+	<string name="no_internet_no_backup">"Internet är inte tillgänglig. Backup inte laddas upp i molnet."</string>
+	<string name="pref_email">"e-mejl"</string>
+	<string name="send_id">"Skicka användar-ID"</string>
+	<string name="email_sent">"Ett e-postmeddelande har skickats till%1$s"</string>
+	<string name="email_sent_confirm">"Ett e-postmeddelande har skickats till%1$s. Kontrollera SPAM. Klicka på länken i e-postmeddelandet för att bekräfta din e-postadress."</string>
+	<string name="enter_email">"Vänligen registrera din e-postadress."</string>
+	<string name="no_backups_available">"ingen säkerhetskopiering hittades"</string>
+	<string name="internet_not_available_for_backup">"Internet är inte tillgänglig. Endast lokala säkerhetskopior kommer att behandlas."</string>
+	<string name="register_email">"registrera email"</string>
+	<string name="data_saved">"Data sparades"</string>
+	<string name="switch_id">"Överförings användar-ID"</string>
+	<string name="enter_id_to_be_transferred">"Ange användar-ID som du vill ta över. Dessa data kommer att slås samman till ditt konto."</string>
+	<string name="no_internet_no_registration">"Internet är inte tillgänglig. Aktivera internet och registrera din e-post via meny användare."</string>
+	<string name="no_internet">"internet inte tillgängligt"</string>
+	<string name="email_sent_confirm_delete_account">"Ett e-postmeddelande har skickats till%1$s. Kontrollera SPAM. Klicka på länken i e-postmeddelandet för att ta bort ditt online-konto."</string>
+	<string name="help_transfer_id">"Om du vill överföra en användar-ID till en annan enhet (mobil, surfplatta) och ange detta användar-ID på målenheten via menyn Informations-> Min användar-ID.> Överför användar-ID. Den ursprungliga ägaren får ett e-postmeddelande där han har att bekräfta överföringen. Alla dina gamla online backup kommer att flyttas till den nya användar-ID."</string>
+	<string name="delete_online_account">"Delete online-konto"</string>
 
 	<!-- 5.1 -->
-	<string name="deletedBackups">Borttagna säkerhetskopior på enheten:\n%1$s\nDeleted säkerhetskopior i molnet:\n% 2 $ s</string>
-	<string name="backup_upload_error">Fel vid uppladdning backup</string>
-	<string name="action_share_with">Dela med ...</string>
-	<string name="action_add_share_with">lägg till ny</string>
-	<string name="action_retract_share">ta tillbaka</string>
-	<string name="share_with_ok">delas med %1$s</string>
-	<string name="share_with_error">Fel vid dela med%1$s</string>
-	<string name="action_unshare_with_ok">Indragna dela denna samling med%1$s</string>
-	<string name="enter_email_to_share_to">Ange e-post som du vill dela den här samlingen med.</string>
-	<string name="action_sync_collections">synkronisera</string>
-	<string name="collection_linked">Länkade delad samling%1$s</string>
-	<string name="start">starta</string>
-	<string name="cancel">avbryt</string>
-	<string name="sync_collection_ok">Samling%1$s synkroniserad</string>
-	<string name="sync_collection_error">Synkronisering fel för insamling%1$s</string>
-	<string name="sync_collections_error">synkroniseringsfel</string>
-	<string name="linked_collection_read_only">Länkade delade samlingar skriv</string>
-	<string name="load_file_error">Load Filfel%1$s</string>
-	<string name="no_cloud_features_activated">Cloud (Internet) funktioner inaktiverade.</string>
-	<string name="not_saved_load_error">Användare%1$s sparas inte på grund av tidigare last fel. Unlock redigeringsläget för att tvinga spara.</string>
-	<string name="collection_infos_general">Namn:%1$s\nCollection ID:% 2 $ s\nPublik Namn:% 3 $ s\nShared:% 4 $ s\nOwner:% 5 $ s\nSynchronized:% 6 $ s\nTrading Partners:% 7 $ s</string>
-	<string name="collection_deleted">Samling%1$s bort</string>
-	<string name="collection_sharing_retracted">Delad samling%1$s har dragits tillbaka av ägaren</string>
-	<string name="collection_sharing_retracted_ok">Delad kollektionen indragen för%1$s</string>
-	<string name="collection_retract_sharing">Välj objekt till indragnings delning</string>
-	<string name="title_collection_shared_with_me">samling delade</string>
-	<string name="ask_link_collection">%1$s har delat sin samling "% 2 $ s" med dig. Vill du länka den?</string>
-	<string name="wrong_app_version_update">Uppdatera appen till den senaste versionen!</string>
-	<string name="session_expired_try_again">Sessionen löpte. Var god försök igen.</string>
-	<string name="forum">forum</string>
-	<string name="logged_in">inloggad</string>
-	<string name="pref_other_special_coins">Andra special mynt</string>
-	<string name="coin_parse_error">Load fel (se meddelanden för detaljer)</string>
-	<string name="switch_id_error">Fel vid överföring av användar-ID.</string>
-	<string name="register_mail_error">Fel vid registrering postadress</string>
-	<string name="login_error">Fel vid inloggning</string>
-	<string name="search_coin">Sök mynt</string>
-	<string name="enter_coin_search_text">Ange text att söka efter</string>
-	<string name="no_matching_coins_found">Inga matchande mynt funna</string>
-	<string name="pref_collect_series">Samla serie</string>
-	<string name="pref_commemorative_coins">minnesmynt</string>
+	<string name="deletedBackups">"Borttagna säkerhetskopior på enheten:\n%1$s\nDeleted säkerhetskopior i molnet:\n%2$s"</string>
+	<string name="backup_upload_error">"Fel vid uppladdning backup"</string>
+	<string name="action_share_with">"Dela med ..."</string>
+	<string name="action_add_share_with">"lägg till ny"</string>
+	<string name="action_retract_share">"ta tillbaka"</string>
+	<string name="share_with_ok">"delas med %1$s"</string>
+	<string name="share_with_error">"Fel vid dela med%1$s"</string>
+	<string name="action_unshare_with_ok">"Indragna dela denna samling med%1$s"</string>
+	<string name="enter_email_to_share_to">"Ange e-post som du vill dela den här samlingen med."</string>
+	<string name="action_sync_collections">"synkronisera"</string>
+	<string name="collection_linked">"Länkade delad samling%1$s"</string>
+	<string name="start">"starta"</string>
+	<string name="cancel">"avbryt"</string>
+	<string name="sync_collection_ok">"Samling%1$s synkroniserad"</string>
+	<string name="sync_collection_error">"Synkronisering fel för insamling%1$s"</string>
+	<string name="sync_collections_error">"synkroniseringsfel"</string>
+	<string name="linked_collection_read_only">"Länkade delade samlingar skriv"</string>
+	<string name="load_file_error">"Load Filfel%1$s"</string>
+	<string name="no_cloud_features_activated">"Cloud (Internet) funktioner inaktiverade."</string>
+	<string name="not_saved_load_error">"Användare%1$s sparas inte på grund av tidigare last fel. Unlock redigeringsläget för att tvinga spara."</string>
+	<string name="collection_infos_general">"Namn: %1$s\nCollection ID: %2$s\nPublik Namn: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
+	<string name="collection_deleted">"Samling%1$s bort"</string>
+	<string name="collection_sharing_retracted">"Delad samling%1$s har dragits tillbaka av ägaren"</string>
+	<string name="collection_sharing_retracted_ok">"Delad kollektionen indragen för%1$s"</string>
+	<string name="collection_retract_sharing">"Välj objekt till indragnings delning"</string>
+	<string name="title_collection_shared_with_me">"samling delade"</string>
+	<string name="ask_link_collection">"%1$s har delat sin samling \"%2$s\" med dig. Vill du länka den?"</string>
+	<string name="wrong_app_version_update">"Uppdatera appen till den senaste versionen!"</string>
+	<string name="session_expired_try_again">"Sessionen löpte. Var god försök igen."</string>
+	<string name="forum">"forum"</string>
+	<string name="logged_in">"inloggad"</string>
+	<string name="pref_other_special_coins">"Andra special mynt"</string>
+	<string name="coin_parse_error">"Load fel (se meddelanden för detaljer)"</string>
+	<string name="switch_id_error">"Fel vid överföring av användar-ID."</string>
+	<string name="register_mail_error">"Fel vid registrering postadress"</string>
+	<string name="login_error">"Fel vid inloggning"</string>
+	<string name="search_coin">"Sök mynt"</string>
+	<string name="enter_coin_search_text">"Ange text att söka efter"</string>
+	<string name="no_matching_coins_found">"Inga matchande mynt funna"</string>
+	<string name="pref_collect_series">"Samla serie"</string>
+	<string name="pref_commemorative_coins">"minnesmynt"</string>
 
 	<!-- changed in 5.1 -->
-	<string name="pref_collect_two_euro_only">Samla inte standardmynt</string>
+	<string name="pref_collect_two_euro_only">"Samla inte standardmynt"</string>
 
 	<!-- version 5.3 -->
-	<string name="enter_coin_value">Mata in myntvärde</string>
-	<string name="select_image">välj bild</string>
-	<string name="no_camera_permission">I Android appmenyn aktivera \'Behörigheter\' för \'Camera\'</string>
-	<string name="pref_coin_photo_size">Kamera bildstorlek</string>
-	<string name="permission_error">behörighetsfel</string>
-	<string name="image_load_error">ett fel uppstod när sidan skulle laddas</string>
-	<string name="not_registered_user_email">\'%1$s\' är inte ett registrerat e-post för en användare.</string>
-	<string name="action_force_sync_collections">force synkronisera</string>
-	<string name="is_2_euro_cc">det är ett 2-minnesmynt</string>
-	<string name="confirm_rename_collection_title">namnändring på samlingen</string>
-	<string name="confirm_rename_collection">Vill du byta namn på samlingen \'%1$s \' till \'%2$s\'</string>
-	<string name="show_newest_added_coins">Nyaste mynt</string>
-	<string name="i_dont_have_this_coin">jag har inte det här myntet</string>
-	<string name="create_as_multiview">Skapa multi view</string>
-	<string name="select_collections">välj samlingar</string>
-	<string name="country_statistic">land statistik</string>
-	<string name="country_statistic_message">%1$s av %2$s möjliga olika mynt samlas\n%3$s mynt samlas övergripande\n%4$s? är det nominella värdet\n%5$s? är vad du har betalat\n%6$s? är värdet</string>
-	<string name="compare_against_other_collection">jämför</string>
-	<string name="no_differences_in_collections_found">Inga skillnader hittades</string>
-	<string name="error_saving_collection">Fel samtidigt spara insamlings%1$s</string>
-	<string name="invalid_value">ogiltigt värde</string>
-	<string name="invalid_year">ogiltigt år</string>
+	<string name="enter_coin_value">"Mata in myntvärde"</string>
+	<string name="select_image">"välj bild"</string>
+	<string name="no_camera_permission">"I Android appmenyn aktivera \'Behörigheter\' för \'Camera\'"</string>
+	<string name="pref_coin_photo_size">"Kamera bildstorlek"</string>
+	<string name="permission_error">"behörighetsfel"</string>
+	<string name="image_load_error">"ett fel uppstod när sidan skulle laddas"</string>
+	<string name="not_registered_user_email">"\'%1$s\' är inte ett registrerat e-post för en användare."</string>
+	<string name="action_force_sync_collections">"force synkronisera"</string>
+	<string name="is_2_euro_cc">"det är ett 2-minnesmynt"</string>
+	<string name="confirm_rename_collection_title">"namnändring på samlingen"</string>
+	<string name="confirm_rename_collection">"Vill du byta namn på samlingen \'%1$s \' till \'%2$s\'"</string>
+	<string name="show_newest_added_coins">"Nyaste mynt"</string>
+	<string name="i_dont_have_this_coin">"jag har inte det här myntet"</string>
+	<string name="create_as_multiview">"Skapa multi view"</string>
+	<string name="select_collections">"välj samlingar"</string>
+	<string name="country_statistic">"land statistik"</string>
+	<string name="country_statistic_message">"%1$s av %2$s möjliga olika mynt samlas\n%3$s mynt samlas övergripande\n%4$s? är det nominella värdet\n%5$s? är vad du har betalat\n%6$s? är värdet"</string>
+	<string name="compare_against_other_collection">"jämför"</string>
+	<string name="no_differences_in_collections_found">"Inga skillnader hittades"</string>
+	<string name="error_saving_collection">"Fel samtidigt spara insamlings%1$s"</string>
+	<string name="invalid_value">"ogiltigt värde"</string>
+	<string name="invalid_year">"ogiltigt år"</string>
 
 	<!-- version 5.4 -->
-	<string name="collection_modus_to_offline">Hantera på enhet</string>
-	<string name="collection_modus_to_online">Hantera nätet</string>
-	<string name="no_internet_no_modus_on_offline">Internet-anslutning måste vara tillgänglig för att byta det här läget</string>
-	<string name="set_collection_modus_error">Error medan omkopplingsuppsamlings modus. Vänligen försök igen senare.</string>
-	<string name="editing_only_in_collection_mode_online">Ställ denna samling ska hanteras online på din masterenhet för att möjliggöra redigering på alla dina enheter</string>
-	<string name="no_internet_no_editing">Internet inte tillgängliga men är obligatoriskt för online-kollektioner.</string>
-	<string name="collection_editing_locked">Samling låst av en annan anordning</string>
-	<string name="collection_not_locked">Samling var inte låst eller låsa lyftes av en annan enhet</string>
-	<string name="collection_editing_locked_force_unlock">Vill du tvinga låsa det för din enhet? Inte synkroniserade ändringar kommer att gå förlorade.</string>
-	<string name="request_edit_token_error">Fel vid begäran om nätet redigeringsläget</string>
-	<string name="release_edit_token_error">Fel vid släppa nätet redigera lås</string>
-	<string name="collection_not_online_managed">Insamling är inte online hanteras</string>
-	<string name="close">stäng</string>
-	<string name="pref_collect_german_mints">Samla tyska mints</string>
-	<string name="pref_collect_greece_2002_foreign_mints">Samla Grekland 2002 utländska mints</string>
-	<string name="collect_no_years_but_german_mints_is_invalid">Inte samla år men tyska myntverk är ett stöds kombination</string>
+	<string name="collection_modus_to_offline">"Hantera på enhet"</string>
+	<string name="collection_modus_to_online">"Hantera nätet"</string>
+	<string name="no_internet_no_modus_on_offline">"Internet-anslutning måste vara tillgänglig för att byta det här läget"</string>
+	<string name="set_collection_modus_error">"Error medan omkopplingsuppsamlings modus. Vänligen försök igen senare."</string>
+	<string name="editing_only_in_collection_mode_online">"Ställ denna samling ska hanteras online på din masterenhet för att möjliggöra redigering på alla dina enheter"</string>
+	<string name="no_internet_no_editing">"Internet inte tillgängliga men är obligatoriskt för online-kollektioner."</string>
+	<string name="collection_editing_locked">"Samling låst av en annan anordning"</string>
+	<string name="collection_not_locked">"Samling var inte låst eller låsa lyftes av en annan enhet"</string>
+	<string name="collection_editing_locked_force_unlock">"Vill du tvinga låsa det för din enhet? Inte synkroniserade ändringar kommer att gå förlorade."</string>
+	<string name="request_edit_token_error">"Fel vid begäran om nätet redigeringsläget"</string>
+	<string name="release_edit_token_error">"Fel vid släppa nätet redigera lås"</string>
+	<string name="collection_not_online_managed">"Insamling är inte online hanteras"</string>
+	<string name="close">"stäng"</string>
+	<string name="pref_collect_german_mints">"Samla tyska mints"</string>
+	<string name="pref_collect_greece_2002_foreign_mints">"Samla Grekland 2002 utländska mints"</string>
+	<string name="collect_no_years_but_german_mints_is_invalid">"Inte samla år men tyska myntverk är ett stöds kombination"</string>
 
 	<!-- version 5.6 -->
-	<string name="user_name_already_exists">namn finns redan</string>
-	<string name="user_name_contains_invalid_characters">namnet innehåller ogiltiga tecken</string>
+	<string name="user_name_already_exists">"namn finns redan"</string>
+	<string name="user_name_contains_invalid_characters">"namnet innehåller ogiltiga tecken"</string>
 
 	<!-- version 5.6.4 -->
 	<string name="transfer_collection">"Överför samlingar"</string>
@@ -225,7 +224,7 @@
 	<string name="collection_split_ok">"Collection har delats upp i 2 nya kollektioner. Efter att ha granskat de du kan ta bort den ursprungliga samlingen."</string>
 
 	<!-- version 5.6.10 -->
-	<string name="transfer_collection_error">"Fel vid överföra samlingen '%1$s'</string>
+	<string name="transfer_collection_error">"Fel vid överföra samlingen '%1$s'"</string>
 	<string name="collection_transferred_title">"Collection '%1$s' har överförts till en annan enhet."</string>
 	<string name="owner_this_device">"Denna apparat"</string>
 	<string name="owner_your_other_device">"En av dina andra enheter"</string>
@@ -245,12 +244,12 @@
 	<string name="change_public_name">"Change officiellt namn"</string>
 	<string name="collection_is_not_public">"Collection är inte offentlig"</string>
 	<string name="coin_to_trading_basket_added">"Coin läggas till handel korg"</string>
-	<string name="confirm_publish_trading_collection">"Vill du verkligen att publicera din samling som handlas samling? Alla data (exempelvis sedlar av mynt) av samlingen kommer att vara synlig för andra. Från var och en av dina mynt% 1 $ d 'coin (s) kommer att hålla tillbaka och kommer inte att vara tillgängliga för handel. Du kan ändra detta nummer i inställningarna."</string>
+	<string name="confirm_publish_trading_collection">"Vill du verkligen att publicera din samling som handlas samling? Alla data (exempelvis sedlar av mynt) av samlingen kommer att vara synlig för andra. Från var och en av dina mynt %1$d 'coin (s) kommer att hålla tillbaka och kommer inte att vara tillgängliga för handel. Du kan ändra detta nummer i inställningarna."</string>
 	<string name="collection_is_trading">"Den här samlingen kan inte tas bort eftersom den används i följande handels samlingar:%1$s"</string>
 	<string name="action_get_next_trading_partners">"Get nästa handelspartner"</string>
 	<string name="action_reset_trading_partners">"Starta sökningen"</string>
 	<string name="trading_partners_resetted">"Gamla handelspartner har reaktive."</string>
-	<string name="ask_link_trading_collection">"En användare har behov av att byta mynt med din offentliga samlingen '%1$s'. Handeln samlingen '% 2 $ s' kommer att laddas."</string>
+	<string name="ask_link_trading_collection">"En användare har behov av att byta mynt med din offentliga samlingen '%1$s'. Handeln samlingen '%2$s' kommer att laddas."</string>
 	<string name="action_help_trading_partners">"Användande"</string>
 	<string name="not_your_trading_turn">"Du kan inte redigera handels samlingen nu eftersom det är din handelspartner tur."</string>
 	<string name="trading_confirmed_already">"Denna handel samling redan bekräftats av båda sidor. Kontakta '%1$s' och skicka mynten. Om det görs så markera denna handel som utförs."</string>
@@ -269,7 +268,7 @@
 	<string name="email_invalid">"Emailadressen är ogiltig"</string>
 	<string name="collection_is_public">"Offentlig"</string>
 	<string name="trading_your_turn">"Det är nu din tur att redigera handel samlingen '%1$s'. När du är klar sedan skicka tillbaka den till din handelspartner eller bekräfta handeln om du inte ändra någonting."</string>
-	<string name="trading_confirmed">"Handeln för handel samlingen '%1$s' bekräftades av dig och din handelspartner% 2 $ s". Du får ett e-postmeddelande med detaljerna. Vänligen dela ditt inlägg adress med din handelspartner."</string>
+	<string name="trading_confirmed">"Handeln för handel samlingen '%1$s' bekräftades av dig och din handelspartner%2$s\". Du får ett e-postmeddelande med detaljerna. Vänligen dela ditt inlägg adress med din handelspartner."</string>
 	<string name="trading_sent_collection">"Samlingen har skickats till din handelspartner. Det är nu din handelspartner tur att redigera handels samlingen eller bekräfta det aktuella läget."</string>
 	<string name="pref_trading_coins_to_keep">"Trading: mynt för att hålla"</string>
 	<string name="collection_has_no_tradable_coins">"Din samling inte har någon handlas mynt. Lägg till fler mynt eller minska antalet mynt för att hålla i inställningarna."</string>
@@ -290,7 +289,7 @@
 	<string name="condition_abr_circulated_quality_high">"CH"</string>
 	<string name="condition_abr_circulated_quality_medium">"CM"</string>
 	<string name="condition_abr_circulated_quality_low">"CL"</string>
-	<string name="fixed_unsupported_settings_germany">"Inställningen 'Samla tyska myntverk' har stängts av eftersom det inte stöds i kombination med inställningen" Samla år om det var avstängd."</string>
+	<string name="fixed_unsupported_settings_germany">"Inställningen 'Samla tyska myntverk' har stängts av eftersom det inte stöds i kombination med inställningen\" Samla år om det var avstängd."</string>
 	<string name="fixed_unsupported_settings_years_series">"Inställningarna 'Samla år' och 'samla serien' bör inte aktiveras tillsammans. Inställningen 'Samla serie' har stängts av."</string>
 	<string name="collect_years_and_series_is_invalid">"Samla år och serier är ett stöds kombination."</string>
 	<string name="delete_photo">"Vill du verkligen ta bort bilden?"</string>
@@ -302,7 +301,7 @@
 	<string name="report_photo_message">"Vill du verkligen rapportera bilden som ett brott mot villkoren för villkor?"</string>
 	<string name="collection_has_reported_coin_images">"Samlingen '%1$s' innehåller bilder som har rapporterats som en kränkning av villkoren i förhållanden av andra användare. Kontrollera och uppdatera din samling. En missbruk kommer att leda till radering av ditt konto."</string>
 	<string name="reported_photos_title">"Rapporterade bilder"</string>
-	<string name="trading_collection_deleted_by_underlying">"Handeln samlingen '%1$s' automatiskt bort eftersom den underliggande samlingen '% 2 $ s' ströks också."</string>
+	<string name="trading_collection_deleted_by_underlying">"Handeln samlingen '%1$s' automatiskt bort eftersom den underliggande samlingen '%2$s' ströks också."</string>
 	<string name="message_history">"Visa historik"</string>
 	<string name="title_messages">"Meddelanden"</string>
 	<string name="delete_messages">"Radera allt"</string>
@@ -332,9 +331,9 @@
 	<string name="not_all_coins_from_trade_merged">"Inte alla mynt har lagts till eller tas bort till eller från din samling."</string>
 	<string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"Du har inte välja någon mynt för att ta emot, men bara för att ge bort. De ljusa mynt bilderna är de du för närvarande inte har."</string>
 	<string name="no_coin_in_trading_collection">"Inga mynt har lagts till handels samlingen. Vänligen lägg till mynt du vill ta emot från din handelspartner genom att välja ljusa mynt bilder."</string>
-	<string name="trade_exceeds_value_limit">"Skillnaden av mängden av mynten som skall handlas (%1$s% 3 $ s) överskrider den tillåtna gränsen av% 2 $ s% 3 $ s."</string>
-	<string name="cent">cent</string>
-	<string name="trading_coin_replaced_other_condition">"Följande mynt av handels samlingen hade inget mynt tillstånd före och har nu tilldelas: '%1$s'\n% 2 $ s% 3 $ s% 4 $ s% 5 $ s."</string>
+	<string name="trade_exceeds_value_limit">"Skillnaden av mängden av mynten som skall handlas (%1$s %3$s) överskrider den tillåtna gränsen av%2$s %3$s."</string>
+	<string name="cent">"cent"</string>
+	<string name="trading_coin_replaced_other_condition">"Följande mynt av handels samlingen hade inget mynt tillstånd före och har nu tilldelas: '%1$s'.\n%2$s %3$s %4$s %5$s"</string>
 	<string name="trading_collection_contains_deleted_coins">"Handels samlingen innehåller mynt som inte är närvarande i den underliggande samling."</string>
 	<string name="trading_collection_image_error">"Handeln samlingen inte kan ladda alla bilder på mynten korrekt. Radera handels samlingen för att undvika missunderstanding."</string>
 	<string name="trading_condition_available">"Du har nyligen lagt ett mynt som inte har någon mynt skick set men det finns en annan mynt som har ett mynt eller en anpassad fototillstånd. Ditt val kan bo om du inte är nöjd med andra mynt men din handelspartner kan inte lägga till myntet tillståndet till andra mynt. Vanligtvis är det bättre att välja mynt som redan har ett mynt tillstånd eller anpassade foto set."</string>
@@ -394,86 +393,88 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 6.5\n
-        Fixad krasch i exportsamlingen och skapa pdf."</string>
+	<string name="version_history_current">"Version 7.0\n
+        Vid eventuella fel: kontakta mig matthias@online.de\n
+        Minskat minnesfotavtryck\n
+        2 € minnesmynt 2021 och 2022 tillagda."</string>
 
 	<string name="version_history_last">"Version 6.6\n
-		Fixad krasch i exportsamlingen och skapa pdf\n
-        Pridané 2 pamätné mince v roku 2020."</string>
+        Fixad krasch i exportsamlingen och skapa pdf\n
+        Pridané 2 pamätné mince v roku 2020."</string>
 
-	<string name="coin_1cent">en Cent</string>
-	<string name="coin_2cent">2 Cent</string>
-	<string name="coin_5cent">5 Cent</string>
-	<string name="coin_10cent">10 Cent</string>
-	<string name="coin_20cent">20 Cent</string>
-	<string name="coin_50cent">50 öre</string>
-	<string name="coin_1euro">1 euro</string>
-	<string name="coin_2euro">2 Euro</string>
-	<string name="coin_5euro">5 Euro</string>
-	<string name="coin_10euro">10 Euro</string>
-	<string name="countryname_eu">eu</string>
-	<string name="countryname_au">österrike</string>
-	<string name="countryname_ad">andorra</string>
-	<string name="countryname_be">belgien</string>
-	<string name="countryname_cy">cypern</string>
-	<string name="countryname_ee">estland</string>
-	<string name="countryname_fi">finland</string>
-	<string name="countryname_fr">frankrike</string>
-	<string name="countryname_de">tyskland</string>
-	<string name="countryname_gr">grekland</string>
-	<string name="countryname_ir">irland</string>
-	<string name="countryname_it">italien</string>
-	<string name="countryname_lt">litauen</string>
-	<string name="countryname_lu">luxemburg</string>
-	<string name="countryname_lv">lettland</string>
-	<string name="countryname_mt">Malte</string>
-	<string name="countryname_mc">monaco</string>
-	<string name="countryname_ne">nederländerna</string>
-	<string name="countryname_po">portugal</string>
-	<string name="countryname_sk">slovakien</string>
-	<string name="countryname_si">slovenien</string>
-	<string name="countryname_sm">san marino</string>
-	<string name="countryname_es">spanien</string>
-	<string name="countryname_va">vatikanstaten</string>
-	<string name="countryname_uk">storbritannien</string>
-	<string name="action_show_data_privacy">dataskydd</string>
-	<string name="dsgvo_ack_title">viktigt</string>
-	<string name="dsgvo_ack_yes">jag godkänner</string>
-	<string name="dsgvo_ack_no">jag godkänner inte</string>
-	<string name="dsgvo_agreed_message">Du kom överens om vid:%1$s</string>
-	<string name="dsgvo_data_privacy">"Data integritet förklaring 'Eurocoins Album' namnges som 'App'.\n\n"
+	<string name="coin_1cent">"en Cent"</string>
+	<string name="coin_2cent">"2 Cent"</string>
+	<string name="coin_5cent">"5 Cent"</string>
+	<string name="coin_10cent">"10 Cent"</string>
+	<string name="coin_20cent">"20 Cent"</string>
+	<string name="coin_50cent">"50 öre"</string>
+	<string name="coin_1euro">"1 euro"</string>
+	<string name="coin_2euro">"2 Euro"</string>
+	<string name="coin_5euro">"5 Euro"</string>
+	<string name="coin_10euro">"10 Euro"</string>
+	<string name="countryname_eu">"eu"</string>
+	<string name="countryname_au">"österrike"</string>
+	<string name="countryname_ad">"andorra"</string>
+	<string name="countryname_be">"belgien"</string>
+	<string name="countryname_cy">"cypern"</string>
+	<string name="countryname_ee">"estland"</string>
+	<string name="countryname_fi">"finland"</string>
+	<string name="countryname_fr">"frankrike"</string>
+	<string name="countryname_de">"tyskland"</string>
+	<string name="countryname_gr">"grekland"</string>
+	<string name="countryname_ir">"irland"</string>
+	<string name="countryname_it">"italien"</string>
+	<string name="countryname_lt">"litauen"</string>
+	<string name="countryname_lu">"luxemburg"</string>
+	<string name="countryname_lv">"lettland"</string>
+	<string name="countryname_mt">"Malte"</string>
+	<string name="countryname_mc">"monaco"</string>
+	<string name="countryname_ne">"nederländerna"</string>
+	<string name="countryname_po">"portugal"</string>
+	<string name="countryname_sk">"slovakien"</string>
+	<string name="countryname_si">"slovenien"</string>
+	<string name="countryname_sm">"san marino"</string>
+	<string name="countryname_es">"spanien"</string>
+	<string name="countryname_va">"vatikanstaten"</string>
+	<string name="countryname_uk">"storbritannien"</string>
+	<string name="action_show_data_privacy">"dataskydd"</string>
+	<string name="dsgvo_ack_title">"viktigt"</string>
+	<string name="dsgvo_ack_yes">"jag godkänner"</string>
+	<string name="dsgvo_ack_no">"jag godkänner inte"</string>
+	<string name="dsgvo_agreed_message">"Du kom överens om vid:%1$s"</string>
+	<string name="dsgvo_data_privacy">"Data integritet förklaring 'Eurocoins Album' namnges som 'App'.\n\n\"
 
-        "Namn och kontakt:\n"
-        "Matthias Kleiber, matthias@online.de\n\n"
+        \"Namn och kontakt:\n\"
+        \"Matthias Kleiber, matthias@online.de\n\n\"
 
-        "Anledning för databehandling:\n"
-        "App genererar och sparar på enheten av användaren (efter positiv avtal databehandling) en privat och unik användaridentifikation (UUID).\n"
-        "Denna UUID tjänar som identifiering av anordningen i varje kommunikation av App med servern.\n"
-        "Dessutom kan användaren mata in sin e-post-adress inne att appen använder ännu fler funktioner. Användaren får ett e-mail till sin adress där han hittar en länk med vilken han kan godkänna adressen. Dessutom har e- mail-adress kommer att användas för att skicka e-post till användaren bekräfta förfrågningar han in i app som överföring av data till en annan enhet. app inte skicka e-post för reklam eller liknande.\n"
-        "The UUID och e-post-adress är de enda personuppgifter som kommer att spara, bearbetas och överförs till servern.\n"
-        "Bilder av mynt användaren tar i appen kommer också laddas upp till servern och är tillgängliga för de användare som användaren delar hans /hennes samling. Bilder från handel samlingar delas till allmänheten.\n\n"
+        \"Anledning för databehandling:\n\"
+        \"App genererar och sparar på enheten av användaren (efter positiv avtal databehandling) en privat och unik användaridentifikation (UUID).\n\"
+        \"Denna UUID tjänar som identifiering av anordningen i varje kommunikation av App med servern.\n\"
+        \"Dessutom kan användaren mata in sin e-post-adress inne att appen använder ännu fler funktioner. Användaren får ett e-mail till sin adress där han hittar en länk med vilken han kan godkänna adressen. Dessutom har e- mail-adress kommer att användas för att skicka e-post till användaren bekräfta förfrågningar han in i app som överföring av data till en annan enhet. app inte skicka e-post för reklam eller liknande.\n\"
+        \"The UUID och e-post-adress är de enda personuppgifter som kommer att spara, bearbetas och överförs till servern.\n\"
+        \"Bilder av mynt användaren tar i appen kommer också laddas upp till servern och är tillgängliga för de användare som användaren delar hans /hennes samling. Bilder från handel samlingar delas till allmänheten.\n\n\"
 
-        "Bas av databehandling:\n"
-        "Databehandlings behövs för funktionerna i App för att fungera.\n\n"
+        \"Bas av databehandling:\n\"
+        \"Databehandlings behövs för funktionerna i App för att fungera.\n\n\"
 
-        "Mottagare av personuppgifter:\n"
-        "Servern som används av App tillhör företaget STRATO och drivs av detta. Personuppgifter kommer inte att överföras explicit till STRATO men kan nås för att fullgöra sitt avtal.\nPersonal data inte överföras till någon annan tredje part.\n\n"
+        \"Mottagare av personuppgifter:\n\"
+        \"Servern som används av App tillhör företaget STRATO och drivs av detta. Personuppgifter kommer inte att överföras explicit till STRATO men kan nås för att fullgöra sitt avtal.\nPersonal data inte överföras till någon annan tredje part.\n\n\"
 
-        "Tid att lagra personuppgifter:\n"
-        "Personuppgifter kommer att lagras tills användaren frågar efter radera sina personuppgifter eller konto.\n\n"
+        \"Tid att lagra personuppgifter:\n\"
+        \"Personuppgifter kommer att lagras tills användaren frågar efter radera sina personuppgifter eller konto.\n\n\"
 
-        "rättigheter för användaren:\n"
-        "Godkännandet av användaren att bearbeta och lagra personuppgifter kan återkallas eller korrigeras när som helst. Användaren kan begära de persondata som har behandlats och lagrats. Detta kan uppnås exempelvis genom att skicka e-post till matthias @ online.de.\n"
-        "Användaren kan kontakta motsvarande institution för dataintegritets."</string>
-	<string name="dsgvo_agree_data_privacy">"Jag har läst och förstått följande förklaring av data privatliv App Detta är synlig i App på menyn. 'Information -. Data Privacy'</string>
+        \"rättigheter för användaren:\n\"
+        \"Godkännandet av användaren att bearbeta och lagra personuppgifter kan återkallas eller korrigeras när som helst. Användaren kan begära de persondata som har behandlats och lagrats. Detta kan uppnås exempelvis genom att skicka e-post till matthias @ online.de.\n\"
+        \"Användaren kan kontakta motsvarande institution för dataintegritets."</string>
+	<string name="dsgvo_agree_data_privacy">"Jag har läst och förstått följande förklaring av data privatliv App Detta är synlig i App på menyn. 'Information -. Data Privacy'"</string>
 	<string name="dsgvo_1">"Jag håller med om att mina personliga data som jag ingått App kommer att behandlas, lagras och överföras till tredje part så länge det behövs för funktionerna i App att fungera."</string>
-	<string name="specialeuro_2016_de_planet_title">Blue Planet</string>
-	<string name="specialeuro_2016_de_planet_short_title">Blue Planet</string>
-	<string name="specialeuro_2017_de_clima_title">Climazone Tropical</string>
-	<string name="specialeuro_2017_de_clima_short_title">Climazone Tropical</string>
-	<string name="specialeuro_2018_de_clima_title">Climazone subtropiska</string>
-	<string name="specialeuro_2018_de_clima_short_title">Climazone subtropiska</string>
-	<string name="specialeuro_2019_de_clima_title">Tempererat klimat</string>
-	<string name="specialeuro_2019_de_clima_short_title">Tempererat klimat</string>
+	<string name="specialeuro_2016_de_planet_title">"Blue Planet"</string>
+	<string name="specialeuro_2016_de_planet_short_title">"Blue Planet"</string>
+	<string name="specialeuro_2017_de_clima_title">"Climazone Tropical"</string>
+	<string name="specialeuro_2017_de_clima_short_title">"Climazone Tropical"</string>
+	<string name="specialeuro_2018_de_clima_title">"Climazone subtropiska"</string>
+	<string name="specialeuro_2018_de_clima_short_title">"Climazone subtropiska"</string>
+	<string name="specialeuro_2019_de_clima_title">"Tempererat klimat"</string>
+	<string name="specialeuro_2019_de_clima_short_title">"Tempererat klimat"</string>
 
 </resources>

@@ -1,6 +1,8 @@
 <resources>
     <string name="language_code">"sl"</string>
+    <string name="app_name">"Album za evro kovance"</string>
     <string name="action_settings">"Nastavitve"</string>
+    <string name="action_global_settings">"Globalna nastavitev"</string>
     <string name="action_country">"Država"</string>
     <string name="action_user">"Uporabnik"</string>
     <string name="action_collection">"Zbirka"</string>
@@ -27,19 +29,19 @@
     <string name="export_ok">"Izvozi OK"</string>
     <string name="import_ok">"Uvozi OK"</string>
     <string name="help">"Pomoč"</string>
-    <string name="help_message">"Če mi želite poslati kakršne koli težave, napake, vprašanja ali zahteve po funkciji, prosim uporabite \"pošlji sporočilo\" v meniju (http://eurocoins-album.jimdo.com). Te pripombe ne smejo biti objavljene v trgovini za predvajanje."</string>
+    <string name="help_message">"Če mi želite poslati kakršne koli težave, napake, vprašanja ali zahteve po funkciji, prosim uporabite \\"pošlji sporočilo\\" v meniju (http://eurocoins-album.jimdo.com). Te pripombe ne smejo biti objavljene v trgovini za predvajanje."</string>
     <string name="help_statistics">"Format statistike je x/y/z x = število možnih različnih kovancev, ki ste jih izbrali; y = število možnih različnih kovancev, ki jih je mogoče zbrati; z = število skupnih kovancev, ki ste jih zbrali (če imate kovanec več kot enkrat, glejte podrobnosti o kovancih). Decimalna številka prikazuje znesek denarja, ki ste ga zbrali, in dodatno zneske za plačano in vrednost, če ste jih vnesli v podrobnosti o kovancih."</string>
-    <string name="help_coin_marker">"\"X\" na kovancu pomeni, da ta kovanec sploh ni kovanec (če imate druge informacije, prosim pošljite mail). \"*\" Na kovancu je uradni kovanec, ki označuje marker, če ste aktivirali to nastavitev."</string>
+    <string name="help_coin_marker">"\\"X\\" na kovancu pomeni, da ta kovanec sploh ni kovanec (če imate druge informacije, prosim pošljite mail). \\"*\\" Na kovancu je uradni kovanec, ki označuje marker, če ste aktivirali to nastavitev."</string>
     <string name="help_eu_view">"Pogled EU kaže, ali ima trenutni uporabnik ta kovanec v vseh letih / državah (in kovnice) ali če manjka eno leto / država (meta). To je odvisno od načina eu-view (glej spodaj). V letnem načinu se dotaknite kovanega gumba, da vidite, za katere države je uporabnik že kupil ta kovanec. Dotaknite se 2 € priložnostne kovance, da si ogledate vse 2 € -coins tega leta / države!"</string>
     <string name="help_eu_mode_switch">"V pogledu EU lahko z gumbom v zgornjem levem kotu preklopite med letnim načinom in državo"</string>
     <string name="help_multi_user">"V večuporabniškem pogledu je prikazano, ali imajo vsi uporabniki ta kovancev ali če ga vsaj en uporabnik nima. Dotaknite se kovanega gumba, da vidite, kateri od uporabnikov je že zbral ta kovanec."</string>
     <string name="help_touch_hold_coins">"V načinu urejanja dotaknite se in držite kovanec, da nastavite število kovancev, ki jih imate, in druge lastnosti."</string>
     <string name="help_touch_hold_two_euro_coins">"V zaklenjenem načinu se dotaknite in pridržite posebna 2 evrokovanca, da dobite dodatne informacije."</string>
     <string name="help_touch_common_coins">"Dotaknite se enega od 8 skupnih kovancev na levi strani, da si ogledate hrbtno stran tega kovanca za vse države."</string>
-    <string name="help_imexport">"Datoteke za izvoz bodo imenovane \"euro_coin_list_ &lt;uporabniško ime&gt; .txt\". Uvoženi uporabniki bodo dodani in ne bodo prepisani."</string>
+    <string name="help_imexport">"Datoteke za izvoz bodo imenovane \\"euro_coin_list_ &lt;uporabniško ime&gt; .txt\\". Uvoženi uporabniki bodo dodani in ne bodo prepisani."</string>
     <string name="help_backup">"Vsak teden aplikacija samodejno ustvari varnostno kopijo vseh zbirk. S pomočjo menija »Obnovi varnostno kopijo« lahko zlahka dodate staro varnostno kopijo v trenutno naložene zbirke"</string>
     <string name="help_coinset_expand">"Če želite povečati uporabnost, se nemške kolekcije združijo po letih, če ste omogočili nastavitev »Zbiraj leti in kovnice«. Gumb plus / minus nad skupnimi kovanci (leva stran) se lahko uporablja na dva načina: kratek dotik, če želite razširiti / zbrati vse skupine v enkratnem in dolgem dotiku, da storite nasprotno."</string>
-    <string name="help_menu">"Uporabite meni nastavitev za spreminjanje: velikost velikosti kovanca, velikost besedila (naslov in besedilo kovanca), zbiranje le 2 € priložnostnih kovancev, zbiranje vseh let in kovancev (ali le ena na državo) in še veliko več. Posebna funkcionalnost je \"uporaba posameznih nastavitev\", s katerimi lahko vsaka uporabniška / zbirka ima svoje nastavitve ali če vsi uporabniki delijo iste nastavitve!"</string>
+    <string name="help_menu">"Uporabite meni nastavitev za spreminjanje: velikost velikosti kovanca, velikost besedila (naslov in besedilo kovanca), zbiranje le 2 € priložnostnih kovancev, zbiranje vseh let in kovancev (ali le ena na državo) in še veliko več. Posebna funkcionalnost je \\"uporaba posameznih nastavitev\\", s katerimi lahko vsaka uporabniška / zbirka ima svoje nastavitve ali če vsi uporabniki delijo iste nastavitve!"</string>
     <string name="help_title_setting">"S klikom na glavo stolpca lahko spremenite barvo ozadja."</string>
     <string name="show_licenses">"Licence"</string>
     <string name="pref_use_individual_settings">"Uporabite posamezne nastavitve"</string>
@@ -54,7 +56,7 @@
     <string name="value">"Vrednost"</string>
     <string name="note">"Opomba"</string>
     <string name="pref_show_only_missing_coins">"Prikaži samo manjkajoče kovance"</string>
-    <string name="pref_show_official_coin_set_marker">"Prikaži oznako \"samo mint\" (*)"</string>
+    <string name="pref_show_official_coin_set_marker">"Prikaži oznako \\"samo mint\\" (*)"</string>
     <string name="coinCondition">"Pogoj"</string>
     <string name="action_open_url_comment">"Pošlji sporočilo"</string>
     <string name="action_close">"Izhod"</string>
@@ -205,12 +207,14 @@
     <string name="user_name_already_exists">"Ime že obstaja"</string>
     <string name="user_name_contains_invalid_characters">"Ime vsebuje neveljavne znake"</string>
 
-    <string name="version_history_last">"Version 6.5\n
-        Odpravljen zlom v zbirki za izvoz in ustvarjanje pdf"</string>
+    <string name="version_history_current">"Različica 7.0\n
+         Za morebitno napako me kontaktirajte matthias@online.de\n
+         Zmanjšan pomnilniški odtis\n
+         Dodani so spominski kovanci za 2 € 2021 in 2022."</string>
 
-    <string name="version_history_current">"Različica 6.6\n
+    <string name="version_history_last">"Različica 6.6\n
         Odpravljen zlom v zbirki za izvoz in ustvarjanje pdf\n
-         2 € dodani spominski kovanci 2020. "</string>
+         2 € dodani spominski kovanci 2020."</string>
 
     <string name="coin_1cent">"1 cent"</string>
     <string name="coin_2cent">"2 cent"</string>
@@ -249,11 +253,11 @@
     <string name="countryname_va">"Vatikan"</string>
 
     <string name="dsgvo_agree_data_privacy">"
-        \"Prebral sem in razumel kasnejšo izjavo o zasebnosti podatkov v aplikaciji. To je mogoče videti v aplikaciji v meniju\" Informacije - zasebnost podatkov \".
-    "</string>
+        \\"Prebral sem in razumel kasnejšo izjavo o zasebnosti podatkov v aplikaciji. To je mogoče videti v aplikaciji v meniju\\" Informacije - zasebnost podatkov \\".
+  "</string>
 
     <string name="dsgvo_1">"
-        \"Strinjam se, da bodo osebni podatki, ki sem jih vnesel v aplikacijo, obdelani, shranjeni in preneseni na tretje osebe, dokler jih potrebujejo za delovanje aplikacije.\"
-    "</string>
+        \\"Strinjam se, da bodo osebni podatki, ki sem jih vnesel v aplikacijo, obdelani, shranjeni in preneseni na tretje osebe, dokler jih potrebujejo za delovanje aplikacije.\\"
+  "</string>
 
 </resources>

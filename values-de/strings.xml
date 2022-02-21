@@ -1,209 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="language_code">de</string>
-    <string name="action_settings">Einstellungen</string>
-    <string name="action_country">Land</string>
-    <string name="action_user">Benutzer</string>
-    <string name="action_collection">Sammlung</string>
-    <string name="action_mode">Editiermodus umschalten</string>
-    <string name="new_collection">Neue Sammlung</string>
-    <string name="enter_new_name">Bitte neuen Namen eingeben</string>
-    <string name="delete_collection">Löschen</string>
-    <string name="change_name">Name ändern</string>
-    <string name="default_collection_name">Sammlung1</string>
-    <string name="how_to_unlock">Drücke das Schloß-Symbol in der Menübar</string>
-    <string name="use_long_touch_to_force_details">Münze existiert nicht. Lange drücken, um den Eigenschaften-Dialog zu öffnen.</string>
-    <string name="mode_unlock_not_in_multiuser_or_eu">Editiermodus in Multiuser und EU Ansicht nicht möglich</string>
-    <string name="yes">Ja</string>
-    <string name="no">Nein</string>
-    <string name="multi_collection_view">Multi-Ansicht</string>
-    <string name="source_ecb">Quelle: EUROPÄISCHE ZENTRALBANK</string>
-    <string name="ecb_info">Die Informationen und Bilder der Münzen sind auf der EZB-Website kostenfrei erhältlich.</string>
-    <string name="action_import">Importieren</string>
-    <string name="action_export">Exportieren</string>
-    <string name="action_createpdf">pdf erstellen</string>
-    <string name="pdfApiLevelTooLow">Sorry, pdf Erstellung benötigt min. Android 4.4</string>
-    <string name="export_failed">Export fehlgeschlagen</string>
-    <string name="import_failed">Import fehlgeschlogen</string>
-    <string name="export_ok">Export OK</string>
-    <string name="import_ok">Import OK</string>
-    <string name="help">Hilfe</string>
-    <string name="help_message">Bitte Probleme, Fehlermeldungen, Fragen oder Erweiterungswünsche üben den Menüpunkt "Nachricht senden" melden (https://eurocoins-album.jimdosite.com). Solche Kommentare bitte nicht im play store posten.</string>
-    <string name="help_statistics">Das Statistikformat ist x/y/z x=Anzahl möglicher unterschiedlicher Münzen, die gesammelt wurden; y=Anzahl möglicher unterschiedlicher Münzen, die gesammelt werden können; z=Gesamtanzahl der gesammelten Münzen (für den Fall, dass die Münze mehr als einmal gesammelt wurde; siehe Münzeigenschaften). Die Dezimalzahl zeigt den Geldbetrag,der gesammelt wurde und zusätzlich den Betrag für Wert und Bezahlt, falls diese Daten bei den Münzeigenschaften eingetragen wurden.</string>
-    <string name="help_coin_marker">Ein \'X\' auf der Münze zeigt an, dass diese Münze nicht geprägt wurde (wenn Sie andere Informationen darüber haben, können Sie mir diese gerne zumailen). Ein \'*\' an der Münze zeigt an, dass diese nur als KMS geprägt wurde, sofern diese Einstellung aktiviert wurde.</string>
-    <string name="help_eu_view">Die EU-Ansicht zeigt, ob der aktuelle Benutzer diese Münze für alle Jahrgänge/Länder (und Prägestätten) gesammelt hat oder ob mindestens eine/s fehlt. In der EU-Jahresansicht (siehe unten) zeigt das Drücken einer Münze an, für welche Länder diese Münze bereits gesammelt wurde. Drücken auf eine 2€ Gedenkmünze zeigt alle 2€-Münzen dieses Jahrgangs/Landes an!</string>
-    <string name="help_eu_mode_switch">In der EU-Ansicht dient der Button in der linken oberen Ecke zum Umschalten zwischen der Jahres- und der Länderansicht.</string>
-    <string name="help_multi_user">Die Mehrbenutzer Ansicht zeigt, ob alle Benutzer die Münze haben, oder ob diese wenigstens einem Benutzer fehlt.</string>
-    <string name="help_touch_hold_coins">Drücken und Halten einer Münze im Editiermodus erlaubt die Eingabe der Anzahl der Münzen und anderer Eigenschaften.</string>
-    <string name="help_touch_hold_two_euro_coins">Drücken und Halten einer 2 Euro Sondermünze im gesperrten Editiermodus zeigt zusätzliche Informationen zu dieser Münze an.</string>
-    <string name="help_touch_common_coins">Drücken einer der 8 gemeinsamen Euromünzen auf der linken Seite zeigt die nationalen Seiten aller Länder zu dieser Münze an.</string>
-    <string name="help_imexport">Die Dateinamen für exportierte Benutzer lauten: \'euro_coin_list_&lt;username&gt;.txt\'. Importierte Benutzer werden neu hinzugefügt und überschreiben keine bestehenden.</string>
-    <string name="help_backup">Jede Woche erstellt die App automatisch ein komplettes Backup aller Sammlungen, die im lokalen App-Verzeichnis im Dateisystem abgelegt werden. Über den Menüpunkt \'Sicherung wiederherstellen\' können alte Backups als zusätzliche Sammlung wieder eingespielt werden.</string>
-    <string name="help_coinset_expand">Um die Übersichtlichkeit zu erhöhen wurden die deutschen Münzsätze gruppiert, sofern die Einstellung \'Jahre und Prägestätten\' aktiviert wurde. Der plus/minus Button über den gemeinsamen Münzbildern (linke Seite) funktioniert in zweierlei Hinsicht: kurzes Drücken führt die Aktion für alle Münzsätze aus, wohingegen langes Drücken das Gegenteil bewirkt.</string>
-    <string name="help_menu">Über die Einstellungen im Menü lassen sich folgende Parameter verändern: Sprache, Münzbildgröße, Textgröße (Titel und Münztext), nur 2€ Gedenkmünzen, alle Jahrgänge/Prägestätten sammeln oder nur eine pro Land und vieles weitere. Eine besondere Funktion hat \'Individuelle Einstellungen verwenden\', womit jeder Benutzer/Sammlung seine eigenen Einstellungen haben kann oder ob alle die gleichen Einstellungen verwenden.</string>
-    <string name="help_title_setting">Durch Drücken der Spaltenüberschrift lässt sich die entsprechende Hintergrundfarbe ändern.</string>
-    <string name="show_licenses">Lizenzen</string>
-    <string name="pref_use_individual_settings">Individuelle Einstellungen verwenden</string>
-    <string name="pref_image_size">Bildgröße</string>
-    <string name="pref_text_size_1">Textgröße 1 (Titel)</string>
-    <string name="pref_text_size_2">Textgröße 2 (Münzen)</string>
-    <string name="pref_collect_years">Jahre sammeln</string>
-    <string name="pref_show_statistics">Statistik anzeigen</string>
-    <string name="pref_language">Sprache / Language</string>
-    <string name="added_date">Datum gesammelt</string>
-    <string name="paid">Bezahlt</string>
-    <string name="value">Wert</string>
-    <string name="note">Notiz</string>
-    <string name="pref_show_only_missing_coins">Zeige nur fehlende Münzen</string>
-    <string name="pref_show_official_coin_set_marker">Zeige \'nur als KMS\' Markierung (*)</string>
-    <string name="coinCondition">Zustand</string>
-    <string name="action_open_url_comment">Nachricht schreiben</string>
-    <string name="action_close">Beenden</string>
-    <string name="index_cc">Index</string>
-    <string name="enter_coin_name">Jahr und kurzer Titel angeben:</string>
-    <string name="custom_coin_name">Name</string>
-    <string name="year">Jahr</string>
-    <string name="count">Anzahl</string>
-    <string name="mint">Prägezeichen</string>
-    <string name="remove_coin">Münze entfernen</string>
-    <string name="label">Bezeichnung</string>
-    <string name="prev_coin">Vorherige</string>
-    <string name="next_coin">Nächste</string>
-    <string name="new_coin">Neue</string>
-    <string name="attention">Achtung</string>
-    <string name="force_unlock_user">Dieser Benutzer hatte einen Ladefehler. Editiermodus erzwingen?</string>
-    <string name="action_restore_backup">Sicherung wiederherstellen</string>
-    <string name="action_delete_old_backups">Alte Sicherungen löschen</string>
-    <string name="delete_old_backups">Alle Sicherungen außer die der aktuellen Woche löschen?</string>
-    <string name="no_external_storage_permission">Im Android Apps Menü die \'Berechtigung\' für \'Speicher\' aktivieren</string>
-    <string name="commemorative_coins_full">Gedenkmünzen voll</string>
-    <string name="pref_use_background_color">Hintergrundfarbe verwenden</string>
-    <string name="pref_background_color">Hintergrundfarbe</string>
-    <string name="pref_hide_not_existing_coins">Nicht existierende Münzen ausblenden</string>
-    <string name="click_the_coin_set_expand_button">Um die Gruppe zu öffnen drücke den Plus-Button</string>
-    <string name="action_manage_shared_collection">Verwalten</string>
-    <string name="collection_is_not_shared">Diese Sammlung wurde nicht geteilt</string>
-    <string name="register">Registrieren</string>
+    <string name="language_code">"de"</string>
+    <string name="action_settings">"Einstellungen"</string>
+    <string name="action_global_settings">"Globale Einstellungen"</string>
+    <string name="action_country">"Land"</string>
+    <string name="action_user">"Benutzer"</string>
+    <string name="action_collection">"Sammlung"</string>
+    <string name="action_mode">"Editiermodus umschalten"</string>
+    <string name="new_collection">"Neue Sammlung"</string>
+    <string name="enter_new_name">"Bitte neuen Namen eingeben"</string>
+    <string name="delete_collection">"Löschen"</string>
+    <string name="change_name">"Name ändern"</string>
+    <string name="default_collection_name">"Sammlung1"</string>
+    <string name="how_to_unlock">"Drücke das Schloß-Symbol in der Menübar"</string>
+    <string name="use_long_touch_to_force_details">"Münze existiert nicht. Lange drücken, um den Eigenschaften-Dialog zu öffnen."</string>
+    <string name="mode_unlock_not_in_multiuser_or_eu">"Editiermodus in Multiuser und EU Ansicht nicht möglich"</string>
+    <string name="yes">"Ja"</string>
+    <string name="no">"Nein"</string>
+    <string name="multi_collection_view">"Multi-Ansicht"</string>
+    <string name="source_ecb">"Quelle: EUROPÄISCHE ZENTRALBANK"</string>
+    <string name="ecb_info">"Die Informationen und Bilder der Münzen sind auf der EZB-Website kostenfrei erhältlich."</string>
+    <string name="action_import">"Importieren"</string>
+    <string name="action_export">"Exportieren"</string>
+    <string name="action_createpdf">"pdf erstellen"</string>
+    <string name="pdfApiLevelTooLow">"Sorry, pdf Erstellung benötigt min. Android 4.4"</string>
+    <string name="export_failed">"Export fehlgeschlagen"</string>
+    <string name="import_failed">"Import fehlgeschlogen"</string>
+    <string name="export_ok">"Export OK"</string>
+    <string name="import_ok">"Import OK"</string>
+    <string name="help">"Hilfe"</string>
+    <string name="help_message">"Bitte Probleme, Fehlermeldungen, Fragen oder Erweiterungswünsche üben den Menüpunkt Nachricht senden melden (https://eurocoins-album.jimdosite.com). Solche Kommentare bitte nicht im play store posten."</string>
+    <string name="help_statistics">"Das Statistikformat ist x/y/z x=Anzahl möglicher unterschiedlicher Münzen, die gesammelt wurden; y=Anzahl möglicher unterschiedlicher Münzen, die gesammelt werden können; z=Gesamtanzahl der gesammelten Münzen (für den Fall, dass die Münze mehr als einmal gesammelt wurde; siehe Münzeigenschaften). Die Dezimalzahl zeigt den Geldbetrag,der gesammelt wurde und zusätzlich den Betrag für Wert und Bezahlt, falls diese Daten bei den Münzeigenschaften eingetragen wurden."</string>
+    <string name="help_coin_marker">"Ein \'X\' auf der Münze zeigt an, dass diese Münze nicht geprägt wurde (wenn Sie andere Informationen darüber haben, können Sie mir diese gerne zumailen). Ein \'*\' an der Münze zeigt an, dass diese nur als KMS geprägt wurde, sofern diese Einstellung aktiviert wurde."</string>
+    <string name="help_eu_view">"Die EU-Ansicht zeigt, ob der aktuelle Benutzer diese Münze für alle Jahrgänge/Länder (und Prägestätten) gesammelt hat oder ob mindestens eine/s fehlt. In der EU-Jahresansicht (siehe unten) zeigt das Drücken einer Münze an, für welche Länder diese Münze bereits gesammelt wurde. Drücken auf eine 2€ Gedenkmünze zeigt alle 2€-Münzen dieses Jahrgangs/Landes an!"</string>
+    <string name="help_eu_mode_switch">"In der EU-Ansicht dient der Button in der linken oberen Ecke zum Umschalten zwischen der Jahres- und der Länderansicht."</string>
+    <string name="help_multi_user">"Die Mehrbenutzer Ansicht zeigt, ob alle Benutzer die Münze haben, oder ob diese wenigstens einem Benutzer fehlt."</string>
+    <string name="help_touch_hold_coins">"Drücken und Halten einer Münze im Editiermodus erlaubt die Eingabe der Anzahl der Münzen und anderer Eigenschaften."</string>
+    <string name="help_touch_hold_two_euro_coins">"Drücken und Halten einer 2 Euro Sondermünze im gesperrten Editiermodus zeigt zusätzliche Informationen zu dieser Münze an."</string>
+    <string name="help_touch_common_coins">"Drücken einer der 8 gemeinsamen Euromünzen auf der linken Seite zeigt die nationalen Seiten aller Länder zu dieser Münze an."</string>
+    <string name="help_imexport">"Die Dateinamen für exportierte Benutzer lauten: \'euro_coin_list_&lt;username&gt;.txt\'. Importierte Benutzer werden neu hinzugefügt und überschreiben keine bestehenden."</string>
+    <string name="help_backup">"Jede Woche erstellt die App automatisch ein komplettes Backup aller Sammlungen, die im lokalen App-Verzeichnis im Dateisystem abgelegt werden. Über den Menüpunkt \'Sicherung wiederherstellen\' können alte Backups als zusätzliche Sammlung wieder eingespielt werden."</string>
+    <string name="help_coinset_expand">"Um die Übersichtlichkeit zu erhöhen wurden die deutschen Münzsätze gruppiert, sofern die Einstellung \'Jahre und Prägestätten\' aktiviert wurde. Der plus/minus Button über den gemeinsamen Münzbildern (linke Seite) funktioniert in zweierlei Hinsicht: kurzes Drücken führt die Aktion für alle Münzsätze aus, wohingegen langes Drücken das Gegenteil bewirkt."</string>
+    <string name="help_menu">"Über die Einstellungen im Menü lassen sich folgende Parameter verändern: Sprache, Münzbildgröße, Textgröße (Titel und Münztext), nur 2€ Gedenkmünzen, alle Jahrgänge/Prägestätten sammeln oder nur eine pro Land und vieles weitere. Eine besondere Funktion hat \'Individuelle Einstellungen verwenden\', womit jeder Benutzer/Sammlung seine eigenen Einstellungen haben kann oder ob alle die gleichen Einstellungen verwenden."</string>
+    <string name="help_title_setting">"Durch Drücken der Spaltenüberschrift lässt sich die entsprechende Hintergrundfarbe ändern."</string>
+    <string name="show_licenses">"Lizenzen"</string>
+    <string name="pref_use_individual_settings">"Individuelle Einstellungen verwenden"</string>
+    <string name="pref_image_size">"Bildgröße"</string>
+    <string name="pref_text_size_1">"Textgröße 1 (Titel)"</string>
+    <string name="pref_text_size_2">"Textgröße 2 (Münzen)"</string>
+    <string name="pref_collect_years">"Jahre sammeln"</string>
+    <string name="pref_show_statistics">"Statistik anzeigen"</string>
+    <string name="pref_language">"Sprache / Language"</string>
+    <string name="added_date">"Datum gesammelt"</string>
+    <string name="paid">"Bezahlt"</string>
+    <string name="value">"Wert"</string>
+    <string name="note">"Notiz"</string>
+    <string name="pref_show_only_missing_coins">"Zeige nur fehlende Münzen"</string>
+    <string name="pref_show_official_coin_set_marker">"Zeige \'nur als KMS\' Markierung (*)"</string>
+    <string name="coinCondition">"Zustand"</string>
+    <string name="action_open_url_comment">"Nachricht schreiben"</string>
+    <string name="action_close">"Beenden"</string>
+    <string name="index_cc">"Index"</string>
+    <string name="enter_coin_name">"Jahr und kurzer Titel angeben:"</string>
+    <string name="custom_coin_name">"Name"</string>
+    <string name="year">"Jahr"</string>
+    <string name="count">"Anzahl"</string>
+    <string name="mint">"Prägezeichen"</string>
+    <string name="remove_coin">"Münze entfernen"</string>
+    <string name="label">"Bezeichnung"</string>
+    <string name="prev_coin">"Vorherige"</string>
+    <string name="next_coin">"Nächste"</string>
+    <string name="new_coin">"Neue"</string>
+    <string name="attention">"Achtung"</string>
+    <string name="force_unlock_user">"Dieser Benutzer hatte einen Ladefehler. Editiermodus erzwingen?"</string>
+    <string name="action_restore_backup">"Sicherung wiederherstellen"</string>
+    <string name="action_delete_old_backups">"Alte Sicherungen löschen"</string>
+    <string name="delete_old_backups">"Alle Sicherungen außer die der aktuellen Woche löschen?"</string>
+    <string name="no_external_storage_permission">"Im Android Apps Menü die \'Berechtigung\' für \'Speicher\' aktivieren"</string>
+    <string name="commemorative_coins_full">"Gedenkmünzen voll"</string>
+    <string name="pref_use_background_color">"Hintergrundfarbe verwenden"</string>
+    <string name="pref_background_color">"Hintergrundfarbe"</string>
+    <string name="pref_hide_not_existing_coins">"Nicht existierende Münzen ausblenden"</string>
+    <string name="click_the_coin_set_expand_button">"Um die Gruppe zu öffnen drücke den Plus-Button"</string>
+    <string name="action_manage_shared_collection">"Verwalten"</string>
+    <string name="collection_is_not_shared">"Diese Sammlung wurde nicht geteilt"</string>
+    <string name="register">"Registrieren"</string>
 
     <!-- v5.0 -->
-    <string name="pref_text_size_3">Textgröße 3 (Selektionsliste)</string>
-    <string name="version_history">Versionshistorie</string>
-    <string name="pref_use_cloud_features">Cloud (Internet) Funktionalitäten</string>
-    <string name="backup_no_cloud_features_activated">Cloud (Internet) Funktionalitäten sind deaktiviert. Sicherungen werden nur auf dem Handy gespeichert.</string>
-    <string name="action_create_backup">Sicherung erzeugen</string>
-    <string name="action_show_notifications">Benachrichtigungen</string>
-    <string name="action_show_info">Infos</string>
-    <string name="action_save">Speichern</string>
-    <string name="help_cloud_features">Wenn Cloud Funktionalitäten aktiviert wurden, werden die wöchentlichen Sicherungen auch auf dem Internet-Speicher von Eurocoinsalbum hochgelanden. Diese können wie normale Sicherungen wiederhergestellt\nCloud Funktionalitäten verwenden eine eindeutige Benutzer ID, die von diesem Programm erzeugt wurde, um die persönlichen Sicherungen zu identifizieren. Die Benutzer ID kann über das Menu Infos - Meine Benutzer ID angezeigt werden.</string>
-    <string name="help_email">Die Benutzer ID wird an die E-Mail Adresse versendet, die bei Einstellungen - E-Mail eingetragen wurde.</string>
-    <string name="action_show_uuid">Meine Benutzer ID</string>
-    <string name="id_created">Benutzer ID erzeugt. Siehe menu: Infos - Meine Benutzer ID</string>
-    <string name="no_internet_no_backup">Internet nicht verfügbar. Sicherungen werden nicht in die Cloud (Internet) hochgeladen.</string>
-    <string name="pref_email">E-Mail</string>
-    <string name="send_id">Benutzer ID senden</string>
-    <string name="email_sent">Eine E-Mail wurde an %1$s versendet</string>
-    <string name="email_sent_confirm">Eine E-Mail wurde an %1$s versendet. SPAM überprüfen. Bitte klicken Sie auf den Link in der E-Mail, um die neue Mailadresse zu bestätigen.</string>
-    <string name="enter_email">Bitte registrieren Sie Ihre Mailadresse.</string>
-    <string name="no_backups_available">Keine Sicherungen vorhanden</string>
-    <string name="internet_not_available_for_backup">Internet nicht verfügbar. Nur lokale Sicherungen werden bearbeitet.</string>
-    <string name="register_email">E-Mail registrieren</string>
-    <string name="data_saved">Daten wurden gespeichert</string>
-    <string name="switch_id">Benutzer ID übertragen</string>
-    <string name="enter_id_to_be_transferred">Geben Sie die Benutzer ID ein, die übernommen werden soll. Diese Daten werden zu Ihrem Konto hinzugefügt.</string>
-    <string name="no_internet_no_registration">Internet nicht verfügbar. Internet aktivieren und Mail-Adresse über den Menüpunkt Benutzer registerieren.</string>
-    <string name="no_internet">Internet nicht verfügbar.</string>
-    <string name="email_sent_confirm_delete_account">Eine E-Mail wurde an %1$s versendet. SPAM überprüfen. Bitte klicken Sie auf den Link in der E-Mail, um Ihre Registrierung zu löschen.</string>
-    <string name="help_transfer_id">Wenn Sie eine Benutzer ID auf ein neues Gerät übertragen möchten (Handy, Tablet), dann geben Sie diese auf dem Zielgerät im Menu Infos->Meine Benutzer ID->Benutzer ID übertragen ein. Der bisherige Besitzer dieser Benutzer ID erhält eine E-Mail in der er die Übertragung bestätigen muss. Ihre bisherigen online Backups werden auf die neue Benutzer ID übertragen.</string>
-    <string name="delete_online_account">Online account löschen</string>
+    <string name="pref_text_size_3">"Textgröße 3 (Selektionsliste)"</string>
+    <string name="version_history">"Versionshistorie"</string>
+    <string name="pref_use_cloud_features">"Cloud (Internet) Funktionalitäten"</string>
+    <string name="backup_no_cloud_features_activated">"Cloud (Internet) Funktionalitäten sind deaktiviert. Sicherungen werden nur auf dem Handy gespeichert."</string>
+    <string name="action_create_backup">"Sicherung erzeugen"</string>
+    <string name="action_show_notifications">"Benachrichtigungen"</string>
+    <string name="action_show_info">"Infos"</string>
+    <string name="action_save">"Speichern"</string>
+    <string name="help_cloud_features">"Wenn Cloud Funktionalitäten aktiviert wurden, werden die wöchentlichen Sicherungen auch auf dem Internet-Speicher von Eurocoinsalbum hochgelanden. Diese können wie normale Sicherungen wiederhergestellt\nCloud Funktionalitäten verwenden eine eindeutige Benutzer ID, die von diesem Programm erzeugt wurde, um die persönlichen Sicherungen zu identifizieren. Die Benutzer ID kann über das Menu Infos - Meine Benutzer ID angezeigt werden."</string>
+    <string name="help_email">"Die Benutzer ID wird an die E-Mail Adresse versendet, die bei Einstellungen - E-Mail eingetragen wurde."</string>
+    <string name="action_show_uuid">"Meine Benutzer ID"</string>
+    <string name="id_created">"Benutzer ID erzeugt. Siehe menu: Infos - Meine Benutzer ID"</string>
+    <string name="no_internet_no_backup">"Internet nicht verfügbar. Sicherungen werden nicht in die Cloud (Internet) hochgeladen."</string>
+    <string name="pref_email">"E-Mail"</string>
+    <string name="send_id">"Benutzer ID senden"</string>
+    <string name="email_sent">"Eine E-Mail wurde an %1$s versendet"</string>
+    <string name="email_sent_confirm">"Eine E-Mail wurde an %1$s versendet. SPAM überprüfen. Bitte klicken Sie auf den Link in der E-Mail, um die neue Mailadresse zu bestätigen."</string>
+    <string name="enter_email">"Bitte registrieren Sie Ihre Mailadresse."</string>
+    <string name="no_backups_available">"Keine Sicherungen vorhanden"</string>
+    <string name="internet_not_available_for_backup">"Internet nicht verfügbar. Nur lokale Sicherungen werden bearbeitet."</string>
+    <string name="register_email">"E-Mail registrieren"</string>
+    <string name="data_saved">"Daten wurden gespeichert"</string>
+    <string name="switch_id">"Benutzer ID übertragen"</string>
+    <string name="enter_id_to_be_transferred">"Geben Sie die Benutzer ID ein, die übernommen werden soll. Diese Daten werden zu Ihrem Konto hinzugefügt."</string>
+    <string name="no_internet_no_registration">"Internet nicht verfügbar. Internet aktivieren und Mail-Adresse über den Menüpunkt Benutzer registerieren."</string>
+    <string name="no_internet">"Internet nicht verfügbar."</string>
+    <string name="email_sent_confirm_delete_account">"Eine E-Mail wurde an %1$s versendet. SPAM überprüfen. Bitte klicken Sie auf den Link in der E-Mail, um Ihre Registrierung zu löschen."</string>
+    <string name="help_transfer_id">"Wenn Sie eine Benutzer ID auf ein neues Gerät übertragen möchten (Handy, Tablet), dann geben Sie diese auf dem Zielgerät im Menu Infos->Meine Benutzer ID->Benutzer ID übertragen ein. Der bisherige Besitzer dieser Benutzer ID erhält eine E-Mail in der er die Übertragung bestätigen muss. Ihre bisherigen online Backups werden auf die neue Benutzer ID übertragen."</string>
+    <string name="delete_online_account">"Online account löschen"</string>
     <!-- 5.1 -->
-    <string name="deletedBackups">Gelöschte Dateien auf dem Gerät:\n%1$s\nGelöschte Dateien in der Cloud:\n%2$s</string>
-    <string name="backup_upload_error">Fehler beim Speichern der Sicherung in die Cloud</string>
-    <string name="action_share_with">Teilen mit ...</string>
-    <string name="action_add_share_with">Neue hinzufügen</string>
-    <string name="action_retract_share">Zurückziehen</string>
-    <string name="share_with_ok">Geteilt mit %1$s</string>
-    <string name="share_with_error">Fehler beim Teilen mit %1$s</string>
-    <string name="action_unshare_with_ok">Die geteilte Sammlung wurde für %1$s zurückgezogen</string>
-    <string name="enter_email_to_share_to">Geben Sie die E-Mail Adresse ein, mit der Sie diese Sammlung teilen möchten.</string>
-    <string name="action_sync_collections">Synchronisieren</string>
-    <string name="collection_linked">Mit mir geteilte Sammlung verbunden für %1$s</string>
-    <string name="start">Start</string>
-    <string name="cancel">Abbrechen</string>
-    <string name="sync_collection_ok">Sammlung %1$s synchronisiert</string>
-    <string name="sync_collection_error">Fehler beim Synchronisieren der Sammlung %1$s</string>
-    <string name="sync_collections_error">Fehler beim Synchronisieren</string>
-    <string name="linked_collection_read_only">Mit mir geteilte Sammlungen können nicht verändert werden.</string>
-    <string name="load_file_error">Fehler beim Laden der Datei %1$s</string>
-    <string name="no_cloud_features_activated">Cloud (Internet) Funktionalitäten sind deaktiviert.</string>
-    <string name="not_saved_load_error">User %1$s not saved because of previous load error. Unlock edit mode to force save.</string>
-    <string name="collection_infos_general">Name: %1$s\nSammlung Nummer: %2$s\nGeteilt: %3$s\nÖffentlicher Name: %4$s\nBesitzer: %5$s\nSynchronisiert: %6$s\nTauschpartner: %7$s</string>
-    <string name="collection_deleted">Sammlung %1$s gelöscht</string>
-    <string name="collection_sharing_retracted">Mit mir geteilte Sammlung %1$s wurde vom Besitzer zurückgezogen</string>
-    <string name="collection_sharing_retracted_ok">Geteilte Sammlung wurde für %1$s zurückgezogen</string>
-    <string name="collection_retract_sharing">Selektieren Sie die Einträge, die Sie zurückziehen möchten</string>
-    <string name="title_collection_shared_with_me">Sammlung geteilt</string>
-    <string name="ask_link_collection">%1$s hat seine Sammlung "%2$s" mit Ihnen geteilt. Möchten Sie diese verbinden?</string>
-    <string name="wrong_app_version_update">Bitte die App auf die neuste Version updated.</string>
-    <string name="session_expired_try_again">Sitzung abgelaufen. Bitte erneut versuchen.</string>
-    <string name="forum">Forum</string>
-    <string name="logged_in">Eingeloggt</string>
-    <string name="pref_other_special_coins">Andere Sondermünzen</string>
-    <string name="coin_parse_error">Fehler beim Laden (siehe Benachrichtigungen für Details)</string>
-    <string name="switch_id_error">Fehler beim Übertragen der ID</string>
-    <string name="register_mail_error">Fehler beim Registrieren der Mailadresse</string>
-    <string name="login_error">Fehler beim Einloggen</string>
-    <string name="search_coin">Münze suchen</string>
-    <string name="enter_coin_search_text">Bitte Suchtext eingeben</string>
-    <string name="no_matching_coins_found">Keine passenden Münzen gefunden</string>
-    <string name="pref_collect_series">Münzserien sammeln</string>
-    <string name="pref_commemorative_coins">Gedenkmünzen</string>
+    <string name="deletedBackups">"Gelöschte Dateien auf dem Gerät:\n%1$s\nGelöschte Dateien in der Cloud:\n%2$s"</string>
+    <string name="backup_upload_error">"Fehler beim Speichern der Sicherung in die Cloud"</string>
+    <string name="action_share_with">"Teilen mit ..."</string>
+    <string name="action_add_share_with">"Neue hinzufügen"</string>
+    <string name="action_retract_share">"Zurückziehen"</string>
+    <string name="share_with_ok">"Geteilt mit %1$s"</string>
+    <string name="share_with_error">"Fehler beim Teilen mit %1$s"</string>
+    <string name="action_unshare_with_ok">"Die geteilte Sammlung wurde für %1$s zurückgezogen"</string>
+    <string name="enter_email_to_share_to">"Geben Sie die E-Mail Adresse ein, mit der Sie diese Sammlung teilen möchten."</string>
+    <string name="action_sync_collections">"Synchronisieren"</string>
+    <string name="collection_linked">"Mit mir geteilte Sammlung verbunden für %1$s"</string>
+    <string name="start">"Start"</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="sync_collection_ok">"Sammlung %1$s synchronisiert"</string>
+    <string name="sync_collection_error">"Fehler beim Synchronisieren der Sammlung %1$s"</string>
+    <string name="sync_collections_error">"Fehler beim Synchronisieren"</string>
+    <string name="linked_collection_read_only">"Mit mir geteilte Sammlungen können nicht verändert werden."</string>
+    <string name="load_file_error">"Fehler beim Laden der Datei %1$s"</string>
+    <string name="no_cloud_features_activated">"Cloud (Internet) Funktionalitäten sind deaktiviert."</string>
+    <string name="not_saved_load_error">"User %1$s not saved because of previous load error. Unlock edit mode to force save."</string>
+    <string name="collection_infos_general">"Name: %1$s\nSammlung Nummer: %2$s\nGeteilt: %3$s\nÖffentlicher Name: %4$s\nBesitzer: %5$s\nSynchronisiert: %6$s\nTauschpartner: %7$s"</string>
+    <string name="collection_deleted">"Sammlung %1$s gelöscht"</string>
+    <string name="collection_sharing_retracted">"Mit mir geteilte Sammlung %1$s wurde vom Besitzer zurückgezogen"</string>
+    <string name="collection_sharing_retracted_ok">"Geteilte Sammlung wurde für %1$s zurückgezogen"</string>
+    <string name="collection_retract_sharing">"Selektieren Sie die Einträge, die Sie zurückziehen möchten"</string>
+    <string name="title_collection_shared_with_me">"Sammlung geteilt"</string>
+    <string name="ask_link_collection">"%1$s hat seine Sammlung %2$s mit Ihnen geteilt. Möchten Sie diese verbinden?"</string>
+    <string name="wrong_app_version_update">"Bitte die App auf die neuste Version updated."</string>
+    <string name="session_expired_try_again">"Sitzung abgelaufen. Bitte erneut versuchen."</string>
+    <string name="forum">"Forum"</string>
+    <string name="logged_in">"Eingeloggt"</string>
+    <string name="pref_other_special_coins">"Andere Sondermünzen"</string>
+    <string name="coin_parse_error">"Fehler beim Laden (siehe Benachrichtigungen für Details)"</string>
+    <string name="switch_id_error">"Fehler beim Übertragen der ID"</string>
+    <string name="register_mail_error">"Fehler beim Registrieren der Mailadresse"</string>
+    <string name="login_error">"Fehler beim Einloggen"</string>
+    <string name="search_coin">"Münze suchen"</string>
+    <string name="enter_coin_search_text">"Bitte Suchtext eingeben"</string>
+    <string name="no_matching_coins_found">"Keine passenden Münzen gefunden"</string>
+    <string name="pref_collect_series">"Münzserien sammeln"</string>
+    <string name="pref_commemorative_coins">"Gedenkmünzen"</string>
     <!-- changed in 5.1 -->
-    <string name="pref_collect_two_euro_only">Keine Standardmünzen sammeln</string>
+    <string name="pref_collect_two_euro_only">"Keine Standardmünzen sammeln"</string>
 
     <!-- version 5.3 -->
-    <string name="enter_coin_value">Wert der Münze eintragen</string>
-    <string name="select_image">Bild auswählen</string>
-    <string name="no_camera_permission">Im Android Apps Menü die \'Berechtigung\' für \'Kamera\' aktivieren</string>
-    <string name="pref_coin_photo_size">Kamera Bildgröße</string>
-    <string name="permission_error">Berechtigungsfehler</string>
-    <string name="image_load_error">Fehler beim Laden des Fotos</string>
-    <string name="not_registered_user_email">\'%1$s\' ist eine nicht registrierte Benutzer E-Mail Adresse</string>
-    <string name="action_force_sync_collections">Synchronisieren erzwingen</string>
-    <string name="is_2_euro_cc">Das ist eine 2€ Gedenkmünze</string>
-    <string name="confirm_rename_collection_title">Sammlung wurde umbenannt</string>
-    <string name="confirm_rename_collection">Soll die Sammlung \'%1$s\' in \'%2$s\' umbenannt werden?</string>
-    <string name="show_newest_added_coins">Neuste Münzen</string>
-    <string name="i_dont_have_this_coin">Ich habe diese Münze nicht</string>
-    <string name="create_as_multiview">Erzeuge Multi-Ansicht</string>
-    <string name="select_collections">Sammlungen auswählen</string>
-    <string name="country_statistic">Länderstatistik</string>
-    <string name="country_statistic_message">%1$s von %2$s möglichen unterschiedlichen Münzen gesammelt\n%3$s Münzen insgesamt gesammelt\n%4$s € ist der Nominalwert\n%5$s € wurde bezahlt\n%6$s € ist der Wert</string>
-    <string name="compare_against_other_collection">Vergleichen</string>
-    <string name="no_differences_in_collections_found">Keine Unterschiede gefunden</string>
-    <string name="error_saving_collection">Fehler beim Speichern der Sammlung %1$s</string>
-    <string name="invalid_value">Ungültiger Münzwert</string>
-    <string name="invalid_year">Ungültiges Jahr</string>
+    <string name="enter_coin_value">"Wert der Münze eintragen"</string>
+    <string name="select_image">"Bild auswählen"</string>
+    <string name="no_camera_permission">"Im Android Apps Menü die \'Berechtigung\' für \'Kamera\' aktivieren"</string>
+    <string name="pref_coin_photo_size">"Kamera Bildgröße"</string>
+    <string name="permission_error">"Berechtigungsfehler"</string>
+    <string name="image_load_error">"Fehler beim Laden des Fotos"</string>
+    <string name="not_registered_user_email">"\'%1$s\' ist eine nicht registrierte Benutzer E-Mail Adresse"</string>
+    <string name="action_force_sync_collections">"Synchronisieren erzwingen"</string>
+    <string name="is_2_euro_cc">"Das ist eine 2€ Gedenkmünze"</string>
+    <string name="confirm_rename_collection_title">"Sammlung wurde umbenannt"</string>
+    <string name="confirm_rename_collection">"Soll die Sammlung \'%1$s\' in \'%2$s\' umbenannt werden?"</string>
+    <string name="show_newest_added_coins">"Neuste Münzen"</string>
+    <string name="i_dont_have_this_coin">"Ich habe diese Münze nicht"</string>
+    <string name="create_as_multiview">"Erzeuge Multi-Ansicht"</string>
+    <string name="select_collections">"Sammlungen auswählen"</string>
+    <string name="country_statistic">"Länderstatistik"</string>
+    <string name="country_statistic_message">"%1$s von %2$s möglichen unterschiedlichen Münzen gesammelt\n%3$s Münzen insgesamt gesammelt\n%4$s € ist der Nominalwert\n%5$s € wurde bezahlt\n%6$s € ist der Wert"</string>
+    <string name="compare_against_other_collection">"Vergleichen"</string>
+    <string name="no_differences_in_collections_found">"Keine Unterschiede gefunden"</string>
+    <string name="error_saving_collection">"Fehler beim Speichern der Sammlung %1$s"</string>
+    <string name="invalid_value">"Ungültiger Münzwert"</string>
+    <string name="invalid_year">"Ungültiges Jahr"</string>
     <!-- version 5.4 -->
-    <string name="collection_modus_to_offline">Verwaltet vom Gerät</string>
-    <string name="collection_modus_to_online">Verwaltet online</string>
-    <string name="no_internet_no_modus_on_offline">Internetverbindung erforderlich, um diese Einstellung zu ändern</string>
-    <string name="set_collection_modus_error">Fehler beim Ändern des Modus. Bitte später erneut versuchen.</string>
-    <string name="editing_only_in_collection_mode_online">Die Sammlung muss auf dem Hauptgerät auf verwaltet online gestellt werden, damit sie auf allen Geräten bearbeitet werden kann.</string>
-    <string name="no_internet_no_editing">Internet nicht verfügbar, wird aber für online verwaltete Sammlungen benötigt.</string>
-    <string name="collection_editing_locked">Sammlung gesperrt durch ein anderes Gerät.</string>
-    <string name="collection_not_locked">Sammlung wurde zuvor nicht gesperrt oder Sperre wurde aufgehoben.</string>
-    <string name="collection_editing_locked_force_unlock">Soll die Sperre für dieses Gerät erzwungen werden? Nicht synchroniserte Änderungen des anderen Geräts gehen verloren.</string>
-    <string name="request_edit_token_error">Fehler beim Wechsel in den online Editiermodus</string>
-    <string name="release_edit_token_error">Fehler beim Aufheben der online Editiersperre</string>
-    <string name="collection_not_online_managed">Sammlung wird nicht online verwaltet</string>
-    <string name="close">Schließen</string>
-    <string name="pref_collect_german_mints">Deutsche Prägestätten sammeln</string>
-    <string name="pref_collect_greece_2002_foreign_mints">Ausländische Prägungen Griechenland 2002 sammeln</string>
-    <string name="collect_no_years_but_german_mints_is_invalid">Keine Jahre, aber deutsche Prägestätten sammeln, ist eine ungültige Kombination</string>
+    <string name="collection_modus_to_offline">"Verwaltet vom Gerät"</string>
+    <string name="collection_modus_to_online">"Verwaltet online"</string>
+    <string name="no_internet_no_modus_on_offline">"Internetverbindung erforderlich, um diese Einstellung zu ändern"</string>
+    <string name="set_collection_modus_error">"Fehler beim Ändern des Modus. Bitte später erneut versuchen."</string>
+    <string name="editing_only_in_collection_mode_online">"Die Sammlung muss auf dem Hauptgerät auf verwaltet online gestellt werden, damit sie auf allen Geräten bearbeitet werden kann."</string>
+    <string name="no_internet_no_editing">"Internet nicht verfügbar, wird aber für online verwaltete Sammlungen benötigt."</string>
+    <string name="collection_editing_locked">"Sammlung gesperrt durch ein anderes Gerät."</string>
+    <string name="collection_not_locked">"Sammlung wurde zuvor nicht gesperrt oder Sperre wurde aufgehoben."</string>
+    <string name="collection_editing_locked_force_unlock">"Soll die Sperre für dieses Gerät erzwungen werden? Nicht synchroniserte Änderungen des anderen Geräts gehen verloren."</string>
+    <string name="request_edit_token_error">"Fehler beim Wechsel in den online Editiermodus"</string>
+    <string name="release_edit_token_error">"Fehler beim Aufheben der online Editiersperre"</string>
+    <string name="collection_not_online_managed">"Sammlung wird nicht online verwaltet"</string>
+    <string name="close">"Schließen"</string>
+    <string name="pref_collect_german_mints">"Deutsche Prägestätten sammeln"</string>
+    <string name="pref_collect_greece_2002_foreign_mints">"Ausländische Prägungen Griechenland 2002 sammeln"</string>
+    <string name="collect_no_years_but_german_mints_is_invalid">"Keine Jahre, aber deutsche Prägestätten sammeln, ist eine ungültige Kombination"</string>
     <!-- version 5.6 -->
-    <string name="user_name_already_exists">Name existiert bereits</string>
-    <string name="user_name_contains_invalid_characters">Name enthält ungültige Zeichen</string>
+    <string name="user_name_already_exists">"Name existiert bereits"</string>
+    <string name="user_name_contains_invalid_characters">"Name enthält ungültige Zeichen"</string>
     <!-- version 5.6.4 -->
     <string name="transfer_collection">"Sammlungen übertragen"</string>
     <!-- version 5.6.5 -->
@@ -213,7 +214,7 @@
     <string name="split_collection">"Aufteilen"</string>
     <string name="enter_number_of_coins_for_splitting">"Bitte geben Sie die Anzahl der Münzen pro möglicher Münze an, die in die erste Kopie übertragen werden soll. Übrige Münzen werden in die zweite Kopie dieser Sammlung übertragen. Die Originalsammlung wird dabei nicht verändert oder gelöscht."</string>
     <string name="collection_split_ok">"Die Sammlung wurde in zwei neue Sammlungen aufgeteilt. Nach einer Kontrolle können Sie die Originalsammlung löschen."</string>
-    <string name="transfer_collection_error">"Fehler beim Übertragen der Sammlung '%1$s'</string>
+    <string name="transfer_collection_error">"Fehler beim Übertragen der Sammlung '%1$s'"</string>
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Sammlung '%1$s' wurde auf ein anderes Gerät übertragen."</string>
     <string name="owner_this_device">"Dieses Gerät"</string>
@@ -322,7 +323,7 @@
     <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"Sie haben keine Münze zum Erhalt ausgewählt, sondern nur solche zum Weggeben. Die hellen Münzbilder sind die Münzen, die Sie derzeit noch nicht besitzen."</string>
     <string name="no_coin_in_trading_collection">"Es wurden noch keine Münzen zur Tauschsammlung hinzugefügt. Bitte fügen Sie Münzen hinzu, die Sie von Ihrem Tauschpartner erhalten möchten. Drücken Sie hierfür auf die hellen Münzen."</string>
     <string name="trade_exceeds_value_limit">"Der Differenzbetrag der zu tauschenden Münzen (%1$s %3$s) überschreitet das erlaubte Limit von %2$s %3$s."</string>
-    <string name="cent">Cent</string>
+    <string name="cent">"Cent"</string>
     <string name="trading_coin_replaced_other_condition">"Die folgende Münze der Tauschsammlung hatte bisher keinen Münz-Zustand, hat aber jetzt einen zugewiesen bekommen: '%1$s':\n%2$s %3$s %4$s %5$s"</string>
     <string name="trading_collection_contains_deleted_coins">"Die Tauschsammlung enthält Münzen, die in der zugrundeliegenden Sammlung nicht enthalten sind."</string>
     <string name="trading_collection_image_error">"Die Tauschsammlung konnte nicht alle Münzbilder laden. Bitte löschen Sie die Tauschsammlung, um Missverständnisse zu vermeiden."</string>
@@ -336,7 +337,7 @@
     <string name="device_new_master">"Möchten Sie Ihre existierenden Sammlungen auf dieses Gerät übertragen?"</string>
 
     <!-- version 6.1 -->
-    <string name="collection_not_yet_initialized">Sammlung nicht initialisiert</string>
+    <string name="collection_not_yet_initialized">"Sammlung nicht initialisiert"</string>
 
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
@@ -346,7 +347,7 @@
     - Sie können mit anderen Benutzern Münzen tauschen, ABER mit der Tauschfunktion dieser App DÜRFEN SIE DEN TAUSCHVORSCHLAG NICHT als Angebot oder als Vertrag im rechtlichen Sinne betrachtet werden! Was auch immer Sie in dieser App tun oder sehen - sie bindet niemanden an irgendetwas.
     - Die Tauschfunktion kann Tauschpartner für Ihre aktuell ausgewählte Sammlung finden.
     - Um einen Tauschpartner zu finden, müssen Sie Ihrer Sammlung zunächst einen öffentlichen Namen geben, der für andere sichtbar ist, und Ihre Sammlung für die Öffentlichkeit freigeben.
-    - Alle Münzen Ihrer Sammlung stehen anderen zur Auswahl, mit Ausnahme derjenigen, die Sie in den Einstellungen "Tauschsammlung: Anzahl zu behaltender Münzen" festgelegt haben.
+    - Alle Münzen Ihrer Sammlung stehen anderen zur Auswahl, mit Ausnahme derjenigen, die Sie in den Einstellungen Tauschsammlung: Anzahl zu behaltender Münzen festgelegt haben.
     - Sie können einzelne Münzen explizit ausschließen und über die Eigenschaft 'Tausch blockieren' der Münze den Tausch dieser verhindern. Beachten Sie, dass auch gesperrte Münzen für die Öffentlichkeit sichtbar sind.
     - Wenn Sie nicht möchten, dass alle Ihre Münzen für den Tausch verfügbar sind, müssen Sie zuerst Ihre Sammlung aufteilen.
     - Ihre Sammlung muss einen öffentlichen Namen haben, der auch für andere sichtbar ist. Gleiches gilt für Ihre E-Mail-Adresse.
@@ -371,7 +372,7 @@
     - Mit der Schaltfläche 'Entfernen' können Sie eine Münze entfernen.
     - Sie können für beide Seiten Münzen hinzufügen und entfernen: die Münzen, die Sie haben möchten, und die, die Sie versenden werden.
     - Sie sollten nur Münzen Ihres Tauschpartners hinzufügen und entfernen, wenn Sie einen guten Grund haben.
-    - Nachdem Sie eine Münze in den Warenkorb gelegt haben, wird eine "1" angezeigt, die angibt, dass eine der Münzen ausgewählt und in den Warenkorb gelegt wurde. Eine negative Zahl bedeutet, dass Sie diese Münze abgeben, während eine positive Zahl anzeigt, dass Sie diese Münze erhalten.
+    - Nachdem Sie eine Münze in den Warenkorb gelegt haben, wird eine 1 angezeigt, die angibt, dass eine der Münzen ausgewählt und in den Warenkorb gelegt wurde. Eine negative Zahl bedeutet, dass Sie diese Münze abgeben, während eine positive Zahl anzeigt, dass Sie diese Münze erhalten.
     - Wenn Ihre Sammlung oder die Sammlung des Tauschpartners mehrere Münzen einer bestimmten Münze enthält, können Sie in der Detailansicht jede dieser Münzen durchsuchen. Wählen Sie genau diese Münze aus, die Sie in den gewünschten Warenkorb legen möchten. Unterschiedliche Münzen können sich in unterschiedlichen Zuständen befinden.
     - Oben auf dem Bildschirm werden alle Münzen aufgelistet, die Sie erhalten. Am unteren Rand werden alle Münzen aufgelistet, die Sie versenden. Berühren Sie eine dieser Münzen, um zu dieser Münze zu wechseln. Halten Sie eine Münze lange gedrückt, um sie aus der Tauschsammlung zu entfernen. Sie können horizontal durch diese Listen scrollen.
     - Die Statistik für Tauschsammlungen unterscheidet sich von normalen Sammlungen. x/y/z x=immer negativ und zeigt an, wie viele Münzen Sie versenden werden; y=Anzahl der möglichen zu tauschenden Münzen; z=immer positiv und zeigt an, wie viele Münzen Sie erhalten.
@@ -379,93 +380,95 @@
     - Der Tauschpartner wird informiert, dass eine neue Tauschsammlung eingeleitet wurde. Jetzt kann Ihr Tauschpartner die Tauschsammlung bearbeiten und an Sie zurücksenden.
     - Um einen besseren Überblick zu haben, ist es möglicherweise sinnvoll, die für den Tausch ausgewählten Münzen auf Papier zu notieren. Derzeit unterstützt die App keine Historie der Tauschsammlung. Sie sehen immer nur den aktuellen Status.
     - Beide Benutzer können den Warenkorb nacheinander bearbeiten, bis ein Benutzer die Sammlung nicht mehr ändert, sondern den Tausch bestätigt. Wenn sich der Nennwert der Münzen zwischen den beiden Tauschpartnern unterscheidet, muss dies durch Hinzufügen des korrekten Betrags zum Paket ausgeglichen werden.
-    - Ein Tausch kann nur bestätigt werden, wenn für jede gehandelte Münze entweder die Eigenschaft "Zustand" festgelegt oder ein eigenes Bild angehängt wurde.
+    - Ein Tausch kann nur bestätigt werden, wenn für jede gehandelte Münze entweder die Eigenschaft Zustand festgelegt oder ein eigenes Bild angehängt wurde.
     - Nachdem der Tausch bestätigt wurde, erhalten Sie und Ihr Tauschpartner eine E-Mail mit den E-Mail-Adressen und einer Liste mit den Münzen, die für den Tausch ausgewählt wurden.
     - Wenn Sie Ihrem Tauschpartner erfolgreich Ihre Münzen zuzüglich eines eventuellen Geldbetrags zum Ausgleich einer Differenz des Nennwerts geschickt und Ihre neuen Münzen erhalten haben, markieren Sie die Tauschsammlung als ausgeführt über das Tauschpartner-Menü. Die Sammlung wird dann nicht mehr im Menü des Benutzers angezeigt, sondern unter Menü->Sammlungen-> Tauschpartner->Durchgeführte Tauschsammlungen.
-    - Während Sie die Tauschsammlung auf "ausgeführt" setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie "Nein", um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und "Ja" wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
+    - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 6.5\n
-        Fehler bei Export Sammlung und Erzeuge PDF behoben."</string>
+    <string name="version_history_current">"Version 7.0\n
+        Bei Fehlern: kontaktieren Sie mich matthias@online.de\n
+        Reduzierter Speicherbedarf\n
+        2€ Gedenkmünzen 2021 und 2022 hinzugefügt."</string>
 
-    <string name="version_history_current">"Version 6.6\n
+    <string name="version_history_last">"Version 6.6\n
         Fehler bei Export Sammlung und Erzeuge PDF behoben.\n
         2€ Gedenkmünzen für 2020 hinzugefügt"</string>
 
-    <string name="coin_1cent">1 Cent</string>
-    <string name="coin_2cent">2 Cent</string>
-    <string name="coin_5cent">5 Cent</string>
-    <string name="coin_10cent">10 Cent</string>
-    <string name="coin_20cent">20 Cent</string>
-    <string name="coin_50cent">50 Cent</string>
-    <string name="coin_1euro">1 Euro</string>
-    <string name="coin_2euro">2 Euro</string>
+    <string name="coin_1cent">"1 Cent"</string>
+    <string name="coin_2cent">"2 Cent"</string>
+    <string name="coin_5cent">"5 Cent"</string>
+    <string name="coin_10cent">"10 Cent"</string>
+    <string name="coin_20cent">"20 Cent"</string>
+    <string name="coin_50cent">"50 Cent"</string>
+    <string name="coin_1euro">"1 Euro"</string>
+    <string name="coin_2euro">"2 Euro"</string>
 
-    <string name="countryname_eu">EU</string>
-    <string name="countryname_ad">Andorra</string>
-    <string name="countryname_be">Belgien</string>
-    <string name="countryname_cy">Zypern</string>
-    <string name="countryname_ee">Estland</string>
-    <string name="countryname_fi">Finnland</string>
-    <string name="countryname_fr">Frankreich</string>
-    <string name="countryname_de">Deutschland</string>
-    <string name="countryname_gr">Griechenland</string>
-    <string name="countryname_ir">Irland</string>
-    <string name="countryname_it">Italien</string>
-    <string name="countryname_lt">Litauen</string>
-    <string name="countryname_lu">Luxemburg</string>
-    <string name="countryname_lv">Lettland</string>
-    <string name="countryname_mt">Malta</string>
-    <string name="countryname_mc">Monaco</string>
-    <string name="countryname_ne">Niederlande</string>
-    <string name="countryname_po">Portugal</string>
-    <string name="countryname_sk">Slowakei</string>
-    <string name="countryname_si">Slowenien</string>
-    <string name="countryname_sm">San Marino</string>
-    <string name="countryname_es">Spanien</string>
-    <string name="countryname_va">Vatikan</string>
-    <string name="countryname_au">Österreich</string>
+    <string name="countryname_eu">"EU"</string>
+    <string name="countryname_ad">"Andorra"</string>
+    <string name="countryname_be">"Belgien"</string>
+    <string name="countryname_cy">"Zypern"</string>
+    <string name="countryname_ee">"Estland"</string>
+    <string name="countryname_fi">"Finnland"</string>
+    <string name="countryname_fr">"Frankreich"</string>
+    <string name="countryname_de">"Deutschland"</string>
+    <string name="countryname_gr">"Griechenland"</string>
+    <string name="countryname_ir">"Irland"</string>
+    <string name="countryname_it">"Italien"</string>
+    <string name="countryname_lt">"Litauen"</string>
+    <string name="countryname_lu">"Luxemburg"</string>
+    <string name="countryname_lv">"Lettland"</string>
+    <string name="countryname_mt">"Malta"</string>
+    <string name="countryname_mc">"Monaco"</string>
+    <string name="countryname_ne">"Niederlande"</string>
+    <string name="countryname_po">"Portugal"</string>
+    <string name="countryname_sk">"Slowakei"</string>
+    <string name="countryname_si">"Slowenien"</string>
+    <string name="countryname_sm">"San Marino"</string>
+    <string name="countryname_es">"Spanien"</string>
+    <string name="countryname_va">"Vatikan"</string>
+    <string name="countryname_au">"Österreich"</string>
 
-    <string name="countryname_uk">Vereinigtes Königreich</string>
+    <string name="countryname_uk">"Vereinigtes Königreich"</string>
 
     <!-- DSGVO -->
-    <string name="action_show_data_privacy">Datenschutz</string>
-    <string name="dsgvo_ack_title">WICHTIG</string>
-    <string name="dsgvo_ack_yes">Ich stimme zu</string>
-    <string name="dsgvo_ack_no">Ich stimme NICHT zu</string>
-    <string name="dsgvo_agreed_message">Sie haben der Erklärung zum Datenschutz zugestimmt am: %1$s</string>
-    <string name="dsgvo_data_privacy">
-        "Erklärung zum Datenschutz von 'Eurocoins Album' nachfolgend 'App' genannt.\n\n"
+    <string name="action_show_data_privacy">"Datenschutz"</string>
+    <string name="dsgvo_ack_title">"WICHTIG"</string>
+    <string name="dsgvo_ack_yes">"Ich stimme zu"</string>
+    <string name="dsgvo_ack_no">"Ich stimme NICHT zu"</string>
+    <string name="dsgvo_agreed_message">"Sie haben der Erklärung zum Datenschutz zugestimmt am: %1$s"</string>
+    <string name="dsgvo_data_privacy">"
+        Erklärung zum Datenschutz von 'Eurocoins Album' nachfolgend 'App' genannt.\n\n
 
-        "Name und Kontaktdaten:\n"
-        "Matthias Kleiber, matthias@online.de\n\n"
+        Name und Kontaktdaten:\n
+        Matthias Kleiber, matthias@online.de\n\n
 
-        "Zwecke der Datenverarbeitung:\n"
-        "Die App generiert und speichert auf dem Gerät des Nutzers nach positiver Bestätigung zur Datenverarbeitung eine private und eindeutige Benutzerkennung (UUID).\n"
-        "Diese Benutzerkennung dient zur Identifizierung des Geräts bei jeder Kommunikation mit dem Server der App.\n"
-        "Zusätzlich kann der Benutzer seine E-Mail-Adresse in der App eintragen, um weitere Funktionalitäten nutzen zu können. Der Benutzer erhält eine E-Mail an seine Adresse, in der sich ein Link befindet, über den er die Gültigkeit der E-Mail-Adresse bestätigen kann. Zusätzlich wird die E-Mail-Adresse genutzt, um dem Benutzer E-Mails für die Bestätigung eines durch ihn veranlassten Auftrags zu bestätigen, wie z.B. Übertragung der Daten der App auf ein anderes Gerät. Die App versendet keine Werbemails o.ä.\n"
-        "Die Benutzerkennung und die E-Mail-Adresse sind die einzigen persönlichen Daten, die von der App gespeichert, verarbeitet und an den Server übertragen werden.\n\n"
+        Zwecke der Datenverarbeitung:\n
+        Die App generiert und speichert auf dem Gerät des Nutzers nach positiver Bestätigung zur Datenverarbeitung eine private und eindeutige Benutzerkennung (UUID).\n
+        Diese Benutzerkennung dient zur Identifizierung des Geräts bei jeder Kommunikation mit dem Server der App.\n
+        Zusätzlich kann der Benutzer seine E-Mail-Adresse in der App eintragen, um weitere Funktionalitäten nutzen zu können. Der Benutzer erhält eine E-Mail an seine Adresse, in der sich ein Link befindet, über den er die Gültigkeit der E-Mail-Adresse bestätigen kann. Zusätzlich wird die E-Mail-Adresse genutzt, um dem Benutzer E-Mails für die Bestätigung eines durch ihn veranlassten Auftrags zu bestätigen, wie z.B. Übertragung der Daten der App auf ein anderes Gerät. Die App versendet keine Werbemails o.ä.\n
+        Die Benutzerkennung und die E-Mail-Adresse sind die einzigen persönlichen Daten, die von der App gespeichert, verarbeitet und an den Server übertragen werden.\n\n
 
-        "Rechtsgrundlage der Datenverarbeitung:\n"
-        "Die Datenverarbeitung ist für die Funktionsweise der App nötig.\n\n"
+        Rechtsgrundlage der Datenverarbeitung:\n
+        Die Datenverarbeitung ist für die Funktionsweise der App nötig.\n\n
 
-        "Empfänger der persönlichen Daten:\n"
-        "Der von der App verwendete Server gehört der Firma STRATO und wird von dieser auch betrieben. Persönliche Daten werden zwar nicht explizit an STRATO übertragen, aber befinden sich dadurch naturgemäß in deren Zugriff, um deren vertragslichen Verpflichtungen zum Betrieb des Servers zu erfüllen.\nEine Weitergabe der persönlichen Daten an andere dritte findet nicht statt.\n\n"
+        Empfänger der persönlichen Daten:\n
+        Der von der App verwendete Server gehört der Firma STRATO und wird von dieser auch betrieben. Persönliche Daten werden zwar nicht explizit an STRATO übertragen, aber befinden sich dadurch naturgemäß in deren Zugriff, um deren vertragslichen Verpflichtungen zum Betrieb des Servers zu erfüllen.\nEine Weitergabe der persönlichen Daten an andere dritte findet nicht statt.\n\n
 
-        "Dauer der Datenspeicherung:\n"
-        "Die Speicherung der persönlichen Daten erfolgt solange, bis der Nutzer die Löschung seiner Daten oder seines Kontos verlangt.\n\n"
+        Dauer der Datenspeicherung:\n
+        Die Speicherung der persönlichen Daten erfolgt solange, bis der Nutzer die Löschung seiner Daten oder seines Kontos verlangt.\n\n
 
-        "Rechte des Benutzers:\n"
-        "Die Zustimmung zur Verarbeitung und Speicherung seiner Daten kann der Nutzer jederzeit widerrufen oder Korrektur verlangen. Der Benutzer kann Auskunft über die Verarbeitung und Speicherung seiner persönlichen Daten verlangen. Dies kann er beispielsweise durch senden einer entsprechenden E-Mail an matthias@online.de bewirken.\n"
-        "Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden."
-    </string>
+        Rechte des Benutzers:\n
+        Die Zustimmung zur Verarbeitung und Speicherung seiner Daten kann der Nutzer jederzeit widerrufen oder Korrektur verlangen. Der Benutzer kann Auskunft über die Verarbeitung und Speicherung seiner persönlichen Daten verlangen. Dies kann er beispielsweise durch senden einer entsprechenden E-Mail an matthias@online.de bewirken.\n
+        Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
+  "</string>
 
-    <string name="dsgvo_agree_data_privacy">
-        "Die nachfolgende Erklärung zum Datenschutz der App habe ich gelesen und verstanden. Diese ist in der App im Menü "Informationen - Datenschutz" einsehbar."
-    </string>
+    <string name="dsgvo_agree_data_privacy">"
+        Die nachfolgende Erklärung zum Datenschutz der App habe ich gelesen und verstanden. Diese ist in der App im Menü Informationen - Datenschutz einsehbar.
+  "</string>
 
-    <string name="dsgvo_1">
-        "Ich stimme zu, dass meine personenbezogenen Daten, die von mir der App zur Verfügung gestellt werden, verarbeitet, gespeichert und an dritte weitergegeben werden, sofern dies für die Funktionsweise der App nötig ist."
-    </string>
+    <string name="dsgvo_1">"
+        Ich stimme zu, dass meine personenbezogenen Daten, die von mir der App zur Verfügung gestellt werden, verarbeitet, gespeichert und an dritte weitergegeben werden, sofern dies für die Funktionsweise der App nötig ist.
+  "</string>
 
 </resources>

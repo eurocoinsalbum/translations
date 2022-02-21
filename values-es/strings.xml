@@ -1,8 +1,8 @@
 <resources>
     <string name="language_code">"es"</string>
     <string name="app_name">"Álbum de Euro Coins"</string>
-    <string name="title_activity_album">"AlbumActivity"</string>
     <string name="action_settings">"Ajustes"</string>
+    <string name="action_global_settings">"Ajustes globales"</string>
     <string name="action_country">"País"</string>
     <string name="action_user">"Usuario"</string>
     <string name="action_collection">"Colección"</string>
@@ -29,7 +29,7 @@
     <string name="export_ok">"Exportar OK"</string>
     <string name="import_ok">"Importar OK"</string>
     <string name="help">"Ayuda"</string>
-    <string name="help_message">"Si desea enviarme algún problema, error, pregunta o solicitud de funciones, utilice \"enviar mensaje\" en el menú (https://eurocoins-album.jimdosite.com). Esos comentarios no deberían publicarse en Play Store."</string>
+    <string name="help_message">"Si desea enviarme algún problema, error, pregunta o solicitud de funciones, utilice \\"enviar mensaje\\" en el menú (https://eurocoins-album.jimdosite.com). Esos comentarios no deberían publicarse en Play Store."</string>
     <string name="help_statistics">"El formato de estadísticas es x/y/z x = número de monedas diferentes posibles que ha seleccionado; y = número de posibles monedas diferentes que se pueden recolectar; z = número total de monedas que ha recolectado (en caso de que tenga una moneda más de una vez, vea los detalles de la moneda). El número decimal muestra la cantidad de dinero que ha cobrado y, además, los importes pagados y el valor en caso de que los haya ingresado en los detalles de la moneda."</string>
     <string name="help_coin_marker">"Una 'X' en una moneda significa que esta moneda no fue acuñada en absoluto (si tiene otra información, por favor envíeme un correo electrónico). Un '*' en la moneda es el marcador de conjunto de monedas oficial en caso de que haya activado esta configuración."</string>
     <string name="help_eu_view">"La vista de la UE muestra si el usuario actual tiene esta moneda en todos los años / países (y casas de moneda) o si falta al menos un año / país (acuñación). Esto depende del eu-view-mode (ver a continuación). En modo año, toque una moneda para ver para qué países el usuario tiene esta moneda ya recolectada. ¡Toca una moneda conmemorativa de 2 € para ver las 2 monedas de este año / país!"</string>
@@ -145,7 +145,7 @@
     <string name="collection_sharing_retracted_ok">"La colección compartida fue retractada por %1$s"</string>
     <string name="collection_retract_sharing">"Seleccionar elementos para retraer el uso compartido"</string>
     <string name="title_collection_shared_with_me">"Colección compartida"</string>
-    <string name="ask_link_collection">"%1$s ha compartido su colección \" %2$s \" contigo. ¿Quieres vincularlo?"</string>
+    <string name="ask_link_collection">"%1$s ha compartido su colección \\" %2$s \\" contigo. ¿Quieres vincularlo?"</string>
     <string name="wrong_app_version_update">"¡Actualiza la aplicación a la versión más nueva!"</string>
     <string name="session_expired_try_again">"Sesión expirada. Inténtalo de nuevo."</string>
     <string name="forum">"Foro"</string>
@@ -207,8 +207,8 @@
     <string name="collect_no_years_but_german_mints_is_invalid">"No recolectar años, pero las mentas alemanas son una combinación no compatible"</string>
 
     <!-- version 5.6 -->
-    <string name="user_name_already_exists">el nombre ya existe</string>
-    <string name="user_name_contains_invalid_characters">el nombre de la carpeta contiene caracteres inválidos</string>
+    <string name="user_name_already_exists">"el nombre ya existe"</string>
+    <string name="user_name_contains_invalid_characters">"el nombre de la carpeta contiene caracteres inválidos"</string>
 
     <!-- version 5.6.4 -->
     <string name="transfer_collection">"colecciones de transferencia"</string>
@@ -221,7 +221,7 @@
     <string name="split_collection">"División"</string>
     <string name="enter_number_of_coins_for_splitting">"Por favor, introduzca el número de monedas por monedas disponibles que desea transferir a la primera copia. Los restantes entrarán en la segunda copia de esta colección. La colección original no será cambiada o eliminada."</string>
     <string name="collection_split_ok">"Colección se ha dividido en 2 nuevas colecciones. Después de revisar los puede eliminar la colección original."</string>
-    <string name="transfer_collection_error">"Error al transferir la colección '%1$s'</string>
+    <string name="transfer_collection_error">"Error al transferir la colección '%1$s'"</string>
 
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Colección '%1$s' ha sido transferido a otro dispositivo."</string>
@@ -243,7 +243,7 @@
     <string name="change_public_name">"Cambiar nombre público"</string>
     <string name="collection_is_not_public">"Colección no es pública"</string>
     <string name="coin_to_trading_basket_added">"Coin añadido a la cesta de comercio"</string>
-    <string name="confirm_publish_trading_collection">"¿Realmente desea publicar su colección como una colección comerciable? Todos los datos (por ejemplo, las notas de monedas) de la colección será visible para los demás. De cada una de sus monedas '%1$d' moneda (s) será bodega espalda y no estará disponible para el comercio. puede cambiar este número en la configuración ".</string>
+    <string name="confirm_publish_trading_collection">"¿Realmente desea publicar su colección como una colección comerciable? Todos los datos (por ejemplo, las notas de monedas) de la colección será visible para los demás. De cada una de sus monedas '%1$d' moneda (s) será bodega espalda y no estará disponible para el comercio. puede cambiar este número en la configuración"</string>
     <string name="collection_is_trading">"Esta colección no se puede eliminar porque está siendo utilizado en las siguientes colecciones comerciales: %1$s"</string>
     <string name="action_get_next_trading_partners">"Obtener el próximo socio comercial"</string>
     <string name="action_reset_trading_partners">"De nuevo su búsqueda"</string>
@@ -256,8 +256,8 @@
     <string name="action_confirm_trade">"Comercio Confirmar"</string>
     <string name="confirm_trade_confirmation_message">"¿Realmente desea confirmar el comercio? Esto no crea un contrato entre el dos. Ambos se recibirá un correo electrónico y tiene que ponerse de acuerdo sobre cómo ejecutar la operación."</string>
     <string name="device_time_too_old">"La hora actual en el dispositivo es demasiado viejo."</string>
-    <string name="trading_session_empty_no_sending">"No hay monedas para el comercio seleccionado. Por favor, añadir las monedas antes de enviar al socio comercial".</string>
-    <string name="trading_collection_deleted_by_counterparty">"'%1$s' La colección de comercio ha sido eliminado por el socio comercial".</string>
+    <string name="trading_session_empty_no_sending">"No hay monedas para el comercio seleccionado. Por favor, añadir las monedas antes de enviar al socio comercial"</string>
+    <string name="trading_collection_deleted_by_counterparty">"'%1$s' La colección de comercio ha sido eliminado por el socio comercial"</string>
     <string name="account_not_activated">"Cuenta no activa. Por favor registre su correo electrónico y confirmar el enlace de registro o desactivar la nube cuenta en la configuración."</string>
     <string name="action_share_public">"Publicar..."</string>
     <string name="action_retract_share_public">"Repliegue la colección de la negociación"</string>
@@ -316,26 +316,26 @@
     <string name="executed_trade_type">"Ejecutado"</string>
     <string name="waiting_trade_type">"Esperando"</string>
     <string name="action_special_features">"Características especiales"</string>
-    <string name="trading_hint_colours">"Las imágenes brillantes son las monedas de las que no tengo pero su socio comercial. Viceversa para las imágenes oscuras. La fila superior muestra las monedas que ha seleccionado para recibir mientras que los espectáculos de la fila inferior esas monedas que irán a su socio comercial. los números en cada moneda son x/y/z x = cuántos de esta moneda que regalar (el signo menos es sólo una sugerencia para usted que le dan esta moneda de distancia), y = cuántos de esta moneda podría ser objeto de comercio, z = ¿cuántos de esta moneda que recibirá ".</string>
+    <string name="trading_hint_colours">"Las imágenes brillantes son las monedas de las que no tengo pero su socio comercial. Viceversa para las imágenes oscuras. La fila superior muestra las monedas que ha seleccionado para recibir mientras que los espectáculos de la fila inferior esas monedas que irán a su socio comercial. los números en cada moneda son x/y/z x = cuántos de esta moneda que regalar (el signo menos es sólo una sugerencia para usted que le dan esta moneda de distancia), y = cuántos de esta moneda podría ser objeto de comercio, z = ¿cuántos de esta moneda que recibirá"</string>
     <string name="block_trading">"Bloque comercial"</string>
     <string name="coins_removed_from_trading">"Eliminado automáticamente las monedas de la cesta de comercio"</string>
     <string name="coin_used_in_trade">"Esta moneda ya fue seleccionado en la colección de comercio '%1$s'. Asegúrese de que va a ser retirado de la cesta de comercio."</string>
-    <string name="trading_hint_edit_collection_and_send">"Añadir o quitar las monedas de la canasta de comercio como lo hace con su colección normal (de desbloqueo y la moneda toque imagen brillante con). Una vez que se toca Hecho el botón enviar (o por medio del menú) para enviar la colección de comercio a su socio comercial. Para detener el comercio sólo tiene que borrar la colección de comercio ".</string>
-    <string name="trading_hint_confirm_trade">"O cambiar la colección de negociación o aceptarlo tal y como su socio comercial lo envió a usted sin ningún otro cambio al tocar el botón de confirmación. Esto no va a crear un contrato entre el dos! Si hay una diferencia en el valor nominal de las monedas entre los dos socios comerciales, entonces esto tiene que ser igualado añadiendo la cantidad correcta para el paquete ".</string>
+    <string name="trading_hint_edit_collection_and_send">"Añadir o quitar las monedas de la canasta de comercio como lo hace con su colección normal (de desbloqueo y la moneda toque imagen brillante con). Una vez que se toca Hecho el botón enviar (o por medio del menú) para enviar la colección de comercio a su socio comercial. Para detener el comercio sólo tiene que borrar la colección de comercio"</string>
+    <string name="trading_hint_confirm_trade">"O cambiar la colección de negociación o aceptarlo tal y como su socio comercial lo envió a usted sin ningún otro cambio al tocar el botón de confirmación. Esto no va a crear un contrato entre el dos! Si hay una diferencia en el valor nominal de las monedas entre los dos socios comerciales, entonces esto tiene que ser igualado añadiendo la cantidad correcta para el paquete"</string>
     <string name="trading_hint_executed_trade">"Cuando usted envió las monedas a su socio comercial y recibió sus monedas se puede establecer como ejecutado por tocar el botón de correo."</string>
     <string name="edit_trade_before_executed">"Editar"</string>
-    <string name="action_trade_set_executed_merge">"Si se ejecutó la operación en espera puede actualizar automáticamente su colección principal seleccionando 'Sí'. O puede elegir 'No' para actualizar su colección de forma manual. Si las monedas se negocian no coinciden con la colección de comercio seleccionar 'Editar' para el cambio la colección de negociación antes de que se ejecute más adelante. los cambios en la colección de comercio no se sincronizará con su socio comercial por más tiempo ".</string>
+    <string name="action_trade_set_executed_merge">"Si se ejecutó la operación en espera puede actualizar automáticamente su colección principal seleccionando 'Sí'. O puede elegir 'No' para actualizar su colección de forma manual. Si las monedas se negocian no coinciden con la colección de comercio seleccionar 'Editar' para el cambio la colección de negociación antes de que se ejecute más adelante. los cambios en la colección de comercio no se sincronizará con su socio comercial por más tiempo"</string>
     <string name="confirmed_trade_is_editable">"Se puede editar la colección de comercio ya confirmada desbloqueándola. La colección de comercio no se sincronizará más con su socio comercial. Una vez que la colección de comercio coincide con las monedas se negocian lo marcan de nuevo como 'ejecutados'."</string>
     <string name="no_coins_from_trade_merged">"NO monedas se han añadido o eliminado desde o hacia su colección."</string>
     <string name="not_all_coins_from_trade_merged">"NO se han añadido o eliminado todas las monedas hacia o desde su colección."</string>
     <string name="user_side_has_no_coins_for_trading_selected_but_trading_partner">"No ha seleccionado ninguna moneda para recibir, sino para regalar. Las imágenes brillantes de la moneda son los que actualmente no tiene."</string>
     <string name="no_coin_in_trading_collection">"No hay monedas se han añadido a la colección de comercio. Por favor, añada las monedas que desea recibir de su socio comercial mediante la selección de las imágenes brillantes de la moneda."</string>
-    <string name="trade_exceeds_value_limit">"La diferencia de la cantidad de las monedas para ser objeto de comercio (%1$s% %3$s) supera el límite permitido de %2$s %3$s."</string>
-    <string name="cent">centavo</string>
+    <string name="trade_exceeds_value_limit">"La diferencia de la cantidad de las monedas para ser objeto de comercio (%1$s %3$s) supera el límite permitido de %2$s %3$s."</string>
+    <string name="cent">"centavo"</string>
     <string name="trading_coin_replaced_other_condition">"La siguiente moneda de la colección de comercio no tenía condición de moneda antes y ahora ha asignado ser: '%1$s'\n%2$s %3$s %4$s %5$s."</string>
     <string name="trading_collection_contains_deleted_coins">"La colección de comercio contiene las monedas que no están presentes en la colección subyacente."</string>
     <string name="trading_collection_image_error">"La colección de comercio no puede cargar todas las imágenes de las monedas correctamente. Por favor, elimine la colección de negociación para evitar malentendido."</string>
-    <string name="trading_condition_available">"Añadiste una moneda que no tiene condición de establecimiento de la moneda pero hay otra moneda que tiene una condición de moneda o una foto personalizado. Su selección puede alojarse si no está satisfecho con las otras monedas, pero su socio comercial puede ser que no añadir la condición de moneda para otras monedas. Por lo general es mejor seleccionar las monedas que ya cuentan con un conjunto de fotos condición de la moneda o la costumbre ".</string>
+    <string name="trading_condition_available">"Añadiste una moneda que no tiene condición de establecimiento de la moneda pero hay otra moneda que tiene una condición de moneda o una foto personalizado. Su selección puede alojarse si no está satisfecho con las otras monedas, pero su socio comercial puede ser que no añadir la condición de moneda para otras monedas. Por lo general es mejor seleccionar las monedas que ya cuentan con un conjunto de fotos condición de la moneda o la costumbre"</string>
     <string name="trading_no_condition_available">"Añadiste una moneda que no tiene condición de establecimiento de la moneda. Después de enviar la colección de comercio a su socio comercial que él / ella tiene que actualizar la colección. Debe comprobar después si la condición de moneda cumple con sus expectativas."</string>
     <string name="trading_diff_amount_pay">"Esta es la cantidad de dinero que tienen que pagar a su socio comercial, además."</string>
     <string name="trading_diff_amount_receive">"Esta es la cantidad de dinero que recibirá de su socio comercial, además."</string>
@@ -392,10 +392,12 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 6.5\n
-        Corregido el fallo en la exportación de la colección y la creación de pdf"</string>
+    <string name="version_history_current">"Versión 7.0\n
+         En caso de error: contácteme matthias@online.de\n
+         Huella de memoria reducida\n
+         Añadidas monedas de 2€ conmemorativas 2021 y 2022."</string>
 
-    <string name="version_history_current">"Versión 6.6\n
+    <string name="version_history_last">"Versión 6.6\n
         Corregido el fallo en la exportación de la colección y la creación de pdf\n
         Se añaden las monedas conmemorativas de 2€ 2020"</string>
 
