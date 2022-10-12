@@ -114,14 +114,43 @@
 	<string name="no_internet_no_registration">"Nėra interneto ryšio. Įjunkite interneto ryšį ir nurodykite el.paštą dar kartą."</string>
 	<string name="no_internet">"Nėra interneto ryšio"</string>
 
-	<string name="version_history_current">"Versija 7.0\n
-         Ja rodas kļūda: lūdzu, sazinieties ar mani matthias@online.de\n
-         Samazināts atmiņas apjoms\n
-         Pievienotas 2€ piemiņas monētas 2021 un 2022. "</string>
+	<!-- version 5.x are missing -->
 
-	<string name="version_history_last">"Versija 6.6\n
-		Ištaisyta eksporto kolekcijos avarija ir sukurta pdf\n
-         Pridėtos 2 € proginės monetos 2020 m."</string>
+
+	<!-- version 6.1 -->
+	<string name="collection_not_yet_initialized">"Kolekcija nav inicializēta"</string>
+
+	<!-- version 7.1 -->
+	<string name="transfer_collection_hint_email">"Jei norite perkelti esamą kolekciją, turite užregistruoti tą patį el. pašto adresą, kurį naudojote senajame įrenginyje!"</string>
+
+	<!-- version 7.2 -->
+	<string name="app_first_usage_ask_transfer">"Ar norite perkelti kolekcijas iš senojo prietaiso?"</string>
+	<string name="transfer_ask_old_device">"Ar turite prieigą prie savo senojo įrenginio?"</string>
+	<string name="transfer_show_code_instructions">"Senajame įrenginyje atidarykite programos meniu, pasirinkite "%1$s" "%2$s" ir įveskite kodą "%3$s". Kodas galioja 10 minučių."</string>
+	<string name="action_enter_transfer_code">"Įveskite perkėlimo kodą"</string>
+	<string name="enter_transfer_code_not_exists">"Ši parinktis neegzistuoja mano senajame įrenginyje."</string>
+	<string name="enter_transfer_code_update_app">"Atnaujinkite programėlę savo senajame įrenginyje."</string>
+	<string name="entered_transfer_code">"Įvedžiau kodą."</string>
+	<string name="transfer_code_not_registered_error">"Įvyko klaida. Pervedimo kodas nebuvo užregistruotas. Patikrinkite pranešimus ir bandykite dar kartą."</string>
+	<string name="transfer_code_not_confirmed">"Įvyko klaida. Pervedimo kodas "%1$s" nebuvo patvirtintas."</string>
+	<string name="transfer_code_error">"Įvyko klaida."</string>
+	<string name="collections_transferred">"Buvo perkeltos šios kolekcijos: %1$s"</string>
+	<string name="transfer_code_confirmed">"Jūsų kolekcijos paruoštos perkelti į naująjį įrenginį. Naujajame įrenginyje paspauskite mygtuką "%1$s""</string>
+
+
+
+	<string name="version_history_current">"Versija 7.2\n
+        Par jebkuru kļūdu: lūdzu, sazinieties ar mani matthias@online.de
+        Noteikts nepareizs monētu skaits Vācijas 2002. gada kaltuvju grupā.
+        Novērsta kļūme ES skatā.
+        Pievienota jauna iespēja pārnest kolekcijas no vecās ierīces uz jauno.
+        Pievienotas 2 € piemiņas monētas 2022. gadam.
+        Pievienots datu šifrēšana.
+        Novērstas kļūmes importēšanas, eksportēšanas un pdf izveides laikā."</string>
+
+	<string name="version_history_last">"Versija 7.1
+        Pievienotas 2 € piemiņas monētas 2021+2022.
+        Noteikta monētu redzamība dažāda veida kolekciju iestatījumiem."</string>
 
 	<string name="coin_1cent">"1 centas"</string>
 	<string name="coin_2cent">"2 centai"</string>

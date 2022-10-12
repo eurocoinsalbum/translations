@@ -339,6 +339,24 @@
     <!-- version 6.1 -->
     <string name="collection_not_yet_initialized">"Sammlung nicht initialisiert"</string>
 
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"Wenn Sie eine bestehende Sammlung übertragen möchten, müssen Sie die gleiche E-Mail-Adresse registrieren, die Sie auf Ihrem alten Gerät verwendet haben!"</string>
+
+    <!-- version 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Do you want to transfer your collections from an old device?"</string>
+    <string name="transfer_ask_old_device">"Do you have access to your old device?"</string>
+    <string name="transfer_show_code_instructions">"On your old device open the app's menu, select '%1$s' '%2$s' and enter the code '%3$s'. The code is valid for 10 minutes."</string>
+    <string name="action_enter_transfer_code">"Enter transfer code"</string>
+    <string name="enter_transfer_code_not_exists">"This option does not exist on my old device."</string>
+    <string name="enter_transfer_code_update_app">"Please update the app on your old device."</string>
+    <string name="entered_transfer_code">"I have entered the code."</string>
+    <string name="transfer_code_not_registered_error">"Error occured. Transfer code was not registered. Check notifications and try again."</string>
+    <string name="transfer_code_not_confirmed">"Error occured. Transfer code '%1$s' was not confirmed."</string>
+    <string name="transfer_code_error">"Error occured."</string>
+    <string name="collections_transferred">"The following collections have been transferred: %1$s"</string>
+    <string name="transfer_code_confirmed">"Your collections are ready to be transferred to your new device. On your new device push the button '%1$s'"</string>
+
+
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
@@ -386,14 +404,18 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.0\n
-        Bei Fehlern: kontaktieren Sie mich matthias@online.de\n
-        Reduzierter Speicherbedarf\n
-        2€ Gedenkmünzen 2021 und 2022 hinzugefügt."</string>
+    <string name="version_history_current">"Version 7.2\n
+        Bei einem Fehler: bitte kontaktieren Sie mich matthias@online.de
+        Falsche Anzahl von Münzen in der Münzgruppe Deutschland 2002 behoben.
+        Absturz in der EU-Ansicht behoben.
+        Neue Möglichkeit hinzugefügt, Sammlungen von einem alten auf ein neues Gerät zu übertragen.
+        2€-Gedenkmünzen 2022 hinzugefügt.
+        Datenverschlüsselung hinzugefügt.
+        Abstürze beim Import, Export und pdf Erstellung behoben."</string>
 
-    <string name="version_history_last">"Version 6.6\n
-        Fehler bei Export Sammlung und Erzeuge PDF behoben.\n
-        2€ Gedenkmünzen für 2020 hinzugefügt"</string>
+    <string name="version_history_last">"Version 7.1
+        2€ Gedenkmünzen 2021+2022 hinzugefügt.
+        Sichtbarkeit der Münzen für verschiedene Arten von Sammlungseinstellungen korrigiert."</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>
@@ -438,30 +460,30 @@
     <string name="dsgvo_ack_no">"Ich stimme NICHT zu"</string>
     <string name="dsgvo_agreed_message">"Sie haben der Erklärung zum Datenschutz zugestimmt am: %1$s"</string>
     <string name="dsgvo_data_privacy">"
-        Erklärung zum Datenschutz von 'Eurocoins Album' nachfolgend 'App' genannt.\n\n
+Erklärung zum Datenschutz von 'Eurocoins Album' nachfolgend 'App' genannt.
 
-        Name und Kontaktdaten:\n
-        Matthias Kleiber, matthias@online.de\n\n
+Name und Kontaktdaten:
+Matthias Kleiber, matthias@online.de
 
-        Zwecke der Datenverarbeitung:\n
-        Die App generiert und speichert auf dem Gerät des Nutzers nach positiver Bestätigung zur Datenverarbeitung eine private und eindeutige Benutzerkennung (UUID).\n
-        Diese Benutzerkennung dient zur Identifizierung des Geräts bei jeder Kommunikation mit dem Server der App.\n
-        Zusätzlich kann der Benutzer seine E-Mail-Adresse in der App eintragen, um weitere Funktionalitäten nutzen zu können. Der Benutzer erhält eine E-Mail an seine Adresse, in der sich ein Link befindet, über den er die Gültigkeit der E-Mail-Adresse bestätigen kann. Zusätzlich wird die E-Mail-Adresse genutzt, um dem Benutzer E-Mails für die Bestätigung eines durch ihn veranlassten Auftrags zu bestätigen, wie z.B. Übertragung der Daten der App auf ein anderes Gerät. Die App versendet keine Werbemails o.ä.\n
-        Die Benutzerkennung und die E-Mail-Adresse sind die einzigen persönlichen Daten, die von der App gespeichert, verarbeitet und an den Server übertragen werden.\n\n
+Zwecke der Datenverarbeitung:\n
+Die App generiert und speichert auf dem Gerät des Nutzers nach positiver Bestätigung zur Datenverarbeitung eine private und eindeutige Benutzerkennung (UUID).\n
+Diese Benutzerkennung dient zur Identifizierung des Geräts bei jeder Kommunikation mit dem Server der App.\n
+Zusätzlich kann der Benutzer seine E-Mail-Adresse in der App eintragen, um weitere Funktionalitäten nutzen zu können. Der Benutzer erhält eine E-Mail an seine Adresse, in der sich ein Link befindet, über den er die Gültigkeit der E-Mail-Adresse bestätigen kann. Zusätzlich wird die E-Mail-Adresse genutzt, um dem Benutzer E-Mails für die Bestätigung eines durch ihn veranlassten Auftrags zu bestätigen, wie z.B. Übertragung der Daten der App auf ein anderes Gerät. Die App versendet keine Werbemails o.ä.\n
+Die Benutzerkennung und die E-Mail-Adresse sind die einzigen persönlichen Daten, die von der App gespeichert, verarbeitet und an den Server übertragen werden.\n
 
-        Rechtsgrundlage der Datenverarbeitung:\n
-        Die Datenverarbeitung ist für die Funktionsweise der App nötig.\n\n
+Rechtsgrundlage der Datenverarbeitung:
+Die Datenverarbeitung ist für die Funktionsweise der App nötig.
 
-        Empfänger der persönlichen Daten:\n
-        Der von der App verwendete Server gehört der Firma STRATO und wird von dieser auch betrieben. Persönliche Daten werden zwar nicht explizit an STRATO übertragen, aber befinden sich dadurch naturgemäß in deren Zugriff, um deren vertragslichen Verpflichtungen zum Betrieb des Servers zu erfüllen.\nEine Weitergabe der persönlichen Daten an andere dritte findet nicht statt.\n\n
+Empfänger der persönlichen Daten:
+Der von der App verwendete Server gehört der Firma STRATO und wird von dieser auch betrieben. Persönliche Daten werden zwar nicht explizit an STRATO übertragen, aber befinden sich dadurch naturgemäß in deren Zugriff, um deren vertragslichen Verpflichtungen zum Betrieb des Servers zu erfüllen.\nEine Weitergabe der persönlichen Daten an andere dritte findet nicht statt.
 
-        Dauer der Datenspeicherung:\n
-        Die Speicherung der persönlichen Daten erfolgt solange, bis der Nutzer die Löschung seiner Daten oder seines Kontos verlangt.\n\n
+Dauer der Datenspeicherung:
+Die Speicherung der persönlichen Daten erfolgt solange, bis der Nutzer die Löschung seiner Daten oder seines Kontos verlangt.
 
-        Rechte des Benutzers:\n
-        Die Zustimmung zur Verarbeitung und Speicherung seiner Daten kann der Nutzer jederzeit widerrufen oder Korrektur verlangen. Der Benutzer kann Auskunft über die Verarbeitung und Speicherung seiner persönlichen Daten verlangen. Dies kann er beispielsweise durch senden einer entsprechenden E-Mail an matthias@online.de bewirken.\n
-        Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
-  "</string>
+Rechte des Benutzers:
+Die Zustimmung zur Verarbeitung und Speicherung seiner Daten kann der Nutzer jederzeit widerrufen oder Korrektur verlangen. Der Benutzer kann Auskunft über die Verarbeitung und Speicherung seiner persönlichen Daten verlangen. Dies kann er beispielsweise durch senden einer entsprechenden E-Mail an matthias@online.de bewirken.
+Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
+"</string>
 
     <string name="dsgvo_agree_data_privacy">"
         Die nachfolgende Erklärung zum Datenschutz der App habe ich gelesen und verstanden. Diese ist in der App im Menü Informationen - Datenschutz einsehbar.

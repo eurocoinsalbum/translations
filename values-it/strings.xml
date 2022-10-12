@@ -120,8 +120,8 @@
     <string name="action_add_share_with">"aggiungi nuovo"</string>
     <string name="action_retract_share">"ritratta"</string>
     <string name="share_with_ok">"condiviso con %1$s"</string>
-    <string name="share_with_error">"Errore durante la condivisione con%1$s"</string>
-    <string name="action_unshare_with_ok">"Ritratta condividere questa collezione con%1$s"</string>
+    <string name="share_with_error">"Errore durante la condivisione con %1$s"</string>
+    <string name="action_unshare_with_ok">"Ritratta condividere questa collezione con %1$s"</string>
     <string name="enter_email_to_share_to">"Inserisci l\'e-mail che si desidera condividere questa collezione con."</string>
     <string name="action_sync_collections">"sincronizza"</string>
     <string name="collection_linked">"Linked condivisi di raccolta%1$s"</string>
@@ -131,7 +131,7 @@
     <string name="sync_collection_error">"Errore di sincronizzazione per la raccolta%1$s"</string>
     <string name="sync_collections_error">"errore di sincronizzazione"</string>
     <string name="linked_collection_read_only">"raccolte condivise collegati sono di sola lettura"</string>
-    <string name="load_file_error">"file di caricamento di errore%1$s"</string>
+    <string name="load_file_error">"file di caricamento di errore %1$s"</string>
     <string name="no_cloud_features_activated">"Cloud (Internet) sono disattivate."</string>
     <string name="not_saved_load_error">"L\'utente %1$s non salvato a causa del precedente errore di caricamento. modalità di modifica Sblocca per forzare Salva."</string>
     <string name="collection_infos_general">"Nome: %1$s\nCollection ID: %2$s\nPublic Nome: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
@@ -339,6 +339,28 @@
     <string name="setup_account">"Conto Setup"</string>
     <string name="device_new_master">"Questo dispositivo è il dispositivo padrone?"</string>
 
+    <!-- version 6.1 -->
+    <string name="collection_not_yet_initialized">"Collezione non inizializzata"</string>
+
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"Se si desidera trasferire una raccolta esistente, è necessario registrare lo stesso indirizzo e-mail utilizzato sul vecchio dispositivo!"</string>.
+
+    <!-- versione 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Vuoi trasferire le tue raccolte da un vecchio dispositivo?"</string>.
+    <string name="transfer_ask_old_device">"Hai accesso al tuo vecchio dispositivo?"</string>.
+    <string name="transfer_show_code_instructions">"Sul vecchio dispositivo aprire il menu dell'app, selezionare '%1$s' '%2$s' e inserire il codice '%3$s'. Il codice è valido per 10 minuti."</string>.
+    <string name="action_enter_transfer_code">"Inserisci il codice di trasferimento"</string>.
+    <string name="enter_transfer_code_not_exists">"Questa opzione non esiste sul mio vecchio dispositivo."</string>
+    <string name="enter_transfer_code_update_app">"Si prega di aggiornare l'app sul vecchio dispositivo."</string>
+    <string name="entered_transfer_code">"Ho inserito il codice."</string>.
+    <string name="transfer_code_not_registered_error">"Si è verificato un errore. Il codice di trasferimento non è stato registrato. Controllare le notifiche e riprovare."</string>.
+    <string name="transfer_code_not_confirmed">"Si è verificato un errore. Il codice di trasferimento '%1$s' non è stato confermato."</string>.
+    <string name="transfer_code_error">"Si è verificato un errore."</string>.
+    <string name="collections_transferred">"Sono state trasferite le seguenti collezioni: %1$s"</string>
+    <string name="transfer_code_confirmed">"Le raccolte sono pronte per essere trasferite sul nuovo dispositivo. Sul nuovo dispositivo premere il pulsante '%1$s'"</string>.
+
+
+
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
 - Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
@@ -387,14 +409,18 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"Versione 7.0\n
-         In caso di errore: contattami matthias@online.de\n
-         Impronta di memoria ridotta\n
-         Aggiunte monete commemorative da 2€ 2021 e 2022."</string>
+    <string name="version_history_current">"Versione 7.2\n
+        Per qualsiasi errore: contattatemi matthias@online.de
+        Corretto il numero errato di monete nel gruppo di zecca Germania 2002.
+        Corretto l'arresto anomalo nella vista UE.
+        Aggiunta la possibilità di trasferire le collezioni dal vecchio al nuovo dispositivo.
+        Aggiunte le monete commemorative da 2€ 2022.
+        Aggiunta la crittografia dei dati.
+        Corretti gli arresti anomali nell'importazione, nell'esportazione e nella creazione di pdf."</string>.
 
-    <string name="version_history_last">"La versione 6.6\n
-        Crash fisso nell'esportazione della collezione e nella creazione di pdf\n
-        2€ monete commemorative 2020 aggiunte"</string>
+    <string name="version_history_last">"Versione 7.1
+        Aggiunte le monete commemorative da 2€ 2021+2022.
+        Fissata la visibilità delle monete per vari tipi di impostazioni di collezione."</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

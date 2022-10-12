@@ -207,14 +207,43 @@
     <string name="user_name_already_exists">"Ime že obstaja"</string>
     <string name="user_name_contains_invalid_characters">"Ime vsebuje neveljavne znake"</string>
 
-    <string name="version_history_current">"Različica 7.0\n
-         Za morebitno napako me kontaktirajte matthias@online.de\n
-         Zmanjšan pomnilniški odtis\n
-         Dodani so spominski kovanci za 2 € 2021 in 2022."</string>
+    <!-- version 5.6.x are missing -->
 
-    <string name="version_history_last">"Različica 6.6\n
-        Odpravljen zlom v zbirki za izvoz in ustvarjanje pdf\n
-         2 € dodani spominski kovanci 2020."</string>
+    <!-- version 6.1 -->
+    <string name="collection_not_yet_initialized">"Zbirka ni inicializirana"</string>
+
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"Če želite prenesti obstoječo zbirko, morate registrirati isti e-poštni naslov, kot ste ga uporabljali v stari napravi!"</string>
+
+    <!-- version 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Ali želite prenesti zbirke iz stare naprave?"</string>
+    <string name="transfer_ask_old_device">"Ali imate dostop do svoje stare naprave?"</string>
+    <string name="transfer_show_code_instructions">"V svoji stari napravi odprite meni aplikacije, izberite '%1$s' '%2$s' in vnesite kodo '%3$s'. Koda velja 10 minut."</string>
+    <string name="action_enter_transfer_code">"Vnesite kodo prenosa"</string>
+    <string name="enter_transfer_code_not_exists">"Ta možnost ne obstaja v moji stari napravi."</string>
+    <string name="enter_transfer_code_update_app">"Posodobite aplikacijo v svoji stari napravi."</string>
+    <string name="entered_transfer_code">"Vnesel sem kodo."</string>
+    <string name="transfer_code_not_registered_error">"Nastala je napaka. Koda prenosa ni bila registrirana. Preverite obvestila in poskusite znova."</string>
+    <string name="transfer_code_not_confirmed">"Nastala je napaka. Koda prenosa '%1$s' ni bila potrjena."</string>
+    <string name="transfer_code_error">"Nastala je napaka."</string>
+    <string name="collections_transferred">"Naslednje zbirke so bile prenesene: %1$s"</string>
+    <string name="transfer_code_confirmed">"Vaše zbirke so pripravljene za prenos v novo napravo. Na novi napravi pritisnite gumb '%1$s'"</string>
+
+
+
+    <string name="version_history_current">"Različica 7.2\n
+        Ob kakršni koli napaki: prosim, pišite mi na matthias@online.de
+        Popravljeno napačno število kovancev v skupini kovnic Nemčija 2002.
+        Odpravljena okvara v pogledu EU.
+        Dodana nova možnost prenosa zbirk iz stare v novo napravo.
+        Dodani spominski kovanci za 2 € 2022.
+        Dodano šifriranje podatkov.
+        Odpravljene napake pri uvozu, izvozu in ustvarjanju datotek pdf."</string>
+
+    <string name="version_history_last">"Različica 7.1
+        Dodani spominski kovanci za 2 € 2021+2022.
+        Popravljena vidnost kovancev za različne vrste nastavitev zbirke."</string>
+
 
     <string name="coin_1cent">"1 cent"</string>
     <string name="coin_2cent">"2 cent"</string>

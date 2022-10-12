@@ -342,12 +342,30 @@
     <string name="trading_diff_amount_pay">"This is the amount of money you have to pay to your trading partner additionally."</string>
     <string name="trading_diff_amount_receive">"This is the amount of money you will receive from your trading partner additionally."</string>
     <string name="no_files_for_import_found">"No files for import found in Downloads folder."</string>
-    <string name="email_confirmed">"E-Mail address was confimed."</string>
+    <string name="email_confirmed">"E-Mail address was confirmed."</string>
     <string name="setup_account">"Setup account"</string>
     <string name="device_new_master">"Do you want to transfer your existing collections to this phone?"</string>
 
     <!-- version 6.1 -->
     <string name="collection_not_yet_initialized">"Collection not initialized"</string>
+
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"If you want to transfer an existing collection you have to register the same e-mail address as you used on your old device!"</string>
+
+    <!-- version 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Do you want to transfer your collections from an old device?"</string>
+    <string name="transfer_ask_old_device">"Do you have access to your old device?"</string>
+    <string name="transfer_show_code_instructions">"On your old device open the app's menu, select '%1$s' '%2$s' and enter the code '%3$s'. The code is valid for 10 minutes."</string>
+    <string name="action_enter_transfer_code">"Enter transfer code"</string>
+    <string name="enter_transfer_code_not_exists">"This option does not exist on my old device."</string>
+    <string name="enter_transfer_code_update_app">"Please update the app on your old device."</string>
+    <string name="entered_transfer_code">"I have entered the code."</string>
+    <string name="transfer_code_not_registered_error">"Error occured. Transfer code was not registered. Check notifications and try again."</string>
+    <string name="transfer_code_not_confirmed">"Error occured. Transfer code '%1$s' was not confirmed."</string>
+    <string name="transfer_code_error">"Error occured."</string>
+    <string name="collections_transferred">"The following collections have been transferred: %1$s"</string>
+    <string name="transfer_code_confirmed">"Your collections are ready to be transferred to your new device. On your new device push the button '%1$s'"</string>
+
 
     <string name="how_trading_partner_works">"
 - The trading functionality is NOT for beginners.
@@ -397,14 +415,18 @@
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
-    <string name="version_history_current">"Version 7.0\n
-        On any error: please contact me matthias@online.de\n
-        Reduced memory footprint\n
-        2€ commemorative coins 2021 and 2022 added."</string>
+    <string name="version_history_current">"Version 7.2\n
+        On any error: please contact me matthias@online.de
+        Fixed wrong number of coins in Germany 2002 mint group.
+        Fixed crash in EU view.
+        Added new possibility to transfer collections from old to new device.
+        2€ commemorative coins 2022 added.
+        Added data encryption.
+        Fixed crashes in import, export and pdf creation."</string>
 
-    <string name="version_history_last">"Version 6.6\n
-        Fixed crash in export collection and create pdf.\n
-        2€ commemorative coin 2020 added."</string>
+    <string name="version_history_last">"Version 7.1
+        2€ commemorative coins 2021+2022 added.
+        Fixed visibility of coins for various kinds of collection settings."</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>
@@ -451,31 +473,31 @@
     <string name="dsgvo_ack_no">"I do NOT agree"</string>
     <string name="dsgvo_agreed_message">"You agreed at: %1$s"</string>
     <string name="dsgvo_data_privacy">"
-        \"Data privacy declaration of 'Eurocoins Album' named as 'App'.\n\n\"
+Data privacy declaration of 'Eurocoins Album' named as 'App'.
 
-        \"Name and contact:\n\"
-        \"Matthias Kleiber, matthias@online.de\n\n\"
+Name and contact:
+Matthias Kleiber, matthias@online.de
 
-        \"Reason of data processing:\n\"
-        \"The App generates and saves on the device of the user (after positiv agreement to data processing) a private and unique user identification (UUID).\n\"
-        \"This UUID serves as identification of the device in every communication of the App with the Server.\n\"
-        \"Additionally the user can enter his e-mail-address inside the app to use even more features. The user receives an e-mail to his address in which he will find a link with which he can approve the address. Additionally the e-mail-address will be used to send e-mails to the user to confirm requests he entered into the App like transfer of data to another device. The App does not send e-mails for advertisement or similar.\n\"
-        \"The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n\"
-        \"Pictures of coins the user takes in the app will also be uploaded to the server and are available to those users with which the user shares his/her collection. Pictures from trading collections are shared to the public.\n\n\"
+Reason of data processing:\n
+The App generates and saves on the device of the user (after positiv agreement to data processing) a private and unique user identification (UUID).\n
+This UUID serves as identification of the device in every communication of the App with the Server.\n
+Additionally the user can enter his e-mail-address inside the app to use even more features. The user receives an e-mail to his address in which he will find a link with which he can approve the address. Additionally the e-mail-address will be used to send e-mails to the user to confirm requests he entered into the App like transfer of data to another device. The App does not send e-mails for advertisement or similar.\n
+The UUID and the e-mail-address are the only personal data which will be save, processed and transferred to the server.\n
+Pictures of coins the user takes in the app will also be uploaded to the server and are available to those users with which the user shares his/her collection. Pictures from trading collections are shared to the public.\n
 
-        \"Base of data processing:\n\"
-        \"The data processing is needed for the features of the App to operate.\n\n\"
+Base of data processing:
+The data processing is needed for the features of the App to operate.
 
-        \"Recipients of personal data:\n\"
-        \"The server being used by the App belongs to the company STRATO and is operated by this. Personal data will not transferred explicitely to STRATO but can be accessed to fullfill their contract.\nPersonal data will not be transferred to any other third party.\n\n\"
+Recipients of personal data:
+The server being used by the App belongs to the company STRATO and is operated by this. Personal data will not transferred explicitely to STRATO but can be accessed to fullfill their contract.\nPersonal data will not be transferred to any other third party.
 
-        \"Duration of storing personal data:\n\"
-        \"Personal data will be stored until the user asks for deleting his personal data or account.\n\n\"
+Duration of storing personal data:
+Personal data will be stored until the user asks for deleting his personal data or account.
 
-        \"Rights of the user:\n\"
-        \"The approval of the user to process and store personal data can be revoked or corrected at any time. The user can ask for the personal data which was processed and stored. This can be achieved for example by sending an e-mail to matthias@online.de.\n\"
-        \"The user can contact the corresponding institution for data privacy.\"
-  "</string>
+Rights of the user:
+The approval of the user to process and store personal data can be revoked or corrected at any time. The user can ask for the personal data which was processed and stored. This can be achieved for example by sending an e-mail to matthias@online.de.
+The user can contact the corresponding institution for data privacy.
+"</string>
 
     <string name="dsgvo_agree_data_privacy">"
         \"I read and understood the following declaration of data privacy of the App. This is viewable in the App at menu \"Information - Data Privacy.\"
@@ -2186,157 +2208,163 @@
     <string name="twoeuro_comm_2021_ad_2_short_title">"Meritxell"</string>
 
     <string name="twoeuro_comm_2021_be_title">"500 Jahre Karlsgulden"</string>
-    <string name="twoeuro_comm_2021_be_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_be_desc">"Rechterhand das Porträt von König Karl V. mit der Kette des Ordens vom Goldenen Vlies. Linkerhand oben ist die Vorderseite des goldenen Karslguldens aus dem zweiten Emissionszeitraum ab 1521 zu sehen. Unterhalb der Ausgabeanlass „CAROLUS V“, linkerhand das Kürzel „BE“ des Ausgabestaats und die Jahreszahl „2021“. Am unteren Bildrand sind die Prägezeichen der belgischen Münzmeisterin Ingrid Herzele, der niederländischen Prägestätte sowie das „LL“ des belgischen Münzgestalters Luc Luycx zu erkennen."</string>
     <string name="twoeuro_comm_2021_be_volume">""</string>
     <string name="twoeuro_comm_2021_be_date">"2021"</string>
     <string name="twoeuro_comm_2021_be_short_title">"Karlsgulden"</string>
 
     <string name="twoeuro_comm_2021_be_2_title">"100 Jahre Wirtschaftsunion mit Luxemburg"</string>
-    <string name="twoeuro_comm_2021_be_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_be_2_desc">"Die Porträts von König Philippe zusammen mit Großherzog Henri von Luxemburg abgebildet. Rechterhand die Umrisse von Belgien und Luxemburg mit dem Ausgabeanlass „ECONOMIC UNION“ und den Länderkürzeln „BE“ und „LUX“. Unterhalb der Porträts befinden sich die Jahreszahlen „1921“ und „2021“ zu sehen sowie das Münzmeisterzeichen und das Prägezeichen der Königlichen Niederländischen Münze. Am rechten unteren Bildrand ist das Kürzel „LL“ des Münzgestalters Luc Luycx zu erkennen."</string>
     <string name="twoeuro_comm_2021_be_2_volume">""</string>
     <string name="twoeuro_comm_2021_be_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_be_2_short_title">"Wirtschaftsunion mit Luxemburg"</string>
 
     <string name="twoeuro_comm_2021_de_title">"Magdeburger Dom - Sachsen-Anhalt"</string>
-    <string name="twoeuro_comm_2021_de_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_de_desc">"Nordostansicht des Magdeburger Doms. Unten mittig ist der Name des Bundeslands „SACHSEN-ANHALT“ und das Zeichen der jeweiligen Prägeanstalt („A“, „D“, „F“, „G“ bzw. „J“) zu sehen. Oberhalb links ist das Ausgabejahr „2021“, linkerhand das „D“ für den Ausgabestaat sowie rechterhand die ineinander geschlungenen Initialen „MO“ des Künstlers Michael Otto zu erkennen."</string>
     <string name="twoeuro_comm_2021_de_volume">"30.000.000"</string>
     <string name="twoeuro_comm_2021_de_date">"01.02.2021"</string>
     <string name="twoeuro_comm_2021_de_short_title">"Magdeburger Dom"</string>
 
     <string name="twoeuro_comm_2021_ee_title">"Nationaltier Wolf"</string>
-    <string name="twoeuro_comm_2021_ee_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_ee_desc">"Nationaltier Wolf, der heulend auf einem Felsen steht. Da der Wolf häufig in Wäldern anzutreffen ist, wird im Hintergrund des Entwurfs ein für Estland charakteristischer Fichtenwald dargestellt. Darüber ist der Nachthimmel zu sehen. Der Ausgabeanlass „CANIS LUPUS“ wird in lateinischer Sprache oberhalb des Motivs abgebildet, am unteren Bildrand ist der Ausgabestaat „EESTI“ linkerhand sowie die Jahreszahl „2021“ rechterhand zu sehen."</string>
     <string name="twoeuro_comm_2021_ee_volume">""</string>
     <string name="twoeuro_comm_2021_ee_date">"15.4.2021"</string>
     <string name="twoeuro_comm_2021_ee_short_title">"Nationaltier Wolf"</string>
 
     <string name="twoeuro_comm_2021_ee_2_title">"Finno-Ugrische Völker"</string>
-    <string name="twoeuro_comm_2021_ee_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_ee_2_desc">"Das Motiv basiert auf den Felszeichnungen des Äänisjärv-Sees, die den Jäger, den Elch, die Wasservögel und die Sonne darstellen und den symbolischen Lebenszyklus der finno-ugrischen Bevölkerung bilden. Am linken unteren Bildrand ist der Ausgabeanlass „FENNO UGRIA“ dargestellt. Am oberen rechten Bildrand ist der Ausgabestaat „EESTI“ sowie die Jahrezahl „2021“ zu sehen."</string>
     <string name="twoeuro_comm_2021_ee_2_volume">""</string>
     <string name="twoeuro_comm_2021_ee_2_date">"15.9.2021"</string>
     <string name="twoeuro_comm_2021_ee_2_short_title">"Finno-Ugrische Völker"</string>
 
     <string name="twoeuro_comm_2021_es_title">"UNESCO Weltkulturerbe - Altstadt von Toledo"</string>
-    <string name="twoeuro_comm_2021_es_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_es_desc">"Ansicht des „Puerta del Sol“, eines der Stadttore von Toledo, Ende des 14. Jahrhunderts vom Johanniterorden errichtet, sowie ein Detail der „Sinagoga del Tránsito“, in der heute das Museo Sefardí zur Geschichte der Juden in Spanien beheimatet ist. Links unten ist der Ausgabestaat „ESPAÑA“ und darunter die Jahreszahl „2021“ zu sehen. Das „M“ der Madrider Münzstätte ist oben rechts aufgeprägt."</string>
     <string name="twoeuro_comm_2021_es_volume">"4.000.000"</string>
     <string name="twoeuro_comm_2021_es_date">"01.02.2021"</string>
     <string name="twoeuro_comm_2021_es_short_title">"Altstadt von Toledo"</string>
 
     <string name="twoeuro_comm_2021_fi_title">"Journalismus und offene Kommunikation zur Unterstützung Demokratie"</string>
-    <string name="twoeuro_comm_2021_fi_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fi_desc">"Darstellung stilisierter menschlicher Gestalten, die in einem bandartigen Netz miteinander verschlungen sind. Linkerhand des Motivs ist der Ausgabeanlass in finnischer Sprache „JOURNALISMI“ und rechterhand in schwedischer Sprache „JOURNALISTIK“ dargestellt. Unterhalb sind das Münzzeichen der finnischen Prägestätte, die Jahreszahl „2021“ und das Länderkürzel „FI“ zu sehen."</string>
     <string name="twoeuro_comm_2021_fi_volume">"800.000"</string>
     <string name="twoeuro_comm_2021_fi_date">"2021"</string>
     <string name="twoeuro_comm_2021_fi_short_title">"Journalismus"</string>
 
     <string name="twoeuro_comm_2021_fi_2_title">"100. Jahre Selbstverwaltung der Alandinseln"</string>
-    <string name="twoeuro_comm_2021_fi_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fi_2_desc">"Schärenlandschaft der Ålandinseln. In der unteren Hälfte ist eine Schifffahrtsroute mit nautischen Zeichen, der Bug eines Bootes und eine Hand, die einen Kompass hält, zu sehen. Die horizontale Mittellinie stellt den Horizont dar. In der oberen Hälfte sind Wolken abgebildet. Entlang des inneren Münzrands unten ist der Ausgabeanlass in finnischer Sprache, „AHVENANMAAN ITSEHALLINTO 100 VUOTTA“, und oberhalb des Motivs in schwedischer Sprache, „ÅLANDS SJÄLVSTYRELSE 100 ÅR“, dargestellt, getrennt von zwei rautenförmigen Meeresbojen. Oberhalb der Rauten ist rechterhand die Jahreszahl „2021“ und das Länderkürzel „FI“, linkerhand das Münzzeichen der finnischen Prägestätte zu erkennen."</string>
     <string name="twoeuro_comm_2021_fi_2_volume">""</string>
     <string name="twoeuro_comm_2021_fi_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_fi_2_short_title">"Selbstverwaltung der Alandinseln"</string>
 
     <string name="twoeuro_comm_2021_fr_title">"Olympische Sommerspiele 2024 in Paris (1 von 4)"</string>
-    <string name="twoeuro_comm_2021_fr_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fr_desc">"Im Vordergrund Marianne, die Allegorie Frankreichs, mit phrygischer Mütze als Leichtathletin, im Hintergrund der Eiffelturm und eine Kampfbahn dargestellt, in der das Logo der Olympischen Spiele 2024 in Paris auf Höhe des Starts erscheint. Unterhalb ist das Monogramm „RF“ der Französischen Republik und darunter das Ausgabejahr „2021“ zu sehen. Linkerhand davon das Münzzeichen der Prägestätte und rechterhand Münzzeichen des Generalgraveurs."</string>
     <string name="twoeuro_comm_2021_fr_volume">""</string>
     <string name="twoeuro_comm_2021_fr_date">"2021"</string>
     <string name="twoeuro_comm_2021_fr_short_title">"Olympische Sommerspiele 2024"</string>
 
     <string name="twoeuro_comm_2021_fr_2_title">"75 Jahre UNICEF"</string>
-    <string name="twoeuro_comm_2021_fr_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_fr_2_desc">"Zwei Kinderhände, die eine Weltkugel halten, welche selbst wie ein Puzzle von Kinderhänden zusammengehalten wird. Entlang des linken Bildrands ist ein Olivenzweig und unterhalb des Motivs der Ausgabeanlass „75 ANS“ dargestellt. Entlang des oberen Rand des Münzinneren ist „UNICEF 1946 – 2021“ sowie „POUR CHAQUE ENFANT“ (dt. Für jedes Kind) zu lesen. Neben der Zahl 75 ist das Monogramm „RF“ der französischen Republik und unterhalb davon die Münzzeichen der Prägestätte sowie des Generalgraveurs Joaquin Jimenez zu sehen."</string>
     <string name="twoeuro_comm_2021_fr_2_volume">""</string>
     <string name="twoeuro_comm_2021_fr_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_fr_2_short_title">"75 Jahre UNICEF"</string>
 
     <string name="twoeuro_comm_2021_gr_title">"200 Jahre Griechische Revolution"</string>
-    <string name="twoeuro_comm_2021_gr_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_gr_desc">"Mittig ein rundes Signet mit der griechischen Flagge flankiert von Lorbeerzweigen. Unterhalb sind die Initialen des Münzgestalters Georgios Stamatopoulos sowie die Palmette der griechischen Prägestätte zu erkennen. Entlang des oberen Rands des Münzinneren ist der Ausgabeanlass „1821-2021 200 ΧΡΟNΙΑ ΑΠΟ ΤΗΝ ΕΛΛΗΝΙΚΗ ΕΠΑΝΑΣΤΑΣΗ“ und am unteren Bildrand der Ausgabestaat „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ dargestellt."</string>
     <string name="twoeuro_comm_2021_gr_volume">"1.500.000"</string>
     <string name="twoeuro_comm_2021_gr_date">"2021"</string>
     <string name="twoeuro_comm_2021_gr_short_title">"Griechische Revolution"</string>
 
     <string name="twoeuro_comm_2021_it_title">"150. Jahrestag der Deklarierung Roms als Hauptstadt Italiens"</string>
-    <string name="twoeuro_comm_2021_it_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_it_desc">"Dea Roma, die Göttin Roms – eine Skulptur von Angelo Zanelli in der Mitte des Altare della Patria, der der italienischen Nation gewidmet ist und sich im Vittoriano-Komplex befindet. Oberhalb des Motivs am rechten Bildrand verlaufend der Schriftzug „ROMA CAPITALE“ sowie die Jahreszahlen „1871“ und „2021“. Am linken Bildrand ist links oberhalb des Motivs das Monogramm „RI“ der Italienischen Republik, links unterhalb das „R“ der römischen Prägestätte abgebildet. Am untern Bildrand die Initialen der Münzgestalterin Uliana Pernazza."</string>
     <string name="twoeuro_comm_2021_it_volume">""</string>
     <string name="twoeuro_comm_2021_it_date">"2021"</string>
     <string name="twoeuro_comm_2021_it_short_title">"Deklarierung Roms"</string>
 
     <string name="twoeuro_comm_2021_it_2_title">"Grazie Gesundheitswesen"</string>
-    <string name="twoeuro_comm_2021_it_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_it_2_desc">"Darstellung eines Mannes und einer Frau im Arztkittel, mit Mund-Nasen-Maske, Stethoskop und medizinischem Klemmbrett, stellvertretend für alle Ärzte und Krankenschwestern, die an vorderster Front im Kampf gegen COVID-19 stehen. Oberhalb des Motivs ist der Schriftzug „GRAZIE“ sowie ein Herz und darunter das Monogramm „RI“ der Italienischen Republik abgebildet. Linkerhand ein Ärztekreuz. Das „R“ der römischen Prägestätte rechterhand, die Initialen der Münzgestalterin Claudia Momoni unten linkerhand und die Jahreszahl „2021“ unterhalb ergänzen das Motiv."</string>
     <string name="twoeuro_comm_2021_it_2_volume">"3.000.000"</string>
     <string name="twoeuro_comm_2021_it_2_date">"22.6.2021"</string>
     <string name="twoeuro_comm_2021_it_2_short_title">"Grazie Gesundheitswesen"</string>
 
     <string name="twoeuro_comm_2021_lt_title">"Litauische Ethnographische Regionen - Dzūkija"</string>
-    <string name="twoeuro_comm_2021_lt_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lt_desc">"Darstellung des Wappens der ethnographischen Region Dzūkija (Dajnawa). Mittig das Wappenschild mit einem weißen gepanzerten Krieger mit Pollaxe, welches von zwei Luchsen gehalten wird. Unterhalb der Wappenspruch „EX GENTE BELLICOSISSIMA POPULUS LABORIOSUS” (dt. von einem höchst kriegstüchtigen Stamm zum geschäftigen Volk). Oberhalb ist der Ausgabestaat „LIETUVA” und die Jahreszahl „2021“ abgebildet. Der Schriftzug „DZŪKIJA“ und das Münzzeichen der litauischen Prägestätte  runden das Motiv nach unten hin ab."</string>
     <string name="twoeuro_comm_2021_lt_volume">"500.000"</string>
     <string name="twoeuro_comm_2021_lt_date">"2021"</string>
     <string name="twoeuro_comm_2021_lt_short_title">"Region Dzūkija"</string>
 
     <string name="twoeuro_comm_2021_lt_2_title">"Biosphärenreservat Žuvintas"</string>
-    <string name="twoeuro_comm_2021_lt_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lt_2_desc">"Im Vordergrund eine Rohrdommel, die eine im Wasser schwimmende Rotbauchunke mit dem Schnabel aufzuschnappen versucht. Im Binsengewächs rechterhand ist ein Seggenrohrsänger abgebildet, darüber ein Schwarm Kraniche und der Höckerschwan, dem Wappentier des Reservats. Oberhalb ist der Ausgabestaat „LIETUVA“, am unteren Bildrand der Ausgabeanlass „Žuvintas“ und „UNESCO“, das  Münzzeichen sowie rechterhand die Jahreszahl „2021“ dargestellt."</string>
     <string name="twoeuro_comm_2021_lt_2_volume">"500.000"</string>
     <string name="twoeuro_comm_2021_lt_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_lt_2_short_title">"Biosphärenreservat Žuvintas"</string>
 
     <string name="twoeuro_comm_2021_lu_title">"Relief! 100. Geburtstag des Großherzogs Jean"</string>
-    <string name="twoeuro_comm_2021_lu_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lu_desc">"Porträts des Jubilars Großherzog Jean nebst Inschrift „JEAN“ und „1921“ linkerhand und des amtierenden Großherzoges Henri nebst Inschrift „HENRI“ rechterhand. Am linken Bildrand verlaufend der Ausgabeanlass „GROUSSHERZOGE VU LËTZEBURERG“. Unterhalb linkerhand ist die Kathedrale Notre-Dame de Luxembourg, unten rechterhand die Prinzessin-Charlotte-Brücke sowie die Jahreszahl „2021“ zu sehen."</string>
     <string name="twoeuro_comm_2021_lu_volume">"160.000"</string>
     <string name="twoeuro_comm_2021_lu_date">"21.01.2021"</string>
     <string name="twoeuro_comm_2021_lu_short_title">"Relief! Geburtstag Großherzog Jean"</string>
 
     <string name="twoeuro_comm_2021_lu_2_title">"Relief! 40. Geburtstag des Erbgroßherzoges Guillaume &amp; Hochzeit von Großherzog Henri und Großherzogin Maria Theresa"</string>
-    <string name="twoeuro_comm_2021_lu_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_2_desc">"Porträt des jungen Hochzeitspaars von Großherzogin Maria Theresia und des Großherzog Henri. Rechterhand die Jahreszahl „2021“ und unterhalb – von links nach rechts – Rosenblüten, der Ausgabeanlass „14. FEBRUAR 1981“ und zwei ineinandergeschlungene goldene Eheringe. Am unteren Bildrand ergänzt der Ausgabestaat „LËTZEBURERG“ sowie die beiden jeweiligen Münzzeichen das Motiv."</string>
     <string name="twoeuro_comm_2021_lu_2_volume">"160.000"</string>
     <string name="twoeuro_comm_2021_lu_2_date">"21.01.2021"</string>
     <string name="twoeuro_comm_2021_lu_2_short_title">"Relief! Hochzeit Henri und Maria"</string>
 
     <string name="twoeuro_comm_2021_lu_3_title">"Foto! 40. Geburtstag des Erbgroßherzoges Guillaume &amp; Hochzeit von Großherzog Henri und Großherzogin Maria Theresa"</string>
-    <string name="twoeuro_comm_2021_lu_3_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_3_desc">"Porträt des jungen Hochzeitspaars von Großherzogin Maria Theresia und des Großherzog Henri. Rechterhand die Jahreszahl „2021“ und unterhalb – von links nach rechts – Rosenblüten, der Ausgabeanlass „14. FEBRUAR 1981“ und zwei ineinandergeschlungene goldene Eheringe. Am unteren Bildrand ergänzt der Ausgabestaat „LËTZEBURERG“ sowie die beiden jeweiligen Münzzeichen das Motiv."</string>
     <string name="twoeuro_comm_2021_lu_3_volume">"160.000"</string>
     <string name="twoeuro_comm_2021_lu_3_date">"21.01.2021"</string>
-    <string name="twoeuro_comm_2021_lu_3_short_title">"Relief! Hochzeit Henri und Maria"</string>
+    <string name="twoeuro_comm_2021_lu_3_short_title">"Foto! Hochzeit Henri und Maria"</string>
 
     <string name="twoeuro_comm_2021_lu_4_title">"Foto! 100. Geburtstag des Großherzogs Jean"</string>
-    <string name="twoeuro_comm_2021_lu_4_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_lu_4_desc">"Porträts des Jubilars Großherzog Jean nebst Inschrift „JEAN“ und „1921“ linkerhand und des amtierenden Großherzoges Henri nebst Inschrift „HENRI“ rechterhand. Am linken Bildrand verlaufend der Ausgabeanlass „GROUSSHERZOGE VU LËTZEBURERG“. Unterhalb linkerhand ist die Kathedrale Notre-Dame de Luxembourg, unten rechterhand die Prinzessin-Charlotte-Brücke sowie die Jahreszahl „2021“ zu sehen."</string>
     <string name="twoeuro_comm_2021_lu_4_volume">"160.000"</string>
     <string name="twoeuro_comm_2021_lu_4_date">"21.01.2021"</string>
     <string name="twoeuro_comm_2021_lu_4_short_title">"Foto! Geburtstag Großherzog Jean"</string>
 
     <string name="twoeuro_comm_2021_lv_title">"100. Jahrestag der internationalen Anerkennung Lettlands"</string>
-    <string name="twoeuro_comm_2021_lv_desc">"XXX."</string>
+    <string name="twoeuro_comm_2021_lv_desc">"Inschrift des Gedenkthemas „100 LATVIJA DE IURE 2021“"</string>
     <string name="twoeuro_comm_2021_lv_volume">"412.000"</string>
     <string name="twoeuro_comm_2021_lv_date">"2021"</string>
     <string name="twoeuro_comm_2021_lv_short_title">"Int. Anerkennung Lettlands"</string>
 
+    <string name="twoeuro_comm_2021_mc_title">"10. Hochzeitstag von Fürst Albert II and Fürstin Charlène"</string>
+    <string name="twoeuro_comm_2021_mc_desc">"Das Münzmotiv zeigt Prinz Albert II und Prinzessin Charlene im Profil. Oben erscheint der Name des Ausgabestaats „MONACO“, unten ist halbkreisförmig die Aufschrift „2011 MARIAGE PRINCIER 2021“ zu lesen."</string>
+    <string name="twoeuro_comm_2021_mc_volume">"15.000"</string>
+    <string name="twoeuro_comm_2021_mc_date">"01.07.2021"</string>
+    <string name="twoeuro_comm_2021_mc_short_title">"10. Hochzeitstag"</string>
+
     <string name="twoeuro_comm_2021_mt_title">"Tempel von Tarxien (Serie Prähistorische Stätten Maltas)"</string>
-    <string name="twoeuro_comm_2021_mt_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_mt_desc">"Megalithische Tempel von Tarxien, Teil des UNESCO-Weltkulturerbes. Unterhalb des Motivs ist rechterhand das Trilith-Portal des südlichen Tempels abgebildet. Am oberen rechten Rand befinden sich die Aufschriften „TARXIEN TEMPLES“ und die Jahreszahlen „3600 – 2500 BC“. Am unteren linken Rand ist der Ausgabestaat „MALTA“ und darunter das Ausgabejahr „2021“ zu sehen. Am unteren rechten Rand  des Motivs sind die Initialen „NGB“ des Münzgestalters Noel Galea Bason aufgeprägt."</string>
     <string name="twoeuro_comm_2021_mt_volume">"170.000"</string>
     <string name="twoeuro_comm_2021_mt_date">"2021"</string>
     <string name="twoeuro_comm_2021_mt_short_title">"Tempel von Tarxien"</string>
 
     <string name="twoeuro_comm_2021_mt_2_title">"Helden der Pandemie"</string>
-    <string name="twoeuro_comm_2021_mt_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_mt_2_desc">"Die Krankenschwestern Doreen Zammit und Charmaine Cauchi des Mater Dei Krankenhauses nach der Vorlage eines Fotos der Times of Malta. Oberhalb der Ausgabeanlass „HEROES OF THE PANDEMIC“ und unterhalb der Ausgabestaat „MALTA“ sowie das Ausgabejahr „2021“ ergänzen das Münzmotiv."</string>
     <string name="twoeuro_comm_2021_mt_2_volume">""</string>
     <string name="twoeuro_comm_2021_mt_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_mt_2_short_title">"Helden der Pandemie"</string>
 
     <string name="twoeuro_comm_2021_po_title">"Portugals EU-Ratspräsidentschaft"</string>
-    <string name="twoeuro_comm_2021_po_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_po_desc">"Darstellung von Verbindungslinien zwischen der Hauptstadt Portugals Lissabon unten links und den anderen europäischen Hauptstädten in einem nach rechts geöffneten rechten Winkel. Der Ausgabeanlass „PRESIDÊNCIA DO CONSELHO DA UNlÃO EUROPEIA PORTUGAL 2021“ ist im unteren Bereich entlang der x-Achse angeordnet. An der y-Achse ist der ausgeschriebene Name der Ausgabestelle „CASA DE MOEDA“ und der Name des Münzgestalters „EDUARDO AIRES“ abgebildet."</string>
     <string name="twoeuro_comm_2021_po_volume">"510.000"</string>
     <string name="twoeuro_comm_2021_po_date">"04.1.2021"</string>
     <string name="twoeuro_comm_2021_po_short_title">"EU-Ratspräsidentschaft"</string>
 
     <string name="twoeuro_comm_2021_po_2_title">"Teilnahme an den Olympischen Spielen in Tokio"</string>
-    <string name="twoeuro_comm_2021_po_2_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_po_2_desc">"Offizielles Logo des COMITÉ OLÍMPICO DE PORTUGAL: eine Fahnenstange, rechterhand das portugiesische Seefahrerkreuz des Ordens der Christusritter. Unterhalb sind die fünf olympischen Ringe abgebildet. Im Uhrzeigersinn sind die Jahreszahl „2021“, der Ausgabestaat „PORTUGAL“ sowie der Ausgabeanlass „NOS JOGOS OLIMPICOS DE TOQUIO `20“ am Rand der Pille dargestellt. Der ausgeschriebene Name der Ausgabestelle „CASA DE MOEDA“ und der Name des Münzgestalters „F. PROVIDENCIA“ sind linkerhand abgebildet."</string>
     <string name="twoeuro_comm_2021_po_2_volume">"500.000"</string>
     <string name="twoeuro_comm_2021_po_2_date">"01.7.2021"</string>
     <string name="twoeuro_comm_2021_po_2_short_title">"Olympischen Spiele Tokio"</string>
 
     <string name="twoeuro_comm_2021_si_title">"200 Jahre Regionalmuseum Kranj"</string>
-    <string name="twoeuro_comm_2021_si_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_si_desc">"Verschiedene Bezeichnungen des ältesten slowenischen Museums während der letzten 200 Jahre in drei von vier konzentrischen Kreisen sowohl in slowenischer als auch deutscher Sprache, als Teil des traditionellen Erbes der österreichisch-ungarischen Donau-Monarchie. Im innersten Kreis ist der Ausgabestaat „SLOVENIJA“ und die Jahreszahl „2021“ dargestellt."</string>
     <string name="twoeuro_comm_2021_si_volume">"1.000.000"</string>
     <string name="twoeuro_comm_2021_si_date">"2021"</string>
     <string name="twoeuro_comm_2021_si_short_title">"Regionalmuseum Kranj"</string>
 
     <string name="twoeuro_comm_2021_sk_title">"100. Geburtstag von Alexander Dubček"</string>
-    <string name="twoeuro_comm_2021_sk_desc">"XXX"</string>
+    <string name="twoeuro_comm_2021_sk_desc">"Ausschnitt des großen Lesefensters der Narodna in Univerzitetna Knjižnica (National- und Universitätsbibliothek, kurz NUK) in Ljubljana und mittig eine Säule davor. Ergänzt wird das Motiv mit der filigranen und aus geometrischen Grundformen zusammengesetzten Buchstabenreihe der Signatur des Architekten „A R H . P L E Č N I K“, die in die vertieften Fensteröffnungen eingesetzt sind. Der Ausgabeanlass „JOŽE PLEČNIK“ im unteren Bildbereich, die Jahreszahl „1872“ linkerhand sowie der Ausgabestaat mit Jahreszahl rechterhand „SLOVENIJA 2022“ ergänzen das Motiv."</string>
     <string name="twoeuro_comm_2021_sk_volume">"1.000.000"</string>
     <string name="twoeuro_comm_2021_sk_date">"2021"</string>
     <string name="twoeuro_comm_2021_sk_short_title">"Alexander Dubček"</string>
@@ -2364,6 +2392,12 @@
     <string name="twoeuro_comm_2021_va_2_volume">"76.000"</string>
     <string name="twoeuro_comm_2021_va_2_date">"2021"</string>
     <string name="twoeuro_comm_2021_va_2_short_title">"Dante Alighieri"</string>
+
+    <string name="twoeuro_comm_2022_be_title">"Gesundheitswesen"</string>
+    <string name="twoeuro_comm_2022_be_desc">"Rechterhand ein Arzt und im Hintergrund ein Krankenhaus mit Kreuz sowie linkerhand diverse Symbole, die das Gesundheitswesen versinnbildlichen: ein Stethoskop, ein Herz mit EKG-Linie, eine Injektionsspritze, ein Rollstuhlsymbol sowie ein medizinischer Mörser. Am linken Bildrand sind die Worte „DANKE“, „MERCI“ und „DANK U“ zu sehen. Die Jahreszahl „2022“ und das Kürzel des Ausgabestaates „BE“ sowie die beiden Münzzeichen schließen das Motiv am unteren rechten Bildrand ab."</string>
+    <string name="twoeuro_comm_2022_be_volume">""</string>
+    <string name="twoeuro_comm_2022_be_date">"2022"</string>
+    <string name="twoeuro_comm_2022_be_short_title">"Gesundheitswesen"</string>
 
     <string name="twoeuro_comm_2022_de_title">"Wartburg - Thüringen"</string>
     <string name="twoeuro_comm_2022_de_desc">"Ansicht der Burg Wartburg in Eisenach von der Brücke aus. Unten mittig ist der Name des Bundeslands „THÜRINGEN“ und das „D“ für den Ausgabestaat zu sehen. Oberhalb links ist das Ausgabejahr „2022“, rechterhand die Initialen „OS“ des Künstlers Olaf Stoy zu erkennen. (A 6.000.000, D 6.300.000, F 7.200.000, G 4.200.000, J 6.300.000)"</string>
@@ -2463,7 +2497,7 @@
     <string name="twoeuro_comm_2022_lu_2_abr" translatable="false">"XP"</string>
     <string name="twoeuro_comm_2022_lu_2_short_title">"10. Hochzeitstag Guillaume und Stephanie"</string>
 
-    <string name="twoeuro_comm_2022_mt_title">"Hypogäum von Hal-Saflieni (Serie Prähistorische Stätten Maltas)"</string>
+    <string name="twoeuro_comm_2022_mt_title">"Hypogäum von Ħal-Saflieni (Serie Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_desc">"Die 2-Euro-Gedenkmünze 2022 ist dem Hypogäum von Ħal-Saflieni gewidmet. (Serie: Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_volume">""</string>
     <string name="twoeuro_comm_2022_mt_date">"2022"</string>
@@ -2549,8 +2583,8 @@
     <string name="twoeuro_comm_2015_eu_euf_date">"2015"</string>
     <string name="twoeuro_comm_2015_eu_euf_short_title">"30y EU Flag"</string>
 
-    <string name="twoeuro_comm_2022_eu_ep_title">"35y Erasmus Programm"</string>
-    <string name="twoeuro_comm_2022_eu_ep_desc">""</string>
+    <string name="twoeuro_comm_2022_eu_ep_title">"35-jähriges Bestehen des Erasmus-Programms"</string>
+    <string name="twoeuro_comm_2022_eu_ep_desc">"Mischung aus zwei Hauptelementen des Erasmus-Programms: der ursprünglichen intellektuellen Inspiration, Erasmus selbst, und die Allegorie seines Einflusses auf Europa. Erstere wird durch eine der bekanntesten Darstellungen von Erasmus symbolisiert. Letztere wird durch einen Strahl von Verbindungen symbolisiert, die von einem Leuchtfeuer zum anderen über die Münze gehen und den zahlreichen intellektuellen und menschlichen Austausch zwischen europäischen Studenten darstellen. In Bezug auf Europa bilden einige dieser Verbindungen andere Sterne, die aus den Synergien zwischen den Ländern hervorgehen."</string>
     <string name="twoeuro_comm_2022_eu_ep_volume">""</string>
     <string name="twoeuro_comm_2022_eu_ep_date">"2022"</string>
     <string name="twoeuro_comm_2022_eu_ep_short_title">"35y Erasmus Programm"</string>

@@ -336,6 +336,28 @@
     <string name="setup_account">"Mettre en place compte"</string>
     <string name="device_new_master">"Vous souhaitez transférer vos collections existantes vers ce téléphone"</string>
 
+    <!-- version 6.1 -->
+    <string name="collection_not_yet_initialized">"Collection non initialisée"</string>
+
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"Si vous voulez transférer une collection existante, vous devez enregistrer la même adresse e-mail que celle utilisée sur votre ancien appareil !"</string>.
+
+    <!-- version 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Voulez-vous transférer vos collections depuis un ancien appareil ?"</string>
+    <string name="transfer_ask_old_device">"Avez-vous accès à votre ancien appareil ?"</string>
+    <string name="transfer_show_code_instructions">"Sur votre ancien appareil, ouvrez le menu de l'application, sélectionnez '%1$s' '%2$s' et saisissez le code '%3$s'. Le code est valable pendant 10 minutes."</string>
+    <string name="action_enter_transfer_code">"Entrez le code de transfert"</string>
+    <string name="enter_transfer_code_not_exists">"Cette option n'existe pas sur mon ancien appareil."</string>
+    <string name="enter_transfer_code_update_app">"Veuillez mettre à jour l'application sur votre ancien appareil."</string>
+    <string name="entered_transfer_code">"J'ai saisi le code."</string>
+    <string name="transfer_code_not_registered_error">"Une erreur s'est produite. Le code de transfert n'a pas été enregistré. Vérifiez les notifications et réessayez."</string>
+    <string name="transfer_code_not_confirmed">"Une erreur s'est produite. Le code de transfert '%1$s' n'a pas été confirmé."</string>
+    <string name="transfer_code_error">"Une erreur s'est produite."</string>
+    <string name="collections_transferred">"Les collections suivantes ont été transférées : %1$s"</string>
+    <string name="transfer_code_confirmed">"Vos collections sont prêtes à être transférées sur votre nouvel appareil. Sur votre nouvel appareil, appuyez sur le bouton '%1$s'".</string>
+
+
+
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
 - Veuillez lire attentivement! Sinon, vous risquez d'être déçu par la fonctionnalité de négociation.
@@ -384,14 +406,18 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.0\n
-         En cas d'erreur : veuillez me contacter matthias@online.de\n
-         Empreinte mémoire réduite\n
-         Pièces commémoratives de 2€ 2021 et 2022 ajoutées."</string>
+    <string name="version_history_current">"Version 7.2.
+        Pour toute erreur : veuillez me contacter matthias@online.de
+        Correction du nombre erroné de pièces dans le groupe de monnaies Allemagne 2002.
+        Correction d'un crash dans la vue UE.
+        Ajout d'une nouvelle possibilité de transférer les collections de l'ancien au nouveau dispositif.
+        Ajout des pièces commémoratives de 2€ 2022.
+        Ajout du cryptage des données.
+        Correction de crashs dans l'importation, l'exportation et la création de pdf."</string>
 
-    <string name="version_history_last">"Version 6.6\n
-        Correction d'un crash dans la collecte des exportations et création d'un pdf\n
-        Ajout de pièces commémoratives de 2 euros en 2020."</string>
+    <string name="version_history_last">"Version 7.1.
+        Ajout des pièces commémoratives de 2€ 2021+2022.
+        Correction de la visibilité des pièces pour différents types de paramètres de collection."</string>
 
     <string name="coin_1cent">"1 Centime"</string>
     <string name="coin_2cent">"2 Centimes"</string>

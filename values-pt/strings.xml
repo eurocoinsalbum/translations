@@ -124,8 +124,8 @@
     <string name="action_add_share_with">"adicionar novo"</string>
     <string name="action_retract_share">"anular"</string>
     <string name="share_with_ok">"partilhado com %1$s"</string>
-    <string name="share_with_error">"Erro ao compartilhamento com%1$s"</string>
-    <string name="action_unshare_with_ok">"Retraído compartilhar esta coleção com%1$s"</string>
+    <string name="share_with_error">"Erro ao compartilhamento com %1$s"</string>
+    <string name="action_unshare_with_ok">"Retraído compartilhar esta coleção com %1$s"</string>
     <string name="enter_email_to_share_to">"Insira o e-mail que você deseja compartilhar esta coleção com."</string>
     <string name="action_sync_collections">"sincronizar"</string>
     <string name="collection_linked">"Ligados partilhados de coleta%1$s"</string>
@@ -343,6 +343,28 @@
     <string name="setup_account">"Conta Setup"</string>
     <string name="device_new_master">"Este dispositivo é o dispositivo mestre?"</string>
 
+    <!-- version 6.1 -->
+    <string name="collection_not_yet_initialized">"Colecção não inicializada"</string>
+
+    <!-- version 7.1 -->
+    <string name="transfer_collection_hint_email">"Se pretende transferir uma colecção existente, tem de registar o mesmo endereço de e-mail que usou no seu antigo dispositivo!"</string>
+
+    <!-- version 7.2 -->
+    <string name="app_first_usage_ask_transfer">"Quer transferir as suas colecções de um dispositivo antigo?"</string>
+    <string name="transfer_ask_old_device">"Tem acesso ao seu antigo dispositivo?"</string>
+    <string name="transfer_show_code_instructions">"No seu antigo dispositivo abra o menu da aplicação, seleccione '%1$s' '%2$s' e introduza o código '%3$s'. O código é válido por 10 minutos"</string>
+    <string name="action_enter_transfer_code">"Introduza o código de transferência"</string>
+    <string name="enter_transfer_code_not_exists">"Esta opção não existe no meu antigo dispositivo."</string>
+    <string name="enter_transfer_code_update_app">"Actualize por favor a aplicação no seu antigo dispositivo."</string>
+    <string name="entered_transfer_code">"Introduzi o código"</string>
+    <string name="transfer_code_not_registered_error">"Ocorreu um erro. O código de transferência não foi registado. Verificar notificações e tentar novamente"</string>
+    <string name="transfer_code_not_confirmed">"Ocorreu um erro. O código de transferência '%1$s' não foi confirmado"</string>
+    <string name="transfer_code_error">"Ocorreu um erro"</string>
+    <string name="collections_transferred">"As seguintes colecções foram transferidas: %1$s"</string>
+    <string name="transfer_code_confirmed">"As suas colecções estão prontas para serem transferidas para o seu novo dispositivo. No seu novo dispositivo prima o botão '%1$s'"</string>
+
+
+
     <string name="how_trading_partner_works">"
 - A funcionalidade de negociação não é para principiantes.
 - Leia tudo isto com cuidado! Caso contrário, você pode ser decepcionado com a funcionalidade de negociação.
@@ -391,14 +413,18 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 7.0\n
-         Em qualquer erro: entre em contato comigo matthias@online.de\n
-         Consumo de memória reduzido\n
-         Moedas comemorativas de 2€ 2021 e 2022 adicionadas."</string>
+    <string name="version_history_last">"Versão 7.2\n
+        Sobre qualquer erro: por favor contacte-me matthias@online.de
+        Corrigido o número errado de moedas na Alemanha 2002 grupo das casas da moeda.
+        Corrigida a falha na visão da UE.
+        Adicionada nova possibilidade de transferir colecções do antigo para o novo dispositivo.
+        Adicionado 2 euros de moedas comemorativas de 2022.
+        Acrescentada a encriptação de dados.
+        Correcção de falhas na importação, exportação e criação de pdf."</string>
 
-    <string name="version_history_last">"Versão 6.6\n
-        Fixação de crash na colecção de exportação e criação de pdf\n
-        2 euros de moedas comemorativas 2020 adicionadas."</string>
+    <string name="version_history_current">"Versão 7.1
+        2 euros de moedas comemorativas 2021+2022 adicionados.
+        Visibilidade fixa das moedas para vários tipos de colecções"</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>
     <string name="coin_2cent">"2 Cêntimos"</string>

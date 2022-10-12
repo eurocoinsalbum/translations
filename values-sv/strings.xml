@@ -126,8 +126,8 @@
 	<string name="action_add_share_with">"lägg till ny"</string>
 	<string name="action_retract_share">"ta tillbaka"</string>
 	<string name="share_with_ok">"delas med %1$s"</string>
-	<string name="share_with_error">"Fel vid dela med%1$s"</string>
-	<string name="action_unshare_with_ok">"Indragna dela denna samling med%1$s"</string>
+	<string name="share_with_error">"Fel vid dela med %1$s"</string>
+	<string name="action_unshare_with_ok">"Indragna dela denna samling med %1$s"</string>
 	<string name="enter_email_to_share_to">"Ange e-post som du vill dela den här samlingen med."</string>
 	<string name="action_sync_collections">"synkronisera"</string>
 	<string name="collection_linked">"Länkade delad samling%1$s"</string>
@@ -137,7 +137,7 @@
 	<string name="sync_collection_error">"Synkronisering fel för insamling%1$s"</string>
 	<string name="sync_collections_error">"synkroniseringsfel"</string>
 	<string name="linked_collection_read_only">"Länkade delade samlingar skriv"</string>
-	<string name="load_file_error">"Load Filfel%1$s"</string>
+	<string name="load_file_error">"Load Filfel %1$s"</string>
 	<string name="no_cloud_features_activated">"Cloud (Internet) funktioner inaktiverade."</string>
 	<string name="not_saved_load_error">"Användare%1$s sparas inte på grund av tidigare last fel. Unlock redigeringsläget för att tvinga spara."</string>
 	<string name="collection_infos_general">"Namn: %1$s\nCollection ID: %2$s\nPublik Namn: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
@@ -343,7 +343,29 @@
 	<string name="no_files_for_import_found">"Inga filer för import finns i Hämtade filer."</string>
 	<string name="email_confirmed">"E-postadress bekräftades."</string>
 	<string name="setup_account">"Setup konto"</string>
-	<string name="device_new_master">"Är den här enheten din herre enhet?"</string>
+	<string name="device_new_master">"Samlingen har inte initialiserats"</string>
+
+	<!-- version 6.1 -->
+	<string name="collection_not_yet_initialized">"Zbierka nie je inicializovaná"</string>
+
+	<!-- version 7.1 -->
+	<string name="transfer_collection_hint_email">"Om du vill överföra en befintlig samling måste du registrera samma e-postadress som du använde på din gamla enhet!"</string>
+
+	<!-- version 7.2 -->
+	<string name="app_first_usage_ask_transfer">"Vill du överföra dina samlingar från en gammal enhet?"</string>
+	<string name="transfer_ask_old_device">"Har du tillgång till din gamla enhet?"</string>
+	<string name="transfer_show_code_instructions">"På din gamla enhet öppnar du appens meny, väljer '%1$s' '%2$s' och anger koden '%3$s'. Koden är giltig i 10 minuter."</string>
+	<string name="action_enter_transfer_code">"Ange överföringskod"</string>
+	<string name="enter_transfer_code_not_exists">"Det här alternativet finns inte på min gamla enhet."</string>
+	<string name="enter_transfer_code_update_app">"Uppdatera appen på din gamla enhet."</string>
+	<string name="entered_transfer_code">"Jag har angett koden."</string>
+	<string name="transfer_code_not_registered_error">"Fel inträffade. Överföringskoden var inte registrerad. Kontrollera meddelanden och försök igen."</string>
+	<string name="transfer_code_not_confirmed">"Error occured. Överföringskoden '%1$s' bekräftades inte."</string>
+	<string name="transfer_code_error">"Fel inträffade."</string>
+	<string name="collections_transferred">"Följande samlingar har överförts: %1$s"</string>
+	<string name="transfer_code_confirmed">"Dina samlingar är redo att överföras till din nya enhet. På din nya enhet trycker du på knappen '%1$s'"</string>
+
+
 
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
@@ -393,14 +415,19 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 7.0\n
-        Vid eventuella fel: kontakta mig matthias@online.de\n
-        Minskat minnesfotavtryck\n
-        2 € minnesmynt 2021 och 2022 tillagda."</string>
+	<string name="version_history_current">"Version 7.2\n
+        Vid eventuella fel: kontakta mig matthias@online.de
+        Rättade fel antal mynt i myntgruppen Tyskland 2002.
+        Fastställd krasch i EU-vyn.
+        Lägg till ny möjlighet att överföra samlingar från gammal till ny enhet.
+        2 € minnesmynt 2022 har lagts till.
+        Datakryptering har lagts till.
+        Fastställda krascher vid import, export och skapande av pdf-filer."</string>
 
-	<string name="version_history_last">"Version 6.6\n
-        Fixad krasch i exportsamlingen och skapa pdf\n
-        Pridané 2 pamätné mince v roku 2020."</string>
+	<string name="version_history_last">"Version 7.1
+        2€ minnesmynt 2021+2022 har lagts till.
+        Fastställd synlighet av mynt för olika typer av insamlingsinställningar."</string>
+
 
 	<string name="coin_1cent">"en Cent"</string>
 	<string name="coin_2cent">"2 Cent"</string>
@@ -442,30 +469,7 @@
 	<string name="dsgvo_ack_yes">"jag godkänner"</string>
 	<string name="dsgvo_ack_no">"jag godkänner inte"</string>
 	<string name="dsgvo_agreed_message">"Du kom överens om vid:%1$s"</string>
-	<string name="dsgvo_data_privacy">"Data integritet förklaring 'Eurocoins Album' namnges som 'App'.\n\n\"
 
-        \"Namn och kontakt:\n\"
-        \"Matthias Kleiber, matthias@online.de\n\n\"
-
-        \"Anledning för databehandling:\n\"
-        \"App genererar och sparar på enheten av användaren (efter positiv avtal databehandling) en privat och unik användaridentifikation (UUID).\n\"
-        \"Denna UUID tjänar som identifiering av anordningen i varje kommunikation av App med servern.\n\"
-        \"Dessutom kan användaren mata in sin e-post-adress inne att appen använder ännu fler funktioner. Användaren får ett e-mail till sin adress där han hittar en länk med vilken han kan godkänna adressen. Dessutom har e- mail-adress kommer att användas för att skicka e-post till användaren bekräfta förfrågningar han in i app som överföring av data till en annan enhet. app inte skicka e-post för reklam eller liknande.\n\"
-        \"The UUID och e-post-adress är de enda personuppgifter som kommer att spara, bearbetas och överförs till servern.\n\"
-        \"Bilder av mynt användaren tar i appen kommer också laddas upp till servern och är tillgängliga för de användare som användaren delar hans /hennes samling. Bilder från handel samlingar delas till allmänheten.\n\n\"
-
-        \"Bas av databehandling:\n\"
-        \"Databehandlings behövs för funktionerna i App för att fungera.\n\n\"
-
-        \"Mottagare av personuppgifter:\n\"
-        \"Servern som används av App tillhör företaget STRATO och drivs av detta. Personuppgifter kommer inte att överföras explicit till STRATO men kan nås för att fullgöra sitt avtal.\nPersonal data inte överföras till någon annan tredje part.\n\n\"
-
-        \"Tid att lagra personuppgifter:\n\"
-        \"Personuppgifter kommer att lagras tills användaren frågar efter radera sina personuppgifter eller konto.\n\n\"
-
-        \"rättigheter för användaren:\n\"
-        \"Godkännandet av användaren att bearbeta och lagra personuppgifter kan återkallas eller korrigeras när som helst. Användaren kan begära de persondata som har behandlats och lagrats. Detta kan uppnås exempelvis genom att skicka e-post till matthias @ online.de.\n\"
-        \"Användaren kan kontakta motsvarande institution för dataintegritets."</string>
 	<string name="dsgvo_agree_data_privacy">"Jag har läst och förstått följande förklaring av data privatliv App Detta är synlig i App på menyn. 'Information -. Data Privacy'"</string>
 	<string name="dsgvo_1">"Jag håller med om att mina personliga data som jag ingått App kommer att behandlas, lagras och överföras till tredje part så länge det behövs för funktionerna i App att fungera."</string>
 	<string name="specialeuro_2016_de_planet_title">"Blue Planet"</string>
