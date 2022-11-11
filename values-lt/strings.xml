@@ -141,6 +141,7 @@
 
 	<string name="version_history_current">"Versija 7.2\n
         Par jebkuru kļūdu: lūdzu, sazinieties ar mani matthias@online.de
+		Pridėta Kroatija
         Noteikts nepareizs monētu skaits Vācijas 2002. gada kaltuvju grupā.
         Novērsta kļūme ES skatā.
         Pievienota jauna iespēja pārnest kolekcijas no vecās ierīces uz jauno.
@@ -186,4 +187,5 @@
 	<string name="countryname_sm">"San Marinas"</string>
 	<string name="countryname_es">"Ispanija"</string>
 	<string name="countryname_va">"Vatikanas"</string>
+    <string name="countryname_hr">"Kroatija"</string>
 </resources>

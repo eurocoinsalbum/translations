@@ -408,6 +408,7 @@
 
     <string name="version_history_current">"Version 7.2.
         Pour toute erreur : veuillez me contacter matthias@online.de
+        Ajout de la Croatie
         Correction du nombre erroné de pièces dans le groupe de monnaies Allemagne 2002.
         Correction d'un crash dans la vue UE.
         Ajout d'une nouvelle possibilité de transférer les collections de l'ancien au nouveau dispositif.
@@ -452,4 +453,5 @@
     <string name="countryname_es">"Espagne"</string>
     <string name="countryname_va">"Vatican"</string>
     <string name="countryname_ad">"Andorre"</string>
+    <string name="countryname_hr">"Croatie"</string>
 </resources>

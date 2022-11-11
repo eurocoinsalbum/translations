@@ -406,6 +406,7 @@
 "</string>
     <string name="version_history_current">"Version 7.2\n
         Bei einem Fehler: bitte kontaktieren Sie mich matthias@online.de
+        Kroatien hinzugefügt
         Falsche Anzahl von Münzen in der Münzgruppe Deutschland 2002 behoben.
         Absturz in der EU-Ansicht behoben.
         Neue Möglichkeit hinzugefügt, Sammlungen von einem alten auf ein neues Gerät zu übertragen.
@@ -450,6 +451,7 @@
     <string name="countryname_es">"Spanien"</string>
     <string name="countryname_va">"Vatikan"</string>
     <string name="countryname_au">"Österreich"</string>
+    <string name="countryname_hr">Kroatien</string>
 
     <string name="countryname_uk">"Vereinigtes Königreich"</string>
 

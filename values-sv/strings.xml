@@ -417,6 +417,7 @@
 
 	<string name="version_history_current">"Version 7.2\n
         Vid eventuella fel: kontakta mig matthias@online.de
+		Kroatien har lagts till
         Rättade fel antal mynt i myntgruppen Tyskland 2002.
         Fastställd krasch i EU-vyn.
         Lägg till ny möjlighet att överföra samlingar från gammal till ny enhet.
@@ -463,7 +464,10 @@
 	<string name="countryname_sm">"san marino"</string>
 	<string name="countryname_es">"spanien"</string>
 	<string name="countryname_va">"vatikanstaten"</string>
+	<string name="countryname_hr">Kroatien</string>
+
 	<string name="countryname_uk">"storbritannien"</string>
+
 	<string name="action_show_data_privacy">"dataskydd"</string>
 	<string name="dsgvo_ack_title">"viktigt"</string>
 	<string name="dsgvo_ack_yes">"jag godkänner"</string>

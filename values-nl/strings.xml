@@ -40,7 +40,7 @@
     <string name="help_touch_hold_two_euro_coins">"Raak in de vergrendelde modus een herdenkingsmunt lang aan voor aanvullende informatie over deze herdenkingsmunt."</string>
     <string name="help_touch_common_coins">"Tik op een van de 8 euromunten links in het venster, om de achterkant van deze euromunt van alle landen te kunnen zien."</string>
     <string name="help_imexport">"Het exportbestand heet \'euro_coin_list_&lt;gebruikersnaam&gt;.txt\'. Geïmporteerde gebruikers zullen worden toegevoegd en worden niet overschreven."</string>
-    <string name="help_backup">" Elke week wordt er automatisch een back-up gemaakt van alle verzamelingen. Met de knop \'Herstel back-up\' kan eenvoudig een oude back-up aan de huidige verzamelingen worden toegevoegd."</string>
+    <string name="help_backup">Elke week wordt er automatisch een back-up gemaakt van alle verzamelingen. Met de knop \'Herstel back-up\' kan eenvoudig een oude back-up aan de huidige verzamelingen worden toegevoegd.</string>
     <string name="help_coinset_expand">"Om het gebruiksgemak te bevorderen zijn de Duitse muntsets gegroepeerd per jaar als je bij de instellingen de optie \'Verzamel jaren en munttekens\' hebt aangevinkt. De plus/min knop linksboven de euromunten kan voor alle groepen tegelijk gebruikt worden: korte tik doet alle groepen uit- of invouwen, nogmaals tikken precies andersom."</string>
     <string name="help_menu">"Gebruik het instellingenmenu voor aanpassingen: grootte muntafbeelding, tekstgrootte (titels en tekst op munt), alleen 2€-herdenkingsmunten verzamelen, verzamelen van alle jaren en munttekens (of alleen maar een per land) en nog veel meer. Speciale functionaliteit is de optie \'Gebruik individuele instellingen\' waarmee elke gebruiker/verzameling zijn eigen instellingen kan hebben of voor alle gebruikers dezelfde instellingen gelden."</string>
     <string name="help_title_setting">" Door op de kolomkop te tikken kan de huidige achtergrondkleur worden gewijzigd."</string>
@@ -413,6 +413,7 @@
 
     <string name="version_history_current">"Versie 7.2.
         Bij elke fout: neem contact met me op matthias@online.de
+        Kroatië toegevoegd
         Verkeerd aantal munten in Duitsland 2002 muntgroep opgelost.
         Crash in EU-weergave opgelost.
         Nieuwe mogelijkheid toegevoegd om collecties over te zetten van oud naar nieuw apparaat.
@@ -459,4 +460,5 @@
     <string name="countryname_sm">"San Marino"</string>
     <string name="countryname_es">"Spanje"</string>
     <string name="countryname_va">"Vaticaanstad"</string>
+    <string name="countryname_hr">"Kroatië"</string>
 </resources>

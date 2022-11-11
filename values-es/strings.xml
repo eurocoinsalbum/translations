@@ -416,6 +416,7 @@
 
     <string name="version_history_current">"Versión 7.2
         Sobre cualquier error: por favor, póngase en contacto conmigo matthias@online.de
+        Añadida Croacia
         Corregido el número erróneo de monedas en el grupo de cecas de Alemania 2002.
         Corregido el fallo en la vista de la UE.
         Añadida la posibilidad de transferir colecciones del dispositivo antiguo al nuevo.
@@ -462,4 +463,5 @@
     <string name="countryname_sm">"San Marino"</string>
     <string name="countryname_es">"España"</string>
     <string name="countryname_va">"Vaticano"</string>
+    <string name="countryname_hr">"Croacia"</string>
 </resources>

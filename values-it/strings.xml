@@ -411,6 +411,7 @@
 
     <string name="version_history_current">"Versione 7.2\n
         Per qualsiasi errore: contattatemi matthias@online.de
+        Aggiunta Croazia
         Corretto il numero errato di monete nel gruppo di zecca Germania 2002.
         Corretto l'arresto anomalo nella vista UE.
         Aggiunta la possibilità di trasferire le collezioni dal vecchio al nuovo dispositivo.
@@ -455,4 +456,5 @@
     <string name="countryname_es">"Spagna"</string>
     <string name="countryname_va">"Vaticano"</string>
     <string name="countryname_ad">"Andorra"</string>
+    <string name="countryname_hr">"Croazia"</string>
 </resources>

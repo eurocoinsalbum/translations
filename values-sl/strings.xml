@@ -233,6 +233,7 @@
 
     <string name="version_history_current">"Različica 7.2\n
         Ob kakršni koli napaki: prosim, pišite mi na matthias@online.de
+        Dodana Hrvaška
         Popravljeno napačno število kovancev v skupini kovnic Nemčija 2002.
         Odpravljena okvara v pogledu EU.
         Dodana nova možnost prenosa zbirk iz stare v novo napravo.
@@ -280,6 +281,7 @@
     <string name="countryname_sm">"San Marino"</string>
     <string name="countryname_es">"Španija"</string>
     <string name="countryname_va">"Vatikan"</string>
+    <string name="countryname_hr">"Hrvaška"</string>
 
     <string name="dsgvo_agree_data_privacy">"
         \\"Prebral sem in razumel kasnejšo izjavo o zasebnosti podatkov v aplikaciji. To je mogoče videti v aplikaciji v meniju\\" Informacije - zasebnost podatkov \\".
