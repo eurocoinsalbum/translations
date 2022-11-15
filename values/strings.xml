@@ -2512,6 +2512,12 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2022_lu_2_abr" translatable="false">"XP"</string>
     <string name="twoeuro_comm_2022_lu_2_short_title">"10. Hochzeitstag Guillaume und Stephanie"</string>
 
+    <string name="twoeuro_comm_2022_mc_title">"100. Todestag von Albert I."</string>
+    <string name="twoeuro_comm_2022_mc_desc">"Porträt von Albert I. Unter dem Bildmotiv ist der Ausgabeanlass „ALBERT Ier 1848 – 1922“ zwischen den Prägezeichen der Monnaie de Paris und des Generalgraveurs Joaquin Jimenez zu sehen. Der Ausgabestaat „MONACO“ ist linkerhand, das Ausgabejahr „2022“ rechterhand des Motivs zwischen zwei Rauten platziert."</string>
+    <string name="twoeuro_comm_2022_mc_volume">"15.000"</string>
+    <string name="twoeuro_comm_2022_mc_date">"07.09.2022"</string>
+    <string name="twoeuro_comm_2022_mc_short_title">"100. Todestag Albert I."</string>
+
     <string name="twoeuro_comm_2022_mt_title">"Hypogäum von Ħal-Saflieni (Serie Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_desc">"Die 2-Euro-Gedenkmünze 2022 ist dem Hypogäum von Ħal-Saflieni gewidmet. (Serie: Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_volume">""</string>
