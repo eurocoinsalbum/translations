@@ -414,19 +414,21 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.2
-        Sobre cualquier error: por favor, póngase en contacto conmigo matthias@online.de
-        Añadida Croacia
-        Corregido el número erróneo de monedas en el grupo de cecas de Alemania 2002.
-        Corregido el fallo en la vista de la UE.
-        Añadida la posibilidad de transferir colecciones del dispositivo antiguo al nuevo.
-        Añadidas las monedas conmemorativas de 2€ 2022.
-        Añadido el cifrado de datos.
-        Corregidos los fallos en la importación, exportación y creación de pdf."</string>
+    <string name="version_history_last">"Versión 7.2\n
+Añadida Croacia
+Corregido el número erróneo de monedas en el grupo de cecas de Alemania 2002.
+Corregido el fallo en la vista de la UE.
+Añadida la posibilidad de transferir colecciones del dispositivo antiguo al nuevo.
+Añadidas las monedas conmemorativas de 2€ 2022.
+Añadido el cifrado de datos.
+Corregidos los fallos en la importación, exportación y creación de pdf.
+    "</string>
 
-    <string name="version_history_last">"Versión 7.1
-        Añadidas las monedas conmemorativas de 2€ 2021+2022.
-        Corregida la visibilidad de las monedas para varios tipos de configuración de la colección."</string>
+    <string name="version_history_current">"Versión 7.3\n
+Imágenes monedas 2€ conmemorativas Malta 2021+2022 corregidas.
+Añadidas monedas conmemorativas de 2€ 2023.
+Sobre cualquier error: por favor, póngase en contacto conmigo matthias@online.de
+    "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

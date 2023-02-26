@@ -415,19 +415,21 @@
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
-    <string name="version_history_current">"Version 7.2\n
-        On any error: please contact me matthias@online.de
-        Added Croatia
-        Fixed wrong number of coins in Germany 2002 mint group.
-        Fixed crash in EU view.
-        Added new possibility to transfer collections from old to new device.
-        2€ commemorative coins 2022 added.
-        Added data encryption.
-        Fixed crashes in import, export and pdf creation."</string>
+    <string name="version_history_last">"Version 7.2\n
+Added Croatia
+Fixed wrong number of coins in Germany 2002 mint group.
+Fixed crash in EU view.
+Added new possibility to transfer collections from old to new device.
+2€ commemorative coins 2022 added.
+Added data encryption.
+Fixed crashes in import, export and pdf creation.
+        "</string>
 
-    <string name="version_history_last">"Version 7.1
-        2€ commemorative coins 2021+2022 added.
-        Fixed visibility of coins for various kinds of collection settings."</string>
+    <string name="version_history_current">"Version 7.3\n
+Fixed image of 2€ commemorative coins Malte 2021+2022.
+Added 2023 2€ commemorative coins.
+On any error: please contact me matthias@online.de
+        "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>
@@ -523,6 +525,14 @@ The user can contact the corresponding institution for data privacy.
     <string name="specialeuro_2021_de_clima_short_title">Climazone Polar</string>
     <string name="specialeuro_2022_de_insects_title">Wonder world Insects</string>
     <string name="specialeuro_2022_de_insects_short_title">Wonder world Insects</string>
+    <string name="specialeuro_2023_de_insects_marienkaefer_title">Wonder world Insects Siebenpunkt Marienkäfer</string>
+    <string name="specialeuro_2023_de_insects_marienkaefer_short_title">Siebenpunkt Marienkäfer</string>
+    <string name="specialeuro_2023_de_insects_biene_title">Wonder world Insects Rostrote Mauerbiene</string>
+    <string name="specialeuro_2023_de_insects_biene_short_title">Rostrote Mauerbiene</string>
+    <string name="specialeuro_2023_de_insects_schmetterling_title">Wonder world Insects Schwalbenschwanz</string>
+    <string name="specialeuro_2023_de_insects_schmetterling_short_title">Schwalbenschwanz</string>
+    <string name="specialeuro_2023_de_insects_libelle_title">Wonder world Insects Prachtlibelle</string>
+    <string name="specialeuro_2023_de_insects_libelle_short_title">Prachtlibelle</string>
 
     <string name="twoeuro_comm_2004_gr_title">"Olympische Spiele 2004 in Athen"</string>
     <string name="twoeuro_comm_2004_gr_desc">"Die Gedenkmünze zeigt die Abbildung der antiken Statue eines Diskuswerfers, umringt von den zwölf Sternen der Europäischen Union. Der Sockel der Statue bedeckt einen kleinen Teil des äußeren Rings (äußerer Teil) der Münze. Links befindet sich das Logo der Olympischen Spiele \"ATHEN 2004\" mit den fünf olympischen Ringen; rechts befinden sich untereinander die Zahl \"2\" und das Wort \"????\". Neben dem mittleren Stern unten ist das Prägejahr in zwei getrennten Zahlengruppen angegeben"</string>
@@ -2428,6 +2438,12 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2022_ee_abr" translatable="false">"XD"</string>
     <string name="twoeuro_comm_2022_ee_short_title">"estnische Literatur-Gesellschaft"</string>
 
+    <string name="twoeuro_comm_2022_ee_2_title">"Slava Ukraini"</string>
+    <string name="twoeuro_comm_2022_ee_2_desc">"Mädchen als Symbol der Zärtlichkeit, das einen Vogel in der Hand beschützt und auch eine Weizenähre."</string>
+    <string name="twoeuro_comm_2022_ee_2_volume">"2.000.000"</string>
+    <string name="twoeuro_comm_2022_ee_2_date">"08.07.2022"</string>
+    <string name="twoeuro_comm_2022_ee_2_short_title">"Slava Ukraini"</string>
+
     <string name="twoeuro_comm_2022_fi_title">"100 Jahre Finnisches Nationalballett"</string>
     <string name="twoeuro_comm_2022_fi_desc">"Kraftvolle und freie Bewegung einer Tänzerin. Die im Rampenlicht fliegenden Textilien akzentuieren die Schönheit und den Fluss der tänzerischen Pose. Darunter ist die Jahreszahl „2022“, oberhalb das Länderkürzel „FI“ und das Münzzeichen zu sehen."</string>
     <string name="twoeuro_comm_2022_fi_volume">"400.000 ( / )"</string>
@@ -2474,42 +2490,36 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2022_it_2_desc">"Porträts der beiden italienischen Richter Giovanni Falcone und Paolo Borsellino inspiriert von einem Foto von Tony Gentile. Am oberen Bildrand ist der Ausgabeanlass „FALCONE – BORSELLINO“ zu sehen und darunter die Jahreszahlen „1992“ und „2022“, das Monogramm der Italienischen Republik „RI“. Rechterhand das Münzzeichen „R“ der römischen Prägestätte und linkerhand das Kürzel „VdS“ des Münzgestalters Valerio de Seta."</string>
     <string name="twoeuro_comm_2022_it_2_volume">"3.000.000 ( / )"</string>
     <string name="twoeuro_comm_2022_it_2_date">"02.01.2022"</string>
-    <string name="twoeuro_comm_2022_it_2_abr" translatable="false">"XK"</string>
     <string name="twoeuro_comm_2022_it_2_short_title">"Richter Falcone und  Borsellino"</string>
 
     <string name="twoeuro_comm_2022_lv_title">"100 Jahre Latvijas Banka"</string>
     <string name="twoeuro_comm_2022_lv_desc">"Darstellung eines Baumes, der die Wichtigkeit der Finanzkompetenz und das Wissen darüber symbolisieren soll. Zu beiden Seiten des Stammes ist die Jahreszahl „20 - 22“ zu erkennen. Der Ausgabestaat  „LATVIJA“ ist am unteren Bildrand zu sehen."</string>
     <string name="twoeuro_comm_2022_lv_volume">"512.000 (12.000 / – )"</string>
     <string name="twoeuro_comm_2022_lv_date">"2022"</string>
-    <string name="twoeuro_comm_2022_lv_abr" translatable="false">"XL"</string>
     <string name="twoeuro_comm_2022_lv_short_title">"Latvijas Banka"</string>
 
     <string name="twoeuro_comm_2022_lt_title">"Litauische Ethnographische Regionen - Suvalkija"</string>
     <string name="twoeuro_comm_2022_lt_desc">"Darstellung des Wappens der ethnographischen Region Suvalkija (Sudauen) zu sehen. Mittig das Wappenschild mit einem in rot gehaltenen Auerochsen, von silbrigen Eichenzweigen umgeben, dargestellt. Unterhalb der Wappenspruch „VIENYBĖ TEŽYDI“ (dt. Lass die Einheit gedeihen), der letzten Strophe der litauischen Nationalhymne. Oberhalb ist der Ausgabestaat „LIETUVA” und die Jahreszahl „2022“ abgebildet. Der Schriftzug „SUVALKIJA“ und das Münzzeichen der litauischen Prägestätte runden das Motiv nach unten hin ab."</string>
     <string name="twoeuro_comm_2022_lt_volume">"500.000 (5.000 / – )"</string>
-    <string name="twoeuro_comm_2022_lt_date">"4. Quartal 2022"</string>
-    <string name="twoeuro_comm_2022_lt_abr" translatable="false">"XM"</string>
+    <string name="twoeuro_comm_2022_lt_date">"20.12.2022"</string>
     <string name="twoeuro_comm_2022_lt_short_title">"Suvalkija"</string>
 
     <string name="twoeuro_comm_2022_lt_2_title">"100 Jahre Basketball in Litauen"</string>
     <string name="twoeuro_comm_2022_lt_2_desc">"Umrisse der Landkarte Litauens als Basketballfeld im Zentrum, welches die Bedeutung des Basketballs symbolisiert, der in Litauen seit über 100 Jahren gespielt wird. Der Landesname „LIETUVA“ erscheint oberhalb rechts, die Jahreszahlen „1922 – 2022“ sowie das Münzzeichen unterhalb des Motivs."</string>
     <string name="twoeuro_comm_2022_lt_2_volume">"750.000 (7.500 / – )"</string>
     <string name="twoeuro_comm_2022_lt_2_date">"2. Quartal 2022"</string>
-    <string name="twoeuro_comm_2022_lt_2_abr" translatable="false">"XN"</string>
     <string name="twoeuro_comm_2022_lt_2_short_title">"Basketball in Litauen"</string>
 
     <string name="twoeuro_comm_2022_lu_title">"50. Jahrestag der luxemburgischen Flagge"</string>
     <string name="twoeuro_comm_2022_lu_desc">"50. Jahrestag der luxemburgischen Flagge"</string>
     <string name="twoeuro_comm_2022_lu_volume">"160.000 ( / )"</string>
     <string name="twoeuro_comm_2022_lu_date">"1. Halbjahr 2022"</string>
-    <string name="twoeuro_comm_2022_lu_abr" translatable="false">"XO"</string>
     <string name="twoeuro_comm_2022_lu_short_title">"luxemburgische Flagge"</string>
 
     <string name="twoeuro_comm_2022_lu_2_title">"10. Hochzeitstag von Erbgroßherzog Guillaume und Erbgroßherzogin Stephanie"</string>
     <string name="twoeuro_comm_2022_lu_2_desc">"10. Hochzeitstag von Erbgroßherzog Guillaume und Erbgroßherzogin Stephanie"</string>
     <string name="twoeuro_comm_2022_lu_2_volume">"160.000 ( / )"</string>
     <string name="twoeuro_comm_2022_lu_2_date">"1. Halbjahr 2022"</string>
-    <string name="twoeuro_comm_2022_lu_2_abr" translatable="false">"XP"</string>
     <string name="twoeuro_comm_2022_lu_2_short_title">"10. Hochzeitstag Guillaume und Stephanie"</string>
 
     <string name="twoeuro_comm_2022_mc_title">"100. Todestag von Albert I."</string>
@@ -2521,9 +2531,14 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2022_mt_title">"Hypogäum von Ħal-Saflieni (Serie Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_desc">"Die 2-Euro-Gedenkmünze 2022 ist dem Hypogäum von Ħal-Saflieni gewidmet. (Serie: Prähistorische Stätten Maltas)"</string>
     <string name="twoeuro_comm_2022_mt_volume">""</string>
-    <string name="twoeuro_comm_2022_mt_date">"2022"</string>
-    <string name="twoeuro_comm_2022_mt_abr" translatable="false">"XQ"</string>
+    <string name="twoeuro_comm_2022_mt_date">"17.11.2022"</string>
     <string name="twoeuro_comm_2022_mt_short_title">"Hypogäum von Hal-Saflieni"</string>
+
+    <string name="twoeuro_comm_2022_mt_2_title">"Resolution des UN-Sicherheitsrats zu Frieden und Sicherheit für Frauen"</string>
+    <string name="twoeuro_comm_2022_mt_2_desc">"Auf der Bildseite sind drei Gesichter verschiedener Ethnien im Halbprofil nach rechts und der stilisierter Handspiegel der Liebesgöttin Venus, symbolisch für das weibliche Geschlecht stehend, abgebildet. Der Ausgabestaat „MALTA“ und das Ausgabejahr „2022“ sind unten linkerhand, der Ausgabeanlass „WOMEN, PEACE, SECURITY“, unterbrochen von dreiblättrigen Olivenzweigen am rechten Bildrand verlaufend, dargestellt. Die Initialen „A.NAPOLIONE“ der Münzgestalterin sind am unteren Bildrand, darüber die Abkürzung und Nummer der UN-Resolutiuon „UNSCR 1325“, zu sehen."</string>
+    <string name="twoeuro_comm_2022_mt_2_volume">""</string>
+    <string name="twoeuro_comm_2022_mt_2_date">"17.11.2022"</string>
+    <string name="twoeuro_comm_2022_mt_2_short_title">"Sicherheit für Frauen"</string>
 
     <string name="twoeuro_comm_2022_po_title">"100 Jahre Erstüberquerung des Südatlantiks per Flugzeug"</string>
     <string name="twoeuro_comm_2022_po_desc">"Das Thema der 2-Euro-Gedenkmünze lautet „100 Jahre Erstüberquerung des Südatlantiks per Flugzeug“. Auf der Bildseite ist eine der drei Fairey-III-Doppeldecker-Wasserflugzeuge dargestellt, die zur Erstüberquerung des Südatlantiks von Lissabon nach Rio de Janeiro von Gago Courtinho und Sacadura Cabral 1922 genutzt wurden. Am linken Bildrand ist der Ausgabeanlass „TRAVESSIA DO ATLÂNTICO SUL“. Unterhalb des Motivs ist der Ausgabestaat „PORTUGAL“ sowie die Jubiläumszahlen „1922 – 2022“ sowie das Kreuz des Südens zu sehen. Am rechten unteren Bildrand ist der Münzgestalter „Esc. JJ BRITO“ sowie der Schriftzug der portugiesischen Prägestätte „CASA DA MOEDA“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt. Die Münze soll im März 2022 in einer Auflage von 1.000.000 Ex, davon jeweils 7.500 Ex. in BU sowie Proof erscheinen."</string>
@@ -2575,9 +2590,172 @@ The user can contact the corresponding institution for data privacy.
 
     <string name="twoeuro_comm_2022_va_2_title">"25. Todestag von Mutter Teresa von Kalkutta"</string>
     <string name="twoeuro_comm_2022_va_2_desc">"Mutter Teresa (Heilige Teresa von Kalkutta; * 26. August 1910 als Anjezë Gonxhe Bojaxhiu [ˈanjez gonˈʤe bɔˈjaʤiu][1] in Üsküb, Osmanisches Reich [heute Skopje, Nordmazedonien]; † 5. September 1997 in Kalkutta, Indien) war eine indische Ordensschwester und Missionarin. Weltweit bekannt wurde sie durch ihre Arbeit mit Armen, Obdachlosen, Kranken und Sterbenden, für die sie 1979 den Friedensnobelpreis erhielt. In der katholischen Kirche wird Mutter Teresa als Heilige verehrt. Unter anderem wegen der sozialen und hygienischen Zustände in den Sterbehäusern sowie ihrer vermuteten eigentlichen Motivation der Missionierung und nicht der Hilfe sind ihre Arbeit und ihre Person umstritten."</string>
-    <string name="twoeuro_comm_2022_va_2_volume">""</string>
+    <string name="twoeuro_comm_2022_va_2_volume">"Euro-Symbol „€“, umgeben von sechs Sternen. Die untere Hälfte zeigt ein Puzzle mit einem unregelmäßigen Rand. Der Ausgabestaat „ANDORRA“ ist rechts oberhalb, die Jubiläumsjahre „2012“ und „2022“ rechterhand darunter platziert."</string>
     <string name="twoeuro_comm_2022_va_2_date">"2022"</string>
     <string name="twoeuro_comm_2022_va_2_short_title">"Mutter Teresa von Kalkutta"</string>
+
+
+    <string name="twoeuro_comm_2023_de_title">"Elbphilharmonie - Hamburg"</string>
+    <string name="twoeuro_comm_2023_de_desc">"Die nationale Seite (Bildseite) wurde von dem Künstler Michael Otto aus Rodenbach gestaltet. Sie zeigt die Elbphilharmonie, das neue Wahrzeichen der Freien und Hansestadt Hamburg. Der Entwurf repräsentiert, durch die eindrucksvolle, detaillierte Darstellung des Konzertbaus vor der maritimen Stadtszenerie, das Bundesland Hamburg äußerst überzeugend.Im Kernbereich befinden sich ferner die Nationalitätenkennzeichnung „D“ für das Ausgabeland Bundesrepublik Deutschland, die Jahreszahl 2023, der Prägebuchstabe der jeweiligen Münzstätte, der Schriftzug „HAMBURG“ und die Initialen des Künstlers. Auf dem Außenring der nationalen Seite sind die zwölf Europasterne angeordnet."</string>
+    <string name="twoeuro_comm_2023_de_volume">"30.000.000"</string>
+    <string name="twoeuro_comm_2023_de_date">"24.01.2023"</string>
+    <string name="twoeuro_comm_2023_de_short_title">"Elbphilharmonie Hamburg"</string>
+
+    <string name="twoeuro_comm_2023_de_2_title">"1275. Geburtstag Karl der Große"</string>
+    <string name="twoeuro_comm_2023_de_2_desc">"Kombination zweier zeitgenössischer Bildelemente – das kaiserliche Monogramm und das Oktogon des Aachener Doms. Oberhalb des Motivs ist der Ausgabeanlass „KARL DER GROßE“ und unterhalb die Jahreszahlen „748 – 814“ zu sehen. Unten linkerhand ist das Ausgabejahr „2023“ sowie rechterhand das Länderkürzel „D“ in Verbindung mit dem Prägezeichen der jeweiligen Münzstätte („A”, „D”, „F”, „G” oder „J”) zu erkennen. Die Initialen des Münzgestalters „TW“ finden sich rechterhand vom Zentrum des Bildmotivs."</string>
+    <string name="twoeuro_comm_2023_de_2_volume">"20.000.000"</string>
+    <string name="twoeuro_comm_2023_de_2_date">"30.03.2023"</string>
+    <string name="twoeuro_comm_2023_de_2_short_title">"Karl der Große"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"Nationalvogel Rauchschwalbe"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"Exemplar der Rauschschwalbe im Flug vor auf einer Stromleitung sitzenden Vögeln im Hintergrund. Am linken oberen Bildrand ist der Ausgabeanlass „HIRUNDO RUSTICA“ und am unteren Bildrand der Ausgabestaat „EESTI“ und die Jahreszahl „2023“ zu erkennen."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"2023"</string>
+    <string name="twoeuro_comm_2023_ee_short_title">"Rauchschwalbe"</string>
+    
+    <string name="twoeuro_comm_2023_es_title">"UNESCO-Weltkulturerbe – Altstadt von Cáceres"</string>
+    <string name="twoeuro_comm_2023_es_desc">"Darstellung des Torre de Bujaco, der Ermita de la Paz und die an den Plaza Major angrenzenden Gebäude der Altstadt von Cáceres. Der Ausgabestaat „ESPAÑA“, die Jahreszahl „2023“ und das Münzzeichen der Madrider Prägestätte sind oberhalb und der Ausgabeanlass „CÁCERES“ unterhalb des Motivs zu sehen."</string>
+    <string name="twoeuro_comm_2023_es_volume">"4.000.000"</string>
+    <string name="twoeuro_comm_2023_es_date">"01.02.2023"</string>
+    <string name="twoeuro_comm_2023_es_short_title">"Cáceres"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"Spanischer Vorsitz im Rat der EU"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">""</string>
+    <string name="twoeuro_comm_2023_es_2_volume">""</string>
+    <string name="twoeuro_comm_2023_es_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_es_2_short_title">"Spanien EU Rat"</string>
+
+    <string name="twoeuro_comm_2023_fi_title">"Naturschutz"</string>
+    <string name="twoeuro_comm_2023_fi_desc">"Stilisierter Käfer. Am oberen Bildrand ist der Ausgabeanlass „Naturschutz“ in finnischer Sprache „LUONNONSUOJELU“ und am unteren Bildrand in schwedischer Sprache „NATURSKYDD“ sowie die Jahreszahl „2022“ zu sehen. Das Münzzeichen der finnischen Prägestätte ist linkerhand und das Länderkürzel „FI“ rechterhand des Motives abgebildet."</string>
+    <string name="twoeuro_comm_2023_fi_volume">"400.000"</string>
+    <string name="twoeuro_comm_2023_fi_date">"21.03.2023"</string>
+    <string name="twoeuro_comm_2023_fi_short_title">"Naturschutz"</string>
+
+    <string name="twoeuro_comm_2023_fi_2_title">"Sozial- und Gesundheitsdienste als Garanten des öffentlichen Wohlergehens"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">""</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">""</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_fi_2_short_title">"öffentliches Wohlergehen"</string>
+
+    <string name="twoeuro_comm_2023_fr_title">"Die Säerin und der Faustkampf – Pont Neuf"</string>
+    <string name="twoeuro_comm_2023_fr_desc">"Darstellung der Säerin, der klassischen Nationalfigur Frankreichs, beim Boxkampf. Im Hintergrund ist die berühmte Pont Neuf von der Île de la Cité aus zu sehen, unter deren Bogen rechterhand das Logo der Olympischen Sommerspiele von Paris 2024 eingefügt ist und die Jahreszahl „2023“ auf dem rechten Brückenbogen. Oberhalb und rechterhand sind im Hintergrund die Linien einer Leichtathletikbahn zu erkennen. Die Münzzeichen sind linker- und rechterhand zu Füssen der Säerin und das Monogramm „RF“ linkerhand unter der Brücke in der Seine platziert."</string>
+    <string name="twoeuro_comm_2023_fr_volume">"260.000 (250.000 / 10.000)"</string>
+    <string name="twoeuro_comm_2023_fr_date">"10.01.2023"</string>
+    <string name="twoeuro_comm_2023_fr_short_title">"Pont Neuf"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"Rugby-Union-Weltmeisterschaft 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"Darstellung der Säerin, der klassischen Nationalfigur Frankreichs, beim Boxkampf. Im Hintergrund ist die berühmte Pont Neuf von der Île de la Cité aus zu sehen, unter deren Bogen rechterhand das Logo der Olympischen Sommerspiele von Paris 2024 eingefügt ist und die Jahreszahl „2023“ auf dem rechten Brückenbogen. Oberhalb und rechterhand sind im Hintergrund die Linien einer Leichtathletikbahn zu erkennen. Die Münzzeichen sind linker- und rechterhand zu Füssen der Säerin und das Monogramm „RF“ linkerhand unter der Brücke in der Seine platziert."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"260.000 (250.000 / 10.000)"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"10.01.2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_short_title">"Rugby-Weltmeisterschaft"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100. Geburtstag von Maria Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">""</string>
+    <string name="twoeuro_comm_2023_gr_volume">""</string>
+    <string name="twoeuro_comm_2023_gr_date">"27.06.2023"</string>
+    <string name="twoeuro_comm_2023_gr_short_title">"Maria Callas"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150. Geburtstag von Constantin Carathéodory"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"Porträt des griechischen Mathematikers Constantin Carathéodory und eine mathematische Formel. Der Ausgabeanlass „KΩNΣTANTINOΣ KAPAθEOΔΩPH 1873 – 1950“ verläuft am linken Bildrand unten nach rechts oben und der Ausgabestaat „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ ist am unteren rechten Bildrand zu sehen. Oberhalb davon ist die Palmette der griechischen Prägestätte und die Jahreszahl „2023“ und auf der Schulter von Carathéodory das Kürzel „ΣTAM“ des Münzgestalters zu erkennen."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750.500"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"Juli 2023"</string>
+    <string name="twoeuro_comm_2023_gr_2_short_title">"Constantin Carathéodory"</string>
+
+    <string name="twoeuro_comm_2023_it_title">"100 Jahre Italienische Luftstreitkräfte"</string>
+    <string name="twoeuro_comm_2023_it_desc">"Stilisierte Zahl „100“, die von einem Kondensstreifen durchzogen wird, an dessen linken unteren Ende ein historisches Flugzeug und an dessen rechten oberen Ende ein moderner Kampfjet zu sehen ist. Ein halbrunde Linie am rechten Bildrand verbindet beide Elemente mit den Jahreszahlen „1923“ und „2023“. Der Ausgabeanlass „AERONAUTICA MILITARE“ ist am unteren Bildrand, das Monogramm der Italienischen Republik „RI“ oberhalb des Motivs, das Münzzeichen „R“ der römischen Prägestätte linkerhand und das Kürzel „VdS“ des Münzgestalters Valerio de Seta rechterhand zu sehen."</string>
+    <string name="twoeuro_comm_2023_it_volume">"3.000.000"</string>
+    <string name="twoeuro_comm_2023_it_date">"21.03.2023"</string>
+    <string name="twoeuro_comm_2023_it_short_title">"Luftstreitkräfte"</string>
+
+    <string name="twoeuro_comm_2023_it_2_title">"150. Todestag von Alessandro Manzoni"</string>
+    <string name="twoeuro_comm_2023_it_2_desc">"Porträt von Alessandro Manzoni (1785 – 1873) im Halbprofil dargestellt, inspiriert vom Bildnis des italienischen Schriftstellers der 100.000-Lire-Banknote aus dem Jahr 1967. Am linken Bildrand ist der Ausgabeanlass „ALESSANDRO MANZONI“ zu sehen, rechterhand davon das Monogramm der Italienischen Republik „RI“ und die Jahreszahlen „1873“ und „2023“, am rechten Bildrand das Kürzel „AV“ des Münzgestalters Antonio Vecchio."</string>
+    <string name="twoeuro_comm_2023_it_2_volume">"3.000.000"</string>
+    <string name="twoeuro_comm_2023_it_2_date">"15.05.2023"</string>
+    <string name="twoeuro_comm_2023_it_2_short_title">"Alessandro Manzoni"</string>
+
+    <string name="twoeuro_comm_2023_lt_title">"Zusammen mit der Ukraine"</string>
+    <string name="twoeuro_comm_2023_lt_desc">"Darstellung einer stilisierten Sonnenblume, der Nationalblume der Ukraine. Die Sonnenblume ist zu einem Symbol des Friedens und der internationalen Unterstützung für das ukrainische Volk geworden. Oberhalb der Ausgabeanlass „SLAVA UKRAINAI!“, der litauischen Übersetzung des ukrainischen Grußes Слава Україні!, unterhalb des Motives der Ausgabestaat „LIETUVA“ und das Jahr „2023“."</string>
+    <string name="twoeuro_comm_2023_lt_volume">"415.000"</string>
+    <string name="twoeuro_comm_2023_lt_date">"2023"</string>
+    <string name="twoeuro_comm_2023_lt_short_title">"Zusammen mit der Ukraine"</string>
+
+    <string name="twoeuro_comm_2023_lu_title">"175. Jahrestag der Abgeordnetenkammer und der ersten Verfassung (1848)"</string>
+    <string name="twoeuro_comm_2023_lu_desc">""</string>
+    <string name="twoeuro_comm_2023_lu_volume">""</string>
+    <string name="twoeuro_comm_2023_lu_date">""</string>
+    <string name="twoeuro_comm_2023_lu_short_title">"Erste Verfassung"</string>
+
+    <string name="twoeuro_comm_2023_lu_2_title">"25. Jahrestag der Aufnahme von Großherzog Henri als Mitglied des Internationalen Olympischen Kommitees"</string>
+    <string name="twoeuro_comm_2023_lu_2_desc">""</string>
+    <string name="twoeuro_comm_2023_lu_2_volume">""</string>
+    <string name="twoeuro_comm_2023_lu_2_date">""</string>
+    <string name="twoeuro_comm_2023_lu_2_short_title">"Großherzog Henri IOK"</string>
+    
+    <string name="twoeuro_comm_2023_lv_title">"Zusammen mit der Ukraine"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"Stilisierte Sonnenblume mit Blütenblättern, die Silhouetten von Menschen darstellen, die sich an den Händen halten, sich umarmen und beschützen und damit Einheit, Unterstützung und die Kraft des Zusammenseins verkörpern. Mit künstlerischen Mitteln wird die Sonnenblume als die aufgehende Sonne – die Hoffnung auf einen Neuanfang – und als Vögel – Freiheit, Hoffnung und Mut, als Menschen, die sich über die Umstände erheben und niemals einen aufgezwungenen Willen akzeptieren – gestaltet, eine Anspielung auf diejenigen, die ihr Leben geopfert haben, und ihre scheidenden Seelen. Oben linkerhand ist der Ausgabestaat „LIETUVA“, am linken Bildrand die Jahreszahl „2023“ und am rechten Bildrand das Münzzeichen der litauischen Prägestätte abgebildet. Am inneren Rand der Sonnenblume ist der Ausgabeanlass „KARTU SU UKRAINA“ zu erkennen."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"500.000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"16.03.2023"</string>
+    <string name="twoeuro_comm_2023_lv_short_title">"Zusammen mit der Ukraine"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"100. Geburtstag von Fürst Rainier III"</string>
+    <string name="twoeuro_comm_2023_mc_desc">""</string>
+    <string name="twoeuro_comm_2023_mc_volume">""</string>
+    <string name="twoeuro_comm_2023_mc_date">"2023"</string>
+    <string name="twoeuro_comm_2023_mc_short_title">"Fürst Rainier III"</string>
+
+    <string name="twoeuro_comm_2023_po_title">"Friede"</string>
+    <string name="twoeuro_comm_2023_po_desc">"Um die Armillarsphäre, einem Teil des portugiesischen Wappens, ist strahlenförmig das Wort Friede in den 16 offiziellen Idiomen, die in allen 20 Ländern der Eurozone gesprochen werden mit Stand Januar 2023, dargestellt. Am mittleren linken Bildrand zum oberen rechten Bildrand hin verlaufend sind die Ausgabeinstitution „CASA DA MOEDA“, der Münzgestalter „José S. Teixeira“, der Landesname „PORTUGAL“ und die Jahreszahl „2023“ abgebildet."</string>
+    <string name="twoeuro_comm_2023_po_volume">"500.000 "</string>
+    <string name="twoeuro_comm_2023_po_date">"2023"</string>
+    <string name="twoeuro_comm_2023_po_short_title">"Friede"</string>
+
+    <string name="twoeuro_comm_2023_po_2_title">"Weltjugendtag Lissabon 2023"</string>
+    <string name="twoeuro_comm_2023_po_2_desc">"Mittig ein Pilgerkreuz sowie eine menschenähnliche Figuren unterschiedlicher Größe und Beschaffenheit, die wie auf einem Globus um das Kreuz platziert sind und von zwei Händen in einer einladenden Geste umfangen werden. Am oberen linken Bildrand zum mittleren rechten Bildrand hin verlaufend ist der Ausgabeanlass „JORNADA MUNDIAL DA JUVENTUDE“ und „LISBOA 2023“ zu sehen. Am unteren Bildrand ist das Wappen von Portugal, der Landesname „PORTUGAL“, die Ausgabeinstitution „CASA DA MOEDA“ und der Münzgestalter „JOÃO DUARTE“ abgebildet."</string>
+    <string name="twoeuro_comm_2023_po_2_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2023_po_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_po_2_short_title">"Weltjugendtag Lissabon"</string>
+    
+    <string name="twoeuro_comm_2023_sk_title">"100 Jahre Erste Bluttransfusion in der Slowakei"</string>
+    <string name="twoeuro_comm_2023_sk_desc">"Ausbalancierte kreisförmige Komposition mit einem sich wiederholenden Rhythmus von Kreisen dargestellt. In der Mitte des kleinsten Kreises befindet sich ein gleichschenkliges Kreuz mit den Symbolen der Blutgruppen. Auf der Innenseite ist ein dreistufiger, sich wiederholender Umriss mit einem dominanten Blutstropfen eingelassen, der die gesamte Symbolik der Münze unterstreicht. Im zentralen Kreis wechseln sich Fragmente von Reagenzgläsern und stilisierte Blutstropfen ab. Am Bildrand ist der Ausgabeanlass „PRVÁ TRANSFÚZJA KRVI“, die Jahreszahlen „1923“ und „2023“ sowie der Ausgabestaat „SLOVENSKO“ zu sehen."</string>
+    <string name="twoeuro_comm_2023_sk_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2023_sk_date">"02.03.2023"</string>
+    <string name="twoeuro_comm_2023_sk_short_title">"Bluttransfusion"</string>
+
+    <string name="twoeuro_comm_2023_sk_2_title">"200 Jahre Beginn der regulären Pferde-Expresspost auf der Strecke Wien – Bratislava"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"Eine in schneller Fahrt abgebildete Postkutsche mit 2 Pferden und mittig das Symbol der Pferde-Expresspost. Am oberen Bildrand ist der Ausgabestaat „SLOVENSKO“, unterhalb des Motivs ist die Jahreszahl „1823“ sowie der Ausgabeanlass „VIEDEŇ – BRATISLAVA“ zu erkennen."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"Oktober 2023"</string>
+    <string name="twoeuro_comm_2023_sk_2_short_title">"Pferde-Expresspost"</string>
+    
+    <string name="twoeuro_comm_2023_sm_title">"500. Todestag von Perugino"</string>
+    <string name="twoeuro_comm_2023_sm_desc">""</string>
+    <string name="twoeuro_comm_2023_sm_volume">""</string>
+    <string name="twoeuro_comm_2023_sm_date">"2023"</string>
+    <string name="twoeuro_comm_2023_sm_short_title">"Perugino"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"500. Todestag von Luca Signorelli"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">""</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">""</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_sm_2_short_title">"Luca Signorelli"</string>
+    
+    <string name="twoeuro_comm_2023_si_title">"150. Geburtstages von Josip Plemelj"</string>
+    <string name="twoeuro_comm_2023_si_desc">"Teile der Gleichung, die Josip Plemelj als erster weltweit gelöst hat. Zahlen und Symbole drehen sich in Kreisen, die die Drehung der Planeten, die Bewegung im Raum und gleichzeitig das Zusammenfügen einzelner unlösbarer Elemente zu einem Ganzen veranschaulichen. Es verbindet die zwei Arbeits- und Forschungsgebiete Plemeljs, die Mathematik und Astronomie. In den Zahlen- und Buchstabenkreisen ist der Ausgabestaat „SLOVENIJA“, die Jahreszahl „2023“ und der Ausgabeanlass „JOSIP PLEMELJ 1873“ eingearbeitet."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1.000.000"</string>
+    <string name="twoeuro_comm_2023_si_date">"2023"</string>
+    <string name="twoeuro_comm_2023_si_short_title">"Josip Plemelj"</string>
+
+    <string name="twoeuro_comm_2023_va_title">"150. Todestag von Alessandro Manzoni"</string>
+    <string name="twoeuro_comm_2023_va_desc">""</string>
+    <string name="twoeuro_comm_2023_va_volume">"78.000"</string>
+    <string name="twoeuro_comm_2023_va_date">"2023"</string>
+    <string name="twoeuro_comm_2023_va_short_title">"Alessandro Manzoni"</string>
+
+    <string name="twoeuro_comm_2023_va_2_title">"500. Todestag von Pietro Perugino"</string>
+    <string name="twoeuro_comm_2023_va_2_desc">""</string>
+    <string name="twoeuro_comm_2023_va_2_volume">"78.000"</string>
+    <string name="twoeuro_comm_2023_va_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_va_2_short_title">"Pietro Perugino"</string>
 
 
     <string name="twoeuro_comm_2007_eu_rv_title">"50. Jahrestag der Unterzeichnung des Vertrags von Rom"</string>

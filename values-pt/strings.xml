@@ -414,18 +414,20 @@
 "</string>
 
     <string name="version_history_last">"Versão 7.2\n
-        Sobre qualquer erro: por favor contacte-me matthias@online.de
-        Acrescentada Croácia
-        Corrigido o número errado de moedas na Alemanha 2002 grupo das casas da moeda.
-        Corrigida a falha na visão da UE.
-        Adicionada nova possibilidade de transferir colecções do antigo para o novo dispositivo.
-        Adicionado 2 euros de moedas comemorativas de 2022.
-        Acrescentada a encriptação de dados.
-        Correcção de falhas na importação, exportação e criação de pdf."</string>
+Acrescentada Croácia
+Corrigido o número errado de moedas na Alemanha 2002 grupo das casas da moeda.
+Corrigida a falha na visão da UE.
+Adicionada nova possibilidade de transferir colecções do antigo para o novo dispositivo.
+Adicionado 2 euros de moedas comemorativas de 2022.
+Acrescentada a encriptação de dados.
+Correcção de falhas na importação, exportação e criação de pdf.
+    "</string>
 
-    <string name="version_history_current">"Versão 7.1
-        2 euros de moedas comemorativas 2021+2022 adicionados.
-        Visibilidade fixa das moedas para vários tipos de colecções"</string>
+    <string name="version_history_current">"Versão 7.3\n
+Imagens Moedas comemorativas de 2€ Malta 2021+2022 corrigidas.
+Adicionadas moedas comemorativas de 2€ 2023.
+Sobre qualquer erro: por favor contacte-me matthias@online.de
+    "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>
     <string name="coin_2cent">"2 Cêntimos"</string>
@@ -453,7 +455,7 @@
     <string name="countryname_lv">"Letónia"</string>
     <string name="countryname_mt">"Malta"</string>
     <string name="countryname_mc">"Mónaco"</string>
-    <string name="countryname_ne">"Holanda"</string>
+    <string name="countryname_ne">"Países Baixos"</string>
     <string name="countryname_po">"Portugal"</string>
     <string name="countryname_sk">"Eslováquia"</string>
     <string name="countryname_si">"Eslovénia"</string>
