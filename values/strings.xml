@@ -20,7 +20,7 @@
     <string name="no">"No"</string>
     <string name="multi_collection_view">"Multi view"</string>
     <string name="source_ecb">"Source: EUROPEAN CENTRAL BANK"</string>
-    <string name="ecb_info">"The information and images of all euro coins may be obtained free of charge through the ECBs website"</string>
+    <string name="ecb_info">"The information and images of the common side of the euro coins may be obtained free of charge through the ECBs website"</string>
     <string name="action_import">"Import"</string>
     <string name="action_export">"Export"</string>
     <string name="action_createpdf">"Create pdf"</string>
@@ -415,17 +415,13 @@
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
-    <string name="version_history_last">"Version 7.2\n
-Added Croatia
-Fixed wrong number of coins in Germany 2002 mint group.
-Fixed crash in EU view.
-Added new possibility to transfer collections from old to new device.
-2€ commemorative coins 2022 added.
-Added data encryption.
-Fixed crashes in import, export and pdf creation.
+    <string name="version_history_current">"Version 7.4\n
+Added feature to use gallery images for coins.
+Added 2€ commemorative coins 2023
+Fixed some minor errors.
         "</string>
 
-    <string name="version_history_current">"Version 7.3\n
+    <string name="version_history_last">"Version 7.3\n
 Fixed image of 2€ commemorative coins Malte 2021+2022.
 Added 2023 2€ commemorative coins.
 On any error: please contact me matthias@online.de
@@ -2595,6 +2591,12 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2022_va_2_short_title">"Mutter Teresa von Kalkutta"</string>
 
 
+    <string name="twoeuro_comm_2023_cy_title">"60. Jahrestag der Gründung der Zentralbank von Zypern"</string>
+    <string name="twoeuro_comm_2023_cy_desc">""</string>
+    <string name="twoeuro_comm_2023_cy_volume">""</string>
+    <string name="twoeuro_comm_2023_cy_date">"2023"</string>
+    <string name="twoeuro_comm_2023_cy_short_title">"60y Zentralbank"</string>
+
     <string name="twoeuro_comm_2023_de_title">"Elbphilharmonie - Hamburg"</string>
     <string name="twoeuro_comm_2023_de_desc">"Die nationale Seite (Bildseite) wurde von dem Künstler Michael Otto aus Rodenbach gestaltet. Sie zeigt die Elbphilharmonie, das neue Wahrzeichen der Freien und Hansestadt Hamburg. Der Entwurf repräsentiert, durch die eindrucksvolle, detaillierte Darstellung des Konzertbaus vor der maritimen Stadtszenerie, das Bundesland Hamburg äußerst überzeugend.Im Kernbereich befinden sich ferner die Nationalitätenkennzeichnung „D“ für das Ausgabeland Bundesrepublik Deutschland, die Jahreszahl 2023, der Prägebuchstabe der jeweiligen Münzstätte, der Schriftzug „HAMBURG“ und die Initialen des Künstlers. Auf dem Außenring der nationalen Seite sind die zwölf Europasterne angeordnet."</string>
     <string name="twoeuro_comm_2023_de_volume">"30.000.000"</string>
@@ -2661,6 +2663,12 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_gr_2_date">"Juli 2023"</string>
     <string name="twoeuro_comm_2023_gr_2_short_title">"Constantin Carathéodory"</string>
 
+    <string name="twoeuro_comm_2023_ir_title">"Friede – 100 Jahre Beendigung des Bürgerkrieges 1923"</string>
+    <string name="twoeuro_comm_2023_ir_desc">""</string>
+    <string name="twoeuro_comm_2023_ir_volume">""</string>
+    <string name="twoeuro_comm_2023_ir_date">"2023"</string>
+    <string name="twoeuro_comm_2023_ir_short_title">"100y Friede"</string>
+
     <string name="twoeuro_comm_2023_it_title">"100 Jahre Italienische Luftstreitkräfte"</string>
     <string name="twoeuro_comm_2023_it_desc">"Stilisierte Zahl „100“, die von einem Kondensstreifen durchzogen wird, an dessen linken unteren Ende ein historisches Flugzeug und an dessen rechten oberen Ende ein moderner Kampfjet zu sehen ist. Ein halbrunde Linie am rechten Bildrand verbindet beide Elemente mit den Jahreszahlen „1923“ und „2023“. Der Ausgabeanlass „AERONAUTICA MILITARE“ ist am unteren Bildrand, das Monogramm der Italienischen Republik „RI“ oberhalb des Motivs, das Münzzeichen „R“ der römischen Prägestätte linkerhand und das Kürzel „VdS“ des Münzgestalters Valerio de Seta rechterhand zu sehen."</string>
     <string name="twoeuro_comm_2023_it_volume">"3.000.000"</string>
@@ -2702,6 +2710,18 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_mc_volume">""</string>
     <string name="twoeuro_comm_2023_mc_date">"2023"</string>
     <string name="twoeuro_comm_2023_mc_short_title">"Fürst Rainier III"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"550. Geburtstag von Nikolaus Kopernikus"</string>
+    <string name="twoeuro_comm_2023_mt_desc">""</string>
+    <string name="twoeuro_comm_2023_mt_volume">""</string>
+    <string name="twoeuro_comm_2023_mt_date">"2023"</string>
+    <string name="twoeuro_comm_2023_mt_short_title">"Nikolaus Kopernikus"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"Napoléon Bonaparte"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">""</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">""</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_mt_2_short_title">"Napoléon Bonaparte"</string>
 
     <string name="twoeuro_comm_2023_po_title">"Friede"</string>
     <string name="twoeuro_comm_2023_po_desc">"Um die Armillarsphäre, einem Teil des portugiesischen Wappens, ist strahlenförmig das Wort Friede in den 16 offiziellen Idiomen, die in allen 20 Ländern der Eurozone gesprochen werden mit Stand Januar 2023, dargestellt. Am mittleren linken Bildrand zum oberen rechten Bildrand hin verlaufend sind die Ausgabeinstitution „CASA DA MOEDA“, der Münzgestalter „José S. Teixeira“, der Landesname „PORTUGAL“ und die Jahreszahl „2023“ abgebildet."</string>

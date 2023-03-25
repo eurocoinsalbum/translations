@@ -139,17 +139,13 @@
 
 
 
-	<string name="version_history_last">"Versija 7.2\n
-Pridėta Kroatija
-Noteikts nepareizs monētu skaits Vācijas 2002. gada kaltuvju grupā.
-Novērsta kļūme ES skatā.
-Pievienota jauna iespēja pārnest kolekcijas no vecās ierīces uz jauno.
-Pievienotas 2 € piemiņas monētas 2022. gadam.
-Pievienots datu šifrēšana.
-Novērstas kļūmes importēšanas, eksportēšanas un pdf izveides laikā.
+	<string name="version_history_current">"Versija 7.4\n
+Pievienota funkcija, lai monētām izmantotu galerijas attēlus.
+Pievienotas 2€ piemiņas monētas 2023
+Izlabotas dažas nelielas kļūdas.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.3\n
+	<string name="version_history_last">"Versija 7.3\n
 Par jebkuru kļūdu: lūdzu, sazinieties ar mani matthias@online.de
 Attēli 2€ piemiņas monētas Malta 2021+2022 labots.
 Pievienotas 2 eiro piemiņas monētas 2023.

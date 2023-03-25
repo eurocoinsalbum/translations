@@ -409,17 +409,13 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.2\n
-Aggiunta Croazia
-Corretto il numero errato di monete nel gruppo di zecca Germania 2002.
-Corretto l'arresto anomalo nella vista UE.
-Aggiunta la possibilità di trasferire le collezioni dal vecchio al nuovo dispositivo.
-Aggiunte le monete commemorative da 2€ 2022.
-Aggiunta la crittografia dei dati.
-Corretti gli arresti anomali nell'importazione, nell'esportazione e nella creazione di pdf.
+    <string name="version_history_current">"Versione 7.4\n
+Aggiunta funzionalità per utilizzare le immagini della galleria per le monete.
+Aggiunte monete commemorative da 2€ 2023
+Risolti alcuni errori minori.
     "</string>.
 
-    <string name="version_history_current">"Versione 7.3\n
+    <string name="version_history_last">"Versione 7.3\n
 Immagini 2€ Commemorativi Malta 2021+2022 corretti.
 Aggiunte monete da 2€ commemorative 2023.
 Per qualsiasi errore: contattatemi matthias@online.de

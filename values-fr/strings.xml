@@ -406,17 +406,13 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.2\n
-Ajout de la Croatie
-Correction du nombre erroné de pièces dans le groupe de monnaies Allemagne 2002.
-Correction d'un crash dans la vue UE.
-Ajout d'une nouvelle possibilité de transférer les collections de l'ancien au nouveau dispositif.
-Ajout des pièces commémoratives de 2€ 2022.
-Ajout du cryptage des données.
-Correction de crashs dans l'importation, l'exportation et la création de pdf.
+    <string name="version_history_current">"Version 7.4\n
+Ajout d'une fonctionnalité permettant d'utiliser les images de la galerie pour les pièces.
+Ajout des pièces commémoratives de 2€ 2023
+Correction de quelques erreurs mineures.
     "</string>
 
-    <string name="version_history_current">"Version 7.3\n
+    <string name="version_history_last">"Version 7.3\n
 Images 2€ commémoratives Malte 2021+2022 corrigées.
 Ajout des pièces commémoratives de 2 € 2023.
 Pour toute erreur : veuillez me contacter matthias@online.de

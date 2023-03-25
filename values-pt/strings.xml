@@ -413,17 +413,13 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_last">"Versão 7.2\n
-Acrescentada Croácia
-Corrigido o número errado de moedas na Alemanha 2002 grupo das casas da moeda.
-Corrigida a falha na visão da UE.
-Adicionada nova possibilidade de transferir colecções do antigo para o novo dispositivo.
-Adicionado 2 euros de moedas comemorativas de 2022.
-Acrescentada a encriptação de dados.
-Correcção de falhas na importação, exportação e criação de pdf.
+    <string name="version_history_current">"Versão 7.4\n
+Adicionado recurso para usar imagens da galeria para moedas.
+Adicionadas moedas comemorativas de 2€ 2023
+Corrigido alguns pequenos erros.
     "</string>
 
-    <string name="version_history_current">"Versão 7.3\n
+    <string name="version_history_last">"Versão 7.3\n
 Imagens Moedas comemorativas de 2€ Malta 2021+2022 corrigidas.
 Adicionadas moedas comemorativas de 2€ 2023.
 Sobre qualquer erro: por favor contacte-me matthias@online.de

@@ -415,18 +415,14 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.2\n
-Kroatien har lagts till
-Rättade fel antal mynt i myntgruppen Tyskland 2002.
-Fastställd krasch i EU-vyn.
-Lägg till ny möjlighet att överföra samlingar från gammal till ny enhet.
-2 € minnesmynt 2022 har lagts till.
-Datakryptering har lagts till.
-Fastställda krascher vid import, export och skapande av pdf-filer.
+	<string name="version_history_current">"Version 7.4\n
+Tillagd funktion för att använda galleribilder för mynt.
+Lade till 2€ minnesmynt Malte 2023
+Fixade några mindre fel.
 	"</string>
 
-	<string name="version_history_current">"Version 7.3\n
-Bilder 2€ minnesmynt Malta 2021+2022 korrigerade.
+	<string name="version_history_last">"Version 7.3\n
+Bilder 2€ minnesmynt 2021+2022 korrigerade.
 Lade till 2 €-minnesmynt 2023.
 Vid eventuella fel: kontakta mig matthias@online.de
 	"</string>

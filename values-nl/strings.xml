@@ -411,17 +411,13 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.2\n
-Kroatië toegevoegd
-Verkeerd aantal munten in Duitsland 2002 muntgroep opgelost.
-Crash in EU-weergave opgelost.
-Nieuwe mogelijkheid toegevoegd om collecties over te zetten van oud naar nieuw apparaat.
-2€ herdenkingsmunten 2022 toegevoegd.
-Gegevensencryptie toegevoegd.
-Crashes bij importeren, exporteren en pdf aanmaken opgelost.
+    <string name="version_history_current">"Versie 7.4\n
+Functie toegevoegd om galerijafbeeldingen voor munten te gebruiken.
+2€ herdenkingsmunten 2023 toegevoegd
+Enkele kleine fouten verholpen.
     "</string>
 
-    <string name="version_history_current">"Versie 7.3\n
+    <string name="version_history_last">"Versie 7.3\n
 Afbeeldingen 2€ herdenkingsmunten Malta 2021+2022 gecorrigeerd.
 Herdenkingsmunten van € 2 2023 toegevoegd.
 Bij elke fout: neem contact met me op matthias@online.de

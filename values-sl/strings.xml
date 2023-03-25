@@ -231,17 +231,13 @@
 
 
 
-    <string name="version_history_last">"Različica 7.2\n
-Dodana Hrvaška
-Popravljeno napačno število kovancev v skupini kovnic Nemčija 2002.
-Odpravljena okvara v pogledu EU.
-Dodana nova možnost prenosa zbirk iz stare v novo napravo.
-Dodani spominski kovanci za 2 € 2022.
-Dodano šifriranje podatkov.
-Odpravljene napake pri uvozu, izvozu in ustvarjanju datotek pdf.
+    <string name="version_history_current">"Različica 7.4\n
+Dodana funkcija za uporabo galerijskih slik za kovance.
+Dodani spominski kovanci za 2 € 2023
+Odpravljenih nekaj manjših napak.
     "</string>
 
-    <string name="version_history_current">"Različica 7.3\n
+    <string name="version_history_last">"Različica 7.3\n
 Popravljene slike spominskih kovancev za 2 € Malta 2021+2022.
 Dodani spominski kovanci za 2 € 2023.
 Ob kakršni koli napaki: prosim, pišite mi na matthias@online.de
