@@ -356,6 +356,8 @@
     <string name="collections_transferred">"The following collections have been transferred: %1$s"</string>
     <string name="transfer_code_confirmed">"Your collections are ready to be transferred to your new device. On your new device push the button '%1$s'"</string>
 
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Münze im Blister"</string>
 
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
@@ -404,13 +406,12 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 7.4\n
-Funktion zur Verwendung von Fotos aus der Galerie für Münzbilder hinzugefügt.
-Gedenkmünzen 2023 hinzugefügt.
-Einige kleine Fehler in der Anzeige behoben.
+    <string name="version_history_current">"Version 7.6\n
+Neue Eigenschaft für Münzen hinzugefügt: Münze im Blister.
+Münzbilder der Gedenkmünzen für Griechenland 2023 und San Marino 2021 korrigiert.
     "</string>
 
-    <string name="version_history_current">"Version 7.5\n
+    <string name="version_history_last">"Version 7.5\n
 2€ Gedenkmünzen 2023 Andorra und Belgien hinzugefügt.
 Fehlende Münzbilder 2€ Gedenkmünzen hinzugefügt.
 Alle Texte der 2€ Gedenkmünzen in alle unterstützten Sprachen hinzugefügt.

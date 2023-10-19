@@ -356,7 +356,8 @@
     <string name="collections_transferred">"Les collections suivantes ont été transférées : %1$s"</string>
     <string name="transfer_code_confirmed">"Vos collections sont prêtes à être transférées sur votre nouvel appareil. Sur votre nouvel appareil, appuyez sur le bouton '%1$s'".</string>
 
-
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Monnaie sous blister"</string>
 
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
@@ -406,13 +407,12 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.4\n
-Ajout d'une fonctionnalité permettant d'utiliser les images de la galerie pour les pièces.
-Ajout des pièces commémoratives de 2€ 2023
-Correction de quelques erreurs mineures.
+    <string name="version_history_current">"Version 7.6\n
+Ajout d'un nouvel attribut de pièce "Pièce sous blister".
+Correction des images des pièces commémoratives Grèce 2023 et Saint-Marin 2021.
     "</string>
 
-    <string name="version_history_current">"Version 7.5\n
+    <string name="version_history_last">"Version 7.5\n
 Ajout des pièces commémoratives de 2€ 2023 pour Andorre et la Belgique.
 Ajout des images manquantes des pièces commémoratives de 2 €.
 Ajout de textes pour toutes les pièces commémoratives de 2 € pour toutes les langues prises en charge.

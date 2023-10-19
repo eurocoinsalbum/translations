@@ -137,15 +137,15 @@
 	<string name="collections_transferred">"Buvo perkeltos šios kolekcijos: %1$s"</string>
 	<string name="transfer_code_confirmed">"Jūsų kolekcijos paruoštos perkelti į naująjį įrenginį. Naujajame įrenginyje paspauskite mygtuką "%1$s""</string>
 
+	<!-- version 7.6 -->
+	<string name="coin_in_blister">"Moneta lizdinėje plokštelėje"</string>
 
-
-	<string name="version_history_last">"Versija 7.4\n
-Pievienota funkcija, lai monētām izmantotu galerijas attēlus.
-Pievienotas 2€ piemiņas monētas 2023
-Izlabotas dažas nelielas kļūdas.
+	<string name="version_history_current">"Versija 7.6\n
+Pridėtas naujas monetos atributas „Moneta lizdinėje plokštelėje“.
+Fiksuoti proginių monetų Graikija 2023 ir San Marinas 2021 monetų atvaizdai.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.5\n
+	<string name="version_history_last">"Versija 7.5\n
 Pridėtos 2 € proginės monetos 2023 m. Andorai ir Belgijai.
 Pridėta trūkstamų 2 € proginių monetų atvaizdų.
 Pridėtas tekstas visoms 2 € proginėms monetoms visomis palaikomomis kalbomis.

@@ -361,7 +361,8 @@
     <string name="collections_transferred">"De volgende collecties zijn overgedragen: %1$s"</string>
     <string name="transfer_code_confirmed">"Uw collecties zijn klaar om overgezet te worden naar uw nieuwe toestel. Druk op uw nieuwe apparaat op de knop '%1$s'"</string>
 
-
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Munt in blister"</string>
 
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
@@ -411,13 +412,12 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.4\n
-Functie toegevoegd om galerijafbeeldingen voor munten te gebruiken.
-2€ herdenkingsmunten 2023 toegevoegd
-Enkele kleine fouten verholpen.
+    <string name="version_history_current">"Versie 7.6\n
+Nieuw muntattribuut toegevoegd "Munt in blister".
+Muntafbeeldingen van herdenkingsmunten Griekenland 2023 en San Marino 2021 opgelost.
     "</string>
 
-    <string name="version_history_current">"Versie 7.5\n
+    <string name="version_history_last">"Versie 7.5\n
 2€ herdenkingsmunten 2023 toegevoegd voor Andorra en België.
 Afbeeldingen van ontbrekende herdenkingsmunten van € 2 toegevoegd.
 Teksten toegevoegd voor alle 2€ herdenkingsmunten voor alle ondersteunde talen.

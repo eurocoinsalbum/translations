@@ -359,7 +359,8 @@
     <string name="collections_transferred">"Sono state trasferite le seguenti collezioni: %1$s"</string>
     <string name="transfer_code_confirmed">"Le raccolte sono pronte per essere trasferite sul nuovo dispositivo. Sul nuovo dispositivo premere il pulsante '%1$s'"</string>.
 
-
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Moneta in blister"</string>
 
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
@@ -409,13 +410,12 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.4\n
-Aggiunta funzionalità per utilizzare le immagini della galleria per le monete.
-Aggiunte monete commemorative da 2€ 2023
-Risolti alcuni errori minori.
+    <string name="version_history_current">"Versione 7.6\n
+Aggiunto nuovo attributo moneta "Moneta in blister".
+Immagini delle monete commemorative Grecia 2023 e San Marino 2021 fisse.
     "</string>.
 
-    <string name="version_history_current">"Versione 7.5\n
+    <string name="version_history_last">"Versione 7.5\n
 Aggiunte monete da 2€ commemorative 2023 per Andorra e Belgio.
 Aggiunte le immagini mancanti della moneta commemorativa da 2€.
 Aggiunti testi per tutte le monete commemorative da 2€ per tutte le lingue supportate.

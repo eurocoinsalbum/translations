@@ -229,15 +229,15 @@
     <string name="collections_transferred">"Naslednje zbirke so bile prenesene: %1$s"</string>
     <string name="transfer_code_confirmed">"Vaše zbirke so pripravljene za prenos v novo napravo. Na novi napravi pritisnite gumb '%1$s'"</string>
 
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Mynt i blister"</string>
 
-
-    <string name="version_history_last">"Različica 7.4\n
-Dodana funkcija za uporabo galerijskih slik za kovance.
-Dodani spominski kovanci za 2 € 2023
-Odpravljenih nekaj manjših napak.
+    <string name="version_history_current">"Različica 7.6\n
+Dodan nov atribut kovanca "Kovanec v pretisnem omotu".
+Popravljeni sliki spominskih kovancev Grčija 2023 in San Marino 2021.
     "</string>
 
-    <string name="version_history_current">"Različica 7.5\n
+    <string name="version_history_last">"Različica 7.5\n
 Dodani spominski kovanci za 2 € 2023 za Andoro in Belgijo.
 Dodane slike manjkajočih spominskih kovancev za 2 €.
 Dodana besedila za vse spominske kovance za 2 € za vse podprte jezike.

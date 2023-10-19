@@ -364,7 +364,8 @@
     <string name="collections_transferred">"Se han transferido las siguientes colecciones: %1$s"</string>
     <string name="transfer_code_confirmed">"Tus colecciones están listas para ser transferidas a tu nuevo dispositivo. En su nuevo dispositivo pulse el botón '%1$s'"</string>
 
-
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Moneda en blister"</string>
 
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
@@ -414,13 +415,12 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.4\n
-Función agregada para usar imágenes de la galería para monedas.
-Añadidas monedas conmemorativas de 2€ 2023
-Se corrigieron algunos errores menores.
+    <string name="version_history_current">"Versión 7.6\n
+Se agregó un nuevo atributo de moneda "Moneda en blister".
+Imágenes de monedas conmemorativas de Grecia 2023 y San Marino 2021 corregidas.
     "</string>
 
-    <string name="version_history_current">"Versión 7.5\n
+    <string name="version_history_last">"Versión 7.5\n
 Añadidas monedas conmemorativas de 2€ 2023 para Andorra y Bélgica.
 Añadidas imágenes de monedas conmemorativas de 2€ que faltaban.
 Se agregaron textos para todas las monedas conmemorativas de 2 € para todos los idiomas admitidos.

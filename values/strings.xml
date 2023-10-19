@@ -366,6 +366,8 @@
     <string name="collections_transferred">"The following collections have been transferred: %1$s"</string>
     <string name="transfer_code_confirmed">"Your collections are ready to be transferred to your new device. On your new device push the button '%1$s'"</string>
 
+    <!-- version 7.6 -->
+    <string name="coin_in_blister">"Coin in blister"</string>
 
     <string name="how_trading_partner_works">"
 - The trading functionality is NOT for beginners.
@@ -415,13 +417,12 @@
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
 "</string>
 
-    <string name="version_history_last">"Version 7.4\n
-Added feature to use gallery images for coins.
-Added 2€ commemorative coins 2023.
-Fixed some minor errors.
+    <string name="version_history_current">"Version 7.6\n
+Added new coin attribute "Coin in blister".
+Coin images of commemorative coins Greece 2023 and San Marino 2021 fixed.
         "</string>
 
-    <string name="version_history_current">"Version 7.5\n
+    <string name="version_history_last">"Version 7.5\n
 Added 2€ commemorative coins 2023 for Andorra and Belgium.
 Added missing 2€ commemorative coin images.
 Added texts for all 2€ commemorative coins for all supported languages.
