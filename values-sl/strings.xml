@@ -118,7 +118,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Izbrisane varnostne kopije v napravi: \ n %1$s \ nDeleted varnostne kopije v oblaku: \ n %2$s"</string>
     <string name="backup_upload_error">"Napaka med nalaganjem varnostne kopije"</string>
-    <string name="action_share_with">"Deliti z…"</string>
+    <string name="action_share_with">"Deli s prijatelji..."</string>
     <string name="action_add_share_with">"Dodaj novo"</string>
     <string name="action_retract_share">"Umaknite se"</string>
     <string name="share_with_ok">"V skupni rabi z %1$s"</string>
@@ -237,11 +237,8 @@ Dodan nov atribut kovanca "Kovanec v pretisnem omotu".
 Popravljeni sliki spominskih kovancev Grčija 2023 in San Marino 2021.
     "</string>
 
-    <string name="version_history_last">"Različica 7.5\n
-Dodani spominski kovanci za 2 € 2023 za Andoro in Belgijo.
-Dodane slike manjkajočih spominskih kovancev za 2 €.
-Dodana besedila za vse spominske kovance za 2 € za vse podprte jezike.
-Za kakršno koli napako: mi pišite na matthias@online.de
+    <string name="version_history_last">"Različica 7.6.2\n
+Adicionadas moedas comemorativas de 2€ 2024.
     "</string>
 
 
@@ -2384,6 +2381,16 @@ Uporabnik se lahko za varovanje podatkov obrne na ustrezno institucijo.
     <string name="twoeuro_comm_2023_lt_desc">"motiv prikazuje stilizirano sončnico s cvetnimi listi, ki so videti kot silhuete ljudi, ki se držijo za roke, se objemajo in ščitijo drug drugega ter tako poosebljajo enotnost, podporo in moč, ki izhajajo iz povezanosti. Sončnica je prikazana kot vzhajajoče sonce in upanje na nov začetek, ptice pa ponazarjajo svobodo, upanje in pogum ter ljudi, ki se dvignejo nad težave in vsiljevanje volje, kot poklon vsem, ki so žrtvovali življenje, in njihovim odhajajočim dušam. Motiv obdajajo napisa »LIETUVA« in »KARTU SU UKRAINA« ter letnica izdaje »2023« in oznaka litovske kovnice. Kovanec je oblikovala Eglė Žemaitė. Na kolobarju je 12 zvezd Evropske unije."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"prvo četrtletje 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"uvedba eura kot uradne valute Hrvaške 1. januarja 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"na kovancu je prikazan vodoraven napis države izdajateljice »HRVATSKA« in letnice izdaje »2023« ter besedi »ČLANICA EUROPODRUČJA«, ki sta izpisani vzdolž roba jedra kovanca. Ti napisi simbolično tvorijo stiliziran simbol eura »€«. Druga osrednja upodobitev na kovancu je hrvaška šahovnica, ki je značilen in prepoznaven hrvaški simbol ter predstavlja del grba Republike Hrvaške. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"september 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"»leto art nouveau«, ki v letu 2023 poteka v Belgiji"</string>
+    <string name="twoeuro_comm_2023_be_desc">"motiv prikazuje okrasni detajl s fasade stavbe Hotel Van Eetvelde, znamenite mestne hiše v Bruslju, ki jo je zasnoval belgijski art nouveau arhitekt Victor Horta in je bila razglašena za del Unescove svetovne dediščine. Ukrivljene, asimetrične črte tega okrasnega detajla odražajo značilni slog gibanja art nouveau, ki ga je navdihovala narava. Ta detajl zapolnjuje spodnjo polovico jedra, tako da v zgornji polovici ostane prazen prostor, ki je zapolnjen z napisom »ART NOUVEAU«. Na skrajni desni sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica, so na levi strani Hermesova palica, ki je oznaka kovnice v Utrechtu, in oznaka direktorja belgijske kovnice, astra pred erlenmajerico, nekoliko bolj v sredini pa oznaka države »BE« in letnica »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"junij 2023"</string>
 
     <!-- END auto generated code for language sl -->
 

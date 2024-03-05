@@ -83,7 +83,7 @@
     <string name="pref_background_color">"Hintergrundfarbe"</string>
     <string name="pref_hide_not_existing_coins">"Nicht existierende Münzen ausblenden"</string>
     <string name="click_the_coin_set_expand_button">"Um die Gruppe zu öffnen drücke den Plus-Button"</string>
-    <string name="action_manage_shared_collection">"Verwalten"</string>
+    <string name="action_manage_shared_collection">"Freunde verwalten..."</string>
     <string name="collection_is_not_shared">"Diese Sammlung wurde nicht geteilt"</string>
     <string name="register">"Registrieren"</string>
 
@@ -120,7 +120,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Gelöschte Dateien auf dem Gerät:\n%1$s\nGelöschte Dateien in der Cloud:\n%2$s"</string>
     <string name="backup_upload_error">"Fehler beim Speichern der Sicherung in die Cloud"</string>
-    <string name="action_share_with">"Teilen mit ..."</string>
+    <string name="action_share_with">"Mit Freunden teilen..."</string>
     <string name="action_add_share_with">"Neue hinzufügen"</string>
     <string name="action_retract_share">"Zurückziehen"</string>
     <string name="share_with_ok">"Geteilt mit %1$s"</string>
@@ -224,7 +224,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"Weltweit"</string>
-    <string name="action_trading_partners">"Tauschpartner"</string>
+    <string name="action_trading_partners">"Tauschpartner..."</string>
     <string name="title_no_trading_partners_found">"Keine Tauschpartner gefunden"</string>
     <string name="title_trading_partner_found">"Tauschpartner"</string>
     <string name="change_my_country_only_hint">"Sie finden eventuell mehr Tauschpartner, wenn Sie auch Tauschpartner außerhalb Ihres eigenen Landes (Wohnort) im Einstellungen Dialog erlauben."</string>
@@ -251,7 +251,7 @@
     <string name="trading_session_empty_no_sending">"Es wurden keine Münzen ausgewählt. Bitte Münzen auswählen, bevor die Tauschsammlung an den Tauschpartner gesendet wird."</string>
     <string name="trading_collection_deleted_by_counterparty">"Die Tauschsammlung '%1$s' wurde vom Tauschpartner gelöscht."</string>
     <string name="account_not_activated">"Das Benutzerkonto wurde noch nicht aktiviert. Bitte Mail-Adresse registrieren und den Aktivierungslink bestätigen oder Cloud (Internet) Funktionilatität in den Einstellungen deaktivieren."</string>
-    <string name="action_share_public">"Diese Sammlung veröffentlichen"</string>
+    <string name="action_share_public">"Veröffentlichen..."</string>
     <string name="action_retract_share_public">"Zurückziehen dieser Sammlung"</string>
     <string name="collection_published_for_trading">"Die Sammlung wurde veröffentlicht. Möchten Sie jetzt nach Tauschpartnern suchen?"</string>
     <string name="collection_retracted_for_trading">"Die Sammlung wurde zurückgezogen und ist für neue Tauschpartner nicht mehr verfügbar."</string>
@@ -406,16 +406,13 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.6\n
+    <string name="version_history_last">"Version 7.6\n
 Neue Eigenschaft für Münzen hinzugefügt: Münze im Blister.
 Münzbilder der Gedenkmünzen für Griechenland 2023 und San Marino 2021 korrigiert.
     "</string>
 
-    <string name="version_history_last">"Version 7.5\n
-2€ Gedenkmünzen 2023 Andorra und Belgien hinzugefügt.
-Fehlende Münzbilder 2€ Gedenkmünzen hinzugefügt.
-Alle Texte der 2€ Gedenkmünzen in alle unterstützten Sprachen hinzugefügt.
-Bei einem Fehler: bitte kontaktieren Sie mich matthias@online.de
+    <string name="version_history_current">"Version 7.6.2\n
+2€ Gedenkmünzen 2024 hinzugefügt.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2578,6 +2575,16 @@ Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
     <string name="twoeuro_comm_2023_lt_desc">"Abgebildet ist in der Mitte eine stilisierte Sonnenblume, deren Blütenblätter aussehen wie menschliche Silhouetten, die sich an den Händen halten, umarmen und schützen und damit Einheit, Unterstützung und die Kraft des Zusammenseins verkörpern. Mit künstlerischen Mitteln wird die Sonnenblume als aufgehende Sonne – die Hoffnung auf einen Neuanfang – gestaltet, mit Vögeln für Freiheit, Hoffnung und Mut, und mit Menschen, die sich über die Umstände erheben und niemals einen aufgezwungenen Willen akzeptieren, auch eine Anspielung auf diejenigen, die ihr Leben geopfert haben, und ihre scheidenden Seelen. Entlang des inneren Münzrings sind der Schriftzug „LIETUVA“ (LITAUEN) und das Prägejahr „2023“ zu lesen, rechts steht das Münzzeichen der litauischen Prägeanstalt und unterhalb der Sonnenblumenblätter findet sich die Aufschrift „KARTU SU UKRAINA“ (GEMEINSAM MIT DER UKRAINE). Die Münze wurde von Eglė Žemaitė entworfen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"Erstes Quartal 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"Einführung des Euro als offizielle Währung Kroatiens am 1. Januar 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"Auf dem Münzmotiv sind horizontal der Name des Ausgabestaats „HRVATSKA“ (Kroatien) und das Ausgabejahr „2023“ sowie halbkreisförmig entlang des inneren Münzrings der Schriftzug „ČLANICA EUROPODRUČJA“ (Mitglied des Euro-Währungsgebiets) zu lesen. Diese Aufschriften ergeben optisch zusammen ein stilisiertes Euro-Zeichen („€“). Das andere zentrale Münzmotiv ist das Schachbrettmuster als leicht erkennbares Symbol für Kroatien und Teil des kroatischen Wappens. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"September 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"„Jahr des Jugendstils“ (Art Nouveau), das 2023 in Belgien begangen wird"</string>
+    <string name="twoeuro_comm_2023_be_desc">"Das Münzmotiv ist ein dekoratives Element der Fassade des „Hotel Van Eetvelde“, eines emblematischen Stadthauses in Brüssel, das von dem belgischen Art-Nouveau-Architekten Victor Horta entworfen und von der Unesco als Welterbe anerkannt wurde. Die geschwungenen, asymmetrischen Linien des Elements spiegeln den charakteristischen von der Natur inspirierten Stil der Art-Nouveau-Bewegung wider. Das Element füllt die untere Münzhälfte aus und lässt darüber einen Freiraum, in dem sich die Inschrift „ART NOUVEAU“ befindet. Ganz rechts sind die Initialen der Münzgestalterin Iris Bruijns zu sehen. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, findet sich ganz links neben dem belgischen Münzmeisterzeichen, einer Asterblüte vor einem Erlenmeyerkolben, auch das Zeichen der Münze von Utrecht, ein Hermesstab. Weiter rechts stehen der Ländercode „BE“ sowie die Jahreszahl „2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"Juni 2023"</string>
 
     <!-- END auto generated code for language de -->
 

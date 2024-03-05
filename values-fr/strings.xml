@@ -113,7 +113,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"sauvegardes supprimées sur le périphérique:\n%1$s les sauvegardes\nDeleted dans les nuages:\n%2$s"</string>
     <string name="backup_upload_error">"Erreur lors du chargement de sauvegarde"</string>
-    <string name="action_share_with">"Partager avec ..."</string>
+    <string name="action_share_with">"Partager avec des amis..."</string>
     <string name="action_add_share_with">"ajouter"</string>
     <string name="action_retract_share">"retirer"</string>
     <string name="share_with_ok">"partagé avec %1$s"</string>
@@ -224,7 +224,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"À l'échelle mondiale"</string>
-    <string name="action_trading_partners">"Partenaires commerciaux"</string>
+    <string name="action_trading_partners">"Partenaires commerciaux..."</string>
     <string name="title_no_trading_partners_found">"Aucun partenaires commerciaux trouvé"</string>
     <string name="title_trading_partner_found">"Partenaires commerciaux"</string>
     <string name="change_my_country_only_hint">"Vous pouvez trouver des partenaires commerciaux si vous également autoriser les partenaires commerciaux d'autres pays que le vôtre dans la boîte de dialogue de configuration."</string>
@@ -407,16 +407,13 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.6\n
+    <string name="version_history_last">"Version 7.6\n
 Ajout d'un nouvel attribut de pièce "Pièce sous blister".
 Correction des images des pièces commémoratives Grèce 2023 et Saint-Marin 2021.
     "</string>
 
-    <string name="version_history_last">"Version 7.5\n
-Ajout des pièces commémoratives de 2€ 2023 pour Andorre et la Belgique.
-Ajout des images manquantes des pièces commémoratives de 2 €.
-Ajout de textes pour toutes les pièces commémoratives de 2 € pour toutes les langues prises en charge.
-En cas d'erreur : veuillez me contacter matthias@online.de
+    <string name="version_history_current">"Version 7.6.2\n
+Ajout des pièces commémoratives de 2€ 2024.
     "</string>
 
     <string name="coin_1cent">"1 Centime"</string>
@@ -2556,6 +2553,16 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2023_lt_desc">"le dessin se compose, au centre, d’un tournesol stylisé dont les pétales ressemblent à des silhouettes de personnes se tenant la main, s’étreignant et se protégeant mutuellement, incarnant l’unité, le soutien et la solidarité. Par des moyens artistiques, le tournesol représente le soleil levant (l’espoir d’un nouveau départ), des oiseaux (la liberté, l’espoir et le courage) et des personnes s’élevant au-dessus des circonstances et n’acceptant jamais qu’une volonté leur soit imposée ; il s’agit d’une allusion à celles et ceux qui ont sacrifié leur vie et à leurs âmes quittant ce monde. La composition est entourée des inscriptions « LIETUVA » (LITUANIE) et « KARTU SU UKRAINA » (ENSEMBLE AVEC L’UKRAINE), de l’année d’émission « 2023 » et de la marque d’atelier de la Monnaie lituanienne. La pièce a été conçue par Eglė Žemaitė. Les douze étoiles de l’Union européenne sont représentées dans l’anneau extérieur de la pièce."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"premier trimestre 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"introduction de l’euro comme monnaie officielle de la Croatie le 1erjanvier 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"le dessin comprend les inscriptions horizontales « HRVATSKA » (Croatie), qui correspond au nom du pays émetteur, et « 2023 » pour l’année d’émission, ainsi que les termes « ČLANICA EUROPODRUČJA » (membre de la zone euro) qui figurent sur le bord extérieur du centre de la pièce. Ces inscriptions forment un symbole stylisé de l’euro (« € »). L’autre motif central de la pièce est le symbole distinctif et reconnaissable de la Croatie, l’échiquier croate, qui représente une partie des armoiries de la République de Croatie. Les douze étoiles de l’Union européenne sont représentées dans l’anneau extérieur de la pièce."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"septembre 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"l’« année de l’Art nouveau », célébrée par la Belgique en 2023"</string>
+    <string name="twoeuro_comm_2023_be_desc">"sur le dessin figure un détail des motifs décoratifs ornant la façade de l’Hôtel van Eetvelde, une célèbre maison de maître bruxelloise conçue par l’architecte belge Victor Horta dans le style Art nouveau et classée au patrimoine mondial de l’UNESCO. Les lignes courbes et asymétriques de ces ornements reflètent le style caractéristique du mouvement Art nouveau, inspiré de la nature. Les motifs recouvrent la moitié inférieure de la pièce, l’inscription « ART NOUVEAU » figurant dans la moitié supérieure. À l’extrême droite sont gravées les initiales de la créatrice, Iris Bruijns. Les pièces devant être frappées par la Monnaie Royale des Pays-Bas, l’extrémité gauche du dessin porte la marque d’atelier de l’Hôtel des monnaies d’Utrecht (un caducée de Mercure) et la marque d’atelier du commissaire des monnaies belge (une fleur d’aster devant une fiole Erlenmeyer), ainsi que le code pays « BE » et le millésime « 2023 ». Les douze étoiles de l’Union européenne sont représentées dans l’anneau extérieur de la pièce."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"juin 2023"</string>
 
     <!-- END auto generated code for language fr -->
 

@@ -84,7 +84,7 @@
 	<string name="pref_background_color">"bakgrundsfärg"</string>
 	<string name="pref_hide_not_existing_coins">"Göm inte befintliga mynt"</string>
 	<string name="click_the_coin_set_expand_button">"För att öppna myntserie gruppen röra på plusknappen"</string>
-	<string name="action_manage_shared_collection">"hantera"</string>
+	<string name="action_manage_shared_collection">"Hantera vänner..."</string>
 	<string name="collection_is_not_shared">"Denna samling har inte delats"</string>
 	<string name="register">"registrera"</string>
 
@@ -122,10 +122,10 @@
 	<!-- 5.1 -->
 	<string name="deletedBackups">"Borttagna säkerhetskopior på enheten:\n%1$s\nDeleted säkerhetskopior i molnet:\n%2$s"</string>
 	<string name="backup_upload_error">"Fel vid uppladdning backup"</string>
-	<string name="action_share_with">"Dela med ..."</string>
-	<string name="action_add_share_with">"lägg till ny"</string>
-	<string name="action_retract_share">"ta tillbaka"</string>
-	<string name="share_with_ok">"delas med %1$s"</string>
+	<string name="action_share_with">"Dela med vänner..."</string>
+	<string name="action_add_share_with">"Lägg till ny"</string>
+	<string name="action_retract_share">"Ta tillbaka"</string>
+	<string name="share_with_ok">"Delas med %1$s"</string>
 	<string name="share_with_error">"Fel vid dela med %1$s"</string>
 	<string name="action_unshare_with_ok">"Indragna dela denna samling med %1$s"</string>
 	<string name="enter_email_to_share_to">"Ange e-post som du vill dela den här samlingen med."</string>
@@ -233,7 +233,7 @@
 
 	<!-- version 6.0 -->
 	<string name="countryname_world">"Över hela världen"</string>
-	<string name="action_trading_partners">"Handelspartners"</string>
+	<string name="action_trading_partners">"Handelspartners..."</string>
 	<string name="title_no_trading_partners_found">"Inga handelspartner found"</string>
 	<string name="title_trading_partner_found">"Handelspartners"</string>
 	<string name="change_my_country_only_hint">"Du kan hitta handelspartner om du även tillåter handelspartner från andra länder än din egen en i dialogrutan inställningar."</string>
@@ -416,16 +416,13 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 7.6\n
+	<string name="version_history_last">"Version 7.6\n
 Lade till nytt myntattribut "Mynt i blister".
 Myntbilder av minnesmynt Grekland 2023 och San Marino 2021 fixade.
 	"</string>
 
-	<string name="version_history_last">"Version 7.5\n
-Lade till 2€ minnesmynt 2023 för Andorra och Belgien.
-Lade till saknade 2€ minnesmyntbilder.
-Lade till texter för alla 2€-minnesmynt för alla språk som stöds.
-Vid eventuella fel: kontakta mig matthias@online.de
+	<string name="version_history_current">"Version 7.6.2\n
+Lade till 2€ jubileumsmynt 2024.
 	"</string>
 
 
@@ -2576,6 +2573,16 @@ Användaren kan kontakta motsvarande institution för datasekretess.
 	<string name="twoeuro_comm_2023_lt_desc">"Åtsidan upptas nedtill av en stiliserad solros med kronblad i form av människosilhuetter som håller varandras händer, som omfamnar och skyddar varandra som ett uttryck för enhet, stöd och för gemenskapens kraft. Ovan till höger syns några svävande fåglar. Solrosen är utformad som den uppgående solen – en förhoppning om en ny början, fågelns flykt, frihet, hopp och mod – som människor som övervinner sina omständigheter och vägrar att bli påtvingade någon annans vilja, och som en symbol för dem som offrat sina liv och vilkas själar lämnar dem. Ovanför motivet finns i omskrift präglingsåret ”2023”, det utgivande landets namn ”LIETUVA” och i solrosen ”KARTU SU UKRAINA” (tillsammans med Ukraina) samt det litauiska myntverkets myntmärke. Myntet är utformat av Eglė Žemaitė. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2023_lt_volume">"500000"</string>
 	<string name="twoeuro_comm_2023_lt_date">"Första kvartalet 2023"</string>
+
+	<string name="twoeuro_comm_2023_hr_title">"Införandet av euron som Kroatiens officiella valuta den 1 januari 2023"</string>
+	<string name="twoeuro_comm_2023_hr_desc">"Åtsidan upptas av inskrifterna i utgivningslandet ”HRVATSKA” (Kroatien) och utgivningsåret ”2023.”, som återges horisontellt, samt orden ”ČLANICA EUROPODRUČJA” (medlem i euroområdet), som är inskrivna längs myntets kärna. Dessa inskrifter utgör symboliskt en stiliserad symbol för euron ”€”. Det andra centrala motivet för myntet är Kroatiens särskiljande och igenkännliga symbol, det kroatiska schackrutiga mönstret, som representerar en del av Republiken Kroatiens statsvapen. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+	<string name="twoeuro_comm_2023_hr_date">"September 2023"</string>
+
+	<string name="twoeuro_comm_2023_be_title">"Art nouveau-året 2023 i Belgien"</string>
+	<string name="twoeuro_comm_2023_be_desc">"Åtsidan upptas av en detalj från den dekorativt utsmyckade fasaden på Hôtel van Eetvelde, en ikonisk byggnad i Bryssel som finns upptagen på Unescos världsarv och som är ritad av den belgiske art nouveau-arkitekten Victor Horta. Fasaddetaljens böjda och asymmetriska linjer avspeglar art nouveau-rörelsens karaktäristiska naturinspirerade stil. Den upptar den nedre halvan av myntet medan inskriften ”ART NOUVEAU” återfinns på den övre halvan. Längst till höger ses formgivaren Iris Bruijns initialer. Eftersom mynten präglas av kgl. nederländska myntverket finns myntortsmärket för Utrecht, en merkuriistav, längst till vänster jämte det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster samt landskoden ”BE” och årtalet ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_be_volume">"155000"</string>
+	<string name="twoeuro_comm_2023_be_date">"Juni 2023"</string>
 
 	<!-- END auto generated code for language sv -->
 

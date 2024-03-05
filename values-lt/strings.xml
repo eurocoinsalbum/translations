@@ -140,16 +140,13 @@
 	<!-- version 7.6 -->
 	<string name="coin_in_blister">"Moneta lizdinėje plokštelėje"</string>
 
-	<string name="version_history_current">"Versija 7.6\n
+	<string name="version_history_last">"Versija 7.6\n
 Pridėtas naujas monetos atributas „Moneta lizdinėje plokštelėje“.
 Fiksuoti proginių monetų Graikija 2023 ir San Marinas 2021 monetų atvaizdai.
 	"</string>
 
-	<string name="version_history_last">"Versija 7.5\n
-Pridėtos 2 € proginės monetos 2023 m. Andorai ir Belgijai.
-Pridėta trūkstamų 2 € proginių monetų atvaizdų.
-Pridėtas tekstas visoms 2 € proginėms monetoms visomis palaikomomis kalbomis.
-Dėl bet kokios klaidos: susisiekite su manimi matthias@online.de
+	<string name="version_history_current">"Versija 7.6.2\n
+Pridėtos 2 € proginės monetos 2024.
 	"</string>
 
 	<string name="coin_1cent">"1 centas"</string>
@@ -2290,6 +2287,16 @@ Vartotojas gali susisiekti su atitinkama institucija dėl duomenų privatumo.
 	<string name="twoeuro_comm_2023_lt_desc">"monetos centre pavaizduota stilizuota saulėgrąža, kurios žiedlapiai – tarsi susikibusių rankomis, apsikabinusių, saugančių vienas kitą žmonių siluetai, įkūnijantys vienybę, palaikymą ir buvimo kartu stiprybę. Saulėgrąža meninėmis priemonėmis komponuojama kaip kylanti saulė – naujos pradžios viltis, kylantys paukščiai – laisvė, viltis ir drąsa, ir žmonės, pakylantys virš aplinkybių ir niekada nesitaikstantys su primesta valia, taip darant aliuziją į tuos, kurie paaukojo savo gyvybes, ir į išskrendančias jų sielas. Kompozicijoje taip pat iškalti įrašai „LIETUVA“ ir „KARTU SU UKRAINA“, monetos išleidimo metai „2023“ ir Lietuvos monetų kalyklos ženklas. Monetos dizaino autorė – Eglė Žemaitė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2023_lt_volume">"500000"</string>
 	<string name="twoeuro_comm_2023_lt_date">"2023 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2023_hr_title">"euro, kaip oficialios Kroatijos valiutos, įvedimas 2023 m. sausio 1 d."</string>
+	<string name="twoeuro_comm_2023_hr_desc">"monetoje horizontaliai iškaltas ją leidžiančios šalies pavadinimas „HRVATSKA“ (Kroatija) ir išleidimo metai „2023“, o jos vidinės dalies išoriniame krašte – frazė „ČLANICA EUROPODRUČJA“ (euro zonos narė).  Iš šių užrašų simboliškai sudarytas stilizuotas euro simbolis „€“. Be to, monetos centre pavaizduotas vienas iš Kroatijos Respublikos herbo motyvų – kroatiškas šachmatinis raštas. Tai – išskirtinis ir atpažįstamas Kroatijos simbolis. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+	<string name="twoeuro_comm_2023_hr_date">"2023 m. rugsėjo mėn."</string>
+
+	<string name="twoeuro_comm_2023_be_title">"2023-ųjų paskelbimasart nouveau"</string>
+	<string name="twoeuro_comm_2023_be_desc">"monetoje pavaizduota įžymaus Briuselio pastato „Hotel Van Eetvelde“, kurį suprojektavo Belgijosart nouveau"</string>
+	<string name="twoeuro_comm_2023_be_volume">"155000"</string>
+	<string name="twoeuro_comm_2023_be_date">"2023 m. birželio mėn."</string>
 
 	<!-- END auto generated code for language lt -->
 

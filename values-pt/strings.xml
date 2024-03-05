@@ -82,7 +82,7 @@
     <string name="pref_background_color">"Cor de fundo"</string>
     <string name="pref_hide_not_existing_coins">"Esconder moedas não existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir o grupo de conjunto de moedas toque no botão \'+\'"</string>
-    <string name="action_manage_shared_collection">"gerenciar"</string>
+    <string name="action_manage_shared_collection">"Gerenciar amigos..."</string>
     <string name="collection_is_not_shared">"Esta coleção não foi compartilhada"</string>
     <string name="register">"registrar-se"</string>
 
@@ -120,7 +120,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"backups no dispositivo excluído:\n%1$s backups\nDeleted em nuvem:\n%2$s"</string>
     <string name="backup_upload_error">"Erro ao backup de upload"</string>
-    <string name="action_share_with">"Compartilhar com ..."</string>
+    <string name="action_share_with">"Compartilhe com amigos..."</string>
     <string name="action_add_share_with">"adicionar novo"</string>
     <string name="action_retract_share">"anular"</string>
     <string name="share_with_ok">"partilhado com %1$s"</string>
@@ -231,7 +231,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"No mundo todo"</string>
-    <string name="action_trading_partners">"Os parceiros comerciais"</string>
+    <string name="action_trading_partners">"Os parceiros comerciais..."</string>
     <string name="title_no_trading_partners_found">"Não há parceiros comerciais encontrado"</string>
     <string name="title_trading_partner_found">"Os parceiros comerciais"</string>
     <string name="change_my_country_only_hint">"Você pode encontrar parceiros comerciais se você também permitir que parceiros de outros países a negociação de seu próprio um no diálogo de configurações."</string>
@@ -414,16 +414,13 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 7.6\n
+    <string name="version_history_last">"Versão 7.6\n
 Adicionado novo atributo de moeda "Moeda em blister".
 Imagens de moedas comemorativas Grécia 2023 e São Marino 2021 corrigidas.
     "</string>
 
-    <string name="version_history_last">"Versão 7.5\n
-Adicionadas moedas comemorativas de 2€ 2023 para Andorra e Bélgica.
-Adicionadas imagens de moedas comemorativas de 2€ em falta.
-Textos adicionados para todas as moedas comemorativas de 2€ para todos os idiomas suportados.
-Em caso de erro: entre em contato comigo matthias@online.de
+    <string name="version_history_current">"Versão 7.6.2\n
+Adicionadas moedas comemorativas de 2€ 2024.
     "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>
@@ -2563,6 +2560,16 @@ O usuário pode entrar em contato com a instituição correspondente para privac
     <string name="twoeuro_comm_2023_lt_desc">"O núcleo da moeda exibe um girassol estilizado, com pétalas que se assemelham a silhuetas de pessoas de mãos dadas e abraçadas, protegendo‑se umas às outras, simbolizando a unidade, o apoio e o poder da união. Por meios artísticos, o girassol é apresentado como um sol nascente, como símbolo da esperança de um novo começo, representando os pássaros, a liberdade, esperança e coragem das pessoas que superam circunstâncias adversas, e não aceitam uma vontade imposta, numa alusão aos que sacrificaram a vida e cujas almas partiram. Em torno da imagem, surgem em lituano o nome do país emissor (LIETUVA), a inscrição “KARTU SU UKRAINA” (JUNTOS COM A UCRÂNIA). Vê‑se também o ano de emissão (2023) e a insígnia da casa da moeda lituana. O núcleo da moeda é da autoria de Eglė Žemaitė. Na coroa circular externa, estão representadas as 12 estrelas da bandeira europeia."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"primeiro trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"Introdução do euro na Croácia em 1 de janeiro de 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"Na parte direita do núcleo da moeda, vê‑se, na horizontal, o nome do país emissor em croata (HRVATSKA) e o ano de emissão seguido de um ponto (2023.), bem como, em semicírculo, a menção “ČLANICA EUROPODRUČJA” (membro da área do euro). Estas inscrições formam simbolicamente um símbolo estilizado do euro (€). O outro motivo central da moeda é o símbolo distintivo e reconhecível do país, o padrão croata axadrezado, que representa uma parte do brasão da República da Croácia. A coroa circular externa exibe as 12 estrelas da bandeira europeia."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"setembro de 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"Ano da Arte Nova (art nouveau"</string>
+    <string name="twoeuro_comm_2023_be_desc">"O núcleo da moeda exibe um pormenor decorativo da fachada do Hotel Van Eetvelde, um edifício icónico em Bruxelas, concebido pelo arquiteto de arte nova belga Victor Horta e declarado “Património Mundial da UNESCO”. As linhas curvas assimétricas deste pormenor decorativo refletem o estilo característico do movimento da Arte Nova, inspirado na natureza. O pormenor decorativo preenche a metade inferior do núcleo da moeda, deixando um espaço vago na metade superior, preenchido pela descrição “ART NOUVEAU”. À direita, encontram‑se gravadas as iniciais da desenhadora Iris Bruijns. Como será a casa da moeda dos Países Baixos a cunhar as moedas, o símbolo da casa da moeda de Utreque (o caduceu de Mercúrio) figura no lado esquerdo do núcleo da moeda, juntamente com o símbolo do diretor da casa da moeda belga (uma flor de áster à frente de um frasco de Erlenmeyer), o código do país emissor (BE) e o ano de emissão (2023). A coroa circular externa reproduz as 12 estrelas da bandeira europeia."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"junho de 2023"</string>
 
     <!-- END auto generated code for language pt -->
 

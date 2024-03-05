@@ -118,7 +118,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Verwijderde files op apparaat:\n%1$s\nDeleted files in cloud:\n%2$s"</string>
     <string name="backup_upload_error">"Fout bij het uploaden van back-up"</string>
-    <string name="action_share_with">"Delen met ..."</string>
+    <string name="action_share_with">"Delen met vrienden..."</string>
     <string name="action_add_share_with">"nieuw toevoegen"</string>
     <string name="action_retract_share">"intrekken"</string>
     <string name="share_with_ok">"gedeeld met %1$s"</string>
@@ -229,7 +229,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"Wereldwijd"</string>
-    <string name="action_trading_partners">"Handelspartners"</string>
+    <string name="action_trading_partners">"Handelspartners..."</string>
     <string name="title_no_trading_partners_found">"Geen handelspartners gevonden"</string>
     <string name="title_trading_partner_found">"Handelspartners"</string>
     <string name="change_my_country_only_hint">"Je kunt handelspartners te vinden als je ook toestaan ​​handelspartners uit andere landen dan uw eigen één in het dialoogvenster instellingen."</string>
@@ -412,16 +412,13 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Versie 7.6\n
+    <string name="version_history_last">"Versie 7.6\n
 Nieuw muntattribuut toegevoegd "Munt in blister".
 Muntafbeeldingen van herdenkingsmunten Griekenland 2023 en San Marino 2021 opgelost.
     "</string>
 
-    <string name="version_history_last">"Versie 7.5\n
-2€ herdenkingsmunten 2023 toegevoegd voor Andorra en België.
-Afbeeldingen van ontbrekende herdenkingsmunten van € 2 toegevoegd.
-Teksten toegevoegd voor alle 2€ herdenkingsmunten voor alle ondersteunde talen.
-Neem bij elke fout contact met mij op via matthias@online.de
+    <string name="version_history_current">"Versie 7.6.2\n
+2 € herdenkingsmunten 2024 toegevoegd.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2563,6 +2560,16 @@ De gebruiker kan contact opnemen met de betreffende instelling voor gegevensbesc
     <string name="twoeuro_comm_2023_lt_desc">"in het midden is een gestileerde zonnebloem afgebeeld, waarvan de bloemblaadjes zijn weergegeven als silhouetten van mensen die elkaars hand vasthouden, elkaar omhelzen, elkaar beschermen, en die eenheid, steun en de kracht van saamhorigheid belichamen. Op artistieke wijze wordt de zonnebloem weergegeven als de opkomende zon, die hoop op een nieuw begin uitstraalt, met beelden van vogels, vrijheid, hoop en moed. De mensen stijgen boven de omstandigheden uit en zullen nooit een opgelegde wil accepteren, een verwijzing naar degenen die hun leven hebben opgeofferd en hun opstijgende zielen. Rondom de compositie staan de opschriften “LIETUVA” (Litouwen), “KARTU SU UKRAINA” (samen met Oekraïne), het jaar van uitgifte “2023” en het muntteken van de Litouwse Munt. De munt is ontworpen door Eglė Žemaitė. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"eerste kwartaal van 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"de invoering van de euro als officiële munteenheid van Kroatië op 1 januari 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"op de munt staan horizontaal het land van uitgifte “HRVATSKA” (Kroatië) en het jaar van uitgifte “2023”, en langs de buitenrand “ČLANICA EUROPODRUČJA” (lid van het eurogebied). Deze woorden vormen symbolisch een gestileerd euroteken “€”. Het andere belangrijke motief op de munt is het kenmerkende en herkenbare symbool van Kroatië, het Kroatische schaakbord, dat deel uitmaakt van het wapenschild van de Republiek Kroatië. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"september 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"het “jaar van de art nouveau”, dat in 2023 in België plaatsvindt"</string>
+    <string name="twoeuro_comm_2023_be_desc">"er wordt een decoratief detail afgebeeld van de gevel van het “Hotel Van Eetvelde”, een iconisch herenhuis in Brussel dat door de Belgische art nouveau-architect Victor Horta is ontworpen en als Unesco-werelderfgoed is erkend. De gebogen, asymmetrische lijnen van dit decoratieve detail zijn een weerspiegeling van de karakteristieke, op de natuur geïnspireerde stijl van de art nouveau-beweging. Dit detail staat aan de onderkant van het muntstuk en aan de bovenkant is er een lege ruimte met het opschrift “ART NOUVEAU”. Helemaal rechts staan de initialen van de ontwerpster Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt slaat, staat uiterst links het muntteken van Utrecht, een mercuriusstaf, samen met het Belgische muntmeesterteken, een asterbloem voor een erlenmeyer, de landcode BE en het jaartal 2023. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"juni 2023"</string>
 
     <!-- END auto generated code for language nl -->
 

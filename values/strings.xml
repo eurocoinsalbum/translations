@@ -2,7 +2,8 @@
 <resources>
     <string name="language_code">"en"</string>
     <string name="app_name">"Euro Coins Album"</string>
-    <string name="action_settings">"Settings"</string>
+    <!-- Trading text change -->
+    <string name="action_settings">"Collection settings"</string>
     <string name="action_global_settings">"Global Settings"</string>
     <string name="action_country">"Country"</string>
     <string name="action_user">"User"</string>
@@ -85,7 +86,7 @@
     <string name="pref_background_color">"Background color"</string>
     <string name="pref_hide_not_existing_coins">"Hide not existing coins"</string>
     <string name="click_the_coin_set_expand_button">"To open the coin set group touch the plus button"</string>
-    <string name="action_manage_shared_collection">"Manage"</string>
+    <string name="action_manage_shared_collection">"Manage friends..."</string>
     <string name="collection_is_not_shared">"This collection has not been shared"</string>
     <string name="register">"Register"</string>
 
@@ -123,7 +124,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Deleted backups on device:\n%1$s\nDeleted backups in cloud:\n%2$s"</string>
     <string name="backup_upload_error">"Error while uploading backup"</string>
-    <string name="action_share_with">"Share with ..."</string>
+    <string name="action_share_with">"Share with friends..."</string>
     <string name="action_add_share_with">"Add new"</string>
     <string name="action_retract_share">"Retract"</string>
     <string name="share_with_ok">"Shared with %1$s"</string>
@@ -234,7 +235,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"Worldwide"</string>
-    <string name="action_trading_partners">"Trading partners"</string>
+    <string name="action_trading_partners">"Trading partners..."</string>
     <string name="title_no_trading_partners_found">"No trading partners found"</string>
     <string name="title_trading_partner_found">"Trading partners"</string>
     <string name="change_my_country_only_hint">"You may find trading partners if you also allow trading partners from other countries than your own one in the settings dialog."</string>
@@ -277,7 +278,8 @@
     <string name="trading_coins_removed">"The following trading coins have been removed from the collection '%1$s'."</string>
     <string name="trade_was_executed">"The trading collection was marked as 'executed'."</string>
     <string name="action_trade_set_executed">"Trade was executed"</string>
-    <string name="no_executed_trades">"No executed trades found. Go and share your collection and trade your coins with other users!"</string>
+    <!-- Trading text change -->
+    <string name="no_executed_trades">"No executed trades found. Share your collection and trade your coins with other users!"</string>
     <string name="action_show_executed_trades">"Executed trades"</string>
     <string name="missing_coin_infos_for_trade_confirmation">"Coin conditions or images are missing. Add the missing information in your collection."</string>
     <string name="condition_not_set">"Unknown"</string>
@@ -309,10 +311,12 @@
     <string name="swipe_to_delete">"Swipe to delete"</string>
     <string name="country_residence">"Residence"</string>
     <string name="pref_country_residence">"Your country (residence)"</string>
-    <string name="set_pref_country_residence">"Please select your country (residence) in the settings dialog first."</string>
+    <!-- Trading text change -->
+    <string name="set_pref_country_residence">"Please select your country of residence in the global settings dialog first.\nDo you want to open the global settings dialog now?"</string>
     <string name="no_collections_found">"No collections found"</string>
     <string name="trading_user_linked">"Linked trading collection '%1$s'."</string>
-    <string name="confirm_send_to_trading_partner">"Are you ready to send the trading collection to your trading partner? Have in mind that your trading partner might except the trading collection as you send it."</string>
+    <!-- Trading text change -->
+    <string name="confirm_send_to_trading_partner">"Are you ready to send the trading collection to your trading partner? Have in mind that your trading partner might accept the trading collection as you send it."</string>
     <string name="linked_for_trading_collection_type">"Trading partner"</string>
     <string name="confirmed_trade_type">"Confirmed"</string>
     <string name="executed_trade_type">"Executed"</string>
@@ -339,8 +343,8 @@
     <string name="trading_collection_image_error">"The trading collection cannot load all images of the coins correctly. Please delete the trading collection to avoid missunderstanding."</string>
     <string name="trading_condition_available">"You added a coin which has no coin condition set but there is another coin which has a coin condition or a custom photo. Your selection can stay if you are not satisfied with the other coins but your trading partner might not add the coin condition to other coins. Usually it's better to select coins which have already a coin condition or custom photo set."</string>
     <string name="trading_no_condition_available">"You added a coin which has no coin condition set. After you send the trading collection to your trading partner he/she has to update the collection. You should afterwards check if the coin condition meets your expectation."</string>
-    <string name="trading_diff_amount_pay">"This is the amount of money you have to pay to your trading partner additionally."</string>
-    <string name="trading_diff_amount_receive">"This is the amount of money you will receive from your trading partner additionally."</string>
+    <string name="trading_diff_amount_pay">"This is the amount of money you should pay to your trading partner additionally."</string>
+    <string name="trading_diff_amount_receive">"This is the amount of money you should receive from your trading partner additionally."</string>
     <string name="no_files_for_import_found">"No files for import found in Downloads folder."</string>
     <string name="email_confirmed">"E-Mail address was confirmed."</string>
     <string name="setup_account">"Setup account"</string>
@@ -369,7 +373,16 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Coin in blister"</string>
 
+    <!-- version 7.7 -->
+    <string name="interested_in_trading_title">"Trading with other users"</string>
+    <string name="interested_in_trading">"Are you interested in learning about the feature how to trade coins with other users?"</string>
+
+    <!-- Trading text change -->
+    <!-- version 8.0 -->
+    <string name="only_one_collection">"You have only this collection."</string>
+
     <string name="how_trading_partner_works">"
+- The trading functionality is NOT for resellers and it is for PRIVATE usage only!
 - The trading functionality is NOT for beginners.
 - Read ALL this carefully! Otherwise you may be disappointed by the trading functionality.
 - Trading coins with other traders is much more complex than you may think. Especially when the time of agreeing on the coins to be traded takes more than just a couple of hours you have to consider that the collection of your trading partner may have changed in the meantime. This has an impact.
@@ -377,9 +390,9 @@
 - You can trade coins with other users BUT using the trading functionality of this app MUST NOT be considered as an offer or as a contract in legal terms! Whatever you do or see in this app - it is not binding anyone to anything.
 - The trading functionality can find trading partners for your currently selected collection.
 - To find a trading partner you first need to give your collection a public name which will be visible to others and share your collection to the public.
-- All coins of your collection will be available to others for selection except as many as you specified in the settings 'Trading: Coins to keep'.
+- All coins of your collection will be available to others for selection except as many as you specified in the settings 'Trading: Coins to keep' which is 1(one) by default.
 - You can explicitally exclude individual coins and prevent them from being traded via the coin's property 'Block trading'. Have in mind that even blocked coins will be visible to the public.
-- If you don't want that all your coins are available for trading you have to split your collection first.
+- If you don't want that all your coins are available for trading you have to split your collection first which can be done via the menu.
 - Your collection needs to get a public name which will also be visible to others. The same applies to your e-mail adress.
 - All information inside your collection will be visible to the public (notes, ...). By adding information you agree to only add valid information about the coin. Any abuse can be reported by others and might lead to the deletion of your account.
 - You can select an image or take a photo and assign it to a coin. Any assigned image will be visible to the public. By doing so you agree to only assign images where you have the rights to do so and which shows the corresponding coin only. Any abuse can be reported by others and might lead to the deletion of your account.
@@ -415,18 +428,17 @@
 - When you successfully sent your coins plus an eventually amount of money to equalize a difference in the nominal value to your trading partner and received your new coins mark the trading collection as executed via the trading collection menu. Then the collection will not appear in the user's menu any more but in menu->collection->trading_partners->executed trades.
 - While setting the trading collection to 'executed' you can choose to automatically update your collection. Choose 'No' to update your collection manually. With 'Edit' you are allowed to edit the trading collection even after it was confirmed. Use this for the case that the traded coins to not match the trading collection. But the trading collection will not be synchronized with your trading partner any more. After the traded coins and the trading collection match you can again mark the collection as executed and choose 'Yes' to automatically update your own collection.
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
+        <!-- Trading text change -->
+- At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_current">"Version 7.6\n
+    <string name="version_history_last">"Version 7.6\n
 Added new coin attribute "Coin in blister".
 Coin images of commemorative coins Greece 2023 and San Marino 2021 fixed.
         "</string>
 
-    <string name="version_history_last">"Version 7.5\n
-Added 2€ commemorative coins 2023 for Andorra and Belgium.
-Added missing 2€ commemorative coin images.
-Added texts for all 2€ commemorative coins for all supported languages.
-On any error: please contact me matthias@online.de
+    <string name="version_history_current">"Version 7.6.2\n
+Added 2€ commemorative coins 2024.
         "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2650,11 +2662,6 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_ad_2_volume">""</string>
     <string name="twoeuro_comm_2023_ad_2_date">"2023"</string>
 
-    <string name="twoeuro_comm_2023_be_title">"Art Nouveau"</string>
-    <string name="twoeuro_comm_2023_be_desc">""</string>
-    <string name="twoeuro_comm_2023_be_volume">""</string>
-    <string name="twoeuro_comm_2023_be_date">"2023"</string>
-
     <string name="twoeuro_comm_2023_cy_title">"60 years central bank of Cyprus"</string>
     <string name="twoeuro_comm_2023_cy_desc">""</string>
     <string name="twoeuro_comm_2023_cy_volume">""</string>
@@ -2745,7 +2752,58 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_si_volume">""</string>
     <string name="twoeuro_comm_2023_si_date">"2023"</string>
 
+    <string name="twoeuro_comm_2023_hr_title">"The introduction of the euro as the official currency of Croatia on 1 January 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"The design features the inscriptions of the issuing country ‘HRVATSKA’ (Croatia) and the year of issuance ‘2023.’, depicted horizontally, as well as the words ‘ČLANICA EUROPODRUČJA’ (member of the euro area), which are inscribed along the outer edge of the coin’s core. These inscriptions symbolically form a stylised symbol of the euro ‘€’. The other central motive of the coin is Croatia's distinctive and recognisable symbol, the Croatian checkerboard, which represents part of the coat of arms of the Republic of Croatia. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"September 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"The ‘year of art nouveau’, which takes place during 2023 in Belgium"</string>
+    <string name="twoeuro_comm_2023_be_desc">"The design shows a decorative detail from the facade of the ‘Hotel Van Eetvelde’, an iconic town house in Brussels which has been designed by the Belgian art nouveau architect Victor Horta and has been recognized as Unesco World Heritage. The curved, asymmetrical lines of this decorative detail reflect the characteristic nature-inspired style of the art nouveau movement. This detail fills up the bottom half of the piece, leaving a vacant space on the upper half, which is filled with the description ‘ART NOUVEAU’. At the far right are the initials of the designer Iris Bruijns located. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is located on the far left together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask, the country code BE and the year mark 2023. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"June 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_2_title">"75 Jahre Frauenwahlrecht in Belgien"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">""</string>
+    <string name="twoeuro_comm_2023_be_2_volume">""</string>
+    <string name="twoeuro_comm_2023_be_2_date">""</string>
+
     <!-- END manual code for language en -->
+
+    <string name="twoeuro_comm_2024_be_title">"EU Ratspräsidentschaft"</string>
+    <string name="twoeuro_comm_2024_be_desc">""</string>
+    <string name="twoeuro_comm_2024_be_volume">""</string>
+    <string name="twoeuro_comm_2024_be_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
+    <string name="twoeuro_comm_2024_de_desc">""</string>
+    <string name="twoeuro_comm_2024_de_volume">""</string>
+    <string name="twoeuro_comm_2024_de_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"Polizeikorps"</string>
+    <string name="twoeuro_comm_2024_es_desc">""</string>
+    <string name="twoeuro_comm_2024_es_volume">""</string>
+    <string name="twoeuro_comm_2024_es_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"UNESCO Sevilla, Alcazar, Archivo de Indias"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">""</string>
+    <string name="twoeuro_comm_2024_es_2_volume">""</string>
+    <string name="twoeuro_comm_2024_es_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"Olympische Spiele Paris 2024"</string>
+    <string name="twoeuro_comm_2024_fr_desc">""</string>
+    <string name="twoeuro_comm_2024_fr_volume">""</string>
+    <string name="twoeuro_comm_2024_fr_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">"100 Jahre France Münze Feiersteppler"</string>
+    <string name="twoeuro_comm_2024_lu_desc">""</string>
+    <string name="twoeuro_comm_2024_lu_volume">""</string>
+    <string name="twoeuro_comm_2024_lu_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">"175. Todestag Großherzog Guillaume II."</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">""</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">""</string>
+    <string name="twoeuro_comm_2024_lu_2_date">"2024"</string>
+    
 
     <string name="twoeuro_comm_2008_be_short_title">"Human Rights"</string>
     <string name="twoeuro_comm_2008_de_short_title">"Hamburg"</string>

@@ -83,7 +83,7 @@
     <string name="pref_background_color">"Color de fondo"</string>
     <string name="pref_hide_not_existing_coins">"Ocultar monedas no existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir el grupo de juegos de monedas, toque el botón más"</string>
-    <string name="action_manage_shared_collection">"Gestionar"</string>
+    <string name="action_manage_shared_collection">"Administrar amigos..."</string>
     <string name="collection_is_not_shared">"Esta colección no ha sido compartida"</string>
     <string name="register">"Registro"</string>
 
@@ -121,7 +121,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Copias de seguridad eliminadas en el dispositivo:\n%1$s\nCopias de seguridad eliminadas en la nube:\n%2$s"</string>
     <string name="backup_upload_error">"Error al cargar la copia de seguridad"</string>
-    <string name="action_share_with">"Compartir con"</string>
+    <string name="action_share_with">"Compartir con amigos..."</string>
     <string name="action_add_share_with">"Añadir nuevo"</string>
     <string name="action_retract_share">"Retraer"</string>
     <string name="share_with_ok">"Compartido con %1$s"</string>
@@ -232,7 +232,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"En todo el mundo"</string>
-    <string name="action_trading_partners">"Socios comerciales"</string>
+    <string name="action_trading_partners">"Socios comerciales..."</string>
     <string name="title_no_trading_partners_found">"No se encontraron los socios comerciales"</string>
     <string name="title_trading_partner_found">"Socios comerciales"</string>
     <string name="change_my_country_only_hint">"Usted puede encontrar socios comerciales si también permiten que los socios comerciales de otros países que no sea su propia uno en el diálogo de configuración."</string>
@@ -415,16 +415,13 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.6\n
+    <string name="version_history_last">"Versión 7.6\n
 Se agregó un nuevo atributo de moneda "Moneda en blister".
 Imágenes de monedas conmemorativas de Grecia 2023 y San Marino 2021 corregidas.
     "</string>
 
-    <string name="version_history_last">"Versión 7.5\n
-Añadidas monedas conmemorativas de 2€ 2023 para Andorra y Bélgica.
-Añadidas imágenes de monedas conmemorativas de 2€ que faltaban.
-Se agregaron textos para todas las monedas conmemorativas de 2 € para todos los idiomas admitidos.
-En cualquier error: contácteme matthias@online.de
+    <string name="version_history_current">"Versión 7.6.2\n
+Añadidas monedas conmemorativas de 2€ 2024.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2567,6 +2564,16 @@ POPULUS LABORIOSUS» [DE UNA TRIBU MUY BELICOSA (SURGE) UN PUEBLO OPEROSO]. La c
     <string name="twoeuro_comm_2023_lt_desc">"El motivo central es un girasol estilizado cuyos pétalos parecen siluetas de personas que se dan la mano, se abrazan y se protegen, imagen que encarna la unidad, el apoyo y la fuerza de la solidaridad. El diseño artístico del girasol evoca el sol naciente, la esperanza de un nuevo comienzo, los pájaros, la libertad, la esperanza, el valor y la superación de circunstancias adversas, sin aceptar jamás la imposición de la voluntad ajena, en alusión a quienes han sacrificado sus vidas y a sus almas en tránsito hacia otro plano. La composición está rodeada de las inscripciones «LIETUVA» (LITUANIA), «KARTU SU UKRAINA» (TODOS CON UCRANIA), el año de emisión «2023» y la marca de ceca de la Casa de la Moneda de Lituania. El diseño de la moneda es de Eglė Žemaitė. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"primer trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_hr_title">"La introducción del euro como moneda oficial de Croacia el 1 de enero de 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"En el diseño, figuran en el plano horizontal las inscripciones del país emisor «HRVATSKA» (Croacia) y el año de emisión «2023», y en el borde exterior de la parte central de la moneda, las palabras «ČLANICA EUROPODRUČJA» [miembro de la Eurozona]. Estas inscripciones forman el símbolo de un euro estilizado, «€». El otro motivo principal de la moneda es el símbolo distintivo y reconocible del país, el damero croata, que representa parte del escudo de armas de la República de Croacia. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"septiembre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_title">"El «año art nouveau» que se celebra en Bélgica en 2023"</string>
+    <string name="twoeuro_comm_2023_be_desc">"El motivo muestra un detalle decorativo de la fachada del Hotel Van Eetvelde, una casa emblemática de Bruselas diseñada por Victor Horta, arquitecto belga del movimientoart nouveau"</string>
+    <string name="twoeuro_comm_2023_be_volume">"155000"</string>
+    <string name="twoeuro_comm_2023_be_date">"junio de 2023"</string>
 
     <!-- END auto generated code for language es -->
 
