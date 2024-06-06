@@ -416,12 +416,11 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.6\n
-Lade till nytt myntattribut "Mynt i blister".
-Myntbilder av minnesmynt Grekland 2023 och San Marino 2021 fixade.
+	<string name="version_history_current">"Version 7.6.3\n
+Se corrigieron archivos de respaldo corruptos cuando se usan caracteres especiales en las notas.
 	"</string>
 
-	<string name="version_history_current">"Version 7.6.2\n
+	<string name="version_history_last">"Version 7.6.2\n
 Lade till 2€ jubileumsmynt 2024.
 	"</string>
 

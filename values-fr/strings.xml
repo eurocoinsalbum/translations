@@ -407,12 +407,11 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.6\n
-Ajout d'un nouvel attribut de pièce "Pièce sous blister".
-Correction des images des pièces commémoratives Grèce 2023 et Saint-Marin 2021.
+    <string name="version_history_current">"Version 7.6.3\n
+Correction des fichiers de sauvegarde corrompus lorsque des caractères spéciaux sont utilisés dans les notes.
     "</string>
 
-    <string name="version_history_current">"Version 7.6.2\n
+    <string name="version_history_last">"Version 7.6.2\n
 Ajout des pièces commémoratives de 2€ 2024.
     "</string>
 

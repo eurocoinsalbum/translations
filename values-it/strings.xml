@@ -410,12 +410,11 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.6\n
-Aggiunto nuovo attributo moneta "Moneta in blister".
-Immagini delle monete commemorative Grecia 2023 e San Marino 2021 fisse.
+    <string name="version_history_current">"Versione 7.6.3\n
+Risolti i file di backup danneggiati quando nelle note venivano utilizzati caratteri speciali.
     "</string>.
 
-    <string name="version_history_current">"Versione 7.6.2\n
+    <string name="version_history_last">"Versione 7.6.2\n
 Aggiunte monete commemorative da 2€ 2024.
     "</string>
 

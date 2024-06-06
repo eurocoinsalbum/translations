@@ -415,12 +415,11 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.6\n
-Se agregó un nuevo atributo de moneda "Moneda en blister".
-Imágenes de monedas conmemorativas de Grecia 2023 y San Marino 2021 corregidas.
+    <string name="version_history_current">"Versión 7.6.3\n
+Se corrigieron archivos de respaldo corruptos cuando se usan caracteres especiales en las notas.
     "</string>
 
-    <string name="version_history_current">"Versión 7.6.2\n
+    <string name="version_history_last">"Versión 7.6.2\n
 Añadidas monedas conmemorativas de 2€ 2024.
     "</string>
 

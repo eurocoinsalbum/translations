@@ -406,12 +406,11 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 7.6\n
-Neue Eigenschaft für Münzen hinzugefügt: Münze im Blister.
-Münzbilder der Gedenkmünzen für Griechenland 2023 und San Marino 2021 korrigiert.
+    <string name="version_history_current">"Version 7.6.3\n
+Beschädigte Sicherungsdateien behoben, wenn in den Notizen Sonderzeichen verwendet wurden.
     "</string>
 
-    <string name="version_history_current">"Version 7.6.2\n
+    <string name="version_history_last">"Version 7.6.2\n
 2€ Gedenkmünzen 2024 hinzugefügt.
     "</string>
 

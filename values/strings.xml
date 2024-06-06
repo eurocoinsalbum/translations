@@ -432,12 +432,11 @@
 - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.6\n
-Added new coin attribute "Coin in blister".
-Coin images of commemorative coins Greece 2023 and San Marino 2021 fixed.
+    <string name="version_history_current">"Version 7.6.3\n
+Fixed corrupted backup files when special charaters are used in the notes.
         "</string>
 
-    <string name="version_history_current">"Version 7.6.2\n
+    <string name="version_history_last">"Version 7.6.2\n
 Added 2€ commemorative coins 2024.
         "</string>
 
@@ -2765,7 +2764,7 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_be_2_title">"75 Jahre Frauenwahlrecht in Belgien"</string>
     <string name="twoeuro_comm_2023_be_2_desc">""</string>
     <string name="twoeuro_comm_2023_be_2_volume">""</string>
-    <string name="twoeuro_comm_2023_be_2_date">""</string>
+    <string name="twoeuro_comm_2023_be_2_date">"2023"</string>
 
     <!-- END manual code for language en -->
 
@@ -2774,10 +2773,25 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_be_volume">""</string>
     <string name="twoeuro_comm_2024_be_date">"2024"</string>
 
+    <string name="twoeuro_comm_2024_be_2_title">"Kampf gegen den Krebs"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">""</string>
+    <string name="twoeuro_comm_2024_be_2_volume">""</string>
+    <string name="twoeuro_comm_2024_be_2_date">"2024"</string>
+
     <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
     <string name="twoeuro_comm_2024_de_desc">""</string>
     <string name="twoeuro_comm_2024_de_volume">""</string>
     <string name="twoeuro_comm_2024_de_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"175. Jubiläum Paulskirchenverfassung"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">""</string>
+    <string name="twoeuro_comm_2024_de_2_volume">""</string>
+    <string name="twoeuro_comm_2024_de_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"Kornblume"</string>
+    <string name="twoeuro_comm_2024_ee_desc">""</string>
+    <string name="twoeuro_comm_2024_ee_volume">""</string>
+    <string name="twoeuro_comm_2024_ee_date">"2024"</string>
 
     <string name="twoeuro_comm_2024_es_title">"Polizeikorps"</string>
     <string name="twoeuro_comm_2024_es_desc">""</string>
@@ -2789,10 +2803,25 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_es_2_volume">""</string>
     <string name="twoeuro_comm_2024_es_2_date">"2024"</string>
 
+    <string name="twoeuro_comm_2024_fi_title">"Wahlen und Demokratie"</string>
+    <string name="twoeuro_comm_2024_fi_desc">""</string>
+    <string name="twoeuro_comm_2024_fi_volume">""</string>
+    <string name="twoeuro_comm_2024_fi_date">"2024"</string>
+
     <string name="twoeuro_comm_2024_fr_title">"Olympische Spiele Paris 2024"</string>
     <string name="twoeuro_comm_2024_fr_desc">""</string>
     <string name="twoeuro_comm_2024_fr_volume">""</string>
     <string name="twoeuro_comm_2024_fr_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"250. Jahrestag der Gründung der Guardia di Finanza"</string>
+    <string name="twoeuro_comm_2024_it_desc">""</string>
+    <string name="twoeuro_comm_2024_it_volume">""</string>
+    <string name="twoeuro_comm_2024_it_date">2024</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Nobelpreisträgerin Medizin Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">""</string>
+    <string name="twoeuro_comm_2024_it_2_volume">""</string>
+    <string name="twoeuro_comm_2024_it_2_date">2024</string>
 
     <string name="twoeuro_comm_2024_lu_title">"100 Jahre France Münze Feiersteppler"</string>
     <string name="twoeuro_comm_2024_lu_desc">""</string>
@@ -2803,7 +2832,17 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_lu_2_desc">""</string>
     <string name="twoeuro_comm_2024_lu_2_volume">""</string>
     <string name="twoeuro_comm_2024_lu_2_date">"2024"</string>
-    
+
+    <string name="twoeuro_comm_2024_po_title">"50. Jahrestag der Revolution vom 25.04.1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">""</string>
+    <string name="twoeuro_comm_2024_po_volume">""</string>
+    <string name="twoeuro_comm_2024_po_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"50 Jahre Erklärung der Bürgerrechte"</string>
+    <string name="twoeuro_comm_2024_sm_desc">""</string>
+    <string name="twoeuro_comm_2024_sm_volume">""</string>
+    <string name="twoeuro_comm_2024_sm_date">2024</string>
+
 
     <string name="twoeuro_comm_2008_be_short_title">"Human Rights"</string>
     <string name="twoeuro_comm_2008_de_short_title">"Hamburg"</string>

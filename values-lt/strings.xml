@@ -140,12 +140,11 @@
 	<!-- version 7.6 -->
 	<string name="coin_in_blister">"Moneta lizdinėje plokštelėje"</string>
 
-	<string name="version_history_last">"Versija 7.6\n
-Pridėtas naujas monetos atributas „Moneta lizdinėje plokštelėje“.
-Fiksuoti proginių monetų Graikija 2023 ir San Marinas 2021 monetų atvaizdai.
+	<string name="version_history_current">"Versija 7.6.3\n
+Ištaisyti sugadinti atsarginės kopijos failai, kai pastabose naudojami specialieji simboliai.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.6.2\n
+	<string name="version_history_last">"Versija 7.6.2\n
 Pridėtos 2 € proginės monetos 2024.
 	"</string>
 

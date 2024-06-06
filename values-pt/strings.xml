@@ -414,12 +414,11 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_last">"Versão 7.6\n
-Adicionado novo atributo de moeda "Moeda em blister".
-Imagens de moedas comemorativas Grécia 2023 e São Marino 2021 corrigidas.
+    <string name="version_history_current">"Versão 7.6.3\n
+Corrigidos arquivos de backup corrompidos quando caracteres especiais são usados nas notas.
     "</string>
 
-    <string name="version_history_current">"Versão 7.6.2\n
+    <string name="version_history_last">"Versão 7.6.2\n
 Adicionadas moedas comemorativas de 2€ 2024.
     "</string>
 

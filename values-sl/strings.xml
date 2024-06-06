@@ -232,12 +232,11 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Mynt i blister"</string>
 
-    <string name="version_history_current">"Različica 7.6\n
-Dodan nov atribut kovanca "Kovanec v pretisnem omotu".
-Popravljeni sliki spominskih kovancev Grčija 2023 in San Marino 2021.
+    <string name="version_history_last">"Različica 7.6.3\n
+Popravljene poškodovane varnostne kopije datotek, ko so v opombah uporabljeni posebni znaki.
     "</string>
 
-    <string name="version_history_last">"Različica 7.6.2\n
+    <string name="version_history_current">"Različica 7.6.2\n
 Adicionadas moedas comemorativas de 2€ 2024.
     "</string>
 
