@@ -406,12 +406,13 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.6.3\n
-Beschädigte Sicherungsdateien behoben, wenn in den Notizen Sonderzeichen verwendet wurden.
+    <string name="version_history_last">"Version 7.6.6\n
+Android-Version aktualisiert.
     "</string>
 
-    <string name="version_history_last">"Version 7.6.2\n
-2€ Gedenkmünzen 2024 hinzugefügt.
+    <string name="version_history_current">"Version 7.7\n
+2€ Gedenkmünzen 2024 hinzugefügt.\n
+Android-Version aktualisiert.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2584,6 +2585,221 @@ Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
     <string name="twoeuro_comm_2023_be_desc">"Das Münzmotiv ist ein dekoratives Element der Fassade des „Hotel Van Eetvelde“, eines emblematischen Stadthauses in Brüssel, das von dem belgischen Art-Nouveau-Architekten Victor Horta entworfen und von der Unesco als Welterbe anerkannt wurde. Die geschwungenen, asymmetrischen Linien des Elements spiegeln den charakteristischen von der Natur inspirierten Stil der Art-Nouveau-Bewegung wider. Das Element füllt die untere Münzhälfte aus und lässt darüber einen Freiraum, in dem sich die Inschrift „ART NOUVEAU“ befindet. Ganz rechts sind die Initialen der Münzgestalterin Iris Bruijns zu sehen. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, findet sich ganz links neben dem belgischen Münzmeisterzeichen, einer Asterblüte vor einem Erlenmeyerkolben, auch das Zeichen der Münze von Utrecht, ein Hermesstab. Weiter rechts stehen der Ländercode „BE“ sowie die Jahreszahl „2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2023_be_volume">"155000"</string>
     <string name="twoeuro_comm_2023_be_date">"Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_2_title">"Feuerfeste zur Sommersonnenwende in den Pyrenäen"</string>
+    <string name="twoeuro_comm_2023_ad_2_desc">"Die Feuerfeste zur Sommersonnenwende wurden von der UNESCO 2015 in die Repräsentative Liste des Immateriellen Kulturerbes der Menschheit aufgenommen. Die traditionsreichen und beliebten Feste werden alljährlich überall in Andorra begangen. Das Münzmotiv zeigt den sogenannten „Fallaire“ in seinem traditionellen Kapuzenmantel, der mit seiner „Falla“ einen Feuerschweif in die Luft zeichnet. Die als „Falla“ bezeichneten Fackeln aus Baumrinde spielen bei den Festen eine zentrale Rolle. Sie werden angezündet und kraftvoll durch die Luft geschwungen, sodass große Feuerschweife entstehen. Den Hintergrund bilden grafische Linien, die die Sommersonnenwende darstellen, sowie der Ländername „Andorra“ und die Jahreszahl „2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_2_date">"Letztes Quartal 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_title">"30. Jahrestag des Beitritts des Fürstentums Andorra zu den Vereinten Nationen"</string>
+    <string name="twoeuro_comm_2023_ad_desc">"Die Vereinten Nationen werden durch zwei Gestaltungselemente symbolisiert: zwei Lorbeerzweige und eine Weltkugel als stilisierte Null in der Jubiläumszahl „30“. Unterhalb dieses Motivs befinden sich das Wort ANYS (Jahre) und die Jahreszahl 2023. Oberhalb des Motivs sind das Wappen Andorras und der Schriftzug „ANDORRA MEMBRE DE LES NACIONS UNIDES“ (Andorra – Mitglied der Vereinten Nationen) zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_date">"Letztes Quartal 2023"</string>
+
+    <string name="twoeuro_comm_2023_si_title">"150. Geburtstag des Mathematikers und Astronomen Josip Plemelj"</string>
+    <string name="twoeuro_comm_2023_si_desc">"Das Münzmotiv zeigt Teile der Gleichung, die Josip Plemelj als Erster weltweit gelöst hat. Zahlen und Symbole sind auf Umlaufbahnen angeordnet, die die Rotation der Planeten, die Bewegung im Raum und zugleich das Zusammenfügen einzelner unlösbarer Elemente zu einem Ganzen veranschaulichen. So verbindet das Münzbild die beiden Arbeits- und Forschungsgebiete Plemeljs: die Mathematik und die Astronomie. In die Darstellung eingearbeitet sind die Aufschrift „JOSIP PLEMELJ 1873“, der Name des Ausgabestaats „SLOVENIJA“ und das Ausgabejahr „2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_si_date">"Dezember 2023"</string>
+
+    <string name="twoeuro_comm_2023_po_title">"Frieden"</string>
+    <string name="twoeuro_comm_2023_po_desc">"Die Münze ist dem Weltfrieden und dem friedlichen und für alle Seiten fruchtbaren Miteinander gewidmet. Frieden kann nur gelingen, wenn ihm das kollektive Streben nach gemeinsamen Zielen zugrunde liegt. Im aktuellen, von starken Gegensätzen geprägten geopolitischen Kontext soll die Münze die Dringlichkeit anmahnen, mit der es diesen unschätzbaren Wert – den Frieden – zu bewahren gilt. Das Münzmotiv zeigt strahlenförmig das Wort „PAZ“ (Frieden) in den 16 Amtssprachen, die im Januar 2023 in den 20 Ländern des Euro-Währungsgebiets gesprochen wurden. Am oberen Rand befindet sich die Aufschrift „PORTUGAL“ und rechts oben das Ausgabejahr „2023“. Oben links ist der Name des Gestalters „José S. Teixeira“ und links der Name der portugiesischen Münzprägeanstalt „CASA DA MOEDA“ zu erkennen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_date">"November 2023"</string>
+
+    <string name="twoeuro_comm_2023_cy_title">"60. Jahrestag der Gründung der Zentralbank von Zypern"</string>
+    <string name="twoeuro_comm_2023_cy_desc">"Auf der Münze abgebildet sind Werkzeuge auf einem Mikrochip als symbolische Darstellung der wirtschaftlichen Stabilität des modernen Industrie- und Digitalzeitalters, die von der Zentralbank von Zypern seit ihrer Gründung vor 60 Jahren gesichert wird. Am unteren Münzrand stehen der Name des Ausgabestaates „ΚYΠΡΟΣ KIBRIS“ und die Jahreszahlen „1963-2023“. Der Schriftzug „60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ“ (60 Jahre seit der Gründung der Zentralbank von Zypern) ist im inneren Münzring der nationalen Seite eingraviert. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+    <string name="twoeuro_comm_2023_cy_date">"Zweites/drittes Quartal 2023"</string>
+
+    <string name="twoeuro_comm_2023_fi_2_title">"Sozial- und Gesundheitsdienste"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">"Abgebildet ist eine stilisierte Karte Finnlands. Links ist der Schriftzug „WOHLBEFINDEN“ in finnischer und schwedischer Sprache aufgeprägt. Das Ausgabejahr „2023“ steht in der Münzmitte leicht links. Unten ist das Kürzel des Ausgabestaats „FI“ zu lesen, und rechts befindet sich das Zeichen der Münze Finnlands. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"Herbst 2023"</string>
+
+    <string name="twoeuro_comm_2023_sk_2_title">"200-jähriges Bestehen der Pferde-Expresspost Wien – Bratislava"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"Das Münzmotiv zeigt eine Post-Pferdekutsche in schneller Fahrt als Symbol der Pferde-Expresspost zwischen Wien und Bratislava und mittig ein eingelassenes Rechteck mit einem Posthorn. Unter der Kutsche ist die Jahreszahl „1823“ zu sehen, als der Expresspostdienst aufgenommen wurde, und darunter in slowakischer Sprache die Städtenamen „VIEDEŇ“ und darunter „BRATISLAVA“. Am unteren Ende des inneren Münzbilds befindet sich, von den Städtenamen durch eine horizontale Linie getrennt, das Ausgabejahr „2023“. Der Name des Ausgabestaates „SLOVENSKO“ ziert den oberen Rand des Münzbilds. Rechterhand der Kutsche ist zwischen zwei würfelförmigen Prägezeichen das Zeichen der Münzprägeanstalt Kremnica (Mincovňa Kremnica) „MK“ zu erkennen. Direkt unterhalb des Münzzeichens befinden sich die stilisierten Initialen der Gestalterin der nationalen Seite, Mária Poldaufová, „MP“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"Oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_2_title">"75 Jahre Frauenwahlrecht in Belgien"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">"In der Mitte des Münzmotivs ist eine Wahlurne mit einem Stimmzettel zu sehen, der mit einem Stift ausgefüllt wird. Überlagert wird die Wahlurne vom Venus-Symbol (Symbol der Frau/Weiblichkeit). Darunter ist linkerhand die Aufschrift „75 JAAR ANS“ (75 Jahre) zu erkennen. Umrundet wird das Motiv von den niederländischen und den französischen Worten „ALGEMEEN VROUWENKIESRECHT“ – „SUFFRAGE UNIVERSEL FÉMININ“ (Allgemeines Frauenwahlrecht). Rechts unten neben dem zentralen Münzbild befinden sich die Initialen der Gestalterin Iris Bruijns. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, befindet sich rechts das Münzzeichen von Utrecht, ein Hermesstab, zusammen mit dem belgischen Zeichen der Münzmeister, einer Aster vor einem Erlenmeyer-Kolben, dem Ländercode „BE“ und der Jahreszahl „2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+    <string name="twoeuro_comm_2023_be_2_date">"Oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"500. Todestag von Luca Signorelli"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">"Das Münzmotiv ist ein Engel aus dem Fresko „Il Paradiso“ von Luca Signorelli in der Capella de San Brizio im Dom von Orvieto. Links der Abbildung steht der Buchstabe „R“ als Zeichen der Münze von Rom. Entlang des inneren Münzrands verläuft links unten der Schriftzug „SIGNORELLI“ und steht rechts der Ausgabestaat „SAN MARINO“. In der Mitte sind oben die Jahreszahlen „1523“ und „2023“ angegeben, während sich unten die Initialen der Münzdesignerin Marta Bonifacio, „MB“, finden. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"September 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_title">"500. Todestag von Perugino"</string>
+    <string name="twoeuro_comm_2023_sm_desc">"Das Münzmotiv ist die Jungfrau Maria mit dem Jesuskind, ein Ausschnitt aus dem Bild „Madonna mit Kind, dem Heiligen Sebastian und Johannes dem Täufer“ von Perugino, das sich in den Uffizien (Florenz) befindet. Links entlang des inneren Münzrands sind der Schriftzug „PERUGINO“, die Jahresangaben „1523“ und „2023“ sowie das Zeichen der Münze „R“ zu sehen. Rechts entlang des inneren Münzrands steht der Name des Ausgabestaats „SAN MARINO“. Unten finden sich die Initialen der Münzgestalterin Maria Angela Cassol, „MAC“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_date">"April 2023"</string>
+
+    <string name="twoeuro_comm_2023_ir_title">"50. Jahrestag des Beitritts Irlands zur Europäischen Union"</string>
+    <string name="twoeuro_comm_2023_ir_desc">"Abgebildet ist ein abgewandeltes Logo des Programms „EU50“, das Regierungsstellen bei der Förderung von Veranstaltungen anlässlich des 50. Jahrestags des EU-Beitritts Irlands verwenden. Über dem Logo steht der Name des Ausgabelandes „ÉIRE“. Ferner sind das Jahr „1973“ als das Jahr, in dem Irland der EU beigetreten ist, und das Jahr „2023“ als Ausgabejahr der Münze aufgeprägt. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+    <string name="twoeuro_comm_2023_ir_date">"Juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100. Geburtstag von Maria Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">"Das Design zeigt ein Porträt der legendären griechischen Sopranistin Maria Callas. Entlang des inneren Münzrands verläuft der Schriftzug „100. GEBURTSTAG VON MARIA CALLAS“, auf der rechten Seite sind das Jahr der Münzausgabe „2023“ und eine Palmette (Zeichen der griechischen Münze) zu finden. Unterhalb des Porträts steht die Aufschrift „HELLENISCHE REPUBLIK“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_date">"Juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150. Geburtstag von Constantin Carathéodory"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"Abgebildet ist ein Porträt des griechischen Mathematikers Constantin Carathéodory. Links verläuft halbkreisförmig der Schriftzug „CONSTANTIN CARATHÉODORY 1873-1950“ und rechts sind das Ausgabejahr „2023“ und eine Palmette (Zeichen der griechischen Münze) zu sehen. Unterhalb des Porträts findet sich die Aufschrift „HELLENISCHE REPUBLIK“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"Juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"Estnischer Nationalvogel – die Rauchschwalbe"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"Abgebildet ist die Silhouette einer Rauchschwalbe, um die herum rechts oben halbkreisförmig der Schriftzug „HIRUNDO RUSTICA“ (Lateinisch für Rauchschwalbe) verläuft. Unten sind der Ausgabestaat „EESTI“ und darunter das Ausgabejahr „2023“ zu lesen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"Zweites Quartal 2023"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"Rugby-Weltmeisterschaft Frankreich 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"Die Monnaie de Paris feiert mit diesem Münzmotiv den Rugby-Sport und die Rugby-Weltmeisterschaft, an der Teams aus zwanzig Ländern teilnehmen werden. Dargestellt ist ein stilisierter Rugby-Spieler, der einen Pass spielt. Im Hintergrund bildet eine Weltkugel, auf der die Torpfosten stehen, das Rugby-Spielfeld. Der Aufbau ist Teil einer imaginären Rugby-Galaxie, in der die anderen Planeten oval sind. Das Emblem der Weltmeisterschaft wurde neben dem Spieler und ihre Bezeichnung oben halbkreisförmig aufgeprägt. Auf der rechten Seite stehen der Ausgabestaat „RF“, das Zeichen der Münze und das Münzmeisterzeichen. Links unten sind die Bezeichnung der Weltmeisterschaft, der Name des Ausgabestaats „FRANCE“ und das Ausgabejahr „2023“ zu lesen. Die halbkreisförmig verlaufende Bezeichnung sowie der Name des Ausgabestaats „RF“ erscheinen in der offiziellen Schriftart der Veranstaltung (Mobius). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"Ankunft der Franzosen in Malta im Jahr 1798"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">"Im Juni 1798 beendete Napoleon Bonaparte die Herrschaft des Johanniterordens in Malta. Während seines kurzen Aufenthalts dort bildete er eine republikanische Regierung und führte tiefgreifende Gesetzes- und Verwaltungsreformen durch. So wurden unter anderem die Sklaverei und die Vorrechte des Adels abgeschafft, die Trennung zwischen Religion und Staat eingeführt und das Inquisitionsgericht abgeschafft. Die weitreichenden Reformen fanden seinerzeit in Malta keine allgemeine Billigung, und kurz darauf kam es zum Aufstand. Das Münzmotiv ist eine personifizierte Darstellung der Französischen Republik, wie sie damals auf amtlichen Briefköpfen zu finden war. Links entlang des inneren Münzrands verläuft der Schriftzug „225th ANNIVERSARY“ (225. Jahrestag), und von oben nach rechts folgt der Schriftzug „ARRIVAL OF THE FRENCH IN MALTA“ (Ankunft der Franzosen in Malta). Unten ist das Ausgabejahr „2023“ zu lesen. Links bzw. rechts der Abbildung stehen „Liberté“ (Freiheit) bzw. „Egalité“ (Gleichheit). Links oberhalb des Wortes „Egalité“ finden sich die Jahreszahlen „1798-2023“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"550. Geburtstag von Nikolaus Kopernikus"</string>
+    <string name="twoeuro_comm_2023_mt_desc">"Auf der Münze ist Kopernikus im Profil zu sehen, vor einer stilisierten Darstellung seines heliozentrischen Weltbilds. Oben links steht der Schriftzug „NICOLAUS COPERNICUS 1473-1543“, unten links sind der Name des Ausgabestaats „MALTA“ und das Ausgabejahr „2023“ zu lesen. Ebenfalls unten findet sich die Signatur der Münzgestalterin Daniela Fusco „FUSCO“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+    <string name="twoeuro_comm_2023_mt_date">"Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"100. Geburtstag von Fürst Rainier III."</string>
+    <string name="twoeuro_comm_2023_mc_desc">"Das Münzmotiv zeigt das Porträt von Fürst Rainier III. Oberhalb ist halbkreisförmig der Name des Ausgabestaates „MONACO“ zu sehen, gefolgt vom Ausgabejahr „2023“. Unterhalb befindet sich der Schriftzug „RAINIER III“, gefolgt vom Datum „31 MAI 1923“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+    <string name="twoeuro_comm_2023_mc_date">"Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"Vorsitz Spaniens im Rat der EU"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">"Die Münze zeigt zwei Abbildungen. In der Münzmitte ist das Logo des spanisches EU-Ratsvorsitzes zu sehen, umrahmt von der Umschrift: „ESPANA 2023 – PRESIDENCIA ESPANOLA“ und „CONSEJO DE LA UNION EUROPEA“ (Spanien 2023 – spanischer Vorsitz und Rat der Europäischen Union). Am unteren Rand des Münzinneren ist das Münzzeichen der Fabrica Nacional de Moneda y Timbre Real Casa de la Moneda – das mit einer Krone versehene „M“ – zu erkennen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2023_es_2_date">"1. Juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_lv_title">"Ukrainische Sonnenblume"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"Das Münzmotiv zeigt eine Sonnenblume. Die Sonnenblume ist ein nationales Symbol der Ukraine, die weltweit zu den größten Produzenten und Exporteuren von Sonnenblumenöl gehört. Seit Kriegsausbruch in der Ukraine ist die Sonnenblume zum Friedenssymbol geworden. Sonnenblumen wurden erstmals im Sommer 1996 als Friedenssymbol verwendet. Damals wurden sie an einem Militärstützpunkt nahe Pervomaisk, rund 300 Kilometer südlich der Hauptstadt Kiew, gepflanzt. Inzwischen werden Sonnenblumen weltweit als Symbol des Friedens und der Unterstützung für die Ukraine verwendet. Am oberen Rand des Motivs ist halbkreisförmig die Aufschrift „SLAVA UKRAINAI!“ (Ruhm der Ukraine) und unterhalb, ebenfalls halbkreisförmig, der Name des Ausgabestaats „LATVIJA“, gefolgt vom Ausgabejahr „2023“, angebracht. Gestaltet wurde die Münze vom lettischen Künstler Krišs Salmanis. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"Mai 2023"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"Die Teilnahme Portugals an den 33. Olympischen Spielen"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"Beschreibung:Das Münzmotiv zeigt ein Ensemble an Elementen, die herzförmig angeordnet sind und eine gemeinschaftliche Umarmung darstellen; rund um das Herz befinden sich 15 Kreise mit symbolischem Bezug auf die Olympischen Ringe und die durch sie symbolisierten Kontinente; die Spitze des Herzens ziert das Wappen Portugals; im Zentrum der „Umarmung“ befindet sich das Logo des portugiesischen Olympischen Komitees, was dafür steht, dass die Herzen aller in Portugal gemeinsam für das portugiesische Olympiateam bei den Olympischen Spielen 2024 in Paris schlagen. Unterhalb der Herzform befinden sich die Prägungen „Equipa Olímpica Portugal“ sowie das Jahr „2024“; auf der linken Seite die Münzprägung „Casa da Moeda“; und auf der rechten Seite der Name des Designers. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"Ausgabedatum:Juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"Das 50. Jubiläum des 25. April 1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"Beschreibung:Der 25. April 1974 ist das Datum der Revolution, die den Übergang zur Demokratie in Portugal anstieß. Der Tag markiert auch den Beginn eines tiefgreifenden wirtschaftlichen, sozialen und kulturellen Wandels, der das Land europäisiert hat. Im Zentrum des Motivs befindet sich eine Nelke, die als Symbol für die friedliche Revolution gilt und von mehreren exzentrischen Kreisen umgeben ist; diese stehen dafür, dass sich die Handlungen und Überzeugungen der Menschen zwar ändern können, aber im Wesentlichen den Grundsätzen der Revolution treu bleiben. Außen rechts verläuft der Vers „Esta é a madrugada que eu esperava“ [Das ist die Morgenröte, auf die ich gewartet habe] und der Name der Lyrikerin „Sophia de Mello Breyner Andresen“; links das nationale Wappen und daneben die Prägungen „Portugal“ und „25. April 1974_2024“, gefolgt von dem Namen des Designers und dem Münzzeichen „Casa da Moeda“, der Name der portugiesischen Münzprägeanstalt. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_po_volume">"515000"</string>
+    <string name="twoeuro_comm_2024_po_date">"Ausgabedatum:April 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_title">"Wahlen und Demokratie"</string>
+    <string name="twoeuro_comm_2024_fi_desc">"Beschreibung:Auf der Münze sind stilisierte Stimmzettel abgebildet, die aus Kreisen und Rechtecken bestehen. Die Darstellung ist zwar abstrakt, das Motiv aber dennoch klar erkennbar. Insgesamt sind acht Stimmzettel zu sehen, die sich teilweise überlappen und an diesen Schnittstellen kleinere geometrische Formen bilden. Im unteren Bereich des Münzbilds befindet sich die Jahreszahl „2024“ und auf der rechten Seite leicht oberhalb der Mitte die Prägung „FI“. Der Schriftzug „VAALIT ♦ DEMOKRATIA“ ist halbkreisförmig am rechten Bildrand und „VAL ♦ DEMOKRATI“ am linken Bildrand angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_date">"Ausgabedatum:Frühjahr 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_2_title">"Der Kampf gegen Krebs in Belgien"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"Beschreibung:Das Motiv besteht aus einer Schleife, die als universelles Symbol für den Kampf gegen Krebs dient. Die Schleife geht in ihrer Verlängerung auf beiden Seiten fließend in die Darstellung einer Herzfrequenzkurve über, die für Leben und Vitalität steht. Drei Linien im oberen Bereich symbolisieren einen Regenbogen, der Hoffnung und Trost repräsentiert. In der untersten Linie sind das Länderkürzel BE und die Jahreszahl 2024 eingraviert. Im unteren Bereich der Münze befinden sich Prägungen in französischer und niederländischer Sprache: „Lutte contre le cancer“ - „Strijd tegen kanker“. Die Initialen der Designerin Iris Bruijns befinden sich links oberhalb dieser Prägungen. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, ist ganz unten auch die Münzmarke von Utrecht, ein Hermesstab, gemeinsam mit dem Zeichen der belgischen Münzmeister, einer Aster vor einem Erlenmeyer-Kolben, angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"Ausgabedatum:Mai 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_title">"Belgischer EU-Ratsvorsitz"</string>
+    <string name="twoeuro_comm_2024_be_desc">"Beschreibung:Das Motiv zeigt einen Vogelschwarm (Schwalben) als Sinnbild für die Arbeitsweise der EU, die sich als Gruppe fortbewegt, dabei aber jedem Mitglied individuellen Handlungsspielraum lässt, wodurch eine komplexe, dynamische Einheit entsteht. Die Gruppe steht also in erster Linie für das Miteinander. In der Formation des Vogelschwarms fliegt stets eine Schwalbe an der Spitze und zieht die anderen mit. Diese Rolle übernimmt Belgien in der ersten Jahreshälfte 2024. Die 27 Vögel stehen für die Zahl der EU-Mitgliedstaaten. Das Länderzeichen „BE“ ist zwischen den Schwalben rechts oben zu erkennen. Auf einer Freifläche links unterhalb des Vogelschwarms befindet sich der Schriftzug „BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024“. Ganz links sind die Initialen der Designerin Iris Bruijns zu erkennen. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, ist links außen auch das Münzzeichen von Utrecht, ein Hermesstab, angebracht, über dem sich das Zeichen der belgischen Münzmeister, eine Aster vor einem Erlenmeyer-Kolben, befindet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+    <string name="twoeuro_comm_2024_be_date">"Ausgabedatum:Erstes Quartal 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari Grad Varaždin – die Festung von Varaždin)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"Beschreibung:Auf der Münze ist die Festung von Varaždin (12. – 16. Jahrhundert) abgebildet. Varaždin wird erstmals im Jahr 1181 erwähnt. Nach dem brutalen Überfall durch die Tataren im Jahr 1242 wurde es zu einer königlichen Festung ausgebaut und trug fortan den Namen Stari Grad. Das Erscheinungsbild Varaždins hat sich im Laufe der Jahrhunderte gewandelt: Einst erbaut als mächtige mittelalterliche Burg, die von Wassergräben umschlossen war, entwickelte sich diese zur wichtigsten Festung und Waffenkammer der slawonischen Militärgrenze und dem Hauptstützpunkt der Armee in Varaždin, bis sie schließlich zu einem malerischen Renaissance-Schloss ausgebaut wurde. Heutzutage ist die Festungsanlage das bedeutendste und faszinierendste Bauwerk der Stadt Varaždin und verfügt im Rahmen des kroatischen Architekturerbes über den Status eines Denkmals der höchsten Kategorie. Ferner sind am oberen bzw. unteren Rand des Münzbilds kreisförmig der Name des Ausgabestaates „HRVATSKA“ (Kroatien), das Ausgabejahr „2024“ sowie der Schriftzug „STARI GRAD VARAŽDIN“ (Festung Varaždin) abgebildet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_date">"Ausgabedatum:Juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"50. Jahrestag der Erklärung der Bürgerrechte und der Grundprinzipien der Rechtsordnung von San Marino"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"Beschreibung:Im Zentrum des Münzmotivs ist ein aufgeschlagenes Buch mit dem Schriftzug „I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI“ (Die Menschenrechte sind unantastbar) zu sehen, der aus Artikel 5 des Gesetzes Nr. 59 vom 8. Juli 1974 der „Erklärung der Bürgerrechte und der Grundprinzipien der Rechtsordnung von San Marino“ stammt. Darüber sind die Umrisse der Freiheitsstatue (Statua della Libertà) und des Palazzo Pubblico (Rathaus und Regierungssitz San Marinos) sowie der Name des Ausgabestaats „SAN MARINO“ abgebildet. Auf der linken Seite befindet sich der Buchstabe „R“ für die Prägestätte Rom. Unten mittig erscheinen das Ausgabejahr „2024“ sowie die Initialen des Münzgestalters Emanuele Ferretti („E.F. INC.“). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_date">"Ausgabedatum:April 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_title">"50-jähriges Jubiläum der Wiederherstellung der Demokratie in Griechenland"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"Beschreibung:Das Münzbild zeigt das griechische Parlamentsgebäude, das mit dem Schriftzug „50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ“ („50-JÄHRIGES JUBILÄUM DER WIEDERHERSTELLUNG DER DEMOKRATIE IN GRIECHENLAND“) und „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („HELLENISCHE REPUBLIK“) umrandet ist. Darunter ist eine Palmette (Münzzeichen der griechischen Münze) zu sehen. Der Sturz des Obristenregimes am 24. Juli 1974 markierte die Rückkehr zur Demokratie in Griechenland nach einer siebenjährigen Diktatur. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_date">"Ausgabedatum:Juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_2_title">"Geburt von Penelope Delta vor 150 Jahren"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"Beschreibung:Das Münzbild zeigt ein Porträt von Penelope Delta, das von dem Schriftzug „ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941“ („PENELOPE DELTA 1874-1941“) und „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („HELLENISCHE REPUBLIK“) umrandet ist. Links ist eine Palmette (Münzzeichen der griechischen Münze) und rechts das Ausgabejahr zu sehen. Penelope Delta war eine Wegbereiterin der Kinderliteratur in Griechenland. Generationen griechischer Kinder sind mit ihren Büchern aufgewachsen, die auch heute noch beliebt sind. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"Ausgabedatum:Juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"Die Kornblume – estnische Nationalblume"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"Beschreibung:Das Münzbild zeigt die Silhouette einer Kornblume und den halbkreisförmigen Schriftzug „CENTAUREA CYANUS“ (Kornblume auf Lateinisch) oben links. Unten sind der Ausgabestaat „EESTI“ und darunter das Ausgabejahr „2024“ zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_ee_date">"Ausgabedatum:Zweites Quartal 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_2_title">"Der Eiffelturm"</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"Beschreibung:Für den Countdown zu den Olympischen Spielen 2024 in Paris feiert die Monnaie de Paris den Weg zu den Spielen mit Darstellungen von Paris und des kulturellen Erbes. 100 Jahre nach den Spielen von 1924 richtet die französische Hauptstadt die Olympischen Sommerspiele erneut aus. Die Aufmerksamkeit für dieses internationale Großereignis ist von Jahr zu Jahr stetig gewachsen und erreicht 2024 ihren Höhepunkt; dies wird mit der Ausgabe von zwei Zwei-Euro-Gedenkmünzen anlässlich der Olympischen Spiele gewürdigt. Das Motiv stellt Frankreich anhand symbolträchtiger Bauwerke dar; zu sehen sind der Eiffelturm und die Basilika Notre Dame de la Garde in Marseille. Im Hintergrund befindet sich eine Tiaré-Blüte als Symbol der Insel Tahiti, wo die Surfwettbewerbe stattfinden werden. Der Eiffelturm, der in Bewegung ist, symbolisiert die Werte im Sport. Seine Arme bestehen aus 73 Nieten, die für die Gastgeberorte stehen. Zum ersten Mal werden die Olympischen und Paralympischen Symbole zusammen dargestellt, um die Spiele für alle zu zelebrieren. Die Jahreszahl, die Abkürzung des Ausgabelands „RF“ wie auch die Münzzeichen fügen sich in die Leichtathletikbahn ein. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"Ausgabedatum:Mai 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"Olympische Spiele 2024 – Ringkampf"</string>
+    <string name="twoeuro_comm_2024_fr_desc">"Beschreibung:Für den Countdown zu den Olympischen Spielen 2024 in Paris feiert die Monnaie de Paris den Weg zu den Spielen in Paris ebenso wie das eigene Erbe. 100 Jahre nach den Spielen von 1924 richtet die französische Hauptstadt die Olympischen Sommerspiele erneut aus. Die Vorbereitungen für dieses internationale Ereignis haben in den letzten Jahren zunehmend an Intensität gewonnen und gipfeln 2024 in der Ausgabe von zwei Euro-Gedenkmünzen anlässlich der Olympischen Spiele. Das Motiv zeigt Herkules, Nationalfigur und Ikone der französischen Numismatik, im antiken Ringkampf mit der Chimäre von Notre-Dame, als Anspielung auf die Olympischen Spiele der Antike. Hinter den Ringern ist die Kathedrale Notre-Dame zu sehen. Das Münzbild wird im Hintergrund von einer Leichtathletikbahn umrahmt, in die auf der linken Seite das Logo der Olympischen Spiele 2024 in Paris eingefügt wurde. Das Ausgabejahr, das Zeichen „RF“ und die Münzzeichen sind ebenfalls in die Leichtathletikbahn eingearbeitet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+    <string name="twoeuro_comm_2024_fr_date">"Ausgabedatum:Januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_title">"Die maltesische Honigbiene"</string>
+    <string name="twoeuro_comm_2024_mt_desc">"Beschreibung:Das Motiv wurde von Maria Anna Frisone entworfen und zeigt die maltesische Honigbiene (Apis Mellifera Ruttneri), die den endemischen Tier- und Pflanzenarten auf den maltesischen Inseln angehört. Das Motiv zeigt eine Biene auf einer Blüte sowie eine Honigwabe im Hintergrund. Die Münze macht auf eine nur auf Malta beheimatete Tierart aufmerksam und fängt die Arbeit der Biene als Bestäuberin und Honigproduzentin ein. Auf der linken Seite befindet sich der Name des Ausgabestaates „MALTA“ und auf der rechten Seite das Ausgabejahr „2024“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+    <string name="twoeuro_comm_2024_mt_date">"Ausgabedatum:Juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_mc_title">"500 Jahre Vertrag mit Karl V."</string>
+    <string name="twoeuro_comm_2024_mc_desc">"Beschreibung:Das Münzbild zeigt ein Bildnis von Karl V. Darüber steht halbkreisförmig der Name des Ausgabestaates „MONACO“. Unterhalb des Münzbilds befindet sich die Aufschrift „1524 - TRAITE AVEC CHARLES QUINT (‚Vertrag mit Karl V.‘) - 2024“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2024_mc_date">"Ausgabedatum:Juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"200. Jubiläum der Gründung der Policia Nacional, der für die Sicherheit auf dem gesamten Staatsgebiet zuständigen Nationalpolizei"</string>
+    <string name="twoeuro_comm_2024_es_desc">"Beschreibung:Das Motiv zeigt das Emblem der Policia Nacional, eingerahmt vom Schriftzug „ESPANA - POLICIA NACIONAL 1824-2024“. Rechts unten neben dem Emblem befindet sich das Münzzeichen, ein gekröntes „M“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_date">"Erstes Quartal 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"Anerkennung von Sevilla (Archivo de Indias, Real Alcázar und Kathedrale von Sevilla) als UNESCO-Weltkulturerbe"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"Beschreibung:Das Motiv zeigt den „Patio de las Doncellas“ im Real Alcázar von Sevilla. Darüber befindet sich halbkreisförmig in Großbuchstaben der Schriftzug „SEVILLA“ und unterhalb des Schriftzugs das Münzzeichen, ein gekröntes „M“. Unter dem Motiv sind halbkreisförmig in Großbuchstaben das Land „ESPANA“ und das Ausgabejahr „2024“ eingearbeitet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"Ausgabedatum:Erstes Quartal 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"150. Geburtstag von Guglielmo Marconi"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"Beschreibung:Das Münzbild zeigt das Porträt von Marconi (mittig) sowie von Papst Pius XI. (rechts) und dessen Nachfolger Papst Pius XII. (links). Oben rechts befindet sich halbkreisförmig der Schriftzug „GUGLIELMO MARCONI“ und darunter die Jahresangaben „1874“ und „2024“. Im unteren Bereich der Münze sind der Schriftzug „CITTÀ DEL VATICANO“ sowie der Name der Künstlerin „L. PANCOTTO“ (Loredana Pancotto) angebracht. Links ist das Münzzeichen „R“ zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"Ausgabedatum:Mai 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"175. Jubiläum der Frankfurter Verfassung (oder „Paulskirchenverfassung“, des ersten Versuchs einer gesamtstaatlichen Verfassung für ein vereintes Deutschland)"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"Beschreibung:Das Motiv zeigt thematische Elemente in mehreren sich überlagernden Ebenen. Im Vordergrund befindet sich eine perspektivische Darstellung der Paulskirche beim Einzug der Abgeordneten der Nationalversammlung. Sie überlagert eine Darstellung der Verfassungsurkunde und einer Schreibfeder als Sinnbilder des Ergebnisses des Frankfurter Parlaments. Oberhalb davon sind die drei weiblichen Allegorien Einigkeit, Recht und Freiheit sowie die dreifarbige Fahne (Schwarz-Rot-Gold) zu sehen. Das kraftvolle dreidimensionale Münzrelief beschwört die Zeitlosigkeit der demokratischen Grundsätze, die in der Paulskirchenverfassung erstmals in schriftlicher Form grundlegend verankert wurden. Am Rand des Münzinneren verläuft der Schriftzug „PAULSKIRCHENVERFASSUNG 1849“. Unterhalb sind das Ausgabejahr „2024“, das Kürzel des Ausgabestaates „D“, das Zeichen der jeweiligen Münze („A“, „D“, „F“, „G“ oder „J“) und die Initialen des Künstlers Bodo Broschat aus Berlin zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"Ausgabedatum:März 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
+    <string name="twoeuro_comm_2024_de_desc">"Beschreibung:Die Münze ist dem Bundesland Mecklenburg-Vorpommern gewidmet. Sie ist die zweite Münze in der deutschen 2-Euro-Gedenkmünzenserie „Bundesländer II“. Alljährlich wird eines der 16 Bundesländer mit einer Münze gewürdigt, die ein bedeutendes Gebäude oder Wahrzeichen abbildet. Die Reihenfolge der Bundesländer folgt der turnusmäßig wechselnden Präsidentschaft im Bundesrat, einem der fünf ständigen Verfassungsorgane der Bundesrepublik Deutschland, in dem die Länderinteressen vertreten werden. Das Münzmotiv zeigt die berühmte Kreidefelsformation Königsstuhl mit ihren Buchenwäldern im Nationalpark Jasmund auf der Insel Rügen. Die Felsklippen werden aus der Strandperspektive dargestellt, was die Gewaltigkeit dieses einzigartigen Naturdenkmals besonders eindrucksvoll veranschaulicht. Durch die gemeinsame Darstellung von Meer, Vogel und Mensch wird ein detailliertes, plastisches Gesamtbild vermittelt. Die mit der Möwe im Flug harmonierende moderne Typografie fügt sich gekonnt in das Münzrelief ein. In der oberen Hälfte des Münzinneren sind der Schriftzug „MECKLENBURG-VORPOMMERN“, das Ausgabejahr „2024“, das Kürzel „D“ für den Ausgabestaat Deutschland sowie oben rechts der Buchstabe „X“ als Platzhalter für das Zeichen der jeweiligen Münze („A“, „D“, „F“, „G“ oder „J“) zu sehen. Die Initialen des Künstlers Michael Otto (aus Rodenbach, Deutschland) befinden sich in der unteren Hälfte des Münzinneren. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_date">"Ausgabedatum:Januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">":175. Todestag von Großherzog Wilhelm II."</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":Das Münzbild zeigt linker Hand Großherzog Wilhelm II. als Reiterstatue und rechter Hand ein linksseitiges Porträt von Großherzog Henri. Im linken oberen Teil des Münzbilds sind halbkreisförmig die Schriftzüge „GROUSSHERZOGE VU LËTZEBUERG“ und „GUILLAUME II 1792-1849“ zu sehen. Das Prägejahr „2024“ und die Zahl „175“ für den 175. Todestag sind unterhalb des Porträts von Großherzog Henri angebracht. Da die Prägeanstalt noch nicht bekannt ist, können die Münzzeichen im abgebildeten Platzhalter noch angepasst werden. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_2_date">":Januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">":100. Jubiläum der Unterzeichnung des Großherzoglichen Erlasses über die Ausgabe der „Feierstëppler“-Scheidemünze aus Nickel durch Großherzogin Charlotte"</string>
+    <string name="twoeuro_comm_2024_lu_desc">":Das Münzbild zeigt in der Mitte eine Darstellung der luxemburgischen Münze aus dem Jahr 1924 mit dem Motiv eines Stahlarbeiters. Sie bildet die zweite Null in der Zahl „100“, die für das Jubiläum der Erstausgabe dieser Münze steht. Von allen Münzen in Luxemburgischen Franken war sie mit am längsten in Umlauf. Der Name des Ausgabestaates „LËTZEBUERG“ und die Jahreszahl „2024“ zieren den oberen Rand des Münzbilds. Unter der Jubiläumszahl ist das Wort „FEIERSTËPPLER“ zu lesen, die gebräuchliche und weithin populäre Bezeichnung der Münze. Das Monogramm (Buchstabe „H“ mit einer Krone) steht für Großherzog Henri. Da die Prägeanstalt noch nicht bekannt ist, können die Münzzeichen im abgebildeten Platzhalter noch angepasst werden. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_date">":Januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"250. Jahrestag der Gründung der Guardia di Finanza"</string>
+    <string name="twoeuro_comm_2024_it_desc">"Beschreibung:Das Motiv zeigt mittig das stilisierte heraldische Emblem der Guardia di Finanza. Es steht für die Idee der Sicherheit und zeichnet eine Vision der künftigen Rolle der Guardia di Finanza unter Würdigung der Vergangenheit, indem es eine Verbindung zu den kommenden Jahren und den anstehenden Herausforderungen herstellt. Das Emblem beinhaltet verschiedene Elemente: Berge, Meer und Himmel als Umgebungen, in denen die Guardia di Finanza operiert, den Greif als mythologisches Tier, das der Legende nach über den Staatsschatz – dargestellt als Schatztruhe – wacht, und die Turmkrone. Oberhalb ist halbkreisförmig der Schriftzug „GUARDIA DI FINANZA“ zu sehen. Unter dem Motiv sind das Kürzel „RI“ der Italienischen Republik und die Jahreszahlen „1774“ und „2024“ für das Gründungsjahr der Guardia di Finanza bzw. das Ausgabejahr der Münze zu erkennen. Rechter Hand befinden sich die Zeichen „R“ für die Münze Rom und „MB“ für die Initialen der Designerin Marta Bonifacio. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_date">"Ausgabedatum:Januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">"Beschreibung:Das Motiv zeigt im Vordergrund ein Porträt von Rita Levi-Montalcini nach einer Fotografie von Manuela Fabbri. Im Hintergrund ist ein Mikroskop auf einem hufeisenförmigen Sockel zu sehen. Es stammt von einer Medaille, die Gino Levi-Montalcini, Bruder der berühmten Wissenschaftlerin, einst als Glücksbringer für die Verleihung des Medizin-Nobelpreises im Jahr 1986 entworfen hat. Über dem Porträt befindet sich halbkreisförmig der Schriftzug „RITA LEVI-MONTALCINI“, links das Kürzel „RI“ der Italienischen Republik und das Zeichen „R“ der Münzprägeanstalt Rom. Unter dem Münzmotiv ist das Ausgabejahr „2024“ zu erkennen, während rechts die Initialen der Münzgestalterin Silvia Petrassi „SP“ zu sehen sind. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"Ausgabedatum:Januar 2024"</string>
 
     <!-- END auto generated code for language de -->
 

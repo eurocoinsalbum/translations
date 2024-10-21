@@ -429,15 +429,16 @@
 - While setting the trading collection to 'executed' you can choose to automatically update your collection. Choose 'No' to update your collection manually. With 'Edit' you are allowed to edit the trading collection even after it was confirmed. Use this for the case that the traded coins to not match the trading collection. But the trading collection will not be synchronized with your trading partner any more. After the traded coins and the trading collection match you can again mark the collection as executed and choose 'Yes' to automatically update your own collection.
 - If you do not want to start or continue a trading session you can simply delete the trading collection. You will be asked if you want to delete the underlying trading partner collection as well.
         <!-- Trading text change -->
-- At any time you can retract your collection from the public.
+        - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_current">"Version 7.6.3\n
-Fixed corrupted backup files when special charaters are used in the notes.
+    <string name="version_history_last">"Version 7.6.6\n
+Android version updated.
         "</string>
 
-    <string name="version_history_last">"Version 7.6.2\n
-Added 2€ commemorative coins 2024.
+    <string name="version_history_current">"Version 7.7\n
+2€ commemorative coins 2024 added.\n
+Android version updated.
         "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -537,6 +538,10 @@ The user can contact the corresponding institution for data privacy.
     <string name="specialeuro_2023_de_insects_schmetterling_short_title">Swallowtail</string>
     <string name="specialeuro_2023_de_insects_libelle_title">Wonderful world of insects Prachtlibelle</string>
     <string name="specialeuro_2023_de_insects_libelle_short_title">Prachtlibelle</string>
+    <string name="specialeuro_2024_de_insects_gruenes_heupferd_title">Wonderful world of insects Seven-spot Grünes Heupferd</string>
+    <string name="specialeuro_2024_de_insects_hainschwebfliege_title">Wonderful world of insects Hainschwebfliege</string>
+    <string name="specialeuro_2024_de_insects_hirschkaefer_title">Wonderful world of insects Hirschkäfer</string>
+    <string name="specialeuro_2024_de_insects_steinhummel_title">Wonderful world of insects Steinhummel</string>
 
     <!-- BEGIN auto generated code for language en -->
     <string name="twoeuro_comm_2004_va_title">"75th anniversary of the founding of the Vatican City State"</string>
@@ -2647,624 +2652,297 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2023_lt_date">"First quarter 2023"</string>
 
-    <!-- END auto generated code for language en -->
+    <string name="twoeuro_comm_2023_ad_2_title">"Summer solstice fire festivals in the Pyrenees"</string>
+    <string name="twoeuro_comm_2023_ad_2_desc">"The summer solstice fire festivals were inscribed on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity in 2015. They are traditional and popular festivities widely celebrated in Andorra each year. The design reproduces a human figure, named ‘fallaire’, wearing a traditional cape and tracing a circle of fire with the ‘falla’. This is the main element of the festival and consists of tree barks that, once lit, they are energetically whirled around creating large circles of fire. The graphic composition of lines in the background of the design represents the summer solstice together with the name of the issuing country ‘ANDORRA’ and the year ‘2023’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_2_date">"Last quarter of 2023"</string>
 
-    <!-- BEGIN manual code for language en -->
+    <string name="twoeuro_comm_2023_ad_title">"30 years of the entry of the Principality of Andorra into the United Nations"</string>
+    <string name="twoeuro_comm_2023_ad_desc">"The United Nations is represented by two symbolic elements: two laurel wreaths and a globe, which forms part of the number 30 that has been represented, with the inscription ANYS (years) and the year date 2023 below. In the upper part of the design there is the coat of arms of Andorra and the inscription ‘ANDORRA MEMBRE DE LES NACIONS UNIDES’ (Andorra member of the United Nations). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_date">"Last quarter of 2023"</string>
 
-    <string name="twoeuro_comm_2023_ad_title">"30 years UN"</string>
-    <string name="twoeuro_comm_2023_ad_desc">""</string>
-    <string name="twoeuro_comm_2023_ad_volume">""</string>
-    <string name="twoeuro_comm_2023_ad_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_ad_2_title">"Solstici d'estiu"</string>
-    <string name="twoeuro_comm_2023_ad_2_desc">""</string>
-    <string name="twoeuro_comm_2023_ad_2_volume">""</string>
-    <string name="twoeuro_comm_2023_ad_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_cy_title">"60 years central bank of Cyprus"</string>
-    <string name="twoeuro_comm_2023_cy_desc">""</string>
-    <string name="twoeuro_comm_2023_cy_volume">""</string>
-    <string name="twoeuro_comm_2023_cy_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_ee_title">"Nationalvogel Rauchschwalbe"</string>
-    <string name="twoeuro_comm_2023_ee_desc">"Exemplar der Rauschschwalbe im Flug vor auf einer Stromleitung sitzenden Vögeln im Hintergrund. Am linken oberen Bildrand ist der Ausgabeanlass „HIRUNDO RUSTICA“ und am unteren Bildrand der Ausgabestaat „EESTI“ und die Jahreszahl „2023“ zu erkennen."</string>
-    <string name="twoeuro_comm_2023_ee_volume">"1.000.000"</string>
-    <string name="twoeuro_comm_2023_ee_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_es_2_title">"Spanish presidency of the Council of the European Union"</string>
-    <string name="twoeuro_comm_2023_es_2_desc">""</string>
-    <string name="twoeuro_comm_2023_es_2_volume">""</string>
-    <string name="twoeuro_comm_2023_es_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_fi_2_title">"Public health"</string>
-    <string name="twoeuro_comm_2023_fi_2_desc">""</string>
-    <string name="twoeuro_comm_2023_fi_2_volume">""</string>
-    <string name="twoeuro_comm_2023_fi_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_fr_2_title">"Rugby world cup 2023"</string>
-    <string name="twoeuro_comm_2023_fr_2_desc">""</string>
-    <string name="twoeuro_comm_2023_fr_2_volume">""</string>
-    <string name="twoeuro_comm_2023_fr_2_date">"10.01.2023"</string>
-
-    <string name="twoeuro_comm_2023_gr_title">"100 years Maria Callas"</string>
-    <string name="twoeuro_comm_2023_gr_desc">""</string>
-    <string name="twoeuro_comm_2023_gr_volume">""</string>
-    <string name="twoeuro_comm_2023_gr_date">"27.06.2023"</string>
-
-    <string name="twoeuro_comm_2023_gr_2_title">"150 years Constantin Carathéodory"</string>
-    <string name="twoeuro_comm_2023_gr_2_desc">""</string>
-    <string name="twoeuro_comm_2023_gr_2_volume">""</string>
-    <string name="twoeuro_comm_2023_gr_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_ir_title">"100 years peace"</string>
-    <string name="twoeuro_comm_2023_ir_desc">""</string>
-    <string name="twoeuro_comm_2023_ir_volume">""</string>
-    <string name="twoeuro_comm_2023_ir_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_lv_title">"Together with Ukraine"</string>
-    <string name="twoeuro_comm_2023_lv_desc">""</string>
-    <string name="twoeuro_comm_2023_lv_volume">""</string>
-    <string name="twoeuro_comm_2023_lv_date">"16.03.2023"</string>
-
-    <string name="twoeuro_comm_2023_mc_title">"100 years Rainier III"</string>
-    <string name="twoeuro_comm_2023_mc_desc">""</string>
-    <string name="twoeuro_comm_2023_mc_volume">""</string>
-    <string name="twoeuro_comm_2023_mc_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_mt_title">"550 years Nikolaus Kopernikus"</string>
-    <string name="twoeuro_comm_2023_mt_desc">""</string>
-    <string name="twoeuro_comm_2023_mt_volume">""</string>
-    <string name="twoeuro_comm_2023_mt_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_mt_2_title">"225 years french in Malta"</string>
-    <string name="twoeuro_comm_2023_mt_2_desc">""</string>
-    <string name="twoeuro_comm_2023_mt_2_volume">""</string>
-    <string name="twoeuro_comm_2023_mt_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_si_title">"The 150th anniversary of the birth of Josip Plemelj (mathematician and astronomer)"</string>
+    <string name="twoeuro_comm_2023_si_desc">"The design displays parts of the equation that Josip Plemelj solved as a first person in the world. Numbers and symbols rotate on circumferences that depict planet rotation, movement in space, as well as composing individual unsolvable elements into whole. That way the design shows both fields of Josip Plemelj's work, i.e. mathematics and astronomy. The inscription ‘JOSIP PLEMELJ 1873’, the name of the issuing country ‘SLOVENIJA’ and the year of issuance ‘2023’ are integrated in the design. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_si_date">"December 2023"</string>
 
     <string name="twoeuro_comm_2023_po_title">"Peace"</string>
-    <string name="twoeuro_comm_2023_po_desc">""</string>
-    <string name="twoeuro_comm_2023_po_volume">""</string>
-    <string name="twoeuro_comm_2023_po_date">"2023"</string>
+    <string name="twoeuro_comm_2023_po_desc">"The coin is dedicated to Peace among nations and to friendly and mutually beneficial coexistence. The search for peace must sit on a collective effort towards a common purpose. In the current highly polarized geopolitical context, this coin is aimed to help remind of the urgence to protect the priceless asset that is peace. The design radially displays the word ‘PAZ’ (PEACE) in the 16 official idioms spoken in all 20 countries of the Euro Zone as of January 2023. The inscription at the top reads ‘PORTUGAL’, followed by the year of issuance ‘2023’ at the top right; at the top left is the name of the designer ‘José S. Teixeira’ and at the left the mintmark ‘CASA DA MOEDA’, the name of the Portuguese Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_date">"November 2023"</string>
 
-    <string name="twoeuro_comm_2023_po_2_title">"World youth day Lissabon 2023"</string>
-    <string name="twoeuro_comm_2023_po_2_desc">""</string>
-    <string name="twoeuro_comm_2023_po_2_volume">""</string>
-    <string name="twoeuro_comm_2023_po_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_cy_title">"The 60th anniversary of the foundation of the Central Bank of Cyprus"</string>
+    <string name="twoeuro_comm_2023_cy_desc">"The design depicts tools on a microchip symbolising the stability of the economy in the modern industrial and digital era secured by the Central Bank of Cyprus, which celebrates 60 years of existence. The issuing country's name ‘ΚYΠΡΟΣ KIBRIS’ and the dates ‘1963-2023’ are at the bottom. Additionally, the phrase ‘60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ’ (i.e. 60 years since the foundation of the Central Bank of Cyprus) is inscribed on the inner part of the national side of the coin. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+    <string name="twoeuro_comm_2023_cy_date">"Second/third quarter of 2023"</string>
 
-    <string name="twoeuro_comm_2023_sk_2_title">"200 years Wien – Bratislava"</string>
-    <string name="twoeuro_comm_2023_sk_2_desc">""</string>
-    <string name="twoeuro_comm_2023_sk_2_volume">""</string>
-    <string name="twoeuro_comm_2023_sk_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_fi_2_title">"Social and health services"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">"The design represents a stylized map of Finland. The left-hand side bears the lettering ‘WELL-BEING’ in Finnish and Swedish. The year of issuance ‘2023’ is slightly on the left-hand side in the middle of the coin. At the bottom is the indication of the issuing country ‘FI’. At the right hand-side is the mintmark of the Mint of Finland. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"Autumn 2023"</string>
 
-    <string name="twoeuro_comm_2023_sm_title">"500 years Perugino"</string>
-    <string name="twoeuro_comm_2023_sm_desc">""</string>
-    <string name="twoeuro_comm_2023_sm_volume">""</string>
-    <string name="twoeuro_comm_2023_sm_date">"2023"</string>
+    <string name="twoeuro_comm_2023_sk_2_title">"200th anniversary of the start of the horse-drawn express mail coach service between Vienna and Bratislava"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"The design’s symbolic depiction of the express mail coach service between Vienna and Bratislava features a horse-drawn coach in rapid motion and a centrally placed rectangular inset containing a post-horn. Inscribed below the image is the year ‘1823’, when the express mail service began operation, and below that date are the city names in Slovak, ‘VIEDEŇ’ and ‘BRATISLAVA’, one above the other. At the bottom of the coin’s inner circle is the year of issuance ‘2023’, separated from the text above by a horizontal line. The name of the issuing country ‘SLOVENSKO’ is inscribed along the upper edge of the design. To the right of the coach is the mint mark of the Kremnica Mint (Mincovňa Kremnica), consisting of the letters ‘MK’ placed between two dies. Just below the mark are the stylised initials ‘MP’, referring to the national side’s designer Mária Poldaufová. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"October 2023"</string>
 
-    <string name="twoeuro_comm_2023_sm_2_title">"500 years Luca Signorelli"</string>
-    <string name="twoeuro_comm_2023_sm_2_desc">""</string>
-    <string name="twoeuro_comm_2023_sm_2_volume">""</string>
-    <string name="twoeuro_comm_2023_sm_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_si_title">"150 years Josip Plemelj"</string>
-    <string name="twoeuro_comm_2023_si_desc">""</string>
-    <string name="twoeuro_comm_2023_si_volume">""</string>
-    <string name="twoeuro_comm_2023_si_date">"2023"</string>
-
-    <string name="twoeuro_comm_2023_hr_title">"The introduction of the euro as the official currency of Croatia on 1 January 2023"</string>
-    <string name="twoeuro_comm_2023_hr_desc">"The design features the inscriptions of the issuing country ‘HRVATSKA’ (Croatia) and the year of issuance ‘2023.’, depicted horizontally, as well as the words ‘ČLANICA EUROPODRUČJA’ (member of the euro area), which are inscribed along the outer edge of the coin’s core. These inscriptions symbolically form a stylised symbol of the euro ‘€’. The other central motive of the coin is Croatia's distinctive and recognisable symbol, the Croatian checkerboard, which represents part of the coat of arms of the Republic of Croatia. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
-    <string name="twoeuro_comm_2023_hr_date">"September 2023"</string>
+    <string name="twoeuro_comm_2023_be_2_title">"The 75th anniversary of the national suffrage for women in Belgium"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">"The design depicts in the centre a box on a ballot paper, which is being coloured in by a pencil. The coloured box is overlapped by the Venus symbol (the gender symbol for woman/female). At the bottom left next to the central image is inscribed 75 JAAR ANS. Surrounding the central image are also inscriptions in Dutch and French: ‘ALGEMEEN VROUWENKIESRECHT’ – ‘SUFFRAGE UNIVERSEL FÉMININ’. At the bottom of the piece are located the initials of the designer Iris Bruijns. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is located at the right side of the piece, together with the Belgian mint master mark, an aster flower in front of an Erlenmeyer flask, the country code ‘BE’ and the year mark ‘2023’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+    <string name="twoeuro_comm_2023_be_2_date">"October 2023"</string>
 
     <string name="twoeuro_comm_2023_be_title">"The ‘year of art nouveau’, which takes place during 2023 in Belgium"</string>
     <string name="twoeuro_comm_2023_be_desc">"The design shows a decorative detail from the facade of the ‘Hotel Van Eetvelde’, an iconic town house in Brussels which has been designed by the Belgian art nouveau architect Victor Horta and has been recognized as Unesco World Heritage. The curved, asymmetrical lines of this decorative detail reflect the characteristic nature-inspired style of the art nouveau movement. This detail fills up the bottom half of the piece, leaving a vacant space on the upper half, which is filled with the description ‘ART NOUVEAU’. At the far right are the initials of the designer Iris Bruijns located. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is located on the far left together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask, the country code BE and the year mark 2023. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2023_be_volume">"155000"</string>
     <string name="twoeuro_comm_2023_be_date">"June 2023"</string>
 
-    <string name="twoeuro_comm_2023_be_2_title">"75 Jahre Frauenwahlrecht in Belgien"</string>
-    <string name="twoeuro_comm_2023_be_2_desc">""</string>
-    <string name="twoeuro_comm_2023_be_2_volume">""</string>
-    <string name="twoeuro_comm_2023_be_2_date">"2023"</string>
+    <string name="twoeuro_comm_2023_hr_title">"The introduction of the euro as the official currency of Croatia on 1 January 2023"</string>
+    <string name="twoeuro_comm_2023_hr_desc">"The design features the inscriptions of the issuing country ‘HRVATSKA’ (Croatia) and the year of issuance ‘2023.’, depicted horizontally, as well as the words ‘ČLANICA EUROPODRUČJA’ (member of the euro area), which are inscribed along the outer edge of the coin’s core. These inscriptions symbolically form a stylised symbol of the euro ‘€’. The other central motive of the coin is Croatia's distinctive and recognisable symbol, the Croatian checkerboard, which represents part of the coat of arms of the Republic of Croatia. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_hr_volume">"250000"</string>
+    <string name="twoeuro_comm_2023_hr_date">"September 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"The 500th anniversary of the death of Luca Signorelli"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">"The design shows an angel in the centre, a detail from the painting ‘Il Paradiso’ by Luca Signorelli, preserved in the Chapel of San Brizio in the Cathedral of Orvieto. At the left-hand side is the letter R, identifying the Mint of Rome. In semi-circle at the bottom left is the word ‘SIGNORELLI’. At the right-hand side is the name of the issuing country ‘SAN MARINO’, and at the top the years ‘1523 2023’. In the lower centre are the initials of the author Marta Bonifacio, MB. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"September 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_title">"The 500th anniversary of the death of Perugino"</string>
+    <string name="twoeuro_comm_2023_sm_desc">"The design shows in the centre the Virgin Mary with the Child Jesus, detail of the painting ‘Madonna with Child, Saint Sebastian and Saint John the Baptist’ by Perugino, preserved in the Uffizi Galleries (Florence). At the left-hand side are the inscription ‘PERUGINO’, the dates ‘1523’ and ‘2023’ and the mintmark ‘R’. At the right- hand side is the name of the issuing country ‘SAN MARINO’ and at the bottom right are the initials of the author Maria Angela Cassol, MAC. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_date">"April 2023"</string>
+
+    <string name="twoeuro_comm_2023_ir_title">"The 50th anniversary of Ireland’s membership of the European Union"</string>
+    <string name="twoeuro_comm_2023_ir_desc">"The design depicts a modification to the ‘EU50’ programme logo used by Government Departments to promote events marking the 50th anniversary of Ireland’s EU membership. The name of the issuing country ‘ÉIRE’ is inserted above the logo. The year ‘1973’ is referenced to recognise the year Ireland joined the EU as well as ‘2023’ to mark the coin issue year. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+    <string name="twoeuro_comm_2023_ir_date">"July 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100 years from the birth of Maria Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">"The design features a portrait of the legendary Greek soprano Maria Callas. Inscribed along the inner edge is the wording ‘100 YEARS FROM THE BIRTH OF MARIA CALLAS’, and at the right the minting year ‘2023’ and a palmette (mintmark of the Greek Mint); below the portrait runs the inscription ‘HELLENIC REPUBLIC’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_date">"July 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150 years from the birth of Constantin Carathéodory"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"The design features a portrait of the Greek mathematician Constantin Carathéodory. Inscribed along the inner edge at the left is the wording ‘CONSTANTIN CARATHÉODORY 1873-1950’, and at right the minting year ‘2023’ and a palmette (mintmark of the Greek Mint); below the portrait runs the inscription ‘HELLENIC REPUBLIC’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"July 2023"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"Estonian national bird – the barn swallow"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"The design depicts the silhouette of the barn swallow with the text ‘HIRUNDO RUSTICA’ (the barn swallow in Latin) at the top right, in semi-circle. At the bottom is the name of the issuing country ‘EESTI’ and underneath the year of issuance ‘2023’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"Second quarter 2023"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"Rugby World Cup France 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"On the occasion of the Rugby World Cup organised in France, Monnaie de Paris celebrates rugby and this competition which will bring together teams from twenty nations. The design represents a stylized rugby player making a pass. In the background, the rugby field is the globe on which the rugby goalposts are placed. The set is part of an imaginary rugby galaxy where the other planets are oval. The emblem of the competition is inserted next to the player, while the name of the competition surrounds the design. The indication of the issuing country ‘RF’, the mintmark and the mint master mark are inserted under the image on the right-hand side. The name of the competition, the issuing country ‘FRANCE’ and the year ‘2023’ are inserted on the left hand side. The name of the competition surrounding the design, as well as and the ‘RF’ mention appear in the official font of the event, called Mobius. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"June 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"The arrival of the French in Malta in 1798"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">"In June 1798, Napoleon Bonaparte ended the rule of the Order of St John in Malta. During his short stay in Malta, Napoleon established a Republican Government and issued a thorough reform of laws and institutions of Malta. Amongst other things, slavery and the privileges of nobility were abolished. A lay state was established, and the court of the Inquisition was closed. At the time, the far-reaching reforms were not universally accepted by the Maltese, and it was not long before they rebelled. The design depicts a personification of the French Republic as depicted on the official letterheads of the period. At the left-hand side is the inscription ‘225th ANNIVERSARY’ followed from the top to the right, in semi-circle, by the inscription ‘ARRIVAL OF THE FRENCH IN MALTA’. At the bottom is the year of issuance ‘2023’. The inscriptions ‘Liberté’ (Freedom) and ‘Egalité’ (Equality) are at the left and right side of the image, respectively. At the top left of the inscription ‘Egalité’ are the years ‘1798-2023’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"June 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"The 550th anniversary of the birth of Nicolaus Copernicus"</string>
+    <string name="twoeuro_comm_2023_mt_desc">"The design depicts a profile portrait of Copernicus, together with a stylized heliocentric representation of the universe as proposed by Copernicus. At the top left is the inscription ‘NICOLAUS COPERNICUS 1473 – 1543’ and at the bottom left is the name of the issuing country ‘MALTA’ followed by the year of issuance ‘2023’. Also at the bottom is the signature of the artist Daniela Fusco ‘FUSCO’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+    <string name="twoeuro_comm_2023_mt_date">"June 2023"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"100th anniversary of the birth of Prince Rainier III"</string>
+    <string name="twoeuro_comm_2023_mc_desc">"The design shows the portrait of Prince Rainier III. At the top, in semi-circle, is the name of the issuing country ‘MONACO’ followed by the year of issuance ‘2023’. At the bottom is the inscription ‘RAINIER III’ followed by the date ‘31 MAI 1923’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+    <string name="twoeuro_comm_2023_mc_date">"June 2023"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"The Spanish Presidency of the Council of the EU"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">"The design shows two images. The first one is the logo of the Spanish Presidency of the Council of the EU. Surrounding the logo are the captions: “ESPANA 2023 – PRESIDENCIA ESPANOLA and ‘CONSEJO DE LA UNION EUROPEA’ (Spain 2023 – Spanish Presidency and Council of the European Union). The second image, in the lower part, represents the mint mark of the Fabrica Nacional de Moneda y Timbre Real Casa de la Moneda with the crowned ‘M’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2023_es_2_date">"1 June 2023"</string>
+
+    <string name="twoeuro_comm_2023_lv_title">"Ukraine Sunflower"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"The design represents a sunflower, which is one of the national symbols of Ukraine, as Ukraine is one of the biggest sunflower oil producers and exporters worldwide. Since the start of the war in Ukraine, the sunflower has become a global symbol for peace. For the first time sunflowers were used as a peace symbol in the summer of 1996. Then they were planted in a military base near Pervomaysk, approximately 155 miles south of the capital Kyiv. Now sunflowers are used as a symbol of peace and support to Ukraine worldwide. At the top, in semi-circle, is the inscription ‘SLAVA UKRAINAI!’ (Glory to Ukraine) and at the bottom, in semi-circle, is the name of the issuing country ‘LATVIJA’ followed by the year of issuance ‘2023’. The author of the design is the Latvian artist Krišs Salmanis. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"May 2023"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"Portugal’s participation in the 33rd Olympic Games"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"Description:The design shows a set of elements arranged in the shape of a heart, representing a collective hug; around the heart there are 15 circles in symbolic reference to the Olympic rings and to the continents they represent, the tip of the heart shape is surmounted by the coat of arms of Portugal; the centre of the ‘hug’ holds the logo of the Portuguese Olympic Committee, conveying the idea that the hearts of the Portuguese will collectively beat for the Portuguese Olympic team at the Paris 2024 Olympic Games. Below the heart shape, the caption ‘Equipa Olímpica Portugal’, and the year ‘2024’; on the left the mintmark ‘Casa da Moeda’; and on the right the name of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"Issuing date:July 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"The 50th anniversary of the 25th of April 1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"Description:The 25th of April 1974 is the date of the revolution that marked the establishment of the democratic rule in Portugal and the beginning of a journey of profound economic, social and cultural transformations that led to the Europeanization of the country. At the centre of the design, a carnation symbolizes the revolution, surrounded by multiple eccentric circles that suggest that people’s actions and beliefs may change over the years, but remain essentially true to the principles of the revolution. On the edge, on the right, the verse ‘Esta é a madrugada que eu esperava’ [This is the dawn I have been waiting for], and the name of its author, poet ‘Sophia de Mello Breyner Andresen’; and on the left by the national coat of arms, the captions ‘Portugal’ and ‘25 April 1974_2024’, followed by the name of the designer and the mintmark ‘Casa da Moeda’, the name of the Portuguese Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_po_volume">"515000"</string>
+    <string name="twoeuro_comm_2024_po_date">"Issuing date:April 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_title">"Elections and democracy"</string>
+    <string name="twoeuro_comm_2024_fi_desc">"Description:The design shows stylized ballots. Ballots consist of circles and rectangles. The subject is abstract, but still recognizable. There are eight ballots, and they are partially overlapped, creating smaller geometric shapes at the intersections of the overlapping tickets. The year 2024 is at the bottom. The lettering ‘FI’ is on the right-hand side slightly above the midline. The text VAALIT ♦ DEMOKRATIA rotates on the right-hand side of the money ring. The text VAL ♦ DEMOKRATI is circling the coin on the left-hand side. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_date">"Issuing date:Spring 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_2_title">"Fight against cancer in Belgium"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"Description:The design shows in the centre a ribbon, which is used as a universal symbol to express engagement in the fight against cancer. The shape of the ribbon extends further along the two sides in curved lines, symbolising the movement of a heartbeat on a monitor, as an expression of life and vitality. Three lines can be seen at the top, as a reference to a rainbow (symbolising hope and consolation). Inserted in the bottom line is the country code BE and the year 2024. In the lower part of the piece are inscriptions in French and Dutch: 'Lutte contre le cancer' - 'Strijd tegen kanker'. The initials of the designer Iris Bruijns are located on the left side above the inscriptions. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is located at the very bottom of the piece, together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"Issuing date:May 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_title">"The Belgian presidency of the Council of the EU"</string>
+    <string name="twoeuro_comm_2024_be_desc">"Description:The design depicts a flock of birds (swallows), which is a symbol for the workings of the EU, by moving together as a group yet with each member having room to manoeuvre in an individual manner, thereby creating one complex, dynamic entity. The group therefore primarily stands for togetherness. During the flight of the swallows, there is always one who pulls the head and takes the group in tow, which will be Belgium in the first half of 2024. The 27 birds also symbolise the total number of EU member states. The country code ‘BE’ is located in between the birds, in the upper right side of the design. Underneath the flock of birds, a vacant space on the lower half is filled with the description ‘BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024’. At the far left are the initials of the designer Iris Bruijns. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is also located on the far left, above which stands the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+    <string name="twoeuro_comm_2024_be_date">"Issuing date:First quarter 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – the Old Town of Varaždin)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"Description:The design features the keep of the Varaždin Castle (12th – 16th century). Varaždin is first mentioned in 1181. Having suffered massive casualties in the Tatar invasion of 1242, it was built as a royal fortress, which would become known as the Old Town. Its appearance has changed through the centuries: from a strong medieval fortress surrounded by water-filled moats to the main fortress and armoury of Slavonian Military Border and Varaždin military headquarters and a beautiful Renaissance castle. At present, the Old Town is the most important and magnificent historical building of the City of Varaždin, a highest-category monument of the Croatian architectural heritage. The coin also features the name of the issuing country ‘HRVATSKA’ (Croatia), the year of issuance ‘2024’, and the words ‘STARI GRAD VARAŽDIN’ (the Old Town of Varaždin), which are all inscribed circularly at the top and the bottom of the design. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_date">"Issuing date:June 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"The 50th anniversary of the Declaration of Citizens' Rights and the Fundamental Principles of San Marino"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"Description:In the centre is represented an open book bearing the inscription ‘I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI’ (The rights of the human person are inviolable), taken from Article 5 of the Law n°59 of 8 July 1974 ‘Declaration of Citizens' Rights and of the fundamental principles of the San Marinese legal order’. At the top are the silhouettes of the Statue of Liberty and the Public Palace, as well as the name of the issuing country ‘SAN MARINO’. On the left, the letter ‘R’, identifying the Mint of Rome. At the bottom centre is the year of issuance ‘2024’ and the initials of the engraver Emanuele Ferretti (‘E.F. INC. ’). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_date">"Issuing date:April 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_title">"50 years from the restoration of democracy in Greece"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"Description:The design features the Hellenic Parliament building, surrounded by the wording ‘50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ’ (‘50 YEARS FROM THE RESTORATION OF DEMOCRACY IN GREECE’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘HELLENIC REPUBLIC’). Below is inscribed a palmette (mintmark of the Greek Mint). The fall of the colonels’ junta on 24 July 1974 marked the restoration of democracy in Greece following a seven-year dictatorship. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_date">"Issuing date:July 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_2_title">"150 years from the birth of Penelope Delta"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"Description:The design features a portrait of Penelope Delta. The theme is bordered by the wording ‘ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941’ (‘PENELOPE DELTA 1874-1941’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘HELLENIC REPUBLIC’). To the left is a palmette (mintmark of the Greek Mint) and to the right the minting year. Penelope Delta was a pioneer of children’s literature in Greece. Generations of Greek children have been raised with her books, which remain popular. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"Issuing date:July 2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"The cornflower – Estonian national flower"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"Description:The design shows the silhouette of a cornflower with the text ‘CENTAUREA CYANUS’ (cornflower in Latin) at the top left, in semi-circle. At the bottom is the name of the issuing country ‘EESTI’ and underneath the year of issuance ‘2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_ee_date">"Issuing date:Second quarter 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_2_title">"The Eiffel Tower"</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"Description:For the countdown to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as well as its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer Games. This is an event with international resonance, gradually building in intensity in the years leading up to the event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic Games. The design represents an expression of France through iconic buildings; the Eiffel Tower and the Notre Dame de la Garde Basilica situated in Marseille are united there. In the background, a tiare flower represents the island of Tahiti where the surfing competitions will take place. The Eiffel Tower is in motion, she carries the values of sport. Its arms are represented by 73 rivets signifying the host communities. For the first time, the Olympic and Paralympic symbols are brought together, to celebrate the Games for all. The year date, the indication of the issuing country ‘RF’ as well as the mintmarks are inserted on the athletics track. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"Issuing date:May 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"Jeux Olympiques 2024 - Lutte"</string>
+    <string name="twoeuro_comm_2024_fr_desc">"Description:For the countdown to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as well as its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer Games. This is an event with international resonance, gradually building in intensity in the years leading up to the event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic Games. The design represents Hercules, a national figure and icon of French numismatics, practicing antique wrestling with Notre- Dame’s Chimera, in reference to the Olympic Games of the Ancient era. Both wrestlers are depicted in the foreground in front of Notre-Dame Cathedral. In the background, an athletics track in which the emblem of Paris 2024 is inserted on the left side, is represented. The yeardate, the RF indication, as well as the mintmarks are inserted on the athletics track. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+    <string name="twoeuro_comm_2024_fr_date">"Issuing date:January 2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_title">"The Maltese Honey Bee"</string>
+    <string name="twoeuro_comm_2024_mt_desc">"Description:The design was created by Maria Anna Frisone and depicts the Maltese honey bee (Apis Mellifera Ruttneri) which is one of the endemic species of flora and fauna found on the Maltese islands. The design shows a rendition of the bee with a flower and a honeycomb filling up the background. The coin raises awareness of one of Malta's endemic species and encapsulates the work of the bee which pollinates flowers and makes honey. At the left side is the inscription of the issuing country ‘MALTA’ and at the right side the year of issuance ‘2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+    <string name="twoeuro_comm_2024_mt_date">"Issuing date:June 2024"</string>
+
+    <string name="twoeuro_comm_2024_mc_title">"500 years since the signature of the Treaty with Charles V"</string>
+    <string name="twoeuro_comm_2024_mc_desc">"Description:The design shows the effigy of Charles V. At the top, in semi-circle, is the name of the issuing country ‘MONACO’. At the bottom is the inscription ‘1524 - TRAITE AVEC CHARLES QUINT (Treaty with Charles V) - 2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2024_mc_date">"Issuing date:June 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"200 years since the creation of the National Police as a state security corp"</string>
+    <string name="twoeuro_comm_2024_es_desc">"Description:The design shows the emblem of the National Police. Surrounding it are the legends: ‘ESPANA- POLICIA NACIONAL 1824-2024’. In the lower right part of the emblem is the mint mark ‘Eme Coronada’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_date">"First quarter 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"The recognition of Seville (Archivo de Indias, Real Alcazar de Sevilla y Catedral de Sevilla) as a UNESCO World Heritage Site"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"Description:The design shows a view of the ‘Patio de las Doncellas’ of the Real Alcåzar of Seville. At the top, in a circular direction and in capital letters, the legend SEVILLA; below, the mint mark ‘Eme Coronada’. At the bottom, in a circular direction and in capital letters, the legend ESPANA and the year of issue 2024. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"Issuing date:First quarter 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"The 150th anniversary of the birth of Guglielmo Marconi"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"Description:The design features Marconi’s portrait at the center, the portraits of Pope Pius XI at the right, and future Pius XII at the left. At the top right, in semi-circle, is the inscription ‘GUGLIELMO MARCONI’ and underneath it the dates ‘1874’ and ‘2024’. At the bottom is the inscription ‘CITTÀ DEL VATICANO’ followed by the name of the artist ‘L. PANCOTTO’ (Loredana Pancotto). At the left is the mintmark ‘R’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"Issuing date:May 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"The 175th anniversary of the Frankfurt Constitution (also known as the St Paul’s Church Constitution, which was the first attempt to create a unified German nation state.)"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"Description:The design features several thematic layers. In the foreground is a perspective depiction of St Paul’s Church with the representatives of the national constitutional assembly filing in. This overlays a rendering of the constitutional document and a quill, representing the outcome of the Frankfurt Parliament. Finally, the design is crowned by three female allegories – Unity, Justice and Freedom – and the tricolour flag of black, red and gold. The vibrant three- dimensional relief evokes the timelessness of the basic democratic principles that were put down in writing for the first time and in a foundational way in the Frankfurt Constitution. The coin’s inner ring also features the inscription ‘PAULSKIRCHENVERFASSUNG 1849’ (‘St Paul’s Church Constitution 1849’) and, at the bottom, the year of issue ‘2024’, Germany’s issuing country code ‘D’, the mint mark of the respective mint (‘A’, ‘D’, ‘F’, ‘G’ or ‘J’), and the initials of the artist, Bodo Broschat from Berlin. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"Issuing date:March 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
+    <string name="twoeuro_comm_2024_de_desc">"Description:The coin is dedicated to the German state (Land) of Mecklenburg-Western Pomerania. It is the second issuance in the second series of German 2-euro commemorative coins featuring the German states, or Länder. Each year, a coin pays tribute to one of the 16 Länder by depicting a significant building or landmark. The order of the states is based on the rotating presidency of the Bundesrat, which is one of the five permanent constitutional bodies of the Federal Republic of Germany and represents the interests of the Länder. The design shows the Königsstuhl, an iconic formation of chalk cliffs and beech forest located in Jasmund National Park on the island of Rügen. The cliffs are depicted from the perspective of the shoreline, thereby highlighting the monumentality of this unique natural landmark in a particularly effective manner. The beautifully detailed image provides scale through the combined rendering of sea, birdlife and humankind. The modern typography, in harmony with the flying seagull, is skilfully integrated into the relief. The upper half of the coin’s inner circle features the inscription ‘MECKLENBURG VORPOMMERN’, the year of issue ‘2024’, Germany’s issuing country code ‘D’ and, at the upper right, the letter ‘X’ as placeholder for the mint mark of the respective mint (‘A’, ‘D’, ‘F’, ‘G’ or ‘J’). The initials of the artist Michael Otto (from Rodenbach, Germany) are shown in the lower half of the inner circle. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_date">"Issuing date:January 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">":The 175th anniversary of the death of Grand Duke Guillaume II"</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":The design depicts on the left side the statue of Grand Duke Guillaume II on horseback and on the right side the effigy of Grand Duke Henri looking to the left. The texts ‘GROUSSHERZOGE VU LÉTZEBUERG’ and ‘GUILLAUME II 1792-1849’ are depicted in semicircular form in the upper left part of the design. The year-date ‘2024’ and the figure ‘175’ as indication of the anniversary appear below the effigy of Grand Duke Henri. As the producing mint is not yet known, the mint marks might be adapted within the spaceholder. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_2_date">":January 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">":The 100th anniversary of the signature by the Grand Duchess Charlotte of the Grand Ducal decree concerning the issuance of the divisional currency in nickel, commonly called ‘Feierstéppler’"</string>
+    <string name="twoeuro_comm_2024_lu_desc">":The design depicts in its centre the representation of the Luxembourg coin issued in 1924 showing a steel industry worker, this representation being integrated in the figure ‘100’ as indication of the anniversary of the first issuance of one of the longest circulating Luxembourg franc coins. The name of the issuing country LÉTZEBUERG as well as the year date 2024 appear at the top of the design. The bottom of the design depicts the word ‘FEIERSTÉPPLER’, the common and popular designation of this coin. The monogram (letter ‘H’ with a crown) is a representation of Grand Duke Henri. As the producing mint is not yet known, the mint marks might be adapted within the spaceholder. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_date">":January 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"The 250th anniversary of the foundation of the Guardia di Finanza Corps"</string>
+    <string name="twoeuro_comm_2024_it_desc">"Description:The design depicts, in the centre, a stylized version of the heraldic symbol of Guardia di Finanza Corps: it portrays the concept of security and provides a future vision of the Corps’ role celebrating the past, by combining it with the years to come and challenges they will continue to face. This emblem includes different elements: mountain, sea and the sky, which are the natural environments where Corps operate; the Griffon, a mythological animal which, according to the legend, supervises protection of the Treasury, represented by the chest of the State, and the turreted crown. At the top, in semi-circle, is the inscription ‘GUARDIA DI FINANZA’. Below, ‘RI’, acronym of the Italian Republic and the dates ‘1774-2024’, year of the establishment of the Guardia di Finanza Corps and year of coin’s issue respectively; on the right, ‘R’, identifying the Mint of Rome and ‘MB’, the initials of designer Marta Bonifacio. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_date">"Issuing date:January 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">"Description:The design depicts in the foreground, a half-length portrait of Rita Levi-Montalcini inspired by a Manuela Fabbri’s photography; in the background, a microscope, taken from a medal designed by Gino Levi-Montalcini, brother of the well renown scientist, whose base is horseshoe shaped, as a good luck charm for the awarding of the Nobel Prize for Medicine in the 1986. Above, the arch-shaped inscription ‘RITA LEVI-MONTALCINI’; on the left ‘RI’, acronym of the Italian Republic and ‘R’, identifying the Mint of Rome; below ‘2024’, the year of the coin’s issue; on the right, ‘SP’, initials of the designer Silvia Petrassi. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"Issuing date:January 2024"</string>
+
+    <!-- END auto generated code for language en -->
+
+    <!-- BEGIN manual code for language en -->
+
+    <string name="twoeuro_comm_2023_po_2_title">"World youth day Lissabon 2023"</string>
+    <string name="twoeuro_comm_2023_po_2_desc">""</string>
+    <string name="twoeuro_comm_2023_po_2_volume">""</string>
+    <string name="twoeuro_comm_2023_po_2_date">"2023"</string>
+
+    <string name="twoeuro_comm_2024_ad_2_title">"100 Jahre Skisport in Andorra"</string>
+    <string name="twoeuro_comm_2024_ad_2_desc">""</string>
+    <string name="twoeuro_comm_2024_ad_2_volume">""</string>
+    <string name="twoeuro_comm_2024_ad_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_ad_title">"2024: UCI Mountainbike-Weltmeisterschaften"</string>
+    <string name="twoeuro_comm_2024_ad_desc">""</string>
+    <string name="twoeuro_comm_2024_ad_volume">""</string>
+    <string name="twoeuro_comm_2024_ad_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_2_title">"Architektur Finnlands – Gesellius, Lindgren, Saarinen"</string>
+    <string name="twoeuro_comm_2024_fi_2_desc">""</string>
+    <string name="twoeuro_comm_2024_fi_2_volume">""</string>
+    <string name="twoeuro_comm_2024_fi_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_2_title">"500. Todestag von Marko Marulić"</string>
+    <string name="twoeuro_comm_2024_hr_2_desc">""</string>
+    <string name="twoeuro_comm_2024_hr_2_volume">""</string>
+    <string name="twoeuro_comm_2024_hr_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_2_title">"530. Todestag von Ghirlandaio"</string>
+    <string name="twoeuro_comm_2024_sm_2_desc">""</string>
+    <string name="twoeuro_comm_2024_sm_2_volume">""</string>
+    <string name="twoeuro_comm_2024_sm_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_lt_title">"Strohgärten"</string>
+    <string name="twoeuro_comm_2024_lt_desc">""</string>
+    <string name="twoeuro_comm_2024_lt_volume">""</string>
+    <string name="twoeuro_comm_2024_lt_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_lv_title">"Himmeli"</string>
+    <string name="twoeuro_comm_2024_lv_desc">""</string>
+    <string name="twoeuro_comm_2024_lv_volume">""</string>
+    <string name="twoeuro_comm_2024_lv_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_2_title">"Stadtmauer Ċittadella Gozo"</string>
+    <string name="twoeuro_comm_2024_mt_2_desc">""</string>
+    <string name="twoeuro_comm_2024_mt_2_volume">""</string>
+    <string name="twoeuro_comm_2024_mt_2_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_si_title">"100 Jahre Marathonlauf Košice"</string>
+    <string name="twoeuro_comm_2024_si_desc">""</string>
+    <string name="twoeuro_comm_2024_si_volume">""</string>
+    <string name="twoeuro_comm_2024_si_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_sk_title">"250 Jahre National- und Universitätsbibliothek NARODNA IN UNIVERZITETNA KNIJŽNICA"</string>
+    <string name="twoeuro_comm_2024_sk_desc">""</string>
+    <string name="twoeuro_comm_2024_sk_volume">""</string>
+    <string name="twoeuro_comm_2024_sk_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_va_title">"750. Todestag von Thomas von Aquin"</string>
+    <string name="twoeuro_comm_2024_va_desc">""</string>
+    <string name="twoeuro_comm_2024_va_volume">""</string>
+    <string name="twoeuro_comm_2024_va_date">"2024"</string>
 
     <!-- END manual code for language en -->
 
-    <string name="twoeuro_comm_2024_be_title">"EU Ratspräsidentschaft"</string>
-    <string name="twoeuro_comm_2024_be_desc">""</string>
-    <string name="twoeuro_comm_2024_be_volume">""</string>
-    <string name="twoeuro_comm_2024_be_date">"2024"</string>
+    <string name="license_flags" translatable="false">"License for Flags: Copyright (c) 2013 Go Squared Ltd. http://www.gosquared.com/ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."</string>
 
-    <string name="twoeuro_comm_2024_be_2_title">"Kampf gegen den Krebs"</string>
-    <string name="twoeuro_comm_2024_be_2_desc">""</string>
-    <string name="twoeuro_comm_2024_be_2_volume">""</string>
-    <string name="twoeuro_comm_2024_be_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
-    <string name="twoeuro_comm_2024_de_desc">""</string>
-    <string name="twoeuro_comm_2024_de_volume">""</string>
-    <string name="twoeuro_comm_2024_de_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_de_2_title">"175. Jubiläum Paulskirchenverfassung"</string>
-    <string name="twoeuro_comm_2024_de_2_desc">""</string>
-    <string name="twoeuro_comm_2024_de_2_volume">""</string>
-    <string name="twoeuro_comm_2024_de_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_ee_title">"Kornblume"</string>
-    <string name="twoeuro_comm_2024_ee_desc">""</string>
-    <string name="twoeuro_comm_2024_ee_volume">""</string>
-    <string name="twoeuro_comm_2024_ee_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_es_title">"Polizeikorps"</string>
-    <string name="twoeuro_comm_2024_es_desc">""</string>
-    <string name="twoeuro_comm_2024_es_volume">""</string>
-    <string name="twoeuro_comm_2024_es_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_es_2_title">"UNESCO Sevilla, Alcazar, Archivo de Indias"</string>
-    <string name="twoeuro_comm_2024_es_2_desc">""</string>
-    <string name="twoeuro_comm_2024_es_2_volume">""</string>
-    <string name="twoeuro_comm_2024_es_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_fi_title">"Wahlen und Demokratie"</string>
-    <string name="twoeuro_comm_2024_fi_desc">""</string>
-    <string name="twoeuro_comm_2024_fi_volume">""</string>
-    <string name="twoeuro_comm_2024_fi_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_fr_title">"Olympische Spiele Paris 2024"</string>
-    <string name="twoeuro_comm_2024_fr_desc">""</string>
-    <string name="twoeuro_comm_2024_fr_volume">""</string>
-    <string name="twoeuro_comm_2024_fr_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_it_title">"250. Jahrestag der Gründung der Guardia di Finanza"</string>
-    <string name="twoeuro_comm_2024_it_desc">""</string>
-    <string name="twoeuro_comm_2024_it_volume">""</string>
-    <string name="twoeuro_comm_2024_it_date">2024</string>
-
-    <string name="twoeuro_comm_2024_it_2_title">"Nobelpreisträgerin Medizin Rita Levi-Montalcini"</string>
-    <string name="twoeuro_comm_2024_it_2_desc">""</string>
-    <string name="twoeuro_comm_2024_it_2_volume">""</string>
-    <string name="twoeuro_comm_2024_it_2_date">2024</string>
-
-    <string name="twoeuro_comm_2024_lu_title">"100 Jahre France Münze Feiersteppler"</string>
-    <string name="twoeuro_comm_2024_lu_desc">""</string>
-    <string name="twoeuro_comm_2024_lu_volume">""</string>
-    <string name="twoeuro_comm_2024_lu_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_lu_2_title">"175. Todestag Großherzog Guillaume II."</string>
-    <string name="twoeuro_comm_2024_lu_2_desc">""</string>
-    <string name="twoeuro_comm_2024_lu_2_volume">""</string>
-    <string name="twoeuro_comm_2024_lu_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_po_title">"50. Jahrestag der Revolution vom 25.04.1974"</string>
-    <string name="twoeuro_comm_2024_po_desc">""</string>
-    <string name="twoeuro_comm_2024_po_volume">""</string>
-    <string name="twoeuro_comm_2024_po_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_sm_title">"50 Jahre Erklärung der Bürgerrechte"</string>
-    <string name="twoeuro_comm_2024_sm_desc">""</string>
-    <string name="twoeuro_comm_2024_sm_volume">""</string>
-    <string name="twoeuro_comm_2024_sm_date">2024</string>
-
-
-    <string name="twoeuro_comm_2008_be_short_title">"Human Rights"</string>
-    <string name="twoeuro_comm_2008_de_short_title">"Hamburg"</string>
-    <string name="twoeuro_comm_2008_fi_short_title">"Human Rights"</string>
-    <string name="twoeuro_comm_2008_fr_short_title">"Leading EU"</string>
-    <string name="twoeuro_comm_2008_it_short_title">"Human Rights"</string>
-    <string name="twoeuro_comm_2008_lu_short_title">"Palace"</string>
-    <string name="twoeuro_comm_2008_po_short_title">"Human Rights"</string>
-    <string name="twoeuro_comm_2008_si_short_title">"Trubar"</string>
-    <string name="twoeuro_comm_2008_sm_short_title">"Cult. Dialog"</string>
-    <string name="twoeuro_comm_2008_va_short_title">"Holy Paul"</string>
-    <string name="twoeuro_comm_2009_be_short_title">"Louis Braille"</string>
-    <string name="twoeuro_comm_2009_de_short_title">"Saarland"</string>
-    <string name="twoeuro_comm_2009_fi_short_title">"Porvoo"</string>
-    <string name="twoeuro_comm_2009_it_short_title">"L. Braille"</string>
-    <string name="twoeuro_comm_2009_lu_short_title">"Henri + Charlotte"</string>
-    <string name="twoeuro_comm_2009_po_short_title">"Lusophony"</string>
-    <string name="twoeuro_comm_2009_sk_short_title">"Democracy"</string>
-    <string name="twoeuro_comm_2009_sm_short_title">"Creativity"</string>
-    <string name="twoeuro_comm_2009_va_short_title">"Astronomy"</string>
-    <string name="twoeuro_comm_2010_be_short_title">"Leading EU"</string>
-    <string name="twoeuro_comm_2010_de_short_title">"Bremen"</string>
-    <string name="twoeuro_comm_2010_gr_short_title">"Marathon"</string>
-    <string name="twoeuro_comm_2010_es_short_title">"Córdoba"</string>
-    <string name="twoeuro_comm_2010_fi_short_title">"Own Money"</string>
-    <string name="twoeuro_comm_2010_fr_short_title">"Appel"</string>
-    <string name="twoeuro_comm_2010_it_short_title">"Cavour"</string>
-    <string name="twoeuro_comm_2010_lu_short_title">"Emblem"</string>
-    <string name="twoeuro_comm_2010_po_short_title">"100y Portugal"</string>
-    <string name="twoeuro_comm_2010_si_short_title">"Garden Ljubljana"</string>
-    <string name="twoeuro_comm_2010_sm_short_title">"S. Botticelli"</string>
-    <string name="twoeuro_comm_2010_va_short_title">"Priests"</string>
-    <string name="twoeuro_comm_2011_be_short_title">"Woman Day"</string>
-    <string name="twoeuro_comm_2011_de_short_title">"NR Westfalen"</string>
-    <string name="twoeuro_comm_2011_gr_short_title">"Special Games"</string>
-    <string name="twoeuro_comm_2011_es_short_title">"Alhambra Granada"</string>
-    <string name="twoeuro_comm_2011_fi_short_title">"S. Pankki"</string>
-    <string name="twoeuro_comm_2011_fr_short_title">"Musique"</string>
-    <string name="twoeuro_comm_2011_it_short_title">"Union Italy"</string>
-    <string name="twoeuro_comm_2011_lu_short_title">"Jean"</string>
-    <string name="twoeuro_comm_2011_mc_short_title">"Albert + Charlene"</string>
-    <string name="twoeuro_comm_2011_mt_short_title">"Constitution"</string>
-    <string name="twoeuro_comm_2011_ne_short_title">"Laus Stultitiae"</string>
-    <string name="twoeuro_comm_2011_po_short_title">"Fernao Pinto"</string>
-    <string name="twoeuro_comm_2011_sk_short_title">"Visegrád"</string>
-    <string name="twoeuro_comm_2011_si_short_title">"Rozman-Stane"</string>
-    <string name="twoeuro_comm_2011_sm_short_title">"G. Vasari"</string>
-    <string name="twoeuro_comm_2011_va_short_title">"Youth Day"</string>
-    <string name="twoeuro_comm_2012_be_short_title">"Queen Elisabeth"</string>
-    <string name="twoeuro_comm_2012_de_short_title">"Bayern"</string>
-    <string name="twoeuro_comm_2012_es_short_title">"Burgos"</string>
-    <string name="twoeuro_comm_2012_fi_short_title">"H. Schjerfbeck"</string>
-    <string name="twoeuro_comm_2012_fr_short_title">"Abbé Pierre"</string>
-    <string name="twoeuro_comm_2012_it_short_title">"G. Pascoli"</string>
-    <string name="twoeuro_comm_2012_lu_short_title">"Henry + Wilhelm"</string>
-    <string name="twoeuro_comm_2012_lu_2_short_title">"Wedding Guillaume"</string>
-    <string name="twoeuro_comm_2012_mc_short_title">"L. Grimaldi"</string>
-    <string name="twoeuro_comm_2012_mt_short_title">"Majority"</string>
-    <string name="twoeuro_comm_2012_po_short_title">"Guimarães"</string>
-    <string name="twoeuro_comm_2012_va_short_title">"Family"</string>
-    <string name="twoeuro_comm_2013_be_short_title">"Meteorology"</string>
-    <string name="twoeuro_comm_2013_de_short_title">"Élysée"</string>
-    <string name="twoeuro_comm_2013_de_2_short_title">"Baden-Württemberg"</string>
-    <string name="twoeuro_comm_2013_es_short_title">"San Lorenzo"</string>
-    <string name="twoeuro_comm_2013_fi_short_title">"E. Sillanpää"</string>
-    <string name="twoeuro_comm_2013_fi_2_short_title">"Parlament"</string>
-    <string name="twoeuro_comm_2013_fr_short_title">"Élysée"</string>
-    <string name="twoeuro_comm_2013_fr_2_short_title">"P. Coubertin"</string>
-    <string name="twoeuro_comm_2013_gr_short_title">"Platon"</string>
-    <string name="twoeuro_comm_2013_gr_2_short_title">"Crete"</string>
-    <string name="twoeuro_comm_2013_it_short_title">"G. Boccaccio"</string>
-    <string name="twoeuro_comm_2013_it_2_short_title">"G. Verdi"</string>
-    <string name="twoeuro_comm_2013_lu_short_title">"Hymn"</string>
-    <string name="twoeuro_comm_2013_mc_short_title">"20y UN"</string>
-    <string name="twoeuro_comm_2013_mt_short_title">"Self Government"</string>
-    <string name="twoeuro_comm_2013_ne_short_title">"Beatrix + Willem"</string>
-    <string name="twoeuro_comm_2013_ne_2_short_title">"200y Kingdom"</string>
-    <string name="twoeuro_comm_2013_po_short_title">"250y Clérigos"</string>
-    <string name="twoeuro_comm_2013_sk_short_title">"Konstantin"</string>
-    <string name="twoeuro_comm_2013_si_short_title">"Postojna"</string>
-    <string name="twoeuro_comm_2013_sm_short_title">"Pinturicchio"</string>
-    <string name="twoeuro_comm_2013_va_short_title">"Sedisvakanz"</string>
-    <string name="twoeuro_comm_2013_va_2_short_title">"Rio d. Janeiro"</string>
-    <string name="twoeuro_comm_2014_ad_short_title">"20y Council EU"</string>
-    <string name="twoeuro_comm_2014_be_short_title">"World War"</string>
-    <string name="twoeuro_comm_2014_be_2_short_title">"Red Cross"</string>
-    <string name="twoeuro_comm_2014_de_short_title">"Niedersachsen"</string>
-    <string name="twoeuro_comm_2014_es_short_title">"Park Güell"</string>
-    <string name="twoeuro_comm_2014_es_2_short_title">"Felipe"</string>
-    <string name="twoeuro_comm_2014_fi_short_title">"T. Jansson"</string>
-    <string name="twoeuro_comm_2014_fi_2_short_title">"I. Tapiovaara"</string>
-    <string name="twoeuro_comm_2014_fr_short_title">"70y D-Day"</string>
-    <string name="twoeuro_comm_2014_fr_2_short_title">"AIDS-Day"</string>
-    <string name="twoeuro_comm_2014_gr_short_title">"Ionic Islands"</string>
-    <string name="twoeuro_comm_2014_gr_2_short_title">"D. Theotokópoulos"</string>
-    <string name="twoeuro_comm_2014_it_short_title">"G. Galilei"</string>
-    <string name="twoeuro_comm_2014_it_2_short_title">"Carabinieri"</string>
-    <string name="twoeuro_comm_2014_lu_short_title">"Independence"</string>
-    <string name="twoeuro_comm_2014_lu_2_short_title">"50y throne Jean"</string>
-    <string name="twoeuro_comm_2014_lv_short_title">"Riga"</string>
-    <string name="twoeuro_comm_2014_mt_short_title">"Police"</string>
-    <string name="twoeuro_comm_2014_mt_2_short_title">"Independence"</string>
-    <string name="twoeuro_comm_2014_ne_short_title">"Willem + Beatrix"</string>
-    <string name="twoeuro_comm_2014_po_short_title">"Agriculture"</string>
-    <string name="twoeuro_comm_2014_po_2_short_title">"April Rev."</string>
-    <string name="twoeuro_comm_2014_si_short_title">"B. Cilli"</string>
-    <string name="twoeuro_comm_2014_sk_short_title">"10y Member EU"</string>
-    <string name="twoeuro_comm_2014_sm_short_title">"D. Bramante"</string>
-    <string name="twoeuro_comm_2014_sm_2_short_title">"G. Puccini"</string>
-    <string name="twoeuro_comm_2014_va_short_title">"Berlin Wall"</string>
-    <string name="twoeuro_comm_2015_ad_short_title">"25y Customs Union"</string>
-    <string name="twoeuro_comm_2015_ad_2_short_title">"30y 18 Legal Age"</string>
-    <string name="twoeuro_comm_2015_be_short_title">"Development"</string>
-    <string name="twoeuro_comm_2015_de_short_title">"Germ. Union"</string>
-    <string name="twoeuro_comm_2015_de_2_short_title">"Hessen"</string>
-    <string name="twoeuro_comm_2015_es_short_title">"Cave Altamira"</string>
-    <string name="twoeuro_comm_2015_fi_short_title">"J. Sibelius"</string>
-    <string name="twoeuro_comm_2015_fi_2_short_title">"Gallen-Kallela"</string>
-    <string name="twoeuro_comm_2015_fr_short_title">"Europe Peace"</string>
-    <string name="twoeuro_comm_2015_fr_2_short_title">"Liberty"</string>
-    <string name="twoeuro_comm_2015_gr_short_title">"S. Louis"</string>
-    <string name="twoeuro_comm_2015_lu_short_title">"15y Throne Henri"</string>
-    <string name="twoeuro_comm_2015_lu_2_short_title">"Nassau-Weilburg"</string>
-    <string name="twoeuro_comm_2015_lt_short_title">"ACIU"</string>
-    <string name="twoeuro_comm_2015_lv_short_title">"Council EU"</string>
-    <string name="twoeuro_comm_2015_lv_2_short_title">"Stork Bird"</string>
-    <string name="twoeuro_comm_2015_it_short_title">"Expo Mailand"</string>
-    <string name="twoeuro_comm_2015_it_2_short_title">"D. Alighieris"</string>
-    <string name="twoeuro_comm_2015_mc_short_title">"Fn. Fortress"</string>
-    <string name="twoeuro_comm_2015_mt_short_title">"Flight Malty"</string>
-    <string name="twoeuro_comm_2015_mt_2_short_title">"Republic"</string>
-    <string name="twoeuro_comm_2015_po_short_title">"Red Cross"</string>
-    <string name="twoeuro_comm_2015_po_2_short_title">"Timor"</string>
-    <string name="twoeuro_comm_2015_si_short_title">"Emona Ljubljana"</string>
-    <string name="twoeuro_comm_2015_sk_short_title">"Ludovít Štúr"</string>
-    <string name="twoeuro_comm_2015_sm_short_title">"D. Alighieris"</string>
-    <string name="twoeuro_comm_2015_sm_2_short_title">"German Unity"</string>
-    <string name="twoeuro_comm_2015_va_short_title">"Family Philadelphia"</string>
-    <string name="twoeuro_comm_2016_ad_short_title">"25 Jahre Rundfunk"</string>
-    <string name="twoeuro_comm_2016_ad_2_short_title">"Jubiläum der Neuen Reform"</string>
-    <string name="twoeuro_comm_2016_au_short_title">"National Bank"</string>
-    <string name="twoeuro_comm_2016_be_short_title">"Olympic Games Rio"</string>
-    <string name="twoeuro_comm_2016_be_2_short_title">"Child Focus"</string>
-    <string name="twoeuro_comm_2016_de_short_title">"Sachsen"</string>
-    <string name="twoeuro_comm_2016_ee_short_title">"Paul Keres"</string>
-    <string name="twoeuro_comm_2016_es_short_title">"Aquaeduct Segovia"</string>
-    <string name="twoeuro_comm_2016_fr_short_title">"EUFA EURO 2016"</string>
-    <string name="twoeuro_comm_2016_fr_2_short_title">"Francois Mitterrand"</string>
-    <string name="twoeuro_comm_2016_fi_short_title">"Georg Henrik von Wright"</string>
-    <string name="twoeuro_comm_2016_fi_2_short_title">"Eino Leino"</string>
-    <string name="twoeuro_comm_2016_gr_short_title">"Kloster Arkadi"</string>
-    <string name="twoeuro_comm_2016_gr_2_short_title">"Dimitri Mitropoulos"</string>
-    <string name="twoeuro_comm_2016_ir_short_title">"HIBERNIA"</string>
-    <string name="twoeuro_comm_2016_it_short_title">"Donatello"</string>
-    <string name="twoeuro_comm_2016_it_2_short_title">"Tito Maccio Plauto"</string>
-    <string name="twoeuro_comm_2016_lt_short_title">"Baltische Kultur"</string>
-    <string name="twoeuro_comm_2016_lu_short_title">"Grand Duchess Charlotte"</string>
-    <string name="twoeuro_comm_2016_lv_short_title">"Vidzeme"</string>
-    <string name="twoeuro_comm_2016_lv_2_short_title">"Agricultural industry"</string>
-    <string name="twoeuro_comm_2016_mc_short_title">"Foundation b. Charles III"</string>
-    <string name="twoeuro_comm_2016_mt_short_title">"Ggantja Temples"</string>
-    <string name="twoeuro_comm_2016_mt_2_short_title">"Love"</string>
-    <string name="twoeuro_comm_2016_po_short_title">"Olympic Games Rio"</string>
-    <string name="twoeuro_comm_2016_po_2_short_title">"Tejo River"</string>
-    <string name="twoeuro_comm_2016_si_short_title">"Slovenische Republik"</string>
-    <string name="twoeuro_comm_2016_sk_short_title">"Leading EU"</string>
-    <string name="twoeuro_comm_2016_sm_short_title">"Donatello"</string>
-    <string name="twoeuro_comm_2016_sm_2_short_title">"W. Shakespeare"</string>
-    <string name="twoeuro_comm_2016_va_short_title">"Vatican Guard"</string>
-    <string name="twoeuro_comm_2016_va_2_short_title">"Jubilee of Mercy"</string>
-    <string name="twoeuro_comm_2017_ad_short_title">"100y Anthem"</string>
-    <string name="twoeuro_comm_2017_ad_2_short_title">"Pyrenean country"</string>
-    <string name="twoeuro_comm_2017_be_short_title">"University Liège"</string>
-    <string name="twoeuro_comm_2017_be_2_short_title">"University Ghent"</string>
-    <string name="twoeuro_comm_2017_cy_short_title">"Paphos"</string>
-    <string name="twoeuro_comm_2017_de_short_title">"Porta Nigra"</string>
-    <string name="twoeuro_comm_2017_ee_short_title">"Estonia\'s Independence"</string>
-    <string name="twoeuro_comm_2017_es_short_title">"Santa María del Naranco"</string>
-    <string name="twoeuro_comm_2017_fr_short_title">"Auguste Rodin"</string>
-    <string name="twoeuro_comm_2017_fr_2_short_title">"Breast Cancer"</string>
-    <string name="twoeuro_comm_2017_fi_short_title">"Independence"</string>
-    <string name="twoeuro_comm_2017_fi_2_short_title">"Finnish Nature"</string>
-    <string name="twoeuro_comm_2017_gr_short_title">"Archaeological Philippi"</string>
-    <string name="twoeuro_comm_2017_gr_2_short_title">"Nikos Kazantzakis"</string>
-    <string name="twoeuro_comm_2017_it_short_title">"St Mark\'s Basilica"</string>
-    <string name="twoeuro_comm_2017_it_2_short_title">"Tito Livio"</string>
-    <string name="twoeuro_comm_2017_lt_short_title">"Vilnius"</string>
-    <string name="twoeuro_comm_2017_lu_short_title">"Luxemburg Army"</string>
-    <string name="twoeuro_comm_2017_lu_2_short_title">"200. Geburtstag Wilhelm III."</string>
-    <string name="twoeuro_comm_2017_lv_short_title">"Kurzeme"</string>
-    <string name="twoeuro_comm_2017_lv_2_short_title">"Lettgallen"</string>
-    <string name="twoeuro_comm_2017_mc_short_title">"Karabinierskompanie"</string>
-    <string name="twoeuro_comm_2017_mt_short_title">"Hagar Qim"</string>
-    <string name="twoeuro_comm_2017_mt_2_short_title">"Solidarität und Frieden"</string>
-    <string name="twoeuro_comm_2017_po_short_title">"Public Security"</string>
-    <string name="twoeuro_comm_2017_po_2_short_title">"Raul Brandão"</string>
-    <string name="twoeuro_comm_2017_si_short_title">"10y Euro"</string>
-    <string name="twoeuro_comm_2017_sk_short_title">"Universitas Istropolitana"</string>
-    <string name="twoeuro_comm_2017_sm_short_title">"Giotto"</string>
-    <string name="twoeuro_comm_2017_sm_2_short_title">"Tourism"</string>
-    <string name="twoeuro_comm_2017_va_short_title">"Peter Paul"</string>
-    <string name="twoeuro_comm_2017_va_2_short_title">"Fatima Apparitions"</string>
-    <string name="twoeuro_comm_2018_ad_short_title">"Verfassung Andorras"</string>
-    <string name="twoeuro_comm_2018_ad_2_short_title">"Deklaration der Menschenrechte"</string>
-    <string name="twoeuro_comm_2018_au_short_title">"100y Austria"</string>
-    <string name="twoeuro_comm_2018_be_short_title">"Mai 1968"</string>
-    <string name="twoeuro_comm_2018_be_2_short_title">"Satellit ESRO 2B"</string>
-    <string name="twoeuro_comm_2018_de_short_title">"Helmut Schmidt"</string>
-    <string name="twoeuro_comm_2018_de_2_short_title">"Berlin"</string>
-    <string name="twoeuro_comm_2018_ee_short_title">"100 Jahre Unabhängigkeit"</string>
-    <string name="twoeuro_comm_2018_ee_2_short_title">"100 Jahre Estland"</string>
-    <string name="twoeuro_comm_2018_es_short_title">"Santiago de Compostela"</string>
-    <string name="twoeuro_comm_2018_es_2_short_title">"Geburtstag von König Felipe VI."</string>
-    <string name="twoeuro_comm_2018_fi_short_title">"Finnische Nationallandschaft"</string>
-    <string name="twoeuro_comm_2018_fi_2_short_title">"Finnische Saunakultur"</string>
-    <string name="twoeuro_comm_2018_fr_short_title">"Kornblume"</string>
-    <string name="twoeuro_comm_2018_fr_2_short_title">"Simone Veil"</string>
-    <string name="twoeuro_comm_2018_gr_short_title">"Vereinigung Dodekanes mit Griechenland"</string>
-    <string name="twoeuro_comm_2018_gr_2_short_title">"Kostis Palamas"</string>
-    <string name="twoeuro_comm_2018_it_short_title">"Italienischen Verfassung"</string>
-    <string name="twoeuro_comm_2018_it_2_short_title">"60 Jahre Gesundheitsministerium"</string>
-    <string name="twoeuro_comm_2018_lt_short_title">"100 Jahre Unabhängigkeit"</string>
-    <string name="twoeuro_comm_2018_lt_2_short_title">"Gesang- und Tanzfestival"</string>
-    <string name="twoeuro_comm_2018_lu_short_title">"Luxemburger Verfassung"</string>
-    <string name="twoeuro_comm_2018_lu_2_short_title">"Großherzog Guillaume I."</string>
-    <string name="twoeuro_comm_2018_lv_short_title">"100 Jahre Unabhängigkeit"</string>
-    <string name="twoeuro_comm_2018_lv_2_short_title">"Semgallen - Zemgale"</string>
-    <string name="twoeuro_comm_2018_mt_short_title">"Mnajdra"</string>
-    <string name="twoeuro_comm_2018_mt_2_short_title">"Kulturelles Erbe"</string>
-    <string name="twoeuro_comm_2018_mc_short_title">"François-Joseph Bosio"</string>
-    <string name="twoeuro_comm_2018_po_short_title">"Nationale Druckerei"</string>
-    <string name="twoeuro_comm_2018_po_2_short_title">"Botanische Gärten"</string>
-    <string name="twoeuro_comm_2018_si_short_title">"Weltbienentag"</string>
-    <string name="twoeuro_comm_2018_sk_short_title">"25. Jahrestag Slowakei"</string>
-    <string name="twoeuro_comm_2018_sm_short_title">"Jacopo Tintoretto"</string>
-    <string name="twoeuro_comm_2018_sm_2_short_title">"Gian Lorenzo Bernini"</string>
-    <string name="twoeuro_comm_2018_va_short_title">"Jahr des Kulturerbes"</string>
-    <string name="twoeuro_comm_2018_va_2_short_title">"Padre Pio"</string>
-    <string name="twoeuro_comm_2019_ad_short_title">"Ski-Weltcup"</string>
-    <string name="twoeuro_comm_2019_ad_2_short_title">"Consell de la Terra"</string>
-    <string name="twoeuro_comm_2019_be_short_title">"Europäisches Währungsinstitut"</string>
-    <string name="twoeuro_comm_2019_be_2_short_title">"Pieter Bruegel"</string>
-    <string name="twoeuro_comm_2019_de_short_title">"Bundesrat"</string>
-    <string name="twoeuro_comm_2019_de_2_short_title">"Mauerfall"</string>
-    <string name="twoeuro_comm_2019_ee_short_title">"Estnisches Liederfestival"</string>
-    <string name="twoeuro_comm_2019_ee_2_short_title">"Universität Tartu"</string>
-    <string name="twoeuro_comm_2019_fi_short_title">"100 Jahre Verfassung"</string>
-    <string name="twoeuro_comm_2019_fr_short_title">"Fall Berliner Mauer"</string>
-    <string name="twoeuro_comm_2019_fr_2_short_title">"Asterix"</string>
-    <string name="twoeuro_comm_2019_gr_short_title">"Andreas Kalvos"</string>
-    <string name="twoeuro_comm_2019_gr_2_short_title">"Manolis Andronikos"</string>
-    <string name="twoeuro_comm_2019_ir_short_title">"Versammlung in Dáil Éireann"</string>
-    <string name="twoeuro_comm_2019_it_short_title">"Leonardo da Vinci"</string>
-    <string name="twoeuro_comm_2019_lt_short_title">"Litauische Volkslieder - Sutartines"</string>
-    <string name="twoeuro_comm_2019_lt_2_short_title">"Litauische Regionen - Zemaitija"</string>
-    <string name="twoeuro_comm_2019_lu_short_title">"Großherzogin Charlotte"</string>
-    <string name="twoeuro_comm_2019_lu_2_short_title">"Allgemeines Wahlrecht"</string>
-    <string name="twoeuro_comm_2019_lv_short_title">"Aufgehende Sonne"</string>
-    <string name="twoeuro_comm_2019_mt_short_title">"Erbe und Tradition"</string>
-    <string name="twoeuro_comm_2019_mt_2_short_title">"Ta’ Hagrat"</string>
-    <string name="twoeuro_comm_2019_mc_short_title">"Fürst Honoré"</string>
-    <string name="twoeuro_comm_2019_po_short_title">"Magellan Weltumsegelung"</string>
-    <string name="twoeuro_comm_2019_po_2_short_title">"Insel Madeira"</string>
-    <string name="twoeuro_comm_2019_sm_short_title">"Filippo Lippi"</string>
-    <string name="twoeuro_comm_2019_sm_2_short_title">"Leonardo da Vinci"</string>
-    <string name="twoeuro_comm_2019_sk_short_title">"Rastislav Štefánik"</string>
-    <string name="twoeuro_comm_2019_si_short_title">"Universität von Ljubljana"</string>
-    <string name="twoeuro_comm_2019_es_short_title">"Altstadt von Ávila"</string>
-    <string name="twoeuro_comm_2019_va_short_title">"Sixtinische Kapelle"</string>
-    <string name="twoeuro_comm_2019_va_2_short_title">"90 Jahre Vatikanstadt"</string>
-    <string name="twoeuro_comm_2020_ad_short_title">"50 Jahre Frauenwahlrecht"</string>
-    <string name="twoeuro_comm_2020_ad_2_short_title">"Iberoamerika-Gipfel"</string>
-    <string name="twoeuro_comm_2020_be_short_title">"Jahr der Pflanzengesundheit"</string>
-    <string name="twoeuro_comm_2020_be_2_short_title">"Jan van Eyck"</string>
-    <string name="twoeuro_comm_2020_cy_short_title">"Neurologie Genetik"</string>
-    <string name="twoeuro_comm_2020_de_short_title">"Sanssouci"</string>
-    <string name="twoeuro_comm_2020_de_2_short_title">"Kniefall von Warschau"</string>
-    <string name="twoeuro_comm_2020_ee_short_title">"Entdeckung der Antarktis"</string>
-    <string name="twoeuro_comm_2020_ee_2_short_title">"Frieden von Tartu"</string>
-    <string name="twoeuro_comm_2020_fi_short_title">"Universität Turku"</string>
-    <string name="twoeuro_comm_2020_fi_2_short_title">"Väinö Linna"</string>
-    <string name="twoeuro_comm_2020_fr_short_title">"Charles de Gaulle"</string>
-    <string name="twoeuro_comm_2020_fr_2_short_title">"Medizinische Forschung"</string>
-    <string name="twoeuro_comm_2020_gr_short_title">"Thermopylen"</string>
-    <string name="twoeuro_comm_2020_gr_2_short_title">"Thrakien"</string>
-    <string name="twoeuro_comm_2020_it_short_title">"Feuerwehr Italien"</string>
-    <string name="twoeuro_comm_2020_it_2_short_title">"Maria Montessori"</string>
-    <string name="twoeuro_comm_2020_lt_short_title">"Berg der Kreuze"</string>
-    <string name="twoeuro_comm_2020_lt_2_short_title">"Aukštaitija"</string>
-    <string name="twoeuro_comm_2020_lv_short_title">"Lettgalische Keramik"</string>
-    <string name="twoeuro_comm_2020_lu_short_title">"Prinz Heinrich"</string>
-    <string name="twoeuro_comm_2020_lu_2_short_title">"Relief Prinz Charles"</string>
-    <string name="twoeuro_comm_2020_lu_3_short_title">"Foto! Prinz Charles"</string>
-    <string name="twoeuro_comm_2020_mc_short_title">"300. Honoré III."</string>
-    <string name="twoeuro_comm_2020_mt_short_title">"Kinder: Spiele"</string>
-    <string name="twoeuro_comm_2020_mt_2_short_title">"Tempel von Skorba"</string>
-    <string name="twoeuro_comm_2020_po_short_title">"Vereinte Nationen"</string>
-    <string name="twoeuro_comm_2020_po_2_short_title">"Insel Madeira"</string>
-    <string name="twoeuro_comm_2020_sm_short_title">"Raffael (SM)"</string>
-    <string name="twoeuro_comm_2020_sm_2_short_title">"Giovanni Battista Tiepolo"</string>
-    <string name="twoeuro_comm_2020_sk_short_title">"Beitritt zur OECD"</string>
-    <string name="twoeuro_comm_2020_si_short_title">"Adam Bohoric"</string>
-    <string name="twoeuro_comm_2020_es_short_title">"Mudéjaren in Aragón"</string>
-    <string name="twoeuro_comm_2020_va_short_title">"Raffael (VA)"</string>
-    <string name="twoeuro_comm_2020_va_2_short_title">"Johannes Paul II."</string>
-    <string name="twoeuro_comm_2021_ad_short_title">"Senioren"</string>
-    <string name="twoeuro_comm_2021_ad_2_short_title">"Meritxell"</string>
-    <string name="twoeuro_comm_2021_be_short_title">"Karlsgulden"</string>
-    <string name="twoeuro_comm_2021_be_2_short_title">"Wirtschaftsunion mit Luxemburg"</string>
-    <string name="twoeuro_comm_2021_de_short_title">"Magdeburger Dom"</string>
-    <string name="twoeuro_comm_2021_ee_short_title">"Nationaltier Wolf"</string>
-    <string name="twoeuro_comm_2021_ee_2_short_title">"Finno-Ugrische Völker"</string>
-    <string name="twoeuro_comm_2021_es_short_title">"Altstadt von Toledo"</string>
-    <string name="twoeuro_comm_2021_fi_short_title">"Journalismus"</string>
-    <string name="twoeuro_comm_2021_fi_2_short_title">"Selbstverwaltung der Alandinseln"</string>
-    <string name="twoeuro_comm_2021_fr_short_title">"Olympische Sommerspiele 2024"</string>
-    <string name="twoeuro_comm_2021_fr_2_short_title">"75 Jahre UNICEF"</string>
-    <string name="twoeuro_comm_2021_gr_short_title">"Griechische Revolution"</string>
-    <string name="twoeuro_comm_2021_it_short_title">"Deklarierung Roms"</string>
-    <string name="twoeuro_comm_2021_it_2_short_title">"Grazie Gesundheitswesen"</string>
-    <string name="twoeuro_comm_2021_lt_short_title">"Region Dzūkija"</string>
-    <string name="twoeuro_comm_2021_lt_2_short_title">"Biosphärenreservat Žuvintas"</string>
-    <string name="twoeuro_comm_2021_lu_short_title">"Relief! Geburtstag Großherzog Jean"</string>
-    <string name="twoeuro_comm_2021_lu_2_short_title">"Relief! Hochzeit Henri und Maria"</string>
-    <string name="twoeuro_comm_2021_lu_3_short_title">"Foto! Hochzeit Henri und Maria"</string>
-    <string name="twoeuro_comm_2021_lu_4_short_title">"Foto! Geburtstag Großherzog Jean"</string>
-    <string name="twoeuro_comm_2021_lv_short_title">"Int. Anerkennung Lettlands"</string>
-    <string name="twoeuro_comm_2021_mc_short_title">"10. Hochzeitstag"</string>
-    <string name="twoeuro_comm_2021_mt_short_title">"Tempel von Tarxien"</string>
-    <string name="twoeuro_comm_2021_mt_2_short_title">"Helden der Pandemie"</string>
-    <string name="twoeuro_comm_2021_po_short_title">"EU-Ratspräsidentschaft"</string>
-    <string name="twoeuro_comm_2021_po_2_short_title">"Olympischen Spiele Tokio"</string>
-    <string name="twoeuro_comm_2021_si_short_title">"Regionalmuseum Kranj"</string>
-    <string name="twoeuro_comm_2021_sk_short_title">"Alexander Dubček"</string>
-    <string name="twoeuro_comm_2021_sm_short_title">"Albrecht Dürer"</string>
-    <string name="twoeuro_comm_2021_sm_2_short_title">"San Marino - Caravaggio"</string>
-    <string name="twoeuro_comm_2021_va_short_title">"Vatikan - Caravaggio"</string>
-    <string name="twoeuro_comm_2021_va_2_short_title">"Dante Alighieri"</string>
-    <string name="twoeuro_comm_2022_ad_short_title">"Karl der Große"</string>
-    <string name="twoeuro_comm_2022_ad_2_short_title">"Währungsvereinbarung"</string>
-    <string name="twoeuro_comm_2022_be_short_title">"Gesundheitswesen"</string>
-    <string name="twoeuro_comm_2022_de_short_title">"Wartburg"</string>
-    <string name="twoeuro_comm_2022_ee_short_title">"estnische Literatur-Gesellschaft"</string>
-    <string name="twoeuro_comm_2022_ee_2_short_title">"Slava Ukraini"</string>
-    <string name="twoeuro_comm_2022_fi_short_title">"Finnisches Nationalballett"</string>
-    <string name="twoeuro_comm_2022_fi_2_short_title">"Finnische Klimaforschung"</string>
-    <string name="twoeuro_comm_2022_fr_short_title">"20y €-Bargeld Jaques Chirac"</string>
-    <string name="twoeuro_comm_2022_fr_2_short_title">"Olympische Sommerspiele 2024"</string>
-    <string name="twoeuro_comm_2022_gr_short_title">"Griechische Verfassung"</string>
-    <string name="twoeuro_comm_2022_it_short_title">"170 Jahre Polizei"</string>
-    <string name="twoeuro_comm_2022_it_2_short_title">"Richter Falcone und  Borsellino"</string>
-    <string name="twoeuro_comm_2022_lv_short_title">"Latvijas Banka"</string>
-    <string name="twoeuro_comm_2022_lt_short_title">"Suvalkija"</string>
-    <string name="twoeuro_comm_2022_lt_2_short_title">"Basketball in Litauen"</string>
-    <string name="twoeuro_comm_2022_lu_short_title">"luxemburgische Flagge"</string>
-    <string name="twoeuro_comm_2022_lu_2_short_title">"10. Hochzeitstag Guillaume und Stephanie"</string>
-    <string name="twoeuro_comm_2022_mc_short_title">"100. Todestag Albert I."</string>
-    <string name="twoeuro_comm_2022_mt_short_title">"Hypogäum von Hal-Saflieni"</string>
-    <string name="twoeuro_comm_2022_mt_2_short_title">"Sicherheit für Frauen"</string>
-    <string name="twoeuro_comm_2022_po_short_title">"Erstüberquerung des Südatlantiks"</string>
-    <string name="twoeuro_comm_2022_sm_short_title">"Piero Della Francesca"</string>
-    <string name="twoeuro_comm_2022_sm_2_short_title">"Antonio Canova"</string>
-    <string name="twoeuro_comm_2022_sk_short_title">"Bau der ersten Dampfmaschine"</string>
-    <string name="twoeuro_comm_2022_si_short_title">"Jože Plečnik"</string>
-    <string name="twoeuro_comm_2022_es_short_title">"Vollendung erste Weltumsegelung"</string>
-    <string name="twoeuro_comm_2022_es_2_short_title">"Nationalpark Garajonay"</string>
-    <string name="twoeuro_comm_2022_va_short_title">"Papst Paul VI"</string>
-    <string name="twoeuro_comm_2022_va_2_short_title">"Mutter Teresa von Kalkutta"</string>
-    <string name="twoeuro_comm_2023_cy_short_title">"60y Zentralbank"</string>
-    <string name="twoeuro_comm_2023_de_short_title">"Elbphilharmonie Hamburg"</string>
-    <string name="twoeuro_comm_2023_de_2_short_title">"Karl der Große"</string>
-    <string name="twoeuro_comm_2023_ee_short_title">"Rauchschwalbe"</string>
-    <string name="twoeuro_comm_2023_es_short_title">"Cáceres"</string>
-    <string name="twoeuro_comm_2023_es_2_short_title">"Spanien EU Rat"</string>
-    <string name="twoeuro_comm_2023_fi_short_title">"Naturschutz"</string>
-    <string name="twoeuro_comm_2023_fi_2_short_title">"öffentliches Wohlergehen"</string>
-    <string name="twoeuro_comm_2023_fr_short_title">"Pont Neuf"</string>
-    <string name="twoeuro_comm_2023_fr_2_short_title">"Rugby-Weltmeisterschaft"</string>
-    <string name="twoeuro_comm_2023_gr_short_title">"Maria Callas"</string>
-    <string name="twoeuro_comm_2023_gr_2_short_title">"Constantin Carathéodory"</string>
-    <string name="twoeuro_comm_2023_ir_short_title">"100y Friede"</string>
-    <string name="twoeuro_comm_2023_it_short_title">"Luftstreitkräfte"</string>
-    <string name="twoeuro_comm_2023_it_2_short_title">"Alessandro Manzoni"</string>
-    <string name="twoeuro_comm_2023_lt_short_title">"Zusammen mit der Ukraine"</string>
-    <string name="twoeuro_comm_2023_lu_short_title">"Erste Verfassung"</string>
-    <string name="twoeuro_comm_2023_lu_2_short_title">"Großherzog Henri IOK"</string>
-    <string name="twoeuro_comm_2023_lv_short_title">"Zusammen mit der Ukraine"</string>
-    <string name="twoeuro_comm_2023_mc_short_title">"Fürst Rainier III"</string>
-    <string name="twoeuro_comm_2023_mt_short_title">"Nikolaus Kopernikus"</string>
-    <string name="twoeuro_comm_2023_mt_2_short_title">"Napoléon Bonaparte"</string>
-    <string name="twoeuro_comm_2023_po_short_title">"Friede"</string>
-    <string name="twoeuro_comm_2023_po_2_short_title">"Weltjugendtag Lissabon"</string>
-    <string name="twoeuro_comm_2023_sk_short_title">"Bluttransfusion"</string>
-    <string name="twoeuro_comm_2023_sk_2_short_title">"Pferde-Expresspost"</string>
-    <string name="twoeuro_comm_2023_sm_short_title">"Perugino"</string>
-    <string name="twoeuro_comm_2023_sm_2_short_title">"Luca Signorelli"</string>
-    <string name="twoeuro_comm_2023_si_short_title">"Josip Plemelj"</string>
-    <string name="twoeuro_comm_2023_va_short_title">"Alessandro Manzoni"</string>
-    <string name="twoeuro_comm_2023_va_2_short_title">"Pietro Perugino"</string>
-
-    <string name="twoeuro_comm_2007_eu_rv_short_title">"Rome Contract"</string>
-    <string name="twoeuro_comm_2009_eu_emu_short_title">"Eco. Cur. Union"</string>
-    <string name="twoeuro_comm_2012_eu_bg_short_title">"10y Euro Cash"</string>
-    <string name="twoeuro_comm_2015_eu_euf_short_title">"30y EU Flag"</string>
-    <string name="twoeuro_comm_2022_eu_ep_short_title">"35y Erasmus Programm"</string>
-
-    <string name="license_flags">"License for Flags: Copyright (c) 2013 Go Squared Ltd. http://www.gosquared.com/ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."</string>
-
-    <string name="license_ambilwarna">"
-License for Amilbwarna Color Chooser
-Copyright 2009-2015 Yuku
-
-Licensed under the Apache License, Version 2.0 (the \"License\");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an \"AS IS\" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-"</string>
 </resources>

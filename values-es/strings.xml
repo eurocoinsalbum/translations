@@ -201,7 +201,7 @@
     <string name="request_edit_token_error">"Error al solicitar el modo de edición en línea"</string>
     <string name="release_edit_token_error">"Error al liberar el bloqueo de edición en línea"</string>
     <string name="collection_not_online_managed">"La colección no está gestionada en línea"</string>
-    <string name="close">"Cerca"</string>
+    <string name="close">"Cerrar"</string>
     <string name="pref_collect_german_mints">"Recoge mentas alemanas"</string>
     <string name="pref_collect_greece_2002_foreign_mints">"Recoge mentas extranjeras de Grecia 2002"</string>
     <string name="collect_no_years_but_german_mints_is_invalid">"No recolectar años, pero las mentas alemanas son una combinación no compatible"</string>
@@ -415,12 +415,13 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.6.3\n
-Se corrigieron archivos de respaldo corruptos cuando se usan caracteres especiales en las notas.
+    <string name="version_history_last">"Versión 7.6.6\n
+Versión Android actualizada.
     "</string>
 
-    <string name="version_history_last">"Versión 7.6.2\n
-Añadidas monedas conmemorativas de 2€ 2024.
+    <string name="version_history_current">"Versión 7.7\n
+2€ monedas conmemorativas 2024 añadido.\n
+Versión Android actualizada.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2539,8 +2540,7 @@ Añadidas monedas conmemorativas de 2€ 2024.
     <string name="twoeuro_comm_2020_lt_date">"marzo de 2020"</string>
 
     <string name="twoeuro_comm_2021_lt_title">"Dzūkija (de la serie «Regiones etnográficas de Lituania»)"</string>
-    <string name="twoeuro_comm_2021_lt_desc">"El motivo representa un escudo de armas con un soldado con armadura que sostiene una alabarda en su mano derecha y apoya su brazo izquierdo en un escudo báltico de plata. El escudo de armas, sujeto por dos linces, está colocado sobre un travesaño. Debajo cuelga una cinta con la inscripción latina «EX GENTE BELLICOSISSIMA
-POPULUS LABORIOSUS» [DE UNA TRIBU MUY BELICOSA (SURGE) UN PUEBLO OPEROSO]. La composición está rodeada por las inscripciones «LIETUVA» (LITUANIA) y «DZŪKIJA», el año de emisión «2021» y la marca de ceca de la Fábrica de la Moneda de Lituania. Rolandas Rimkūnas es el autor del motivo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2021_lt_desc">"El motivo representa un escudo de armas con un soldado con armadura que sostiene una alabarda en su mano derecha y apoya su brazo izquierdo en un escudo báltico de plata. El escudo de armas, sujeto por dos linces, está colocado sobre un travesaño. Debajo cuelga una cinta con la inscripción latina «EX GENTE BELLICOSISSIMA POPULUS LABORIOSUS» [DE UNA TRIBU MUY BELICOSA (SURGE) UN PUEBLO OPEROSO]. La composición está rodeada por las inscripciones «LIETUVA» (LITUANIA) y «DZŪKIJA», el año de emisión «2021» y la marca de ceca de la Fábrica de la Moneda de Lituania. Rolandas Rimkūnas es el autor del motivo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2021_lt_volume">"500000"</string>
     <string name="twoeuro_comm_2021_lt_date">"tercer trimestre de 2021"</string>
 
@@ -2573,6 +2573,221 @@ POPULUS LABORIOSUS» [DE UNA TRIBU MUY BELICOSA (SURGE) UN PUEBLO OPEROSO]. La c
     <string name="twoeuro_comm_2023_be_desc">"El motivo muestra un detalle decorativo de la fachada del Hotel Van Eetvelde, una casa emblemática de Bruselas diseñada por Victor Horta, arquitecto belga del movimientoart nouveau"</string>
     <string name="twoeuro_comm_2023_be_volume">"155000"</string>
     <string name="twoeuro_comm_2023_be_date">"junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_2_title">"Fiestas del fuego del solsticio de verano en los Pirineos"</string>
+    <string name="twoeuro_comm_2023_ad_2_desc">"Las fiestas del fuego del solsticio de verano se inscribieron en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad de la Unesco en 2015. Son festividades tradicionales y populares que se celebran ampliamente cada año en Andorra. El motivo reproduce una figura humana, denominada «fallaire», que lleva una capa tradicional y traza un círculo de fuego con la «falla». Este es el elemento principal de la fiesta y consiste en cortezas de árboles a las que, una vez encendidas, se hace girar enérgicamente creando grandes círculos de fuego. La composición gráfica de las líneas en el fondo del motivo representa el solsticio de verano junto con el nombre del país emisor «ANDORRA» y el año «2023». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_2_date">"último trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_title">"Trigésimo aniversario de la adhesión del Principado de Andorra a las Naciones Unidas"</string>
+    <string name="twoeuro_comm_2023_ad_desc">"Las Naciones Unidas vienen representadas por dos elementos simbólicos: dos coronas de laurel y un globo terráqueo, el cual forma parte del número «30» que se representa, con la inscripción «ANYS» (años) y el año «2023» debajo. En la parte superior del motivo figura el escudo de armas de Andorra y la inscripción «ANDORRA MEMBRE DE LES NACIONS UNIDES» (Andorra miembro de las Naciones Unidas). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_date">"último trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_si_title">"150° aniversario del nacimiento de Josip Plemelj (matemático y astrónomo)"</string>
+    <string name="twoeuro_comm_2023_si_desc">"El motivo muestra partes de la ecuación que Josip Plemelj fue la primera persona en el mundo en resolver. Los números y símbolos rotan en circunferencias que representan la rotación de los planetas y el movimiento en el espacio, conformando un todo de elementos individuales irresolubles. De este modo, el motivo muestra los dos campos de trabajo de Josip Plemelj: matemáticas y astronomía. La inscripción «JOSIP PLEMELJ 1873», el nombre del país emisor, «SLOVENIJA», y el año de emisión, «2023», están integrados en el motivo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_si_date">"diciembre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_po_title">"La paz"</string>
+    <string name="twoeuro_comm_2023_po_desc">"La moneda está dedicada a la paz entre las naciones y a la coexistencia amistosa y mutuamente beneficiosa. La búsqueda de la paz debe guiarse por un esfuerzo colectivo encaminado a alcanzar un objetivo común. En el actual contexto geopolítico, muy polarizado, esta moneda recuerda que es esencial proteger el tesoro inestimable que es la paz. El motivo muestra la palabra «PAZ» dispuesta como los radios de una circunferencia en las dieciséis lenguas oficiales habladas en los veinte países de la zona del euro en enero de 2023. En la parte superior de la moneda, figura la inscripción «PORTUGAL», seguida del año de emisión, «2023», a la derecha; en la parte superior izquierda figura el nombre del diseñador «José S. Teixeira» y, a la izquierda, la marca de ceca «CASA DA MOEDA», nombre de la Fábrica de la Moneda de Portugal. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_date">"noviembre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_cy_title">"El sexagésimo aniversario de la fundación del Banco Central de Chipre"</string>
+    <string name="twoeuro_comm_2023_cy_desc">"El diseño muestra herramientas en un microchip como símbolo de la estabilidad de la economía en la moderna era industrial y digital, garantizada por el Banco Central de Chipre, que conmemora sus sesenta años de existencia. En la parte inferior figuran el nombre del país emisor «ΚYΠΡΟΣ KIBRIS», así como las fechas «1963-2023». En la parte interior de la cara nacional de la moneda figura la inscripción «60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ» (es decir, sesenta años desde la fundación del Banco Central de Chipre). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+    <string name="twoeuro_comm_2023_cy_date">"segundo/tercer trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_fi_2_title">"Los servicios sociales y sanitarios"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">"El motivo representa un mapa estilizado de Finlandia. En el lado izquierdo, figura la leyenda «HYVINVOINTI / VÄLFÄRD» [BIENESTAR] en finés y sueco. El año de acuñación «2023» se encuentra ligeramente a la izquierda, en el centro de la moneda. En la parte inferior, figura la indicación del país de emisión, «FI». En el lado derecho, figura la marca de ceca de la Fábrica de Moneda de Finlandia. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"otoño de 2023"</string>
+
+    <string name="twoeuro_comm_2023_sk_2_title">"Bicentenario del inicio del servicio de correo urgente por diligencia entre Viena y Bratislava"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"La representación simbólica del servicio de correo urgente entre Viena y Bratislava consiste en una diligencia moviéndose a gran velocidad en cuyo centro aparece insertado un rectángulo que contiene una corneta de posta. Debajo de la imagen figura el año «1823», año en que comenzó a funcionar el servicio de correo urgente, y debajo de esa fecha aparecen los nombres de las ciudades en eslovaco, «VIEDEŇ» y «BRATISLAVA», uno encima del otro. En la parte inferior del círculo interior de la moneda figura el año de emisión, «2023», separado del texto situado encima por una línea horizontal. El nombre del país emisor, «SLOVENSKO», está inscrito a lo largo del borde superior del motivo. A la derecha de la diligencia, figura la marca de ceca de la Casa de la Moneda de Kremnica (Mincovňa Kremnica), compuesta por las letras «MK» colocadas entre dos troqueles. Justo debajo de la marca figuran las iniciales estilizadas «MP», que hacen referencia a la diseñadora de la cara nacional, Mária Poldaufová. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"octubre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_2_title">"75º aniversario de la concesión del sufragio universal a las mujeres en Bélgica"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">"El motivo representa en el centro una casilla en una papeleta de voto, que está siendo rellenada por un lápiz. La casilla rellenada se solapa con el símbolo de Venus (símbolo de género de las mujeres). En la parte inferior, a la izquierda, al lado de la imagen central figura la inscripción «75 JAAR ANS». En torno a la imagen central figuran inscripciones en neerlandés y francés: «ALGEMEEN VROUWENKIESRECHT» – «SUFFRAGE UNIVERSEL FÉMININ». En la parte inferior de la moneda se encuentran las iniciales de la diseñadora, Iris Bruijns. Dado que será la Real Casa de la Moneda de los Países Bajos la que acuñará las monedas, la marca de ceca de Utrecht, un caduceo, figura en el lado derecho de la moneda junto a la marca del maestro de ceca belga, una flor aster delante de un matraz de Erlenmeyer, el código de país, «BE», y el año «2023». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+    <string name="twoeuro_comm_2023_be_2_date">"octubre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"El quinientos aniversario de la muerte de Luca Signorelli"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">"El motivo muestra un ángel en el centro, un detalle de la pintura «Il Paradiso» de Luca Signorelli, que se conserva en la Capilla de San Brizio en la catedral de Orvieto. En el lado izquierdo, figura la letra «R», que identifica la Fábrica de la Moneda de Roma. En semicírculo, en la parte inferior izquierda figura el nombre «SIGNORELLI». En el lado derecho, figura el nombre del país emisor «SAN MARINO», y en la superior, los años «1523-2023». En el centro de la parte de abajo, figuran las iniciales de la autora Marta Bonifacio, MB. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"septiembre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_title">"El quinientos aniversario de la muerte de Perugino"</string>
+    <string name="twoeuro_comm_2023_sm_desc">"El motivo muestra en el centro la Virgen María con el Niño Jesús, un detalle de la pintura «La Virgen con el Niño y los santos Juan Bautista y Sebastián» de Perugino, que se conserva en la Galería Uffizi (Florencia). En el lado izquierdo, figuran la inscripción «PERUGINO», las fechas «1523» y «2023» y la marca de ceca «R». En la parte derecha, figuran el nombre del país emisor «SAN MARINO» y, en la inferior derecha, las iniciales de la autora Maria Angela Cassol, MAC. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_date">"abril de 2023"</string>
+
+    <string name="twoeuro_comm_2023_ir_title">"El quincuagésimo aniversario de la adhesión de Irlanda a la Unión Europea"</string>
+    <string name="twoeuro_comm_2023_ir_desc">"El motivo muestra una modificación del logotipo del programa «EU50» utilizado por los ministerios para promover actos con ocasión del quincuagésimo aniversario de la adhesión de Irlanda a la UE. El nombre del país emisor «ÉIRE» figura encima del logotipo. También figuran el año «1973», por ser el año en que Irlanda se adhirió a la UE, y el año «2023», año de emisión de la moneda. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+    <string name="twoeuro_comm_2023_ir_date">"julio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100 años del nacimiento de Maria Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">"El motivo representa un retrato de la legendaria soprano griega Maria Callas. En el borde interior figura la inscripción «100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΗΣ ΜΑΡΙΑΣ ΚΑΛΛΑΣ» [100 años del nacimiento de Maria Callas], y a la derecha de esta, el año de acuñación «2023» y una palmeta (marca de ceca de la Fábrica de Moneda griega); debajo del retrato figura la inscripción «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» [República Helénica]. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_date">"julio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150 años del nacimiento de Constantín Carathéodory"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"El motivo presenta un retrato del matemático griego Constantín Carathéodory. En el borde interior izquierdo figura la inscripción «ΚΩΝΣΤΑΝΤΙΝΟΣ ΚΑΡΑΘΕΟΔΩΡΗ 1873-1950», y a la derecha de esta, el año de acuñación «2023» y una palmeta (marca de ceca de la Fábrica de Moneda griega); debajo del retrato figura la inscripción «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» [República Helénica]. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"julio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"El ave nacional de Estonia: la golondrina común"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"El motivo representa la silueta de la golondrina común con el texto «HIRUNDO RUSTICA» (el nombre del ave en cuestión en latín) en la parte superior derecha, formando un semicírculo. En la parte inferior figura el nombre del país emisor, «EESTI», y debajo el año de emisión, «2023». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"segundo trimestre de 2023"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"Copa Mundial de Rugby Francia 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"Con ocasión de la Copa Mundial de Rugby que se organiza en Francia, la Fábrica de Moneda de París celebra el rugby y este torneo que reunirá a los equipos de una veintena de países. El motivo representa un jugador de rugby estilizado haciendo un pase. Al fondo, el campo de rugby forma el globo sobre el que se colocan los postes de la portería. El conjunto forma parte de una galaxia imaginaria del rugby en la que los demás planetas tienen forma ovalada. El emblema del torneo figura al lado del jugador y el nombre del torneo rodea el diseño. La indicación del país emisor «RF», la marca de ceca y la marca del maestro de ceca figuran debajo de la imagen, a la derecha. En el lado izquierdo figuran el nombre del torneo, el país emisor «FRANCE» y el año «2023». El nombre del torneo que rodea el diseño, así como la mención «RF» aparecen en la tipografía oficial del evento, denominada «Mobius». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"La llegada de los franceses a Malta en 1798"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">"En junio de 1798, Napoleón Bonaparte puso fin al gobierno de la Orden de San Juan en Malta. Durante su breve estancia en Malta, Napoleón estableció un gobierno republicano y llevó a cabo una profunda reforma de las leyes e instituciones del país. Entre otras cosas, se abolieron la esclavitud y los privilegios nobiliarios. Se estableció un estado laico y se clausuró el tribunal de la inquisición. En aquella época, estas reformas de gran calado no fueron universalmente aceptadas por los malteses, que no tardaron mucho en rebelarse. El motivo representa una personificación de la República Francesa, tal como se utilizaba en los membretes oficiales en la época. En el lado izquierdo, figura la inscripción «225th ANNIVERSARY» seguida en la parte superior derecha, formando un semicírculo, por la inscripción «ARRIVAL OF THE FRENCH IN MALTA». En la parte inferior, figura el año de emisión «2023». A la izquierda y la derecha de la imagen, aparecen, respectivamente, las inscripciones «Liberté» (Libertad) y «Égalité» (Igualdad). En la parte superior izquierda de la inscripción «Égalité» figuran los años «1798-2023». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"El 550° aniversario del nacimiento de Nicolás Copérnico"</string>
+    <string name="twoeuro_comm_2023_mt_desc">"El motivo está configurado por un retrato de Copérnico de perfil, junto con una representación heliocéntrica estilizada del universo, tal como lo propuso Copérnico. En la parte superior izquierda figura la inscripción «NICOLAUS COPERNICUS 1473 – 1543» y en la parte inferior izquierda el nombre del país emisor «MALTA» seguido del año de emisión «2023». En la parte inferior figura también la firma de la artista Daniela Fusco «FUSCO». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+    <string name="twoeuro_comm_2023_mt_date">"junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"Centenario del nacimiento del Príncipe Rainiero III"</string>
+    <string name="twoeuro_comm_2023_mc_desc">"El motivo muestra el retrato del Príncipe Rainiero III. En la parte superior, en semicircunferencia, figura el nombre del país emisor, «MONACO», y, a continuación, el año de emisión, «2023». En la parte inferior figura la inscripción «RAINIER III» y, a continuación, la fecha «31 MAI 1923». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+    <string name="twoeuro_comm_2023_mc_date">"junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"Presidencia española del Consejo de la UE"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">"El motivo consiste en dos imágenes. La primera es el logotipo de la Presidencia española del Consejo de la UE. Alrededor del logotipo figuran las leyendas: «ESPAÑA 2023 – PRESIDENCIA ESPAÑOLA» y «CONSEJO DE LA UNIÓN EUROPEA». La segunda imagen, en la parte inferior, representa la marca de ceca de la Fábrica Nacional de Moneda y Timbre - Real Casa de la Moneda con la «M» coronada. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2023_es_2_date">"1 de junio de 2023"</string>
+
+    <string name="twoeuro_comm_2023_lv_title">"Girasol de Ucrania"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"El motivo representa un girasol, que es uno de los símbolos nacionales de Ucrania, ya que Ucrania es uno de los mayores productores y exportadores de aceite de girasol del mundo. Desde el inicio de la guerra en Ucrania, el girasol se ha convertido en un símbolo mundial de la paz. El girasol se utilizó por primera vez como símbolo de la paz en el verano de 1996. Posteriormente, se plantaron en una base militar cerca de Pervomaysk, a aproximadamente 250 kilómetros al sur de la capital, Kiev. En la actualidad, el girasol se utiliza como símbolo de la paz y del apoyo a Ucrania en todo el mundo. En la parte superior, en semicircunferencia, figura la inscripción «SLAVA UKRAINAI!» (¡Viva Ucrania!) y, en la parte inferior, en semicircunferencia, el nombre del país emisor, «LATVIJA», seguido del año de emisión, «2023». El autor del motivo es el artista letón Krišs Salmanis. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"mayo de 2023"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"Participación de Portugal en los 33.º Juegos Olímpicos"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"Descripción:El diseño muestra un conjunto de elementos dispuestos en forma de corazón, que representan un abrazo colectivo; en torno al corazón hay 15 círculos en referencia simbólica a los anillos olímpicos y a los continentes que representan, mientras que sobre el vértice de la forma del corazón figura el escudo de Portugal; en el centro del «abrazo» se halla el logotipo del Comité Olímpico portugués, lo que transmite la idea de que los corazones de los portugueses latirán colectivamente por el equipo olímpico nacional en los Juegos Olímpicos de París de 2024. Debajo de la forma de corazón pueden verse la leyenda «Equipa Olímpica Portugal» (Equipo Olímpico Portugal) y el año «2024»; a la izquierda, la marca de ceca «Casa da Moeda»; y, a la derecha, el nombre de la diseñadora. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"julio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"50.º aniversario del 25 de abril de 1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"Descripción:El 25 de abril de 1974 es la fecha de la revolución que marcó la instauración del gobierno democrático en Portugal y el inicio de un viaje de profundas transformaciones económicas, sociales y culturales que condujeron a la europeización del país. En el centro del diseño, un clavel, que simboliza la revolución, aparece rodeado de múltiples círculos excéntricos que sugieren que las acciones y convicciones de las personas pueden cambiar a lo largo de los años, pero que siguen siendo esencialmente fieles a los principios de la revolución. En el borde, a la derecha, se hallan el verso «Esta é a madrugada que eu esperava» (Esta es la madrugada que yo esperaba) y el nombre de su autora, la poetisa «Sophia de Mello Breyner Andresen»; y a la izquierda del escudo nacional, pueden verse las leyendas «Portugal» y «25 de abril de 1974_2024», seguidas del nombre del diseñador y de la marca de ceca «Casa da Moeda», nombre de la ceca portuguesa. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_po_volume">"515000"</string>
+    <string name="twoeuro_comm_2024_po_date">"abril de 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_title">"Elecciones y democracia"</string>
+    <string name="twoeuro_comm_2024_fi_desc">"Descripción:El dibujo muestra papeletas de voto estilizadas, formadas por círculos y rectángulos. El tema es abstracto, pero sigue siendo reconocible. Hay ocho papeletas de voto, que se solapan parcialmente, creando formas geométricas más pequeñas en las intersecciones de las papeletas que se solapan. En la parte inferior figura el año 2024. Las letras «FI» se encuentran en el lado derecho, ligeramente por encima de la línea media. La leyenda «VAALIT ♦ DEMOKRATIA» rodea el tema por la derecha. A su vez, la leyenda «VAL ♦ DEMOKRATI» rodea el tema por la izquierda. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_date">"primavera de 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_2_title">"Lucha contra el cáncer en Bélgica"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"Descripción:El diseño muestra en el centro un lazo, que se utiliza como símbolo universal para expresar el compromiso con la lucha contra el cáncer. Los extremos del lazo se extienden a izquierda y derecha formando líneas curvas, que simbolizan el trazado de un latido cardiaco en un monitor, como expresión de vida y vitalidad. En la parte superior pueden verse tres líneas, que son una referencia al arco iris (símbolo de esperanza y consuelo). En la línea inferior figura el código de país «BE» y el año «2024». En la parte inferior de la moneda figuran las leyendas en francés y neerlandés siguientes: «Lutte contre le cancer» - «Strijd tegen kanker». Las iniciales de la diseñadora, Iris Bruijns, están situadas en el lado izquierdo, por encima de las leyendas. Dado que las monedas serán acuñadas por la Real Casa de la Moneda de los Países Bajos, en el extremo inferior de la moneda figura la marca de ceca de Utrecht, un caduceo, junto a la marca de ceca del director de la Fábrica de la Moneda belga, una flor áster delante de un matraz de Erlenmeyer. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"mayo de 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_title">"La presidencia belga del Consejo de la Unión Europea"</string>
+    <string name="twoeuro_comm_2024_be_desc">"Descripción:El diseño representa una bandada de aves (golondrinas), que simboliza el funcionamiento de la UE, ya que se mueven en grupo y, aún así, cada una de ellas dispone de margen de maniobra individual, creando así una entidad compleja y dinámica. Por lo tanto, la bandada representa principalmente el concepto de unión. Durante el vuelo de las golondrinas, siempre hay una que se sitúa en cabeza y guía al grupo, labor que corresponde a Bélgica en el primer semestre de 2024. Las veintisiete aves también simbolizan el número total de Estados miembros de la UE. El código de país «BE» está situado entre las aves, en la parte superior derecha del diseño. Debajo de la bandada de aves, se rellena el espacio libre en la mitad inferior con la inscripción «PRESIDENCIA BÉLGICA DEL CONSEJO DE LA UE 2024». A la izquierda figuran las iniciales de la diseñadora Iris Bruijns. Dado que será la Real Casa de la Moneda de los Países Bajos la que acuñará las monedas, la marca de ceca de Utrecht, un caduceo, figura en el extremo izquierdo junto a la marca de ceca del director de la Fábrica de la Moneda belga, una flor aster delante de un matraz de Erlenmeyer. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+    <string name="twoeuro_comm_2024_be_date">"primer trimestre de 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – castillo de Varaždin)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"Descripción:En el diseño figura el castillo de Varaždin (siglos XII – XVI). Varaždin se menciona por primera vez en 1181. Tras haber sufrido un gran número de bajas en la invasión tártara de 1242, se construyó como fortaleza real, que pasaría a ser conocida como castillo de Varaždin. Su aspecto ha cambiado con el paso de los siglos: ha sido sucesivamente una poderosa fortaleza medieval rodeada de fosos de agua, la fortaleza y la armería principales de la frontera militar de Eslavonia, el cuartel general militar de Varaždin y un hermoso castillo renacentista. En la actualidad, el castillo es el edificio histórico más importante y esplendoroso de la ciudad de Varaždin, un monumento excelso del patrimonio arquitectónico croata. La moneda también incluye el nombre del país emisor «HRVATSKA» (Croacia), el año de emisión «2024» y la leyenda «STARI GRAD VARAŽDIN» (castillo de Varaždin), todo ello inscrito en círculo en la parte superior e inferior del diseño. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_date">"junio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"50.º aniversario de la Declaración de los Derechos de los Ciudadanos y de los Principios Fundamentales de San Marino"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"Descripción:En el centro está representado un libro abierto con la leyenda «I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI» (Los derechos de la persona humana son inviolables), extraída del artículo 5 de la Ley n.º 59, de 8 de julio de 1974, «Declaración de los derechos de los ciudadanos y de los principios fundamentales del ordenamiento jurídico de San Marino». En la parte superior figuran las siluetas de la Estatua de la Libertad y el Palacio Público, así como el nombre del país emisor «SAN MARINO». A la izquierda, puede verse la letra «R», que identifica a la Casa de la Moneda de Roma. En la parte inferior se hallan el año de emisión «2024» y las iniciales del grabador Emanuele Ferretti («E.F. INC.»).   En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_date">"abril de 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_title">"50.º aniversario de la restauración de la democracia en Grecia"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"Descripción:En el diseño figura el edificio del Parlamento Helénico, rodeado de la leyenda «50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ» («50 ANIVERSARIO DE LA RESTAURACIÓN DE LA DEMOCRACIA EN GRECIA») y «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» («REPÚBLICA HELÉNICA»). A continuación aparece una palmeta (marca de ceca de la Casa de la Moneda Griega). La caída de la Junta de Coroneles el 24 de julio de 1974 marcó el restablecimiento de la democracia en Grecia tras una dictadura de siete años. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_date">"julio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_2_title">"150.º aniversario del nacimiento de Penélope Delta"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"Description:El diseño presenta un retrato de Penélope Delta. El tema se enmarca con la leyenda «ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941» («PENÉLOPE DELTA 1874-1941») y «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» («REPÚBLICA HELÉNICA»). A la izquierda se encuentra una palmeta (marca de ceca de la Casa de la Moneda Griega) y a la derecha, el año de acuñación. Penelope Delta fue pionera de la literatura infantil en Grecia. Generaciones de niños griegos han sido criados con sus libros, que siguen siendo populares. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"julio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"El aciano, flor nacional estonia"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"Descripción:El diseño muestra la silueta de un aciano con la leyenda «CENTAUREA CYANUS» (aciano en latín) en la parte superior izquierda, en semicírculo. En la parte inferior figura el nombre del país emisor, «EESTI», y debajo, el año de emisión, «2024». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_ee_date">"segundo trimestre de 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_2_title">"La Torre Eiffel"</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"Descripción:Con motivo de la cuenta atrás para los Juegos Olímpicos de París de 2024, la Fábrica de Moneda de París celebra el itinerario a los juegos a través de París, así como su propio patrimonio. Cien años después de los Juegos de 1924, la capital francesa vuelve a acoger los Juegos de Verano. Se trata de un acto con alcance internacional, que va cobrando intensidad en los años previos al acto y culmina en 2024 con la emisión de dos monedas conmemorativas de dos euros dedicadas a los Juegos Olímpicos. El diseño representa a Francia a través de edificios emblemáticos, a saber, aparecen juntas la Torre Eiffel y la Basílica de Notre Dame de la Garde, situada en Marsella. Al fondo, una flor Gardenia tahitensis representa a la isla de Tahití, donde se celebrarán las competiciones de surf. La Torre Eiffel está en movimiento, y transmite los valores del deporte. Sus brazos están formados por 73 remaches que representan las comunidades de acogida. Por primera vez, se reúnen los símbolos olímpicos y paralímpicos, a fin de celebrar los Juegos para todos. La fecha del año, la indicación del país emisor «RF» y las marcas de ceca se hallan en la pista de atletismo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"mayo de 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"Juegos Olímpicos 2024 - Lucha"</string>
+    <string name="twoeuro_comm_2024_fr_desc">":Con motivo de la cuenta atrás para los Juegos Olímpicos de París de 2024, la Fábrica de Moneda de París celebra el camino hacia los juegos a través de París, así como de su propio patrimonio. Cien años después de los Juegos de 1924, la capital francesa vuelve a acoger los Juegos de Verano. Se trata de un acto con alcance internacional, que va cobrando intensidad en los años previos al acto y culmina en 2024 con la emisión de dos monedas conmemorativas de dos euros dedicadas a los Juegos Olímpicos. El diseño representa a Hércules, una figura nacional y un icono de la numismática francesa, practicando la lucha antigua con una quimera de Notre Dame, en referencia a los Juegos Olímpicos de la Edad Antigua. Ambos se representan en primer plano delante de la catedral de Notre Dame. Al fondo, se muestra una pista de atletismo en cuyo lado izquierdo se inserta el símbolo de París 2024. El año, la inscripción RF y las marcas de ceca se insertan en la pista de atletismo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+    <string name="twoeuro_comm_2024_fr_date">"enero de 2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_title">"La abeja melífera maltesa"</string>
+    <string name="twoeuro_comm_2024_mt_desc">"Descripción:El diseño fue creado por Maria Anna Frisone y representa la abeja melífera maltesa (Apis Mellifera Ruttneri), una de las especies endémicas de flora y fauna que se encuentran en las islas maltesas. El diseño muestra una representación de la abeja con una flor y un panal que llena el fondo. La moneda sensibiliza a los ciudadanos sobre una de las especies endémicas de Malta y representa gráficamente el trabajo de la abeja, que poliniza flores y elabora miel. En la parte izquierda figura el nombre del país emisor, «MALTA», mientras que en la parte derecha se encuentra el año de emisión, «2024». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+    <string name="twoeuro_comm_2024_mt_date">"junio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_mc_title">"500.º aniversario de la firma del Tratado con Carlos V"</string>
+    <string name="twoeuro_comm_2024_mc_desc">"Descripción:El diseño muestra la efigie de Carlos V. En la parte superior, en semicírculo, figura el nombre del país emisor «MONACO» (Mónaco). En la parte inferior se halla la leyenda «1524 – TRAITE AVEC CHARLES QUINT» (1524 – Tratado con Carlos V) y «2024». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2024_mc_date">"junio de 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"Conmemoración de los 200 años de la creación de la Policía Nacional como cuerpo de seguridad del Estado"</string>
+    <string name="twoeuro_comm_2024_es_desc">"Descripción:El diseño muestra el emblema de la Policía Nacional. En torno a él figuran las leyendas: «ESPAÑA - POLICÍA NACIONAL 1824-2024». En la parte inferior derecha del emblema figura la marca de ceca «Eme Coronada». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_date">"primer trimestre de 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"Reconocimiento de Sevilla (Archivo de Indias, Real Alcázar de Sevilla y Catedral de Sevilla) como Patrimonio Mundial de la UNESCO"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"Descripción:El diseño muestra una vista del «Patio de las Doncellas» del Real Alcázar de Sevilla. En la parte superior, en dirección circular y en mayúsculas, aparece la leyenda SEVILLA; debajo, la marca de ceca «Eme Coronada». En la parte inferior, en dirección circular y en mayúsculas, figuran la leyenda ESPAÑA y el año de acuñación 2024. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"primer trimestre de 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"150.º aniversario del nacimiento de Guglielmo Marconi"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"Descripción:El diseño presenta el retrato de Marconi en el centro, los retratos del Papa Pío XI a la derecha y del futuro Pío XII a la izquierda. En la parte superior izquierda, en semicírculo, figura la leyenda «GUGLIELMO MARCONI», y debajo, las fechas «1874» y «2024». En la parte inferior se halla la leyenda «CITTÀ DEL VATICANO», seguida del nombre de la artista, «L. PANCOTTO» (Loredana Pancotto). A la izquierda puede verse la marca de ceca «R». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"mayo de 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"El 175.º aniversario de la Constitución de Fráncfort (también conocida como Constitución de la iglesia de San Pablo, que fue el primer intento de crear un Estado nación unificado alemán)."</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"Descripción:El diseño presenta varios niveles temáticos. En primer plano, se encuentra una imagen de la iglesia de San Pablo, a la que están llegando los representantes de la asamblea constitucional nacional. Estas imágenes se superponen a una representación del documento constitucional y una pluma, que simboliza el fruto del trabajo del Parlamento de Fráncfort. Por último, el diseño está rematado con tres alegorías femeninas (Unidad, Justicia y Libertad) y la bandera tricolor negra, roja y oro. El dinamismo tridimensional de esta inscripción evoca la atemporalidad de los principios democráticos básicos que se recogieron por escrito por primera vez y de manera fundacional en la Constitución de Fráncfort. El anillo interior de la moneda también incluye la inscripción «PAULSKIRCHENVERFASSUNG 1849» («Constitución de la iglesia de San Pablo 1849») y, en la parte inferior, el año de emisión «2024», el código alemán de país emisor «D», la marca de ceca respectiva («A», «D», «F», «G» o «J») y las iniciales del artista, Bodo Broschat, de Berlín. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"marzo de 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklemburgo-Pomerania Occidental"</string>
+    <string name="twoeuro_comm_2024_de_desc">":La moneda está dedicada al estado federado alemán (Land) de Mecklemburgo-Pomerania Occidental. Se trata de la segunda emisión de la segunda serie de monedas conmemorativas alemanas de 2 euros en las que figuran los estados federados alemanes o Länder. Cada año, una moneda rinde homenaje a uno de los dieciséis estados federados al representar un monumento o un lugar significativos. El orden de los estados se basa en la presidencia rotatoria del Bundesrat, que es uno de los cinco órganos constitucionales permanentes de la República Federal de Alemania y representa los intereses de los estados federados. El diseño muestra el Königsstuhl, una formación emblemática de acantilados de roca calcárea y hayedos situados en el Parque Nacional de Jasmund, en la isla de Rügen. Los acantilados están representados desde la perspectiva del litoral, destacando así eficazmente la monumentalidad de este singular fenómeno natural. La imagen bellamente detallada deja apreciar el tamaño de este lugar, combinando la representación del mar, de las aves y de la humanidad. La tipografía moderna, en armonía con la gaviota en pleno vuelo, se integra hábilmente en la inscripción. La mitad superior del círculo interior de la moneda lleva la inscripción «MECKLENBURG VORPOMMERN», el año de expedición «2024», el código alemán de país emisor «D» y, en la parte superior derecha, la letra «X» como espacio reservado para la marca de ceca respectiva («A», «D», «F», «G» o «J»). Las iniciales del artista Michael Otto (de Rodenbach, Alemania) se muestran en la mitad inferior del círculo interior. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_date">"30 millones de monedasenero de 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">":El 175.º aniversario de la muerte del gran duque de Luxemburgo Guillaume II."</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":El diseño representa, en el lado izquierdo, la estatua ecuestre del gran duque Guillaume II y, en el lado derecho, la efigie del gran duque Henri mirando hacia la izquierda. Los textos «GROUSSHERZOGE VU LÉTZEBUERG» y «GUILLAUME II 1792-1849» se presentan en forma semicircular en la parte superior izquierda del dibujo o modelo. El año «2024» y la cifra «175» como indicación del aniversario aparecen debajo de la efigie del gran duque Henri. Dado que aún no se conoce la ceca productora, las marcas de ceca podrán adaptarse dentro del espacio asignado. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_2_date">":enero de 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">":100.º aniversario de la firma por parte de la gran duquesa Charlotte del Decreto granducal relativo a la emisión de la moneda fraccionaria acuñada en níquel, comúnmente denominada «Feierstéppler»"</string>
+    <string name="twoeuro_comm_2024_lu_desc">":El diseño representa en el centro la moneda luxemburguesa emitida en 1924, en la que figura un trabajador de la industria siderúrgica, que se integra en la cifra «100» como indicación del aniversario de la primera emisión de una de las monedas luxemburguesas que más tiempo se ha mantenido en circulación.  El nombre del país emisor, LÉTZEBUERG, así como el año 2024 figuran en la parte superior del dibujo o modelo. La parte inferior del dibujo o modelo se inscribe la palabra «FEIERSTÉPPLER», la denominación común y popular de esta moneda. El monograma (la letra «H» con una corona) hace referencia al gran duque Henri. Dado que aún no se conoce la ceca productora, las marcas de ceca podrán adaptarse dentro del espacio asignado. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_date">":enero de 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"250.º aniversario de la fundación de la Guardia di Finanza"</string>
+    <string name="twoeuro_comm_2024_it_desc">":En el centro del diseño figura una versión estilizada del escudo de la Guardia di Finanza: representa el concepto de seguridad y ofrece una visión futura del papel de la Guardia, que si bien celebra el pasado, está preparada para el futuro y los retos que le esperan. Este emblema incluye diferentes elementos: la montaña, el mar y el cielo, que son los entornos naturales en los que opera la Guardia; el grifo, un animal mitológico que, según la leyenda, supervisa la protección del Tesoro, representado por el cofre del Estado, y la corona torreada. En la parte superior, en forma de semicírculo, consta la inscripción «GUARDIA DI FINANZA». En la parte inferior, figura «RI», el acrónimo de la República Italiana y las fechas «1774-2024», año de creación de la Guardia di Finanza y año de emisión de la moneda, respectivamente; a la derecha, «R», marca de ceca de la Fábrica de Moneda de Roma, y «MB», iniciales de la diseñadora Marta Bonifacio. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_date">"enero de 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">":El diseño muestra en primer plano un retrato de medio cuerpo de Rita Levi-Montalcini inspirado en una fotografía de Manuela Fabbri; en el fondo, un microscopio, tomado de una medalla diseñada por Gino Levi- Montalcini, hermano de la ilustre científica, cuya base tiene forma de herradura, como amuleto de la suerte para la concesión del Premio Nobel de Medicina en 1986. En la parte superior, figura la inscripción «RITA LEVI-MONTALCINI» en forma de arco; a la izquierda, «RI», acrónimo de la República Italiana, y «R», marca de ceca de la Fábrica de la Moneda de Roma; En la parte inferior, «2024», año de emisión de la moneda; a la derecha, las iniciales de la diseñadora Silvia Petrassi, «SP». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"enero de 2024"</string>
 
     <!-- END auto generated code for language es -->
 

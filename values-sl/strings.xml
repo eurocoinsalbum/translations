@@ -232,12 +232,13 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Mynt i blister"</string>
 
-    <string name="version_history_last">"Različica 7.6.3\n
-Popravljene poškodovane varnostne kopije datotek, ko so v opombah uporabljeni posebni znaki.
+    <string name="version_history_last">"Različica 7.6.6\n
+Posodobljena različica za Android.
     "</string>
 
-    <string name="version_history_current">"Različica 7.6.2\n
-Adicionadas moedas comemorativas de 2€ 2024.
+    <string name="version_history_current">"Različica 7.7\n
+Dodani spominski kovanci za 2 € 2024.\n
+Posodobljena različica za Android.
     "</string>
 
 
@@ -2390,6 +2391,221 @@ Uporabnik se lahko za varovanje podatkov obrne na ustrezno institucijo.
     <string name="twoeuro_comm_2023_be_desc">"motiv prikazuje okrasni detajl s fasade stavbe Hotel Van Eetvelde, znamenite mestne hiše v Bruslju, ki jo je zasnoval belgijski art nouveau arhitekt Victor Horta in je bila razglašena za del Unescove svetovne dediščine. Ukrivljene, asimetrične črte tega okrasnega detajla odražajo značilni slog gibanja art nouveau, ki ga je navdihovala narava. Ta detajl zapolnjuje spodnjo polovico jedra, tako da v zgornji polovici ostane prazen prostor, ki je zapolnjen z napisom »ART NOUVEAU«. Na skrajni desni sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica, so na levi strani Hermesova palica, ki je oznaka kovnice v Utrechtu, in oznaka direktorja belgijske kovnice, astra pred erlenmajerico, nekoliko bolj v sredini pa oznaka države »BE« in letnica »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
     <string name="twoeuro_comm_2023_be_volume">"155000"</string>
     <string name="twoeuro_comm_2023_be_date">"junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_2_title">"festivali ognja ob poletnem sončnem obratu v Pirenejih"</string>
+    <string name="twoeuro_comm_2023_ad_2_desc">"festivali ognja ob poletnem sončnem obratu so bili leta 2015 umeščeni na Unescov reprezentativni seznam nesnovne kulturne dediščine človeštva. To so tradicionalna in priljubljena praznovanja, ki v Andori vsako leto pritegnejo množico ljudi. Na motivu je upodobljen človeški lik, imenovan fallaire (baklonosec), ogrnjen v tradicionalno ogrinjalo, ki z baklo, imenovano falla, riše ognjeni krog. Te bakle so glavni element praznovanja, narejene pa so z drevesnim lubjem. Ko baklonosci vihtijo prižgane bakle, po zraku zarisujejo velike ognjene kroge. Grafična kompozicija s črtami v ozadju motiva predstavlja poletni sončni obrat. Na desni strani sta ime države izdajateljice »ANDORRA« in letnica »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_2_date">"zadnje četrtletje 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_title">"30. obletnica vstopa Kneževine Andore v Organizacijo združenih narodov"</string>
+    <string name="twoeuro_comm_2023_ad_desc">"Združene narode predstavljata dva simbolna elementa: lovorovi vejici in zemeljska krogla, ki tvori del številke 30, kar je osrednji element motiva. Na dnu motiva sta napis »ANYS« (let) in letnica izdaje »2023«. V zgornjem delu motiva sta grb Andore in napis »ANDORRA MEMBRE DE LES NACIONS UNIDES« (Andora članica Združenih narodov). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_date">"zadnje četrtletje 2023"</string>
+
+    <string name="twoeuro_comm_2023_si_title">"150. obletnica rojstva matematika in astronoma Josipa Plemlja"</string>
+    <string name="twoeuro_comm_2023_si_desc">"motiv prikazuje nekatere dele enačbe, ki jo je Josip Plemelj rešil prvi na svetu. Številke in simboli, umeščeni na krožnice, ki ponazarjajo kroženje planetov in gibanje v vesolju, simbolizirajo povezanost posameznih nerešljivih elementov v celoto. Na ta način motiv zajema obe področji Plemljevega dela, matematiko in astronomijo. V motiv so vključeni še napis »JOSIP PLEMELJ 1873«, ime države izdajateljice »SLOVENIJA« in letnica izdaje »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_si_date">"december 2023"</string>
+
+    <string name="twoeuro_comm_2023_po_title">"mir"</string>
+    <string name="twoeuro_comm_2023_po_desc">"kovanec je posvečen miru med narodi ter prijateljskemu in vzajemno blagodejnemu sobivanju. Prizadevanje za mir mora izhajati iz kolektivnega napora za skupni cilj. Namen tega kovanca je v trenutnem zelo polariziranem geopolitičnem kontekstu opominjati, da moramo nujno zaščititi neprecenljivo vrednoto, mir. Motiv prikazuje iz središča jedra proti obodu ali obratno izpisano besedo »PAZ« (mir) v 16 uradnih jezikih, ki so se januarja 2023 govorili v 20 državah euroobmočja. Na vrhu je v loku ime države izdajateljice »PORTUGAL«, zgoraj desno pa letnica izdaje »2023«. Zgoraj levo sta ime oblikovalca »José S. Teixeira« in oznaka portugalske kovnice »CASA DA MOEDA«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_date">"november 2023"</string>
+
+    <string name="twoeuro_comm_2023_cy_title">"60. obletnica ustanovitve centralne banke Central Bank of Cyprus"</string>
+    <string name="twoeuro_comm_2023_cy_desc">"na kovancu so upodobljena orodja na mikročipu, kar simbolizira stabilnost gospodarstva v sodobni industrijski in digitalni dobi, ki jo zagotavlja centralna banka Central Bank of Cyprus, ki praznuje 60 let obstoja. Na dnu je ime države izdajateljice »ΚYΠΡΟΣ KIBRIS« in letnici »1963–2023«. V jedru nacionalne strani kovanca je izpisano »60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ« (60 let od ustanovitve centralne banke Central Bank of Cyprus). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+    <string name="twoeuro_comm_2023_cy_date">"drugo/tretje četrtletje 2023"</string>
+
+    <string name="twoeuro_comm_2023_fi_2_title">"socialne in zdravstvene storitve"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">"na kovancu je prikazan stiliziran zemljevid Finske. Na levi je napis »HYVINVOINTI VÄLFÄRD« (blaginja) v finščini in švedščini. Rahlo levo v jedru kovanca je letnica izdaje »2023«. Na dnu je oznaka države izdajateljice »FI«. Na desni je oznaka finske kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"jesen 2023"</string>
+
+    <string name="twoeuro_comm_2023_sk_2_title">"200. obletnica začetka hitre poštne storitve s konjsko vprego med Dunajem in Bratislavo"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"motiv simbolizira hitro poštno storitev med Dunajem in Bratislavo, ki jo prikazujeta kočija s konjsko vprego v drncu in v sredino umeščeno pravokotno polje s poštnim rogom. Pod podobo je letnica »1823«, ko je bila storitev hitre pošte vzpostavljena, pod letnico pa sta drugo nad drugim vgravirani imeni mest v slovaščini »VIEDEŇ« in »BRATISLAVA«. Na dnu jedra kovanca je letnica izdaje »2023«, ki je z vodoravno črto ločena od zgornjega besedila. Ob zgornjem robu jedra je ime države izdajateljice »SLOVENSKO«. Desno od kočije je oznaka kremniške kovnice (Mincovňa Kremnica), ki jo tvorita črki »ML« med dvema matricama. Tik pod oznako kovnice sta začetnici oblikovalke nacionalne strani kovanca Márie Poldaufove, »MP« Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_2_title">"75. obletnica nacionalne volilne pravice za ženske v Belgiji"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">"v sredini motiva je upodobljena volilna skrinjica z glasovnico, ki se izpolnjuje s svinčnikom. Izpolnjeno polje se prekriva s simbolom Venere (simbol za ženske oz. ženski spol). Levo spodaj je v robu jedra napis v flamščini in francoščini »75 JAAR ANS«, v preostalem delu roba jedra pa osrednjo podobo obdajata napisa, prav tako v obeh jezikih: »ALGEMEEN VROUWENKIESRECHT« – »SUFFRAGE UNIVERSEL FÉMININ«. Ob dnu osrednje podobe sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica v Utrehtu, je v desnem delu motiva Hermesova palica, ob njej pa so oznaka belgijskega kovničarja, astra pred erlenmajerico, oznaka države izdajateljice »BE« in letnica kovanja »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+    <string name="twoeuro_comm_2023_be_2_date">"oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"500. obletnica smrti Luce Signorellija"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">"v jedru kovanca je upodobljen angel, ki je detajl s slike Izbrani v raju Luce Signorellija iz kapele svetega Britija v stolnici v Orvietu. Na levi je črka R, ki označuje rimsko kovnico. V polkrogu spodaj levo je priimek »SIGNORELLI«. Na desni strani je ime države izdajateljice »SAN MARINO«, na vrhu pa letnici »1523 2023«. Spodaj na sredini so začetnice avtorice Marte Bonifacio, MB. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"september 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_title">"500. obletnica Peruginove smrti"</string>
+    <string name="twoeuro_comm_2023_sm_desc">"motiv v središču prikazuje Marijo z Jezuščkom, ki je detajl Peruginove slike »Marija na prestolu z otrokom med sv. Janezom Krstnikom in Boštjanom«. Sliko hranijo v galeriji Uffizi v Firencah. Na levi strani so napis »PERUGINO«, letnici »1523« in »2023« ter oznaka kovnice »R«. Na desni strani je ime države izdajateljice »SAN MARINO«, spodaj desno pa sta začetnici avtorice Marie Angele Cassol, »MAC«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_date">"april 2023"</string>
+
+    <string name="twoeuro_comm_2023_ir_title">"50. obletnica članstva Irske v Evropski uniji"</string>
+    <string name="twoeuro_comm_2023_ir_desc">"na kovancu je prikazan prilagojen logotip programa »EU50«, s katerim ministrstva in vladne službe promovirajo dogodke ob 50. obletnici članstva Irske v EU. Nad logotipom je ime države izdajateljice »ÉIRE«. Letnica »1973« se nanaša na leto pridružitve Irske k EU, letnica »2023« pa označuje leto izdaje kovancev. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+    <string name="twoeuro_comm_2023_ir_date">"julij 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100. obletnica rojstva Marie Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">"na kovancu je upodobljena legendarna grška sopranistka Maria Callas. Ob robu jedra piše: »100 XPONIA ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΗΣ ΜΑΡΙΑ ΚΑΛΛΑΣ« (sto let od rojstva Marie Callas), na desni pa sta letnica izdaje »2023« in palmeta, oznaka grške kovnice. Pod portretom je napis »ΕΛΛΗΝΙKH ΔΗΜΟΚΡΑΤIΑ« (Helenska republika). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_date">"julij 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150. obletnica rojstva Konstantina Karatéodorija"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"motiv prikazuje portret grškega matematika Konstantina Karatéodorija. Ob robu jedra na levi strani je napis »ΚΩΝΣΤΑΝΤΊΝΟΣ ΚΑΡΑΘΕΟΔΩΡΉ 1873–1950«, na desni strani sta letnica izdelave kovanca »2023« in palmeta (oznaka grške kovnice), pod portretom pa je napis »ΕΛΛΗΝΙΚΉ ΔΗΜΟΚΡΑΤΊΑ« (Helenska republika). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"julij 2023"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"estonska nacionalna ptica – kmečka lastovka"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"na kovancu je upodobljena silhueta kmečke lastovke, v polkrogu desno zgoraj pa piše »HIRUNDO RUSTICA« (latinsko ime za kmečko lastovko). Spodaj je ime države izdajateljice »EESTI«, pod njim pa letnica izdaje »2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"drugo četrtletje 2023"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"svetovno prvenstvo v ragbiju v Franciji 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"ob svetovnem prvenstvu v ragbiju, ki bo organizirano v Franciji, želi kovnica Monnaie de Paris obeležiti ragbi in to tekmovanje, na katerem se bodo zbrale ekipe iz dvajsetih držav. Motiv predstavlja stiliziranega igralca ragbija pri podaji. Ragbi polje v ozadju predstavlja svet, na katerem so nameščene vratnice. Motiv je del namišljene ragbi galaksije, kjer so drugi planeti ovalne oblike. Poleg igralca je simbol tekmovanja, motiv pa je obkrožen z naslovom tekmovanja. Oznaka države izdajateljice »RF«, oznaka kovnice in oznaka kovničarja so pod motivom na desni strani. Naslov tekmovanja, država izdajateljica »FRANCE« in letnica »2023« so na levi strani. Za naslov tekmovanja okoli motiva in oznako »RF« je uporabljena uradna pisava dogodka, ki se imenuje Mobius. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"prihod Francozov na Malto leta 1798"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">"junija 1798 je Napoleon Bonaparte odpravil vlado reda svetega Janeza na Malti. Med svojim kratkim bivanjem na Malti je Napoleon ustanovil republikansko vlado ter uvedel temeljito reformo malteške zakonodaje in institucij. Med drugim so bili odpravljeni suženjstvo in plemiški privilegiji. Ustanovljena je bila laična država, inkvizicijsko sodišče pa je prenehalo delovati. Maltežani tistega časa daljnosežnih reform na splošno niso sprejeli odprtih rok in so se jim kmalu uprli. Motiv prikazuje poosebitev Francoske republike, kot je prikazana v glavah uradnih pisem iz tega obdobja. Na levi strani je napis »225th ANNIVERSARY« (250. obletnica), ki mu v polkrogu od zgoraj proti desni strani sledi napis »ARRIVAL OF THE FRENCH IN MALTA« (prihod Francozov na Malto). Spodaj je letnica izdaje »2023«. Napisa »Liberté« (svoboda) in »Egalité« (enakost) sta na levi oziroma desni strani podobe. Zgoraj levo od napisa »Egalité« sta letnici »1798–2023«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"550. obletnica rojstva Nikolaja Kopernika"</string>
+    <string name="twoeuro_comm_2023_mt_desc">"motiv prikazuje Kopernikov profilni portret skupaj s stilizirano heliocentrično upodobitvijo vesolja, kakršno je predlagal Kopernik. Zgoraj levo je napis »NICOLAUS COPERNICUS 1473–1543«, spodaj levo pa ime države izdajateljice »MALTA«, ki mu sledi leto izdaje »2023«. Na dnu je tudi podpis umetnice Daniele Fusco »FUSCO«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+    <string name="twoeuro_comm_2023_mt_date">"junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"100. obletnica rojstva princa Rainierja III."</string>
+    <string name="twoeuro_comm_2023_mc_desc">"motiv prikazuje portret princa Rainierja III. Na vrhu sta v polkrogu ime države izdajateljice »MONACO« in letnica izdaje »2023«. Na dnu je napis »RAINIER III«, temu pa sledi datum »31 MAI 1923«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+    <string name="twoeuro_comm_2023_mc_date">"junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"špansko predsedstvo Sveta EU"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">"motiv vsebuje dve podobi. Prva podoba je logotip španskega predsedstva Sveta EU, ki ga obkrožata napisa: »ESPANA 2023 – PRESIDENCIA ESPANOLA« (Španija 2023 – špansko predsedstvo) in »CONSEJO DE LA UNION EUROPEA« (Svet Evropske unije). Druga podoba v spodnjem delu je črka »M« s krono na vrhu, ki predstavlja oznako kovnice Fabrica Nacional de Moneda y Timbre Real Casa de la Moneda. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2023_es_2_date">"1. junij 2023"</string>
+
+    <string name="twoeuro_comm_2023_lv_title">"ukrajinska sončnica"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"motiv upodablja sončnico, ki je eden od nacionalnih simbolov Ukrajine, saj je ta država ena od največjih proizvajalk in izvoznic sončničnega olja po vsem svetu. Od začetka vojne v Ukrajini je sončnica postala svetovni simbol miru. Prvič so bile sončnice kot simbol miru uporabljene poleti 1996. Zatem so bile posejane v vojaški bazi blizu Pervomajska približno 250 km južno od glavnega mesta Kijev. Zdaj se sončnice po vsem svetu uporabljajo kot simbol miru in podpore Ukrajini. Na vrhu jedra je v polkrogu napis »SLAVA UKRAINAI!« (Slava Ukrajini!), na dnu pa, tudi v polkrogu, ime države izdajateljice »LATVIJA« in letnica izdaje »2023«. Oblikovalec motiva je latvijski umetnik Krišs Salmanis. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"maj 2023"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"udeležba Portugalske na 33. olimpijskih igrah"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"Opis:motiv prikazuje sklop elementov, razporejenih v obliki srca, ki simbolizira kolektivni objem. Okrog srca je 15 krogov, ki simbolizirajo olimpijske obroče in celine, ki jih predstavljajo, na dnu srca pa je portugalski nacionalni grb. V središču »objema« je znak portugalskega olimpijskega komiteja, ki ponazarja, da bodo srca Portugalcev bila kot eno za portugalsko olimpijsko ekipo na olimpijskih igrah v Parizu 2024. Pod srcem je napis »Equipa Olímpica Portugal« (portugalska olimpijska ekipa) in leto »2024«. Na levi strani je ime kovnice »Casa da Moeda«, na desni pa ime oblikovalca. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"Datum izdaje:julij 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"50. obletnica 25. aprila 1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"Opis:25. april 1974 je datum revolucije, ki je zaznamovala prehod v demokracijo na Portugalskem ter začetek korenitih gospodarskih, družbenih in kulturnih sprememb, ki so privedle do evropeizacije države. V središču motiva je nagelj, ki simbolizira revolucijo, obkroža pa ga več ekscentričnih krogov, ki ponazarjajo, da se dejanja in prepričanja ljudi z leti lahko spremenijo, v svoji osnovi pa ostanejo zvesta načelom revolucije. Na desni strani je verz »Esta é a madrugada que eu esperava« [To je zora, ki sem jo čakala] in ime pesnice »Sophia de Mello Breyner Andresen«. Na levi strani sta ob nacionalnem grbu napisa »Portugal« in »25.04.1974_2024«, ki jima sledita ime oblikovalca in oznaka kovnice »Casa da Moeda«, ime portugalske kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_po_volume">"515000"</string>
+    <string name="twoeuro_comm_2024_po_date">"Datum izdaje:april 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_title">"volitve in demokracija"</string>
+    <string name="twoeuro_comm_2024_fi_desc">"Opis:motiv prikazuje stilizirane glasovnice v obliki krogov in pravokotnikov. Tema je abstraktna, a kljub temu prepoznavna. Glasovnic je osem, ki se delno prekrivajo in ustvarjajo manjše geometrijske oblike na presečiščih. Na dnu je izpisana letnica »2024«. Na desni strani nekoliko nad sredinsko osjo je oznaka »FI«. Na desni strani ob kolobarju kovanca je polkrožno izpisano besedilo »VAALIT ♦ DEMOKRATIA«. Na levi strani kovanca je polkrožno izpisano besedilo »VAL ♦ DEMOKRATI«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_date">"Datum izdaje:pomlad 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_2_title">"boj proti raku v Belgiji"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"Opis:v središču motiva je pentlja, ki je univerzalni simbol sodelovanja v boju proti raku. Trak na obeh straneh pentlje se vijugasto nadaljuje, kar simbolizira gibanje srčnega utripa na monitorju kot izraz življenja in vitalnosti. Na vrhu so tri črte, ki spominjajo na mavrico (kot simbol upanja in tolažbe). V spodnjo črto sta vstavljeni oznaka države »BE« in letnica »2024«. V spodnjem delu kovanca sta napisa v francoščini in nizozemščini: »Lutte contre le cancer« – »Strijd tegen kanker« (boj proti raku). Na levi strani nad napisoma sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica, je na dnu kovanca Hermesova palica, ki je oznaka kovnice v Utrechtu, ob njej pa oznaka direktorja belgijske kovnice, nebina pred erlenmajerico. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"Datum izdaje:maj 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_title">"belgijsko predsedovanje Svetu EU"</string>
+    <string name="twoeuro_comm_2024_be_desc">"Opis:motiv prikazuje jato ptic (lastovk), ki je simbol delovanja EU, saj se premikajo kot skupina, hkrati pa ima vsaka članica prostor, da manevrira po svoje, s čimer oblikujejo en sam kompleksen in dinamičen subjekt. Skupina torej v prvi vrsti predstavlja povezanost. Med letom lastovk je vedno ena, ki prevzame vodenje in usmerja skupino, kar bo v prvi polovici leta 2024 Belgija. 27 ptic simbolizira tudi skupno število držav članic EU. Oznaka države »BE« je umeščena med ptice na zgornji desni strani motiva. Pod ptičjo jato je prazen prostor na spodnji polovici zapolnjen z opisom »BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024« (belgijsko predsedovanje Svetu EU 2024). Na skrajni levi strani sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica, je skrajno levo tudi Hermesova palica, ki je oznaka kovnice v Utrechtu, nad njo pa je oznaka direktorja belgijske kovnice, nebina pred erlenmajerico. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+    <string name="twoeuro_comm_2024_be_date">"Datum izdaje:prvo četrtletje 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (varaždinski Stari grad)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"Opis:motiv prikazuje varaždinsko trdnjavo Stari grad (12.–16. stoletje). Varaždin je prvič omenjen leta 1181. Po vdoru Mongolov leta 1242, ko je mesto utrpelo ogromno izgub, so zgradili kraljevo trdnjavo, ki je pozneje postala znana kot Stari grad. Njena podoba se je skozi stoletja spreminjala: od mogočne srednjeveške trdnjave z obrambnim jarkom, napolnjenim z vodo, glavne trdnjave in orožarne Slavonske krajine ter sedeža varaždinskega vojaškega okrožja do čudovitega renesančnega dvorca. Stari grad je najznamenitejša zgodovinska stavba v Varaždinu in spomenik hrvaške arhitekturne dediščine najvišje kategorije. Na kovancu so tudi napis države izdajateljice »HRVATSKA«, letnica izdaje »2024« in besede »STARI GRAD VARAŽDIN«, ki so izpisane v loku na vrhu in na dnu motiva. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_date">"Datum izdaje:junij 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"50. obletnica deklaracije državljanskih pravic in temeljnih načel San Marina"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"Opis:v središču je odprta knjiga z napisom »I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI« (človekove pravice so nedotakljive), ki je vzeta iz 5. člena Zakona št. 59 z dne 8. julija 1974 (»Deklaracija državljanskih pravic in temeljnih načel pravnega reda San Marina«). Na vrhu so obrisi kipa svobode in stavbe Palazzo Pubblico ter ime države izdajateljice »SAN MARINO«. Na levi je črka »R«, ki označuje rimsko kovnico. Na dnu motiva je leto izdaje »2024« in začetnici graverja Emanuela Ferrettija (»E.F. INC.«). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_date">"Datum izdaje:april 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_title">"50. obletnica ponovne vzpostavitve demokracije v Grčiji"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"Opis:na sredini je stavba grškega parlamenta, ki jo obdaja besedilo »50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ« (50. obletnica ponovne vzpostavitve demokracije v Grčiji) in »ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ« (Helenska republika). Spodaj je palmeta (oznaka grške kovnice). Padec polkovniške hunte 24. julija 1974 je po sedemletni diktaturi v Grčiji zaznamoval ponovno vzpostavitev demokracije. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_date">"Datum izdaje:julij 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_2_title">"150. obletnica rojstva Penelope Delta"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"Opis:na sredini je portret Penelope Delta. Ob robu sta napisa »ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874–1941« (Penelope Delta 1874–1941) in »ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ« (Helenska republika). Na levi strani je palmeta (oznaka grške kovnice), na desni pa letnica izdelave kovanca. Penelope Delta je bila pionirka otroške književnosti v Grčiji. Z njenimi knjigami, ki so še vedno priljubljene, so odraščale generacije grških otrok. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"Datum izdaje:julij 2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"modri glavinec – nacionalni simbol Estonije"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"Opis:motiv prikazuje obris modrega glavinca, zgoraj levo je v loku napis »CENTAUREA CYANUS« (modri glavinec v latinščini). Spodaj je ime države izdajateljice »EESTI«, pod njim pa letnica izdaje »2024«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_ee_date">"Datum izdaje:drugo četrtletje 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_2_title">"Eifflov stolp"</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"Opis:V pričakovanju olimpijskih iger v Parizu 2024 francoska kovnica Monnaie de Paris obeležuje pot do iger skozi Pariz in dediščino mesta. Francoska prestolnica sto let po igrah leta 1924 ponovno gosti poletne igre. Gre za dogodek, katerega mednarodni odmev se v zadnjih letih vztrajno povečuje in ki je leta 2024 obeležen z izdajo dveh spominskih kovancev za 2 €, posvečenih olimpijskim igram. Motiv predstavlja Francijo skozi dve njeni znameniti stavbi: Eifflov stolp in baziliko Notre-Dame de la Garde v Marseillu. V ozadju cvet gardenije predstavlja otok Tahiti, kjer bodo potekala tekmovanja v deskanju na valovih. Premikajoč Eifflov stolp prenaša vrednote športa. Njegovi roki sta sestavljeni iz 73 zakovic, ki predstavljajo gostiteljske skupnosti iger. Prvič sta simbola olimpijskih in paraolimpijskih iger prikazana drug ob drugem v znak skupnega praznovanja iger. Na atletski stezi so navedeni leto, oznaka države izdajateljice »RF« in oznaka kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"Datum izdaje:maj 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"olimpijske igre 2024 – rokoborba"</string>
+    <string name="twoeuro_comm_2024_fr_desc">"Opis:v pričakovanju olimpijskih iger v Parizu 2024 francoska kovnica Monnaie de Paris obeležuje pot do iger skozi Pariz in dediščino mesta. Francoska prestolnica sto let po igrah leta 1924 ponovno gosti poletne igre. Gre za dogodek, katerega mednarodni odmev se v zadnjih letih vztrajno povečuje in ki je leta 2024 obeležen z izdajo dveh spominskih kovancev za 2 €, posvečenih olimpijskim igram. Motiv ponazarja Herkula, ki je pogosta ikona v francoski numizmatiki, sredi antične rokoborbe z notredamsko himero, kar se navezuje na olimpijske igre v antičnem obdobju. Rokoborca sta upodobljena v ospredju pred katedralo Notre Dame. V ozadju je na levi atletska steza, v katero so vstavljeni logotip pariških olimpijskih iger leta 2024, letnica, oznaka države izdajateljice »RF« in oznaka kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+    <string name="twoeuro_comm_2024_fr_date">"Datum izdaje:januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_title">"malteška medonosna čebela"</string>
+    <string name="twoeuro_comm_2024_mt_desc">"Opis:motiv je zasnovala Maria Anna Frisone in prikazuje malteško medonosno čebelo (Apis mellifera ruttneri), ki je ena od endemičnih rastlinskih in živalskih vrst na malteških otokih. Motiv prikazuje čebelo, ozadje pa zapolnjujeta cvet in satje. Kovanec je namenjen ozaveščanju o eni od malteških endemičnih vrst ter prikazuje delo čebele kot opraševalke in proizvajalke meda. Na levi strani je ime države izdajateljice »MALTA«, na desni strani pa letnica izdaje »2024«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+    <string name="twoeuro_comm_2024_mt_date">"Datum izdaje:junij 2024"</string>
+
+    <string name="twoeuro_comm_2024_mc_title">"500 let od podpisa sporazuma s Karlom V."</string>
+    <string name="twoeuro_comm_2024_mc_desc">"Opis:motiv prikazuje podobo Karla V. Zgoraj je v loku izpisano ime države izdajateljice »MONACO«. Na dnu je napis »1524 - TRAITE AVEC CHARLES QUINT - 2024« (Sporazum s Karlom V.). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2024_mc_date">"Datum izdaje:junij 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"200 let od ustanovitve državne policije kot državne varnostne enote"</string>
+    <string name="twoeuro_comm_2024_es_desc">"Opis:motiv prikazuje emblem državne policije. Obkroža ga napis »ESPANA – POLICIA NACIONAL 1824–2024«. V spodnjem desnem delu emblema je oznaka kovnice »Eme Coronada«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_date">"prvo četrtletje 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"priznanje Seville (Archivo de Indias, Real Alcazar de Sevilla y Catedral de Sevilla) kot območja Unescove svetovne dediščine"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"Opis:motiv prikazuje pogled na dvorišče »Patio de las Doncellas« kraljeve palače Alcazar v Sevilli. Na vrhu je v loku in z velikimi tiskanimi črkami napis »SEVILLA«, spodaj je oznaka kovnice »Eme Coronada«. Na dnu je v loku in z velikimi tiskanimi črkami napis »ESPANA« in leto izdaje »2024«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"Datum izdaje:prvo četrtletje 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"150. obletnica rojstva Guglielma Marconija"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"Opis:v središču motiva je portret Marconija, na desni je portret papeža Pija XI., na levi pa njegov naslednik Pij XII. Zgoraj desno je v polkrogu napis »GUGLIELMO MARCONI«, pod njim pa letnici »1874« in »2024«. Na dnu je napis »CITTÀ DEL VATICANO« (Vatikanska mestna država), ki mu sledi ime umetnice »L. PANCOTTO« (Loredana Pancotto). Na levi je oznaka kovnice »R«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"Datum izdaje:maj 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"175. obletnica frankfurtske ustave (znane tudi kot ustava cerkve svetega Pavla, ki je bila prvi poskus oblikovanja enotne nemške nacionalne države)"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"Opis:oblikovno zasnovo sestavlja več tematskih ravni. V ospredju je v perspektivi upodobljena cerkev svetega Pavla, v katero se zgrinjajo predstavniki nacionalne ustavne skupščine. Ta podoba prekriva ustavni dokument in pero, ki predstavljata izid zasedanja frankfurtskega parlamenta. Motiv kronajo tri alegorije v podobi žensk – enotnost, pravičnost in svoboda – ter tribarvna zastava črne, rdeče in zlate barve. Živahen tridimenzionalen relief opozarja na brezčasnost temeljnih demokratičnih načel, ki so bila prvič in na temeljni način zapisana v frankfurtski ustavi. V jedru kovanca so tudi napis »PAULSKIRCHENVERFASSUNG 1849« (ustava cerkve svetega Pavla iz leta 1849), na dnu pa leto izdaje »2024«, oznaka Nemčije kot države izdajateljice »D«, oznaka zadevne kovnice (»A«, »D«, »F«, »G« ali »J«) in začetnice umetnika Boda Broschata iz Berlina. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"Datum izdaje:marec 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Predpomorjanska"</string>
+    <string name="twoeuro_comm_2024_de_desc">"Opis:kovanec je posvečen nemški zvezni deželi Mecklenburg-Predpomorjanska. To je druga izdaja v drugi seriji nemških spominskih kovancev za 2 €, na katerih so upodobljene nemške zvezne dežele. Vsako leto se izda kovanec kot poklon eni od 16 zveznih dežel s prikazom pomembne stavbe ali znamenitosti. Vrstni red zveznih dežel temelji na krožnem predsedovanju nemškemu zveznemu svetu, ki je eden od petih stalnih ustavnih organov Zvezne republike Nemčije in zastopa interese zveznih dežel. Motiv prikazuje Königsstuhl, znamenite pečine in bukov gozd v narodnem parku Jasmund na otoku Rügen. Pečine so upodobljene z obale, s čimer je posebno učinkovito poudarjena monumentalnost te edinstvene naravne znamenitosti. Čudovito podrobna podoba ima učinek globine, saj skupaj upodablja morje, ptice in ljudi. V relief je spretno vključena sodobna tipografija, usklajena z galebom v letu. V zgornji polovici jedra kovanca so napis »MECKLENBURG VORPOMMERN«, leto izdaje »2024« in oznaka Nemčije kot države izdajateljice »D« ter na zgornji desni strani črka »X« kot prostor za oznako zadevne kovnice (»A«, »D«, »F«, »G« ali »J«). V spodnji polovici jedra kovanca sta prikazani začetnici umetnika Michaela Otta (iz Rodenbacha, Nemčija). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_date">"Datum izdaje:januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">":175. obletnica smrti velikega vojvode Viljema II."</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":motiv na levi strani prikazuje kip velikega vojvode Viljema II. na konju, na desni strani pa portret velikega vojvode Henrija, ki gleda v levo. Napisa »GROUSSHERZOGE VU LÉTZEBUERG« in »GUILLAUME II 1792–1849« sta prikazana v loku v zgornjem levem kotu kovanca. Leto »2024« in številka »175« kot navedba obletnice sta pod portretom velikega vojvode Henrija. Ker proizvodna kovnica še ni znana, se lahko oznake kovnice prilagodijo znotraj praznega mesta. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_2_date">":januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">":100. obletnica podpisa odloka Velikega vojvodstva o izdaji kovancev iz niklja, splošno znanih kot »Feierstéppler«, s strani velike vojvodinje Charlotte"</string>
+    <string name="twoeuro_comm_2024_lu_desc">":v središču je prikaz luksemburškega kovanca, izdanega leta 1924, z motivom delavca v jeklarski industriji, pri čemer je ta prikazan kot del številke »100« v znak obletnice prve izdaje kovanca v luksemburških frankih z enim najdaljših obtokov. Na vrhu sta ime države izdajateljice »LÉTZEBUERG« in leto »2024«. Na dnu je beseda »FEIERSTÉPPLER«, ki je pogosto in priljubljeno poimenovanje tega kovanca. Monogram (črka »H« s krono) predstavlja velikega vojvodo Henrija. Ker proizvodna kovnica še ni znana, se lahko oznake kovnice prilagodijo znotraj praznega mesta. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_date">":januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"250. obletnica ustanovitve Vojaškega rodu finančne straže"</string>
+    <string name="twoeuro_comm_2024_it_desc">"Opis:v jedru kovanca je upodobljena stilizirana različica heraldičnega grba Vojaškega rodu finančne straže s preinterpretacijo pojma varnosti, ki razgrinja pogled na bodočo vlogo rodu, slavi njegovo preteklost ter se navezuje na izzive, ki jih bo v prihodnje še vedno sprejemal. Znamenje spaja več sestavin: goro, morje in nebo, okolja namreč, v katerih rod deluje, grifona, bajeslovno žival, ki naj bi po izročilu bdela nad državnim premoženjem, tu upodobljenim v obliki skrinje z javnim zakladom, ter krono v obliki venca obzidja s stražnimi stolpi. Zgoraj je v loku napis »GUARDIA DI FINANZA« (Finančna straža). Na skrinji je akronim »RI« uradnega imena Italijanske republike (Repubblica Italiana). Na dnu sta letnici »1774 2024«, prva pomeni leto nastanka Vojaškega rodu finančne straže, druga pa leto izdaje kovanca. Desno je črka »R«, oznaka rimske kovnice, ter začetnici imena avtorice Marte Bonifacio »MB«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_date">"Datum izdaje:januar 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">"Opis:motiv v ospredju prikazuje doprsni portret Rite Levi-Montalcini, ki temelji na fotografiji Manuele Fabbri. V ozadju je mikroskop, povzet po medalji, ki jo je oblikoval brat priznane znanstvenice Gino Levi-Montalcini, in katerega stojalo je v obliki podkve kot talisman, ki naj bi znanstvenici prinesel srečo na podelitvi Nobelove nagrade za medicino leta 1986. Zgoraj je napis v loku »RITA LEVI-MONTALCINI«, levo »RI«, kratica Italijanske republike, in »R«, oznaka rimske kovnice. Spodaj je »2024«, leto izdaje kovanca, na desni pa sta začetnici oblikovalke Silvie Petrassi »SP«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"Datum izdaje:januar 2024"</string>
 
     <!-- END auto generated code for language sl -->
 

@@ -416,12 +416,13 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 7.6.3\n
-Se corrigieron archivos de respaldo corruptos cuando se usan caracteres especiales en las notas.
+	<string name="version_history_last">"Version 7.6.6\n
+Android-versionen uppdaterad.
 	"</string>
 
-	<string name="version_history_last">"Version 7.6.2\n
-Lade till 2€ jubileumsmynt 2024.
+	<string name="version_history_current">"Version 7.7\n
+2€ minnesmynt 2024 tillagda.\n
+Android-versionen uppdaterad.
 	"</string>
 
 
@@ -2582,6 +2583,221 @@ Användaren kan kontakta motsvarande institution för datasekretess.
 	<string name="twoeuro_comm_2023_be_desc">"Åtsidan upptas av en detalj från den dekorativt utsmyckade fasaden på Hôtel van Eetvelde, en ikonisk byggnad i Bryssel som finns upptagen på Unescos världsarv och som är ritad av den belgiske art nouveau-arkitekten Victor Horta. Fasaddetaljens böjda och asymmetriska linjer avspeglar art nouveau-rörelsens karaktäristiska naturinspirerade stil. Den upptar den nedre halvan av myntet medan inskriften ”ART NOUVEAU” återfinns på den övre halvan. Längst till höger ses formgivaren Iris Bruijns initialer. Eftersom mynten präglas av kgl. nederländska myntverket finns myntortsmärket för Utrecht, en merkuriistav, längst till vänster jämte det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster samt landskoden ”BE” och årtalet ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2023_be_volume">"155000"</string>
 	<string name="twoeuro_comm_2023_be_date">"Juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_ad_2_title">"Eldfesterna vid sommarsolståndet i Pyrenéerna"</string>
+	<string name="twoeuro_comm_2023_ad_2_desc">"Eldfesterna vid sommarsolståndet togs upp i Unescos representativa förteckning över mänsklighetens immateriella kulturarv 2015. Det rör sig om återkommande traditionella folkfester som firas varje år i Andorra. Åtsidan visar en mänsklig gestalt, traditionellt kallad ”fallaire”, som iförd sin typiska kappa jagar en eldcirkel med sin ”falla”. Den är festligheternas viktigaste inslag och består av bark som fås att brinna och sedan energiskt sveps runt i luften så att mäktiga ringar av eld uppstår. Den grafiska kompositionen av strålar i mittfältets bakgrund representerar sommarsolståndet och visas tillsammans med det utgivande landets namn ”ANDORRA” och årtalet ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+	<string name="twoeuro_comm_2023_ad_2_date">"Fjärde kvartalet 2023"</string>
+
+	<string name="twoeuro_comm_2023_ad_title">"Trettioårsdagen av furstendömet Andorras inträde i Förenta nationerna"</string>
+	<string name="twoeuro_comm_2023_ad_desc">"Förenta nationerna representeras av två symboler: Två lagerkransar och en jordglob, som utgör en del av siffran 30 i det tudelade mittfältet, med inskriften ANYS (år) och årtalet 2023 nedtill. Upptill i det tudelade fältet visas till vänster Andorras statsvapen och till höger inskriften ”ANDORRA MEMBRE DE LES NACIONS UNIDES” (Andorra medlem av Förenta nationerna). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+	<string name="twoeuro_comm_2023_ad_date">"Fjärde kvartalet 2023"</string>
+
+	<string name="twoeuro_comm_2023_si_title">"Hundrafemtioårsdagen av matematikern och astronomen Josip Plemeljs födelse"</string>
+	<string name="twoeuro_comm_2023_si_desc">"Åtsidan upptas av den ekvation som Josip Plemelj var först i världen med att lösa. Siffror och symboler rör sig i cirklar som föreställer planeternas omloppsbanor, rörelse i rymden och sammanförandet av enskilt olösbara element. Åtsidan visar Josip Plemeljs båda arbetsfält, matematiken och astronomin. Åtsidan upptas av inskriften ”JOSIP PLEMELJ 1873”, det utgivandet landets namn ”SLOVENIJA” och präglingsåret ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+	<string name="twoeuro_comm_2023_si_date">"December 2023"</string>
+
+	<string name="twoeuro_comm_2023_po_title">"Fred"</string>
+	<string name="twoeuro_comm_2023_po_desc">"Myntet är tillägnat freden mellan världens länder och fredlig samexistens till ömsesidig nytta och glädje. Arbetet för fred måste bygga på en kollektiv ansträngning mot ett gemensamt mål. Detta mynt är avsett att vara en påminnelse om vikten av att bevara freden, vår mest värdefulla tillgång i samtid präglad av stark geopolitiskt polarisering. Åtsidan upptas i strålform av ordet ”PAZ” (FRED) på de 16 officiella språk som talades i de 20 länderna i euroområdet i januari 2023. Omskriften högst upp lyder ”PORTUGAL”, följt av präglingsåret ”2023” högst upp till höger. Högst upp till vänster visas formgivarens namn ”José S. Teixeira” till vänster myntmärket ”CASA DA MOEDA”, det portugisiska myntverkets namn. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+	<string name="twoeuro_comm_2023_po_date">"November 2023"</string>
+
+	<string name="twoeuro_comm_2023_cy_title">"60-årsjubileet av grundandet av Cyperns centralbank"</string>
+	<string name="twoeuro_comm_2023_cy_desc">"Åtsidan visar en bild av verktyg liggande på ett mikrochip, en symbol för den ekonomiska stabilitet i en modern, industriell och digital tidsålder, som säkras av Cyperns centralbank, vars tillkomst för 60 år sedan nu firas. Nedtill anges namnet på det utgivande landet, ”ΚYΠΡΟΣ KIBRIS” samt därunder årtalen ”1963–2023”. Omskriften ovan lyder: ”60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ” (60 år sedan grundandet av Cyperns centralbank). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+	<string name="twoeuro_comm_2023_cy_date">"Andra/tredje kvartalet 2023"</string>
+
+	<string name="twoeuro_comm_2023_fi_2_title">"Sociala tjänster och hälso- och sjukvård"</string>
+	<string name="twoeuro_comm_2023_fi_2_desc">"Åtsidan visar en stiliserad karta över Finland. Till vänster finns texten ”HYVINVOINTI VÄLFÄRD” på finska och svenska. Utgivningsåret ”2023” ligger något till vänster i mitten av myntet. Nedtill anges det utgivande landet ”FI”. Till höger finns myntortsmärket för Finlands myntverk. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+	<string name="twoeuro_comm_2023_fi_2_date">"Hösten 2023"</string>
+
+	<string name="twoeuro_comm_2023_sk_2_title">"Tvåhundraårsjubileet av den första hästdragna snällpostdiligensen mellan Wien och Bratislava"</string>
+	<string name="twoeuro_comm_2023_sk_2_desc">"Åtsidans symboliska återgivning av snällposttjänsten mellan Wien och Bratislava med en hästdragen diligens i snabb rörelse och en centralt placerad rektangulär infällning med ett posthorn. Under bilden anges årtalet ”1823”, det år då snällposttjänsten togs i bruk, och under detta visas på slovakiska stadsnamnen ”VIEDEŇ” och ”BRATISLAVA”, det ena placerat ovanför det andra. Nedtill i myntets inre fält anges präglingsåret ”2023”, åtskilt från ovanstående text med en vågrät linje. Namnet på det utgivande landet ”SLOVENSKO” visas längs formgivningens övre kant. Till höger om vagnen finns myntmärket för myntverket i Kremnica (Mincovňa Kremnica), bestående av bokstäverna ”MK” placerade mellan två myntstampar. Strax under märket visas de stiliserade initialerna ”MP”, som står för den nationella sidans formgivare Mária Poldaufovás namn. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+	<string name="twoeuro_comm_2023_sk_2_date">"Oktober 2023"</string>
+
+	<string name="twoeuro_comm_2023_be_2_title">"Sjuttiofemårsdagen för den kvinnliga rösträtten i Belgien"</string>
+	<string name="twoeuro_comm_2023_be_2_desc">"Åtsidans mittfält upptas av en ruta på en röstsedel som fylls i av en penna. Rutan täcks av Venussymbolen (den kvinnliga genussymbolen). Längst ned till vänster intill det centrala motivet visas på nederländska och franska inskriften 75 JAAR ANS ”ALGEMEEN VROUWENKIESRECHT” – ”SUFFRAGE UNIVERSEL FÉMININ”. Nedtill visas formgivaren Iris Bruijns initialer. Eftersom Kungliga nederländska myntverket kommer att prägla mynten, visas en merkuriestav till höger på åtsidan bredvid den belgiska myntmästarens märke, Erlenmeyerkolven bakom en aster, landskoden ”BE” och präglingsåret ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+	<string name="twoeuro_comm_2023_be_2_date">"Oktober 2023"</string>
+
+	<string name="twoeuro_comm_2023_sm_2_title">"500-årsminnet av konstnären Luca Signorellis död"</string>
+	<string name="twoeuro_comm_2023_sm_2_desc">"Åtsidans mittersta del upptas av en svävande ängel, ett utsnitt ur Luca Signorellis fesk ”Il Paradiso” i San Brizio-kapellet i katedralen i Orvieto. Till vänster ovanför ängelns händer återfinns bokstaven R, som avser myntverket i Rom. På den nedre delen till vänster finns omskriften ”SIGNORELLI”, och till höger namnet på det utgivande landet ”SAN MARINO”. Högst upp anges årtalen ”1523–2023”. Längst ned syns formgivaren Marta Bonifacios initialer, MB. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+	<string name="twoeuro_comm_2023_sm_2_date">"September 2023"</string>
+
+	<string name="twoeuro_comm_2023_sm_title">"500-årsminnet av konstnären Peruginos död"</string>
+	<string name="twoeuro_comm_2023_sm_desc">"Åtsidan upptas av en bild på jungfru Maria och Jesusbarnet, ett utsnitt ur Peruginos målning ”Madonna med barnet mellan den helige Sebastian och Johannes döparen”, som hänger i Uffizierna i Florens. Till vänster i omskrift ”PERUGINO”, vidare årtalen ”1523” och ”2023” samt myntortsmärket ”R”. Till höger i omskrift namnet på det utgivande landet ”SAN MARINO” och längst ner till höger återfinns formgivaren Maria Angela Cassols initialer, MAC. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+	<string name="twoeuro_comm_2023_sm_date">"April 2023"</string>
+
+	<string name="twoeuro_comm_2023_ir_title">"50-årsjubileet av Irlands medlemskap i Europeiska unionen"</string>
+	<string name="twoeuro_comm_2023_ir_desc">"Åtsidan upptas av en ändring av programlogotypen ”EU50” som används av regeringsdepartementen för att främja evenemang med anledning av 50-årsdagen av Irlands EU-medlemskap. Det utfärdande landets namn ”ÉIRE” ska föras in ovanför logotypen. År ”1973” används för att markera det år Irland anslöt sig till EU samt ”2023” för att markera myntutgivningsåret. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+	<string name="twoeuro_comm_2023_ir_date">"Juli 2023"</string>
+
+	<string name="twoeuro_comm_2023_gr_title">"100 år efter Maria Callas födelse"</string>
+	<string name="twoeuro_comm_2023_gr_desc">"Åtsidan upptas av ett porträtt av den legendariska grekiska sopranen Maria Callas. Inskrivet längs den inre kanten är texten ”100 ÅR SEDAN MARIA CALLAS FÖDELSE” och till höger präglingsåret ”2023” och en palmett (myntortsmärke för det grekiska myntverket), under porträttet står inskriften ””ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (Republiken Grekland). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+	<string name="twoeuro_comm_2023_gr_date">"Juli 2023"</string>
+
+	<string name="twoeuro_comm_2023_gr_2_title">"150 år efter Constantin Carathéodory födelse"</string>
+	<string name="twoeuro_comm_2023_gr_2_desc">"Åtsidan upptas av ett porträtt av den grekiska matematikern Constantin Carathéodory. Inskrivet längs innerkanten till vänster är texten ”CONSTANTIN CARATHÉODORY 1873–1950” och till höger präglingsåret ”2023” och en palmett (myntortsmärke för det grekiska myntverket), under porträttet står inskriften ”ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (Republiken Grekland). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+	<string name="twoeuro_comm_2023_gr_2_date">"Juli 2023"</string>
+
+	<string name="twoeuro_comm_2023_ee_title">"Estlands nationalfågel – ladusvalan"</string>
+	<string name="twoeuro_comm_2023_ee_desc">"Åtsidan upptas av silhuetten av ladusvalan med texten ”HIRUNDO RUSTICA” (ladusvala på latin) längst upp till höger, i halvcirkel. Längst ned återfinns det utgivande landets namn ”EESTI” och därunder präglingsåret ”2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+	<string name="twoeuro_comm_2023_ee_date">"Andra kvartalet 2023"</string>
+
+	<string name="twoeuro_comm_2023_fr_2_title">"Världsmästerskapet i rugby i Frankrike 2023"</string>
+	<string name="twoeuro_comm_2023_fr_2_desc">"I samband med världsmästerskapet i rugby som organiserades i Frankrike firar Monnaie de Paris rugby och denna tävling som samlar lag från tjugo länder. Åtsidan upptas av en stiliserad rugbyspelare som gör en passning. I bakgrunden är rugbyfältet den jordglob där rugbymålstolparna placeras. Uppsättningen är en del av en fiktiv rugbygalax där övriga planeter är ovala. Tävlingens emblem är infört bredvid spelaren, medan tävlingens namn omger formgivningen. Uppgiften om det utgivande landet ”RF”, myntortsmärket och myntmästarmärket finns under bilden till höger. Tävlingens namn, utgivningslandet ”FRANCE” och årtalet ”2023” står till vänster. Tävlingens namn kring formgivningen och ”RF” anges i evenemangets officiella typsnitt, Mobius. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+	<string name="twoeuro_comm_2023_fr_2_date">"Juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_mt_2_title">"Fransmännens ankomst till Malta 1798"</string>
+	<string name="twoeuro_comm_2023_mt_2_desc">"I juni 1798 gjorde Napoleon Bonaparte slut på Johanniterordens styre i Malta. Under sin korta vistelse på Malta inrättade Napoleon en republikansk regering och genomförde en genomgripande reform av Maltas lagar och institutioner. Bland annat avskaffades slaveriet och adelns rättigheter. En konfessionslös stat inrättades och inkvisitionsdomstolen avskaffades. De långtgående reformerna godtogs vid denna tid inte allmänt av maltesarna, och det dröjde inte länge innan ett uppror utbröt. Åtsidan upptas av en personifiering av den franska republiken såsom den avbildades på dåtida officiella brevhuvuden. Omskriften på den övre halvan av myntet lyder ”225th ANNIVERSARY” och därefter i en halvcirkel ”ARRIVAL OF THE FRENCH IN MALTA”. Längst ned är präglingsåret ”2023”. Inskrifterna ”Liberté” (frihet) och ”Egalité” (jämställdhet) återfinns till vänster och till höger om bilden. Ovanför inskriften ”Egalité” anges årtalen ”1798–2023”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+	<string name="twoeuro_comm_2023_mt_2_date">"Juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_mt_title">"550-årsdagen av Nicolaus Copernicus födelse"</string>
+	<string name="twoeuro_comm_2023_mt_desc">"Åtsidan upptas av en profilbild av Copernicus och till vänster därom en stiliserad återgivning av universum med solen i centrum, i enlighet med vad Copernicus förde fram. Omskriften ovan till vänster lyder ”NICOLAUS COPERNICUS 1473–1543” och därunder ”MALTA” följt av utgivningsåret ”2023”. Längst ned finns också formgivaren Daniela Fuscos namn ”FUSCO” I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+	<string name="twoeuro_comm_2023_mt_date">"Juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_mc_title">"Hundraårsdagen av furst Rainier III:s födelse"</string>
+	<string name="twoeuro_comm_2023_mc_desc">"Åtsidan upptas av furst Rainier III:s porträtt I omskrift, ovan, visas det utgivande landets namn ”MONACO” och till höger präglingsåret ”2023”. Nedtill visas inskriften ”RAINIER III” med datumet ” 31 MAI 1923 ” till höger. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+	<string name="twoeuro_comm_2023_mc_date">"Juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_es_2_title">"Det spanska ordförandeskapet i Europeiska unionens råd"</string>
+	<string name="twoeuro_comm_2023_es_2_desc">"Två bilder ses. Den första visar logotypen för det spanska ordförandeskapet i Europeiska unionens råd. Omskriften kring logotypen lyder: ”ESPANA 2023 – PRESIDENCIA ESPANOLA and ”CONSEJO DE LA UNION EUROPEA” (Spanien 2023 – spanska ordförandeskapet och Europeiska unionens råd). Under logotypen återfinns den andra bilden, ett krönt ”M”, dvs. det spanska myntverkets myntmärke (Fabrica Nacional de Moneda y Timbre Real Casa de la Moneda). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+	<string name="twoeuro_comm_2023_es_2_date">"1 juni 2023"</string>
+
+	<string name="twoeuro_comm_2023_lv_title">"Ukrainsk solros"</string>
+	<string name="twoeuro_comm_2023_lv_desc">"Åtsidan visar en solros, vilket är en av Ukrainas nationella symboler, eftersom Ukraina är en av världens största producenter och exportörer av solrosolja. Sedan kriget i Ukraina inleddes har solrosen blivit en global fredssymbol. Solrosor användes som fredssymbol för första gången 1996. På den tiden planterades de på en militärbas nära Pervomaysk, drygt 20 mil söder om Kiev. Nu används solrosor som symbol för fred och för stöd till Ukraina i hela världen. Överst i omskrift återges inskriften ”SLAVA UKRAINAI!” (ära åt Ukraina) och längst ned i omskrift det utgivande landets namn, ”LATVIJA”, följt av präglingsåret ”2023”. Formgivare är den lettiska konstnären Krišs Salmanis. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+	<string name="twoeuro_comm_2023_lv_date">"Maj 2023"</string>
+
+	<string name="twoeuro_comm_2024_po_2_title">"Portugals deltagande i 33:e olympiska spelen"</string>
+	<string name="twoeuro_comm_2024_po_2_desc">"Beskrivning:Åtsidan visar ett hjärta format av flera delar, för att symbolisera en gruppkram. Runt hjärtat finns 15 cirklar som en symbolisk anspelning på de olympiska ringarna och de världsdelar de representerar. Hjärtats spets utgörs av Portugals statsvapen. Mitt i ”kramen” finns den portugisiska olympiska kommitténs logotyp för att visa att portugisernas hjärtan slår i takt för Portugals trupp vid OS i Paris 2024. Under hjärtat finns omskriften ”Equipa Olímpica Portugal” och årtalet 2024. Till vänster finns myntmärket ”Casa da Moeda” och till höger formgivarens namn. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+	<string name="twoeuro_comm_2024_po_2_date">"Utgivningsdag:juli 2024"</string>
+
+	<string name="twoeuro_comm_2024_po_title">"50-årsdagen av nejlikerevolutionen den 25 april 1974"</string>
+	<string name="twoeuro_comm_2024_po_desc">"Beskrivning:Den 25 april 1974 inträffade den revolution som blev inledningen på det demokratiska styret i Portugal och de djupgående ekonomiska, sociala och kulturella förändringar som ledde till att landet blev mer Europatillvänt. I mitten på åtsidan finns en nejlika, som symboliserar revolutionen. Den omges av ett flertal excentriska cirklar för att visa att människors handlingar och övertygelser kan förändras med åren, men att de ändå i grunden förblir trogna revolutionens principer. Till höger finns omskriften ”Esta é a madrugada que eu esperava” (det här är den gryning jag väntat på) och namnet på författaren till de orden, poeten ”Sophia de Mello Breyner Andresen”. Till vänster om riksvapnet finns omskriften ”Portugal” och ”25 april 1974_2024”, följt av formgivarens namn och myntmärket ”Casa da Moeda”, namnet på det portugisiska myntverket. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_po_volume">"515000"</string>
+	<string name="twoeuro_comm_2024_po_date">"Utgivningsdag:april 2024"</string>
+
+	<string name="twoeuro_comm_2024_fi_title">"Val och demokrati"</string>
+	<string name="twoeuro_comm_2024_fi_desc">"Beskrivning:Åtsidan upptas av stiliserade valsedlar som utgörs av cirklar och rektanglar. Bilden är abstrakt men ändå igenkännlig. De åtta valsedlarna överlappar delvis varandra, så att mindre geometriska former skapas i skärningspunkterna. Året 2024 anges nedtill. Till höger strax ovanför mittlinjen står ”FI”. Till höger finns omskriften VAALIT ♦ DEMOKRATIA, till vänster VAL ♦ DEMOKRATI. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+	<string name="twoeuro_comm_2024_fi_date">"Utgivningsdag:våren 2024"</string>
+
+	<string name="twoeuro_comm_2024_be_2_title">"Kampen mot cancer i Belgien"</string>
+	<string name="twoeuro_comm_2024_be_2_desc">"Beskrivning:Mitten av åtsidan upptas av ett band – den universella symbolen för kampen mot cancer. Bandet böljar ut mot båda sidorna som hjärtslag på en monitor, vilket symboliserar liv och livskraft. Högst upp bildar tre linjer en regnbåge (som symboliserar hopp och tröst). I den lägsta linjen finns landsbeteckningen BE och årtalet 2024. Nedtill på myntet finns inskriften (på franska och nederländska) ”Lutte contre le cancer” – ”Strijd tegen kanker”. Formgivaren Iris Bruijns initialer finns till vänster ovanför inskriften. Eftersom mynten präglas av det kungliga nederländska myntverket finns Utrechts myntmärke, merkuriestaven, längst ner, tillsammans med det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+	<string name="twoeuro_comm_2024_be_2_date">"Utgivningsdag:maj 2024"</string>
+
+	<string name="twoeuro_comm_2024_be_title">"Det belgiska ordförandeskapet i Europeiska unionens råd"</string>
+	<string name="twoeuro_comm_2024_be_desc">"Beskrivning:Åtsidan upptas av en flock svalor som symboliserar EU:s funktionssätt, då de rör sig tillsammans i grupp, men med individuellt manöverutrymme för varje individ, vilket ger en komplex, dynamisk enhet. Gruppen symboliserar främst samhörighet. Under svalors flykt tar en enskild fågel alltid täten och leder de andra, liksom Belgien under det första halvåret 2024. De 27 fåglarna symboliserar antalet EU-länder. Landskoden ”BE” återfinns mellan fåglarna i den övre högra delen av det inre fältet. I fältets nedre halva, under fågelflocken, framträder inskriften ”BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024”. Längst till vänster finns formgivaren Iris Bruijns initialer. Eftersom mynten präglas av Kungliga nederländska myntverket, finns Utrechts myntmärke, merkuriestaven, också längst till vänster, under det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+	<string name="twoeuro_comm_2024_be_date">"Utgivningsdag:första kvartalet 2024"</string>
+
+	<string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – Gamla stan i Varaždin)"</string>
+	<string name="twoeuro_comm_2024_hr_desc">"Beskrivning:Åtsidan upptas av borgen i Varaždin (1100–1500-talet). Varaždin omnämns för första gången 1181. Efter de massiva förlusterna av människoliv under tatarernas invasion 1242 byggdes borgen som en kunglig fästning, vilken senare blev känd som Gamla stan. Dess utseende har förändrats under efterföljande århundraden. Från att ha varit en bastant medeltidsfästning omringad av vattenfyllda vallgravar blev borgen den slavonska militärgränsens främsta fästning och rustkammare, Varaždins militära högkvarter och ett vackert renässansslott. I dag är Gamla stan den viktigaste och praktfullaste historiska byggnaden i staden Varaždin och ett av det kroatiska arkitekturarvets mest betydande monument. Upptill på myntet finns omskriften ”STARI GRAD VARAŽDIN” (Gamla stan i Varaždin) och nedtill det utgivande landet ”HRVATSKA” (Kroatien) och utgivningsåret 2024. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+	<string name="twoeuro_comm_2024_hr_date">"Utgivningsdag:juni 2024"</string>
+
+	<string name="twoeuro_comm_2024_sm_title">"50-årsjubiléet för San Marinos förklaring om medborgerliga rättigheter och grundläggande principer"</string>
+	<string name="twoeuro_comm_2024_sm_desc">"Beskrivning:I mitten finns en öppen bok med inskriften ”I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI” (människans rättigheter är okränkbara), ett citat från artikel 5 i lag nr 59 av den 8 juli 1974, förklaringen om medborgerliga rättigheter och de grundläggande principerna i San Marinos rättsordning. Högst upp syns silhuetterna av frihetsstatyn (Statua della Libertà) och stadshuset (Palazzo Pubblico) och det utgivande landet ”SAN MARINO”. Till vänster står ”R” för myntverket i Rom och i mitten längst ned finns utgivningsåret 2024 och gravören Emanuele Ferrettis signum (”E.F. INC. ”). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+	<string name="twoeuro_comm_2024_sm_date">"Utgivningsdag:april 2024"</string>
+
+	<string name="twoeuro_comm_2024_gr_title">"50 år sedan demokratin återupprättades i Grekland"</string>
+	<string name="twoeuro_comm_2024_gr_desc">"Beskrivning:Åtsidan upptas av Greklands parlamentsbyggnad, med följande formuleringar i omskrift: ”50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ” (”50 ÅR SEDAN DEMOKRATIN ÅTERUPPRÄTTADES I GREKLAND”) och ”ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (”REPUBLIKEN GREKLAND”). Undertill finns en palmett (det grekiska myntverkets myntmärke). Militärjuntans fall den 24 juli 1974 markerade återupprättandet av demokratin i Grekland efter sju års diktatur. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+	<string name="twoeuro_comm_2024_gr_date">"Utgivningsdag:juli 2024"</string>
+
+	<string name="twoeuro_comm_2024_gr_2_title">"150 år sedan Penelope Deltas födelse"</string>
+	<string name="twoeuro_comm_2024_gr_2_desc">"Beskrivning:Åtsidan upptas av ett porträtt av Penelope Delta. Bilden omringas av omskriften ”ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941” (”PENELOPE DELTA 1874–1941”) och ”ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (”REPUBLIKEN GREKLAND”). Till vänster finns en palmett (det grekiska myntverkets myntmärke) och till höger präglingsåret. Penelope Delta var en pionjär inom barnlitteraturen i Grekland. Generationer av grekiska barn har vuxit upp med hennes böcker, som fortfarande är populära. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+	<string name="twoeuro_comm_2024_gr_2_date">"Utgivningsdag:juli 2024"</string>
+
+	<string name="twoeuro_comm_2024_ee_title">"Blåklint – Estlands nationalblomma"</string>
+	<string name="twoeuro_comm_2024_ee_desc">"Beskrivning:Åtsidan upptas av silhuetten av en blåklint med omskriften ”CENTAUREA CYANUS” (blåklint på latin) högst upp till vänster. Nedtill står namnet på det utgivande landet ”EESTI” och under det utgivningsåret 2024. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+	<string name="twoeuro_comm_2024_ee_date">"Utgivningsdag:andra kvartalet 2024"</string>
+
+	<string name="twoeuro_comm_2024_fr_2_title">"Eiffeltornet"</string>
+	<string name="twoeuro_comm_2024_fr_2_desc">"Beskrivning:Inför OS i Paris 2024 firar Paris myntverk förberedelserna för spelen genom såväl stadens som verkets eget kulturarv. Hundra år efter spelen 1924 är den franska huvudstaden åter värd för sommarspelen. OS är ett evenemang av stor internationell betydelse. Under åren fram till invigningen byggs stämningen upp steg för steg tills den når sin kulmen vid spelen, som uppmärksammas genom de två jubileumsmynt med valören 2 euro som ges ut under 2024. Åtsidan upptas av ikoniska byggnader som representerar Frankrike: Eiffeltornet och basilikan Notre-Dame de la Garde i Marseille. I fonden finns en tahitigardenia, eftersom surfingtävlingarna går av stapeln på ön Tahiti. Eiffeltornet avbildas som en löpare för att representera idrottens värden. Tornets armar utgörs av 73 nitar som representerar värdsamhällena. Symbolerna för de olympiska spelen och de paralympiska spelen kombineras här för första gången för att visa att spelen är till för alla. Årtalet, beteckningen ”RF” för det utgivande landet och myntmärkena har infogats i löpbanan. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+	<string name="twoeuro_comm_2024_fr_2_date">"Utgivningsdag:maj 2024"</string>
+
+	<string name="twoeuro_comm_2024_fr_title">"Olympiska spelen 2024 – Brottning"</string>
+	<string name="twoeuro_comm_2024_fr_desc">"Beskrivning:Inför OS i Paris 2024 firar Paris myntverk förberedelserna för spelen genom såväl stadens som verkets eget kulturarv. Hundra år efter spelen 1924 är den franska huvudstaden åter värd för sommarspelen. OS är ett evenemang av stor internationell betydelse. Under åren fram till invigningen byggs stämningen upp steg för steg tills den når sin kulmen vid spelen, som uppmärksammas genom de två jubileumsmynt med valören 2 euro som ges ut under 2024. Åtsidan visar Herkules, en symbolisk personifiering av Frankrike och ikonisk symbol för fransk myntkonst, och Notre-Dames chimaira inbegripna i grekisk brottning som en anspelning på de olympiska spelen i antiken. Båda brottarna avbildas mot bakgrund av Notre-Dame-katedralen. I bakgrunden syns en löparbana med symbolen för OS i Paris 2024 infogad till vänster. Präglingsåret, landsförkortningen RF samt myntmärkena är präglade i löparbanan. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+	<string name="twoeuro_comm_2024_fr_date">"Utgivningsdag:januari 2024"</string>
+
+	<string name="twoeuro_comm_2024_mt_title">"Det maltesiska honungsbiet"</string>
+	<string name="twoeuro_comm_2024_mt_desc">"Beskrivning:Åtsidan utformades av Maria Anna Frisone och visar det maltesiska honungsbiet (Apis mellifera ruttneri), som är en av de inhemska djurarterna på de maltesiska öarna. Åtsidan upptas av ett bi framför en blomma och en vaxkaka. Myntet uppmärksammar en av Maltas inhemska arter och representerar biets arbete med att pollinera blommor och tillverka honung. Till vänster anges det utgivande landet ”MALTA” och till höger utgivningsåret 2024. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+	<string name="twoeuro_comm_2024_mt_date">"Utgivningsdag:juni 2024"</string>
+
+	<string name="twoeuro_comm_2024_mc_title">"500 år sedan fördraget med Karl V undertecknades"</string>
+	<string name="twoeuro_comm_2024_mc_desc">"Beskrivning:Åtsidan upptas av en bröstbild av Karl V. Ovanför står det utgivande landet ”MONACO” i omskrift. Nedtill finns omskriften ”1524 - TRAITE AVEC CHARLES QUINT [fördraget med Karl V] - 2024”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+	<string name="twoeuro_comm_2024_mc_date">"Utgivningsdag:juni 2024"</string>
+
+	<string name="twoeuro_comm_2024_es_title">"200 år sedan grundandet av den nationella polisen som säkerhetskår"</string>
+	<string name="twoeuro_comm_2024_es_desc">"Beskrivning:Åtsidan upptas av den nationella polisens emblem. Det omsluts av omskriften:  ”POLICÍA NACIONAL 1824-2024 ESPAÑA”. Till höger om emblemet i den nedre delen av det inre fältet återges myntmärket ”Eme Coronada” (det kronförsedda M:et). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+	<string name="twoeuro_comm_2024_es_date">"första kvartalet 2024"</string>
+
+	<string name="twoeuro_comm_2024_es_2_title">"Erkännandet av Sevilla (Archivo de Indias, Real Alcázar de Sevilla och Catedral de Sevilla) som ett av Unescos världsarv"</string>
+	<string name="twoeuro_comm_2024_es_2_desc">"Beskrivning:Åtsidan upptas av Patio de las Doncellas i Real Alcázar i Sevilla. Högst upp, i inskrift med versaler, framträder omskriften SEVILLA. Därunder återges myntmärket ”Eme Coronada” (det kronförsedda M:et). Nedtill, i inskrift med versaler, framträder omskriften ESPAÑA och präglingsåret 2024. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+	<string name="twoeuro_comm_2024_es_2_date">"Utgivningsdag:första kvartalet 2024"</string>
+
+	<string name="twoeuro_comm_2024_va_2_title">"150-årsdagen av Guglielmo Marconis födelse"</string>
+	<string name="twoeuro_comm_2024_va_2_desc">"Beskrivning:Åtsidan upptas av tre porträtt: Marconi i mitten, påven Pius XI till höger och påven Pius XII till vänster. Högst upp till höger finns omskriften ”GUGLIELMO MARCONI” med årtalen 1874 och 2024 undertill. Längst ned finns omskriften ”CITTÀ DEL VATICANO”, följt av konstnärens namn ”L. PANCOTTO” (Loredana Pancotto). Till vänster finns myntmärket ”R”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+	<string name="twoeuro_comm_2024_va_2_date">"Utgivningsdag:maj 2024"</string>
+
+	<string name="twoeuro_comm_2024_de_2_title">"175-årsminnet av Frankfurtförfattningen (även känd som Paulskyrkoförfattningen, som var det första försöket att skapa en enad tysk nationalstat)."</string>
+	<string name="twoeuro_comm_2024_de_2_desc">"Beskrivning:Åtsidan upptas av flera tematiska lager. I förgrunden framträder en perspektivisk avbildning av den nationella författningsförsamlingens delegater tågande in i Paulskyrkan. Avbildningen överskuggar en framställning av författningsdokumentet och en fjäderpenna, som symboliserar resultatet av Frankfurtparlamentet. Ovanför tornar kvinnliga allegoriska figurer – Endräkten, Rättvisan och Friheten – och den tyska flaggan med sina tre fält i svart, rött och guld. Den livaktiga tredimensionella reliefen frammanar tidlösheten i de grundläggande demokratiska principerna, som i och med Frankfurtförfattningen för första gången nedtecknades i ett grunddokument. Myntets inre fält upptas också av inskriften ”PAULSKIRCHENVERFASSUNG 1849” (Paulskyrkoförfattningen 1849) och nedtill präglingsåret ”2024”, Tysklands landskod ”D”, myntmärket för respektive myntverk (”A”, ”D”, ”F”, ”G” eller ”J”) och Berlinkonstnären Bodo Broschats initialer. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+	<string name="twoeuro_comm_2024_de_2_date">"Utgivningsdag:mars 2024"</string>
+
+	<string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
+	<string name="twoeuro_comm_2024_de_desc">"Beskrivning:Myntet är tillägnat den tyska delstaten Mecklenburg-Vorpommern. Det är den andra präglingen i den andra serien av tyska minnesmynt med valören 2 euro som visar tyska delstater. Varje år präglas ett minnesmynt som återger en viktig byggnad eller ett viktigt landmärke i en av de 16 delstaterna. Delstaternas ordning grundar sig på det roterande ordförandeskapet i förbundsrådet. Rådet är ett av de fem permanenta konstitutionella organen i Förbundsrepubliken Tyskland och företräder delstaternas intressen. Åtsidan upptas av Königsstuhl, en ikonisk naturformation av kritklippor och bokskog i Jasmunds nationalpark på ön Rügen. Klipporna är avbildade ur kustlinjens perspektiv, vilket mycket effektfullt framhäver detta naturliga landmärkes unika monumentalitet. Den konstfullt detaljerade avbildningen ger perspektiv genom en kombination av hav, fågelliv och människa. Den moderna typografin, i harmoni med den flygande måsen, är skickligt infogad i reliefen. I den övre halvan av myntets inre fält framträder inskriften ”MECKLENBURG-VORPOMMERN”, präglingsåret ”2024”, Tysklands landskod ”D” och, upptill till höger, myntmärket för respektive myntverk (”A”, ”D”, ”F”, ”G” eller ”J”). Konstnären Michael Ottos (från Rodenbach, Tyskland) initialer återfinns i den nedre halvan av det inre fältet. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+	<string name="twoeuro_comm_2024_de_date">"Utgivningsdag:januari 2024"</string>
+
+	<string name="twoeuro_comm_2024_lu_2_title">":175-årsdagen av storhertig Vilhelm II:s död"</string>
+	<string name="twoeuro_comm_2024_lu_2_desc">":Åtsidan upptas till vänster av en staty av storhertig Vilhelm II till häst och till höger en halsbild av storhertig Henri blickande åt vänster. Åtsidan upptas vidare av texterna ”GROUSSHERZOGE VU LÉTZEBUERG” och ”GUILLAUME II 1792–1849” i omskrift på åtsidans övre vänstra del. Präglingsåret ”2024” och siffran ”175” för årsdagen anges under bilden av storhertig Henri. Eftersom det präglande myntverket ännu inte är känt kan myntmärkena anpassas inom platshållaren. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+	<string name="twoeuro_comm_2024_lu_2_date">":januari 2024"</string>
+
+	<string name="twoeuro_comm_2024_lu_title">":100-årsdagen av storhertiginnan Charlottes undertecknande av det storhertigliga dekretet om utgivningen av ett skiljemynt i nickel, vanligen kallat ”Feierstëppler”."</string>
+	<string name="twoeuro_comm_2024_lu_desc">":Åtsidan upptas i det inre fältet av det luxemburgska mynt som gavs ut 1924 och som avbildar en stålverksarbetare. Bilden ingår som en del i siffran ”100”, som en påminnelse om årsdagen av den första utgivningen av ett av de luxemburgska franc-mynt som var längst i omlopp. Namnet på det utgivande landet ”LÉTZEBUERG” samt präglingsåret ”2024” visas i omskriften upptill. Åtsidan visar nedtill ordet ”FEIERSTËPPLER”, den gängse benämningen på detta mynt. Monogrammet (bokstaven ”H” med krona) är ett emblem för storhertig Henri. Eftersom det präglande myntverket ännu inte är känt kan myntmärkena anpassas inom platshållaren. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+	<string name="twoeuro_comm_2024_lu_date">":januari 2024"</string>
+
+	<string name="twoeuro_comm_2024_it_title">"250-årsdagen av grundandet av poliskåren Guardia di Finanza"</string>
+	<string name="twoeuro_comm_2024_it_desc">"Beskrivning:Åtsidan visar en stiliserad version av Guardia di Finanzas heraldiska vapen. Det återspeglar både säkerhetstanken och en vision om kårens framtida roll för att högtidlighålla det förflutna. Därmed kombineras gångna tider med framtidens utmaningar. Emblemet är sammansatt av olika delar: berg, hav och himmel, som utmärker landskapet i Italien där kåren verkar, gripen, ett mytologiskt djur som enligt legenden svarar för skyddet av statskassan, här representerad av statens skattkista, och murkronan. Överst i omskrift återges inskriften ”GUARDIA DI FINANZA”. Nedtill anges ”RI”, förkortningen för Republiken Italien och ”1774–2024”, året för inrättandet av poliskåren Guardia di Finanza respektive myntets utgivningsår. Till höger visas ”R”, som står för myntverket i Rom, och ”MB”, formgivaren Marta Bonifacios initialer. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+	<string name="twoeuro_comm_2024_it_date">"Utgivningsdag:januari 2024"</string>
+
+	<string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+	<string name="twoeuro_comm_2024_it_2_desc">"Beskrivning:Åtsidan upptas av en bröstbild av Rita Levi-Montalcini, inspirerad av ett fotografi taget av Manuela Fabbri. I fonden visas ett mikroskop hämtat från en medalj utformad av Gino Levi-Montalcini, den berömda forskarens bror. Instrumentet är försett med en hästskoformad fot, som en maskot med anspelning på tilldelningen av Nobelpriset i medicin 1986. Upptill framträder omskriften ”RITA LEVI-MONTALCINI”, till vänster ”RI”, förkortningen för Republiken Italien, och ”R”, som står för myntverket i Rom och nedtill ”2024”, myntets präglingsår. Till höger om mittmotivet visas initialerna ”SP” för formgivaren Silvia Petrassi. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+	<string name="twoeuro_comm_2024_it_2_date">"Utgivningsdag:januari 2024"</string>
 
 	<!-- END auto generated code for language sv -->
 

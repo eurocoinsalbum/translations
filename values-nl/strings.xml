@@ -412,12 +412,13 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Versie 7.6.3\n
-Probleem opgelost met beschadigde back-upbestanden wanneer speciale tekens in de notities worden gebruikt.
+    <string name="version_history_last">"Versie 7.6.6\n
+2€ herdenkingsmunten 2024 toegevoegd.
     "</string>
 
-    <string name="version_history_last">"Versie 7.6.2\n
-2 € herdenkingsmunten 2024 toegevoegd.
+    <string name="version_history_current">"Versie 7.7\n
+2€ herdenkingsmunten 2024 toegevoegd.\n
+Android-versie bijgewerkt.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2569,6 +2570,221 @@ De gebruiker kan contact opnemen met de betreffende instelling voor gegevensbesc
     <string name="twoeuro_comm_2023_be_desc">"er wordt een decoratief detail afgebeeld van de gevel van het “Hotel Van Eetvelde”, een iconisch herenhuis in Brussel dat door de Belgische art nouveau-architect Victor Horta is ontworpen en als Unesco-werelderfgoed is erkend. De gebogen, asymmetrische lijnen van dit decoratieve detail zijn een weerspiegeling van de karakteristieke, op de natuur geïnspireerde stijl van de art nouveau-beweging. Dit detail staat aan de onderkant van het muntstuk en aan de bovenkant is er een lege ruimte met het opschrift “ART NOUVEAU”. Helemaal rechts staan de initialen van de ontwerpster Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt slaat, staat uiterst links het muntteken van Utrecht, een mercuriusstaf, samen met het Belgische muntmeesterteken, een asterbloem voor een erlenmeyer, de landcode BE en het jaartal 2023. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2023_be_volume">"155000"</string>
     <string name="twoeuro_comm_2023_be_date">"juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_2_title">"vuurfeesten van de zomerzonnewende in de Pyreneeën"</string>
+    <string name="twoeuro_comm_2023_ad_2_desc">"de vuurfeesten van de zomerzonnewende zijn in 2015 opgenomen in de representatieve lijst van het immaterieel cultureel erfgoed van de mensheid van Unesco. De vuurfeesten zijn traditionele en populaire festiviteiten die elk jaar in heel Andorra worden gehouden. Het ontwerp beeldt een menselijke figuur af, een 'fallaire', die een traditionele mantel draagt en al zwaaiend met een 'falla' een cirkel van vuur maakt. De falla is het belangrijkste attribuut van het festival en wordt gemaakt uit boomschors. Deze wordt aangestoken en dan op energieke wijze rondgedraaid om grote vuurcirkels te maken. De lijnen op de achtergrond vormen een grafische voorstelling van de zomerzonnewende. Op de munt staan ook de naam van het land van uitgifte 'ANDORRA' en het jaar van uitgifte '2023'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_ad_2_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_2_date">"vierde kwartaal van 2023"</string>
+
+    <string name="twoeuro_comm_2023_ad_title">"30 jaar VN-lidmaatschap van het Vorstendom Andorra"</string>
+    <string name="twoeuro_comm_2023_ad_desc">"twee elementen symboliseren de Verenigde Naties: een lauwerkrans en een wereldbol. Het getal 30, waarvan de wereldbol de 0 vormt, staat afgebeeld met daaronder de inscriptie ANYS (jaren) en het jaar van uitgifte, 2023. Bovenaan het ontwerp staan het wapenschild van Andorra en de inscriptie 'ANDORRA MEMBRE DE LES NACIONS UNIDES' (Andorra lid van de Verenigde Naties). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_ad_volume">"70000"</string>
+    <string name="twoeuro_comm_2023_ad_date">"vierde kwartaal van 2023"</string>
+
+    <string name="twoeuro_comm_2023_si_title">"de 150e geboortedag van Josip Plemelj (wiskundige en astronoom)"</string>
+    <string name="twoeuro_comm_2023_si_desc">"de munt toont delen van de vergelijking die Josip Plemelj als eerste mens heeft opgelost. Getallen en symbolen draaien in cirkels die de rotatie van de planeten, de beweging in de ruimte en het samenbrengen van afzonderlijk onoplosbare elementen voorstellen. Zo komen beide vakgebieden van het werk van Josip Plemelj samen: wiskunde en astronomie. Ook het opschrift 'JOSIP PLEMELJ 1873', de naam van het land van uitgifte 'SLOVENIJA' en het jaar van uitgifte '2023' zijn in het ontwerp opgenomen. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_si_date">"december 2023"</string>
+
+    <string name="twoeuro_comm_2023_po_title">"vrede"</string>
+    <string name="twoeuro_comm_2023_po_desc">"de munt is gewijd aan vrede tussen naties en aan vriendschappelijk en wederzijds voordelig samenleven. Het streven naar vrede vereist een collectieve inspanning. In de huidige sterk gepolariseerde geopolitieke context moet dit muntstuk mensen eraan herinneren dat vrede van onschatbare waarde is en absoluut moet worden beschermd. Het ontwerp toont het woord 'VREDE' in de 16 officiële talen die in januari 2023 in de 20 landen van het eurogebied werden gesproken. Bovenaan staat het opschrift 'PORTUGAL”, rechts bovenaan gevolgd door het jaar van uitgifte '2023'; links bovenaan staat de naam van de ontwerper 'José S. Teixeira' en links het muntteken 'CASA DA MOEDA', de naam van de Portugese Munt. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_po_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_date">"november 2023"</string>
+
+    <string name="twoeuro_comm_2023_cy_title">"de 60e verjaardag van de oprichting van de Central Bank of Cyprus"</string>
+    <string name="twoeuro_comm_2023_cy_desc">"op de munt worden steeksleutels op een microchip afgebeeld. Deze staan symbool voor de economische stabiliteit in het moderne industriële en digitale tijdperk, waarvoor de Central Bank of Cyprus, die 60 jaar bestaat, garant staat. Onderaan staan de naam van het land van uitgifte “ΚYΠΡΟΣ KIBRIS” (Cyprus) en de jaartallen “1963-2023”. Daarnaast staat de zin '60 ΧΡOΝΙΑ ΑΠO ΤΗΝ IΔΡΥΣΗ ΤΗΣ ΚΕΝΤΡΙKHΣ ΤΡAΠΕΖΑΣ ΤΗΣ ΚYΠΡΟΥ” (d.w.z. “De Central Bank of Cyprus werd 60 jaar geleden opgericht”) op de binnenste ring van de nationale zijde van de munt. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_cy_volume">"412000"</string>
+    <string name="twoeuro_comm_2023_cy_date">"tweede/derde kwartaal van 2023"</string>
+
+    <string name="twoeuro_comm_2023_fi_2_title">"sociale en gezondheidsdiensten"</string>
+    <string name="twoeuro_comm_2023_fi_2_desc">"op de munt is een gestileerde kaart van Finland afgebeeld. Aan de linkerkant staat “WELZIJN” in het Fins en Zweeds. Het jaar van uitgifte “2023” staat iets links van het midden op de munt. Onderaan staat de aanduiding van het land van uitgifte, “FI”. Aan de rechterkant staat het muntteken van de munt van Finland. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2023_fi_2_date">"najaar 2023"</string>
+
+    <string name="twoeuro_comm_2023_sk_2_title">"het 200e jubileum van de exprespostdienst per paardenkoets tussen Wenen en Bratislava"</string>
+    <string name="twoeuro_comm_2023_sk_2_desc">"de exprespostdienst per koets tussen Wenen en Bratislava wordt uitgebeeld door een snelrijdende paardenkoets en in het midden een rechthoek met een posthoorn. Onder de afbeelding staat '1823', het jaar waarin de exprespostdienst operationeel werd, met daaronder de namen van de steden in het Slowaaks: 'VIEDEŇ' en 'BRATISLAVA'. Onderaan de binnenste cirkel van de munt staat het jaar van uitgifte '2023', gescheiden van de tekst daarboven door een horizontale lijn. De naam van het land van uitgifte 'SLOVENSKO' staat bovenaan. Rechts van de koets staat het muntteken van de Munt van Kremnica (Mincovňa Kremnica), bestaande uit de letters 'MK' tussen twee muntstempels. Net onder het teken staan de gestileerde initialen “MP”, die verwijzen naar de ontwerper van de nationale zijde, Mária Poldaufová. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_sk_2_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_sk_2_date">"oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_be_2_title">"75 jaar algemeen vrouwenkiesrecht in België"</string>
+    <string name="twoeuro_comm_2023_be_2_desc">"in het midden van de munt wordt het vakje van een stembiljet afgebeeld dat door een potlood wordt gekleurd. Het ingekleurde vakje wordt omringd door het venussymbool (het gendersymbool voor vrouw/vrouwelijk). Links onderaan ten opzichte van de centrale afbeelding staat 75 JAAR ANS. Rond de afbeelding staat in het Nederlands en in het Frans: 'ALGEMEEN VROUWENKIESRECHT' – 'SUFFRAGE UNIVERSEL FÉMININ'. Onderaan het muntstuk bevinden zich de initialen van de ontwerper, Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt slaat, staat rechts het muntteken van Utrecht, een mercuriusstaf, samen met het Belgische muntmeesterteken, een asterbloem voor een erlenmeyer, de landcode 'BE' en het jaartal '2023'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_be_2_volume">"130000"</string>
+    <string name="twoeuro_comm_2023_be_2_date">"oktober 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_2_title">"de herdenking van de 500e sterfdag van Luca Signorelli"</string>
+    <string name="twoeuro_comm_2023_sm_2_desc">"centraal op de munt wordt een engel afgebeeld. Dit is een detail van het schilderij “Il Paradiso” (Het paradijs) van Luca Signorelli in de kapel van San Brizio in de kathedraal van Orvieto. Links staat de letter “R”, het muntteken van het munthuis van Rome. Linksonder staat in een halve cirkel de naam “SIGNORELLI”. Rechts staat de naam van het land van uitgifte “SAN MARINO” en bovenaan de jaartallen “1523 2023”. Onderaan in het midden staan de initialen van de ontwerpster Marta Bonifacio, MB. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_2_date">"september 2023"</string>
+
+    <string name="twoeuro_comm_2023_sm_title">"de 500e sterfdag van Perugino"</string>
+    <string name="twoeuro_comm_2023_sm_desc">"centraal op de munt wordt de Heilige Maagd Maria met het kindje Jezus afgebeeld. Dit is een detail van het schilderij “Madonna en kind troffen troost tussen Johannes de Doper en Sint-Sebastiaan” van Perugino, dat in de Uffizi-galerijen (Florence) wordt bewaard. Links staan het opschrift “PERUGINO”, de jaartallen “1523” en “2023” en het muntteken “R”. Rechts staat de naam van het land van uitgifte “SAN MARINO” en rechtsonder de initialen van de ontwerpster Maria Angela Cassol, MAC. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2023_sm_date">"april 2023"</string>
+
+    <string name="twoeuro_comm_2023_ir_title">"het 50-jarige lidmaatschap van Ierland van de Europese Unie"</string>
+    <string name="twoeuro_comm_2023_ir_desc">"op de munt staat een aangepaste versie van het logo van het “EU50”-programma dat door overheidsdiensten wordt gebruikt om evenementen rond het vijftigjarige EU-lidmaatschap van Ierland te promoten. De naam van het land van uitgifte “ÉIRE” (Ierland) staat boven het logo. Het jaartal 1973 verwijst naar het jaar waarin Ierland lid werd van de EU en het jaartal 2023 naar het jaar van uitgifte van de munt. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_ir_volume">"500000"</string>
+    <string name="twoeuro_comm_2023_ir_date">"juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_title">"100 jaar na de geboorte van Maria Callas"</string>
+    <string name="twoeuro_comm_2023_gr_desc">"op de munt is een portret van de legendarische Griekse operazangeres Maria Callas afgebeeld. Langs de binnenrand staat “100e GEBOORTEDAG VAN MARIA CALLAS” en rechts het jaar van uitgifte “2023” en een palmet (het muntteken van de Griekse munt). Onder het portret staat de inscriptie “HELLEENSE REPUBLIEK”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_date">"juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_gr_2_title">"150 jaar na de geboorte van Constantin Carathéodory"</string>
+    <string name="twoeuro_comm_2023_gr_2_desc">"op de munt is een portret van de Griekse wiskundige Constantin Carathéodory afgebeeld. Langs de binnenrand staat links “CONSTANTIN CARATHÉODORY 1873-1950” en rechts het jaar van uitgifte “2023” en een palmet (het muntteken van de Griekse munt). Onder het portret staat de inscriptie “HELLEENSE REPUBLIEK”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2023_gr_2_date">"juli 2023"</string>
+
+    <string name="twoeuro_comm_2023_ee_title">"nationale vogel van Estland, de boerenzwaluw"</string>
+    <string name="twoeuro_comm_2023_ee_desc">"op de munt is het silhouet van een boerenzwaluw afgebeeld met rechtsboven in een halve cirkel de tekst “HIRUNDO RUSTICA” (“boerenzwaluw” in het Latijn). Onderaan is de naam van het land van uitgifte “EESTI” vermeld en daaronder staat het jaar van uitgifte “2023”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2023_ee_date">"tweede kwartaal 2023"</string>
+
+    <string name="twoeuro_comm_2023_fr_2_title">"WK rugby Frankrijk 2023"</string>
+    <string name="twoeuro_comm_2023_fr_2_desc">"ter gelegenheid van het wereldkampioenschap rugby dat in Frankrijk wordt gehouden, eert de Monnaie de Paris de rugbysport en dit kampioenschap waaraan teams uit twintig landen deelnemen. Op de munt staat een gestileerde rugbyspeler die een pass geeft. De wereldbol op de achtergrond stelt het rugbyveld voor waarop de doelpalen staan en maakt deel uit van een denkbeeldig rugbysterrenstelsel waarin de andere planeten ovaal zijn. Het embleem van het kampioenschap is links van de speler afgebeeld en de naam van het evenement staat bovenaan in een halve cirkel. De aanduiding van het land van uitgifte “RF”, het muntteken en het muntmeesterteken staan rechts onder de afbeelding. De naam van het kampioenschap, het land van uitgifte “FRANCE” en het jaartal “2023” staan linksonder. De naam van het kampioenschap (bovenaan in een halve cirkel) en de vermelding “RF” zijn weergegeven in het officiële lettertype van het evenement, namelijk Mobius. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_fr_2_volume">"15000000"</string>
+    <string name="twoeuro_comm_2023_fr_2_date">"juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_2_title">"de aankomst van de Fransen op Malta in 1798"</string>
+    <string name="twoeuro_comm_2023_mt_2_desc">"in juni 1798 maakte Napoleon Bonaparte een einde aan de heerschappij van de Orde van Sint-Jan op Malta. Tijdens zijn korte verblijf op Malta installeerde Napoleon een republikeinse regering en zorgde hij voor een grondige hervorming van de wetten en instellingen van Malta, waaronder de afschaffing van slavernij en adellijke privileges. Er werd een lekenstaat opgericht en een einde gemaakt aan de inquisitie. De ingrijpende hervormingen werden toen niet door alle Maltezen aanvaard en het duurde niet lang voordat zij in opstand kwamen. De afbeelding toont een personificatie van de Franse Republiek zoals die op de officiële briefhoofden uit die tijd werd afgebeeld. Links staat in een halve cirkel het opschrift “225th ANNIVERSARY”, gevolgd door het opschrift “ARRIVAL OF THE FRENCH IN MALTA”. Onderaan is het jaar van uitgifte “2023” vermeld. Links en rechts van de afbeelding staan respectievelijk de opschriften “Liberté” en “Egalité”. Links boven het opschrift “Egalité” staan de jaartallen “1798-2023”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_mt_2_volume">"85500"</string>
+    <string name="twoeuro_comm_2023_mt_2_date">"juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mt_title">"de 550e geboortedag van Nicolaus Copernicus"</string>
+    <string name="twoeuro_comm_2023_mt_desc">"op de munt is een profielportret van Copernicus afgebeeld, samen met een gestileerd heliocentrisch model van het universum zoals voorgesteld door Copernicus. Linksboven staat het opschrift “NICOLAUS COPERNICUS 1473 – 1543” en linksonder de naam van het land van uitgifte “MALTA” gevolgd door het jaar van uitgifte “2023”. Onderaan staat ook de handtekening van kunstenares Daniela Fusco “FUSCO”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_mt_volume">"95500"</string>
+    <string name="twoeuro_comm_2023_mt_date">"juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_mc_title">"100e geboortedag van Prins Rainier III"</string>
+    <string name="twoeuro_comm_2023_mc_desc">"de munt toont het portret van Prins Rainier III. Bovenaan staat in een halve cirkel de naam van het uitgevende land “MONACO”, gevolgd door het jaar van uitgifte “2023”. Onderaan staat de inscriptie “RAINIER III”, gevolgd door de datum “31 MAI 1923”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_mc_volume">"25000"</string>
+    <string name="twoeuro_comm_2023_mc_date">"juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_es_2_title">"het Spaanse voorzitterschap van de Raad van de EU"</string>
+    <string name="twoeuro_comm_2023_es_2_desc">"het ontwerp bestaat uit twee beelden. Het eerste is het logo van het Spaanse voorzitterschap van de Raad van de EU. Rond het logo staat “ESPANA 2023 – PRESIDENCIA ESPANOLA” en “CONSEJO DE LA UNION EUROPEA” (Spanje 2023 – Spaans voorzitterschap en Raad van de Europese Unie). Het tweede beeld, onderaan op de munt, is een “M” met een kroon erop, het muntteken van de Fabrica Nacional de Moneda y Timbre Real Casa de la Moneda. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2023_es_2_date">"1 juni 2023"</string>
+
+    <string name="twoeuro_comm_2023_lv_title">"Oekraïense zonnebloem"</string>
+    <string name="twoeuro_comm_2023_lv_desc">"op de munt staat een zonnebloem, een van de nationale symbolen van Oekraïne, aangezien het land een van de grootste producenten en exporteurs van zonnebloemolie ter wereld is. Sinds het begin van de oorlog in Oekraïne is de zonnebloem een wereldwijd symbool voor vrede geworden. In de zomer van 1996 werden zonnebloemen voor het eerst als vredessymbool gebruikt. Toen werden ze geplant bij een militaire basis nabij Pervomaysk, ongeveer 250 kilometer ten zuiden van de hoofdstad Kyiv. Nu worden zonnebloemen wereldwijd gebruikt als symbool van vrede en steun aan Oekraïne. Bovenaan het muntstuk staat in een halve cirkel het opschrift “SLAVA UKRAINAI!” (Glorie aan Oekraïne) en onderaan, ook in een halve cirkel, de naam van het uitgevende land “LATVIJA”, gevolgd door het jaar van uitgifte “2023”. Het ontwerp is van de hand van Lets kunstenaar Krišs Salmanis. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
+    <string name="twoeuro_comm_2023_lv_date">"mei 2023"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"deelname van Portugal aan de 33e Olympische Spelen"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"Ontwerp:het ontwerp bestaat uit een reeks elementen die samen een hart vormen, wat een groepsknuffel moet voorstellen. Rond het hart bevinden zich 15 cirkels, een verwijzing naar de Olympische ringen en de werelddelen die ze vertegenwoordigen. De punt van het hart wordt gevormd door het Portugese wapenschild. In het midden van de “knuffel” bevindt zich het logo van het Portugees Olympisch Comité, waarmee wordt gesuggereerd dat de harten van de Portugezen collectief zullen slaan voor het Portugese Olympische team tijdens de Olympische Spelen van 2024 in Parijs. Onder het hart staan het opschrift “Equipa Olímpica Portugal” en het jaartal “2024”, links het muntteken “Casa da Moeda” en rechts de naam van de ontwerper. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"Datum van uitgifte:juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"de 50e verjaardag van 25 april 1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"Ontwerp:25 april 1974 is de datum van de revolutie die aan de oorsprong lag van de invoering van het democratisch bestuur in Portugal en die het begin inluidde van een reeks ingrijpende economische, sociale en culturele veranderingen die tot de europeanisering van het land hebben geleid. In het midden van het ontwerp staat een anjer, die de revolutie symboliseert en omringd is met meerdere excentrieke cirkels. Die suggereren dat het gedrag en de overtuigingen van mensen in de loop der jaren kunnen veranderen, maar in wezen trouw blijven aan de beginselen van de revolutie. Aan de rechterrand staat het vers “Esta é a madrugada que eu esperava” (Dit is de dageraad waar ik op wachtte) en de naam van de auteur, dichtster Sophia de Mello Breyner Andresen. Links van het nationale wapenschild staan de opschriften “Portugal” en “25 april 1974_2024” met daarachter de naam van de ontwerper en het muntteken “Casa da Moeda”, de naam van de Portugese Munt. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_po_volume">"515000"</string>
+    <string name="twoeuro_comm_2024_po_date">"Datum van uitgifte:april 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_title">"verkiezingen en democratie"</string>
+    <string name="twoeuro_comm_2024_fi_desc">"Ontwerp:het ontwerp geeft gestileerde stembiljetten weer. De stembiljetten bestaan uit cirkels en rechthoeken. Het onderwerp is abstract, maar nog steeds herkenbaar. Er zijn acht stembiljetten die elkaar gedeeltelijk overlappen, en in die overlappingen ontstaan weer andere, kleinere geometrische vormen. Onderaan staat het jaartal 2024. Het opschrift “FI” bevindt zich iets boven de middellijn aan de rechterkant. De tekst VAALIT ♦ DEMOKRATIA staat in een boog aan de rechterkant van de munt. De tekst VAL ♦ DEMOKRATI staat in een boog aan de linkerkant. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_date">"Datum van uitgifte:voorjaar 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_2_title">"Strijd tegen kanker in België"</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"Ontwerp:het ontwerp bevat in het midden een lint, dat wordt gebruikt als universeel symbool om betrokkenheid te tonen bij de strijd tegen kanker. Het krullende lint strekt zich verder uit naar beide kanten, wat symbool staat voor de weergave van een hartslag op een monitor en zo een uitdrukking is van leven en vitaliteit. Bovenaan zijn drie lijnen zichtbaar die verwijzen naar een regenboog (een symbool voor hoop en troost). Op de onderste lijn zijn de landcode BE en het jaartal 2024 toegevoegd. Onderaan het stuk staan opschriften in het Frans en het Nederlands: “Lutte contre le cancer” – “Strijd tegen kanker”.  De initialen van de ontwerpster Iris Bruijns bevinden zich links boven de opschriften. Aangezien de Koninklijke Nederlandse Munt de munt zal slaan, bevindt zich helemaal aan de onderkant het muntteken van Utrecht, een mercuriusstaf, naast het Belgische muntmeesterteken, een aster voor een erlenmeyer. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"Datum van uitgifte:mei 2024"</string>
+
+    <string name="twoeuro_comm_2024_be_title">"Belgisch voorzitterschap van de Raad van de EU"</string>
+    <string name="twoeuro_comm_2024_be_desc">"Ontwerp:op de munt staat een zwerm vogels (zwaluwen) die de werking van de EU symboliseert. Zij bewegen zich voort als een groep, maar elk lid krijgt wel zijn eigen bewegingsvrijheid. Dit creëert een complexe en dynamische eenheid. De zwerm staat dus in de eerste plaats voor samenhorigheid. Tijdens de vlucht van de zwaluwen is er altijd één die de leiding neemt en de rest van de groep meetrekt. In de eerste helft van 2024 vervult België deze rol. De 27 vogels symboliseren ook het totale aantal EU-lidstaten. De landcode “BE” bevindt zich rechtsboven tussen de vogels. Onder de zwerm vogels staat op de onderste vrije ruimte de beschrijving “BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024” (Belgische voorzitterschap van de Raad van de EU 2024). Uiterst links staan de initialen van de ontwerpster, Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt zal slaan, bevindt zich uiterst links het muntteken van Utrecht, een mercuriusstaf. Daarboven staat het Belgische muntmeesterteken, een aster voor een erlenmeyer. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
+    <string name="twoeuro_comm_2024_be_date">"Datum van uitgifte:eerste kwartaal van 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – de oude stad van Varaždin)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"Ontwerp:het ontwerp toont het kasteel van Varaždin (12e - 16e eeuw). Varaždin werd voor het eerst vermeld in 1181. Nadat het zwaar werd getroffen door de invallen van de Mongolen in 1242, werd het omgebouwd tot een koninklijk fort, dat later bekend zou worden als de oude stad. Het voorkomen ervan is in de loop der eeuwen veranderd: eerst was het een sterke middeleeuwse burcht waaromheen met water gevulde slotgrachten lagen, daarna het belangrijkste fort en arsenaal van de Slavonische Militaire Grens en het militaire hoofdkwartier van Varaždin, en vervolgens een mooi Renaissancekasteel. Tegenwoordig is de oude stad het belangrijkste en meest indrukwekkende historische bouwwerk van de stad Varaždin en een monument in de hoogste categorie van het Kroatische architectonische erfgoed. Verder staan de naam van het land van uitgifte “HRVATSKA” (Kroatië), het jaar van uitgifte “2024” en de woorden “STARI GRAD VARAŽDIN” (de oude stad van Varaždin) in een boog aan de boven- en onderkant van het ontwerp. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_date">"Datum van uitgifte:juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"50e verjaardag van de verklaring van de rechten van de burgers en de fundamentele beginselen van San Marino"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"Ontwerp:in het midden staat een afbeelding van een opengeslagen boek met het opschrift “I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI” (De rechten van de mens zijn onschendbaar), dat is overgenomen uit artikel 5 van wet nr. 59 van 8 juli 1974 (Verklaring van de rechten van de burgers en de fundamentele beginselen van de San Marinese rechtsorde). Bovenaan staan de silhouetten van het Vrijheidsbeeld en het Palazzo Pubblico, evenals de naam van het land van uitgifte “SAN MARINO”. Links staat de letter “R” voor het munthuis van Rome. Onderaan bevinden zich het jaar van uitgifte “2024” en de initialen van de graveerder Emanuele Ferretti (“E.F. INC.”). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_date">"Datum van uitgifte:april 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_title">"50e verjaardag van het herstel van de democratie in Griekenland"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"Ontwerp:het ontwerp bestaat uit het Griekse parlementsgebouw, dat wordt omringd door de woorden “50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ” (50e VERJAARDAG VAN HET HERSTEL VAN DE DEMOCRATIE IN GRIEKENLAND) en “ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (HELLEENSE REPUBLIEK). Daaronder staat een palmet (muntteken van de Griekse Munt). De val van het kolonelsregime op 24 juli 1974 luidde het herstel van de democratie in Griekenland in, na een dictatuur van zeven jaar. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_date">"Datum van uitgifte:juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_gr_2_title">"150e geboortedag van Penelope Delta"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"Ontwerp:het ontwerp bestaat uit een portret van Penelope Delta. Het portret wordt omringd door de woorden “ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941” (PENELOPE DELTA 1874-1941) en “ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (HELLEENSE REPUBLIEK). Links staat een palmet (muntteken van de Griekse Munt) en rechts het jaar van uitgifte. Penelope Delta was een pionier van de Griekse kinderliteratuur. Generaties Griekse kinderen zijn opgegroeid met haar boeken, die nog steeds populair zijn. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"Datum van uitgifte:juli 2024"</string>
+
+    <string name="twoeuro_comm_2024_ee_title">"de korenbloem – Estse nationale bloem"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"Ontwerp:het ontwerp toont links bovenaan het silhouet van een korenbloem met de tekst “CENTAUREA CYANUS” (korenbloem in het Latijn) in een halve cirkel. Onderaan staat de naam van het land van uitgifte “EESTI” (Estland) met daaronder het jaar van uitgifte “2024”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_ee_date">"Datum van uitgifte:tweede kwartaal 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_2_title">"de Eiffeltoren"</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"Ontwerp:in de aanloop naar de Olympische Spelen van Parijs van 2024 brengt de Monnaie de Paris zowel de stad Parijs als het Franse erfgoed onder de aandacht. 100 jaar na de Spelen van 1924 organiseert de Franse hoofdstad opnieuw de zomerspelen. Dit is een evenement met internationale weerklank dat in 2024 gevierd wordt met twee aan de Olympische Spelen gewijde herdenkingsmunten van twee euro. Het ontwerp geeft Frankrijk weer met iconische gebouwen: de Eiffeltoren en de Notre-Dame de la Garde-basiliek in Marseille worden samen afgebeeld. Op de achtergrond staat een Tiare-bloem symbool voor het eiland Tahiti, waar de surfwedstrijden zullen plaatsvinden. De Eiffeltoren is in beweging en belichaamt zo de waarden van sport. De armen van de toren bestaan uit 73 klinknagels die de gastgemeenschappen vertegenwoordigen. Voor het eerst worden de Olympische en Paralympische symbolen samen afgebeeld om de Spelen voor iedereen te vieren. Op de atletiekbaan zijn het jaartal, de aanduiding van het land van uitgifte “RF” en de munttekens aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"Datum van uitgifte:mei 2024"</string>
+
+    <string name="twoeuro_comm_2024_fr_title">"Olympische spelen 2024 - Worstelen"</string>
+    <string name="twoeuro_comm_2024_fr_desc">"Ontwerp:in de aanloop naar de Olympische Spelen van Parijs van 2024 brengt de Monnaie de Paris zowel de stad Parijs als het Franse erfgoed onder de aandacht. 100 jaar na de Spelen van 1924 organiseert de Franse hoofdstad opnieuw de zomerspelen. Dit is een evenement met internationale weerklank dat in 2024 gevierd wordt met twee aan de Olympische Spelen gewijde herdenkingsmunten van twee euro. Op dit ontwerp staat Hercules afgebeeld, een nationale figuur en een icoon in de Franse numismatiek, die een vorm van antiek worstelen beoefent met de Chimera van Notre-Dame. Dit verwijst naar de klassieke Olympische Spelen. Beide worstelaars worden afgebeeld voor de Notre Dame. Op de achtergrond staat een atletiekbaan met links het embleem van Parijs 2024. Het jaar van uitgifte, de vermelding 'RF' voor de Franse Republiek en de munttekens staan vermeld op de atletiekbaan. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
+    <string name="twoeuro_comm_2024_fr_date">"Datum van uitgifte:januari 2024"</string>
+
+    <string name="twoeuro_comm_2024_mt_title">"de Maltese honingbij"</string>
+    <string name="twoeuro_comm_2024_mt_desc">"Ontwerp:het ontwerp is gecreëerd door Maria Anna Frisone en toont de Maltese honingbij (Apis mellifera ruttneri), een van de endemische dier- en plantensoorten op de Maltese eilanden. Het ontwerp beeldt de bij af met een bloem en een honingraat op de achtergrond. De munt vergroot het bewustzijn rond een van de endemische soorten van Malta en geeft het werk van de bij weer, die bloemen bestuift en honing maakt. Aan de linkerkant staat het opschrift van het land van uitgifte, “MALTA”, en aan de rechterkant het jaar van uitgifte, “2024”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
+    <string name="twoeuro_comm_2024_mt_date">"Datum van uitgifte:juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_mc_title">"500e verjaardag van de ondertekening van het verdrag met keizer Karel V"</string>
+    <string name="twoeuro_comm_2024_mc_desc">"Ontwerp:het ontwerp geeft de beeltenis weer van keizer Karel V. Bovenaan staat de naam van het land van uitgifte “MONACO” in een halve cirkel. Onderaan staat het opschrift “1524 – TRAITÉ AVEC CHARLES QUINT (verdrag met keizer Karel V) – 2024”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2024_mc_date">"Datum van uitgifte:juni 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_title">"de 200e verjaardag van de oprichting van de nationale politie als staatsveiligheidskorps"</string>
+    <string name="twoeuro_comm_2024_es_desc">"Ontwerp:het ontwerp toont het embleem van de nationale politie. Daaromheen staat het opschrift “ESPAÑA – POLICÍA NACIONAL 1824-2024”. In het deel rechts onderaan van het embleem staat het muntmerk “Eme Coronada”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_date">"eerste kwartaal van 2024"</string>
+
+    <string name="twoeuro_comm_2024_es_2_title">"de erkenning van Sevilla als Unesco-werelderfgoed (Kathedraal, Alcázar en Archivo de Indias in Sevilla)"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"Ontwerp:het ontwerp toont een beeld van de “Patio de las Doncellas” van het Alcázar van Sevilla. Bovenaan staat, in hoofdletters en gebogen, het opschrift “SEVILLA”, met eronder het muntmerk “Eme Coronada”. Onderaan staan het opschrift “ESPAÑA” (eveneens in hoofdletters en gebogen) en het jaar van uitgifte, “2024”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"Datum van uitgifte:eerste kwartaal van 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"150e geboortedag van Guglielmo Marconi"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"Ontwerp:het ontwerp geeft in het midden het portret van Marconi weer, met rechts het portret van paus Pius XI en links dat van zijn opvolger Pius XII. Rechts bovenaan staat het opschrift “GUGLIELMO MARCONI” in een halve cirkel, met daaronder de jaartallen “1874” en “2024”. Onderaan staat het opschrift “CITTÀ DEL VATICANO”, gevolgd door de naam van de ontwerper “L. PANCOTTO” (Loredana Pancotto). Links staat het muntteken “R”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"Datum van uitgifte:mei 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"de 175e verjaardag van de Grondwet voor het Duitse Rijk (ook bekend als de Grondwet van de Pauluskerk; de eerste poging om een verenigde Duitse natiestaat te creëren)"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"Ontwerp:het ontwerp bestaat uit verschillende thematische lagen. Op de voorgrond staat een beeld van de Pauluskerk met de vertegenwoordigers van de nationale grondwetgevende vergadering die het gebouw binnengaan. Daarachter zijn de grondwet en een ganzenveer zichtbaar; die stellen het resultaat van de Nationale Vergadering van Frankfurt voor. Drie vrouwelijke allegorieën – Eenheid, Recht en Vrijheid – en de driekleur van zwart, rood en goud voltooien het ontwerp. Het levendige driedimensionale reliëf roept de tijdloosheid op van de democratische basisbeginselen die voor het eerst schriftelijk en als hoeksteen in de Grondwet voor het Duitse Rijk zijn neergelegd. Op de binnenste cirkel van de munt staat ook de vermelding “PAULSKIRCHENVERFASSUNG 1849” (Grondwet voor het Duitse Rijk 1849), met onderaan het jaar van uitgifte, “2024”, de landcode van uitgifte van Duitsland, “D”, het muntmerk van de desbetreffende munt (“A”, “D”, “F”, “G” of “J”) en de initialen van de kunstenaar, Bodo Broschat uit Berlijn. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"Datum van uitgifte:maart 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
+    <string name="twoeuro_comm_2024_de_desc">"Ontwerp:de munt is gewijd aan de Duitse deelstaat Mecklenburg-Vorpommern. Het is de tweede uitgifte in de tweede reeks Duitse herdenkingsmunten van €2 met Duitse deelstaten. Elk jaar wordt een van de 16 deelstaten geëerd met een munt waarop een belangrijk gebouw of herkenningspunt is afgebeeld. De volgorde van de deelstaten is gebaseerd op het roulerende voorzitterschap van de Bondsraad, die een van de vijf permanente constitutionele organen van de Bondsrepubliek Duitsland is en de belangen van de deelstaten vertegenwoordigt. Het ontwerp verbeeldt de Königsstuhl, een iconische formatie krijtrotsen en beukenbossen in het Nationaal Park Jasmund op het eiland Rügen. De kliffen zijn vanaf de kustlijn afgebeeld, wat de monumentaliteit van dit unieke natuurlijke herkenningspunt erg doeltreffend benadrukt. Door zee, vogel en mens te combineren ontstaat er diepte in het mooie, gedetailleerde beeld. Het moderne lettertype vormt één geheel met de vliegende zeemeeuw en is vakkundig in het reliëf geïntegreerd. De bovenste helft van de binnenste cirkel van de munt bevat het opschrift “MECKLENBURG VORPOMMERN”, het jaar van uitgifte, “2024”, de landcode van uitgifte van Duitsland, “D”, en, rechts bovenaan, de letter “X” als plaatsvervanger voor het muntmerk van de desbetreffende munt (“A”, “D”, “F”, “G” of “J”). De initialen van de kunstenaar, Michael Otto (uit Rodenbach in Duitsland), staan in de onderste helft van de binnenste cirkel. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2024_de_date">"Datum van uitgifte:januari 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_2_title">":de 175e verjaardag van het overlijden van groothertog Guillaume II"</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":het ontwerp toont links het standbeeld van groothertog Guillaume II op een paard en rechts de beeltenis van groothertog Henri die naar links kijkt. De teksten 'GROUSSHERZOGE VU LÉTZEBUERG” en 'GUILLAUME II 1792-1849” staan linksboven in een boog. Om dit jubileum te vieren staan het jaartal “2024” en het cijfer “175” onder de beeltenis van groothertog Henri. Aangezien het land van herkomst van de Munt nog niet bekend is, zou de tijdelijke aanduiding van het muntmerk vervangen kunnen worden. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_2_date">"januari 2024"</string>
+
+    <string name="twoeuro_comm_2024_lu_title">":de 100e verjaardag van de ondertekening door groothertogin Charlotte van het decreet betreffende de uitgifte van een nikkelen muntje dat meestal 'Feierstëppler” genoemd werd."</string>
+    <string name="twoeuro_comm_2024_lu_desc">":in het midden van het ontwerp staat het Luxemburgse muntje van 1924 waarop een handarbeider in de staalindustrie afgebeeld is. Deze afbeelding maakt deel uit van het cijfer “100” om de verjaardag van de eerste afgifte van de Luxemburgse frank die het langst circuleerde te vieren. De naam van het land van uitgifte LÉTZEBUERG en het jaar van uitgifte 2024 staan bovenaan. Onderaan staat het woord 'FEIERSTËPPLER', de gangbare benaming voor deze munt. Het monogram (letter “H” met een kroon) staat voor de groothertog Henri. Aangezien het land van herkomst van de Munt nog niet bekend is, zou de tijdelijke aanduiding van het muntmerk vervangen kunnen worden. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_lu_date">"januari 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_title">"de 250e verjaardag van de oprichting van de Guardia di Finanza"</string>
+    <string name="twoeuro_comm_2024_it_desc">"Ontwerp:in het midden van de munt wordt een gestileerde versie van het heraldische symbool van het korps Guardia di Finanza afgebeeld. Het verbeeldt het concept van veiligheid en de toekomstvisie van het legerkorps die het verleden viert, door ook te kijken naar de komende jaren en de uitdagingen die het zal blijven aanpakken. Dit embleem bestaat uit verschillende elementen: een berg, de zee en de lucht. Dit is de natuurlijke omgeving waarin het korps actief is. Ook de griffioen wordt afgebeeld, een mythologisch dier dat volgens de legende schatten bewaakt, die hier worden voorgesteld als een schatkist, samen met een met torens versierde kroon. Bovenaan staat in een halve cirkel de inscriptie “GUARDIA DI FINANZA”. Onderaan staan “RI”, het acroniem van Italië en de datums “1774-2024”, het jaar van de oprichting van het korps van de Guardia di Finanza en het jaar van de afgifte van de munt. Rechts staat “R” voor het munthuis van Rome en “MB”, de initialen van de ontwerpster Marta Bonifacio. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_date">"Datum van uitgifte:januari 2024"</string>
+
+    <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
+    <string name="twoeuro_comm_2024_it_2_desc">"Ontwerp:het ontwerp toont op de voorgrond het portret van Rita Levi-Montalcini in half profiel, dat is geïnspireerd op de foto’s van Manuela Fabbri. Op de achtergrond staat een microscoop die gebaseerd is op een medaille die ontworpen werd door de broer van deze gerenommeerde wetenschapper, Gino Levi-Montalcini. De onderkant van de microscoop is hoefijzervormig en verwijst naar haar succes als Nobelprijswinnaar voor geneeskunde van 1986. Onderaan staat “RITA LEVI-MONTALCINI” in een boog, links “RI” het acroniem voor Italië en “R” voor het munthuis van Rome, eronder “2024”, het jaar van afgifte, en rechts “SP”, de initialen van de ontwerpster Silvia Petrassi. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"Datum van uitgifte:januari 2024"</string>
 
     <!-- END auto generated code for language nl -->
 
