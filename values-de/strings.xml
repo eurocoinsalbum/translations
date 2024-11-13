@@ -343,21 +343,28 @@
     <string name="transfer_collection_hint_email">"Wenn Sie eine bestehende Sammlung übertragen möchten, müssen Sie die gleiche E-Mail-Adresse registrieren, die Sie auf Ihrem alten Gerät verwendet haben!"</string>
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Do you want to transfer your collections from an old device?"</string>
-    <string name="transfer_ask_old_device">"Do you have access to your old device?"</string>
-    <string name="transfer_show_code_instructions">"On your old device open the app's menu, select '%1$s' '%2$s' and enter the code '%3$s'. The code is valid for 10 minutes."</string>
-    <string name="action_enter_transfer_code">"Enter transfer code"</string>
-    <string name="enter_transfer_code_not_exists">"This option does not exist on my old device."</string>
-    <string name="enter_transfer_code_update_app">"Please update the app on your old device."</string>
-    <string name="entered_transfer_code">"I have entered the code."</string>
-    <string name="transfer_code_not_registered_error">"Error occured. Transfer code was not registered. Check notifications and try again."</string>
-    <string name="transfer_code_not_confirmed">"Error occured. Transfer code '%1$s' was not confirmed."</string>
-    <string name="transfer_code_error">"Error occured."</string>
-    <string name="collections_transferred">"The following collections have been transferred: %1$s"</string>
-    <string name="transfer_code_confirmed">"Your collections are ready to be transferred to your new device. On your new device push the button '%1$s'"</string>
+    <string name="app_first_usage_ask_transfer">"Möchten Sie Ihre Sammlung von einem anderen Gerät übertragen?"</string>
+    <string name="transfer_ask_old_device">"Haben zu Zugang zu Ihrem anderen Gerät?"</string>
+    <string name="transfer_show_code_instructions">"Öffnen Sie auf Ihrem anderen Gerät das Menü in der App, wählen '%1$s' '%2$s' aus und geben den folgenden Transfer-Code ein '%3$s'. Dieser Transfer-Code ist 10 Minuten gültig."</string>
+    <string name="action_enter_transfer_code">"Geben Sie den Transfer-Code ein."</string>
+    <string name="enter_transfer_code_not_exists">"Diese Möglichkeit besteht nicht auf meinem anderen Gerät."</string>
+    <string name="enter_transfer_code_update_app">"Bitte aktualisieren Sie die App auf Ihrem anderen Gerät."</string>
+    <string name="entered_transfer_code">"Ich habe den Transfer-Code eingegeben."</string>
+    <string name="transfer_code_not_registered_error">"Es ist ein Fehler aufgetreten. Dieser Transfer-Code wurde nicht registriert. Kontrollieren Sie die Fehlermeldungen im App Menü und versuchen Sie es erneut."</string>
+    <string name="transfer_code_not_confirmed">"Es ist ein Fehler aufgetreten. Der Transfer-Code '%1$s' wurde nicht bestätigt."</string>
+    <string name="transfer_code_error">"Es ist ein Fehler aufgetreten."</string>
+    <string name="collections_transferred">"Dies folgende Sammlung wurde erfolgreich auf das Gerät transferiert: %1$s"</string>
+    <string name="transfer_code_confirmed">"Ihre Sammlungen sind nun vorbereitet, um auf das neue Gerät übertragen zu werden. Drücken Sie auf Ihrem neuen Gerät den Button '%1$s'"</string>
 
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Münze im Blister"</string>
+
+    <!-- version 7.7 -->
+    <string name="only_one_collection">"Dies ist Ihre einzige Sammlung."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Münzgruppen beim Länderwechsel schließen"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Anzahl der geprägten Münzen anzeigen"</string>
 
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
@@ -406,11 +413,13 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 7.6.6\n
-Android-Version aktualisiert.
+    <string name="version_history_current">"Version 7.8\n
+Anzahl der geprägten Münzen anzeigen.\n
+Neue Einstellung: Münzgruppen beim Länderwechsel schließen.\n
+Neue Münzbilder für Frankreich Jahr 2024: 10 Cent, 20 Cent und 50 Cent.
     "</string>
 
-    <string name="version_history_current">"Version 7.7\n
+    <string name="version_history_last">"Version 7.7\n
 Farbauswahl der Spalten geändert.\n
 2€ Gedenkmünzen 2024 hinzugefügt.\n
 Android-Version aktualisiert.

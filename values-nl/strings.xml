@@ -364,6 +364,13 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Munt in blister"</string>
 
+    <!-- version 7.7 -->
+    <string name="only_one_collection">"Je hebt alleen deze verzameling."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Sluit muntgroepen op landenschakelaar"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Aantal geslagen munten weergeven"</string>
+
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
 - Lees alle deze zorgvuldig! Anders kun je teleurgesteld worden door de handel functionaliteit.
@@ -412,11 +419,13 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.6.6\n
-2€ herdenkingsmunten 2024 toegevoegd.
+    <string name="version_history_current">"Versie 7.8\n
+Toon aantal geslagen munten.\n
+Nieuwe instelling: sluit muntgroepen bij het wijzigen van land.\n
+Nieuwe muntafbeeldingen voor Frankrijk jaar 2024: 10 cent, 20 cent en 50 cent.
     "</string>
 
-    <string name="version_history_current">"Versie 7.7\n
+    <string name="version_history_last">"Versie 7.7\n
 Kleurkiezer van de kolommen gewijzigd.\n
 2€ herdenkingsmunten 2024 toegevoegd.\n
 Android-versie bijgewerkt.

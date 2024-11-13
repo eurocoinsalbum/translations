@@ -367,6 +367,13 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Moneda en blister"</string>
 
+    <!-- version 7.7 -->
+    <string name="only_one_collection">"You have only this collection."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Cerrar grupos de monedas en el cambio de país"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Mostrar el número de monedas acuñadas"</string>
+
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
 - leer todo esto con cuidado! De lo contrario puede ser decepcionado por la funcionalidad de comercio.
@@ -415,11 +422,13 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.6.6\n
-Versión Android actualizada.
+    <string name="version_history_current">"Versión 7.8\n
+Mostrar el número de monedas acuñadas.\n
+Nueva configuración: cerrar grupos de monedas al cambiar de país.\n
+Nuevas imágenes de monedas para el año 2024 en Francia: 10 céntimos, 20 céntimos y 50 céntimos.
     "</string>
 
-    <string name="version_history_current">"Versión 7.7\n
+    <string name="version_history_last">"Versión 7.7\n
 Cambiado el selector de color de las columnas.\n
 2€ monedas conmemorativas 2024 añadido.\n
 Versión Android actualizada.

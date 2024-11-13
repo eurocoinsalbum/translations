@@ -362,6 +362,13 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Moneta in blister"</string>
 
+    <!-- version 7.7 -->
+    <string name="only_one_collection">"Avete solo questa collezione."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Chiudere i gruppi di monete sull'interruttore nazionale"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Mostra il numero di monete coniate"</string>
+
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
 - Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
@@ -410,11 +417,13 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.6.6\n
-Versione Android aggiornata.
+    <string name="version_history_current">"Versione 7.8\n
+Mostra il numero di monete coniate.\in
+Nuova impostazione: chiudi i gruppi di monete quando cambi Paese\n
+Nuove immagini delle monete per la Francia anno 2024: 10 centesimi, 20 centesimi e 50 centesimi
     "</string>.
 
-    <string name="version_history_current">"Versione 7.7\n
+    <string name="version_history_last">"Versione 7.7\n
 Modifica della scelta dei colori delle colonne.\n
 Aggiunte le monete commemorative da 2€ 2024.\n
 Versione Android aggiornata.

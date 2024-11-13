@@ -368,6 +368,13 @@
 	<!-- version 7.6 -->
 	<string name="coin_in_blister">"Mynt i blister"</string>
 
+	<!-- version 7.7 -->
+	<string name="only_one_collection">"Du har bara den här samlingen."</string>
+	<string name="pref_close_coin_groups_on_country_switch">"Stäng myntgrupper på landsväxel"</string>
+
+	<!-- version 7.8 -->
+	<string name="pref_show_minted">"Visa antal präglade mynt"</string>
+
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
 - läs allt detta noga! Annars kan bli besviken av handelsfunktionalitet.
@@ -416,11 +423,13 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.6.6\n
-Android-versionen uppdaterad.
+	<string name="version_history_current">"Version 7.8\n
+Visa antal präglade mynt.\n
+Ny inställning: stäng myntgrupper när du byter land.\n
+Nya myntbilder för Frankrike år 2024: 10 cent, 20 cent och 50 cent.
 	"</string>
 
-	<string name="version_history_current">"Version 7.7\n
+	<string name="version_history_last">"Version 7.7\n
 Ändrad färgväljare av kolumnerna.\n
 2€ minnesmynt 2024 tillagda.\n
 Android-versionen uppdaterad.

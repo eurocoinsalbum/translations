@@ -374,12 +374,16 @@
     <string name="coin_in_blister">"Coin in blister"</string>
 
     <!-- version 7.7 -->
-    <string name="interested_in_trading_title">"Trading with other users"</string>
-    <string name="interested_in_trading">"Are you interested in learning about the feature how to trade coins with other users?"</string>
+    <string name="only_one_collection">"This is your one and only collection."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Close coin groups on country switch"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Show number of minted coins"</string>
 
     <!-- Trading text change -->
     <!-- version 8.0 -->
-    <string name="only_one_collection">"You have only this collection."</string>
+    <string name="interested_in_trading_title">"Trading with other users"</string>
+    <string name="interested_in_trading">"Are you interested in learning about the feature how to trade coins with other users?"</string>
 
     <string name="how_trading_partner_works">"
 - The trading functionality is NOT for resellers and it is for PRIVATE usage only!
@@ -432,11 +436,13 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.6.6\n
-Android version updated.
+    <string name="version_history_current">"Version 7.8\n
+Show number of minted coins.\n
+New setting: Close coin groups on country switch\n
+New coin images for France year 2024: 10 cent, 20 cent and 50 cent
         "</string>
 
-    <string name="version_history_current">"Version 7.7\n
+    <string name="version_history_last">"Version 7.7\n
 Changed color-chooser of the columns.\n
 2€ commemorative coins 2024 added.\n
 Android version updated.

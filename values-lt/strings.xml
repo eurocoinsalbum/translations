@@ -140,11 +140,20 @@
 	<!-- version 7.6 -->
 	<string name="coin_in_blister">"Moneta lizdinėje plokštelėje"</string>
 
-	<string name="version_history_last">"Versija 7.6.6\n
-Atnaujinta „Android“ versija.
+	<!-- version 7.7 -->
+	<string name="only_one_collection">"Jūs turite tik šią kolekciją."</string>
+	<string name="pref_close_coin_groups_on_country_switch">"Uždarykite monetų grupes šalies jungiklyje"</string>
+
+	<!-- version 7.8 -->
+	<string name="pref_show_minted">"Parodyti nukaldintų monetų skaičių"</string>
+
+	<string name="version_history_current">"Versija 7.8\n
+Rodyti nukaldintų monetų skaičių.\n
+Naujas nustatymas: uždarykite monetų grupes keičiant šalį.\n
+Nauji monetų atvaizdai Prancūzijai 2024 m.: 10 centų, 20 centų ir 50 centų.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.7\n
+	<string name="version_history_last">"Versija 7.7\n
 Pakeista stulpelių spalvų pasirinkimo funkcija.\n
 Pridėtos 2 € 2024 m. proginės monetos.\n
 Atnaujinta „Android“ versija.

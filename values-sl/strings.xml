@@ -232,11 +232,20 @@
     <!-- version 7.6 -->
     <string name="coin_in_blister">"Mynt i blister"</string>
 
-    <string name="version_history_last">"Različica 7.6.6\n
-Posodobljena različica za Android.
+    <!-- version 7.7 -->
+    <string name="only_one_collection">"Na voljo imate le to zbirko."</string>
+    <string name="pref_close_coin_groups_on_country_switch">"Zaprite skupine kovancev na državnem stikalu"</string>
+
+    <!-- version 7.8 -->
+    <string name="pref_show_minted">"Prikaži število kovancev"</string>
+
+    <string name="version_history_current">"Različica 7.8\n
+Prikaži število kovanih kovancev.\n
+Nova nastavitev: zaprite skupine kovancev pri menjavi države.\n
+Nove slike kovancev za francosko leto 2024: 10 centov, 20 centov in 50 centov.
     "</string>
 
-    <string name="version_history_current">"Različica 7.7\n
+    <string name="version_history_last">"Različica 7.7\n
 Spremenjen izbirnik barv stolpcev.\n
 Dodani spominski kovanci za 2 € 2024.\n
 Posodobljena različica za Android.
