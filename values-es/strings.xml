@@ -374,6 +374,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Mostrar el número de monedas acuñadas"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"K"</string>
+    <string name="abr_millions">"M"</string>
+    <string name="abr_billions">"Mil"</string>
+
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
 - leer todo esto con cuidado! De lo contrario puede ser decepcionado por la funcionalidad de comercio.
@@ -381,12 +386,8 @@
 - Se concede permiso para publicar cualquier información (notas, imágenes, nombre, dirección de correo electrónico, país, ...) de su colección mediante la funcionalidad de comercio.
 - Puede el comercio de monedas con otros usuarios, pero utilizando la funcionalidad de comercio de esta aplicación no debe ser considerada como una oferta o como un contrato en términos legales! Cualquier cosa que hacer o ver en esta aplicación - No es obligatoria para cualquier persona para cualquier cosa.
 - La funcionalidad de comercio puede encontrar socios comerciales para su colección seleccionada en ese momento.
-- Para encontrar un socio comercial primero tiene que dar a su colección un nombre público que será visible a los demás y compartir su colección al público.
-- Todas las monedas de su colección estarán a disposición de los demás, excepto para la selección de todas las que ha especificado en la configuración de 'Trading: monedas para mantener'.
-- Puede explicitally excluir las monedas individuales y les impiden ser negociados a través de la propiedad de la moneda 'bloque comercial'. Tienen en cuenta que las monedas incluso bloqueados serán visibles para el público.
-- Si usted no quiere que todas sus monedas están disponibles para el comercio de lo que tiene que dividir su primera colección.
-- Su colección tiene que conseguir un nombre público que también será visible para los demás. Lo mismo se aplica a su dirección de e-mail.
-- Toda la información dentro de su colección será visible para el público (notas, ...). Mediante la adición de información que de acuerdo en añadir única información válida acerca de la moneda. Cualquier abuso puede ser reportado por otros y podría conducir a la eliminación de su cuenta.
+- Para encontrar un socio comercial primero tiene que dar a su col
+        para el público (notas, ...). Mediante la adición de información que de acuerdo en añadir única información válida acerca de la moneda. Cualquier abuso puede ser reportado por otros y podría conducir a la eliminación de su cuenta.
 - Se puede seleccionar una imagen o tomar una foto y asignarla a una moneda. Cualquier imagen asignada será visible para el público. Al hacerlo, usted está de acuerdo con las imágenes asigne sólo donde tiene los derechos para hacerlo y que muestra solamente la moneda correspondiente. Cualquier abuso puede ser reportado por otros y podría conducir a la eliminación de su cuenta.
 - Un abuso de la función abuso puede llevar a la eliminación de su cuenta.
 - Usted recibirá una colección socio comercial por solicitud. Puede enlazar con el socio comercial se muestra o requenst la siguiente. Una vez que tienes todos los socios comerciales de la búsqueda comenzará de nuevo.
@@ -422,16 +423,15 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.8\n
+    <string name="version_history_last">"Versión 7.8\n
 Mostrar el número de monedas acuñadas.\n
 Nueva configuración: cerrar grupos de monedas al cambiar de país.\n
 Nuevas imágenes de monedas para el año 2024 en Francia: 10 céntimos, 20 céntimos y 50 céntimos.
     "</string>
 
-    <string name="version_history_last">"Versión 7.7\n
-Cambiado el selector de color de las columnas.\n
-2€ monedas conmemorativas 2024 añadido.\n
-Versión Android actualizada.
+    <string name="version_history_current">"Versión 7.8.1\n
+Optimizada la visualización de monedas acuñadas.\n
+Corregido error en el registro de la segunda dirección de correo.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

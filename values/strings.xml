@@ -380,6 +380,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Show number of minted coins"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"k"</string>
+    <string name="abr_millions">"m"</string>
+    <string name="abr_billions">"bn"</string>
+
     <!-- Trading text change -->
     <!-- version 8.0 -->
     <string name="interested_in_trading_title">"Trading with other users"</string>
@@ -436,16 +441,15 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_current">"Version 7.8\n
+    <string name="version_history_last">"Version 7.8\n
 Show number of minted coins.\n
 New setting: Close coin groups on country switch\n
 New coin images for France year 2024: 10 cent, 20 cent and 50 cent
         "</string>
 
-    <string name="version_history_last">"Version 7.7\n
-Changed color-chooser of the columns.\n
-2€ commemorative coins 2024 added.\n
-Android version updated.
+    <string name="version_history_current">"Version 7.8.1\n
+Optimized display of minted coins.\n
+Fixed bug in registration of second mail address.
         "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

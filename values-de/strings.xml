@@ -366,6 +366,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Anzahl der geprägten Münzen anzeigen"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"Tsd"</string>
+    <string name="abr_millions">"Mio"</string>
+    <string name="abr_billions">"Mrd"</string>
+
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
@@ -413,16 +418,15 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.8\n
+    <string name="version_history_last">"Version 7.8\n
 Anzahl der geprägten Münzen anzeigen.\n
 Neue Einstellung: Münzgruppen beim Länderwechsel schließen.\n
 Neue Münzbilder für Frankreich Jahr 2024: 10 Cent, 20 Cent und 50 Cent.
     "</string>
 
-    <string name="version_history_last">"Version 7.7\n
-Farbauswahl der Spalten geändert.\n
-2€ Gedenkmünzen 2024 hinzugefügt.\n
-Android-Version aktualisiert.
+    <string name="version_history_current">"Version 7.8.1\n
+Anzeige der Anzahl der geprägten Münzen optimiert.\n
+Fehler bei der registrieren einer weitern Mailadresse behoben.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

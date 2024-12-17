@@ -373,6 +373,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Indicar o número de moedas cunhadas"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"mil"</string>
+    <string name="abr_millions">"mi"</string>
+    <string name="abr_billions">"bi"</string>
+
     <string name="how_trading_partner_works">"
 - A funcionalidade de negociação não é para principiantes.
 - Leia tudo isto com cuidado! Caso contrário, você pode ser decepcionado com a funcionalidade de negociação.
@@ -421,16 +426,15 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 7.8\n
+    <string name="version_history_last">"Versão 7.8\n
 Mostrar o número de moedas cunhadas.\n
 Nova configuração: fechar grupos de moedas ao mudar de país.\n
 Novas imagens de moedas para a França ano 2024: 10 cêntimos, 20 cêntimos e 50 cêntimos
     "</string>
 
-    <string name="version_history_last">"Versão 7.7\n
-Alterado o seletor de cores das colunas.\n
-Adicionadas moedas comemorativas de 2 euros de 2024.\n
-Versão Android actualizada.
+    <string name="version_history_current">"Versão 7.8.1\n
+Otimização da apresentação das moedas cunhadas.\n
+Corrigido o erro no registo do segundo endereço de correio.
     "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>

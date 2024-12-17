@@ -375,6 +375,11 @@
 	<!-- version 7.8 -->
 	<string name="pref_show_minted">"Visa antal präglade mynt"</string>
 
+	<!-- version 7.8.1 -->
+	<string name="abr_thousands">"tn"</string>
+	<string name="abr_millions">"mn"</string>
+	<string name="abr_billions">"md"</string>
+
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
 - läs allt detta noga! Annars kan bli besviken av handelsfunktionalitet.
@@ -423,16 +428,15 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 7.8\n
+	<string name="version_history_last">"Version 7.8\n
 Visa antal präglade mynt.\n
 Ny inställning: stäng myntgrupper när du byter land.\n
 Nya myntbilder för Frankrike år 2024: 10 cent, 20 cent och 50 cent.
 	"</string>
 
-	<string name="version_history_last">"Version 7.7\n
-Ändrad färgväljare av kolumnerna.\n
-2€ minnesmynt 2024 tillagda.\n
-Android-versionen uppdaterad.
+	<string name="version_history_current">"Version 7.8.1\n
+Optimerad visning av präglade mynt.\n
+Åtgärdat fel i registreringen av den andra e-postadressen.
 	"</string>
 
 

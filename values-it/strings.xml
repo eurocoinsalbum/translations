@@ -369,6 +369,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Mostra il numero di monete coniate"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"K"</string>
+    <string name="abr_millions">"Mln"</string>
+    <string name="abr_billions">"Mld"</string>
+
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
 - Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
@@ -417,16 +422,15 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"Versione 7.8\n
+    <string name="version_history_last">"Versione 7.8\n
 Mostra il numero di monete coniate.\in
 Nuova impostazione: chiudi i gruppi di monete quando cambi Paese\n
 Nuove immagini delle monete per la Francia anno 2024: 10 centesimi, 20 centesimi e 50 centesimi
     "</string>.
 
-    <string name="version_history_last">"Versione 7.7\n
-Modifica della scelta dei colori delle colonne.\n
-Aggiunte le monete commemorative da 2€ 2024.\n
-Versione Android aggiornata.
+    <string name="version_history_current">"Versione 7.8.1\n
+Ottimizzata la visualizzazione delle monete coniate.\n
+Corretto un bug nella registrazione del secondo indirizzo di posta.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

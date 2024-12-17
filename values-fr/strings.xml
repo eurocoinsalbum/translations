@@ -366,6 +366,11 @@
     <!-- version 7.8 -->
     <string name="pref_show_minted">"Afficher le nombre de pièces frappées"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="abr_thousands">"K"</string>
+    <string name="abr_millions">"M"</string>
+    <string name="abr_billions">"Md"</string>
+
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
 - Veuillez lire attentivement! Sinon, vous risquez d'être déçu par la fonctionnalité de négociation.
@@ -414,16 +419,15 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.8\n
+    <string name="version_history_last">"Version 7.8\n
 Afficher le nombre de pièces frappées.\n
 Nouveau paramètre : fermer les groupes de pièces lors du changement de pays.\n
 Nouvelles images de pièces pour la France année 2024 : 10 cents, 20 cents et 50 cents.
     "</string>
 
-    <string name="version_history_last">"Version 7.7\n
-Changement du sélecteur de couleur des colonnes.\n
-Pièces commémoratives de 2€ 2024 ajoutées.\n
-Mise à jour de la version Android.
+    <string name="version_history_current">"Version 7.8.1\n
+Optimisation de l'affichage des pièces frappées.\n
+Correction d'un bug dans l'enregistrement de la deuxième adresse e-mail.
     "</string>
 
     <string name="coin_1cent">"1 Centime"</string>
