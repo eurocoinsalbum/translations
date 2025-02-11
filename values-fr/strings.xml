@@ -419,15 +419,12 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.8\n
-Afficher le nombre de pièces frappées.\n
-Nouveau paramètre : fermer les groupes de pièces lors du changement de pays.\n
-Nouvelles images de pièces pour la France année 2024 : 10 cents, 20 cents et 50 cents.
+    <string name="version_history_last">"Version 7.8.2\n
+Fonctionnalité de balayage ajoutée sur le côté gauche pour afficher la sélection du pays.
     "</string>
 
-    <string name="version_history_current">"Version 7.8.1\n
-Optimisation de l'affichage des pièces frappées.\n
-Correction d'un bug dans l'enregistrement de la deuxième adresse e-mail.
+    <string name="version_history_current">"Version 7.9\n
+Ajout de pièces commémoratives de 2 euros 2025
     "</string>
 
     <string name="coin_1cent">"1 Centime"</string>

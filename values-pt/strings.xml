@@ -426,15 +426,12 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_last">"Versão 7.8\n
-Mostrar o número de moedas cunhadas.\n
-Nova configuração: fechar grupos de moedas ao mudar de país.\n
-Novas imagens de moedas para a França ano 2024: 10 cêntimos, 20 cêntimos e 50 cêntimos
+    <string name="version_history_last">"Versão 7.8.2\n
+Adicionada a funcionalidade de deslizar no lado esquerdo para exibir a seleção de países.
     "</string>
 
-    <string name="version_history_current">"Versão 7.8.1\n
-Otimização da apresentação das moedas cunhadas.\n
-Corrigido o erro no registo do segundo endereço de correio.
+    <string name="version_history_current">"Versão 7.9\n
+2 moedas comemorativas de euros 2025 adicionadas
     "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>

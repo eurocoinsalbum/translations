@@ -428,15 +428,12 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.8\n
-Visa antal präglade mynt.\n
-Ny inställning: stäng myntgrupper när du byter land.\n
-Nya myntbilder för Frankrike år 2024: 10 cent, 20 cent och 50 cent.
+	<string name="version_history_last">"Version 7.8.2\n
+Tillagd svepfunktion på vänster sida för att visa val av land.
 	"</string>
 
-	<string name="version_history_current">"Version 7.8.1\n
-Optimerad visning av präglade mynt.\n
-Åtgärdat fel i registreringen av den andra e-postadressen.
+	<string name="version_history_current">"Version 7.9\n
+2 euro jubileumsmynt 2025 tillagda
 	"</string>
 
 

@@ -441,15 +441,12 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.8\n
-Show number of minted coins.\n
-New setting: Close coin groups on country switch\n
-New coin images for France year 2024: 10 cent, 20 cent and 50 cent
+    <string name="version_history_last">"Version 7.8.2\n
+Added swipe functionality on left side to display country selection.
         "</string>
 
-    <string name="version_history_current">"Version 7.8.1\n
-Optimized display of minted coins.\n
-Fixed bug in registration of second mail address.
+    <string name="version_history_current">"Version 7.9\n
+2 Euro commemorative coins 2025 added
         "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -2937,12 +2934,12 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_mt_2_volume">""</string>
     <string name="twoeuro_comm_2024_mt_2_date">"2024"</string>
 
-    <string name="twoeuro_comm_2024_si_title">"100 Jahre Marathonlauf Košice"</string>
+    <string name="twoeuro_comm_2024_si_title">"250 Jahre National- und Universitätsbibliothek NARODNA IN UNIVERZITETNA KNIJŽNICA"</string>
     <string name="twoeuro_comm_2024_si_desc">""</string>
     <string name="twoeuro_comm_2024_si_volume">""</string>
     <string name="twoeuro_comm_2024_si_date">"2024"</string>
 
-    <string name="twoeuro_comm_2024_sk_title">"250 Jahre National- und Universitätsbibliothek NARODNA IN UNIVERZITETNA KNIJŽNICA"</string>
+    <string name="twoeuro_comm_2024_sk_title">"100 Jahre Marathonlauf Košice"</string>
     <string name="twoeuro_comm_2024_sk_desc">""</string>
     <string name="twoeuro_comm_2024_sk_volume">""</string>
     <string name="twoeuro_comm_2024_sk_date">"2024"</string>
@@ -2951,6 +2948,122 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_va_desc">""</string>
     <string name="twoeuro_comm_2024_va_volume">""</string>
     <string name="twoeuro_comm_2024_va_date">"2024"</string>
+
+
+    <string name="twoeuro_comm_2025_be_title">"Rennstrecke Spa-Francorchamps"</string>
+    <string name="twoeuro_comm_2025_be_desc">""</string>
+    <string name="twoeuro_comm_2025_be_volume">""</string>
+    <string name="twoeuro_comm_2025_be_date">""</string>
+
+    <string name="twoeuro_comm_2025_de_title">"Saarschleife Saarland"</string>
+    <string name="twoeuro_comm_2025_de_desc">""</string>
+    <string name="twoeuro_comm_2025_de_volume">""</string>
+    <string name="twoeuro_comm_2025_de_date">""</string>
+
+    <string name="twoeuro_comm_2025_de_2_title">"35 Jahre Deutsche Einheit"</string>
+    <string name="twoeuro_comm_2025_de_2_desc">""</string>
+    <string name="twoeuro_comm_2025_de_2_volume">""</string>
+    <string name="twoeuro_comm_2025_de_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_ee_title">"500 Jahre erster Textdruck in estnischer Sprache"</string>
+    <string name="twoeuro_comm_2025_ee_desc">""</string>
+    <string name="twoeuro_comm_2025_ee_volume">""</string>
+    <string name="twoeuro_comm_2025_ee_date">""</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Staatsbesuche Finnlands – Diplomatie und Außenpolitik"</string>
+    <string name="twoeuro_comm_2025_fi_desc">""</string>
+    <string name="twoeuro_comm_2025_fi_volume">""</string>
+    <string name="twoeuro_comm_2025_fi_date">""</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"100 Jahre Finnland-Schweden-Leichtathletikspiel"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">""</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">""</string>
+    <string name="twoeuro_comm_2025_fi_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_fr_title">"Louvre Museum"</string>
+    <string name="twoeuro_comm_2025_fr_desc">""</string>
+    <string name="twoeuro_comm_2025_fr_volume">""</string>
+    <string name="twoeuro_comm_2025_fr_date">""</string>
+
+    <string name="twoeuro_comm_2025_gr_title">"200. Todestag von Laskarnia Bouboulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">""</string>
+    <string name="twoeuro_comm_2025_gr_volume">""</string>
+    <string name="twoeuro_comm_2025_gr_date">""</string>
+
+    <string name="twoeuro_comm_2025_it_title">"Jubiläum 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">""</string>
+    <string name="twoeuro_comm_2025_it_volume">""</string>
+    <string name="twoeuro_comm_2025_it_date">""</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Weltreise des Amerigo-Vespucci-Segelschulschiffes 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">""</string>
+    <string name="twoeuro_comm_2025_it_2_volume">""</string>
+    <string name="twoeuro_comm_2025_it_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_lv_title">"Sēlija"</string>
+    <string name="twoeuro_comm_2025_lv_desc">""</string>
+    <string name="twoeuro_comm_2025_lv_volume">""</string>
+    <string name="twoeuro_comm_2025_lv_date">""</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"Verteidigung"</string>
+    <string name="twoeuro_comm_2025_lt_desc">""</string>
+    <string name="twoeuro_comm_2025_lt_volume">""</string>
+    <string name="twoeuro_comm_2025_lt_date">""</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"25. Jahrestag der Thronbesteigung von Großherzog Henri"</string>
+    <string name="twoeuro_comm_2025_lu_desc">""</string>
+    <string name="twoeuro_comm_2025_lu_volume">""</string>
+    <string name="twoeuro_comm_2025_lu_date">""</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"75. Jahrestag der Schuman-Erklärung"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">""</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">""</string>
+    <string name="twoeuro_comm_2025_lu_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"Einheimische Arten: Der maltesische Ochse"</string>
+    <string name="twoeuro_comm_2025_mt_desc">""</string>
+    <string name="twoeuro_comm_2025_mt_volume">""</string>
+    <string name="twoeuro_comm_2025_mt_date">""</string>
+
+    <string name="twoeuro_comm_2025_mt_2_title">"Maltesische Städte mit Stadtmauern: Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">""</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">""</string>
+    <string name="twoeuro_comm_2025_mt_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_po_title">"Nachhaltige Entwicklung"</string>
+    <string name="twoeuro_comm_2025_po_desc">""</string>
+    <string name="twoeuro_comm_2025_po_volume">""</string>
+    <string name="twoeuro_comm_2025_po_date">""</string>
+
+    <string name="twoeuro_comm_2025_po_2_title">"Weltpfadfinder- und Jugendbewegungen"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">""</string>
+    <string name="twoeuro_comm_2025_po_2_volume">""</string>
+    <string name="twoeuro_comm_2025_po_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"Heiliges Jahr 2025 – Pilger der Hoffnung"</string>
+    <string name="twoeuro_comm_2025_sm_desc">""</string>
+    <string name="twoeuro_comm_2025_sm_volume">""</string>
+    <string name="twoeuro_comm_2025_sm_date">""</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"550. Geburtstag von Michelangelo"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">""</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">""</string>
+    <string name="twoeuro_comm_2025_sm_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_sk_title">"100 Jahre erstes internationales Sportturnier in der Slowakei – Eishockey-Europameisterschaft"</string>
+    <string name="twoeuro_comm_2025_sk_desc">""</string>
+    <string name="twoeuro_comm_2025_sk_volume">""</string>
+    <string name="twoeuro_comm_2025_sk_date">""</string>
+
+    <string name="twoeuro_comm_2025_sl_title">"100. Geburtstag von Miki Muster"</string>
+    <string name="twoeuro_comm_2025_sl_desc">""</string>
+    <string name="twoeuro_comm_2025_sl_volume">""</string>
+    <string name="twoeuro_comm_2025_sl_date">""</string>
+
+    <string name="twoeuro_comm_2025_es_title">"UNESCO-Weltkulturerbe – Altstadt von Salamanca"</string>
+    <string name="twoeuro_comm_2025_es_desc">""</string>
+    <string name="twoeuro_comm_2025_es_volume">""</string>
+    <string name="twoeuro_comm_2025_es_date">""</string>
 
     <!-- END manual code for language en -->
 

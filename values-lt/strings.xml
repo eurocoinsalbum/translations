@@ -152,15 +152,12 @@
 	<string name="abr_millions">"mln"</string>
 	<string name="abr_billions">"mldr"</string>
 
-	<string name="version_history_last">"Versija 7.8\n
-Rodyti nukaldintų monetų skaičių.\n
-Naujas nustatymas: uždarykite monetų grupes keičiant šalį.\n
-Nauji monetų atvaizdai Prancūzijai 2024 m.: 10 centų, 20 centų ir 50 centų.
+	<string name="version_history_last">"Versija 7.8.2\n
+Kairėje pusėje pridėta braukimo funkcija, kad būtų rodomas šalies pasirinkimas.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.7\n
-Optimizuotas nukaldintų monetų rodymas.\n
-Ištaisyta antrojo pašto adreso registravimo klaida.
+	<string name="version_history_current">"Versija 7.9\n
+Pridėtos 2 eurų proginės monetos 2025 m
 	"</string>
 
 	<string name="coin_1cent">"1 centas"</string>

@@ -424,15 +424,12 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.8\n
-Toon aantal geslagen munten.\n
-Nieuwe instelling: sluit muntgroepen bij het wijzigen van land.\n
-Nieuwe muntafbeeldingen voor Frankrijk jaar 2024: 10 cent, 20 cent en 50 cent.
+    <string name="version_history_last">"Versie 7.8.2\n
+Er is een veegfunctie aan de linkerkant toegevoegd om de landselectie weer te geven.
     "</string>
 
-    <string name="version_history_current">"Versie 7.8.1\n
-Weergave van geslagen munten geoptimaliseerd.\n
-Fout in registratie van tweede mailadres verholpen.
+    <string name="version_history_current">"Versie 7.9\n
+2 Euro herdenkingsmunten 2025 toegevoegd
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
