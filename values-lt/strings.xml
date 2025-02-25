@@ -23,8 +23,8 @@
 	<string name="ecb_info">"Euromonetų informacija ir atvaizdai nemokamai prieinami ECB internetiniame puslapyje"</string>
 	<string name="action_import">"Importuoti"</string>
 	<string name="action_export">"Eksportuoti"</string>
-	<string name="action_createpdf">"Generuoti PDF failą"</string>
-	<string name="pdfApiLevelTooLow">"Atsiprašome, PDF generavimui reikia bent Android 4.4"</string>
+	<string name="action_create_pdf">"Generuoti PDF failą"</string>
+	<string name="featureApiLevelMin44">"Atsiprašome, PDF generavimui reikia bent Android 4.4"</string>
 	<string name="export_failed">"Eksportas nepavyko"</string>
 	<string name="import_failed">"Importas nepavyko"</string>
 	<string name="export_ok">"Eksportas sėkmingas"</string>
@@ -39,7 +39,7 @@
 	<string name="help_touch_hold_coins">"Redagavimo režime palaikykite nuspaudę ant monetos ir galėsite įvesti monetų kiekį ar kitus atributus."</string>
 	<string name="help_touch_hold_two_euro_coins">"Peržiūros režime palaikykite paspaudę proginę 2 Eurų monetą norėdami gauti daugiau informacijos apie ją."</string>
 	<string name="help_touch_common_coins">"Palieskite vieną iš 8 standartinių monetų kairėje norėdami pamatyti kaip ji atrodo visose šalyse."</string>
-	<string name="help_imexport">"Eksporto failas vadinsis \'euro_coin_list_&lt;vartotojas&gt;.txt\'. Importuoti vartotojai bus pridėti ir neperrašyti."</string>
+	<string name="help_im_export">"Eksporto failas vadinsis \'euro_coin_list_&lt;vartotojas&gt;.txt\'. Importuoti vartotojai bus pridėti ir neperrašyti."</string>
 	<string name="help_backup">"Kiekvieną savaitę programa automatiškai padaro atsarginę duomenų kopiją. Meniu punkte \"Atstatyti iš kopijos\" galima pridėti rezervinės kopijos monetas į dabartinę kolekciją"</string>
 	<string name="help_coinset_expand">"Vokiškų monetų rinkiniai bus sugrupuoti pagal metus, jei įjungsite \'Rinkti metų ir kalyklų monetas\' nustatymą. +/- ženklai virš monetų (kairėje pusėje) išskleis/suskleis visas grupes iš karto."</string>
 	<string name="help_menu">"Naudoti telefono meniu mygtuką keisti dydį ir pan."</string>
@@ -152,11 +152,13 @@
 	<string name="abr_millions">"mln"</string>
 	<string name="abr_billions">"mldr"</string>
 
-	<string name="version_history_last">"Versija 7.8.2\n
-Kairėje pusėje pridėta braukimo funkcija, kad būtų rodomas šalies pasirinkimas.
+	<string name="version_history_current">"Versija 7.10\n
+Pievienots jauns iestatījums: savāktā piparmētru komplekta krāsa. Fona krāsa piparmētru komplektiem, kuriem ir savākta katra monēta. Johena ideja.
+Pievienoti trūkstošo 2 eiro piemiņas monētu attēli 2024: Kipra, Vatikāns, Latvija. Pamanīja Gizepe.
+Pievienota jauna iespēja eksportēt kā Excel failu. Iedvesmojoties no Džensa.
 	"</string>
 
-	<string name="version_history_current">"Versija 7.9\n
+	<string name="version_history_last">"Versija 7.9\n
 Pridėtos 2 eurų proginės monetos 2025 m
 	"</string>
 

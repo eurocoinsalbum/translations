@@ -22,8 +22,8 @@
     <string name="ecb_info">"La información y las imágenes de todas las monedas en euros se pueden obtener de forma gratuita a través del sitio web del BCE."</string>
     <string name="action_import">"Importar"</string>
     <string name="action_export">"Exportar"</string>
-    <string name="action_createpdf">"Crea PDF"</string>
-    <string name="pdfApiLevelTooLow">"Lo sentimos, la creación de PDF necesita mín. Android 4.4"</string>
+    <string name="action_create_pdf">"Crea PDF"</string>
+    <string name="featureApiLevelMin44">"Lo sentimos, la creación de PDF necesita mín. Android 4.4"</string>
     <string name="export_failed">"Error de exportación"</string>
     <string name="import_failed">"Error de importación"</string>
     <string name="export_ok">"Exportar OK"</string>
@@ -38,7 +38,7 @@
     <string name="help_touch_hold_coins">"En el modo de edición, toque y mantenga presionada una moneda para establecer la cantidad de monedas que tiene y otras propiedades."</string>
     <string name="help_touch_hold_two_euro_coins">"En el modo bloqueado, toque y mantenga presionadas las monedas especiales de 2 euros para obtener información adicional."</string>
     <string name="help_touch_common_coins">"Toque una de las 8 monedas comunes en el lado izquierdo para ver el reverso de esta moneda para todos los países."</string>
-    <string name="help_imexport">"Los archivos para exportar se llamarán 'euro_coin_list_ &lt;username&gt; .txt'. Los usuarios importados se agregarán y no se sobrescribirán."</string>
+    <string name="help_im_export">"Los archivos para exportar se llamarán 'euro_coin_list_ &lt;username&gt; .txt'. Los usuarios importados se agregarán y no se sobrescribirán."</string>
     <string name="help_backup">"Cada semana, la aplicación crea automáticamente una copia de seguridad de todas las colecciones. Con la ayuda del menú 'Restaurar copia de seguridad', se puede agregar fácilmente una copia de seguridad anterior a las colecciones actualmente cargadas."</string>
     <string name="help_coinset_expand">"Para aumentar la usabilidad, los conjuntos de monedas alemanas se agrupan por año si habilitaste la opción 'Recoger años y monedas'. El botón más / menos sobre las monedas comunes (lado izquierdo) se puede usar de dos maneras: toque breve para expandir / colapsar todos los grupos una vez y toque largo para hacer lo opuesto."</string>
     <string name="help_menu">"Utilice el menú de configuración para cambiar: tamaño de imagen de moneda, tamaño de texto (título y texto de moneda), recolectando solo monedas conmemorativas de 2 €, recolectando todos los años y mentas (o solo uno por país), y mucho más. ¡Funcionalidad especial es la 'configuración individual de uso' con la que cada usuario / colección puede tener su propia configuración o si todos los usuarios comparten la misma configuración!"</string>
@@ -423,11 +423,13 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.8.2\n
-Se agregó la funcionalidad de deslizar en el lado izquierdo para mostrar la selección de país.
+    <string name="version_history_current">"Versión 7.10\n
+Se agregó una nueva configuración: color de la colección de monedas. Color de fondo para las colecciones de monedas en las que se han recopilado todas las monedas. Idea de Jochen.
+Se agregaron imágenes de monedas conmemorativas de 2 euros que faltaban en 2024: Chipre, Vaticano, Letonia. Guiseppe lo notó.
+Se agregó una nueva función para exportar como archivo de Excel. Inspirado por Jens.
     "</string>
 
-    <string name="version_history_current">"Versión 7.9\n
+    <string name="version_history_last">"Versión 7.9\n
 Se añaden monedas conmemorativas de 2 euros del año 2025
     "</string>
 

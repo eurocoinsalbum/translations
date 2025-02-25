@@ -23,8 +23,8 @@
     <string name="ecb_info">"De informatie en afbeeldingen van alle euromunten zijn gratis te verkrijgen op de website van de ECB"</string>
     <string name="action_import">"Importeren"</string>
     <string name="action_export">"Exporteren"</string>
-    <string name="action_createpdf">"Pdf aanmaken"</string>
-    <string name="pdfApiLevelTooLow">"Sorry, voor het maken van een pdf is min. Android 4.4 nodig"</string>
+    <string name="action_create_pdf">"Pdf aanmaken"</string>
+    <string name="featureApiLevelMin44">"Sorry, voor het maken van een pdf is min. Android 4.4 nodig"</string>
     <string name="export_failed">"Export mislukt"</string>
     <string name="import_failed">"Import mislukt"</string>
     <string name="export_ok">"Export OK"</string>
@@ -39,7 +39,7 @@
     <string name="help_touch_hold_coins">"Raak in de bewerkingsmodus een munt lang aan om het aantal munten en andere muntdetails in te geven ."</string>
     <string name="help_touch_hold_two_euro_coins">"Raak in de vergrendelde modus een herdenkingsmunt lang aan voor aanvullende informatie over deze herdenkingsmunt."</string>
     <string name="help_touch_common_coins">"Tik op een van de 8 euromunten links in het venster, om de achterkant van deze euromunt van alle landen te kunnen zien."</string>
-    <string name="help_imexport">"Het exportbestand heet \'euro_coin_list_&lt;gebruikersnaam&gt;.txt\'. Geïmporteerde gebruikers zullen worden toegevoegd en worden niet overschreven."</string>
+    <string name="help_im_export">"Het exportbestand heet \'euro_coin_list_&lt;gebruikersnaam&gt;.txt\'. Geïmporteerde gebruikers zullen worden toegevoegd en worden niet overschreven."</string>
     <string name="help_backup">Elke week wordt er automatisch een back-up gemaakt van alle verzamelingen. Met de knop \'Herstel back-up\' kan eenvoudig een oude back-up aan de huidige verzamelingen worden toegevoegd.</string>
     <string name="help_coinset_expand">"Om het gebruiksgemak te bevorderen zijn de Duitse muntsets gegroepeerd per jaar als je bij de instellingen de optie \'Verzamel jaren en munttekens\' hebt aangevinkt. De plus/min knop linksboven de euromunten kan voor alle groepen tegelijk gebruikt worden: korte tik doet alle groepen uit- of invouwen, nogmaals tikken precies andersom."</string>
     <string name="help_menu">"Gebruik het instellingenmenu voor aanpassingen: grootte muntafbeelding, tekstgrootte (titels en tekst op munt), alleen 2€-herdenkingsmunten verzamelen, verzamelen van alle jaren en munttekens (of alleen maar een per land) en nog veel meer. Speciale functionaliteit is de optie \'Gebruik individuele instellingen\' waarmee elke gebruiker/verzameling zijn eigen instellingen kan hebben of voor alle gebruikers dezelfde instellingen gelden."</string>
@@ -424,11 +424,13 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.8.2\n
-Er is een veegfunctie aan de linkerkant toegevoegd om de landselectie weer te geven.
+    <string name="version_history_current">"Versie 7.10\n
+Nieuwe instelling toegevoegd: kleur van verzamelde muntset. Achtergrondkleur voor muntsets waarvan elke munt is verzameld. Idee van Jochen.
+Afbeeldingen van ontbrekende 2-euroherdenkingsmunt 2024 toegevoegd: Cyprus, Vaticaanstad, Letland. Opgemerkt door Guiseppe.
+Nieuwe functie toegevoegd om te exporteren als Excel-bestand. Geïnspireerd door Jens.
     "</string>
 
-    <string name="version_history_current">"Versie 7.9\n
+    <string name="version_history_last">"Versie 7.9\n
 2 Euro herdenkingsmunten 2025 toegevoegd
     "</string>
 

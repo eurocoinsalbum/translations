@@ -24,14 +24,15 @@
     <string name="ecb_info">"The information and images of the common side of the euro coins may be obtained free of charge through the ECBs website"</string>
     <string name="action_import">"Import"</string>
     <string name="action_export">"Export"</string>
-    <string name="action_createpdf">"Create pdf"</string>
-    <string name="pdfApiLevelTooLow">"Sorry, pdf creation needs min. Android 4.4"</string>
+    <string name="action_create_pdf">"Create pdf"</string>
+    <string name="action_create_excel">"Create Excel"</string>
+    <string name="featureApiLevelMin44">"Sorry, this feature needs min. Android 4.4"</string>
     <string name="export_failed">"Export failed"</string>
     <string name="import_failed">"Import failed"</string>
     <string name="export_ok">"Export OK"</string>
     <string name="import_ok">"Import OK"</string>
     <string name="help">"Help"</string>
-    <string name="help_myname" translatable="false">"(copyright) Matthias Kleiber"</string>
+    <string name="help_my_name" translatable="false">"(copyright) Matthias Kleiber"</string>
     <string name="help_message">"If you want to send me any problems, bugs, questions or feature requests please use \"send message\" in the menu (https://eurocoins-album.jimdosite.com). Those comments should not be posted in the play store."</string>
     <string name="help_statistics">"The statistics format is x/y/z x=number of possible different coins you have selected; y=number of possible different coins that can be collected; z=number of total coins you have collected (in case that you have a coin more than once; see coin details). The decimal number shows the amount of money you have collected and additionally the amounts for paid and value in case you entered those in the coin details."</string>
     <string name="help_coin_marker">"A \'X\' on a coin means that this coin was not minted at all (if you have other information please mail me). A \'*\' at the coin is the official coins set marker in case you activated this setting."</string>
@@ -41,7 +42,7 @@
     <string name="help_touch_hold_coins">"In edit mode touch and hold a coin to set the number of coins you have and other properties."</string>
     <string name="help_touch_hold_two_euro_coins">"In locked mode touch and hold the special 2 Euro coins to get additional information."</string>
     <string name="help_touch_common_coins">"Touch one of the 8 common coins on the left side to see the back side of this coin for all countries."</string>
-    <string name="help_imexport">"The files for export will be named \'euro_coin_list_username.txt\'. Imported users will be added and will not be overwritten."</string>
+    <string name="help_im_export">"The files for export will be named \'euro_coin_list_username.txt\'. Imported users will be added and will not be overwritten."</string>
     <string name="help_backup">"Every week the app create automatically a backup of all collections. With the help of the menu \'Restore backup\' one can easily add an old backup to the currently loaded collections"</string>
     <string name="help_coinset_expand">"To increase usability the german coinsets are grouped by year if you enabled the \'Collect years and mints\' setting. The plus/minus button over the common coins (left side) can be used in two ways: short touch to expand/collapse all groups in once and long touch to do the opposite."</string>
     <string name="help_menu">"Use the settings menu to change: coin image size, text size (title and coin text), collecting only 2€ commemorative coins, collecting all years and mints (or just one per country), and much more. Special functionality is the \'use individual settings\' with which each user/collection can have it\'s own settings or if all users share the same settings!"</string>
@@ -84,6 +85,7 @@
     <string name="commemorative_coins_full">"Commemorative coins full"</string>
     <string name="pref_use_background_color">"Use background color"</string>
     <string name="pref_background_color">"Background color"</string>
+    <string name="pref_background_color_all_collected">"Collected mint set color"</string>
     <string name="pref_hide_not_existing_coins">"Hide not existing coins"</string>
     <string name="click_the_coin_set_expand_button">"To open the coin set group touch the plus button"</string>
     <string name="action_manage_shared_collection">"Manage friends..."</string>
@@ -385,6 +387,10 @@
     <string name="abr_millions">"m"</string>
     <string name="abr_billions">"bn"</string>
 
+    <!-- version 7.8.1 -->
+    <string name="vatican_title_2005">"Johannes Paul II."</string>string>
+    <string name="vatican_title_2005_x">"Apostolischen Kammer"</string>string>
+
     <!-- Trading text change -->
     <!-- version 8.0 -->
     <string name="interested_in_trading_title">"Trading with other users"</string>
@@ -441,11 +447,13 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.8.2\n
-Added swipe functionality on left side to display country selection.
+    <string name="version_history_current">"Version 7.10\n
+Added new setting: collected mint set color. Background color for mint sets for which every coin has been collected. Idea by Jochen.
+Added missing 2 Euro commemorative coin images 2024: Cyprus, Vatican, Latvia. Noticed by Guiseppe.
+Added new feature to export as Excel file. Inspired by Jens.
         "</string>
 
-    <string name="version_history_current">"Version 7.9\n
+    <string name="version_history_last">"Version 7.9\n
 2 Euro commemorative coins 2025 added
         "</string>
 
@@ -2899,10 +2907,15 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_ad_2_volume">""</string>
     <string name="twoeuro_comm_2024_ad_2_date">"2024"</string>
 
-    <string name="twoeuro_comm_2024_ad_title">"2024: UCI Mountainbike-Weltmeisterschaften"</string>
+    <string name="twoeuro_comm_2024_ad_title">"UCI Mountainbike-Weltmeisterschaften"</string>
     <string name="twoeuro_comm_2024_ad_desc">""</string>
     <string name="twoeuro_comm_2024_ad_volume">""</string>
     <string name="twoeuro_comm_2024_ad_date">"2024"</string>
+
+    <string name="twoeuro_comm_2024_cy_title">"20 Jahre EU-Beitritt Zypern"</string>
+    <string name="twoeuro_comm_2024_cy_desc">""</string>
+    <string name="twoeuro_comm_2024_cy_volume">""</string>
+    <string name="twoeuro_comm_2024_cy_date">"2024"</string>
 
     <string name="twoeuro_comm_2024_fi_2_title">"Architektur Finnlands – Gesellius, Lindgren, Saarinen"</string>
     <string name="twoeuro_comm_2024_fi_2_desc">""</string>
@@ -2924,7 +2937,7 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_lt_volume">""</string>
     <string name="twoeuro_comm_2024_lt_date">"2024"</string>
 
-    <string name="twoeuro_comm_2024_lv_title">"Himmeli"</string>
+    <string name="twoeuro_comm_2024_lv_title">"Himmeli - Strohkunst Puzuris"</string>
     <string name="twoeuro_comm_2024_lv_desc">""</string>
     <string name="twoeuro_comm_2024_lv_volume">""</string>
     <string name="twoeuro_comm_2024_lv_date">"2024"</string>

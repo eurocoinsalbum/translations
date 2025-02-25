@@ -22,8 +22,8 @@
     <string name="ecb_info">"Le informazioni e le immagini delle monete sono disponibili gratuitamente sul sito Internet della BCE."</string>
     <string name="action_import">"Importazione"</string>
     <string name="action_export">"Esportazione"</string>
-    <string name="action_createpdf">"Creare pdf"</string>
-    <string name="pdfApiLevelTooLow">"Sorry, Creare pdf minimum Android 4.4"</string>
+    <string name="action_create_pdf">"Creare pdf"</string>
+    <string name="featureApiLevelMin44">"Sorry, Creare pdf minimum Android 4.4"</string>
     <string name="export_failed">"Esportazione errore"</string>
     <string name="import_failed">"Importazione errore"</string>
     <string name="export_ok">"Esportazione OK"</string>
@@ -37,7 +37,7 @@
     <string name="help_touch_hold_coins">"Tenendo premuto una moneta nella modalità di modifica consente di immettere il numero di monete e altre proprietà."</string>
     <string name="help_touch_hold_two_euro_coins">"Premere e tenere premuto una moneta commemorativa da 2 euro nel montaggio bloccato mostra ulteriori informazioni su questa moneta."</string>
     <string name="help_touch_common_coins">"Premere uno dei 8 monete comuni Euro a sinistra mostra le facce nazionali di tutti i paesi a questa moneta."</string>
-    <string name="help_imexport">"I nomi dei file per l\'utente esportato suoni: \'euro_coin_list_&lt;nomeutente&gt;.txt\'. gli utenti importati sono di recente aggiunti e non überschriben esistente."</string>
+    <string name="help_im_export">"I nomi dei file per l\'utente esportato suoni: \'euro_coin_list_&lt;nomeutente&gt;.txt\'. gli utenti importati sono di recente aggiunti e non überschriben esistente."</string>
     <string name="help_menu">"Utilizzando il tasto menu sui telefoni presso la dimensione immagini e altre impostazioni possono essere fatte."</string>
     <string name="show_licenses">"Licenze"</string>
     <string name="pref_use_individual_settings">"Utilizzare impostazioni individuali"</string>
@@ -422,11 +422,13 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.8.2\n
-Aggiunta la funzionalità di scorrimento sul lato sinistro per visualizzare la selezione del Paese.
+    <string name="version_history_current">"Versione 7.10\n
+Aggiunta nuova impostazione: colore set zecca raccolto. Colore di sfondo per set zecca per cui è stata raccolta ogni moneta. Idea di Jochen.
+Aggiunte immagini mancanti della moneta commemorativa da 2 euro 2024: Cipro, Vaticano, Lettonia. Notato da Guiseppe.
+Aggiunta nuova funzionalità per esportare come file Excel. Ispirato da Jens.
     "</string>.
 
-    <string name="version_history_current">"Versione 7.9\n
+    <string name="version_history_last">"Versione 7.9\n
 Aggiunte monete commemorative da 2 euro 2025
     "</string>
 

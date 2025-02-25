@@ -22,8 +22,8 @@
     <string name="ecb_info">"Informacije in slike vseh eurokovancev so brezplačno na voljo na spletni strani ECB"</string>
     <string name="action_import">"Uvozi"</string>
     <string name="action_export">"Izvozi"</string>
-    <string name="action_createpdf">"Ustvari pdf"</string>
-    <string name="pdfApiLevelTooLow">"Oprostite, izdelava pdf potrebuje min. Android 4.4"</string>
+    <string name="action_create_pdf">"Ustvari pdf"</string>
+    <string name="featureApiLevelMin44">"Oprostite, izdelava pdf potrebuje min. Android 4.4"</string>
     <string name="export_failed">"Izvoz ni uspel"</string>
     <string name="import_failed">"Uvoz ni uspel"</string>
     <string name="export_ok">"Izvozi OK"</string>
@@ -38,7 +38,7 @@
     <string name="help_touch_hold_coins">"V načinu urejanja dotaknite se in držite kovanec, da nastavite število kovancev, ki jih imate, in druge lastnosti."</string>
     <string name="help_touch_hold_two_euro_coins">"V zaklenjenem načinu se dotaknite in pridržite posebna 2 evrokovanca, da dobite dodatne informacije."</string>
     <string name="help_touch_common_coins">"Dotaknite se enega od 8 skupnih kovancev na levi strani, da si ogledate hrbtno stran tega kovanca za vse države."</string>
-    <string name="help_imexport">"Datoteke za izvoz bodo imenovane \\"euro_coin_list_ &lt;uporabniško ime&gt; .txt\\". Uvoženi uporabniki bodo dodani in ne bodo prepisani."</string>
+    <string name="help_im_export">"Datoteke za izvoz bodo imenovane \\"euro_coin_list_ &lt;uporabniško ime&gt; .txt\\". Uvoženi uporabniki bodo dodani in ne bodo prepisani."</string>
     <string name="help_backup">"Vsak teden aplikacija samodejno ustvari varnostno kopijo vseh zbirk. S pomočjo menija »Obnovi varnostno kopijo« lahko zlahka dodate staro varnostno kopijo v trenutno naložene zbirke"</string>
     <string name="help_coinset_expand">"Če želite povečati uporabnost, se nemške kolekcije združijo po letih, če ste omogočili nastavitev »Zbiraj leti in kovnice«. Gumb plus / minus nad skupnimi kovanci (leva stran) se lahko uporablja na dva načina: kratek dotik, če želite razširiti / zbrati vse skupine v enkratnem in dolgem dotiku, da storite nasprotno."</string>
     <string name="help_menu">"Uporabite meni nastavitev za spreminjanje: velikost velikosti kovanca, velikost besedila (naslov in besedilo kovanca), zbiranje le 2 € priložnostnih kovancev, zbiranje vseh let in kovancev (ali le ena na državo) in še veliko več. Posebna funkcionalnost je \\"uporaba posameznih nastavitev\\", s katerimi lahko vsaka uporabniška / zbirka ima svoje nastavitve ali če vsi uporabniki delijo iste nastavitve!"</string>
@@ -244,11 +244,13 @@
     <string name="abr_millions">"mio"</string>
     <string name="abr_billions">"mrd"</string>
 
-    <string name="version_history_last">"Različica 7.8.2\n
-Dodana funkcija vlečenja na levi strani za prikaz izbire države.
+    <string name="version_history_current">"Različica 7.10\n
+Dodana nova nastavitev: zbrana barva mint kompleta. Barva ozadja za komplete kovnic, za katere je bil zbran vsak kovanec. Ideja Jochena.
+Dodane slike manjkajočega spominskega kovanca za 2 evra 2024: Ciper, Vatikan, Latvija. Opazil Guiseppe.
+Dodana nova funkcija za izvoz v datoteko Excel. Po navdihu Jensa.
     "</string>
 
-    <string name="version_history_current">"Različica 7.9\n
+    <string name="version_history_last">"Različica 7.9\n
 Dodani spominski kovanci za 2 evra 2025
     "</string>
 

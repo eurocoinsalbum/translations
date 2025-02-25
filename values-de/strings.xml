@@ -23,8 +23,8 @@
     <string name="ecb_info">"Die Informationen und gemeinsamen Seiten der Bilder der Münzen sind auf der EZB-Website kostenfrei erhältlich."</string>
     <string name="action_import">"Importieren"</string>
     <string name="action_export">"Exportieren"</string>
-    <string name="action_createpdf">"pdf erstellen"</string>
-    <string name="pdfApiLevelTooLow">"Sorry, pdf Erstellung benötigt min. Android 4.4"</string>
+    <string name="action_create_pdf">"pdf erstellen"</string>
+    <string name="featureApiLevelMin44">"Sorry, pdf Erstellung benötigt min. Android 4.4"</string>
     <string name="export_failed">"Export fehlgeschlagen"</string>
     <string name="import_failed">"Import fehlgeschlogen"</string>
     <string name="export_ok">"Export OK"</string>
@@ -39,7 +39,7 @@
     <string name="help_touch_hold_coins">"Drücken und Halten einer Münze im Editiermodus erlaubt die Eingabe der Anzahl der Münzen und anderer Eigenschaften."</string>
     <string name="help_touch_hold_two_euro_coins">"Drücken und Halten einer 2 Euro Sondermünze im gesperrten Editiermodus zeigt zusätzliche Informationen zu dieser Münze an."</string>
     <string name="help_touch_common_coins">"Drücken einer der 8 gemeinsamen Euromünzen auf der linken Seite zeigt die nationalen Seiten aller Länder zu dieser Münze an."</string>
-    <string name="help_imexport">"Die Dateinamen für exportierte Benutzer lauten: \'euro_coin_list_&lt;username&gt;.txt\'. Importierte Benutzer werden neu hinzugefügt und überschreiben keine bestehenden."</string>
+    <string name="help_im_export">"Die Dateinamen für exportierte Benutzer lauten: \'euro_coin_list_&lt;username&gt;.txt\'. Importierte Benutzer werden neu hinzugefügt und überschreiben keine bestehenden."</string>
     <string name="help_backup">"Jede Woche erstellt die App automatisch ein komplettes Backup aller Sammlungen, die im lokalen App-Verzeichnis im Dateisystem abgelegt werden. Über den Menüpunkt \'Sicherung wiederherstellen\' können alte Backups als zusätzliche Sammlung wieder eingespielt werden."</string>
     <string name="help_coinset_expand">"Um die Übersichtlichkeit zu erhöhen wurden die deutschen Münzsätze gruppiert, sofern die Einstellung \'Jahre und Prägestätten\' aktiviert wurde. Der plus/minus Button über den gemeinsamen Münzbildern (linke Seite) funktioniert in zweierlei Hinsicht: kurzes Drücken führt die Aktion für alle Münzsätze aus, wohingegen langes Drücken das Gegenteil bewirkt."</string>
     <string name="help_menu">"Über die Einstellungen im Menü lassen sich folgende Parameter verändern: Sprache, Münzbildgröße, Textgröße (Titel und Münztext), nur 2€ Gedenkmünzen, alle Jahrgänge/Prägestätten sammeln oder nur eine pro Land und vieles weitere. Eine besondere Funktion hat \'Individuelle Einstellungen verwenden\', womit jeder Benutzer/Sammlung seine eigenen Einstellungen haben kann oder ob alle die gleichen Einstellungen verwenden."</string>
@@ -418,11 +418,13 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 7.8.2\n
-Swipe Funktionalität an der linken Seite hinzugefügt, um das Länder-Auswahlmenü zu öffnen.
-    "</string>
+    <string name="version_history_current">"Version 7.10\n
+Neue Einstellung hinzugefügt: Farbe gesammelter Münzsätze. Hintergrundfarbe für Münzsätze, für die jede Münze gesammelt wurde. Idee von Jochen.
+Fehlende Bilder der 2-Euro-Gedenkmünze 2024 hinzugefügt: Zypern, Vatikan, Lettland. Von Guiseppe bemerkt.
+Neue Funktion zum Exportieren als Excel-Datei hinzugefügt. Inspiriert von Jens.
+"</string>
 
-    <string name="version_history_current">"Version 7.9\n
+    <string name="version_history_last">"Version 7.9\n
 2 Euro Gedenkmünzen 2025 hinzugefügt
     "</string>
 

@@ -23,8 +23,8 @@
 	<string name="ecb_info">"Den information och bilder av alla euromynt kan erhållas kostnadsfritt genom ECBs webbplats"</string>
 	<string name="action_import">"importera"</string>
 	<string name="action_export">"exportera"</string>
-	<string name="action_createpdf">"skapa pdf"</string>
-	<string name="pdfApiLevelTooLow">"Tyvärr behöver skapa PDF-filer min. android 4,4"</string>
+	<string name="action_create_pdf">"skapa pdf"</string>
+	<string name="featureApiLevelMin44">"Tyvärr behöver skapa PDF-filer min. android 4,4"</string>
 	<string name="export_failed">"export misslyckades"</string>
 	<string name="import_failed">"import misslyckades"</string>
 	<string name="export_ok">"export OK"</string>
@@ -39,7 +39,7 @@
 	<string name="help_touch_hold_coins">"I redigeringsläge touch och håller ett mynt för att ställa in antalet mynt du har och andra egenskaper."</string>
 	<string name="help_touch_hold_two_euro_coins">"I låst läge touch och håller speciella 2 Euro mynt för att få ytterligare information."</string>
 	<string name="help_touch_common_coins">"Tryck på en av de 8 gemensamma mynt på vänster sida för att se baksidan av detta mynt för alla länder."</string>
-	<string name="help_imexport">"Filerna för export kommer att namnges \'euro_coin_list_username.txt \'. Importerade användare kommer att läggas och kommer inte att skrivas över."</string>
+	<string name="help_im_export">"Filerna för export kommer att namnges \'euro_coin_list_username.txt \'. Importerade användare kommer att läggas och kommer inte att skrivas över."</string>
 	<string name="help_backup">"Varje vecka appen automatiskt skapa en säkerhetskopia av alla samlingar. Med hjälp av menyn \'Restore backup \' kan man enkelt lägga till en gammal backup till den inlästa samlingarna"</string>
 	<string name="help_coinset_expand">"För att öka användbarheten de tyska coinsets är grupperade efter år om du aktiverat \'Samla år och myntverk \' inställningen. Plus /minusknappen under de gemensamma mynt (vänster sida) kan användas på två sätt: kort kontakt att expandera /komprimera alla grupper i gång och lång touch göra motsatsen."</string>
 	<string name="help_menu">"Använd inställningsmenyn för att ändra: mynt bildstorlek, textstorlek (titel och mynt text), endast två samla? minnesmynt, samla alla år och myntverk (eller bara ett per land), och mycket mer. Special funktion är \'använda individuella inställningar \' som varje användare /uppsamling kan ha det \'s egna inställningar eller om alla användare delar samma inställningar!"</string>
@@ -428,11 +428,13 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.8.2\n
-Tillagd svepfunktion på vänster sida för att visa val av land.
+	<string name="version_history_current">"Version 7.10\n
+Lade till ny inställning: insamlad mint set färg. Bakgrundsfärg för myntset för vilka varje mynt har samlats in. Idé av Jochen.
+Lade till saknade 2 euro-minnesmyntbilder 2024: Cypern, Vatikanen, Lettland. Uppmärksammad av Guiseppe.
+Lade till ny funktion för att exportera som Excel-fil. Inspirerad av Jens.
 	"</string>
 
-	<string name="version_history_current">"Version 7.9\n
+	<string name="version_history_last">"Version 7.9\n
 2 euro jubileumsmynt 2025 tillagda
 	"</string>
 

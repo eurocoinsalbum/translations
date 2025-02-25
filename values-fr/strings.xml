@@ -22,8 +22,8 @@
     <string name="ecb_info">"Les informations et les photos des pièces sont disponibles gratuitement sur le site Internet de la BCE."</string>
     <string name="action_import">"Importation"</string>
     <string name="action_export">"Exportation"</string>
-    <string name="action_createpdf">"Créer pdf"</string>
-    <string name="pdfApiLevelTooLow">"Créer pdf minimum Android 4.4"</string>
+    <string name="action_create_pdf">"Créer pdf"</string>
+    <string name="featureApiLevelMin44">"Créer pdf minimum Android 4.4"</string>
     <string name="export_failed">"Erreur Exportation"</string>
     <string name="import_failed">"Erreur Importation"</string>
     <string name="export_ok">"Exportation OK"</string>
@@ -37,7 +37,7 @@
     <string name="help_touch_hold_coins">"En mode édition, un appui long sur une pièce permet de définir le nombre d\'exemplaire de la pièce et saisir d\'autres propriétés."</string> 
     <string name="help_touch_hold_two_euro_coins">"En mode visualisation, un appui long sur les pièces commémoratives 2 euros permet d\'obtenir des informations supplémentaires à propos de cette pièce."</string> 
     <string name="help_touch_common_coins">"Appuyer sur une des 8 pièces de monnaie à gauche de l\'écran pour afficher la face nationale de tous les pays pour cette pièce."</string> 
-    <string name="help_imexport">"Le nom du fichier d’exportation pour un utilisateur est le suivant : \'euro_coin_list_ &lt; nom d\'utilisateur &gt;.txt\'. Les utilisateurs importés (suite à l’importation d’un fichier d’exportation) sont ajoutés à l’application mais cette opération n’efface pas les utilisateurs déjà existants."</string> 
+    <string name="help_im_export">"Le nom du fichier d’exportation pour un utilisateur est le suivant : \'euro_coin_list_ &lt; nom d\'utilisateur &gt;.txt\'. Les utilisateurs importés (suite à l’importation d’un fichier d’exportation) sont ajoutés à l’application mais cette opération n’efface pas les utilisateurs déjà existants."</string>
     <string name="help_menu">"Utilisation du bouton de menu sur les téléphones à la taille des images et d\'autres paramètres peuvent être faites."</string> 
     <string name="show_licenses">"Licenses"</string>
     <string name="pref_use_individual_settings">"Utiliser les paramètres individuels"</string>
@@ -419,11 +419,13 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.8.2\n
-Fonctionnalité de balayage ajoutée sur le côté gauche pour afficher la sélection du pays.
+    <string name="version_history_current">"Version 7.10\n
+Ajout d'un nouveau paramètre: couleur des ensembles de pièces collectés. Couleur d'arrière-plan des ensembles de pièces pour lesquels chaque pièce a été collectée. Idée de Jochen.
+Ajout des images manquantes des pièces commémoratives de 2 euros 2024 : Chypre, Vatican, Lettonie. Remarqué par Guiseppe.
+Ajout d'une nouvelle fonctionnalité pour exporter sous forme de fichier Excel. Inspiré par Jens.
     "</string>
 
-    <string name="version_history_current">"Version 7.9\n
+    <string name="version_history_last">"Version 7.9\n
 Ajout de pièces commémoratives de 2 euros 2025
     "</string>
 
