@@ -11,7 +11,7 @@
     <string name="enter_new_name">"Introduza novo nome"</string>
     <string name="delete_collection">"Apagar"</string>
     <string name="change_name">"Alterar nome"</string>
-    <string name="default_collection_name">"Coleção1"</string>
+    <string name="default_collection_name">"Coleção"</string>
     <string name="how_to_unlock">"Toque no cadeado na barra de menu"</string>
     <string name="use_long_touch_to_force_details">"Moeda inexistente. Mantenha pressionado para abrir diálogo de detalhes."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Não é possível editar na vistas Multi utilizador e UE"</string>
@@ -78,7 +78,6 @@
     <string name="delete_old_backups">"Apagar cópias de segurança antigas?"</string>
     <string name="no_external_storage_permission">"No menu de apps do Android ative \'Permissões\' para \'Armazenamento\'"</string>
     <string name="commemorative_coins_full">"Moedas comemorativas completas"</string>
-    <string name="pref_use_background_color">"Utilizar cor de fundo"</string>
     <string name="pref_background_color">"Cor de fundo"</string>
     <string name="pref_hide_not_existing_coins">"Esconder moedas não existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir o grupo de conjunto de moedas toque no botão \'+\'"</string>
@@ -104,7 +103,7 @@
     <string name="send_id">"Enviar ID do usuário"</string>
     <string name="email_sent">"Um e-mail foi enviado para%1$s"</string>
     <string name="email_sent_confirm">"Um e-mail foi enviado para%1$s. Verifique SPAM. Por favor, clique no link dentro do e-mail para confirmar o seu endereço de e-mail."</string>
-    <string name="enter_email">"Por favor, registre seu endereço de e-mail."</string>
+    <string name="register_email_first">"Por favor, registre seu endereço de e-mail."</string>
     <string name="no_backups_available">"nenhum backup disponível"</string>
     <string name="internet_not_available_for_backup">"Internet não disponível. Apenas backups locais serão processados."</string>
     <string name="register_email">"zarejestruj e-mail"</string>
@@ -144,7 +143,7 @@
     <string name="collection_sharing_retracted_ok">"colecção partilhada foi retraída para %1$s"</string>
     <string name="collection_retract_sharing">"Selecione itens para partilha de retração"</string>
     <string name="title_collection_shared_with_me">"coleção compartilhada"</string>
-    <string name="ask_link_collection">"%1$s compartilhou sua coleção \'%2$s\' com você. Você quer vinculá-lo?"</string>
+    <string name="ask_link_collection">"%1$s compartilhou sua coleção \"%2$s\" com você. Você quer vinculá-lo?"</string>
     <string name="wrong_app_version_update">"Por favor, atualize o aplicativo para a versão mais recente!"</string>
     <string name="session_expired_try_again">"a sessão expirou. tente novamente."</string>
     <string name="forum">"fórum"</string>
@@ -377,6 +376,15 @@
     <string name="abr_thousands">"mil"</string>
     <string name="abr_millions">"mi"</string>
     <string name="abr_billions">"bi"</string>
+<string name="vatican_title_2005">"João Paulo II."</string>
+<string name="vatican_title_2005_x">"Câmara Apostólica"</string>
+
+<!-- version 7.11 -->
+<string name="action_my_collections">"Minhas coleções"</string>
+<string name="title_usage_device">"Uso do dispositivo"</string>
+<string name="ask_main_or_secondary_device">"Este dispositivo será o seu dispositivo principal para gerenciar suas coleções de moedas ou o seu dispositivo secundário?"</string>
+<string name="usage_main_device">"Dispositivo principal"</string>
+<string name="usage_secondary_device">"Dispositivo secundário"</string>
 
     <string name="how_trading_partner_works">"
 - A funcionalidade de negociação não é para principiantes.
@@ -426,14 +434,17 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 7.10\n
+    <string name="version_history_last">"Versão 7.10\n
 Adicionada nova configuração: conjunto de cores de hortelã recolhida. Cor de fundo para os conjuntos de cunhagem a partir dos quais todas as moedas foram recolhidas. Ideia de Jochen.
 Adicionadas imagens de moedas comemorativas de 2 euros que faltavam em 2024: Chipre, Vaticano, Letónia. Notado por Guiseppe.
 Adicionado novo recurso para exportar como ficheiro Excel. Inspirado em Jens.
     "</string>
 
-    <string name="version_history_last">"Versão 7.9\n
-2 moedas comemorativas de euros 2025 adicionadas
+    <string name="version_history_current">"Versão 7.11\n
+Moedas comemorativas de 2 euros 2020 Lituânia texto corrigido de ambas as moedas. Reconhecido por Marion.
+Moeda comemorativa de 2 euros da Bélgica adicionada. Obrigado, Jens.
+As novas coleções serão partilhadas automaticamente entre os dispositivos do utilizador.
+As recolhas serão transferidas automaticamente para os dispositivos recém-registados.
     "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>

@@ -11,7 +11,7 @@
     <string name="enter_new_name">"Vnesite novo ime"</string>
     <string name="delete_collection">"Izbriši"</string>
     <string name="change_name">"Spremenite ime"</string>
-    <string name="default_collection_name">"Zbirka1"</string>
+    <string name="default_collection_name">"Zbirka"</string>
     <string name="how_to_unlock">"Dotaknite se simbola za zaklepanje v menijski vrstici"</string>
     <string name="use_long_touch_to_force_details">"Kovanca ne obstaja. Uporabite dolg dotik, da odprete pogovorno okno podrobnosti kovancev."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Ni urejanja v pogledu Multiuser in EU"</string>
@@ -79,7 +79,6 @@
     <string name="delete_old_backups">"Želite izbrisati vse varnostne kopije, razen tistih iz trenutnega tedna?"</string>
     <string name="no_external_storage_permission">"V meniju aplikacije Android aktivirajte 'Dovoljenja' za 'Shranjevanje'"</string>
     <string name="commemorative_coins_full">"Komemorativni kovanci polni"</string>
-    <string name="pref_use_background_color">"Uporabi barvo ozadja"</string>
     <string name="pref_background_color">"Barva ozadja"</string>
     <string name="pref_hide_not_existing_coins">"Skrij ne obstoječe kovance"</string>
     <string name="click_the_coin_set_expand_button">"Če želite odpreti skupino za nastavitev kovancev, se dotaknite gumba plus"</string>
@@ -102,7 +101,7 @@
     <string name="send_id">"Pošlji ID uporabnika"</string>
     <string name="email_sent">"%1$s je bila poslana e-pošta"</string>
     <string name="email_sent_confirm">"%1$s je bila poslana e-pošta. Preverite SPAM. Kliknite povezavo znotraj e-pošte, da potrdite svoj e-poštni naslov."</string>
-    <string name="enter_email">"Prosimo, registrirajte svoj e-poštni naslov."</string>
+    <string name="register_email_first">"Prosimo, registrirajte svoj e-poštni naslov."</string>
     <string name="no_backups_available">"Brez varnostnih kopij ni na voljo"</string>
     <string name="internet_not_available_for_backup">"Internet ni na voljo. Samo lokalne varnostne kopije bodo obdelane."</string>
     <string name="register_email">"Registracija e-pošte"</string>
@@ -142,7 +141,7 @@
     <string name="collection_sharing_retracted_ok">"Zbirka v skupni rabi je bila umaknjena za %1$s"</string>
     <string name="collection_retract_sharing">"Izberite elemente za umikanje skupne rabe"</string>
     <string name="title_collection_shared_with_me">"Zbirka je skupna"</string>
-    <string name="ask_link_collection">"%1$s je dal vašo zbirko » %2$s « v skupno rabo z vami. Ali jo želite povezati?"</string>
+    <string name="ask_link_collection">"%1$s je dal vašo zbirko \"%2$s\" v skupno rabo z vami. Ali jo želite povezati?"</string>
     <string name="wrong_app_version_update">"Aplikacijo posodobite na najnovejšo različico!"</string>
     <string name="session_expired_try_again">"Seja je potekla. Prosim poskusite ponovno."</string>
     <string name="forum">"Forum"</string>
@@ -243,15 +242,27 @@
     <string name="abr_thousands">"tis"</string>
     <string name="abr_millions">"mio"</string>
     <string name="abr_billions">"mrd"</string>
+    <string name="vatican_title_2005">"Janez Pavel II."</string>
+    <string name="vatican_title_2005_x">"Apostolska pisarna"</string>
 
-    <string name="version_history_current">"Različica 7.10\n
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Moje zbirke"</string>
+    <string name="title_usage_device">"Uporaba naprave"</string>
+    <string name="ask_main_or_secondary_device">"Ali bo ta naprava vaša glavna naprava za upravljanje zbirk kovancev ali sekundarna naprava?"</string>
+    <string name="usage_main_device">"Glavna naprava"</string>
+    <string name="usage_secondary_device">"Sekundarna naprava"</string>
+
+    <string name="version_history_last">"Različica 7.10\n
 Dodana nova nastavitev: zbrana barva mint kompleta. Barva ozadja za komplete kovnic, za katere je bil zbran vsak kovanec. Ideja Jochena.
 Dodane slike manjkajočega spominskega kovanca za 2 evra 2024: Ciper, Vatikan, Latvija. Opazil Guiseppe.
 Dodana nova funkcija za izvoz v datoteko Excel. Po navdihu Jensa.
     "</string>
 
-    <string name="version_history_last">"Različica 7.9\n
-Dodani spominski kovanci za 2 evra 2025
+    <string name="version_history_current">"Različica 7.11\n
+Spominski kovanci za 2 evra 2020 Litva - popravljeno besedilo na obeh kovancih. Marion jih je prepoznala.
+Dodan spominski kovanec za 2 evra Belgija. Hvala, Jens.
+Nove zbirke bodo samodejno deljene med uporabnikovimi napravami.
+Zbirke bodo samodejno prenesene na novo registrirane naprave.
     "</string>
 
 

@@ -11,7 +11,7 @@
     <string name="enter_new_name">"Entrer nouveau nom"</string>
     <string name="delete_collection">"Effacer utilisateur"</string>
     <string name="change_name">"Changement de nom"</string>
-    <string name="default_collection_name">"Collectionneur1"</string>
+    <string name="default_collection_name">"Collectionneur"</string>
     <string name="how_to_unlock">"Appuyez sur l\'icône de cadenas dans la barre de menu"</string>
     <string name="use_long_touch_to_force_details">"La pièce n\'existe pas. Appuyez longuement pour ouvrir la boîte de dialogue Propriétés."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Mode d’édition dans la vue ni multiutilisateur ni UE"</string>
@@ -74,7 +74,6 @@
     <string name="delete_old_backups">"Supprimer les anciennes sauvegardes ?"</string>
     <string name="no_external_storage_permission">"Dans le menu application Android, activer \'Autorisations\' pour \'Stockage\'"</string>
     <string name="commemorative_coins_full">"Pièces commémoratives complète"</string>
-    <string name="pref_use_background_color">"Utiliser la couleur du fond"</string>
     <string name="pref_background_color">"Couleur du fond"</string>
     <string name="pref_hide_not_existing_coins">"Masquer les pièces non existantes"</string>
     <string name="click_the_coin_set_expand_button">"Pour ouvrir un groupe de pièce, appuyer sur le bouton plus"</string>
@@ -97,7 +96,7 @@
     <string name="send_id">"Envoyer ID"</string>
     <string name="email_sent">"Un e-mail a été envoyé à %1$s"</string>
     <string name="email_sent_confirm">"Un e-mail a été envoyé à %1$s. Merci de cliquer sur le lien dans le mail pour confirmer votre adresse mail."</string>
-    <string name="enter_email">"Renseigner votre adresse mail dans les réglages de l’appli."</string>
+    <string name="register_email_first">"Renseigner votre adresse mail dans les réglages de l’appli."</string>
     <string name="no_backups_available">"Pas de sauvegarde disponible"</string>
     <string name="internet_not_available_for_backup">"Internet non disponible. Seules les sauvegardes locales seront prises en compte."</string>
     <string name="register_email">"Enregistrer l’e-mail"</string>
@@ -113,7 +112,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"sauvegardes supprimées sur le périphérique:\n%1$s les sauvegardes\nDeleted dans les nuages:\n%2$s"</string>
     <string name="backup_upload_error">"Erreur lors du chargement de sauvegarde"</string>
-    <string name="action_share_with">"Partager avec des amis..."</string>
+    <string name="action_share_with">"Partager avec des amis…"</string>
     <string name="action_add_share_with">"ajouter"</string>
     <string name="action_retract_share">"retirer"</string>
     <string name="share_with_ok">"partagé avec %1$s"</string>
@@ -137,7 +136,7 @@
     <string name="collection_sharing_retracted_ok">"collection partagée a été retiré pour %1$s"</string>
     <string name="collection_retract_sharing">"Sélectionnez les éléments à partager rétractent"</string>
     <string name="title_collection_shared_with_me">"collection partagée"</string>
-    <string name="ask_link_collection">"%1$s a partagé sa collection \'%2$s\' avec vous. Voulez-vous lier?"</string>
+    <string name="ask_link_collection">"%1$s a partagé sa collection \"%2$s\" avec vous. Voulez-vous lier?"</string>
     <string name="wrong_app_version_update">"mettez l'application à jour pour la dernière version!"</string>
     <string name="session_expired_try_again">"session expirée. veuillez réessayer."</string>
     <string name="forum">"forum"</string>
@@ -224,7 +223,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"À l'échelle mondiale"</string>
-    <string name="action_trading_partners">"Partenaires commerciaux..."</string>
+    <string name="action_trading_partners">"Partenaires commerciaux…"</string>
     <string name="title_no_trading_partners_found">"Aucun partenaires commerciaux trouvé"</string>
     <string name="title_trading_partner_found">"Partenaires commerciaux"</string>
     <string name="change_my_country_only_hint">"Vous pouvez trouver des partenaires commerciaux si vous également autoriser les partenaires commerciaux d'autres pays que le vôtre dans la boîte de dialogue de configuration."</string>
@@ -251,7 +250,7 @@
     <string name="trading_session_empty_no_sending">"pièces non pour le commerce sélectionné. S'il vous plaît ajouter des pièces avant de l'envoyer au partenaire commercial."</string>
     <string name="trading_collection_deleted_by_counterparty">"La collection de négociation '%1$s' a été supprimé par le partenaire commercial."</string>
     <string name="account_not_activated">"Compte non actif. S'il vous plaît inscrire votre adresse mail et confirmer le lien d'inscription ou de désactiver le nuage présente dans les paramètres."</string>
-    <string name="action_share_public">"Publier..."</string>
+    <string name="action_share_public">"Publier…"</string>
     <string name="action_retract_share_public">"Rentrez la collection de la négociation"</string>
     <string name="collection_published_for_trading">"Collection a été publié. Est-ce que vous voulez rechercher des partenaires commerciaux maintenant?"</string>
     <string name="collection_retracted_for_trading">"Collection a été retirée du public. Cette collection ne sera pas disponible pour les nouveaux Trads plus longtemps."</string>
@@ -370,12 +369,21 @@
     <string name="abr_thousands">"K"</string>
     <string name="abr_millions">"M"</string>
     <string name="abr_billions">"Md"</string>
+    <string name="vatican_title_2005">"Jean-Paul II."</string>
+    <string name="vatican_title_2005_x">"Chambre apostolique"</string>
+
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Mes collections"</string>
+    <string name="title_usage_device">"Utilisation de l'appareil"</string>
+    <string name="ask_main_or_secondary_device">"Cet appareil sera-t-il votre appareil principal pour gérer vos collections de pièces ou votre appareil secondaire ?"</string>
+    <string name="usage_main_device">"Appareil principal"</string>
+    <string name="usage_secondary_device">"Appareil secondaire"</string>
 
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
 - Veuillez lire attentivement! Sinon, vous risquez d'être déçu par la fonctionnalité de négociation.
 - les pièces commerciales avec d'autres commerçants est beaucoup plus complexe que vous pouvez penser. Surtout quand le temps d'accord sur les pièces à être échangé prend plus que quelques heures que vous devez considérer que la collection de votre partenaire commercial peut avoir changé dans l'intervalle. Cela a un impact.
-- Vous accordez la permission de publier toute information (notes, images, nom, e-mail, pays, ...) de votre collection en utilisant la fonctionnalité de négociation.
+- Vous accordez la permission de publier toute information (notes, images, nom, e-mail, pays, &#8230;) de votre collection en utilisant la fonctionnalité de négociation.
 - Vous pouvez échanger des pièces avec d'autres utilisateurs, mais en utilisant la fonctionnalité de négociation de cette application ne doit pas être considéré comme une offre ou un contrat en termes juridiques! Quoi que vous fassiez ou voir dans cette application - il ne lie pas à quoi que ce soit quelqu'un.
 - La fonctionnalité de trading peut trouver des partenaires commerciaux pour votre collection sélectionnée.
 - Pour trouver un partenaire commercial vous devez d'abord donner à votre collection un nom public qui sera visible aux autres et partager votre collection au public.
@@ -383,7 +391,7 @@
 - Vous pouvez explicitally exclure des pièces individuelles et les empêcher d'être échangés via la propriété de pièce 'bloc commercial'. Avoir à l'esprit que même les pièces bloquées seront visibles au public.
 - Si vous ne voulez pas que toutes vos pièces sont disponibles pour le commerce que vous devez diviser votre collection en premier.
 - Votre collection a besoin d'obtenir un nom public qui sera également visible pour les autres. De même pour votre adresse e-mail.
-- Toutes les informations dans votre collection sera visible au public (notes, ...). En ajoutant des informations que vous acceptez d'ajouter que des informations valides au sujet de la pièce. Tout abus peut être signalé par d'autres et pourrait conduire à la suppression de votre compte.
+- Toutes les informations dans votre collection sera visible au public (notes, &#8230;). En ajoutant des informations que vous acceptez d'ajouter que des informations valides au sujet de la pièce. Tout abus peut être signalé par d'autres et pourrait conduire à la suppression de votre compte.
 - Vous pouvez sélectionner une image ou prendre une photo et l'affecter à une pièce de monnaie. Toute image assignée sera visible au public. Ce faisant, vous acceptez les images que Assigner où vous avez le droit de le faire et qui montre la pièce correspondante seulement. Tout abus peut être signalé par d'autres et pourrait conduire à la suppression de votre compte.
 - Un abus de la fonction de l'abus peut conduire à la suppression de votre compte.
 - Vous recevrez une collection de partenaire commercial par demande. Vous pouvez créer un lien vers le partenaire commercial affiché ou requenst suivant. Une fois que vous avez obtenu tous les partenaires commerciaux de la recherche recommencera.
@@ -419,15 +427,18 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.10\n
+    <string name="version_history_last">"Version 7.10\n
 Ajout d'un nouveau paramètre: couleur des ensembles de pièces collectés. Couleur d'arrière-plan des ensembles de pièces pour lesquels chaque pièce a été collectée. Idée de Jochen.
 Ajout des images manquantes des pièces commémoratives de 2 euros 2024 : Chypre, Vatican, Lettonie. Remarqué par Guiseppe.
 Ajout d'une nouvelle fonctionnalité pour exporter sous forme de fichier Excel. Inspiré par Jens.
-    "</string>
+"</string>
 
-    <string name="version_history_last">"Version 7.9\n
-Ajout de pièces commémoratives de 2 euros 2025
-    "</string>
+    <string name="version_history_current">"Version 7.11\n
+Pièce commémorative de 2 euros 2020 de Lituanie : texte corrigé sur les deux pièces. Reconnu par Marion.
+Pièce commémorative de 2 euros de Belgique ajoutée. Merci Jens.
+Les nouvelles collections seront automatiquement partagées entre les appareils des utilisateurs.
+Les collections seront automatiquement transférées vers les appareils nouvellement enregistrés.
+"</string>
 
     <string name="coin_1cent">"1 Centime"</string>
     <string name="coin_2cent">"2 Centimes"</string>

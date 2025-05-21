@@ -11,7 +11,7 @@
     <string name="enter_new_name">"Entrare nuova nome"</string>
     <string name="delete_collection">"Cancellare"</string>
     <string name="change_name">"Cambio di nome"</string>
-    <string name="default_collection_name">"Collezione1"</string>
+    <string name="default_collection_name">"Collezione"</string>
     <string name="how_to_unlock">"Premere l\'icona del lucchetto nella barra dei menu"</string>
     <string name="use_long_touch_to_force_details">"Coin non esiste. Premere a lungo per aprire la finestra di dialogo Proprietà."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Non modifica in multiutente e l\'UE vista"</string>
@@ -74,11 +74,10 @@
     <string name="delete_old_backups">"Elimiare i vecchi backup?"</string>
     <string name="no_external_storage_permission">"Android app menu attivare \'Autoizzaioni\' per \'Archiviazione\'"</string>
     <string name="commemorative_coins_full">"Commemorative moneta completo"</string>
-    <string name="pref_use_background_color">"Use background color"</string>
     <string name="pref_background_color">"Background color"</string>
     <string name="pref_hide_not_existing_coins">"Hide not existing coins"</string>
     <string name="click_the_coin_set_expand_button">"To open the coin set group touch the plus button"</string>
-    <string name="action_manage_shared_collection">"Gestisci gli amici..."</string>
+    <string name="action_manage_shared_collection">"Gestisci gli amici…"</string>
     <string name="collection_is_not_shared">"Questa collezione non è stato condiviso"</string>
     <string name="register">"registrati"</string>
 
@@ -100,7 +99,7 @@
     <string name="send_id">"ID Utente Invia"</string>
     <string name="email_sent">"Una e-mail è stata inviata a %1$s"</string>
     <string name="email_sent_confirm">"Una e-mail è stata inviata a %1$s. Controllare SPAM. Cliccate il seguente link all\'interno della e-mail per confermare l\'indirizzo di posta elettronica."</string>
-    <string name="enter_email">"Si prega di registrare il proprio indirizzo di posta elettronica."</string>
+    <string name="register_email_first">"Si prega di registrare il proprio indirizzo di posta elettronica."</string>
     <string name="no_backups_available">"nessun backup disponibile"</string>
     <string name="internet_not_available_for_backup">"Internet non è disponibile. Solo saranno trattati backup locali."</string>
     <string name="register_email">"registra email"</string>
@@ -116,7 +115,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"backup su dispositivo eliminato:\n%1$s backup\nDeleted nel cloud:\n%2$s"</string>
     <string name="backup_upload_error">"Errore durante il caricamento di backup"</string>
-    <string name="action_share_with">"Condividere con gli amici..."</string>
+    <string name="action_share_with">"Condividere con gli amici…"</string>
     <string name="action_add_share_with">"aggiungi nuovo"</string>
     <string name="action_retract_share">"ritratta"</string>
     <string name="share_with_ok">"condiviso con %1$s"</string>
@@ -140,7 +139,7 @@
     <string name="collection_sharing_retracted_ok">"raccolta condivisa è stato ritirato per %1$s"</string>
     <string name="collection_retract_sharing">"Selezionare gli elementi da condivisione di ritrazione"</string>
     <string name="title_collection_shared_with_me">"raccolta condivisa"</string>
-    <string name="ask_link_collection">"%1$s ha condiviso la sua collezione \'%2$s\' con voi. Vuoi collegarlo?"</string>
+    <string name="ask_link_collection">"%1$s ha condiviso la sua collezione \"%2$s\" con voi. Vuoi collegarlo?"</string>
     <string name="wrong_app_version_update">"aggiorna l'app all'ultima versione!"</string>
     <string name="session_expired_try_again">"la sessione è scaduta. prova ancora."</string>
     <string name="forum">"forum"</string>
@@ -373,6 +372,15 @@
     <string name="abr_thousands">"K"</string>
     <string name="abr_millions">"Mln"</string>
     <string name="abr_billions">"Mld"</string>
+    <string name="vatican_title_2005">"Giovanni Paolo II."</string>
+    <string name="vatican_title_2005_x">"Camera Apostolica"</string>
+
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Le mie collezioni"</string>
+    <string name="title_usage_device">"Utilizzo del dispositivo"</string>
+    <string name="ask_main_or_secondary_device">"Questo dispositivo sarà il tuo dispositivo principale per gestire le tue collezioni di monete o il tuo dispositivo secondario?"</string>
+    <string name="usage_main_device">"Dispositivo principale"</string>
+    <string name="usage_secondary_device">"Dispositivo secondario"</string>
 
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
@@ -422,15 +430,18 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"Versione 7.10\n
+    <string name="version_history_last">"Versione 7.10\n
 Aggiunta nuova impostazione: colore set zecca raccolto. Colore di sfondo per set zecca per cui è stata raccolta ogni moneta. Idea di Jochen.
 Aggiunte immagini mancanti della moneta commemorativa da 2 euro 2024: Cipro, Vaticano, Lettonia. Notato da Guiseppe.
 Aggiunta nuova funzionalità per esportare come file Excel. Ispirato da Jens.
-    "</string>.
+"</string>.
 
-    <string name="version_history_last">"Versione 7.9\n
-Aggiunte monete commemorative da 2 euro 2025
-    "</string>
+    <string name="version_history_current">"Versione 7.11\n
+Monete commemorative da 2 euro 2020 Lituania: testo corretto su entrambe le monete. Riconosciuto da Marion.
+Moneta commemorativa da 2 euro Belgio aggiunta. Grazie Jens.
+Le nuove collezioni verranno condivise automaticamente tra i dispositivi dell'utente.
+Le collezioni verranno trasferite automaticamente ai nuovi dispositivi registrati.
+"</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>

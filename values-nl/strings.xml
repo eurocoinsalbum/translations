@@ -12,7 +12,7 @@
     <string name="enter_new_name">"Voer nieuwe naam in"</string>
     <string name="delete_collection">"Verwijder"</string>
     <string name="change_name">"Naam wijzigen"</string>
-    <string name="default_collection_name">"Verzameling1"</string>
+    <string name="default_collection_name">"Verzameling"</string>
     <string name="how_to_unlock">"Tik op het slotje in de menubalk"</string>
     <string name="use_long_touch_to_force_details">"Munt bestaat niet. Raak de munt lang aan voor het openen van het venster met muntdetails."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Geen bewerking mogelijk in het overzicht alle gebruikers of EU-overzicht"</string>
@@ -80,7 +80,6 @@
     <string name="delete_old_backups">"Verwijder alle oude back-ups?"</string>
     <string name="no_external_storage_permission">"Activeer in de toestelinstellingen bij Applicatiebeheer, in het menu \'Machtigingen\' de \'Opslag\'"</string>
     <string name="commemorative_coins_full">"Alle herdenkingsmunten"</string>
-    <string name="pref_use_background_color">"Gebruik achtergrondkleur"</string>
     <string name="pref_background_color">"Achtergrondkleur"</string>
     <string name="pref_hide_not_existing_coins">"Verberg niet bestaande munten"</string>
     <string name="click_the_coin_set_expand_button">"Tik op de plusknop om de muntsetgroep te openen"</string>
@@ -102,7 +101,7 @@
     <string name="send_id">"Verstuur ID"</string>
     <string name="email_sent">"Een e-mail is gestuurd naar %1$s"</string>
     <string name="email_sent_confirm">"Een e-mail is gestuurd naar %1$s. Controleren spam. Graag nog op de link in de e-mail klikken, om je mailadres te bevestigen."</string>
-    <string name="enter_email">"Graag je e-mailadres invoeren."</string>
+    <string name="register_email_first">"Graag je e-mailadres invoeren."</string>
     <string name="no_backups_available">"Geen back-ups beschikbaar"</string>
     <string name="internet_not_available_for_backup">"Internet niet beschikbaar. Alleen lokale back-ups worden gemaakt."</string>
     <string name="register_email">"Registreer e-mail"</string>
@@ -142,7 +141,7 @@
     <string name="collection_sharing_retracted_ok">"Gedeelde collectie werd ingetrokken voor%1$s"</string>
     <string name="collection_retract_sharing">"Selecteer items terug te trekken sharing"</string>
     <string name="title_collection_shared_with_me">"Collection gedeelde"</string>
-    <string name="ask_link_collection">"%1$s heeft deelde zijn collectie \'%2$s\' met je mee. Wilt u het te koppelen?"</string>
+    <string name="ask_link_collection">"%1$s heeft deelde zijn collectie \"%2$s\" met je mee. Wilt u het te koppelen?"</string>
     <string name="wrong_app_version_update">"Werk de app naar de nieuwste versie!"</string>
     <string name="session_expired_try_again">"sessie is verlopen. probeer het opnieuw."</string>
     <string name="forum">"forum"</string>
@@ -375,6 +374,15 @@
     <string name="abr_thousands">"K"</string>
     <string name="abr_millions">"mln"</string>
     <string name="abr_billions">"mld"</string>
+    <string name="vatican_title_2005">"Johannes Paulus II."</string>
+    <string name="vatican_title_2005_x">"Apostolische Kamer"</string>
+
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Mijn collecties"</string>
+    <string name="title_usage_device">"Apparaatgebruik"</string>
+    <string name="ask_main_or_secondary_device">"Zal dit apparaat uw hoofdapparaat zijn om uw muntenverzamelingen te beheren of uw secundaire apparaat?"</string>
+    <string name="usage_main_device">"Hoofdapparaat"</string>
+    <string name="usage_secondary_device">"Secundair apparaat"</string>
 
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
@@ -424,14 +432,17 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Versie 7.10\n
+    <string name="version_history_last">"Versie 7.10\n
 Nieuwe instelling toegevoegd: kleur van verzamelde muntset. Achtergrondkleur voor muntsets waarvan elke munt is verzameld. Idee van Jochen.
 Afbeeldingen van ontbrekende 2-euroherdenkingsmunt 2024 toegevoegd: Cyprus, Vaticaanstad, Letland. Opgemerkt door Guiseppe.
 Nieuwe functie toegevoegd om te exporteren als Excel-bestand. Geïnspireerd door Jens.
     "</string>
 
-    <string name="version_history_last">"Versie 7.9\n
-2 Euro herdenkingsmunten 2025 toegevoegd
+    <string name="version_history_current">"Versie 7.11\n
+Herdenkingsmunten van 2 euro 2020 in Litouwen hebben de tekst op beide munten gecorrigeerd. Herkend door Marion.
+Herdenkingsmunt van 2 euro in België toegevoegd. Bedankt Jens.
+Nieuwe collecties worden automatisch gedeeld tussen de apparaten van de gebruiker.
+Collecties worden automatisch overgezet naar nieuw geregistreerde apparaten.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

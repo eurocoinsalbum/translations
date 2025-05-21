@@ -12,7 +12,7 @@
 	<string name="enter_new_name">"Įveskite naujo vardą"</string>
 	<string name="delete_collection">"Ištrinti"</string>
 	<string name="change_name">"Pakeisti vardą"</string>
-	<string name="default_collection_name">"Kolekcija1"</string>
+	<string name="default_collection_name">"Kolekcija"</string>
 	<string name="how_to_unlock">"Palieskite spynelės simbolį meniu juostoje"</string>
 	<string name="use_long_touch_to_force_details">"Moneta neįvesta. Palaikykite nuspaudę iškviesti monetos detalių langą."</string>
 	<string name="mode_unlock_not_in_multiuser_or_eu">"Kelių vartotojų ir ES rodmenyse negalima redaguoti informacijos"</string>
@@ -81,7 +81,6 @@
 	<string name="delete_old_backups">"Ištrinti visas senas kopijas?"</string>
 	<string name="no_external_storage_permission">"Android programų meniu įjunkite \'Leidimai\' - \'Saugykla\'"</string>
 	<string name="commemorative_coins_full">"Visos proginės monetos"</string>
-	<string name="pref_use_background_color">"Naudoti fono spalvą"</string>
 	<string name="pref_background_color">"Fono spalva"</string>
 	<string name="pref_hide_not_existing_coins">"Nerodyti neegzistuojančių monetų"</string>
 	<string name="click_the_coin_set_expand_button">"Palieskite pliuso ženklą norėdami išskleisti monetų grupę"</string>
@@ -104,7 +103,7 @@
 	<string name="send_id">"Nusiųsti ID"</string>
 	<string name="email_sent">"Išsiųstas laiškas adresu %1$s"</string>
 	<string name="email_sent_confirm">"Išsiųstas laiškas adresu %1$s. Patvirtinkite adresą aktyvuodami nuorodą jame."</string>
-	<string name="enter_email">"Nurodykite savo el.paštą nustartymuose."</string>
+	<string name="register_email_first">"Nurodykite savo el.paštą nustartymuose."</string>
 	<string name="no_backups_available">"Nėra rezervinių kopijų"</string>
 	<string name="internet_not_available_for_backup">"Nėra interneto ryšio. Bus apdorotos tik lokalios kopijos."</string>
 	<string name="register_email">"Užregistruoti el.pašto adresą"</string>
@@ -151,15 +150,27 @@
 	<string name="abr_thousands">"tük"</string>
 	<string name="abr_millions">"mln"</string>
 	<string name="abr_billions">"mldr"</string>
+	<string name="vatican_title_2005">"Jonas Paulius II."</string>
+	<string name="vatican_title_2005_x">"Apostolinė rūmai"</string>
 
-	<string name="version_history_current">"Versija 7.10\n
+	<!-- version 7.11 -->
+	<string name="action_my_collections">"Mano kolekcijos"</string>
+	<string name="title_usage_device">"Įrenginio naudojimas"</string>
+	<string name="ask_main_or_secondary_device">"Ar šis įrenginys bus jūsų pagrindinis įrenginys monetų kolekcijoms valdyti, ar antrinis įrenginys?"</string>
+	<string name="usage_main_device">"Pagrindinis įrenginys"</string>
+	<string name="usage_secondary_device">"Antrinis įrenginys"</string>
+
+	<string name="version_history_last">"Versija 7.10\n
 Pievienots jauns iestatījums: savāktā piparmētru komplekta krāsa. Fona krāsa piparmētru komplektiem, kuriem ir savākta katra monēta. Johena ideja.
 Pievienoti trūkstošo 2 eiro piemiņas monētu attēli 2024: Kipra, Vatikāns, Latvija. Pamanīja Gizepe.
 Pievienota jauna iespēja eksportēt kā Excel failu. Iedvesmojoties no Džensa.
 	"</string>
 
-	<string name="version_history_last">"Versija 7.9\n
-Pridėtos 2 eurų proginės monetos 2025 m
+	<string name="version_history_current">"Versija 7.11\n
+2 eurų proginės monetos 2020 m. Lietuva, pataisytas abiejų monetų tekstas. Atpažino Marion.
+Pridėta 2 eurų proginė moneta Belgija. Ačiū, Jens.
+Naujos kolekcijos bus automatiškai bendrinamos tarp naudotojo įrenginių.
+Kolekcijos bus automatiškai perkeltos į naujai užregistruotus įrenginius.
 	"</string>
 
 	<string name="coin_1cent">"1 centas"</string>

@@ -12,7 +12,7 @@
     <string name="enter_new_name">"Bitte neuen Namen eingeben"</string>
     <string name="delete_collection">"Löschen"</string>
     <string name="change_name">"Name ändern"</string>
-    <string name="default_collection_name">"Sammlung1"</string>
+    <string name="default_collection_name">"Sammlung"</string>
     <string name="how_to_unlock">"Drücke das Schloß-Symbol in der Menübar"</string>
     <string name="use_long_touch_to_force_details">"Münze existiert nicht. Lange drücken, um den Eigenschaften-Dialog zu öffnen."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Editiermodus in Multiuser und EU Ansicht nicht möglich"</string>
@@ -79,7 +79,6 @@
     <string name="delete_old_backups">"Alle Sicherungen außer die der aktuellen Woche löschen?"</string>
     <string name="no_external_storage_permission">"Im Android Apps Menü die \'Berechtigung\' für \'Speicher\' aktivieren"</string>
     <string name="commemorative_coins_full">"Gedenkmünzen voll"</string>
-    <string name="pref_use_background_color">"Hintergrundfarbe verwenden"</string>
     <string name="pref_background_color">"Hintergrundfarbe"</string>
     <string name="pref_hide_not_existing_coins">"Nicht existierende Münzen ausblenden"</string>
     <string name="click_the_coin_set_expand_button">"Um die Gruppe zu öffnen drücke den Plus-Button"</string>
@@ -105,7 +104,7 @@
     <string name="send_id">"Benutzer ID senden"</string>
     <string name="email_sent">"Eine E-Mail wurde an %1$s versendet"</string>
     <string name="email_sent_confirm">"Eine E-Mail wurde an %1$s versendet. SPAM überprüfen. Bitte klicken Sie auf den Link in der E-Mail, um die neue Mailadresse zu bestätigen."</string>
-    <string name="enter_email">"Bitte registrieren Sie Ihre Mailadresse."</string>
+    <string name="register_email_first">"Bitte registrieren Sie Ihre Mailadresse."</string>
     <string name="no_backups_available">"Keine Sicherungen vorhanden"</string>
     <string name="internet_not_available_for_backup">"Internet nicht verfügbar. Nur lokale Sicherungen werden bearbeitet."</string>
     <string name="register_email">"E-Mail registrieren"</string>
@@ -144,7 +143,7 @@
     <string name="collection_sharing_retracted_ok">"Geteilte Sammlung wurde für %1$s zurückgezogen"</string>
     <string name="collection_retract_sharing">"Selektieren Sie die Einträge, die Sie zurückziehen möchten"</string>
     <string name="title_collection_shared_with_me">"Sammlung geteilt"</string>
-    <string name="ask_link_collection">"%1$s hat seine Sammlung %2$s mit Ihnen geteilt. Möchten Sie diese verbinden?"</string>
+    <string name="ask_link_collection">"%1$s hat die Sammlung \"%2$s\" mit Ihnen geteilt. Möchten Sie diese verbinden?"</string>
     <string name="wrong_app_version_update">"Bitte die App auf die neuste Version updated."</string>
     <string name="session_expired_try_again">"Sitzung abgelaufen. Bitte erneut versuchen."</string>
     <string name="forum">"Forum"</string>
@@ -370,19 +369,27 @@
     <string name="abr_thousands">"Tsd"</string>
     <string name="abr_millions">"Mio"</string>
     <string name="abr_billions">"Mrd"</string>
+    <string name="vatican_title_2005">"Johannes Paul II."</string>
+    <string name="vatican_title_2005_x">"Apostolische Kammer"</string>
+
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Meine Sammlungen"</string>
+    <string name="title_usage_device">"Gerätenutzung"</string>
+    <string name="ask_main_or_secondary_device">"Wird dieses Gerät Ihr Hauptgerät zur Verwaltung Ihrer Münzsammlungen oder Ihr Zweitgerät?"</string>
+    <string name="usage_main_device">"Hauptgerät"</string>
+    <string name="usage_secondary_device">"Zweitgerät"</string>
 
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
     - Der Tausch von Münzen mit anderen Benutzers ist viel komplexer als Sie vielleicht denken. Insbesondere wenn die Einigung über die zu tauschenden Münzen länger als einige Stunden dauert, müssen Sie berücksichtigen, dass sich die Sammlung Ihres Tauschpartners in der Zwischenzeit möglicherweise geändert hat. Das hat natürlich Auswirkungen auf bereits zum Tausch ausgewählte Münzen.
     - Sie erteilen die Erlaubnis, Informationen (Notizen, Bilder, Name, E-Mail, Land, ...) Ihrer Sammlung mithilfe der Tauschfunktion zu veröffentlichen.
-    - Sie können mit anderen Benutzern Münzen tauschen, ABER mit der Tauschfunktion dieser App DÜRFEN SIE DEN TAUSCHVORSCHLAG NICHT als Angebot oder als Vertrag im rechtlichen Sinne betrachtet werden! Was auch immer Sie in dieser App tun oder sehen - sie bindet niemanden an irgendetwas.
-    - Die Tauschfunktion kann Tauschpartner für Ihre aktuell ausgewählte Sammlung finden.
+    - Sie können mit anderen Benutzern Münzen tauschen, ABER mit der Tauschfunktion dieser App DÜRFEN SIE DEN TAUSCHVORSCHLAG NICHT als Angebot oder als Vertrag im rechtlichen Sinne betrachtet werden! Was auch immer Sie in dieser App tun, es wird hierdruch keine Willenserklärung im rechtlichen Sinne abgegeben.
+    - Die Tauschfunktion kann Tauschpartner für Ihre Sammlung finden.
     - Um einen Tauschpartner zu finden, müssen Sie Ihrer Sammlung zunächst einen öffentlichen Namen geben, der für andere sichtbar ist, und Ihre Sammlung für die Öffentlichkeit freigeben.
     - Alle Münzen Ihrer Sammlung stehen anderen zur Auswahl, mit Ausnahme derjenigen, die Sie in den Einstellungen Tauschsammlung: Anzahl zu behaltender Münzen festgelegt haben.
     - Sie können einzelne Münzen explizit ausschließen und über die Eigenschaft 'Tausch blockieren' der Münze den Tausch dieser verhindern. Beachten Sie, dass auch gesperrte Münzen für die Öffentlichkeit sichtbar sind.
     - Wenn Sie nicht möchten, dass alle Ihre Münzen für den Tausch verfügbar sind, müssen Sie zuerst Ihre Sammlung aufteilen.
-    - Ihre Sammlung muss einen öffentlichen Namen haben, der auch für andere sichtbar ist. Gleiches gilt für Ihre E-Mail-Adresse.
     - Alle Informationen in Ihrer Sammlung sind für die Öffentlichkeit sichtbar (Notizen, ...). Durch das Hinzufügen von Informationen erklären Sie sich damit einverstanden, nur gültige Informationen zur Münze hinzuzufügen. Jeder Missbrauch kann von anderen gemeldet werden und zur Löschung Ihres App-Kontos führen.
     - Sie können ein Bild auswählen oder ein Foto aufnehmen und einer Münze zuordnen. Jedes zugewiesene Bild ist für die Öffentlichkeit sichtbar. Sie erklären sich damit einverstanden, nur Bilder zu verwenden, für die Sie berechtigt sind und auf denen nur die entsprechende Münze abgebildet ist. Jeder Missbrauch kann von anderen gemeldet werden und zur Löschung Ihres App-Kontos führen.
     - Ein Missbrauch der Meldefunktion kann zur Löschung Ihres App-Kontos führen.
@@ -413,19 +420,22 @@
     - Um einen besseren Überblick zu haben, ist es möglicherweise sinnvoll, die für den Tausch ausgewählten Münzen auf Papier zu notieren. Derzeit unterstützt die App keine Historie der Tauschsammlung. Sie sehen immer nur den aktuellen Status.
     - Beide Benutzer können den Warenkorb nacheinander bearbeiten, bis ein Benutzer die Sammlung nicht mehr ändert, sondern den Tausch bestätigt. Wenn sich der Nennwert der Münzen zwischen den beiden Tauschpartnern unterscheidet, muss dies durch Hinzufügen des korrekten Betrags zum Paket ausgeglichen werden.
     - Ein Tausch kann nur bestätigt werden, wenn für jede gehandelte Münze entweder die Eigenschaft Zustand festgelegt oder ein eigenes Bild angehängt wurde.
-    - Nachdem der Tausch bestätigt wurde, erhalten Sie und Ihr Tauschpartner eine E-Mail mit den E-Mail-Adressen und einer Liste mit den Münzen, die für den Tausch ausgewählt wurden.
+    - Nachdem der Tausch bestätigt wurde, erhalten Sie und Ihr Tauschpartner eine E-Mail mit der E-Mail-Adresse des Tauschpartners und einer Liste mit den Münzen, die für den Tausch ausgewählt wurden.
     - Wenn Sie Ihrem Tauschpartner erfolgreich Ihre Münzen zuzüglich eines eventuellen Geldbetrags zum Ausgleich einer Differenz des Nennwerts geschickt und Ihre neuen Münzen erhalten haben, markieren Sie die Tauschsammlung als ausgeführt über das Tauschpartner-Menü. Die Sammlung wird dann nicht mehr im Menü des Benutzers angezeigt, sondern unter Menü->Sammlungen-> Tauschpartner->Durchgeführte Tauschsammlungen.
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.10\n
+    <string name="version_history_last">"Version 7.10\n
 Neue Einstellung hinzugefügt: Farbe gesammelter Münzsätze. Hintergrundfarbe für Münzsätze, für die jede Münze gesammelt wurde. Idee von Jochen.
 Fehlende Bilder der 2-Euro-Gedenkmünze 2024 hinzugefügt: Zypern, Vatikan, Lettland. Von Guiseppe bemerkt.
 Neue Funktion zum Exportieren als Excel-Datei hinzugefügt. Inspiriert von Jens.
 "</string>
 
-    <string name="version_history_last">"Version 7.9\n
-2 Euro Gedenkmünzen 2025 hinzugefügt
+    <string name="version_history_current">"Version 7.11\n
+2-Euro-Gedenkmünzen 2020 Litauen: Text beider Münzen korrigiert. Marion hat dies erkannt.
+2-Euro-Gedenkmünze Belgien hinzugefügt. Danke, Jens.
+Neue Sammlungen werden automatisch zwischen den Geräten des Nutzers geteilt.
+Sammlungen werden automatisch auf neu registrierte Geräte übertragen.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

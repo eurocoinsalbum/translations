@@ -79,7 +79,6 @@
     <string name="delete_old_backups">"¿Eliminar todas las copias de seguridad, excepto las de la semana actual?"</string>
     <string name="no_external_storage_permission">"En el menú de aplicaciones de Android, activa 'Permisos' para 'Almacenamiento'"</string>
     <string name="commemorative_coins_full">"Monedas conmemorativas llenas"</string>
-    <string name="pref_use_background_color">"Usar color de fondo"</string>
     <string name="pref_background_color">"Color de fondo"</string>
     <string name="pref_hide_not_existing_coins">"Ocultar monedas no existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir el grupo de juegos de monedas, toque el botón más"</string>
@@ -105,7 +104,7 @@
     <string name="send_id">"Enviar ID de usuario"</string>
     <string name="email_sent">"Se envió un correo electrónico a %1$s"</string>
     <string name="email_sent_confirm">"Se envió un correo electrónico a %1$s . Verifica SPAM. Haga clic en el enlace dentro del correo electrónico para confirmar su dirección de correo electrónico."</string>
-    <string name="enter_email">"Por favor, registre su dirección de correo electrónico."</string>
+    <string name="register_email_first">"Por favor, registre su dirección de correo electrónico."</string>
     <string name="no_backups_available">"No hay copias de seguridad disponibles"</string>
     <string name="internet_not_available_for_backup">"Internet no disponible. Solo se procesarán las copias de seguridad locales."</string>
     <string name="register_email">"Registrar correo electrónico"</string>
@@ -145,7 +144,7 @@
     <string name="collection_sharing_retracted_ok">"La colección compartida fue retractada por %1$s"</string>
     <string name="collection_retract_sharing">"Seleccionar elementos para retraer el uso compartido"</string>
     <string name="title_collection_shared_with_me">"Colección compartida"</string>
-    <string name="ask_link_collection">"%1$s ha compartido su colección \\" %2$s \\" contigo. ¿Quieres vincularlo?"</string>
+    <string name="ask_link_collection">"%1$s ha compartido su colección \"%2$s\" contigo. ¿Quieres vincularlo?"</string>
     <string name="wrong_app_version_update">"¡Actualiza la aplicación a la versión más nueva!"</string>
     <string name="session_expired_try_again">"Sesión expirada. Inténtalo de nuevo."</string>
     <string name="forum">"Foro"</string>
@@ -378,6 +377,15 @@
     <string name="abr_thousands">"K"</string>
     <string name="abr_millions">"M"</string>
     <string name="abr_billions">"Mil"</string>
+    <string name="vatican_title_2005">"Juan Pablo II."</string>
+    <string name="vatican_title_2005_x">"Cámara Apostólica"</string>
+
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Mis colecciones"</string>
+    <string name="title_usage_device">Uso del dispositivo</string>
+    <string name="ask_main_or_secondary_device">¿Será este dispositivo su dispositivo principal para gestionar sus colecciones de monedas o su dispositivo secundario?</string>
+    <string name="usage_main_device">Dispositivo principal</string>
+    <string name="usage_secondary_device">Dispositivo secundario</string>
 
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
@@ -423,14 +431,17 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.10\n
+    <string name="version_history_last">"Versión 7.10\n
 Se agregó una nueva configuración: color de la colección de monedas. Color de fondo para las colecciones de monedas en las que se han recopilado todas las monedas. Idea de Jochen.
 Se agregaron imágenes de monedas conmemorativas de 2 euros que faltaban en 2024: Chipre, Vaticano, Letonia. Guiseppe lo notó.
 Se agregó una nueva función para exportar como archivo de Excel. Inspirado por Jens.
     "</string>
 
-    <string name="version_history_last">"Versión 7.9\n
-Se añaden monedas conmemorativas de 2 euros del año 2025
+    <string name="version_history_current">"Versión 7.11\n
+Monedas conmemorativas de 2 euros de Lituania 2020. Texto corregido de ambas monedas. Reconocida por Marion.
+Moneda conmemorativa de 2 euros de Bélgica añadida. Gracias, Jens.
+Las nuevas colecciones se compartirán automáticamente entre los dispositivos del usuario.
+Las colecciones se transferirán automáticamente a los nuevos dispositivos registrados.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

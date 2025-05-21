@@ -12,7 +12,7 @@
 	<string name="enter_new_name">"ange nytt namn"</string>
 	<string name="delete_collection">"radera"</string>
 	<string name="change_name">"ändra namn"</string>
-	<string name="default_collection_name">"Collection1"</string>
+	<string name="default_collection_name">"Collection"</string>
 	<string name="how_to_unlock">"Tryck på låssymbolen i menyraden"</string>
 	<string name="use_long_touch_to_force_details">"Coin inte existerar. Använd lång kontakt för att tvinga öppna mynt detaljer dialogen."</string>
 	<string name="mode_unlock_not_in_multiuser_or_eu">"Ingen redigering i Multiuser och EU view"</string>
@@ -80,7 +80,6 @@
 	<string name="delete_old_backups">"Ta bort alla säkerhetskopior utom de från nuvarande vecka?"</string>
 	<string name="no_external_storage_permission">"I Android \'s appmenyn aktivera \' Behörigheter \' för \'Förvaring \'"</string>
 	<string name="commemorative_coins_full">"Jubileumsmynt fulla"</string>
-	<string name="pref_use_background_color">"Använd bakgrundsfärg"</string>
 	<string name="pref_background_color">"bakgrundsfärg"</string>
 	<string name="pref_hide_not_existing_coins">"Göm inte befintliga mynt"</string>
 	<string name="click_the_coin_set_expand_button">"För att öppna myntserie gruppen röra på plusknappen"</string>
@@ -106,7 +105,7 @@
 	<string name="send_id">"Skicka användar-ID"</string>
 	<string name="email_sent">"Ett e-postmeddelande har skickats till%1$s"</string>
 	<string name="email_sent_confirm">"Ett e-postmeddelande har skickats till%1$s. Kontrollera SPAM. Klicka på länken i e-postmeddelandet för att bekräfta din e-postadress."</string>
-	<string name="enter_email">"Vänligen registrera din e-postadress."</string>
+	<string name="register_email_first">"Vänligen registrera din e-postadress."</string>
 	<string name="no_backups_available">"ingen säkerhetskopiering hittades"</string>
 	<string name="internet_not_available_for_backup">"Internet är inte tillgänglig. Endast lokala säkerhetskopior kommer att behandlas."</string>
 	<string name="register_email">"registrera email"</string>
@@ -379,6 +378,15 @@
 	<string name="abr_thousands">"tn"</string>
 	<string name="abr_millions">"mn"</string>
 	<string name="abr_billions">"md"</string>
+	<string name="vatican_title_2005">"Johannes Paulus II."</string>
+	<string name="vatican_title_2005_x">"Apostoliska kammaren"</string>
+
+	<!-- version 7.11 -->
+	<string name="action_my_collections">"Mina samlingar"</string>
+	<string name="title_usage_device">"Enhetsanvändning"</string>
+	<string name="ask_main_or_secondary_device">"Kommer denna enhet att vara din huvudenhet för att hantera dina myntsamlingar eller din sekundära enhet?"</string>
+	<string name="usage_main_device">"Huvudenhet"</string>
+	<string name="usage_secondary_device">"Sekundär enhet"</string>
 
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
@@ -428,14 +436,17 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_current">"Version 7.10\n
+	<string name="version_history_last">"Version 7.10\n
 Lade till ny inställning: insamlad mint set färg. Bakgrundsfärg för myntset för vilka varje mynt har samlats in. Idé av Jochen.
 Lade till saknade 2 euro-minnesmyntbilder 2024: Cypern, Vatikanen, Lettland. Uppmärksammad av Guiseppe.
 Lade till ny funktion för att exportera som Excel-fil. Inspirerad av Jens.
 	"</string>
 
-	<string name="version_history_last">"Version 7.9\n
-2 euro jubileumsmynt 2025 tillagda
+	<string name="version_history_current">"Version 7.11\n
+2-euromynt 2020 Litauen korrigerade texten på båda mynten. Kändes igen av Marion.
+2-euromynt Belgien tillagt. Tack Jens.
+Nya samlingar kommer automatiskt att delas mellan användarens enheter.
+Samlingar kommer automatiskt att överföras till nyregistrerade enheter.
 	"</string>
 
 

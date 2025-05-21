@@ -13,7 +13,7 @@
     <string name="enter_new_name">"Enter new name"</string>
     <string name="delete_collection">"Delete"</string>
     <string name="change_name">"Change name"</string>
-    <string name="default_collection_name">"Collection1"</string>
+    <string name="default_collection_name">"Collection"</string>
     <string name="how_to_unlock">"Touch the lock symbol in the menu bar"</string>
     <string name="use_long_touch_to_force_details">"Coin does not exists. Use long touch to force opening the coin details dialog."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"No editing in Multiuser and EU view"</string>
@@ -83,7 +83,6 @@
     <string name="delete_old_backups">"Delete all backups except those from current week?"</string>
     <string name="no_external_storage_permission">"In Android\'s apps menu activate \'Permissions\' for \'Storage\'"</string>
     <string name="commemorative_coins_full">"Commemorative coins full"</string>
-    <string name="pref_use_background_color">"Use background color"</string>
     <string name="pref_background_color">"Background color"</string>
     <string name="pref_background_color_all_collected">"Collected mint set color"</string>
     <string name="pref_hide_not_existing_coins">"Hide not existing coins"</string>
@@ -110,7 +109,7 @@
     <string name="send_id">"Send User ID"</string>
     <string name="email_sent">"An e-mail has been sent to %1$s"</string>
     <string name="email_sent_confirm">"An e-mail has been sent to %1$s. Check SPAM. Please click the link inside the e-mail to confirm your mail address."</string>
-    <string name="enter_email">"Please register your e-mail address."</string>
+    <string name="register_email_first">"Please register your e-mail address."</string>
     <string name="no_backups_available">"No backups available"</string>
     <string name="internet_not_available_for_backup">"Internet not available. Only local backups will be processed."</string>
     <string name="register_email">"Register e-mail"</string>
@@ -150,7 +149,7 @@
     <string name="collection_sharing_retracted_ok">"Shared collection was retracted for %1$s"</string>
     <string name="collection_retract_sharing">"Select items to retract sharing"</string>
     <string name="title_collection_shared_with_me">"Collection shared"</string>
-    <string name="ask_link_collection">"%1$s has shared his collection \"%2$s\" with you. Do you want to link it?"</string>
+    <string name="ask_link_collection">"%1$s has shared the collection \"%2$s\" with you. Do you want to link it?"</string>
     <string name="wrong_app_version_update">"Please update the app to the newest version!"</string>
     <string name="session_expired_try_again">"Session expired. Please try again."</string>
     <string name="forum">"Forum"</string>
@@ -386,10 +385,16 @@
     <string name="abr_thousands">"k"</string>
     <string name="abr_millions">"m"</string>
     <string name="abr_billions">"bn"</string>
+    <string name="vatican_title_2005">"John Paul II."</string>
+    <string name="vatican_title_2005_x">"Apostolic Chamber"</string>
 
-    <!-- version 7.8.1 -->
-    <string name="vatican_title_2005">"Johannes Paul II."</string>string>
-    <string name="vatican_title_2005_x">"Apostolischen Kammer"</string>string>
+    <!-- version 7.8.11 -->
+    <string name="action_my_collections">"My collections"</string>
+    <string name="title_usage_device">Device usage</string>
+    <string name="ask_main_or_secondary_device">Will this device be your main device to manage your coin collections or your secondary device?</string>
+    <string name="usage_main_device">Main device</string>
+    <string name="usage_secondary_device">Secondary device</string>
+
 
     <!-- Trading text change -->
     <!-- version 8.0 -->
@@ -447,15 +452,18 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_current">"Version 7.10\n
+    <string name="version_history_last">"Version 7.10
 Added new setting: collected mint set color. Background color for mint sets for which every coin has been collected. Idea by Jochen.
 Added missing 2 Euro commemorative coin images 2024: Cyprus, Vatican, Latvia. Noticed by Guiseppe.
 Added new feature to export as Excel file. Inspired by Jens.
-        "</string>
+"</string>
 
-    <string name="version_history_last">"Version 7.9\n
-2 Euro commemorative coins 2025 added
-        "</string>
+    <string name="version_history_current">"Version 7.11
+2 Euro commemorative coins 2020 Lithuania corrected text of both coins. Recognized by Marion.
+2 Euro commemorative coin Belgium added. Thanks Jens.
+New collections will be automatically shared among the user's devices.
+Collections will be automatically transferred to newly registered devices.
+"</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>
@@ -2633,15 +2641,15 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2019_lt_2_volume">"500000"</string>
     <string name="twoeuro_comm_2019_lt_2_date">"3rd quarter 2019"</string>
 
-    <string name="twoeuro_comm_2020_lt_2_title">"UNESCO Cultural Heritage - Kryžių Kalnas (the Hill of Crosses)"</string>
-    <string name="twoeuro_comm_2020_lt_2_desc">"The design depicts the Hill of Crosses: fragments of wooden and forged crosses, symbolising Lithuanian cross-crafting and folk culture. Cross-crafting and cross-symbolism in Lithuania are included in the UNESCO Representative List of the Intangible Cultural Heritage of Humanity. The inscriptions featured are: Lithuania’s name ‘LIETUVA’, the year of issue ‘2020’ on the top, ‘KRYŽIŲ KALNAS’ (the Hill of Crosses) and the mark of the Lithuanian Mint at the bottom. The design is realised by Rytas Jonas Belevičius. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2020_lt_2_volume">"500000"</string>
-    <string name="twoeuro_comm_2020_lt_2_date">"4th quarter 2020"</string>
-
-    <string name="twoeuro_comm_2020_lt_title">"Aukštaitija (from the series Lithuanian Etnographic Regions)"</string>
-    <string name="twoeuro_comm_2020_lt_desc">"The design features a coat of arms with an armour-clad knight holding a sword in his right hand. The coat of arms is held by two angels, simbolically exalting and protecting Aukštaitija – one of the most important regions of Lithuania and the cradle of its statehood. Below is a Latin inscription PATRIAM TUAM MUNDUM EXISTIMA (CONSIDER YOUR HOMELAND TO BE THE WHOLE WORLD). The design is surrounded by inscriptions: ‘LIETUVA’ (the name of the issuing country), ‘AUKŠTAITIJA’, the year of issuance ‘2020’ and the mintmark of the Lithuanian Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2020_lt_title">"UNESCO Cultural Heritage - Kryžių Kalnas (the Hill of Crosses)"</string>
+    <string name="twoeuro_comm_2020_lt_desc">"The design depicts the Hill of Crosses: fragments of wooden and forged crosses, symbolising Lithuanian cross-crafting and folk culture. Cross-crafting and cross-symbolism in Lithuania are included in the UNESCO Representative List of the Intangible Cultural Heritage of Humanity. The inscriptions featured are: Lithuania’s name ‘LIETUVA’, the year of issue ‘2020’ on the top, ‘KRYŽIŲ KALNAS’ (the Hill of Crosses) and the mark of the Lithuanian Mint at the bottom. The design is realised by Rytas Jonas Belevičius. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2020_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2020_lt_date">"March 2020"</string>
+    <string name="twoeuro_comm_2020_lt_date">"4th quarter 2020"</string>
+
+    <string name="twoeuro_comm_2020_lt_2_title">"Aukštaitija (from the series Lithuanian Etnographic Regions)"</string>
+    <string name="twoeuro_comm_2020_lt_2_desc">"The design features a coat of arms with an armour-clad knight holding a sword in his right hand. The coat of arms is held by two angels, simbolically exalting and protecting Aukštaitija – one of the most important regions of Lithuania and the cradle of its statehood. Below is a Latin inscription PATRIAM TUAM MUNDUM EXISTIMA (CONSIDER YOUR HOMELAND TO BE THE WHOLE WORLD). The design is surrounded by inscriptions: ‘LIETUVA’ (the name of the issuing country), ‘AUKŠTAITIJA’, the year of issuance ‘2020’ and the mintmark of the Lithuanian Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2020_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2020_lt_2_date">"March 2020"</string>
 
     <string name="twoeuro_comm_2021_lt_title">"Dzūkija (from the series ‘Lithuanian Ethnographic Regions’)"</string>
     <string name="twoeuro_comm_2021_lt_desc">"The design features a coat of arms with an armoured-clad soldier holding a halberd in his right hand and leaning with his left arm against a silver Baltic shield. The coat of arms placed on a beam is held by two lynxes. Below hangs a ribbon with a Latin inscription EX GENTE BELICOSISSIMA POPULUS LABORIOSUS (HARD-WORKING PEOPLE FROM A FIERCE TRIBE). The composition is surrounded by inscriptions LIETUVA (LITHUANIA) and DZŪKIJA, the year of issue (2021) and the mintmark of the Lithuanian Mint. The design is realised by Rolandas Rimkūnas. The coin’s outer ring bears the 12 stars of the European flag."</string>
@@ -2967,6 +2975,11 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_be_desc">""</string>
     <string name="twoeuro_comm_2025_be_volume">""</string>
     <string name="twoeuro_comm_2025_be_date">""</string>
+
+    <string name="twoeuro_comm_2025_be_2_title">"Nationallotterie Belgien"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">""</string>
+    <string name="twoeuro_comm_2025_be_2_volume">""</string>
+    <string name="twoeuro_comm_2025_be_2_date">""</string>
 
     <string name="twoeuro_comm_2025_de_title">"Saarschleife Saarland"</string>
     <string name="twoeuro_comm_2025_de_desc">""</string>
