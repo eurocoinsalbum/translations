@@ -131,7 +131,7 @@
     <string name="no_cloud_features_activated">"caractéristiques Cloud (Internet) sont désactivées."</string>
     <string name="not_saved_load_error">"L\'utilisateur %1$s pas enregistré en raison de l\'erreur de charge précédente. mode de déverrouillage de modifier pour forcer sauvegarde."</string>
     <string name="collection_infos_general">"Nom: %1$s\nCollection ID: %2$s\nPublic Nom: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
-    <string name="collection_deleted">"Collection %1$s supprimé"</string>
+    <string name="collection_deleted">"Collection '%1$s' supprimé"</string>
     <string name="collection_sharing_retracted">"Partagé collection%1$s a été retiré par le propriétaire"</string>
     <string name="collection_sharing_retracted_ok">"collection partagée a été retiré pour %1$s"</string>
     <string name="collection_retract_sharing">"Sélectionnez les éléments à partager rétractent"</string>
@@ -342,7 +342,7 @@
     <string name="transfer_collection_hint_email">"Si vous voulez transférer une collection existante, vous devez enregistrer la même adresse e-mail que celle utilisée sur votre ancien appareil !"</string>.
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Voulez-vous transférer vos collections depuis un ancien appareil ?"</string>
+    <string name="transfer_collections_from_old_device">"Voulez-vous transférer vos collections depuis un ancien appareil ?"</string>
     <string name="transfer_ask_old_device">"Avez-vous accès à votre ancien appareil ?"</string>
     <string name="transfer_show_code_instructions">"Sur votre ancien appareil, ouvrez le menu de l'application, sélectionnez '%1$s' '%2$s' et saisissez le code '%3$s'. Le code est valable pendant 10 minutes."</string>
     <string name="action_enter_transfer_code">"Entrez le code de transfert"</string>

@@ -136,7 +136,7 @@
     <string name="no_cloud_features_activated">"Funkcije oblaka (internet) so onemogočene."</string>
     <string name="not_saved_load_error">"Uporabnik %1$s ni bil shranjen zaradi prejšnje napake pri nalaganju. Odklenite način urejanja, da shranite silo."</string>
     <string name="collection_infos_general">"Ime: %1$s \nIzbor kode: %2$s \nPublic Ime: %3$s \nDroga: %4$s \nOwner: %5$s \nSinhronizirana: %6$s\nTrading Partners: %7$s"</string>
-    <string name="collection_deleted">"Zbirka %1$s izbrisana"</string>
+    <string name="collection_deleted">"Zbirka '%1$s' izbrisana"</string>
     <string name="collection_sharing_retracted">"Skupna kolekcija %1$s je bila umaknjena s strani lastnika"</string>
     <string name="collection_sharing_retracted_ok">"Zbirka v skupni rabi je bila umaknjena za %1$s"</string>
     <string name="collection_retract_sharing">"Izberite elemente za umikanje skupne rabe"</string>
@@ -215,7 +215,7 @@
     <string name="transfer_collection_hint_email">"Če želite prenesti obstoječo zbirko, morate registrirati isti e-poštni naslov, kot ste ga uporabljali v stari napravi!"</string>
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Ali želite prenesti zbirke iz stare naprave?"</string>
+    <string name="transfer_collections_from_old_device">"Ali želite prenesti zbirke iz stare naprave?"</string>
     <string name="transfer_ask_old_device">"Ali imate dostop do svoje stare naprave?"</string>
     <string name="transfer_show_code_instructions">"V svoji stari napravi odprite meni aplikacije, izberite '%1$s' '%2$s' in vnesite kodo '%3$s'. Koda velja 10 minut."</string>
     <string name="action_enter_transfer_code">"Vnesite kodo prenosa"</string>

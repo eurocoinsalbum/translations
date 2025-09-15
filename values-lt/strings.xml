@@ -123,7 +123,7 @@
 	<string name="transfer_collection_hint_email">"Jei norite perkelti esamą kolekciją, turite užregistruoti tą patį el. pašto adresą, kurį naudojote senajame įrenginyje!"</string>
 
 	<!-- version 7.2 -->
-	<string name="app_first_usage_ask_transfer">"Ar norite perkelti kolekcijas iš senojo prietaiso?"</string>
+	<string name="transfer_collections_from_old_device">"Ar norite perkelti kolekcijas iš senojo prietaiso?"</string>
 	<string name="transfer_ask_old_device">"Ar turite prieigą prie savo senojo įrenginio?"</string>
 	<string name="transfer_show_code_instructions">"Senajame įrenginyje atidarykite programos meniu, pasirinkite "%1$s" "%2$s" ir įveskite kodą "%3$s". Kodas galioja 10 minučių."</string>
 	<string name="action_enter_transfer_code">"Įveskite perkėlimo kodą"</string>

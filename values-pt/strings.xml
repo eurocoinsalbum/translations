@@ -138,7 +138,7 @@
     <string name="no_cloud_features_activated">"Cloud (Internet) recursos são desativados."</string>
     <string name="not_saved_load_error">"Usuário%1$s não salvou por causa do erro de carga anterior. modo de edição de desbloqueio para forçar save."</string>
     <string name="collection_infos_general">"Nome: %1$s\nCollection ID: %2$s\nPublic Nome: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Parceiros: %7$s"</string>
-    <string name="collection_deleted">"Coleção%1$s eliminado"</string>
+    <string name="collection_deleted">"Coleção '%1$s' eliminado"</string>
     <string name="collection_sharing_retracted">"Compartilhado recolha%1$s foi recolhida pelo proprietário"</string>
     <string name="collection_sharing_retracted_ok">"colecção partilhada foi retraída para %1$s"</string>
     <string name="collection_retract_sharing">"Selecione itens para partilha de retração"</string>
@@ -349,7 +349,7 @@
     <string name="transfer_collection_hint_email">"Se pretende transferir uma colecção existente, tem de registar o mesmo endereço de e-mail que usou no seu antigo dispositivo!"</string>
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Quer transferir as suas colecções de um dispositivo antigo?"</string>
+    <string name="transfer_collections_from_old_device">"Quer transferir as suas colecções de um dispositivo antigo?"</string>
     <string name="transfer_ask_old_device">"Tem acesso ao seu antigo dispositivo?"</string>
     <string name="transfer_show_code_instructions">"No seu antigo dispositivo abra o menu da aplicação, seleccione '%1$s' '%2$s' e introduza o código '%3$s'. O código é válido por 10 minutos"</string>
     <string name="action_enter_transfer_code">"Introduza o código de transferência"</string>

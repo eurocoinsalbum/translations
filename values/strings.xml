@@ -144,7 +144,7 @@
     <string name="no_cloud_features_activated">"Cloud (Internet) features are disabled."</string>
     <string name="not_saved_load_error">"User %1$s not saved because of previous load error. Unlock edit mode to force save."</string>
     <string name="collection_infos_general">"Name: %1$s\nCollection ID: %2$s\nPublic Name: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
-    <string name="collection_deleted">"Collection %1$s deleted"</string>
+    <string name="collection_deleted">"Collection '%1$s' deleted"</string>
     <string name="collection_sharing_retracted">"Shared collection %1$s has been retracted by the owner"</string>
     <string name="collection_sharing_retracted_ok">"Shared collection was retracted for %1$s"</string>
     <string name="collection_retract_sharing">"Select items to retract sharing"</string>
@@ -225,7 +225,7 @@
     <string name="split_collection">"Split"</string>
     <string name="enter_number_of_coins_for_splitting">"Please enter the number of coins per available coin you want to transfer to the first copy. Remaining ones will go into the second copy of this collection. The original collection will not be changed or deleted."</string>
     <string name="collection_split_ok">"Collection has been split into 2 new collections. After reviewing those you can delete the original collection."</string>
-    <string name="transfer_collection_error">"Error while transfering the collection '%1$s'"</string>
+    <string name="transfer_collection_error">"Error while transferring the collection '%1$s'"</string>
 
     <!-- version 5.6.10 -->
     <string name="collection_transferred_title">"Collection '%1$s' has been transferred to another device."</string>
@@ -306,7 +306,7 @@
     <string name="collection_has_reported_coin_images">"The collection '%1$s' contains images which have been reported as a violation of the terms of conditions by other users. Please check and update your collection. An abuse will lead to the deletion of your account."</string>
     <string name="reported_photos_title">"Reported images"</string>
     <string name="trading_collection_deleted_by_underlying">"The trading collection '%1$s' was automatically deleted because the underlying collection '%2$s' was deleted too."</string>
-    <string name="message_history">"Show history"</string>
+    <string name="message_history">"Show message history"</string>
     <string name="title_messages">"Messages"</string>
     <string name="delete_messages">"Delete all"</string>
     <string name="swipe_to_delete">"Swipe to delete"</string>
@@ -358,7 +358,7 @@
     <string name="transfer_collection_hint_email">"If you want to transfer an existing collection you have to register the same e-mail address as you used on your old device!"</string>
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Do you want to transfer your collections from an old device?"</string>
+    <string name="transfer_collections_from_old_device">"Do you want to transfer your collections from an old device?"</string>
     <string name="transfer_ask_old_device">"Do you have access to your old device?"</string>
     <string name="transfer_show_code_instructions">"On your old device open the app's menu, select '%1$s' '%2$s' and enter the code '%3$s'. The code is valid for 10 minutes."</string>
     <string name="action_enter_transfer_code">"Enter transfer code"</string>
@@ -388,12 +388,13 @@
     <string name="vatican_title_2005">"John Paul II."</string>
     <string name="vatican_title_2005_x">"Apostolic Chamber"</string>
 
-    <!-- version 7.8.11 -->
+    <!-- version 7.11 -->
     <string name="action_my_collections">"My collections"</string>
     <string name="title_usage_device">Device usage</string>
     <string name="ask_main_or_secondary_device">Will this device be your main device to manage your coin collections or your secondary device?</string>
     <string name="usage_main_device">Main device</string>
     <string name="usage_secondary_device">Secondary device</string>
+
 
 
     <!-- Trading text change -->
@@ -2971,6 +2972,16 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_va_date">"2024"</string>
 
 
+    <string name="twoeuro_comm_2025_ad_title">"Der Bartgeier"</string>
+    <string name="twoeuro_comm_2025_ad_desc">""</string>
+    <string name="twoeuro_comm_2025_ad_volume">""</string>
+    <string name="twoeuro_comm_2025_ad_date">""</string>
+
+    <string name="twoeuro_comm_2025_ad_2_title">"Spiele der kleinen Staaten von Europa"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">""</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">""</string>
+    <string name="twoeuro_comm_2025_ad_2_date">""</string>
+
     <string name="twoeuro_comm_2025_be_title">"Rennstrecke Spa-Francorchamps"</string>
     <string name="twoeuro_comm_2025_be_desc">""</string>
     <string name="twoeuro_comm_2025_be_volume">""</string>
@@ -2980,6 +2991,16 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_be_2_desc">""</string>
     <string name="twoeuro_comm_2025_be_2_volume">""</string>
     <string name="twoeuro_comm_2025_be_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"Serie „Kroatische Städte“: Pula Arena"</string>
+    <string name="twoeuro_comm_2025_hr_desc">""</string>
+    <string name="twoeuro_comm_2025_hr_volume">""</string>
+    <string name="twoeuro_comm_2025_hr_date">""</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"1100 Jahre Königreich Kroatien und die Krönung von König Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">""</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">""</string>
+    <string name="twoeuro_comm_2025_hr_2_date">""</string>
 
     <string name="twoeuro_comm_2025_de_title">"Saarschleife Saarland"</string>
     <string name="twoeuro_comm_2025_de_desc">""</string>
@@ -2996,6 +3017,11 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_ee_volume">""</string>
     <string name="twoeuro_comm_2025_ee_date">""</string>
 
+    <string name="twoeuro_comm_2025_es_title">"UNESCO-Weltkulturerbe – Altstadt von Salamanca"</string>
+    <string name="twoeuro_comm_2025_es_desc">""</string>
+    <string name="twoeuro_comm_2025_es_volume">""</string>
+    <string name="twoeuro_comm_2025_es_date">""</string>
+
     <string name="twoeuro_comm_2025_fi_title">"Staatsbesuche Finnlands – Diplomatie und Außenpolitik"</string>
     <string name="twoeuro_comm_2025_fi_desc">""</string>
     <string name="twoeuro_comm_2025_fi_volume">""</string>
@@ -3011,10 +3037,20 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_fr_volume">""</string>
     <string name="twoeuro_comm_2025_fr_date">""</string>
 
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">""</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">""</string>
+    <string name="twoeuro_comm_2025_fr_2_date">""</string>
+
     <string name="twoeuro_comm_2025_gr_title">"200. Todestag von Laskarnia Bouboulina"</string>
     <string name="twoeuro_comm_2025_gr_desc">""</string>
     <string name="twoeuro_comm_2025_gr_volume">""</string>
     <string name="twoeuro_comm_2025_gr_date">""</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"100. Geburtstag von Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">""</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">""</string>
+    <string name="twoeuro_comm_2025_gr_2_date">""</string>
 
     <string name="twoeuro_comm_2025_it_title">"Jubiläum 2025"</string>
     <string name="twoeuro_comm_2025_it_desc">""</string>
@@ -3031,10 +3067,15 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_lv_volume">""</string>
     <string name="twoeuro_comm_2025_lv_date">""</string>
 
-    <string name="twoeuro_comm_2025_lt_title">"Verteidigung"</string>
+    <string name="twoeuro_comm_2025_lt_title">"Für die Verteidigung"</string>
     <string name="twoeuro_comm_2025_lt_desc">""</string>
     <string name="twoeuro_comm_2025_lt_volume">""</string>
     <string name="twoeuro_comm_2025_lt_date">""</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"Litauische Ethnographische Regionen – Mažoji Lietuva"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">""</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">""</string>
+    <string name="twoeuro_comm_2025_lt_2_date">""</string>
 
     <string name="twoeuro_comm_2025_lu_title">"25. Jahrestag der Thronbesteigung von Großherzog Henri"</string>
     <string name="twoeuro_comm_2025_lu_desc">""</string>
@@ -3045,6 +3086,16 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_lu_2_desc">""</string>
     <string name="twoeuro_comm_2025_lu_2_volume">""</string>
     <string name="twoeuro_comm_2025_lu_2_date">""</string>
+
+    <string name="twoeuro_comm_2025_mc_title">"Das alte Lehen der Familie Grimaldi: Baux"</string>
+    <string name="twoeuro_comm_2025_mc_desc">""</string>
+    <string name="twoeuro_comm_2025_mc_volume">""</string>
+    <string name="twoeuro_comm_2025_mc_date">""</string>
+
+    <string name="twoeuro_comm_2025_mc_2_title">"Das alte Lehen der Familie Grimaldi: Carladès"</string>
+    <string name="twoeuro_comm_2025_mc_2_desc">""</string>
+    <string name="twoeuro_comm_2025_mc_2_volume">""</string>
+    <string name="twoeuro_comm_2025_mc_2_date">""</string>
 
     <string name="twoeuro_comm_2025_mt_title">"Einheimische Arten: Der maltesische Ochse"</string>
     <string name="twoeuro_comm_2025_mt_desc">""</string>
@@ -3066,6 +3117,11 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_po_2_volume">""</string>
     <string name="twoeuro_comm_2025_po_2_date">""</string>
 
+    <string name="twoeuro_comm_2025_si_title">"100. Geburtstag von Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">""</string>
+    <string name="twoeuro_comm_2025_si_volume">""</string>
+    <string name="twoeuro_comm_2025_si_date">""</string>
+
     <string name="twoeuro_comm_2025_sm_title">"Heiliges Jahr 2025 – Pilger der Hoffnung"</string>
     <string name="twoeuro_comm_2025_sm_desc">""</string>
     <string name="twoeuro_comm_2025_sm_volume">""</string>
@@ -3086,10 +3142,20 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_sl_volume">""</string>
     <string name="twoeuro_comm_2025_sl_date">""</string>
 
-    <string name="twoeuro_comm_2025_es_title">"UNESCO-Weltkulturerbe – Altstadt von Salamanca"</string>
-    <string name="twoeuro_comm_2025_es_desc">""</string>
-    <string name="twoeuro_comm_2025_es_volume">""</string>
-    <string name="twoeuro_comm_2025_es_date">""</string>
+    <string name="twoeuro_comm_2025_va_title">"Jubiläum 2025"</string>
+    <string name="twoeuro_comm_2025_va_desc">""</string>
+    <string name="twoeuro_comm_2025_va_volume">""</string>
+    <string name="twoeuro_comm_2025_va_date">"2025"</string>
+
+    <string name="twoeuro_comm_2025_va_2_title">"550. Geburtstag von Michelangelo"</string>
+    <string name="twoeuro_comm_2025_va_2_desc">""</string>
+    <string name="twoeuro_comm_2025_va_2_volume">""</string>
+    <string name="twoeuro_comm_2025_va_2_date">"2025"</string>
+
+    <string name="twoeuro_comm_2025_va_3_title">"Sedisvakanz 2025"</string>
+    <string name="twoeuro_comm_2025_va_3_desc">""</string>
+    <string name="twoeuro_comm_2025_va_3_volume">""</string>
+    <string name="twoeuro_comm_2025_va_3_date">"2025"</string>
 
     <!-- END manual code for language en -->
 

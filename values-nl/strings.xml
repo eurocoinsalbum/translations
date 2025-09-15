@@ -136,7 +136,7 @@
     <string name="no_cloud_features_activated">"Cloud (Internet) functies worden uitgeschakeld."</string>
     <string name="not_saved_load_error">"Gebruiker%1$s niet opgeslagen vanwege eerdere lading fout. Unlock edit mode te dwingen save."</string>
     <string name="collection_infos_general">"Naam:%1$s\nCollection ID:%2$s\nPublic naam:%3$s\nShared:%4$s\nOwner:%5$s\nSynchronized:%6$s\nTrading Partners:%7$s"</string>
-    <string name="collection_deleted">"Collection%1$s verwijderd"</string>
+    <string name="collection_deleted">"Collection '%1$s' verwijderd"</string>
     <string name="collection_sharing_retracted">"Gedeelde verzameling%1$s is ingetrokken door de eigenaar"</string>
     <string name="collection_sharing_retracted_ok">"Gedeelde collectie werd ingetrokken voor%1$s"</string>
     <string name="collection_retract_sharing">"Selecteer items terug te trekken sharing"</string>
@@ -347,7 +347,7 @@
     <string name="transfer_collection_hint_email">"Als je een bestaande collectie wilt overdragen moet je hetzelfde e-mailadres registreren als je op je oude apparaat gebruikte!"</string>
 
     <!-- versie 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Wilt u uw collecties van een oud apparaat overzetten?"</string>
+    <string name="transfer_collections_from_old_device">"Wilt u uw collecties van een oud apparaat overzetten?"</string>
     <string name="transfer_ask_old_device">"Heeft u toegang tot uw oude apparaat?"</string>
     <string name="transfer_show_code_instructions">"Open op uw oude apparaat het menu van de app, selecteer '%1$s' '%2$s' en voer de code '%3$s' in. De code is 10 minuten geldig."</string>
     <string name="action_enter_transfer_code">"Voer transfercode in"</string>

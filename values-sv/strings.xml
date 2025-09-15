@@ -140,7 +140,7 @@
 	<string name="no_cloud_features_activated">"Cloud (Internet) funktioner inaktiverade."</string>
 	<string name="not_saved_load_error">"Användare%1$s sparas inte på grund av tidigare last fel. Unlock redigeringsläget för att tvinga spara."</string>
 	<string name="collection_infos_general">"Namn: %1$s\nCollection ID: %2$s\nPublik Namn: %3$s\nShared: %4$s\nOwner: %5$s\nSynchronized: %6$s\nTrading Partners: %7$s"</string>
-	<string name="collection_deleted">"Samling%1$s bort"</string>
+	<string name="collection_deleted">"Samling '%1$s' bort"</string>
 	<string name="collection_sharing_retracted">"Delad samling%1$s har dragits tillbaka av ägaren"</string>
 	<string name="collection_sharing_retracted_ok">"Delad kollektionen indragen för%1$s"</string>
 	<string name="collection_retract_sharing">"Välj objekt till indragnings delning"</string>
@@ -351,7 +351,7 @@
 	<string name="transfer_collection_hint_email">"Om du vill överföra en befintlig samling måste du registrera samma e-postadress som du använde på din gamla enhet!"</string>
 
 	<!-- version 7.2 -->
-	<string name="app_first_usage_ask_transfer">"Vill du överföra dina samlingar från en gammal enhet?"</string>
+	<string name="transfer_collections_from_old_device">"Vill du överföra dina samlingar från en gammal enhet?"</string>
 	<string name="transfer_ask_old_device">"Har du tillgång till din gamla enhet?"</string>
 	<string name="transfer_show_code_instructions">"På din gamla enhet öppnar du appens meny, väljer '%1$s' '%2$s' och anger koden '%3$s'. Koden är giltig i 10 minuter."</string>
 	<string name="action_enter_transfer_code">"Ange överföringskod"</string>

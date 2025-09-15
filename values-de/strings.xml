@@ -119,7 +119,7 @@
     <!-- 5.1 -->
     <string name="deletedBackups">"Gelöschte Dateien auf dem Gerät:\n%1$s\nGelöschte Dateien in der Cloud:\n%2$s"</string>
     <string name="backup_upload_error">"Fehler beim Speichern der Sicherung in die Cloud"</string>
-    <string name="action_share_with">"Mit Freunden teilen..."</string>
+    <string name="action_share_with">"Mit Freunden teilen…"</string>
     <string name="action_add_share_with">"Neue hinzufügen"</string>
     <string name="action_retract_share">"Zurückziehen"</string>
     <string name="share_with_ok">"Geteilt mit %1$s"</string>
@@ -138,7 +138,7 @@
     <string name="no_cloud_features_activated">"Cloud (Internet) Funktionalitäten sind deaktiviert."</string>
     <string name="not_saved_load_error">"User %1$s not saved because of previous load error. Unlock edit mode to force save."</string>
     <string name="collection_infos_general">"Name: %1$s\nSammlung Nummer: %2$s\nGeteilt: %3$s\nÖffentlicher Name: %4$s\nBesitzer: %5$s\nSynchronisiert: %6$s\nTauschpartner: %7$s"</string>
-    <string name="collection_deleted">"Sammlung %1$s gelöscht"</string>
+    <string name="collection_deleted">"Sammlung '%1$s' gelöscht"</string>
     <string name="collection_sharing_retracted">"Mit mir geteilte Sammlung %1$s wurde vom Besitzer zurückgezogen"</string>
     <string name="collection_sharing_retracted_ok">"Geteilte Sammlung wurde für %1$s zurückgezogen"</string>
     <string name="collection_retract_sharing">"Selektieren Sie die Einträge, die Sie zurückziehen möchten"</string>
@@ -292,7 +292,7 @@
     <string name="collection_has_reported_coin_images">"Die Sammlung '%1$s' beinhaltet Bilder, die von anderen Benutzern gemeldet wurden. Bitte überprüfen und aktualisieren Sie Ihre Sammlung. Missbräuchliche Nutzung führt zur Löschung des Benutzerkontos."</string>
     <string name="reported_photos_title">"Gemeldete Bilder"</string>
     <string name="trading_collection_deleted_by_underlying">"Die Tausch-Sammlung '%1$s' wurde automatisch gelöscht, da die beteiligte Sammlung '%2$s' ebenfalls gelöscht wurde."</string>
-    <string name="message_history">"Zeige alle"</string>
+    <string name="message_history">"Zeige alle Nachichten"</string>
     <string name="title_messages">"Nachrichten"</string>
     <string name="delete_messages">"Alle löschen"</string>
     <string name="swipe_to_delete">"Wischen (swipe) zum Löschen"</string>
@@ -342,7 +342,7 @@
     <string name="transfer_collection_hint_email">"Wenn Sie eine bestehende Sammlung übertragen möchten, müssen Sie die gleiche E-Mail-Adresse registrieren, die Sie auf Ihrem alten Gerät verwendet haben!"</string>
 
     <!-- version 7.2 -->
-    <string name="app_first_usage_ask_transfer">"Möchten Sie Ihre Sammlung von einem anderen Gerät übertragen?"</string>
+    <string name="transfer_collections_from_old_device">"Möchten Sie Ihre Sammlung von einem anderen Gerät übertragen?"</string>
     <string name="transfer_ask_old_device">"Haben zu Zugang zu Ihrem anderen Gerät?"</string>
     <string name="transfer_show_code_instructions">"Öffnen Sie auf Ihrem anderen Gerät das Menü in der App, wählen '%1$s' '%2$s' aus und geben den folgenden Transfer-Code ein '%3$s'. Dieser Transfer-Code ist 10 Minuten gültig."</string>
     <string name="action_enter_transfer_code">"Geben Sie den Transfer-Code ein."</string>
@@ -352,7 +352,7 @@
     <string name="transfer_code_not_registered_error">"Es ist ein Fehler aufgetreten. Dieser Transfer-Code wurde nicht registriert. Kontrollieren Sie die Fehlermeldungen im App Menü und versuchen Sie es erneut."</string>
     <string name="transfer_code_not_confirmed">"Es ist ein Fehler aufgetreten. Der Transfer-Code '%1$s' wurde nicht bestätigt."</string>
     <string name="transfer_code_error">"Es ist ein Fehler aufgetreten."</string>
-    <string name="collections_transferred">"Dies folgende Sammlung wurde erfolgreich auf das Gerät transferiert: %1$s"</string>
+    <string name="collections_transferred">"Die folgenden Sammlungen wurden erfolgreich auf das Gerät transferiert: %1$s"</string>
     <string name="transfer_code_confirmed">"Ihre Sammlungen sind nun vorbereitet, um auf das neue Gerät übertragen zu werden. Drücken Sie auf Ihrem neuen Gerät den Button '%1$s'"</string>
 
     <!-- version 7.6 -->
