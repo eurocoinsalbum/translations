@@ -384,6 +384,9 @@
     <string name="usage_main_device">"Hoofdapparaat"</string>
     <string name="usage_secondary_device">"Secundair apparaat"</string>
 
+    <!-- version 7.12 -->
+    <string name="csv_header">"Land (Country);Jaar (Year);Waarde (Value);Teken (Sign);Titel (Title);Staat (Condition);Officiële set (Blister);Opmerking (Note);Datum toegevoegd (Added date);Betaald (Paid);Ruil geblokkeerd (Block trading)"</string>
+
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
 - Lees alle deze zorgvuldig! Anders kun je teleurgesteld worden door de handel functionaliteit.
@@ -432,13 +435,12 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Versie 7.10\n
-Nieuwe instelling toegevoegd: kleur van verzamelde muntset. Achtergrondkleur voor muntsets waarvan elke munt is verzameld. Idee van Jochen.
-Afbeeldingen van ontbrekende 2-euroherdenkingsmunt 2024 toegevoegd: Cyprus, Vaticaanstad, Letland. Opgemerkt door Guiseppe.
-Nieuwe functie toegevoegd om te exporteren als Excel-bestand. Geïnspireerd door Jens.
+    <string name="version_history_current">"Versie 7.12\n
+Houd de jaren bovenaan tijdens het naar beneden scrollen. Dank aan Georg.
+Meer kolommen toegevoegd aan de CSV-bestandsexport. Jens is altijd een grote hulp!
     "</string>
 
-    <string name="version_history_current">"Versie 7.11\n
+    <string name="version_history_last">"Versie 7.11\n
 Herdenkingsmunten van 2 euro 2020 in Litouwen hebben de tekst op beide munten gecorrigeerd. Herkend door Marion.
 Herdenkingsmunt van 2 euro in België toegevoegd. Bedankt Jens.
 Nieuwe collecties worden automatisch gedeeld tussen de apparaten van de gebruiker.

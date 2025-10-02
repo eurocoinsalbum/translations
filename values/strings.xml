@@ -390,12 +390,13 @@
 
     <!-- version 7.11 -->
     <string name="action_my_collections">"My collections"</string>
-    <string name="title_usage_device">Device usage</string>
-    <string name="ask_main_or_secondary_device">Will this device be your main device to manage your coin collections or your secondary device?</string>
-    <string name="usage_main_device">Main device</string>
-    <string name="usage_secondary_device">Secondary device</string>
+    <string name="title_usage_device">"Device usage"</string>
+    <string name="ask_main_or_secondary_device">"Will this device be your main device to manage your coin collections or your secondary device?"</string>
+    <string name="usage_main_device">"Main device"</string>
+    <string name="usage_secondary_device">"Secondary device"</string>
 
-
+    <!-- version 7.12 -->
+    <string name="csv_header">"Country;Year;Value;Coin sign;Title;Condition;Blister;Note;Added date;Paid;Block trading"</string>
 
     <!-- Trading text change -->
     <!-- version 8.0 -->
@@ -453,13 +454,12 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.10
-Added new setting: collected mint set color. Background color for mint sets for which every coin has been collected. Idea by Jochen.
-Added missing 2 Euro commemorative coin images 2024: Cyprus, Vatican, Latvia. Noticed by Guiseppe.
-Added new feature to export as Excel file. Inspired by Jens.
+    <string name="version_history_current">"Version 7.12
+Keep years at the top while scrolling down. Thanks to Georg.
+Added more columns to the csv file export. Jens is always a great help!
 "</string>
 
-    <string name="version_history_current">"Version 7.11
+    <string name="version_history_last">"Version 7.11
 2 Euro commemorative coins 2020 Lithuania corrected text of both coins. Recognized by Marion.
 2 Euro commemorative coin Belgium added. Thanks Jens.
 New collections will be automatically shared among the user's devices.

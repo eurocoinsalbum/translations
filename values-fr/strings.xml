@@ -379,6 +379,9 @@
     <string name="usage_main_device">"Appareil principal"</string>
     <string name="usage_secondary_device">"Appareil secondaire"</string>
 
+    <!-- version 7.12 -->
+    <string name="csv_header">"Pays (Country);Année (Year);Valeur (Value);Signe (Sign);Titre (Title);État (Condition);Série officielle (Blister);Remarque (Note);Date ajoutée (Added date);Payé (Paid);Échange bloqué (Block trading)"</string>
+
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
 - Veuillez lire attentivement! Sinon, vous risquez d'être déçu par la fonctionnalité de négociation.
@@ -427,13 +430,12 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.10\n
-Ajout d'un nouveau paramètre: couleur des ensembles de pièces collectés. Couleur d'arrière-plan des ensembles de pièces pour lesquels chaque pièce a été collectée. Idée de Jochen.
-Ajout des images manquantes des pièces commémoratives de 2 euros 2024 : Chypre, Vatican, Lettonie. Remarqué par Guiseppe.
-Ajout d'une nouvelle fonctionnalité pour exporter sous forme de fichier Excel. Inspiré par Jens.
+    <string name="version_history_current">"Version 7.12\n
+Garder les années en haut lors du défilement vers le bas. Merci à Georg.
+Ajout de plus de colonnes à l’exportation du fichier CSV. Jens est toujours d’une grande aide!
 "</string>
 
-    <string name="version_history_current">"Version 7.11\n
+    <string name="version_history_last">"Version 7.11\n
 Pièce commémorative de 2 euros 2020 de Lituanie : texte corrigé sur les deux pièces. Reconnu par Marion.
 Pièce commémorative de 2 euros de Belgique ajoutée. Merci Jens.
 Les nouvelles collections seront automatiquement partagées entre les appareils des utilisateurs.

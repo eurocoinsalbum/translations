@@ -379,6 +379,9 @@
     <string name="usage_main_device">"Hauptgerät"</string>
     <string name="usage_secondary_device">"Zweitgerät"</string>
 
+    <!-- version 7.12 -->
+    <string name="csv_header">"Land (Country);Jahr (Year);Münzwert (Value);Münzzeichen (Sign);Bezeichnung (Title);Zustand (Condition);KMS (Blister);Notiz (Note);Datum hinzugefügt (Added date);Bezahlt (Paid);Tausch geblockt (Block trading)"</string>
+
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
@@ -425,13 +428,12 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_last">"Version 7.10\n
-Neue Einstellung hinzugefügt: Farbe gesammelter Münzsätze. Hintergrundfarbe für Münzsätze, für die jede Münze gesammelt wurde. Idee von Jochen.
-Fehlende Bilder der 2-Euro-Gedenkmünze 2024 hinzugefügt: Zypern, Vatikan, Lettland. Von Guiseppe bemerkt.
-Neue Funktion zum Exportieren als Excel-Datei hinzugefügt. Inspiriert von Jens.
+    <string name="version_history_current">"Version 7.12\n
+Die Jahre beim Herunterscrollen oben fixieren. Danke an Georg.
+Mehr Spalten zum CSV-Dateiexport hinzugefügt. Jens ist immer eine große Hilfe!
 "</string>
 
-    <string name="version_history_current">"Version 7.11\n
+    <string name="version_history_last">"Version 7.11\n
 2-Euro-Gedenkmünzen 2020 Litauen: Text beider Münzen korrigiert. Marion hat dies erkannt.
 2-Euro-Gedenkmünze Belgien hinzugefügt. Danke, Jens.
 Neue Sammlungen werden automatisch zwischen den Geräten des Nutzers geteilt.

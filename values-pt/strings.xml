@@ -376,15 +376,18 @@
     <string name="abr_thousands">"mil"</string>
     <string name="abr_millions">"mi"</string>
     <string name="abr_billions">"bi"</string>
-<string name="vatican_title_2005">"João Paulo II."</string>
-<string name="vatican_title_2005_x">"Câmara Apostólica"</string>
+    <string name="vatican_title_2005">"João Paulo II."</string>
+    <string name="vatican_title_2005_x">"Câmara Apostólica"</string>
 
-<!-- version 7.11 -->
-<string name="action_my_collections">"Minhas coleções"</string>
-<string name="title_usage_device">"Uso do dispositivo"</string>
-<string name="ask_main_or_secondary_device">"Este dispositivo será o seu dispositivo principal para gerenciar suas coleções de moedas ou o seu dispositivo secundário?"</string>
-<string name="usage_main_device">"Dispositivo principal"</string>
-<string name="usage_secondary_device">"Dispositivo secundário"</string>
+    <!-- version 7.11 -->
+    <string name="action_my_collections">"Minhas coleções"</string>
+    <string name="title_usage_device">"Uso do dispositivo"</string>
+    <string name="ask_main_or_secondary_device">"Este dispositivo será o seu dispositivo principal para gerenciar suas coleções de moedas ou o seu dispositivo secundário?"</string>
+    <string name="usage_main_device">"Dispositivo principal"</string>
+    <string name="usage_secondary_device">"Dispositivo secundário"</string>
+
+    <!-- version 7.12 -->
+    <string name="csv_header">"País (Country);Ano (Year);Valor (Value);Símbolo (Sign);Título (Title);Condição (Condition);Série oficial (Blister);Nota (Note);Data adicionada (Added date);Pago (Paid);Troca bloqueada (Block trading)"</string>
 
     <string name="how_trading_partner_works">"
 - A funcionalidade de negociação não é para principiantes.
@@ -434,13 +437,12 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_last">"Versão 7.10\n
-Adicionada nova configuração: conjunto de cores de hortelã recolhida. Cor de fundo para os conjuntos de cunhagem a partir dos quais todas as moedas foram recolhidas. Ideia de Jochen.
-Adicionadas imagens de moedas comemorativas de 2 euros que faltavam em 2024: Chipre, Vaticano, Letónia. Notado por Guiseppe.
-Adicionado novo recurso para exportar como ficheiro Excel. Inspirado em Jens.
+    <string name="version_history_current">"Versão 7.12\n
+Manter os anos no topo ao rolar para baixo. Obrigado ao Georg.
+Adicionadas mais colunas à exportação do arquivo CSV. Jens é sempre de grande ajuda!
     "</string>
 
-    <string name="version_history_current">"Versão 7.11\n
+    <string name="version_history_last">"Versão 7.11\n
 Moedas comemorativas de 2 euros 2020 Lituânia texto corrigido de ambas as moedas. Reconhecido por Marion.
 Moeda comemorativa de 2 euros da Bélgica adicionada. Obrigado, Jens.
 As novas coleções serão partilhadas automaticamente entre os dispositivos do utilizador.

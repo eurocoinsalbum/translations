@@ -388,6 +388,9 @@
 	<string name="usage_main_device">"Huvudenhet"</string>
 	<string name="usage_secondary_device">"Sekundär enhet"</string>
 
+	<!-- version 7.12 -->
+	<string name="csv_header">"Land (Country);År (Year);Värde (Value);Tecken (Sign);Titel (Title);Skick (Condition);Officiell serie (Blister);Notering (Note);Tillagt datum (Added date);Betald (Paid);Byte blockerat (Block trading)"</string>
+
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
 - läs allt detta noga! Annars kan bli besviken av handelsfunktionalitet.
@@ -436,10 +439,9 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.10\n
-Lade till ny inställning: insamlad mint set färg. Bakgrundsfärg för myntset för vilka varje mynt har samlats in. Idé av Jochen.
-Lade till saknade 2 euro-minnesmyntbilder 2024: Cypern, Vatikanen, Lettland. Uppmärksammad av Guiseppe.
-Lade till ny funktion för att exportera som Excel-fil. Inspirerad av Jens.
+	<string name="version_history_last">"Version 7.12\n
+Behåll årtalen högst upp när du rullar ner. Tack till Georg.
+Fler kolumner har lagts till i CSV-filens export. Jens är alltid till stor hjälp!
 	"</string>
 
 	<string name="version_history_current">"Version 7.11\n

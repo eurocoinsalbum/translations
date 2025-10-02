@@ -160,13 +160,15 @@
 	<string name="usage_main_device">"Pagrindinis įrenginys"</string>
 	<string name="usage_secondary_device">"Antrinis įrenginys"</string>
 
-	<string name="version_history_last">"Versija 7.10\n
-Pievienots jauns iestatījums: savāktā piparmētru komplekta krāsa. Fona krāsa piparmētru komplektiem, kuriem ir savākta katra monēta. Johena ideja.
-Pievienoti trūkstošo 2 eiro piemiņas monētu attēli 2024: Kipra, Vatikāns, Latvija. Pamanīja Gizepe.
-Pievienota jauna iespēja eksportēt kā Excel failu. Iedvesmojoties no Džensa.
+	<!-- version 7.12 -->
+	<string name="csv_header">"Šalis (Country);Metai (Year);Vertė (Value);Ženklas (Sign);Pavadinimas (Title);Būklė (Condition);Oficialus rinkinys (Blister);Pastaba (Note);Pridėjimo data (Added date);Sumokėta (Paid);Keitimas užblokuotas (Block trading)"</string>
+
+	<string name="version_history_current">"Versija 7.12\n
+Metus laikykite viršuje slenkant žemyn. Ačiū Georgui.
+CSV failo eksportui pridėta daugiau stulpelių. Jensas visada labai padeda!
 	"</string>
 
-	<string name="version_history_current">"Versija 7.11\n
+	<string name="version_history_last">"Versija 7.11\n
 2 eurų proginės monetos 2020 m. Lietuva, pataisytas abiejų monetų tekstas. Atpažino Marion.
 Pridėta 2 eurų proginė moneta Belgija. Ačiū, Jens.
 Naujos kolekcijos bus automatiškai bendrinamos tarp naudotojo įrenginių.

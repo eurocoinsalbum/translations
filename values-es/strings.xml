@@ -387,6 +387,9 @@
     <string name="usage_main_device">Dispositivo principal</string>
     <string name="usage_secondary_device">Dispositivo secundario</string>
 
+    <!-- version 7.12 -->
+    <string name="csv_header">"País (Country);Año (Year);Valor (Value);Signo (Sign);Título (Title);Estado (Condition);Serie oficial (Blister);Nota (Note);Fecha añadida (Added date);Pagado (Paid);Intercambio bloqueado (Block trading)"</string>
+
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
 - leer todo esto con cuidado! De lo contrario puede ser decepcionado por la funcionalidad de comercio.
@@ -431,13 +434,12 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.10\n
-Se agregó una nueva configuración: color de la colección de monedas. Color de fondo para las colecciones de monedas en las que se han recopilado todas las monedas. Idea de Jochen.
-Se agregaron imágenes de monedas conmemorativas de 2 euros que faltaban en 2024: Chipre, Vaticano, Letonia. Guiseppe lo notó.
-Se agregó una nueva función para exportar como archivo de Excel. Inspirado por Jens.
+    <string name="version_history_current">"Versión 7.12\n
+Mantener los años en la parte superior al desplazarse hacia abajo. Gracias a Georg.
+Se añadieron más columnas a la exportación del archivo CSV. ¡Jens siempre es de gran ayuda!
     "</string>
 
-    <string name="version_history_current">"Versión 7.11\n
+    <string name="version_history_last">"Versión 7.11\n
 Monedas conmemorativas de 2 euros de Lituania 2020. Texto corregido de ambas monedas. Reconocida por Marion.
 Moneda conmemorativa de 2 euros de Bélgica añadida. Gracias, Jens.
 Las nuevas colecciones se compartirán automáticamente entre los dispositivos del usuario.

@@ -382,6 +382,9 @@
     <string name="usage_main_device">"Dispositivo principale"</string>
     <string name="usage_secondary_device">"Dispositivo secondario"</string>
 
+    <!-- version 7.12 -->
+    <string name="csv_header">"Paese (Country);Anno (Year);Valore (Value);Segno (Sign);Titolo (Title);Condizione (Condition);Serie ufficiale (Blister);Nota (Note);Data aggiunta (Added date);Pagato (Paid);Scambio bloccato (Block trading)"</string>
+
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
 - Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
@@ -430,13 +433,12 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_last">"Versione 7.10\n
-Aggiunta nuova impostazione: colore set zecca raccolto. Colore di sfondo per set zecca per cui è stata raccolta ogni moneta. Idea di Jochen.
-Aggiunte immagini mancanti della moneta commemorativa da 2 euro 2024: Cipro, Vaticano, Lettonia. Notato da Guiseppe.
-Aggiunta nuova funzionalità per esportare come file Excel. Ispirato da Jens.
+    <string name="version_history_current">"Versione 7.12\n
+Mantenere gli anni in alto mentre si scorre verso il basso. Grazie a Georg.
+Aggiunte più colonne all’esportazione del file CSV. Jens è sempre di grande aiuto!
 "</string>.
 
-    <string name="version_history_current">"Versione 7.11\n
+    <string name="version_history_last">"Versione 7.11\n
 Monete commemorative da 2 euro 2020 Lituania: testo corretto su entrambe le monete. Riconosciuto da Marion.
 Moneta commemorativa da 2 euro Belgio aggiunta. Grazie Jens.
 Le nuove collezioni verranno condivise automaticamente tra i dispositivi dell'utente.

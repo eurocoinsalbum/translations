@@ -252,13 +252,15 @@
     <string name="usage_main_device">"Glavna naprava"</string>
     <string name="usage_secondary_device">"Sekundarna naprava"</string>
 
-    <string name="version_history_last">"Različica 7.10\n
-Dodana nova nastavitev: zbrana barva mint kompleta. Barva ozadja za komplete kovnic, za katere je bil zbran vsak kovanec. Ideja Jochena.
-Dodane slike manjkajočega spominskega kovanca za 2 evra 2024: Ciper, Vatikan, Latvija. Opazil Guiseppe.
-Dodana nova funkcija za izvoz v datoteko Excel. Po navdihu Jensa.
+    <!-- version 7.12 -->
+    <string name="csv_header">"Država (Country);Leto (Year);Vrednost (Value);Znak (Sign);Naslov (Title);Stanje (Condition);Uradni set (Blister);Opomba (Note);Dodani datum (Added date);Plačano (Paid);Menjava blokirana (Block trading)"</string>
+
+    <string name="version_history_current">"Različica 7.12\n
+Ohranite leta na vrhu med pomikanjem navzdol. Hvala Georgu.
+Dodane so bile dodatne stolpce pri izvozu CSV datoteke. Jens je vedno v veliko pomoč!
     "</string>
 
-    <string name="version_history_current">"Različica 7.11\n
+    <string name="version_history_last">"Različica 7.11\n
 Spominski kovanci za 2 evra 2020 Litva - popravljeno besedilo na obeh kovancih. Marion jih je prepoznala.
 Dodan spominski kovanec za 2 evra Belgija. Hvala, Jens.
 Nove zbirke bodo samodejno deljene med uporabnikovimi napravami.
