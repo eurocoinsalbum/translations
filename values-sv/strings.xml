@@ -24,6 +24,7 @@
 	<string name="action_import">"importera"</string>
 	<string name="action_export">"exportera"</string>
 	<string name="action_create_pdf">"skapa pdf"</string>
+	<string name="action_create_excel">skapa Excel</string>
 	<string name="featureApiLevelMin44">"Tyvärr behöver skapa PDF-filer min. android 4,4"</string>
 	<string name="export_failed">"export misslyckades"</string>
 	<string name="import_failed">"import misslyckades"</string>
@@ -61,7 +62,6 @@
 	<string name="coinCondition">"villkor"</string>
 	<string name="action_open_url_comment">"skicka meddelande"</string>
 	<string name="action_close">"avsluta"</string>
-	<string name="coin_collected_marker">"x"</string>
 	<string name="index_cc">"index"</string>
 	<string name="enter_coin_name">"Ange år och korta mynt namn"</string>
 	<string name="custom_coin_name">"namn"</string>
@@ -81,6 +81,7 @@
 	<string name="no_external_storage_permission">"I Android \'s appmenyn aktivera \' Behörigheter \' för \'Förvaring \'"</string>
 	<string name="commemorative_coins_full">"Jubileumsmynt fulla"</string>
 	<string name="pref_background_color">"bakgrundsfärg"</string>
+	<string name="pref_background_color_all_collected">"Färg för fullständigt samlade myntuppsättningar"</string>
 	<string name="pref_hide_not_existing_coins">"Göm inte befintliga mynt"</string>
 	<string name="click_the_coin_set_expand_button">"För att öppna myntserie gruppen röra på plusknappen"</string>
 	<string name="action_manage_shared_collection">"Hantera vänner..."</string>
@@ -150,7 +151,7 @@
 	<string name="session_expired_try_again">"Sessionen löpte. Var god försök igen."</string>
 	<string name="forum">"forum"</string>
 	<string name="logged_in">"inloggad"</string>
-	<string name="pref_other_special_coins">"Andra special mynt"</string>
+	<string name="pref_collect_germany_5euro_polymer_coins">"Andra special mynt"</string>
 	<string name="coin_parse_error">"Load fel (se meddelanden för detaljer)"</string>
 	<string name="switch_id_error">"Fel vid överföring av användar-ID."</string>
 	<string name="register_mail_error">"Fel vid registrering postadress"</string>
@@ -391,6 +392,12 @@
 	<!-- version 7.12 -->
 	<string name="csv_header">"Land (Country);År (Year);Värde (Value);Tecken (Sign);Titel (Title);Skick (Condition);Officiell serie (Blister);Notering (Note);Tillagt datum (Added date);Betald (Paid);Byte blockerat (Block trading)"</string>
 
+	<!-- version 7.13 -->
+	<string name="collection_not_owner">"Samlingen '%1$s' har redan registrerats med en annan e-postadress. Vill du skapa en kopia?"</string>
+	<string name="found_duplicate_collections">"Kontrollera följande samlingar eftersom de verkar vara dubbletter: '%1$s'"</string>
+	<string name="pref_collect_starter_sets">"Samla startset"</string>
+	<string name="starter_set_title">"Startset"</string>
+
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
 - läs allt detta noga! Annars kan bli besviken av handelsfunktionalitet.
@@ -439,16 +446,16 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.12\n
+	<string name="version_history_current">"Version 7.12\n
 Behåll årtalen högst upp när du rullar ner. Tack till Georg.
 Fler kolumner har lagts till i CSV-filens export. Jens är alltid till stor hjälp!
 	"</string>
 
-	<string name="version_history_current">"Version 7.11\n
-2-euromynt 2020 Litauen korrigerade texten på båda mynten. Kändes igen av Marion.
-2-euromynt Belgien tillagt. Tack Jens.
-Nya samlingar kommer automatiskt att delas mellan användarens enheter.
-Samlingar kommer automatiskt att överföras till nyregistrerade enheter.
+	<string name="version_history_last">"Version 7.13\n
+Fixat felaktig årsinställning i rubrikraden. Tack Jens.
+Fixat ett fel i migreringen av nya enheter. Tack Jochen.
+Lagt till offentliga euro-startpaket. Kan aktiveras i inställningarna.
+Lagt till bulgariska euromynt.
 	"</string>
 
 
@@ -462,10 +469,12 @@ Samlingar kommer automatiskt att överföras till nyregistrerade enheter.
 	<string name="coin_2euro">"2 Euro"</string>
 	<string name="coin_5euro">"5 Euro"</string>
 	<string name="coin_10euro">"10 Euro"</string>
+
 	<string name="countryname_eu">"eu"</string>
 	<string name="countryname_au">"Österrike"</string>
 	<string name="countryname_ad">"Andorra"</string>
 	<string name="countryname_be">"Belgien"</string>
+	<string name="countryname_bg">"Bulgarien"</string>
 	<string name="countryname_cy">"Cypern"</string>
 	<string name="countryname_ee">"Estland"</string>
 	<string name="countryname_fi">"Finland"</string>

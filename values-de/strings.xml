@@ -24,6 +24,7 @@
     <string name="action_import">"Importieren"</string>
     <string name="action_export">"Exportieren"</string>
     <string name="action_create_pdf">"pdf erstellen"</string>
+    <string name="action_create_excel">Excel erstellen</string>
     <string name="featureApiLevelMin44">"Sorry, pdf Erstellung benötigt min. Android 4.4"</string>
     <string name="export_failed">"Export fehlgeschlagen"</string>
     <string name="import_failed">"Import fehlgeschlogen"</string>
@@ -80,6 +81,7 @@
     <string name="no_external_storage_permission">"Im Android Apps Menü die \'Berechtigung\' für \'Speicher\' aktivieren"</string>
     <string name="commemorative_coins_full">"Gedenkmünzen voll"</string>
     <string name="pref_background_color">"Hintergrundfarbe"</string>
+    <string name="pref_background_color_all_collected">"Farbe für vollständig gesammelte Münzsätze"</string>
     <string name="pref_hide_not_existing_coins">"Nicht existierende Münzen ausblenden"</string>
     <string name="click_the_coin_set_expand_button">"Um die Gruppe zu öffnen drücke den Plus-Button"</string>
     <string name="action_manage_shared_collection">"Freunde verwalten..."</string>
@@ -148,7 +150,7 @@
     <string name="session_expired_try_again">"Sitzung abgelaufen. Bitte erneut versuchen."</string>
     <string name="forum">"Forum"</string>
     <string name="logged_in">"Eingeloggt"</string>
-    <string name="pref_other_special_coins">"Andere Sondermünzen"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Andere Sondermünzen"</string>
     <string name="coin_parse_error">"Fehler beim Laden (siehe Benachrichtigungen für Details)"</string>
     <string name="switch_id_error">"Fehler beim Übertragen der ID"</string>
     <string name="register_mail_error">"Fehler beim Registrieren der Mailadresse"</string>
@@ -382,6 +384,12 @@
     <!-- version 7.12 -->
     <string name="csv_header">"Land (Country);Jahr (Year);Münzwert (Value);Münzzeichen (Sign);Bezeichnung (Title);Zustand (Condition);KMS (Blister);Notiz (Note);Datum hinzugefügt (Added date);Bezahlt (Paid);Tausch geblockt (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"Die Sammlung '%1$s' wurde bereits mit einer anderen E-Mail-Adresse registriert. Möchten Sie eine Kopie erstellen?"</string>
+    <string name="found_duplicate_collections">"Bitte überprüfen Sie die folgenden Sammlungen, da sie Duplikate zu sein scheinen: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Startersets sammeln"</string>
+    <string name="starter_set_title">"Starterset"</string>
+
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
     - Lesen Sie ALLES sorgfältig durch! Andernfalls könnten Sie von der Tauschfunktionalität enttäuscht sein.
@@ -428,17 +436,17 @@
     - Während Sie die Tauschsammlung auf ausgeführt setzen, können Sie festlegen, dass Ihre Sammlung automatisch aktualisiert wird. Wählen Sie Nein, um Ihre Sammlung manuell zu aktualisieren. Mit 'Bearbeiten' können Sie die Tauschsammlung auch nach Bestätigung bearbeiten. Verwenden Sie dies für den Fall, dass die getauschten Münzen nicht zur Tauschsammlung entsprechen. Die Tauschsammlung wird jedoch nicht mehr mit Ihrem Tauschpartner synchronisiert. Nachdem die getauschten Münzen und die Tauschsammlung übereinstimmen, können Sie die Sammlung erneut als ausgeführt markieren und Ja wählen, um Ihre eigene Sammlung automatisch zu aktualisieren.
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
-    <string name="version_history_current">"Version 7.12\n
+    <string name="version_history_last">"Version 7.12\n
 Die Jahre beim Herunterscrollen oben fixieren. Danke an Georg.
 Mehr Spalten zum CSV-Dateiexport hinzugefügt. Jens ist immer eine große Hilfe!
 "</string>
 
-    <string name="version_history_last">"Version 7.11\n
-2-Euro-Gedenkmünzen 2020 Litauen: Text beider Münzen korrigiert. Marion hat dies erkannt.
-2-Euro-Gedenkmünze Belgien hinzugefügt. Danke, Jens.
-Neue Sammlungen werden automatisch zwischen den Geräten des Nutzers geteilt.
-Sammlungen werden automatisch auf neu registrierte Geräte übertragen.
-    "</string>
+    <string name="version_history_current">"Version 7.13\n
+Fehlerhafte Jahresangabe in der Kopfzeile korrigiert. Danke, Jens.
+Fehler bei der Migration neuer Geräte behoben. Danke, Jochen.
+Öffentliche Euro-Starter-Sets hinzugefügt. Kann in den Einstellungen aktiviert werden.
+Bulgarische Euro-Münzen hinzugefügt.
+"</string>
 
     <string name="coin_1cent">"1 Cent"</string>
     <string name="coin_2cent">"2 Cent"</string>
@@ -452,6 +460,7 @@ Sammlungen werden automatisch auf neu registrierte Geräte übertragen.
     <string name="countryname_eu">"EU"</string>
     <string name="countryname_ad">"Andorra"</string>
     <string name="countryname_be">"Belgien"</string>
+    <string name="countryname_bg">"Bulgarien"</string>
     <string name="countryname_cy">"Zypern"</string>
     <string name="countryname_ee">"Estland"</string>
     <string name="countryname_fi">"Finnland"</string>

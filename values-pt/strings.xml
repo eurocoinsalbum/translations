@@ -23,6 +23,7 @@
     <string name="action_import">"Importar"</string>
     <string name="action_export">"Exportar"</string>
     <string name="action_create_pdf">"Criar PDF"</string>
+    <string name="action_create_excel">Criar Excel</string>
     <string name="featureApiLevelMin44">"Desculpe, a criação de PDF requer Android 4.4 ou superior"</string>
     <string name="export_failed">"Exportação falhou"</string>
     <string name="import_failed">"Importação falhou"</string>
@@ -79,6 +80,7 @@
     <string name="no_external_storage_permission">"No menu de apps do Android ative \'Permissões\' para \'Armazenamento\'"</string>
     <string name="commemorative_coins_full">"Moedas comemorativas completas"</string>
     <string name="pref_background_color">"Cor de fundo"</string>
+    <string name="pref_background_color_all_collected">"Cor para conjuntos de moedas totalmente coletados"</string>
     <string name="pref_hide_not_existing_coins">"Esconder moedas não existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir o grupo de conjunto de moedas toque no botão \'+\'"</string>
     <string name="action_manage_shared_collection">"Gerenciar amigos..."</string>
@@ -148,7 +150,7 @@
     <string name="session_expired_try_again">"a sessão expirou. tente novamente."</string>
     <string name="forum">"fórum"</string>
     <string name="logged_in">"conectado"</string>
-    <string name="pref_other_special_coins">"Outras moedas especiais"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Outras moedas especiais"</string>
     <string name="coin_parse_error">"Erro de carga (ver notificações para detalhes)"</string>
     <string name="switch_id_error">"Erro durante a transferência de ID do usuário."</string>
     <string name="register_mail_error">"Erro ao endereço de e-mail registro"</string>
@@ -389,6 +391,12 @@
     <!-- version 7.12 -->
     <string name="csv_header">"País (Country);Ano (Year);Valor (Value);Símbolo (Sign);Título (Title);Condição (Condition);Série oficial (Blister);Nota (Note);Data adicionada (Added date);Pago (Paid);Troca bloqueada (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"A coleção '%1$s' já foi registada com um e-mail diferente. Deseja criar uma cópia?"</string>
+    <string name="found_duplicate_collections">"Verifique as seguintes coleções, pois parecem ser duplicadas: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Colecionar conjuntos iniciais"</string>
+    <string name="starter_set_title">"Conjunto inicial"</string>
+
     <string name="how_trading_partner_works">"
 - A funcionalidade de negociação não é para principiantes.
 - Leia tudo isto com cuidado! Caso contrário, você pode ser decepcionado com a funcionalidade de negociação.
@@ -437,16 +445,16 @@
 - Se você não quer iniciar ou continuar uma sessão de negociação, você pode simplesmente eliminar a colecção de negociação. Você será perguntado se deseja excluir a coleção parceiro comercial subjacente também.
 "</string>
 
-    <string name="version_history_current">"Versão 7.12\n
+    <string name="version_history_last">"Versão 7.12\n
 Manter os anos no topo ao rolar para baixo. Obrigado ao Georg.
 Adicionadas mais colunas à exportação do arquivo CSV. Jens é sempre de grande ajuda!
     "</string>
 
-    <string name="version_history_last">"Versão 7.11\n
-Moedas comemorativas de 2 euros 2020 Lituânia texto corrigido de ambas as moedas. Reconhecido por Marion.
-Moeda comemorativa de 2 euros da Bélgica adicionada. Obrigado, Jens.
-As novas coleções serão partilhadas automaticamente entre os dispositivos do utilizador.
-As recolhas serão transferidas automaticamente para os dispositivos recém-registados.
+    <string name="version_history_current">"Versão 7.13\n
+Corrigido o alinhamento incorreto do ano na linha do cabeçalho. Obrigado, Jens.
+Corrigido um erro na migração de novos dispositivos. Obrigado, Jochen.
+Adicionados conjuntos iniciais públicos de euros. Podem ser ativados nas configurações.
+Adicionadas moedas de euro búlgaras.
     "</string>
 
     <string name="coin_1cent">"1 Cêntimo"</string>
@@ -462,6 +470,7 @@ As recolhas serão transferidas automaticamente para os dispositivos recém-regi
     <string name="countryname_au">"Áustria"</string>
     <string name="countryname_ad">"Andorra"</string>
     <string name="countryname_be">"Bélgica"</string>
+    <string name="countryname_bg">"Bulgária"</string>
     <string name="countryname_cy">"Chipre"</string>
     <string name="countryname_ee">"Estónia"</string>
     <string name="countryname_fi">"Finlândia"</string>

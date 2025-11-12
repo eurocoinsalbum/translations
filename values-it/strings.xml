@@ -23,6 +23,7 @@
     <string name="action_import">"Importazione"</string>
     <string name="action_export">"Esportazione"</string>
     <string name="action_create_pdf">"Creare pdf"</string>
+    <string name="action_create_excel">Creare Excel</string>
     <string name="featureApiLevelMin44">"Sorry, Creare pdf minimum Android 4.4"</string>
     <string name="export_failed">"Esportazione errore"</string>
     <string name="import_failed">"Importazione errore"</string>
@@ -33,12 +34,16 @@
     <string name="help_statistics">"Il formato di Statistica è x/y/z x=numero di possibili monete diverse che sono stati raccolti; y = numero di possibili monete diverse che possono essere raccolti; z = numero totale di monete raccolte (nel caso in cui la moneta è stato raccolto più di una volta; vedere Proprietà moneta). Il numero decimale indica la quantità di denaro, che è stato raccolto e in aggiunta la quantità di valore e pagato, se sono stati inseriti questi dati nelle proprietà della moneta."</string>
     <string name="help_coin_marker">"Un \'X\' sulla moneta indica che la moneta non è stato influenzato (se si dispone di altre informazioni a riguardo, potete darmi questa felici zumailen). Un \'*\' sulla moneta indica che questo è stato coniato solo come KMS, se tale impostazione è attivata."</string>
     <string name="help_eu_view">"La vista UE indica se l\'utente corrente, questa moneta per tutti i paesi (e zecche) ha raccolto, o se almeno uno mancante. Premere il moneta indica quali paesi questa moneta è già stato raccolto."</string>
+    <string name="help_eu_mode_switch">"Nella vista UE puoi usare il pulsante nell'angolo in alto a sinistra per passare dalla modalità anno alla modalità paese"</string>
     <string name="help_multi_user">"Il punto di vista multi-utente indica se tutti gli utenti hanno la moneta, o se manca almeno un utente."</string>
     <string name="help_touch_hold_coins">"Tenendo premuto una moneta nella modalità di modifica consente di immettere il numero di monete e altre proprietà."</string>
     <string name="help_touch_hold_two_euro_coins">"Premere e tenere premuto una moneta commemorativa da 2 euro nel montaggio bloccato mostra ulteriori informazioni su questa moneta."</string>
     <string name="help_touch_common_coins">"Premere uno dei 8 monete comuni Euro a sinistra mostra le facce nazionali di tutti i paesi a questa moneta."</string>
     <string name="help_im_export">"I nomi dei file per l\'utente esportato suoni: \'euro_coin_list_&lt;nomeutente&gt;.txt\'. gli utenti importati sono di recente aggiunti e non überschriben esistente."</string>
     <string name="help_menu">"Utilizzando il tasto menu sui telefoni presso la dimensione immagini e altre impostazioni possono essere fatte."</string>
+    <string name="help_backup">"Ogni settimana l'app crea automaticamente un backup di tutte le collezioni. Con l'aiuto del menu 'Ripristina backup' è possibile aggiungere facilmente un vecchio backup alle collezioni attualmente caricate."</string>
+    <string name="help_coinset_expand">"Per aumentare l'usabilità, i set di monete tedeschi sono raggruppati per anno se hai attivato l'impostazione 'Colleziona anni e zecche'. Il pulsante più/meno sopra le monete comuni (sul lato sinistro) può essere utilizzato in due modi: tocco breve per espandere/comprimere tutti i gruppi contemporaneamente e tocco prolungato per fare l'opposto."</string>
+    <string name="help_title_setting">"Facendo clic sull'intestazione della colonna è possibile modificare il colore di sfondo corrispondente."</string>
     <string name="show_licenses">"Licenze"</string>
     <string name="pref_use_individual_settings">"Utilizzare impostazioni individuali"</string>
     <string name="pref_image_size">"Dimensione dell\'immagine"</string>
@@ -75,6 +80,7 @@
     <string name="no_external_storage_permission">"Android app menu attivare \'Autoizzaioni\' per \'Archiviazione\'"</string>
     <string name="commemorative_coins_full">"Commemorative moneta completo"</string>
     <string name="pref_background_color">"Background color"</string>
+    <string name="pref_background_color_all_collected">"Colore per set di monete completamente raccolti"</string>
     <string name="pref_hide_not_existing_coins">"Hide not existing coins"</string>
     <string name="click_the_coin_set_expand_button">"To open the coin set group touch the plus button"</string>
     <string name="action_manage_shared_collection">"Gestisci gli amici…"</string>
@@ -144,7 +150,7 @@
     <string name="session_expired_try_again">"la sessione è scaduta. prova ancora."</string>
     <string name="forum">"forum"</string>
     <string name="logged_in">"connessi"</string>
-    <string name="pref_other_special_coins">"Altre monete speciali"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Altre monete speciali"</string>
     <string name="coin_parse_error">"Errore di carico (vedi le notifiche per i dettagli)"</string>
     <string name="switch_id_error">"Errore durante il trasferimento ID utente."</string>
     <string name="register_mail_error">"Errore durante l\'indirizzo di posta registrazione"</string>
@@ -226,7 +232,7 @@
 
     <!-- version 6.0 -->
     <string name="countryname_world">"In tutto il mondo"</string>
-    <string name="action_trading_partners">"Soci in affari..."</string>
+    <string name="action_trading_partners">"Soci in affari…"</string>
     <string name="title_no_trading_partners_found">"Nessun partner commerciali trovato"</string>
     <string name="title_trading_partner_found">"Soci in affari"</string>
     <string name="change_my_country_only_hint">"Si possono trovare partner commerciali se si consente anche partner commerciali di altri paesi di uno proprio nella finestra delle impostazioni."</string>
@@ -253,7 +259,7 @@
     <string name="trading_session_empty_no_sending">"Nessun monete per la negoziazione selezionata. Si prega di aggiungere le monete prima di inviare al partner commerciale"</string>
     <string name="trading_collection_deleted_by_counterparty">"'%1$s' La collezione di trading è stato eliminato dal partner commerciale."</string>
     <string name="account_not_activated">"Account non attivo. Si prega di registrare il proprio indirizzo di posta elettronica e confermare il link di registrazione o disattivare la nube presenta nelle impostazioni."</string>
-    <string name="action_share_public">"Pubblicare..."</string>
+    <string name="action_share_public">"Pubblicare…"</string>
     <string name="action_retract_share_public">"Ritrarre la collezione di negoziazione"</string>
     <string name="collection_published_for_trading">"Collection è stato pubblicato. Vuoi per la ricerca di partner commerciali, adesso?"</string>
     <string name="collection_retracted_for_trading">"Collection è stato ritirato da parte del pubblico. Questa raccolta non sarà disponibile per i nuovi Trads più."</string>
@@ -385,11 +391,17 @@
     <!-- version 7.12 -->
     <string name="csv_header">"Paese (Country);Anno (Year);Valore (Value);Segno (Sign);Titolo (Title);Condizione (Condition);Serie ufficiale (Blister);Nota (Note);Data aggiunta (Added date);Pagato (Paid);Scambio bloccato (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"La collezione '%1$s' è già stata registrata con un altro indirizzo e-mail. Vuoi creare una copia?"</string>
+    <string name="found_duplicate_collections">"Controlla le seguenti collezioni perché sembrano essere duplicati: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Colleziona set iniziali"</string>
+    <string name="starter_set_title">"Set iniziale"</string>
+
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
 - Leggi Tutto questo con attenzione! In caso contrario, si può essere delusi dalla funzionalità di trading.
 - Trading monete con altri operatori è molto più complessa di quanto si possa pensare. Soprattutto quando il tempo di concordare le monete per essere scambiato prende più di un paio d'ore si deve considerare che la raccolta del vostro partner commerciale potrebbe essere cambiato nel frattempo. Questo ha un impatto.
-- Si concede il permesso di pubblicare qualsiasi informazione (note, immagini, nome, e-mail, il paese, ...) della vostra collezione utilizzando la funzionalità di trading.
+- Si concede il permesso di pubblicare qualsiasi informazione (note, immagini, nome, e-mail, il paese, …) della vostra collezione utilizzando la funzionalità di trading.
 - È possibile scambiare monete con altri utenti ma utilizzando la funzione di negoziazione di questa applicazione non deve essere considerato come un'offerta o come un contratto in termini legali! Qualunque cosa fare o vedere in questa applicazione - è non è vincolante a chiunque di qualsiasi cosa.
 - La funzionalità di trading può trovare partner commerciale per la vostra collezione attualmente selezionato.
 - Per trovare un partner commerciale è necessario prima di dare la vostra collezione un nome pubblico che sarà visibile agli altri e condividere la vostra collezione al pubblico.
@@ -397,7 +409,7 @@
 - È explicitally possibile escludere singole monete e impedire loro di essere stato ceduto tramite la proprietà della moneta 'blocco commerciale'. Hanno in mente che le monete, anche bloccati saranno visibili al pubblico.
 - Se non vuoi che tutti i tuoi monete sono disponibili per la negoziazione è necessario dividere la vostra collezione di prima.
 - La tua collezione ha bisogno di ottenere un nome pubblico che sarà anche visibile agli altri. Lo stesso vale per il vostro indirizzo e-mail.
-- Tutte le informazioni all'interno della vostra collezione sarà visibile al pubblico (note, ...). Con l'aggiunta di informazioni si accettano solo aggiungere informazioni valide circa la moneta. Ogni abuso può essere segnalato da altri e potrebbe portare alla cancellazione del tuo account.
+- Tutte le informazioni all'interno della vostra collezione sarà visibile al pubblico (note, …). Con l'aggiunta di informazioni si accettano solo aggiungere informazioni valide circa la moneta. Ogni abuso può essere segnalato da altri e potrebbe portare alla cancellazione del tuo account.
 - È possibile selezionare un'immagine o scattare una foto e assegnarlo a una moneta. Qualsiasi immagine assegnata sarà visibile al pubblico. In questo modo l'utente accetta di immagini solo assegnare in cui si dispone dei diritti per farlo e che solo la moneta corrispondente spettacoli. Ogni abuso può essere segnalato da altri e potrebbe portare alla cancellazione del tuo account.
 - Un abuso della funzione abuso potrebbe portare alla cancellazione del tuo account.
 - Riceverete un partner collezione di trading per ogni richiesta. È possibile collegare al partner commerciale mostrato o requenst quello successivo. Una volta che hai tutti i partner commerciali la ricerca si ricominciare.
@@ -433,16 +445,16 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"Versione 7.12\n
+    <string name="version_history_last">"Versione 7.12\n
 Mantenere gli anni in alto mentre si scorre verso il basso. Grazie a Georg.
 Aggiunte più colonne all’esportazione del file CSV. Jens è sempre di grande aiuto!
 "</string>.
 
-    <string name="version_history_last">"Versione 7.11\n
-Monete commemorative da 2 euro 2020 Lituania: testo corretto su entrambe le monete. Riconosciuto da Marion.
-Moneta commemorativa da 2 euro Belgio aggiunta. Grazie Jens.
-Le nuove collezioni verranno condivise automaticamente tra i dispositivi dell'utente.
-Le collezioni verranno trasferite automaticamente ai nuovi dispositivi registrati.
+    <string name="version_history_current">"Versione 7.13\n
+Corretto l'allineamento errato dell'anno nella riga dell'intestazione. Grazie Jens.
+Corretto un bug nella migrazione dei nuovi dispositivi. Grazie Jochen.
+Aggiunti set iniziali Euro pubblici. Possono essere abilitati nelle impostazioni.
+Aggiunte monete Euro bulgare.
 "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -453,10 +465,11 @@ Le collezioni verranno trasferite automaticamente ai nuovi dispositivi registrat
     <string name="coin_50cent">"50 Cent"</string>
     <string name="coin_1euro">"1 Euro"</string>
     <string name="coin_2euro">"2 Euro"</string>
-    
+
     <string name="countryname_eu">"EU"</string>
     <string name="countryname_au">"Austria"</string>
     <string name="countryname_be">"Belgio"</string>
+    <string name="countryname_bg">"Bulgaria"</string>
     <string name="countryname_cy">"Cipro"</string>
     <string name="countryname_ee">"Estonia"</string>
     <string name="countryname_fi">"Finlandia"</string>
@@ -519,7 +532,7 @@ L'utente può contattare l'istituto corrispondente per la privacy dei dati.
 
     <!-- BEGIN auto generated code for language it -->
     <string name="twoeuro_comm_2004_va_title">"75oanniversario della fondazione dello Stato della Città del Vaticano"</string>
-    <string name="twoeuro_comm_2004_va_desc">"nella parte interna è raffigurato il profilo delle mura perimetrali della Città del Vaticano, con la Basilica di San Pietro in primo piano; compaiono inoltre le iscrizioni “75oANNO DELLO STATO” e “1929-2004”, nonché, in caratteri più piccoli, il nome dell’autore, “VEROI”, e le iniziali dell’incisore, “L.D.S. INC.”. Sulla corona esterna sono impresse le 12 stelle dell’Unione europea e l’iscrizione “CITTÀ DEL VATICANO”."</string>
+    <string name="twoeuro_comm_2004_va_desc">"nella parte interna è raffigurato il profilo delle mura perimetrali della Città del Vaticano, con la Basilica di San Pietro in primo piano; compaiono inoltre le iscrizioni “75oANNO DELLO STATO” e “1929–2004”, nonché, in caratteri più piccoli, il nome dell’autore, “VEROI”, e le iniziali dell’incisore, “L.D.S. INC.”. Sulla corona esterna sono impresse le 12 stelle dell’Unione europea e l’iscrizione “CITTÀ DEL VATICANO”."</string>
     <string name="twoeuro_comm_2004_va_volume">"100000"</string>
     <string name="twoeuro_comm_2004_va_date">"dicembre 2004"</string>
 
@@ -589,7 +602,7 @@ L'utente può contattare l'istituto corrispondente per la privacy dei dati.
     <string name="twoeuro_comm_2016_va_2_date">"ottobre 2016"</string>
 
     <string name="twoeuro_comm_2016_va_title">"bicentenario della Gendarmeria vaticana"</string>
-    <string name="twoeuro_comm_2016_va_desc">"sulla moneta è raffigurato un gendarme rivolto verso la cupola della Basilica di San Pietro. In giro compaiono l’iscrizione “CORPO DELLA GENDARMERIA 1816-2016”, in alto e il nome del paese di emissione “CITTÀ DEL VATICANO”, in basso. A sinistra del disegno è apposto il marchio di zecca “R”, mentre a destra il nome dell’artista “D. Longo”. La corona esterna riporta le 12 stelle dell’Unione europea."</string>
+    <string name="twoeuro_comm_2016_va_desc">"sulla moneta è raffigurato un gendarme rivolto verso la cupola della Basilica di San Pietro. In giro compaiono l’iscrizione “CORPO DELLA GENDARMERIA 1816–2016”, in alto e il nome del paese di emissione “CITTÀ DEL VATICANO”, in basso. A sinistra del disegno è apposto il marchio di zecca “R”, mentre a destra il nome dell’artista “D. Longo”. La corona esterna riporta le 12 stelle dell’Unione europea."</string>
     <string name="twoeuro_comm_2016_va_volume">"105000"</string>
     <string name="twoeuro_comm_2016_va_date">"giugno 2016"</string>
 
@@ -613,8 +626,8 @@ L'utente può contattare l'istituto corrispondente per la privacy dei dati.
     <string name="twoeuro_comm_2018_va_volume">"101000"</string>
     <string name="twoeuro_comm_2018_va_date">"maggio 2018"</string>
 
-    <string name="twoeuro_comm_2019_va_title">"Cappella Sistina — fine dei restauri 1994-2019"</string>
-    <string name="twoeuro_comm_2019_va_desc">"il disegno rappresenta il Giudizio Universale nella Cappella Sistina. A sinistra in giro compare l’indicazione del paese di emissione “CITTÀ DEL VATICANO”. A destra in giro sono apposte le iscrizioni “CAPPELLA SISTINA - FINE DEI RESTAURI” e “1994 - 2019”. La parte destra del disco interno reca il marchio di zecca “R”; in basso è inciso il nome dell’artista “D. LONGO”. La corona esterna è ornata dalle 12 stelle dell’Unione europea."</string>
+    <string name="twoeuro_comm_2019_va_title">"Cappella Sistina — fine dei restauri 1994–2019"</string>
+    <string name="twoeuro_comm_2019_va_desc">"il disegno rappresenta il Giudizio Universale nella Cappella Sistina. A sinistra in giro compare l’indicazione del paese di emissione “CITTÀ DEL VATICANO”. A destra in giro sono apposte le iscrizioni “CAPPELLA SISTINA – FINE DEI RESTAURI” e “1994 – 2019”. La parte destra del disco interno reca il marchio di zecca “R”; in basso è inciso il nome dell’artista “D. LONGO”. La corona esterna è ornata dalle 12 stelle dell’Unione europea."</string>
     <string name="twoeuro_comm_2019_va_volume">"91000"</string>
     <string name="twoeuro_comm_2019_va_date">"1oottobre 2019"</string>
 
@@ -789,12 +802,12 @@ L'utente può contattare l'istituto corrispondente per la privacy dei dati.
     <string name="twoeuro_comm_2021_it_2_date">"gennaio 2021"</string>
 
     <string name="twoeuro_comm_2022_it_2_title">"30oanniversario della morte di Giovanni Falcone e Paolo Borsellino"</string>
-    <string name="twoeuro_comm_2022_it_2_desc">"Descrizione:la moneta reca al centro i ritratti dei due magistrati Giovanni Falcone e Paolo Borsellino; il disegno si ispira a una fotografia scattata da Tony Gentile. In alto in giro figura l’iscrizione “FALCONE - BORSELLINO”, al di sotto della quale sono riportati gli anni “1992” e “2022”, tra i quali si inserisce l’acronimo “RI” della Repubblica italiana; a destra compare la lettera “R”, identificativo della Zecca di Roma, e a sinistra le iniziali “VdS” dell’autore Valerio de Seta. La corona esterna è ornata dalle 12 stelle dell’Unione europea."</string>
+    <string name="twoeuro_comm_2022_it_2_desc">"Descrizione:la moneta reca al centro i ritratti dei due magistrati Giovanni Falcone e Paolo Borsellino; il disegno si ispira a una fotografia scattata da Tony Gentile. In alto in giro figura l’iscrizione “FALCONE-BORSELLINO”, al di sotto della quale sono riportati gli anni “1992” e “2022”, tra i quali si inserisce l’acronimo “RI” della Repubblica italiana; a destra compare la lettera “R”, identificativo della Zecca di Roma, e a sinistra le iniziali “VdS” dell’autore Valerio de Seta. La corona esterna è ornata dalle 12 stelle dell’Unione europea."</string>
     <string name="twoeuro_comm_2022_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2022_it_2_date">"gennaio 2022"</string>
 
     <string name="twoeuro_comm_2022_it_title">"170oanniversario della fondazione della Polizia di Stato Italiana"</string>
-    <string name="twoeuro_comm_2022_it_desc">"Descrizione:in primo piano sono raffigurati due agenti della Polizia di Stato, una donna e un uomo, in piedi davanti a un’autovettura della polizia. In alto in giro figura l’iscrizione “POLIZIA DI STATO”; sulla destra è riportato l’acronimo “RI” della Repubblica italiana. In basso sono impresse a sinistra la lettera “R”, identificativo della Zecca di Roma, al centro le iniziali “AM” dell’autrice del disegno Annalisa Masini e a destra le date “1852-2022”. Sulla corona esterna sono disposte le 12 stelle dell’Unione europea."</string>
+    <string name="twoeuro_comm_2022_it_desc">"Descrizione:in primo piano sono raffigurati due agenti della Polizia di Stato, una donna e un uomo, in piedi davanti a un’autovettura della polizia. In alto in giro figura l’iscrizione “POLIZIA DI STATO”; sulla destra è riportato l’acronimo “RI” della Repubblica italiana. In basso sono impresse a sinistra la lettera “R”, identificativo della Zecca di Roma, al centro le iniziali “AM” dell’autrice del disegno Annalisa Masini e a destra le date “1852–2022”. Sulla corona esterna sono disposte le 12 stelle dell’Unione europea."</string>
     <string name="twoeuro_comm_2022_it_volume">"3000000"</string>
     <string name="twoeuro_comm_2022_it_date">"gennaio 2022"</string>
 
@@ -864,7 +877,7 @@ L'utente può contattare l'istituto corrispondente per la privacy dei dati.
     <string name="twoeuro_comm_2014_sm_date">"giugno 2014"</string>
 
     <string name="twoeuro_comm_2015_sm_2_title">"25oanniversario della riunificazione della Germania"</string>
-    <string name="twoeuro_comm_2015_sm_2_desc">"il disegno raffigura la Porta di Brandeburgo, che durante la Guerra fredda si trovava a Berlino Est. La porta è rappresentata come due mani che si intrecciano, a simboleggiare la riunificazione delle due parti di Berlino. A destra è inciso il marchio di zecca “R” e a sinistra sono impresse le iniziali dell’artista “ES”, Erik Spiekermann. In giro compaiono la scritta “25oANNIVERSARIO DELLA RIUNIFICAZIONE DELLA GERMANIA 1990-2015” e l’indicazione del paese e dell’anno di emissione “SAN MARINO MMXV”. La corona esterna reca le 12 stelle dell’Unione europea."</string>
+    <string name="twoeuro_comm_2015_sm_2_desc">"il disegno raffigura la Porta di Brandeburgo, che durante la Guerra fredda si trovava a Berlino Est. La porta è rappresentata come due mani che si intrecciano, a simboleggiare la riunificazione delle due parti di Berlino. A destra è inciso il marchio di zecca “R” e a sinistra sono impresse le iniziali dell’artista “ES”, Erik Spiekermann. In giro compaiono la scritta “25o ANNIVERSARIO DELLA RIUNIFICAZIONE DELLA GERMANIA 1990-2015” e l’indicazione del paese e dell’anno di emissione “SAN MARINO MMXV”. La corona esterna reca le 12 stelle dell’Unione europea."</string>
     <string name="twoeuro_comm_2015_sm_2_volume">"100000"</string>
     <string name="twoeuro_comm_2015_sm_2_date">"settembre 2015"</string>
 

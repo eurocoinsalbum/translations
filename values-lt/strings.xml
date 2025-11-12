@@ -24,6 +24,7 @@
 	<string name="action_import">"Importuoti"</string>
 	<string name="action_export">"Eksportuoti"</string>
 	<string name="action_create_pdf">"Generuoti PDF failą"</string>
+	<string name="action_create_excel">Sukurti Excel</string>
 	<string name="featureApiLevelMin44">"Atsiprašome, PDF generavimui reikia bent Android 4.4"</string>
 	<string name="export_failed">"Eksportas nepavyko"</string>
 	<string name="import_failed">"Importas nepavyko"</string>
@@ -60,9 +61,8 @@
 	<string name="pref_show_only_missing_coins">"Rodyti tik trūkstamas monetas"</string>
 	<string name="pref_show_official_coin_set_marker">"Rodyti \'skirtingos kalyklos\' žymę (*)"</string>
 	<string name="coinCondition">"Būklė"</string>
-    <string name="action_open_url_comment">"Nusiųsti žinutę"</string>
+	<string name="action_open_url_comment">"Nusiųsti žinutę"</string>
 	<string name="action_close">"Išeiti"</string>
-	<string name="coin_collected_marker">"X"</string>
 	<string name="index_cc">"Indeksas"</string>
 	<string name="enter_coin_name">"Įveskite metus ir trumpą monetos pavadinimą"</string>
 	<string name="custom_coin_name">"Pavadinimas"</string>
@@ -82,8 +82,12 @@
 	<string name="no_external_storage_permission">"Android programų meniu įjunkite \'Leidimai\' - \'Saugykla\'"</string>
 	<string name="commemorative_coins_full">"Visos proginės monetos"</string>
 	<string name="pref_background_color">"Fono spalva"</string>
+	<string name="pref_background_color_all_collected">"Spalva visiškai surinktiems monetų rinkiniams"</string>
 	<string name="pref_hide_not_existing_coins">"Nerodyti neegzistuojančių monetų"</string>
 	<string name="click_the_coin_set_expand_button">"Palieskite pliuso ženklą norėdami išskleisti monetų grupę"</string>
+	<string name="action_manage_shared_collection">"Tvarkyti draugus..."</string>
+	<string name="collection_is_not_shared">"Ši kolekcija nebuvo bendrinama"</string>
+	<string name="register">"Registruotis"</string>
 
 	<!-- v4.5 -->
 	<string name="pref_text_size_3">"Šrifto dydis 3 (pasirinkimai)"</string>
@@ -163,16 +167,22 @@
 	<!-- version 7.12 -->
 	<string name="csv_header">"Šalis (Country);Metai (Year);Vertė (Value);Ženklas (Sign);Pavadinimas (Title);Būklė (Condition);Oficialus rinkinys (Blister);Pastaba (Note);Pridėjimo data (Added date);Sumokėta (Paid);Keitimas užblokuotas (Block trading)"</string>
 
-	<string name="version_history_current">"Versija 7.12\n
+	<!-- version 7.13 -->
+	<string name="collection_not_owner">"Kolekcija '%1$s' jau buvo užregistruota kitu el. pašto adresu. Ar norite sukurti kopiją?"</string>
+	<string name="found_duplicate_collections">"Patikrinkite šias kolekcijas, nes jos gali būti dublikatai: '%1$s'"</string>
+	<string name="pref_collect_starter_sets">"Rinkti pradžios rinkinius"</string>
+	<string name="starter_set_title">"Pradžios rinkinys"</string>
+
+	<string name="version_history_last">"Versija 7.12\n
 Metus laikykite viršuje slenkant žemyn. Ačiū Georgui.
 CSV failo eksportui pridėta daugiau stulpelių. Jensas visada labai padeda!
 	"</string>
 
-	<string name="version_history_last">"Versija 7.11\n
-2 eurų proginės monetos 2020 m. Lietuva, pataisytas abiejų monetų tekstas. Atpažino Marion.
-Pridėta 2 eurų proginė moneta Belgija. Ačiū, Jens.
-Naujos kolekcijos bus automatiškai bendrinamos tarp naudotojo įrenginių.
-Kolekcijos bus automatiškai perkeltos į naujai užregistruotus įrenginius.
+	<string name="version_history_current">"Versija 7.13\n
+Ištaisyta klaidinga metų nuoroda antraštės eilutėje. Ačiū, Jens.
+Ištaisyta klaida perkeliant naujus įrenginius. Ačiū, Jochen.
+Pridėti vieši euro pradedančiųjų rinkiniai. Juos galima įjungti nustatymuose.
+Pridėtos bulgarų euro monetos.
 	"</string>
 
 	<string name="coin_1cent">"1 centas"</string>
@@ -185,10 +195,12 @@ Kolekcijos bus automatiškai perkeltos į naujai užregistruotus įrenginius.
 	<string name="coin_2euro">"2 Eurai"</string>
 	<string name="coin_5euro">"5 Eurai"</string>
 	<string name="coin_10euro">"10 Eurų"</string>
+
 	<string name="countryname_eu">"ES"</string>
 	<string name="countryname_au">"Austrija"</string>
 	<string name="countryname_ad">"Andora"</string>
 	<string name="countryname_be">"Belgija"</string>
+	<string name="countryname_bg">"Bulgarija"</string>
 	<string name="countryname_cy">"Kipras"</string>
 	<string name="countryname_ee">"Estija"</string>
 	<string name="countryname_fi">"Suomija"</string>
@@ -209,7 +221,7 @@ Kolekcijos bus automatiškai perkeltos į naujai užregistruotus įrenginius.
 	<string name="countryname_sm">"San Marinas"</string>
 	<string name="countryname_es">"Ispanija"</string>
 	<string name="countryname_va">"Vatikanas"</string>
-    <string name="countryname_hr">"Kroatija"</string>
+	<string name="countryname_hr">"Kroatija"</string>
 
 	<string name="countryname_uk">"Anglija"</string>
 

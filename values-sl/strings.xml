@@ -23,6 +23,7 @@
     <string name="action_import">"Uvozi"</string>
     <string name="action_export">"Izvozi"</string>
     <string name="action_create_pdf">"Ustvari pdf"</string>
+    <string name="action_create_excel">Ustvari Excel</string>
     <string name="featureApiLevelMin44">"Oprostite, izdelava pdf potrebuje min. Android 4.4"</string>
     <string name="export_failed">"Izvoz ni uspel"</string>
     <string name="import_failed">"Uvoz ni uspel"</string>
@@ -60,7 +61,7 @@
     <string name="coinCondition">"Pogoj"</string>
     <string name="action_open_url_comment">"Pošlji sporočilo"</string>
     <string name="action_close">"Izhod"</string>
-    <string name="coin_collected_marker">"X"</string>
+
     <string name="index_cc">"Indeks"</string>
     <string name="enter_coin_name">"Vnesite leto in kratko ime kovanca"</string>
     <string name="custom_coin_name">"Ime"</string>
@@ -80,8 +81,12 @@
     <string name="no_external_storage_permission">"V meniju aplikacije Android aktivirajte 'Dovoljenja' za 'Shranjevanje'"</string>
     <string name="commemorative_coins_full">"Komemorativni kovanci polni"</string>
     <string name="pref_background_color">"Barva ozadja"</string>
+    <string name="pref_background_color_all_collected">"Barva za popolnoma zbrane zbirke kovancev"</string>
     <string name="pref_hide_not_existing_coins">"Skrij ne obstoječe kovance"</string>
     <string name="click_the_coin_set_expand_button">"Če želite odpreti skupino za nastavitev kovancev, se dotaknite gumba plus"</string>
+    <string name="action_manage_shared_collection">"Upravljaj prijatelje..."</string>
+    <string name="collection_is_not_shared">"Ta zbirka ni bila deljena"</string>
+    <string name="register">"Registriraj se"</string>
 
     <!-- v5.0 -->
     <string name="pref_text_size_3">"Velikost besedila 3 (izbirni seznam)"</string>
@@ -146,7 +151,7 @@
     <string name="session_expired_try_again">"Seja je potekla. Prosim poskusite ponovno."</string>
     <string name="forum">"Forum"</string>
     <string name="logged_in">"Prijavljeni"</string>
-    <string name="pref_other_special_coins">"Drugi posebni kovanci"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Drugi posebni kovanci"</string>
     <string name="coin_parse_error">"Napaka pri nalaganju (glej obvestila za podrobnosti)"</string>
     <string name="switch_id_error">"Napaka pri prenosu ID-ja uporabnika."</string>
     <string name="register_mail_error">"Napaka pri registraciji poštnega naslova"</string>
@@ -255,16 +260,22 @@
     <!-- version 7.12 -->
     <string name="csv_header">"Država (Country);Leto (Year);Vrednost (Value);Znak (Sign);Naslov (Title);Stanje (Condition);Uradni set (Blister);Opomba (Note);Dodani datum (Added date);Plačano (Paid);Menjava blokirana (Block trading)"</string>
 
-    <string name="version_history_current">"Različica 7.12\n
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"Zbirka '%1$s' je že registrirana z drugim e-poštnim naslovom. Ali želite ustvariti kopijo?"</string>
+    <string name="found_duplicate_collections">"Preverite naslednje zbirke, ker se zdijo dvojniki: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Zbiraj začetne komplete"</string>
+    <string name="starter_set_title">"Začetni komplet"</string>
+
+    <string name="version_history_last">"Različica 7.12\n
 Ohranite leta na vrhu med pomikanjem navzdol. Hvala Georgu.
 Dodane so bile dodatne stolpce pri izvozu CSV datoteke. Jens je vedno v veliko pomoč!
     "</string>
 
-    <string name="version_history_last">"Različica 7.11\n
-Spominski kovanci za 2 evra 2020 Litva - popravljeno besedilo na obeh kovancih. Marion jih je prepoznala.
-Dodan spominski kovanec za 2 evra Belgija. Hvala, Jens.
-Nove zbirke bodo samodejno deljene med uporabnikovimi napravami.
-Zbirke bodo samodejno prenesene na novo registrirane naprave.
+    <string name="version_history_current">"Različica 7.13\n
+Popravljena napačna uskladitev leta v glavi. Hvala, Jens.
+Popravljena napaka pri migraciji novih naprav. Hvala, Jochen.
+Dodani javni začetni kompleti evrov. Lahko se omogočijo v nastavitvah.
+Dodani bolgarski evrski kovanci.
     "</string>
 
 
@@ -283,6 +294,7 @@ Zbirke bodo samodejno prenesene na novo registrirane naprave.
     <string name="countryname_au">"Avstrija"</string>
     <string name="countryname_ad">"Andora"</string>
     <string name="countryname_be">"Belgija"</string>
+    <string name="countryname_bg">"Bolgarija"</string>
     <string name="countryname_cy">"Ciper"</string>
     <string name="countryname_ee">"Estonija"</string>
     <string name="countryname_fi">"Finska"</string>

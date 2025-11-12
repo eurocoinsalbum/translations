@@ -23,6 +23,7 @@
     <string name="action_import">"Importation"</string>
     <string name="action_export">"Exportation"</string>
     <string name="action_create_pdf">"Créer pdf"</string>
+    <string name="action_create_excel">Créer Excel</string>
     <string name="featureApiLevelMin44">"Créer pdf minimum Android 4.4"</string>
     <string name="export_failed">"Erreur Exportation"</string>
     <string name="import_failed">"Erreur Importation"</string>
@@ -32,13 +33,17 @@
     <string name="help_message">"Si vous voulez m’envoyer les problèmes, bugs que vous rencontrez, ou encore vos questions et propositions d’améliorations, merci d’utiliser le formulaire disponible via le menu \"Envoyer un message\" (https://eurocoins-album.jimdosite.com). Ces commentaires ne devraient pas être postés via le play store."</string>
     <string name="help_statistics">"Le format statistique est x/y/z avec x = le nombre de pièces différentes dans la vue que vous avez sélectionnée; y = nombre de pièces différentes possibles qui peuvent être collectées; z = nombre total de pièces collectées (dans le cas où la pièce a été recueilli plus d\'une fois, voir les propriétés de pièces de monnaie). Les nombres décimaux indiquent le montant d\'argent payé pour chaque pièce de monnaie et ainsi que la somme de leur valeur, si ces données ont été renseignées dans les propriétés de pièces de monnaie."</string>
     <string name="help_coin_marker">"Un \'X\' sur une pièce de monnaie signifie que cette pièce n’a jamais été frappée (pas de tirage existant) (si vous avez plus d’information, merci de me contacter par mail). Un \'* \' sur une pièce de monnaie est un marqueur pour les pièces éditées en séries officielles (kit), visible uniquement dans le cas où l\'option est activée dans les paramètres de l’application."</string>
-    <string name="help_eu_view">"La vue UE montre pour l\'utilisateur actif, s’il a cette pièce de monnaie dans toutes les années/pays (et tirages) ou s\'il lui manque au moins une année/pays (tirage). Sélectionner une pièce de monnaie pour voir le détails des pays dans lesquels cette pièce a déjà été recueillie."</string> 
-    <string name="help_multi_user">"La vue multi-utilisateur indique si tous les utilisateurs ont la pièce de monnaie, ou si elle est manquante chez au moins un utilisateur."</string> 
-    <string name="help_touch_hold_coins">"En mode édition, un appui long sur une pièce permet de définir le nombre d\'exemplaire de la pièce et saisir d\'autres propriétés."</string> 
-    <string name="help_touch_hold_two_euro_coins">"En mode visualisation, un appui long sur les pièces commémoratives 2 euros permet d\'obtenir des informations supplémentaires à propos de cette pièce."</string> 
-    <string name="help_touch_common_coins">"Appuyer sur une des 8 pièces de monnaie à gauche de l\'écran pour afficher la face nationale de tous les pays pour cette pièce."</string> 
+    <string name="help_eu_view">"La vue UE montre pour l\'utilisateur actif, s’il a cette pièce de monnaie dans toutes les années/pays (et tirages) ou s\'il lui manque au moins une année/pays (tirage). Sélectionner une pièce de monnaie pour voir le détails des pays dans lesquels cette pièce a déjà été recueillie."</string>
+    <string name="help_eu_mode_switch">Dans la vue UE, vous pouvez utiliser le bouton dans le coin supérieur gauche pour basculer entre le mode année et le mode pays</string>
+    <string name="help_multi_user">"La vue multi-utilisateur indique si tous les utilisateurs ont la pièce de monnaie, ou si elle est manquante chez au moins un utilisateur."</string>
+    <string name="help_touch_hold_coins">"En mode édition, un appui long sur une pièce permet de définir le nombre d\'exemplaire de la pièce et saisir d\'autres propriétés."</string>
+    <string name="help_touch_hold_two_euro_coins">"En mode visualisation, un appui long sur les pièces commémoratives 2 euros permet d\'obtenir des informations supplémentaires à propos de cette pièce."</string>
+    <string name="help_touch_common_coins">"Appuyer sur une des 8 pièces de monnaie à gauche de l\'écran pour afficher la face nationale de tous les pays pour cette pièce."</string>
     <string name="help_im_export">"Le nom du fichier d’exportation pour un utilisateur est le suivant : \'euro_coin_list_ &lt; nom d\'utilisateur &gt;.txt\'. Les utilisateurs importés (suite à l’importation d’un fichier d’exportation) sont ajoutés à l’application mais cette opération n’efface pas les utilisateurs déjà existants."</string>
-    <string name="help_menu">"Utilisation du bouton de menu sur les téléphones à la taille des images et d\'autres paramètres peuvent être faites."</string> 
+    <string name="help_backup">"Chaque semaine, l'application crée automatiquement une sauvegarde de toutes les collections. Grâce au menu 'Restaurer une sauvegarde', il est facile d'ajouter une ancienne sauvegarde aux collections actuellement chargées."</string>
+    <string name="help_coinset_expand">"Pour améliorer l'ergonomie, les séries de pièces allemandes sont regroupées par année si vous avez activé le paramètre 'Collectionner les années et les ateliers'. Le bouton plus/moins au-dessus des pièces communes (à gauche) peut être utilisé de deux façons : un appui court pour développer/réduire tous les groupes en une fois, et un appui long pour faire l'inverse."</string>
+    <string name="help_menu">"Utilisez le menu des paramètres pour modifier : la taille des images des pièces, la taille du texte (titre et texte des pièces), la collecte uniquement des pièces commémoratives de 2 €, la collecte de toutes les années et ateliers (ou seulement une par pays), et bien plus encore. Une fonctionnalité spéciale est 'utiliser des paramètres individuels', grâce à laquelle chaque utilisateur/collection peut avoir ses propres paramètres ou partager les mêmes avec tous les utilisateurs !"</string>
+    <string name="help_title_setting">"En cliquant sur l'en-tête de colonne, la couleur d'arrière-plan correspondante peut être modifiée."</string>
     <string name="show_licenses">"Licenses"</string>
     <string name="pref_use_individual_settings">"Utiliser les paramètres individuels"</string>
     <string name="pref_image_size">"Taille de l\'image"</string>
@@ -61,22 +66,26 @@
     <string name="custom_coin_name">"Nom"</string>
     <string name="year">"Année"</string>
     <string name="count">"Nombre"</string>
-    <string name="mint">"Mint"</string>  
-    <string name="remove_coin">"Retirer"</string> 
+    <string name="mint">"Mint"</string>
+    <string name="remove_coin">"Retirer"</string>
     <string name="label">"Désignation"</string>
     <string name="prev_coin">"Précédent"</string>
     <string name="next_coin">"Prochain"</string>
     <string name="new_coin">"Nouveau"</string>
     <string name="attention">"Attention"</string>
-    <string name="force_unlock_user">"Cet utilisateur a eu une erreur de charge. Force de débloquer?"</string> 
+    <string name="force_unlock_user">"Cet utilisateur a eu une erreur de charge. Force de débloquer?"</string>
     <string name="action_restore_backup">"Restaurer la sauvegarde"</string>
     <string name="action_delete_old_backups">"Supprimer les anciennes sauvegardes"</string>
     <string name="delete_old_backups">"Supprimer les anciennes sauvegardes ?"</string>
     <string name="no_external_storage_permission">"Dans le menu application Android, activer \'Autorisations\' pour \'Stockage\'"</string>
     <string name="commemorative_coins_full">"Pièces commémoratives complète"</string>
     <string name="pref_background_color">"Couleur du fond"</string>
+    <string name="pref_background_color_all_collected">"Couleur pour les ensembles de pièces entièrement collectés"</string>
     <string name="pref_hide_not_existing_coins">"Masquer les pièces non existantes"</string>
     <string name="click_the_coin_set_expand_button">"Pour ouvrir un groupe de pièce, appuyer sur le bouton plus"</string>
+    <string name="action_manage_shared_collection">"Gérer les amis..."</string>
+    <string name="collection_is_not_shared">"Cette collection n’a pas été partagée"</string>
+    <string name="register">"S’inscrire"</string>
 
     <!-- v4.5 -->
     <string name="pref_text_size_3">"Taille texte 3 (Listes de sélection)"</string>
@@ -141,7 +150,7 @@
     <string name="session_expired_try_again">"session expirée. veuillez réessayer."</string>
     <string name="forum">"forum"</string>
     <string name="logged_in">"connecté"</string>
-    <string name="pref_other_special_coins">"D\'autres pièces spéciales"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"D\'autres pièces spéciales"</string>
     <string name="coin_parse_error">"Erreur de charge (voir les notifications pour plus de détails)"</string>
     <string name="switch_id_error">"Erreur lors du transfert de code d\'utilisateur."</string>
     <string name="register_mail_error">"Erreur lors adresse mail enregistrement"</string>
@@ -382,6 +391,12 @@
     <!-- version 7.12 -->
     <string name="csv_header">"Pays (Country);Année (Year);Valeur (Value);Signe (Sign);Titre (Title);État (Condition);Série officielle (Blister);Remarque (Note);Date ajoutée (Added date);Payé (Paid);Échange bloqué (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"La collection '%1$s' a déjà été enregistrée avec une autre adresse e-mail. Voulez-vous créer une copie ?"</string>
+    <string name="found_duplicate_collections">"Veuillez vérifier les collections suivantes, car elles semblent être des doublons : '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Collectionner les sets de démarrage"</string>
+    <string name="starter_set_title">"Set de démarrage"</string>
+
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
 - Veuillez lire attentivement! Sinon, vous risquez d'être déçu par la fonctionnalité de négociation.
@@ -430,16 +445,16 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.12\n
+    <string name="version_history_last">"Version 7.12\n
 Garder les années en haut lors du défilement vers le bas. Merci à Georg.
 Ajout de plus de colonnes à l’exportation du fichier CSV. Jens est toujours d’une grande aide!
 "</string>
 
-    <string name="version_history_last">"Version 7.11\n
-Pièce commémorative de 2 euros 2020 de Lituanie : texte corrigé sur les deux pièces. Reconnu par Marion.
-Pièce commémorative de 2 euros de Belgique ajoutée. Merci Jens.
-Les nouvelles collections seront automatiquement partagées entre les appareils des utilisateurs.
-Les collections seront automatiquement transférées vers les appareils nouvellement enregistrés.
+    <string name="version_history_current">"Version 7.13\n
+Correction d'un problème d'alignement de l'année dans la ligne d'en-tête. Merci Jens.
+Correction d'un bug dans la migration des nouveaux appareils. Merci Jochen.
+Ajout de kits de démarrage Euro publics. Peut être activé dans les paramètres.
+Ajout des pièces Euro bulgares.
 "</string>
 
     <string name="coin_1cent">"1 Centime"</string>
@@ -454,6 +469,7 @@ Les collections seront automatiquement transférées vers les appareils nouvelle
     <string name="countryname_eu">"UE"</string>
     <string name="countryname_au">"Autriche"</string>
     <string name="countryname_be">"Belgique"</string>
+    <string name="countryname_bg">"Bulgarie"</string>
     <string name="countryname_cy">"Chypre"</string>
     <string name="countryname_ee">"Estonie"</string>
     <string name="countryname_fi">"Finlande"</string>

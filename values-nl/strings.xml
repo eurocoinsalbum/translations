@@ -23,7 +23,8 @@
     <string name="ecb_info">"De informatie en afbeeldingen van alle euromunten zijn gratis te verkrijgen op de website van de ECB"</string>
     <string name="action_import">"Importeren"</string>
     <string name="action_export">"Exporteren"</string>
-    <string name="action_create_pdf">"Pdf aanmaken"</string>
+    <string name="action_create_pdf">"Pdf maken"</string>
+    <string name="action_create_excel">Excel maken</string>
     <string name="featureApiLevelMin44">"Sorry, voor het maken van een pdf is min. Android 4.4 nodig"</string>
     <string name="export_failed">"Export mislukt"</string>
     <string name="import_failed">"Import mislukt"</string>
@@ -61,7 +62,6 @@
     <string name="coinCondition">"Kwaliteit"</string>
     <string name="action_open_url_comment">"Verstuur bericht"</string>
     <string name="action_close">"Afsluiten"</string>
-    <string name="coin_collected_marker">"X"</string>
     <string name="index_cc">"Index"</string>
     <string name="enter_coin_name">"Voer in jaar en kort naam"</string>
     <string name="custom_coin_name">"Naam"</string>
@@ -81,8 +81,13 @@
     <string name="no_external_storage_permission">"Activeer in de toestelinstellingen bij Applicatiebeheer, in het menu \'Machtigingen\' de \'Opslag\'"</string>
     <string name="commemorative_coins_full">"Alle herdenkingsmunten"</string>
     <string name="pref_background_color">"Achtergrondkleur"</string>
+    <string name="pref_background_color_all_collected">"Kleur voor volledig verzamelde muntenreeksen"</string>
     <string name="pref_hide_not_existing_coins">"Verberg niet bestaande munten"</string>
     <string name="click_the_coin_set_expand_button">"Tik op de plusknop om de muntsetgroep te openen"</string>
+    <string name="action_manage_shared_collection">"Vrienden beheren..."</string>
+    <string name="collection_is_not_shared">"Deze collectie is niet gedeeld"</string>
+    <string name="register">"Registreren"</string>
+
     <!-- v4.5 -->
     <string name="pref_text_size_3">"Tekstgrootte 3 (keuzelijst)"</string>
     <string name="version_history">"Versie geschiedenis"</string>
@@ -146,7 +151,7 @@
     <string name="session_expired_try_again">"sessie is verlopen. probeer het opnieuw."</string>
     <string name="forum">"forum"</string>
     <string name="logged_in">"aangemeld"</string>
-    <string name="pref_other_special_coins">"Andere speciale munten"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Andere speciale munten"</string>
     <string name="coin_parse_error">"Load fout (zie meldingen voor details)"</string>
     <string name="switch_id_error">"Fout tijdens het overbrengen van gebruikers-ID."</string>
     <string name="register_mail_error">"Fout bij het registreren e-mailadres"</string>
@@ -387,6 +392,12 @@
     <!-- version 7.12 -->
     <string name="csv_header">"Land (Country);Jaar (Year);Waarde (Value);Teken (Sign);Titel (Title);Staat (Condition);Officiële set (Blister);Opmerking (Note);Datum toegevoegd (Added date);Betaald (Paid);Ruil geblokkeerd (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"De collectie '%1$s' is al geregistreerd met een ander e-mailadres. Wilt u een kopie maken?"</string>
+    <string name="found_duplicate_collections">"Controleer de volgende collecties, want ze lijken duplicaten te zijn: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Startsets verzamelen"</string>
+    <string name="starter_set_title">"Startset"</string>
+
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
 - Lees alle deze zorgvuldig! Anders kun je teleurgesteld worden door de handel functionaliteit.
@@ -435,16 +446,16 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Versie 7.12\n
+    <string name="version_history_last">"Versie 7.12\n
 Houd de jaren bovenaan tijdens het naar beneden scrollen. Dank aan Georg.
 Meer kolommen toegevoegd aan de CSV-bestandsexport. Jens is altijd een grote hulp!
     "</string>
 
-    <string name="version_history_last">"Versie 7.11\n
-Herdenkingsmunten van 2 euro 2020 in Litouwen hebben de tekst op beide munten gecorrigeerd. Herkend door Marion.
-Herdenkingsmunt van 2 euro in België toegevoegd. Bedankt Jens.
-Nieuwe collecties worden automatisch gedeeld tussen de apparaten van de gebruiker.
-Collecties worden automatisch overgezet naar nieuw geregistreerde apparaten.
+    <string name="version_history_current">"Versie 7.13\n
+Verkeerde jaaraanduiding in de koptekst gecorrigeerd. Bedankt, Jens.
+Bug in migratie van nieuwe apparaten verholpen. Bedankt, Jochen.
+Openbare euro-startersets toegevoegd. Kan worden ingeschakeld in de instellingen.
+Bulgaarse euromunten toegevoegd.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -462,6 +473,7 @@ Collecties worden automatisch overgezet naar nieuw geregistreerde apparaten.
     <string name="countryname_au">"Oostenrijk"</string>
     <string name="countryname_ad">"Andorra"</string>
     <string name="countryname_be">"België"</string>
+    <string name="countryname_bg">"Bulgarije"</string>
     <string name="countryname_cy">"Cyprus"</string>
     <string name="countryname_ee">"Estland"</string>
     <string name="countryname_fi">"Finland"</string>

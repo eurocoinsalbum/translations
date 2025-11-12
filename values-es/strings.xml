@@ -23,6 +23,7 @@
     <string name="action_import">"Importar"</string>
     <string name="action_export">"Exportar"</string>
     <string name="action_create_pdf">"Crea PDF"</string>
+    <string name="action_create_excel">Crear Excel</string>
     <string name="featureApiLevelMin44">"Lo sentimos, la creación de PDF necesita mín. Android 4.4"</string>
     <string name="export_failed">"Error de exportación"</string>
     <string name="import_failed">"Error de importación"</string>
@@ -60,7 +61,6 @@
     <string name="coinCondition">"Tiempo"</string>
     <string name="action_open_url_comment">"Enviar mensaje"</string>
     <string name="action_close">"Salir"</string>
-    <string name="coin_collected_marker">"x"</string>
     <string name="index_cc">"Índice"</string>
     <string name="enter_coin_name">"Ingrese el año y el nombre de la moneda corta"</string>
     <string name="custom_coin_name">"Nombre"</string>
@@ -80,6 +80,7 @@
     <string name="no_external_storage_permission">"En el menú de aplicaciones de Android, activa 'Permisos' para 'Almacenamiento'"</string>
     <string name="commemorative_coins_full">"Monedas conmemorativas llenas"</string>
     <string name="pref_background_color">"Color de fondo"</string>
+    <string name="pref_background_color_all_collected">"Color para conjuntos de monedas completamente coleccionados"</string>
     <string name="pref_hide_not_existing_coins">"Ocultar monedas no existentes"</string>
     <string name="click_the_coin_set_expand_button">"Para abrir el grupo de juegos de monedas, toque el botón más"</string>
     <string name="action_manage_shared_collection">"Administrar amigos..."</string>
@@ -149,7 +150,7 @@
     <string name="session_expired_try_again">"Sesión expirada. Inténtalo de nuevo."</string>
     <string name="forum">"Foro"</string>
     <string name="logged_in">"Conectado"</string>
-    <string name="pref_other_special_coins">"Otras monedas especiales"</string>
+    <string name="pref_collect_germany_5euro_polymer_coins">"Otras monedas especiales"</string>
     <string name="coin_parse_error">"Error de carga (ver notificaciones para más detalles)"</string>
     <string name="switch_id_error">"Error al transferir ID de usuario."</string>
     <string name="register_mail_error">"Error al registrar la dirección de correo"</string>
@@ -390,6 +391,12 @@
     <!-- version 7.12 -->
     <string name="csv_header">"País (Country);Año (Year);Valor (Value);Signo (Sign);Título (Title);Estado (Condition);Serie oficial (Blister);Nota (Note);Fecha añadida (Added date);Pagado (Paid);Intercambio bloqueado (Block trading)"</string>
 
+    <!-- version 7.13 -->
+    <string name="collection_not_owner">"La colección '%1$s' ya ha sido registrada con otra dirección de correo electrónico. ¿Desea crear una copia?"</string>
+    <string name="found_duplicate_collections">"Por favor, revise las siguientes colecciones porque parecen ser duplicadas: '%1$s'"</string>
+    <string name="pref_collect_starter_sets">"Coleccionar conjuntos iniciales"</string>
+    <string name="starter_set_title">"Conjunto inicial"</string>
+
     <string name="how_trading_partner_works">"
 - La funcionalidad de comercio no es para principiantes.
 - leer todo esto con cuidado! De lo contrario puede ser decepcionado por la funcionalidad de comercio.
@@ -434,16 +441,16 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_current">"Versión 7.12\n
+    <string name="version_history_last">"Versión 7.12\n
 Mantener los años en la parte superior al desplazarse hacia abajo. Gracias a Georg.
 Se añadieron más columnas a la exportación del archivo CSV. ¡Jens siempre es de gran ayuda!
     "</string>
 
-    <string name="version_history_last">"Versión 7.11\n
-Monedas conmemorativas de 2 euros de Lituania 2020. Texto corregido de ambas monedas. Reconocida por Marion.
-Moneda conmemorativa de 2 euros de Bélgica añadida. Gracias, Jens.
-Las nuevas colecciones se compartirán automáticamente entre los dispositivos del usuario.
-Las colecciones se transferirán automáticamente a los nuevos dispositivos registrados.
+    <string name="version_history_current">"Versión 7.13\n
+Se ha corregido la alineación incorrecta del año en la línea del encabezado. Gracias, Jens.
+Se ha corregido un error en la migración de nuevos dispositivos. Gracias, Jochen.
+Se han añadido sets de inicio públicos en euros. Se pueden habilitar en la configuración.
+Se han añadido monedas búlgaras en euros.
     "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -461,6 +468,7 @@ Las colecciones se transferirán automáticamente a los nuevos dispositivos regi
     <string name="countryname_au">"Austria"</string>
     <string name="countryname_ad">"Andorra"</string>
     <string name="countryname_be">"Bélgica"</string>
+    <string name="countryname_bg">"Bulgaria"</string>
     <string name="countryname_cy">"Chipre"</string>
     <string name="countryname_ee">"Estonia"</string>
     <string name="countryname_fi">"Finlandia"</string>
