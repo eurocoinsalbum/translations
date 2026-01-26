@@ -173,17 +173,26 @@
 	<string name="pref_collect_starter_sets">"Rinkti pradžios rinkinius"</string>
 	<string name="starter_set_title">"Pradžios rinkinys"</string>
 
-	<string name="version_history_last">"Versija 7.12\n
-Metus laikykite viršuje slenkant žemyn. Ačiū Georgui.
-CSV failo eksportui pridėta daugiau stulpelių. Jensas visada labai padeda!
-	"</string>
+	<!-- version 7.14 -->
+	<string name="permission_request">"Leidimo užklausa"</string>
+	<string name="rational_notifications">"Prašome leisti pranešimus, kad gautumėte informaciją apie atnaujintas draugų kolekcijas."</string>
+	<string name="notification_channel_collection_updates">"Kolekcijos atnaujinimai"</string>
+	<string name="ask_show_newest_coins">"Ar norite pamatyti naujausias monetas?"</string>
 
-	<string name="version_history_current">"Versija 7.13\n
+	<string name="version_history_current">"Versija 7.14\n
+Pridėtos trūkstamos 2€ minėtos monetos 2026.
+Pridėtos 2€ minėtos monetos Vokietijai, Slovėnijai ir Slovakijai.
+Pridėtos naujos monetų nuotraukos Monakas 2025 1€ ir 2€. Ačiū Guiseppe.
+Pridėtos naujos monetų nuotraukos Liuksemburgas 2026. Ačiū Guiseppe.
+Pridėtas pranešimų kanalas kolekcijų atnaujinimams.
+"</string>
+
+	<string name="version_history_last">"Versija 7.13\n
 Ištaisyta klaidinga metų nuoroda antraštės eilutėje. Ačiū, Jens.
 Ištaisyta klaida perkeliant naujus įrenginius. Ačiū, Jochen.
 Pridėti vieši euro pradedančiųjų rinkiniai. Juos galima įjungti nustatymuose.
 Pridėtos bulgarų euro monetos.
-	"</string>
+"</string>
 
 	<string name="coin_1cent">"1 centas"</string>
 	<string name="coin_2cent">"2 centai"</string>
@@ -2436,100 +2445,160 @@ Vartotojas gali susisiekti su atitinkama institucija dėl duomenų privatumo.
 	<string name="twoeuro_comm_2023_lv_volume">"415000"</string>
 	<string name="twoeuro_comm_2023_lv_date">"2023 m. gegužės mėn."</string>
 
+	<string name="twoeuro_comm_2023_po_2_title">"Pasaulinė jaunimo diena"</string>
+	<string name="twoeuro_comm_2023_po_2_desc">" 2023 m. rugpjūčio mėn. Lisabonoje buvo surengta Pasaulinė jaunimo diena. Pasaulinė jaunimo diena yra jaunų žmonių, kurie nori dalyvauti šventiniame susitikime su popiežiumi ir šimtais tūkstančių kitų jaunuolių iš viso pasaulio, besivadovaujančių tais pačiais universaliais taikos, santarvės ir brolybės principais, pasaulinis susibūrimas. Monetos centre tarsi ant gaublio pavaizduotas piligrimų kryžius ir įvairaus dydžio bei atspalvių žmonių figūros aplink jį. Iš apačios visą šią kompoziciją šiltu gestu apglėbia dvi rankos – šio susibūrimo įtraukties ir universalumo dvasios simbolis. Viršuje palei kraštą iškalti du įrašai: „JORNADA MUNDIAL DA JUVENTUDE“ (PASAULINĖ JAUNIMO DIENA portugalų kalba) ir „LISBOA 2023“. Apatiniame krašte pavaizduotas Portugalijos herbas, įrašas „PORTUGAL“, kalyklos ženklas „CASA DA MOEDA“ (Portugalijos kalyklos pavadinimas) ir monetos dizaino autoriaus vardas ir pavardė „JOÃO DUARTE“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2023_po_2_volume">"1015000"</string>
+f	<string name="twoeuro_comm_2023_po_2_date">"2023 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2024_ad_title">"100-osios slidinėjimo Andoroje metinės"</string>
+	<string name="twoeuro_comm_2024_ad_desc">"manoma, kad pirmoji Andoros gyventojų pažintis su slidinėjimu įvyko 1924 m. Dabar slidinėjimas – pagrindinė šios šalies sporto šaka, dėl kurios snieguotais kalnais, įspūdingais gamtovaizdžiais ir pasaulinio lygio slidinėjimo kurortais pasižyminti Andora yra labai mėgstama lankytojų. Monetos dizainu įamžinamas šios sporto šakos praktikavimo Andoroje šimtmetis. Monetoje pavaizduota apatinė slidinėtojo silueto dalis ir iškaltas monetą leidžiančios šalies pavadinimas „ANDORRA“ bei monetos išleidimo metai „2024“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_ad_volume">"60000"</string>
+	<string name="twoeuro_comm_2024_ad_date">"2024 m. paskutinis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2024_ad_2_title">"2024 m. Tarptautinės dviračių sporto sąjungos (UCI) kalnų dviračių pasaulio čempionatas"</string>
+	<string name="twoeuro_comm_2024_ad_2_desc">"šiemet Andoroje vyks svarbus tarptautinis sporto renginys – 2024 m. UCI kalnų dviračių pasaulio čempionatas. Monetoje iškaltas šios sporto šakos įspūdingumą atskleidžiantis dviratininko, važiuojančio per gamtos vietovę, atvaizdas ir įrašas „CAMPIONATS DEL MÓN UCI DE BTT“ („2024 m. UCI kalnų dviračių pasaulio čempionatas“). Iš abiejų dviratininko pusių, tarsi irgi priklausytų šiai sporto šakai, iškaltas monetą leidžiančios šalies pavadinimas „ANDORRA“ ir monetos išleidimo metai „2024“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_ad_2_volume">"60000"</string>
+	<string name="twoeuro_comm_2024_ad_2_date">"2024 m. paskutinis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2024_si_title">"250-osios Nacionalinės ir universitetinės bibliotekos(Narodna in univerzitetna knjižnica"</string>
+	<string name="twoeuro_comm_2024_si_desc">"monetoje pavaizduota šiek tiek palenkta Nacionalinės ir universitetinės bibliotekos durų rankena su sparnuotu dieviškuoju žirgu Pegasu, kuris architekto Jože’ės Plečniko sumanymu simbolizuoja bibliotekos lankytojų vedlį į žinių pasaulį. Durų rankena – pirmasis sąlyčio su įstaiga, kviečiančia mus į žinių ir įkvėpimo pasaulį, taškas. Monetos viršuje puslankiu iškaltas įrašas „NARODNA IN UNIVERZITETNA KNJIŽNICA“. Apačioje – monetą leidžiančios šalies pavadinimas „SLOVENIJA“ ir monetos išleidimo metai „2024“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_si_volume">"1000000"</string>
+	<string name="twoeuro_comm_2024_si_date">"2024 m. lapkričio mėn."</string>
+
 	<string name="twoeuro_comm_2024_po_2_title">"Portugalijos dalyvavimas 33-iosiose olimpinėse žaidynėse"</string>
-	<string name="twoeuro_comm_2024_po_2_desc">"Aprašymas:monetoje pavaizduoti širdies forma išdėstyti elementai, simbolizuojantys kolektyvinį glėbį. Aplink širdį iškalta 15 skritulių, kuriais daroma simbolinė aliuzija į olimpinius žiedus ir į žemynus, kuriuos tie žiedai simbolizuoja, o ties širdies galiuku – Portugalijos herbas. „Glėbio“ centre pavaizduotas Portugalijos olimpinio komiteto logotipas, taip išreiškiant mintį, kad per 2024 m. Paryžiaus olimpines žaidynes portugalų širdys plaks vienu ritmu, palaikydamos Portugalijos olimpinę komandą. Po širdimi iškaltas įrašas „Equipa Olímpica Portugal“ ir metai „2024“, kairėje – kalyklos ženklas „Casa da Moeda“, dešinėje – dizaino autorės vardas ir pavardė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_po_2_desc">"monetoje pavaizduoti širdies forma išdėstyti elementai, simbolizuojantys kolektyvinį glėbį. Aplink širdį iškalta 15 skritulių, kuriais daroma simbolinė aliuzija į olimpinius žiedus ir į žemynus, kuriuos tie žiedai simbolizuoja, o ties širdies galiuku – Portugalijos herbas. „Glėbio“ centre pavaizduotas Portugalijos olimpinio komiteto logotipas, taip išreiškiant mintį, kad per 2024 m. Paryžiaus olimpines žaidynes portugalų širdys plaks vienu ritmu, palaikydamos Portugalijos olimpinę komandą. Po širdimi iškaltas įrašas „Equipa Olímpica Portugal“ ir metai „2024“, kairėje – kalyklos ženklas „Casa da Moeda“, dešinėje – dizaino autorės vardas ir pavardė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
 	<string name="twoeuro_comm_2024_po_2_date">"2024 m. liepos mėn."</string>
 
 	<string name="twoeuro_comm_2024_po_title">"50 metų nuo 1974 m. balandžio 25 d."</string>
-	<string name="twoeuro_comm_2024_po_desc">"Aprašymas:1974 m. balandžio 25 d. įvyko revoliucija, po kurios Portugalijoje įvestas demokratinis valdymas ir pradėti esminiai ekonominiai, socialiniai ir kultūriniai pokyčiai, padėję sueuropinti šalį. Monetos centre pavaizduotas revoliuciją simbolizuojantis gvazdiko žiedas, apsuptas daugybės ekscentrinių apskritimų, išreiškiančių mintį, kad žmonių veiksmai ir įsitikinimai bėgant metams gali keistis, bet kartu toliau iš esmės atitikti revoliucijos principus. Dešiniajame krašte iškalta eilėraščio eilutė „Esta é a madrugada que eu esperava“ („Štai tokios aušros aš laukiau“) ir ją parašiusios poetės vardas ir pavardė „Sophia de Mello Breyner Andresen“. Kairėje šalia nacionalinio herbo iškalti įrašai „Portugal“ ir „1974 m. balandžio 25 d._2024“, o po jų – dizaino autoriaus vardas ir pavardė ir Portugalijos kalyklos ženklas – pavadinimas „Casa da Moeda“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_po_desc">"1974 m. balandžio 25 d. įvyko revoliucija, po kurios Portugalijoje įvestas demokratinis valdymas ir pradėti esminiai ekonominiai, socialiniai ir kultūriniai pokyčiai, padėję sueuropinti šalį. Monetos centre pavaizduotas revoliuciją simbolizuojantis gvazdiko žiedas, apsuptas daugybės ekscentrinių apskritimų, išreiškiančių mintį, kad žmonių veiksmai ir įsitikinimai bėgant metams gali keistis, bet kartu toliau iš esmės atitikti revoliucijos principus. Dešiniajame krašte iškalta eilėraščio eilutė „Esta é a madrugada que eu esperava“ („Štai tokios aušros aš laukiau“) ir ją parašiusios poetės vardas ir pavardė „Sophia de Mello Breyner Andresen“. Kairėje šalia nacionalinio herbo iškalti įrašai „Portugal“ ir „1974 m. balandžio 25 d._2024“, o po jų – dizaino autoriaus vardas ir pavardė ir Portugalijos kalyklos ženklas – pavadinimas „Casa da Moeda“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_po_volume">"515000"</string>
-	<string name="twoeuro_comm_2024_po_date">"Išleidimo data:2024 m. balandžio mėn."</string>
+	<string name="twoeuro_comm_2024_po_date">"2024 m. balandžio mėn."</string>
+
+	<string name="twoeuro_comm_2024_cy_title">"20-osios Kipro įstojimo į Europos Sąjungą metinės"</string>
+	<string name="twoeuro_comm_2024_cy_desc">"Monetoje pavaizduotas Kipras kaip europinėje terpėje, kurią simbolizuoja Europos Komisijos pastatas Briuselyje, veikianti kuriamoji ir vystomoji galia. Monetoje taip pat iškaltas Žemės rutulys, taip darant aliuziją į geopolitinę Kipro svarbą ir jo indėlį į tautų taiką ir gerovę. Monetos apačioje – ją leidžiančios šalies pavadinimas „ΚΥΠΡΟΣ - KIBRIS“ ir datos „2004–2024“. Be to, palei monetos kraštą lanku iškaltas įrašas „20 ΧΡΌΝΙΑ ΑΠΌ ΤΗΝ ΈΝΤΑΞΗ ΤΗΣ ΚΎΠΡΟΥ ΣΤΗΝ ΕΥΡΩΠΑΪΚΉ ΈΝΩΣΗ“ („20-osios Kipro įstojimo į Europos Sąjungą metinės“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_cy_volume">"7000"</string>
+	<string name="twoeuro_comm_2024_cy_date">"2024 m. ketvirtasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2024_fi_2_title">"Suomijos architektūra"</string>
+	<string name="twoeuro_comm_2024_fi_2_desc">"monetoje pavaizduoti keturių pastatų siluetai. Pastatų bokštų smailės nukreiptos į monetos centrą. Įstrižai tarp pastatų iškalti įrašai „GESELLIUS“, „LINDGREN“, „SAARINEN“, monetą leidžiančios šalies kodas „FI“, kalyklos ženklas ir metai „2024“. Įrašai ir pastatų siluetai apskritame monetos paviršiuje sudaro laikrodį primenančią kompoziciją. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_fi_2_volume">"400000"</string>
+	<string name="twoeuro_comm_2024_fi_2_date">"2024 m. ruduo"</string>
 
 	<string name="twoeuro_comm_2024_fi_title">"rinkimai ir demokratija"</string>
-	<string name="twoeuro_comm_2024_fi_desc">"Aprašymas:monetoje iškalti stilizuoti rinkimų biuleteniai. Jie pavaizduoti abstrakčiai – kaip stačiakampiai su apskritimais, tačiau tebėra atpažįstami. Aštuoni pavaizduoti biuleteniai iš dalies vienas kitą uždengia, tose vietose suformuodami mažesnes geometrines figūras. Apačioje iškalti metai „2024“. Dešinėje pusėje, šiek tiek virš vidurio linijos – raidės „FI“. Monetos vidinės dalies dešiniajame krašte puslankiu iškaltas tekstas „VAALIT ♦ DEMOKRATIA“, o kairiajame – tekstas „VAL ♦ DEMOKRATI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_fi_desc">"monetoje iškalti stilizuoti rinkimų biuleteniai. Jie pavaizduoti abstrakčiai – kaip stačiakampiai su apskritimais, tačiau tebėra atpažįstami. Aštuoni pavaizduoti biuleteniai iš dalies vienas kitą uždengia, tose vietose suformuodami mažesnes geometrines figūras. Apačioje iškalti metai „2024“. Dešinėje pusėje, šiek tiek virš vidurio linijos – raidės „FI“. Monetos vidinės dalies dešiniajame krašte puslankiu iškaltas tekstas „VAALIT emoji DEMOKRATIA“, o kairiajame – tekstas „VAL emoji DEMOKRATI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_fi_volume">"400000"</string>
-	<string name="twoeuro_comm_2024_fi_date">"Išleidimo data:2024 m. pavasaris"</string>
+	<string name="twoeuro_comm_2024_fi_date">"2024 m. pavasaris"</string>
+
+	<string name="twoeuro_comm_2024_sk_title">"100-osios Košicės taikos maratono metinės"</string>
+	<string name="twoeuro_comm_2024_sk_desc">"monetos kairėje pusėje pavaizduotas maratono bėgikas, o dešinėje – Šv. Elžbietos katedros – vieno iš žymių Košicės architektūros objektų – fragmentas. Apatinėje monetos dalyje iškaltas monetą leidžiančios šalies pavadinimas „SLOVENSKO“, o po juo – maratono surengimo pirmąjį kartą metai „1924“ ir monetos išleidimo metai „2024“. Palei viršutinės monetos dalies kraštą – įrašas „KOŠICKÝ MARATÓN“. Monetos apatinės dalies kairiajame krašte – Kremnicos kalyklos (Mincovňa Kremnica"</string>
+	<string name="twoeuro_comm_2024_sk_volume">"1000000"</string>
+	<string name="twoeuro_comm_2024_sk_date">"2024 m. rugsėjo mėn."</string>
 
 	<string name="twoeuro_comm_2024_be_2_title">"kova su vėžiu Belgijoje"</string>
-	<string name="twoeuro_comm_2024_be_2_desc">"Aprašymas:monetos centre pavaizduotas kaspinėlis – visuotinis dalyvavimo kovoje su vėžiu simbolis. Pailginti kaspinėlio galai nubanguoja į abi puses kreivėmis, paprastai matomomis ekrane stebint širdies plakimą ir simbolizuojančiomis gyvybę ir gyvybingumą. Viršuje iškaltos trys vaivorykštę – vilties ir paguodos simbolį – vaizduojančios linijos. Į apatinę liniją įterptas šalies kodas „BE“ ir metai „2024“. Apatinėje monetos dalyje – įrašai prancūzų ir nyderlandų kalbomis: „Lutte contre le cancer“ ir „Strijd tegen kanker“. Kairėje virš šių įrašų – monetos dizaino autorės Irisės Bruijnsės inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, pačioje monetos apačioje iškaltas Utrechto kalyklos ženklas – Merkurijaus lazda – ir Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_be_2_desc">"monetos centre pavaizduotas kaspinėlis – visuotinis dalyvavimo kovoje su vėžiu simbolis. Pailginti kaspinėlio galai nubanguoja į abi puses kreivėmis, paprastai matomomis ekrane stebint širdies plakimą ir simbolizuojančiomis gyvybę ir gyvybingumą. Viršuje iškaltos trys vaivorykštę – vilties ir paguodos simbolį – vaizduojančios linijos. Į apatinę liniją įterptas šalies kodas „BE“ ir metai „2024“. Apatinėje monetos dalyje – įrašai prancūzų ir nyderlandų kalbomis: „Lutte contre le cancer“ ir „Strijd tegen kanker“. Kairėje virš šių įrašų – monetos dizaino autorės Irisės Bruijnsės inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, pačioje monetos apačioje iškaltas Utrechto kalyklos ženklas – Merkurijaus lazda – ir Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
-	<string name="twoeuro_comm_2024_be_2_date">"Išleidimo data:2024 m. gegužės mėn."</string>
+	<string name="twoeuro_comm_2024_be_2_date">"2024 m. gegužės mėn."</string>
 
 	<string name="twoeuro_comm_2024_be_title">"Belgijos pirmininkavimas ES Tarybai"</string>
-	<string name="twoeuro_comm_2024_be_desc">"Aprašymas:monetoje pavaizduotas paukščių (kregždučių) pulkas, simbolizuojantis ES veikseną: grupė juda išvien, bet kartu kiekvienas narys turi vietos individualiems manevrams ir tokiu būdu suformuoja vieną sudėtingą, dinamišką darinį. Todėl pirmiausia grupė simbolizuoja vieningumą. Skrydžio metu kregždučių pulko priešaky visada skrenda ir visą pulką veda vienas paukštis ir 2024 m. pirmąjį pusmetį tai bus Belgija. Be to, 27 paukščiai simbolizuoja bendrą ES valstybių narių skaičių. Tarp paukščių, dešinėje viršutinėje monetos dalyje iškaltas šalies kodas BE. Po paukščių pulku, tuščioje vietoje monetos apačioje yra įrašas „BELGIJOS PIRMININKAVIMAS ES TARYBAI 2024 M.“. Kairiajame pakraštyje iškalti dizaino autoriaus Iriso Bruijnso inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, kairiajame pakraštyje kartu su Belgijos kalyklos meistro ženklu (astru Erlenmejerio kolbos fone) yra ir Utrechto kalyklos ženklas – Merkurijaus lazda. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_be_desc">"monetoje pavaizduotas paukščių (kregždučių) pulkas, simbolizuojantis ES veikseną: grupė juda išvien, bet kartu kiekvienas narys turi vietos individualiems manevrams ir tokiu būdu suformuoja vieną sudėtingą, dinamišką darinį. Todėl pirmiausia grupė simbolizuoja vieningumą. Skrydžio metu kregždučių pulko priešaky visada skrenda ir visą pulką veda vienas paukštis ir 2024 m. pirmąjį pusmetį tai bus Belgija. Be to, 27 paukščiai simbolizuoja bendrą ES valstybių narių skaičių. Tarp paukščių, dešinėje viršutinėje monetos dalyje iškaltas šalies kodas BE. Po paukščių pulku, tuščioje vietoje monetos apačioje yra įrašas „BELGIJOS PIRMININKAVIMAS ES TARYBAI 2024 M.“. Kairiajame pakraštyje iškalti dizaino autoriaus Iriso Bruijnso inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, kairiajame pakraštyje kartu su Belgijos kalyklos meistro ženklu (astru Erlenmejerio kolbos fone) yra ir Utrechto kalyklos ženklas – Merkurijaus lazda. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_be_volume">"2128500"</string>
-	<string name="twoeuro_comm_2024_be_date">"Išleidimo data:2024 m. pirmasis ketvirtis"</string>
+	<string name="twoeuro_comm_2024_be_date">"2024 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2024_hr_2_title">"500-osios nemaraus Marko Marulićiaus palikimo metinės"</string>
+	<string name="twoeuro_comm_2024_hr_2_desc">"šiai svarbiai progai pažymėti Kroatijos Respublikos vyriausybė 2024-uosius paskelbė Marko Marulićiaus metais. Monetos nacionalinės pusės centre iškaltas Kroatijos rašytojo Marko Marulićiaus (1450–1524 m.) portretas. 1450 m. Splite gimęs Markas Marulićius (Marulis) yra žymus Europos krikščioniškojo humanizmo ir Renesanso epinės poezijos atstovas. Jo kūrybą, parašytą daugiausia lotynų kalba, sudaro poezijos ir prozos kūriniai, o jo literatūriniai etalonai buvo Biblija, Bažnyčios Tėvų filosofija ir klasikinės antikos kūriniai. Savo žymiausią kūrinį – epinę poemą „Judita“ – jis parašė kroatų kalba. Tai pirmoji Kroatijos literatūros istorijoje kroatų kalba sukurta meninė epinė poema, pagrįsta Vergilijaus ir Biblijos epų poetika. Šiame kūrinyje į tikrą renesansinį lydinį sujungdamas kroatų, lotynų ir italų literatūros tradicijas, Marulićius sukūrė šedevrą. 1501 m. užbaigta poema pirmą kartą publikuota po dvidešimties metų. Palei monetos vidinės dalies kraštą lanku taip pat iškaltas dviraidis monetą leidžiančios šalies kodas „HR“ (Kroatija), monetos išleidimo metai „2024“ ir žodžiai „MARKO MARULIĆ“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_hr_2_volume">"200000"</string>
+	<string name="twoeuro_comm_2024_hr_2_date">"2024 m. spalio mėn."</string>
 
 	<string name="twoeuro_comm_2024_hr_title">"Varaždinas (Varaždino senamiestis)"</string>
-	<string name="twoeuro_comm_2024_hr_desc">"Aprašymas:monetoje pavaizduota Varaždino tvirtovė (XII–XVI a.). Varaždinas pirmą kartą paminėtas 1181 m. Labai smarkiai nukentėjus nuo 1242 m. totorių invazijos, buvo pastatyta karališkoji Varaždino tvirtovė, kuri vėliau pradėta vadinti senamiesčiu. Jos išvaizda bėgant amžiams keitėsi: iš pradžių tai buvo vandens grioviais apsupta tvirtovė, vėliau – pagrindinė Slavonijos karinės pasienio zonos tvirtovė ir arsenalas, Varaždino karinis štabas, graži Renesanso pilis. Šiuo metu Varaždino senamiestis yra svarbiausias ir didingiausias istorinis Varaždino miesto pastatas – aukščiausios kategorijos Kroatijos architektūros paveldo paminklas. Monetoje taip pat puslankiu (viršuje ir apačioje) iškalti šie elementai: monetą leidžiančios šalies pavadinimas „HRVATSKA“ („Kroatija“), monetos išleidimo metai „2024“ ir žodžiai „STARI GRAD VARAŽDIN“ („Varaždino senamiestis“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_hr_desc">"monetoje pavaizduota Varaždino tvirtovė (XII–XVI a.). Varaždinas pirmą kartą paminėtas 1181 m. Labai smarkiai nukentėjus nuo 1242 m. totorių invazijos, buvo pastatyta karališkoji Varaždino tvirtovė, kuri vėliau pradėta vadinti senamiesčiu. Jos išvaizda bėgant amžiams keitėsi: iš pradžių tai buvo vandens grioviais apsupta tvirtovė, vėliau – pagrindinė Slavonijos karinės pasienio zonos tvirtovė ir arsenalas, Varaždino karinis štabas, graži Renesanso pilis. Šiuo metu Varaždino senamiestis yra svarbiausias ir didingiausias istorinis Varaždino miesto pastatas – aukščiausios kategorijos Kroatijos architektūros paveldo paminklas. Monetoje taip pat puslankiu (viršuje ir apačioje) iškalti šie elementai: monetą leidžiančios šalies pavadinimas „HRVATSKA“ („Kroatija“), monetos išleidimo metai „2024“ ir žodžiai „STARI GRAD VARAŽDIN“ („Varaždino senamiestis“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_hr_volume">"200000"</string>
-	<string name="twoeuro_comm_2024_hr_date">"Išleidimo data:2024 m. birželio mėn."</string>
+	<string name="twoeuro_comm_2024_hr_date">"2024 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2024_sm_2_title">"530-osios Ghirlandaio mirties metinės"</string>
+	<string name="twoeuro_comm_2024_sm_2_desc">"monetos centre pavaizduota besimeldžianti Mergelė Marija – Švč. Trejybės bažnyčios (Florencija) Sassetti koplyčioje laikomo Domenico Ghirlandaio paveikslo „Piemenėlių pagarbinimas“ fragmentas. Kairėje – įrašas „SAN MARINO“ ir Romos kalyklos identifikatorius – raidė „R“; dešinėje – įrašas „GHIRLANDAIO“ ir datos „1494“ bei „2024“; apačioje – dizaino autoriaus Valerio de Setos inicialai („VdS“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_sm_2_volume">"56000"</string>
+	<string name="twoeuro_comm_2024_sm_2_date">"2024 m. rugsėjo mėn."</string>
 
 	<string name="twoeuro_comm_2024_sm_title">"Deklaracijos dėl piliečių teisių ir pagrindinių San Marino teisės principų 50-metis"</string>
-	<string name="twoeuro_comm_2024_sm_desc">"Aprašymas:monetos centre pavaizduota atversta knyga, kurioje iškaltas tekstas „I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI“ („Žmogaus teisės yra neliečiamos“), paimtas iš 1974 m. liepos 8 d. Įstatymo Nr. 59 „Deklaracija dėl piliečių teisių ir pagrindinių San Marino teisinės tvarkos principų“ 5 straipsnio. Viršuje iškalti Laisvės statulos bei Viešųjų rūmų siluetai ir monetą leidžiančios šalies pavadinimas „SAN MARINO“. Kairėje – Romos kalyklos ženklas – raidė „R“. Apačioje centre – monetos išleidimo metai „2024“ ir graverio Emanuele’io Ferretti’io inicialai („E.F. INC. “). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_sm_desc">"monetos centre pavaizduota atversta knyga, kurioje iškaltas tekstas „I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI“ („Žmogaus teisės yra neliečiamos“), paimtas iš 1974 m. liepos 8 d. Įstatymo Nr. 59 „Deklaracija dėl piliečių teisių ir pagrindinių San Marino teisinės tvarkos principų“ 5 straipsnio. Viršuje iškalti Laisvės statulos bei Viešųjų rūmų siluetai ir monetą leidžiančios šalies pavadinimas „SAN MARINO“. Kairėje – Romos kalyklos ženklas – raidė „R“. Apačioje centre – monetos išleidimo metai „2024“ ir graverio Emanuele’io Ferretti’io inicialai („E.F. INC. “). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_sm_volume">"56000"</string>
-	<string name="twoeuro_comm_2024_sm_date">"Išleidimo data:2024 m. balandžio mėn."</string>
+	<string name="twoeuro_comm_2024_sm_date">"2024 m. balandžio mėn."</string>
 
 	<string name="twoeuro_comm_2024_gr_title">"50-osios Graikijos demokratijos atkūrimo metinės"</string>
-	<string name="twoeuro_comm_2024_gr_desc">"Aprašymas:monetoje pavaizduotas Graikijos parlamento pastatas, apjuostas įrašų „50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ“ („50-OSIOS GRAIKIJOS DEMOKRATIJOS ATKŪRIMO METINĖS“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“). Apačioje iškalta palmetė (Graikijos kalyklos ženklas). Demokratija po septynerių metų diktatūros Graikijoje buvo atkurta 1974 m. liepos 24 d. nuvertus pulkininkų chuntą. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_gr_desc">"monetoje pavaizduotas Graikijos parlamento pastatas, apjuostas įrašų „50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ“ („50-OSIOS GRAIKIJOS DEMOKRATIJOS ATKŪRIMO METINĖS“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“). Apačioje iškalta palmetė (Graikijos kalyklos ženklas). Demokratija po septynerių metų diktatūros Graikijoje buvo atkurta 1974 m. liepos 24 d. nuvertus pulkininkų chuntą. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_gr_volume">"750000"</string>
-	<string name="twoeuro_comm_2024_gr_date">"Išleidimo data:2024 m. liepos mėn."</string>
+	<string name="twoeuro_comm_2024_gr_date">"2024 m. liepos mėn."</string>
 
 	<string name="twoeuro_comm_2024_gr_2_title">"150-osios Penelopės Deltos gimimo metinės"</string>
-	<string name="twoeuro_comm_2024_gr_2_desc">"Aprašymas:monetoje pavaizduotas Penelopės Deltos portretas. Jį rėmina įrašai „ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941“ („PENELOPĖ DELTA 1874-1941“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“). Kairėje pusėje iškalta palmetė (Graikijos kalyklos ženklas), dešinėje – monetos kaldinimo metai. Penelopė Delta buvo Graikijos vaikų literatūros pradininkė. Su jos knygomis, kurios mėgstamos ir dabar, užaugo ne viena Graikijos vaikų karta. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_gr_2_desc">"monetoje pavaizduotas Penelopės Deltos portretas. Jį rėmina įrašai „ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941“ („PENELOPĖ DELTA 1874-1941“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“). Kairėje pusėje iškalta palmetė (Graikijos kalyklos ženklas), dešinėje – monetos kaldinimo metai. Penelopė Delta buvo Graikijos vaikų literatūros pradininkė. Su jos knygomis, kurios mėgstamos ir dabar, užaugo ne viena Graikijos vaikų karta. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
-	<string name="twoeuro_comm_2024_gr_2_date">"Išleidimo data:2024 m. liepos mėn."</string>
+	<string name="twoeuro_comm_2024_gr_2_date">"2024 m. liepos mėn."</string>
 
 	<string name="twoeuro_comm_2024_ee_title">"rugiagėlė (Estijos nacionalinė gėlė)"</string>
-	<string name="twoeuro_comm_2024_ee_desc">"Aprašymas:monetoje pavaizduotas rugiagėlės siluetas, o viršuje kairėje puslankiu iškaltas įrašas „CENTAUREA CYANUS“ („rugiagėlė“ lotyniškai). Apačioje – monetą leidžiančios šalies pavadinimas „EESTI“, o po juo – monetos išleidimo metai „2024“.  Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_ee_desc">"monetoje pavaizduotas rugiagėlės siluetas, o viršuje kairėje puslankiu iškaltas įrašas „CENTAUREA CYANUS“ („rugiagėlė“ lotyniškai). Apačioje – monetą leidžiančios šalies pavadinimas „EESTI“, o po juo – monetos išleidimo metai „2024“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
-	<string name="twoeuro_comm_2024_ee_date">"Išleidimo data:2024 m. antrasis ketvirtis"</string>
+	<string name="twoeuro_comm_2024_ee_date">"2024 m. antrasis ketvirtis"</string>
 
 	<string name="twoeuro_comm_2024_fr_2_title">"Eifelio bokštas"</string>
-	<string name="twoeuro_comm_2024_fr_2_desc">"Aprašymas:artėjant 2024 m. Paryžiaus olimpinėms žaidynėms, kalykla „Monnaie de Paris“ įamžina jų laukimą atvaizduodama Paryžių ir jo paveldą. Prabėgus šimtmečiui nuo 1924 m. žaidynių, vasaros olimpinės žaidynės ir vėl vyks Prancūzijos sostinėje. Šis renginys sulaukia tarptautinio susidomėjimo, kuris per kelerius metus iki renginio pamažu didėja. 2024 m., jam pasiekus kulminaciją, išleistos dvi olimpinėms žaidynėms skirtos proginės dviejų eurų monetos. Monetoje pavaizduoti įžymūs Prancūziją simbolizuojantys pastatai: Eifelio bokštas ir Marselio Dievo Motinos Globėjos bazilika. Fone iškaltas taitinės gardenijos žiedas simbolizuoja Taičio salą, prie kurios vyks banglenčių sporto varžybos. Eifelio bokštas pavaizduotas judantis ir įkūnija sporto vertybes. Jo rankų kontūrą sudaro 73 kniedės, simbolizuojančios žaidynių renginius rengsiančias bendruomenes. Norint pažymėti, kad žaidynės skirtos visiems, pirmą kartą drauge vaizduojami olimpinių ir parolimpinių žaidynių simboliai. Ant bėgimo tako iškalti metai, monetą leidžiančios šalies kodas „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_fr_2_desc">"artėjant 2024 m. Paryžiaus olimpinėms žaidynėms, kalykla „Monnaie de Paris“ įamžina jų laukimą atvaizduodama Paryžių ir jo paveldą. Prabėgus šimtmečiui nuo 1924 m. žaidynių, vasaros olimpinės žaidynės ir vėl vyks Prancūzijos sostinėje. Šis renginys sulaukia tarptautinio susidomėjimo, kuris per kelerius metus iki renginio pamažu didėja. 2024 m., jam pasiekus kulminaciją, išleistos dvi olimpinėms žaidynėms skirtos proginės dviejų eurų monetos. Monetoje pavaizduoti įžymūs Prancūziją simbolizuojantys pastatai: Eifelio bokštas ir Marselio Dievo Motinos Globėjos bazilika. Fone iškaltas taitinės gardenijos žiedas simbolizuoja Taičio salą, prie kurios vyks banglenčių sporto varžybos. Eifelio bokštas pavaizduotas judantis ir įkūnija sporto vertybes. Jo rankų kontūrą sudaro 73 kniedės, simbolizuojančios žaidynių renginius rengsiančias bendruomenes. Norint pažymėti, kad žaidynės skirtos visiems, pirmą kartą drauge vaizduojami olimpinių ir parolimpinių žaidynių simboliai. Ant bėgimo tako iškalti metai, monetą leidžiančios šalies kodas „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
-	<string name="twoeuro_comm_2024_fr_2_date">"Išleidimo data:2024 m. gegužės mėn."</string>
+	<string name="twoeuro_comm_2024_fr_2_date">"2024 m. gegužės mėn."</string>
 
 	<string name="twoeuro_comm_2024_fr_title">"2024 m. olimpinės žaidynės. Imtynės."</string>
-	<string name="twoeuro_comm_2024_fr_desc">"Aprašymas:artėjant 2024 m. Paryžiaus olimpinėms žaidynėms, kalykla „Monnaie de Paris“ įamžina jų laukimą atvaizduodama Paryžių ir jo paveldą. Nuo 1924 m. žaidynių prabėgus šimtmečiui, vasaros olimpinės žaidynės ir vėl vyksta Prancūzijos sostinėje. Tai tarptautinės reikšmės įvykis, kurio svarba pastaruosius metus vis didėjo, kol 2024 m. pasiekė kulminaciją – išleidžiamos olimpinėms žaidynėms skirtos dvi proginių apyvartinių eurų monetos. Monetoje vaizduojama Prancūzijos nacionalinė figūra ir numizmatinis simbolis Heraklis, einantis klasikinių imtynių su Paryžiaus Dievo Motinos katedros chimera (aliuzija į Antikos laikų olimpines žaidynes). Abu imtynininkai vaizduojami pirmame plane, priešais Dievo Motinos katedrą. Antrame plane pavaizduotas bėgimo takas, kurio kairėje pusėje iškalta 2024 m. Paryžiaus žaidynių emblema. Ant bėgimo tako iškalti metai, raidės „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_fr_desc">"artėjant 2024 m. Paryžiaus olimpinėms žaidynėms, kalykla „Monnaie de Paris“ įamžina jų laukimą atvaizduodama Paryžių ir jo paveldą. Nuo 1924 m. žaidynių prabėgus šimtmečiui, vasaros olimpinės žaidynės ir vėl vyksta Prancūzijos sostinėje. Tai tarptautinės reikšmės įvykis, kurio svarba pastaruosius metus vis didėjo, kol 2024 m. pasiekė kulminaciją – išleidžiamos olimpinėms žaidynėms skirtos dvi proginių apyvartinių eurų monetos. Monetoje vaizduojama Prancūzijos nacionalinė figūra ir numizmatinis simbolis Heraklis, einantis klasikinių imtynių su Paryžiaus Dievo Motinos katedros chimera (aliuzija į Antikos laikų olimpines žaidynes). Abu imtynininkai vaizduojami pirmame plane, priešais Dievo Motinos katedrą. Antrame plane pavaizduotas bėgimo takas, kurio kairėje pusėje iškalta 2024 m. Paryžiaus žaidynių emblema. Ant bėgimo tako iškalti metai, raidės „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_fr_volume">"510000"</string>
-	<string name="twoeuro_comm_2024_fr_date">"Išleidimo data:2024 m. sausio mėn."</string>
+	<string name="twoeuro_comm_2024_fr_date">"2024 m. sausio mėn."</string>
 
 	<string name="twoeuro_comm_2024_mt_title">"Maltos medunešė bitė"</string>
-	<string name="twoeuro_comm_2024_mt_desc">"Aprašymas:monetoje, kurios dizainą sukūrė Maria Anna Frisone, pavaizduota Maltos medunešė bitė (Apis Mellifera Ruttneri"</string>
+	<string name="twoeuro_comm_2024_mt_desc">"monetoje, kurios dizainą sukūrė Maria Anna Frisone, pavaizduota Maltos medunešė bitė (Apis Mellifera Ruttneri"</string>
 	<string name="twoeuro_comm_2024_mt_volume">"85500"</string>
-	<string name="twoeuro_comm_2024_mt_date">"Išleidimo data:2024 m. birželio mėn."</string>
+	<string name="twoeuro_comm_2024_mt_date">"2024 m. birželio mėn."</string>
 
 	<string name="twoeuro_comm_2024_mc_title">"500-osios sutarties su Karoliu V pasirašymo metinės"</string>
-	<string name="twoeuro_comm_2024_mc_desc">"Aprašymas:monetoje pavaizduotas Karolis V. Viršuje puslankiu iškaltas monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje – įrašas „1524 - TRAITE AVEC CHARLES QUINT - 2024“ („1524 – Sutartis su Karoliu V – 2024“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_mc_desc">"monetoje pavaizduotas Karolis V. Viršuje puslankiu iškaltas monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje – įrašas „1524 - TRAITE AVEC CHARLES QUINT - 2024“ („1524 – Sutartis su Karoliu V – 2024“). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_mc_volume">"15000"</string>
-	<string name="twoeuro_comm_2024_mc_date">"Išleidimo data:2024 m. birželio mėn."</string>
+	<string name="twoeuro_comm_2024_mc_date">"2024 m. birželio mėn."</string>
 
 	<string name="twoeuro_comm_2024_es_title">"200-osios nacionalinės policijos kaip saugumą valstybėje užtikrinančios tarnybos sukūrimo metinės"</string>
-	<string name="twoeuro_comm_2024_es_desc">"Aprašymas:monetoje pavaizduota nacionalinės policijos emblema. Ją supa įrašai „ESPANA“ ir „POLICIA NACIONAL 1824–2024“. Į dešinę nuo apatinės emblemos dalies – kalyklos ženklas (karūnuota raidė M). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_es_desc">"monetoje pavaizduota nacionalinės policijos emblema. Ją supa įrašai „ESPANA“ ir „POLICIA NACIONAL 1824–2024“. Į dešinę nuo apatinės emblemos dalies – kalyklos ženklas (karūnuota raidė M). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_es_volume">"1500000"</string>
 	<string name="twoeuro_comm_2024_es_date">"2024 m. pirmasis ketvirtis"</string>
 
 	<string name="twoeuro_comm_2024_es_2_title">"Sevilijos (Vest Indijos archyvo, Sevilijos karališkojo alkazaro ir Sevilijos katedros) pripažinimas UNESCO pasaulio paveldo objektu"</string>
-	<string name="twoeuro_comm_2024_es_2_desc">"Aprašymas:monetoje pavaizduotas Sevilijos karališkojo alkazaro Mergelių kiemas (Patio de las Doncellas"</string>
+	<string name="twoeuro_comm_2024_es_2_desc">"monetoje pavaizduotas Sevilijos karališkojo alkazaro Mergelių kiemas (Patio de las Doncellas"</string>
 	<string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
-	<string name="twoeuro_comm_2024_es_2_date">"Išleidimo data:2024 m. pirmasis ketvirtis"</string>
+	<string name="twoeuro_comm_2024_es_2_date">"2024 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2024_va_title">"750-osios Šv. Tomo Akviniečio mirties metinės"</string>
+	<string name="twoeuro_comm_2024_va_desc">"monetos pirmajame plane pavaizduotas Dominikonų ordino, kuriam jis priklausė, drabužiais vilkintis Šv. Tomas Akvinietis. Kairėje rankoje jis laiko savo svarbiausio kūrinio – „Summa Theologiae“ – knygą, o kitoje rankoje – plunksną. Ant šventojo krūtinės šviečia saulė – didelės jo išminties simbolis. Iš įvairių jam suteiktų vardų labiausiai žinomas monetos apačioje iškaltas vardas „Angeliškasis daktaras“, kuriuo pašlovinamas ypatingas jo sielos ir kūno tyrumas. Monetos fone, kairėje, pavaizduota lelija – skaistybės simbolis ir Šv. Tomo iš Rokasekos bažnyčia – pirmasis pasaulyje Šv. Tomo Akviniečio, 1323 m. liepos 18 d. popiežiaus Jono XXII paskelbto šventuoju, garbei pastatytas religinis pastatas. Viršuje – įrašas „CITTÀ DEL VATICANO“. Kairėje – metai „1274“, dešinėje – metai „2024“, o po jais – kalyklos ženklas „R“ ir dizaino autorės asmenvardis „A. CICCONI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_va_volume">"82900"</string>
+	<string name="twoeuro_comm_2024_va_date">"2024 m. spalio mėn."</string>
 
 	<string name="twoeuro_comm_2024_va_2_title">"150-osios Guglielmo Marconio gimimo metinės"</string>
-	<string name="twoeuro_comm_2024_va_2_desc">"Aprašymas:monetos centre pavaizduotas Marconio portretas, dešinėje – Popiežiaus Pijaus XI portretas, kairėje – paskesnio Popiežiaus Pijaus XII portretas. Viršuje dešinėje puslankiu iškaltas įrašas „GUGLIELMO MARCONI“, o po juo – datos „1874“ ir „2024“. Apačioje – įrašas „CITTÀ DEL VATICANO“, o po jo – menininkės asmenvardis „L. PANCOTTO“ (Loredana Pancotto). Kairėje – kalyklos ženklas „R“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_va_2_desc">"monetos centre pavaizduotas Marconio portretas, dešinėje – Popiežiaus Pijaus XI portretas, kairėje – paskesnio Popiežiaus Pijaus XII portretas. Viršuje dešinėje puslankiu iškaltas įrašas „GUGLIELMO MARCONI“, o po juo – datos „1874“ ir „2024“. Apačioje – įrašas „CITTÀ DEL VATICANO“, o po jo – menininkės asmenvardis „L. PANCOTTO“ (Loredana Pancotto). Kairėje – kalyklos ženklas „R“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
-	<string name="twoeuro_comm_2024_va_2_date">"Išleidimo data:2024 m. gegužės mėn."</string>
+	<string name="twoeuro_comm_2024_va_2_date">"2024 m. gegužės mėn."</string>
+
+	<string name="twoeuro_comm_2024_lv_title">"himmeli"</string>
+	<string name="twoeuro_comm_2024_lv_desc">"himmeli"</string>
+	<string name="twoeuro_comm_2024_lv_volume">"413000"</string>
+	<string name="twoeuro_comm_2024_lv_date">"2024 m. spalio–lapkričio mėn."</string>
+
+	<string name="twoeuro_comm_2024_lt_title">"Lietuvos šiaudinių sodų rišimo tradicija, įrašyta į UNESCO Reprezentatyvųjį žmonijos nematerialiojo kultūros paveldo sąrašą"</string>
+	<string name="twoeuro_comm_2024_lt_desc">"monetoje pavaizduotas stilizuotas šiaudinis sodas, sudarytas iš įvairaus dydžio geometrinių figūrų, kurių viena viršūnė nukreipta į viršų (dangų), kita – į apačią (požemį). Monetoje taip pat iškaltas įrašas „LIETUVA“, monetos išleidimo metai („2024“) ir Lietuvos monetų kalyklos ženklas. Šiaudinių sodų rišimas – dekoratyvinę ir apeiginę paskirtį turinti baltų kultūros tradicija, susijusi su gerove ir dvasingumu. Šios monetos nacionalinės pusės dizainą sukūrė Tomas Dragūnas. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_lt_volume">"500000"</string>
+	<string name="twoeuro_comm_2024_lt_date">"2024 m. ketvirtasis ketvirtis"</string>
 
 	<string name="twoeuro_comm_2024_de_2_title">"175-osios Frankfurto konstitucijos (dar vadinamos Šv. Pauliaus bažnyčios konstitucija), kuri buvo pirmasis mėginimas įkurti suvienytą tautinę Vokietijos valstybę, priėmimo metinės"</string>
-	<string name="twoeuro_comm_2024_de_2_desc">"Aprašymas:monetos dizainą sudaro keli teminiai sluoksniai. Pirmame plane perspektyviškai pavaizduota Šv. Pauliaus bažnyčia ir į ją besirenkantys nacionalinės konstitucinės asamblėjos atstovai. Antrame plane, iš dalies uždengti šio elemento, pavaizduoti konstitucijos dokumentas ir plunksna, simbolizuojantys Frankfurto parlamento posėdžio rezultatą. Galiausiai viską vainikuoja trys alegorinės Vienybę, Teisingumą ir Laisvę vaizduojančios moterų figūros ir trispalvė – juodos, raudonos ir aukso spalvų – vėliava. Gyvas trisluoksnis reljefas perteikia pagrindinių demokratinių principų, pirmą kartą įtvirtintų Frankfurto konstitucijoje, amžinumą. Monetos vidinėje dalyje taip pat iškaltas įrašas „PAULSKIRCHEN VERFASSUNG 1849“ („Šv. Pauliaus bažnyčios konstitucija 1849“), o apačioje – monetos išleidimo metai „2024“, monetą leidžiančios šalies (Vokietijos) kodas „D“, atitinkamos kalyklos ženklas („A“, „D“, „F“, „G“ arba „J“) ir dizainerio Bodo Broschato iš Berlyno inicialai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_de_2_desc">"monetos dizainą sudaro keli teminiai sluoksniai. Pirmame plane perspektyviškai pavaizduota Šv. Pauliaus bažnyčia ir į ją besirenkantys nacionalinės konstitucinės asamblėjos atstovai. Antrame plane, iš dalies uždengti šio elemento, pavaizduoti konstitucijos dokumentas ir plunksna, simbolizuojantys Frankfurto parlamento posėdžio rezultatą. Galiausiai viską vainikuoja trys alegorinės Vienybę, Teisingumą ir Laisvę vaizduojančios moterų figūros ir trispalvė – juodos, raudonos ir aukso spalvų – vėliava. Gyvas trisluoksnis reljefas perteikia pagrindinių demokratinių principų, pirmą kartą įtvirtintų Frankfurto konstitucijoje, amžinumą. Monetos vidinėje dalyje taip pat iškaltas įrašas „PAULSKIRCHEN VERFASSUNG 1849“ („Šv. Pauliaus bažnyčios konstitucija 1849“), o apačioje – monetos išleidimo metai „2024“, monetą leidžiančios šalies (Vokietijos) kodas „D“, atitinkamos kalyklos ženklas („A“, „D“, „F“, „G“ arba „J“) ir dizainerio Bodo Broschato iš Berlyno inicialai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
-	<string name="twoeuro_comm_2024_de_2_date">"Išleidimo data:2024 m. kovo mėn."</string>
+	<string name="twoeuro_comm_2024_de_2_date">"2024 m. kovo mėn."</string>
 
 	<string name="twoeuro_comm_2024_de_title">"Meklenburgas-Pomeranija"</string>
-	<string name="twoeuro_comm_2024_de_desc">"Aprašymas:moneta skirta Vokietijos Meklenburgo-Pomeranijos žemei (vok.Land"</string>
+	<string name="twoeuro_comm_2024_de_desc">"moneta skirta Vokietijos Meklenburgo-Pomeranijos žemei (vok.Land"</string>
 	<string name="twoeuro_comm_2024_de_volume">"30000000"</string>
-	<string name="twoeuro_comm_2024_de_date">"Išleidimo data:2024 m. sausio mėn."</string>
+	<string name="twoeuro_comm_2024_de_date">"2024 m. sausio mėn."</string>
 
 	<string name="twoeuro_comm_2024_lu_2_title">":Didžiojo Hercogo Gijomo II-ojo 175-osios mirties metinės"</string>
 	<string name="twoeuro_comm_2024_lu_2_desc">":monetos kairėje pusėje iškalta ant žirgo sėdinčio Didžiojo Hercogo Gijomo II-ojo statula, o dešinėje pusėje – kairėn pasisukusio Didžiojo Hercogo Henrio atvaizdas. Viršutinėje kairėje monetos pusėje pusračiu iškalti žodžiai „GROUSSHERZOGE VU LÉTZEBUERG“ (Liuksemburgo didieji hercogai) ir „GUILLAUME II 1792–1849“. Po Didžiojo Hercogo Henrio atvaizdu nurodyti metai – 2024 ir metines žymintis skaičius 175. Kadangi monetos kalykla dar nežinoma, kalyklos ženklai galės būti iškalti tam paliktoje tuščioje vietoje. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
@@ -2542,14 +2611,119 @@ Vartotojas gali susisiekti su atitinkama institucija dėl duomenų privatumo.
 	<string name="twoeuro_comm_2024_lu_date">":2024 m. sausio mėn."</string>
 
 	<string name="twoeuro_comm_2024_it_title">"„Guardia di Finanza Corps“ (Italijos finansų policijos) įkūrimo 250-osios metinės"</string>
-	<string name="twoeuro_comm_2024_it_desc">"Aprašymas:monetos centre atvaizduotas stilizuotas heraldinis „Guardia di Finanza Corps“ simbolis: jis perteikia saugumo idėją ir šios tarnybos vaidmens ateityje viziją – pagerbiama praeitis siejama su ateinančiais metais ir iššūkiais, kuriuos tarnybai teks ir toliau patirti. Emblemą sudaro įvairūs elementai: kalnas, jūra ir dangus, t. y. gamtinė aplinka, kurios apsuptyje tarnyba dirba; mitologinė būtybė grifas, pasak legendos, užtikrinantis iždo, kurio simbolis monetoje – valstybės skrynia, apsaugą, ir dantyta karūna. Monetos viršuje puslankiu iškaltas įrašas „GUARDIA DI FINANZA“. Žemiau iškaltas Italijos Respublikos akronimas „RI“ ir datos „1774–2024“, t. y. atitinkamai „Guardia di Finanza Corps“ įkūrimo metai ir monetos išleidimo metai; dešinėje – Romos kalyklos ženklas „R“ ir dizainerės Martos Bonifacio inicialai „MB“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_it_desc">"monetos centre atvaizduotas stilizuotas heraldinis „Guardia di Finanza Corps“ simbolis: jis perteikia saugumo idėją ir šios tarnybos vaidmens ateityje viziją – pagerbiama praeitis siejama su ateinančiais metais ir iššūkiais, kuriuos tarnybai teks ir toliau patirti. Emblemą sudaro įvairūs elementai: kalnas, jūra ir dangus, t. y. gamtinė aplinka, kurios apsuptyje tarnyba dirba; mitologinė būtybė grifas, pasak legendos, užtikrinantis iždo, kurio simbolis monetoje – valstybės skrynia, apsaugą, ir dantyta karūna. Monetos viršuje puslankiu iškaltas įrašas „GUARDIA DI FINANZA“. Žemiau iškaltas Italijos Respublikos akronimas „RI“ ir datos „1774–2024“, t. y. atitinkamai „Guardia di Finanza Corps“ įkūrimo metai ir monetos išleidimo metai; dešinėje – Romos kalyklos ženklas „R“ ir dizainerės Martos Bonifacio inicialai „MB“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_it_volume">"3000000"</string>
-	<string name="twoeuro_comm_2024_it_date">"Išleidimo data:2024 m. sausio mėn."</string>
+	<string name="twoeuro_comm_2024_it_date">"2024 m. sausio mėn."</string>
 
 	<string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
-	<string name="twoeuro_comm_2024_it_2_desc">"Aprašymas:monetos pirmame plane iškaltas Ritos Levi-Montalcini portretas iki pusės, kuriam įkvėpimo semtasi iš Manuelos Fabbri darytos fotografijos; antrame plane – mikroskopas, reprodukuotas pagal medalį, kurio dizainą sukūrė Gino Levi-Montalcini, garsiosios mokslininkės brolis; šio mikroskopo pagrindas yra pasagos – sėkmės talismano, padėjusio 1986 m. laimėti Nobelio premiją už pasiekimus medicinos srityje, formos. Virš portreto lanku iškalta „RITA LEVI-MONTALCINI“; kairėje – Italijos Respublikos akronimas „RI“ ir Romos kalyklos ženklas „R“; žemiau – monetos išleidimo metai 2024; dešinėje – dizainerės Silvijos Petrassi inicialai „SP“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2024_it_2_desc">"monetos pirmame plane iškaltas Ritos Levi-Montalcini portretas iki pusės, kuriam įkvėpimo semtasi iš Manuelos Fabbri darytos fotografijos; antrame plane – mikroskopas, reprodukuotas pagal medalį, kurio dizainą sukūrė Gino Levi-Montalcini, garsiosios mokslininkės brolis; šio mikroskopo pagrindas yra pasagos – sėkmės talismano, padėjusio 1986 m. laimėti Nobelio premiją už pasiekimus medicinos srityje, formos. Virš portreto lanku iškalta „RITA LEVI-MONTALCINI“; kairėje – Italijos Respublikos akronimas „RI“ ir Romos kalyklos ženklas „R“; žemiau – monetos išleidimo metai 2024; dešinėje – dizainerės Silvijos Petrassi inicialai „SP“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
-	<string name="twoeuro_comm_2024_it_2_date">"Išleidimo data:2024 m. sausio mėn."</string>
+	<string name="twoeuro_comm_2024_it_2_date">"2024 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_po_title">"pasaulio skautų judėjimo organizacija „World scouting“"</string>
+	<string name="twoeuro_comm_2025_po_desc">"moneta pagerbiama pasaulio skautų judėjimo organizacija „World scouting“ ir jaunimo judėjimai, propaguojantys kultūrinius mainus, tarpusavio supratimą ir draugystę, nes 2025 m. Portugalijoje vyks 16-asis pasaulio skautų sąskrydis, į kurį mokytis vieni iš kitų ir įgyti naujų įgūdžių susirinks 18–25 m. skautai iš viso pasaulio."</string>
+	<string name="twoeuro_comm_2025_po_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_po_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_po_2_title">"darnus vystymasis"</string>
+	<string name="twoeuro_comm_2025_po_2_desc">"monetoje pavaizduota Žemės planeta, kurią supa užrašas „Desenvolvimento Sustentável“ („Darnus vystymasis“). Palei kairįjį ir viršutinį kraštus iškalta medžio šakos pavidalo 17-os iš lapelių sudarytų trikampių, primenančių visuotinį perdirbimo simbolį, seka, simbolizuojanti 17 Darnaus vystymosi darbotvarkės iki 2030 m. tikslų. Palei apatinį ir dešinįjį kraštus – užrašas „Portugal“, Portugalijos nacionalinis herbas, metai, kalyklos ženklas „Casa da Moeda“, o po juo – dizaino autorės asmenvardis. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_po_2_date">"2025 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_fi_title">"Suomijos valstybiniai vizitai (diplomatija ir užsienio politika)"</string>
+	<string name="twoeuro_comm_2025_fi_desc">"monetoje abstrakčiai pavaizduotos valstybinius vizitus simbolizuojančios durys – iki veidrodinio blizgesio nugludinta stačiakampio forma. Palei kairįjį stačiakampio kraštą vertikalia kryptimi iškaltas kalyklos ženklas, metai „2025“ ir raidės „FI“. Suapvalintas stačiakampio viršus sutampa su monetos vidinės dalies pakraščiu. Apačioje ir dešinėje monetos paviršius išraižytas vertikaliomis linijomis, o šias kerta ir apskritą figūrą suformuoja kreivė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+	<string name="twoeuro_comm_2025_fi_date">"2025 m. pavasaris"</string>
+
+	<string name="twoeuro_comm_2025_sk_title">"pirmojo tarptautinio Slovakijos Respublikos teritorijoje surengto sporto turnyro – Europos ledo ritulio čempionato – 100-osios metinės"</string>
+	<string name="twoeuro_comm_2025_sk_desc">"monetoje pavaizduotas čiuožiantis ledo ritulio žaidėjas, vilkintis uniformą, kurios stilius būdingas laikmečiui, kuriuo vyko 1925 m. Europos ledo ritulio čempionatas. Žaidėjo fone – stilizuota Aukštųjų Tatrų – Slovakijos kalnų regiono, kuriame vyko čempionatas, panorama. Palei monetos vidinės dalies viršutinės pusės kraštą iškaltas įrašas „MAJSTROVSTVÁ EURÓPY V HOKEJI“. Viršutinėje kairėje monetos dalyje – metai „1925“, o po jais – metai „2025“. Apačioje – monetą leidžiančios šalies pavadinimas „SLOVENSKO“. Į dešinę nuo žaidėjo atvaizdo – monetos gamintojos, Slovakijos Kremnicos kalyklos (Mincovňa Kremnica), ženklas. Prie jo – dizaino autoriaus Karolio Ličko inicialai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_sk_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_be_title">"Belgijos nacionalinė loterija"</string>
+	<string name="twoeuro_comm_2025_be_desc">"monetos centre pavaizduota klasikinė sėkmės alegorija – gausybės ragą laikanti deivė Fortūna. Dešinėje ir apačioje iškalti keturi keturlapiai dobilai (dar vienas visuotinis sėkmės simbolis). Už Fortūnos atvaizdo matyti dabartinis Nacionalinės loterijos logotipas. Monetos kairėje – tekstas „loterie nationale loterij“. Apačioje kairėje – šalies kodas „BE“ ir monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės Irisės Bruijnsės inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, po metų nuoroda iškaltas Utrechto kalyklos ženklas – Merkurijaus lazda – ir Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_be_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_sm_title">"550-osios Mikelandželo gimimo metinės"</string>
+	<string name="twoeuro_comm_2025_sm_desc">"monetos centre pavaizduota Kleopatra – Mikelandželo Buonaročio piešinio, saugomo muziejuje Casa Buonarroti (Florencija), detalė. Kairėje – įrašas „MICHELANGELO“ (iškaltas puslankiu), raidė „R“ (Romos kalyklos ženklas) ir metai „1475“, dešinėje – monetą leidžiančios šalies pavadinimas „SAN MARINO“ (iškaltas puslankiu) ir metai „2025“. Apačioje – dizaino autorės (Silvios Petrassi) inicialai „SP“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+	<string name="twoeuro_comm_2025_sm_date">"2025 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2025_sm_2_title">"2025-ieji – Jubiliejiniai metai. Vilties piligrimai"</string>
+	<string name="twoeuro_comm_2025_sm_2_desc">"monetos centre pavaizduota moteris su inkaru – alegorinis vilties simbolis. Ji laiko už rankos vaiką – tai simbolizuoja žmoniškumą. Kairėje – įrašas „SAN MARINO“, keturios stačiakampės burės, raidė „R“ (Romos kalyklos ženklas) ir dizaino autoriaus (Gabrielės Di Maulo) inicialai „DI MAULO“. Viršuje dešinėje – aštuoniakampė žvaigždė, įrašas „IUBILAEUM 2025“, o apačioje – graverės (Martos Bonifacio) inicialai „M.B.INC“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+	<string name="twoeuro_comm_2025_sm_2_date">"2025 m. kovo mėn."</string>
+
+	<string name="twoeuro_comm_2025_fr_title">"Luvras"</string>
+	<string name="twoeuro_comm_2025_fr_desc">"monetoje pavaizduotas rytinis Luvro fasadas, iš dalies užklojantis garsųjį planą, vaizduojantį įspūdingų šio muziejaus salių labirintą. Fone pavaizduota piramidinė viršūnė ir didžiosios piramidės struktūra simbolizuoja, kad Luvras – vieta, kurioje tradicijos pinasi su modernumu. Ant muziejaus plano iškalti monetos išleidimo metai „2025“, šalies kodas „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+	<string name="twoeuro_comm_2025_fr_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mt_title">"Maltos jautis"</string>
+	<string name="twoeuro_comm_2025_mt_desc">"monetoje pavaizduotas Maltos jautis. Tikslas – didinti vienos iš Maltos vietinių veislių, kuri šiuo metu nyksta, žinomumą. Monetos viršuje puslankiu iškaltas įrašas „IL-GENDUS MALTI“. Apačioje – monetą leidžiančios šalies pavadinimas „MALTA“, o po juo – monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės (Marios Annos Frisonės) inicialai „MAF“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+	<string name="twoeuro_comm_2025_mt_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mc_title">"Bo markizatas"</string>
+	<string name="twoeuro_comm_2025_mc_desc">"moneta įamžinama Bo markizato feodalinė valda. Bo markizo titulą pirmą kartą 1642 metais įgijo Onorė II sūnus Herkulis Grimaldis. Šiuo metu šis titulas pagal istorinę tradiciją priklauso Jo Šviesybei sosto įpėdiniui princui Žakui. Monetoje pavaizduota uola ir aplinkinė Provanso Bo kaimo teritorija. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje puslankiu iškaltas įrašas „MARQUISAT DES BAUX“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_date">"2025 m. lapkričio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mc_2_title">"Karladeso grafystė"</string>
+	<string name="twoeuro_comm_2025_mc_2_desc">"moneta įamžinamas Karladeso grafo titulas, pagal istorinę tradiciją suteikiamas antram pagal eilę įpėdiniui ir šiuo metu priklausantis Princesei Gabrielai. Monetoje pavaizduotas viešbučio, iki Prancūzijos revoliucijos priklausiusio Grimaldžių šeimai, fasadas. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“.  Apačioje puslankiu iškaltas įrašas „COMTE DE CARLADES“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_2_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_es_title">"Salamankos pripažinimas UNESCO pasaulio paveldo objektu"</string>
+	<string name="twoeuro_comm_2025_es_desc">"monetoje pavaizduotas Šv. Stepono vienuolynas (Convento de San Esteban). Apačioje – įrašas „ESPANA“ ir monetos išleidimo metai „2025“. Viršuje didžiosiomis raidėmis – žodis „SALAMANCA“ ir kalyklos ženklas (karūnuota raidė M). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+	<string name="twoeuro_comm_2025_es_date">"2025 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_va_title">"550-osios Mikelandželo gimimo metinės"</string>
+	<string name="twoeuro_comm_2025_va_desc">"monetoje pavaizduotas Mikelandželo suprojektuotas Šv. Petro bazilikos kupolas, prie kurio jis dirbo iki savo mirties 1564 m. Po juo – Siksto koplyčios skliauto, kurį Mikelandželas padalijo į segmentus ir ištapė freskomis, dalis. Kairėje vertikalia kryptimi iškaltas Mikelandželo autografas „michelagniolo“, raidė „R“ (Romos kalyklos ženklas) ir monetos dizaino autorės (Danielos Longo) asmenvardis „D. LONGO“. Virš kupolo lanku iškaltas monetą leidžiančios valstybės pavadinimas – „CITTA’ DEL VATICANO“. Iškart po juo – Mikelandželo gimimo metai „1475“ ir monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_va_volume">"80000"</string>
+	<string name="twoeuro_comm_2025_va_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_va_2_title">"Sede vacante"</string>
+	<string name="twoeuro_comm_2025_va_2_desc">"monetoje pavaizduotas kardinolo kamerlingo herbas, o virš jo Apaštalų iždo simbolis – du sukryžiuoti raktai po ceremoniniu skėčiu. Palei monetos kraštą išgraviruoti įrašai „CITTA’ DEL VATICANO“ bei „SEDE VACANTE“ ir monetos išleidimo metai „MMXXV“. Tarp įrašų „CITTA’ DEL VATICANO“ ir „SEDE VACANTE“ abstrakčiai pavaizduotas balandis. Po kamerlingo herbu – raidė „R“ (Romos kalyklos ženklas); į kairę nuo jos – monetos graverio asmenvardis, o į dešinę – monetos dizaino autorės (Oriettos Rossi) asmenvardis „O. ROSSI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
+	<string name="twoeuro_comm_2025_va_2_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_va_3_title">"2025-ieji – jubiliejiniai metai"</string>
+	<string name="twoeuro_comm_2025_va_3_desc">"monetoje pavaizduotas Šv. Petro bazilikos šventųjų durų atidarymas. Dešinėje vertikalia kryptimi iškaltas įrašas lotynų kalba „IVBILAEUM“ ir metai „2025“. Apačioje lanku – monetą leidžiančios valstybės pavadinimas – „CITTA’ DEL VATICANO“. Ant durų – raidė „R“ (Romos kalyklos ženklas), o paveikslėlio apatinėje kairėje pusėje – monetos dizaino autorės (Danielos Longo) asmenvardis „D. LONGO“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
+	<string name="twoeuro_comm_2025_va_3_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_lt_title">"gynyba"</string>
+	<string name="twoeuro_comm_2025_lt_desc">"monetoje pavaizduotas Lietuvos kontūras. Valstybės sienas juosia stilizuotas spyglių barjeras, simbolizuojantis holistinės, visą visuomenę apimančios gynybos sampratą. Kartu ežys simbolizuoja laisvų visuomenių, kurias reikia visomis išgalėmis ginti nuo išorės grėsmių, atvirumą ir trapumą. Lietuva – tarsi visada pasiruošęs gintis ežys. Monetos centre iškaltas įrašas „LIETUVA“, monetos išleidimo metai „2025“ ir Lietuvos monetų kalyklos ženklas. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_lt_date">"2025 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_de_title">"Saro krašto federacinė žemė"</string>
+	<string name="twoeuro_comm_2025_de_desc">"monetoje iškalta Saro upės kilpa (Saarschleife"</string>
+	<string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+	<string name="twoeuro_comm_2025_de_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_lu_title">"75-osios 1950 m. gegužės 9 d. Roberto Šumano deklaracijos metinės"</string>
+	<string name="twoeuro_comm_2025_lu_desc">"monetos apačioje pavaizduota ant popieriaus lapo pieštuku rašanti ranka. Pieštukas viršuje baigiasi alyvmedžio šakele, virstančia balandžiais (ir šakelė, ir balandžiai – taikos simboliai). Balandžiai skrenda link horizonto, kuriame – šešios žvaigždės, simbolizuojančios šešias valstybes nares, vėliau pasirašiusias Europos anglių ir plieno bendrijos steigimo sutartį, kuriai pagrindą padėjo Šumano deklaracija. Monetos viršutinėje dalyje – tekstas „DECLARATION SCHUMAN“ ir deklaracijos data – „ 09.05.1950“. Žemiau – deklaracijos sukaktį žymintis skaičius „75“. Monetos dešinėje – ją leidžiančios šalies pavadinimas „LUXEMBOURG“ ir jos išleidimo metai „2025“. Monetoje iškalta monograma (raidė „H“ su karūna) yra Didžiojo Hercogo Henri simbolis. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_date">"2025 m. vasario mėn."</string>
+
+	<string name="twoeuro_comm_2025_lu_2_title">"25-osios Didžiojo Hercogo Henri įžengimo į sostą metinės"</string>
+	<string name="twoeuro_comm_2025_lu_2_desc">"monetos centre – Didžiojo Hercogo Henri atvaizdas, o fone – Didžiojo hercogo rūmai. Virš atvaizdo  puslankiu iškaltas tekstas „25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI“. Po atvaizdu – monetą leidžiančios šalies pavadinimas „LETZEBUERG“ ir monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_2_date">"2025 m. vasario mėn."</string>
+
+	<string name="twoeuro_comm_2025_it_title">"2025-ieji – Jubiliejiniai metai"</string>
+	<string name="twoeuro_comm_2025_it_desc">"monetos centre pavaizduotos Šv. Petro bazilikos šventosios durys. iršuje puslankiu iškaltas įrašas „IUBILAEUM“, kurio pradžią ir pabaigą jungia apačioje puslankiu pakaitomis iškaltų tuščiavidurių ir pilnavidurių žuvų – krikščionybės simbolių – seka. Kairėje – monetos išleidimo metai „2025“ ir raidė „R“ (Romos kalyklos ženklas); dešinėje – Italijos Respublikos pavadinimo akronimas „RI“ ir dizaino autorės (Claudios Momoni) inicialai „C.M.“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+	<string name="twoeuro_comm_2025_it_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_it_2_title">"laivo „Amerigo Vespucci“ 2023–2025 m. kelionė aplink pasaulį"</string>
+	<string name="twoeuro_comm_2025_it_2_desc">"monetos centre pavaizduotas visas bures iškėlęs pratybų laivas „Amerigo Vespucci“, skrodžiantis jūros bangas. Kairėje lanku iškaltas įrašas „Amerigo Vespucci Tour Mondiale 2023-2025“; žemiau kairėje – monetos išleidimo metai „2025“ ir Italijos Respublikos pavadinimo akronimas „RI“; dešinėje – raidė „R“ (Romos kalyklos ženklas); apačioje – dizaino autoriaus parašas „E.FERRETTI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+	<string name="twoeuro_comm_2025_it_2_date">"2025 m. sausio mėn."</string>
 
 	<!-- END auto generated code for language lt -->
 

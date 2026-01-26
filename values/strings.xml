@@ -196,7 +196,7 @@
     <string name="collection_modus_to_online">"Manage online"</string>
     <string name="no_internet_no_modus_on_offline">"Internet connection must be available for switching this mode"</string>
     <string name="set_collection_modus_error">"Error while switching collection modus. Please try again later."</string>
-    <string name="editing_only_in_collection_mode_online">"Set this collection to be managed online on your master device to allow editing on all your devices"</string>
+    <string name="editing_only_in_collection_mode_online">"Set this collection to be managed online on your main device to allow editing on all your devices"</string>
     <string name="no_internet_no_editing">"Internet not available but is mandatory for online managed collections."</string>
     <string name="collection_editing_locked">"Collection locked by another device"</string>
     <string name="collection_not_locked">"Collection was not locked or lock was lifted by another device"</string>
@@ -395,13 +395,19 @@
     <string name="usage_secondary_device">"Secondary device"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Country;Year;Value;Coin sign;Title;Condition;Blister;Note;Added date;Paid;Block trading"</string>
+    <string name="csv_header">"Country;Year;Value;Coin sign;Title;Condition;Blister;Note;Added date;Paid;Block trading;Minted"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"The collection '%1$s' has already been registered with a different e-mail address. Do you want to create a copy?"</string>
     <string name="found_duplicate_collections">"Please check the following collections because they seem to be duplicates: '%1$s'"</string>
     <string name="pref_collect_starter_sets">"Collect starter sets"</string>
     <string name="starter_set_title">"Starter Set"</string>
+
+    <!-- version 7.14 -->
+    <string name="permission_request">"Permission request"</string>
+    <string name="rational_notifications">"Please allow notifications to get informed about updated collections of your friends."</string>
+    <string name="notification_channel_collection_updates">"Collection updates"</string>
+    <string name="ask_show_newest_coins">"Do you want to see the newest coins?"</string>
 
     <!-- Trading text change -->
     <!-- version 8.0 -->
@@ -459,12 +465,15 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.12
-Keep years at the top while scrolling down. Thanks to Georg.
-Added more columns to the csv file export. Jens is always a great help!
+    <string name="version_history_current">"Version 7.14
+Added missing 2€ commemorative coins 2026.
+Added 2€ commemorative coins for Germany, Slovenia and Slovakia.
+Added new coin images for Monaco 2025 1€ and 2€. Thanks Guiseppe.
+Added new coin images for Luxembourg 2026. Thanks Guiseppe.
+Added notification channel for collection updates.
 "</string>
 
-    <string name="version_history_current">"Version 7.13
+    <string name="version_history_last">"Version 7.13
 Fixed wrong year alignment in the header line. Thanks Jens.
 Fixed a bug in new device migration. Thanks Jochen.
 Added public Euro starter sets. Can be enabled in the settings.
@@ -2793,190 +2802,294 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2023_lv_volume">"415000"</string>
     <string name="twoeuro_comm_2023_lv_date">"May 2023"</string>
 
-    <string name="twoeuro_comm_2024_po_2_title">"Portugal’s participation in the 33rd Olympic Games"</string>
-    <string name="twoeuro_comm_2024_po_2_desc">"Description:The design shows a set of elements arranged in the shape of a heart, representing a collective hug; around the heart there are 15 circles in symbolic reference to the Olympic rings and to the continents they represent, the tip of the heart shape is surmounted by the coat of arms of Portugal; the centre of the ‘hug’ holds the logo of the Portuguese Olympic Committee, conveying the idea that the hearts of the Portuguese will collectively beat for the Portuguese Olympic team at the Paris 2024 Olympic Games. Below the heart shape, the caption ‘Equipa Olímpica Portugal’, and the year ‘2024’; on the left the mintmark ‘Casa da Moeda’; and on the right the name of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
-    <string name="twoeuro_comm_2024_po_2_date">"Issuing date:July 2024"</string>
+    <string name="twoeuro_comm_2023_po_2_title">"World youth day"</string>
+    <string name="twoeuro_comm_2023_po_2_desc">"The World Youth Day (WYD) was held in Lisbon in august 2023. WYD is a worldwide encounter of young people, who want to take part in a festive gathering with the Pope and with hundreds of thousands of other youths who share the same universal principles of peace, union and fraternity all around the world. The design depicts the Pilgrim Cross, a set of human-like figures of different sizes and textures displayed as in a globe. At the bottom, two hands envelop the whole in a welcoming gesture of the inclusion and universality that is implied in this gathering. On the top edge, two inscriptions read ‘JORNADA MUNDIAL DA JUVENTUDE’ (Portuguese for WORLD YOUTH DAY) and ‘LISBOA 2023’. On the bellow edge, the coat of arms of Portugal, the inscription ‘PORTUGAL’, the mintmark ‘CASA DA MOEDA’ (the name of the Portuguese Mint) and the name of the designer ‘JOÃO DUARTE’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2023_po_2_volume">"1015000"</string>
+    <string name="twoeuro_comm_2023_po_2_date">"2023"</string>
 
-    <string name="twoeuro_comm_2024_po_title">"The 50th anniversary of the 25th of April 1974"</string>
-    <string name="twoeuro_comm_2024_po_desc">"Description:The 25th of April 1974 is the date of the revolution that marked the establishment of the democratic rule in Portugal and the beginning of a journey of profound economic, social and cultural transformations that led to the Europeanization of the country. At the centre of the design, a carnation symbolizes the revolution, surrounded by multiple eccentric circles that suggest that people’s actions and beliefs may change over the years, but remain essentially true to the principles of the revolution. On the edge, on the right, the verse ‘Esta é a madrugada que eu esperava’ [This is the dawn I have been waiting for], and the name of its author, poet ‘Sophia de Mello Breyner Andresen’; and on the left by the national coat of arms, the captions ‘Portugal’ and ‘25 April 1974_2024’, followed by the name of the designer and the mintmark ‘Casa da Moeda’, the name of the Portuguese Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_ad_title">"100 years of skiing in Andorra"</string>
+    <string name="twoeuro_comm_2024_ad_desc">"It is considered that the first contacts of the Andorran population with skiing took place in 1924. Nowadays, skiing is the country's king of sports making Andorra a very popular destination thanks to its snow-capped mountains, spectacular landscapes and world-class ski resorts. The design of the coin commemorates the centenary of the practice of this sport in Andorra and reproduces the lower part of the silhouette of a skier together with the name of the issuing country ‘ANDORRA’ and the year of issue ‘2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_ad_volume">"60000"</string>
+    <string name="twoeuro_comm_2024_ad_date">"Last quarter of 2024"</string>
+
+    <string name="twoeuro_comm_2024_ad_2_title">"UCI Mountain Bike World Championships 2024"</string>
+    <string name="twoeuro_comm_2024_ad_2_desc">"This year, Andorra will host an important international sporting event: the UCI Mountain Bike World Championships 2024. The design of the coin shows a rider passing through a landscape showing the spectacular nature of this sport, with the inscription ‘CAMPIONATS DEL MÓN UCI DE BTT’ (UCI Mountain Bike World Championships 2024). The inscriptions of the issuing country ‘ANDORRA’ and the year of issuance ‘2024’ have been reproduced at the sides of the rider, as if they were another element of this sport. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2024_ad_2_date">"Last quarter of 2024"</string>
+
+    <string name="twoeuro_comm_2024_si_title">"250 years of National and University Library (Narodna in univerzitetna knjižnica)"</string>
+    <string name="twoeuro_comm_2024_si_desc">"Slightly tilted National and University Library’s doorhandle with Pegasus, a winged divine stallion, used as a symbolic guide for library’s visitors to the world of knowledge by the architect Jože Plečnik, is displayed on the coin. Doorhandle is the first contact with the institution that invites us to the world of knowledge and inspiration. At the top, in semi-circle, is the inscription “NARODNA IN UNIVERZITETNA KNJIŽNICA“. At the bottom are the name of the country of issuance “SLOVENIJA” and the year of issuance “2024”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_si_date">"November 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_2_title">"Portugal’s participation in the 33rd Olympic Games"</string>
+    <string name="twoeuro_comm_2024_po_2_desc">"The design shows a set of elements arranged in the shape of a heart,          representing a collective hug; around the heart there are 15 circles in symbolic reference to the Olympic          rings and to the continents they represent, the tip of the heart shape is surmounted by the coat of arms of          Portugal; the centre of the ‘hug’ holds the logo of the Portuguese Olympic Committee, conveying the idea that          the hearts of the Portuguese will collectively beat for the Portuguese Olympic team at the Paris 2024 Olympic          Games. Below the heart shape, the caption ‘Equipa Olímpica Portugal’, and the year ‘2024’; on the left the          mintmark ‘Casa da Moeda’; and on the right the name of the designer. The coin’s outer ring bears the 12 stars          of the European flag."</string>
+    <string name="twoeuro_comm_2024_po_2_volume">"520000"</string>
+    <string name="twoeuro_comm_2024_po_2_date">"July 2024"</string>
+
+    <string name="twoeuro_comm_2024_po_title">"The 50th anniversary of the 25th of April          1974"</string>
+    <string name="twoeuro_comm_2024_po_desc">"The 25th of April 1974 is the date of the revolution that          marked the establishment of the democratic rule in Portugal and the beginning of a journey of profound          economic, social and cultural transformations that led to the Europeanization of the country. At the          centre of the design, a carnation symbolizes the revolution, surrounded by multiple eccentric circles that          suggest that people’s actions and beliefs may change over the years, but remain essentially true to the          principles of the revolution. On the edge, on the right, the verse ‘Esta é a madrugada que eu esperava’ [This          is the dawn I have been waiting for], and the name of its author, poet ‘Sophia de Mello Breyner Andresen’; and          on the left by the national coat of arms, the captions ‘Portugal’ and ‘25 April 1974_2024’, followed by the          name of the designer and the mintmark ‘Casa da Moeda’, the name of the Portuguese Mint. The coin’s outer          ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_po_volume">"515000"</string>
-    <string name="twoeuro_comm_2024_po_date">"Issuing date:April 2024"</string>
+    <string name="twoeuro_comm_2024_po_date">"April 2024"</string>
+
+    <string name="twoeuro_comm_2024_cy_title">"20 years since the Accession of Cyprus to the European Union"</string>
+    <string name="twoeuro_comm_2024_cy_desc">"The design depicts Cyprus as a power of creation and development within the European environment, symbolized by the building of the European Commission in Brussels. The globe of the Earth is also shown, symbolizing the geopolitical importance of Cyprus and its contribution to peace and wellbeing of nations. The issuing country’s name “ΚΥΠΡΟΣ - KIBRIS” and the dates “2004-2024” are inscribed at the bottom of the design. Additionally, the phrase “20 ΧΡΌΝΙΑ ΑΠΌ ΤΗΝ ΈΝΤΑΞΗ ΤΗΣ ΚΎΠΡΟΥ ΣΤΗΝ ΕΥΡΩΠΑΪΚΉ ΈΝΩΣΗ” (i.e. 20 years since the accession of Cyprus to the European Union) is inscribed in circle around the design. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_cy_volume">"7000"</string>
+    <string name="twoeuro_comm_2024_cy_date">"Fourth quarter of 2024"</string>
+
+    <string name="twoeuro_comm_2024_fi_2_title">"Finnish Architecture"</string>
+    <string name="twoeuro_comm_2024_fi_2_desc">"The design shows the silhouettes of four buildings. The roof towers of the buildings point towards the centre. The texts ‘GESELLIUS’, ‘LINDGREN’, ‘SAARINEN’ and the indication of the issuing country ‘FI’, the mintmark and the year ‘2024’ run diagonally between the buildings. The texts and the silhouettes of the buildings form a clock-like composition on the circular image surface of the coin. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fi_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2024_fi_2_date">"Autumn 2024"</string>
 
     <string name="twoeuro_comm_2024_fi_title">"Elections and democracy"</string>
-    <string name="twoeuro_comm_2024_fi_desc">"Description:The design shows stylized ballots. Ballots consist of circles and rectangles. The subject is abstract, but still recognizable. There are eight ballots, and they are partially overlapped, creating smaller geometric shapes at the intersections of the overlapping tickets. The year 2024 is at the bottom. The lettering ‘FI’ is on the right-hand side slightly above the midline. The text VAALIT ♦ DEMOKRATIA rotates on the right-hand side of the money ring. The text VAL ♦ DEMOKRATI is circling the coin on the left-hand side. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fi_desc">"The design          shows stylized ballots. Ballots consist of circles and rectangles. The subject is abstract, but still          recognizable. There are eight ballots, and they are partially overlapped, creating smaller geometric shapes at          the intersections of the overlapping tickets. The year 2024 is at the bottom. The lettering ‘FI’ is on the          right-hand side slightly above the midline. The text VAALIT ♦ DEMOKRATIA rotates on the right-hand side of the          money ring. The text VAL ♦ DEMOKRATI is circling the coin on the left-hand side. The coin’s outer ring bears          the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_fi_volume">"400000"</string>
-    <string name="twoeuro_comm_2024_fi_date">"Issuing date:Spring 2024"</string>
+    <string name="twoeuro_comm_2024_fi_date">"Spring 2024"</string>
+
+    <string name="twoeuro_comm_2024_sk_title">"100th anniversary of the Košice Peace Marathon"</string>
+    <string name="twoeuro_comm_2024_sk_desc">"The design depicts, on the left side, a marathon runner and, on the right side, a detail of St Elizabeth’s Cathedral, one of the architectural landmarks of Košice. Inscribed across the lower part of the design are the name of the issuing country ‘SLOVENSKO’ and, below it, the marathon’s inaugural year ‘1924’ and the coin’s year of issuance ‘2024’. The inscription ‘KOŠICKÝ MARATÓN’ runs along the edge of the upper half of the design. Next to the lower left edge is the mint mark of the Kremnica Mint (Mincovňa Kremnica), consisting of the letters ‘MK’ placed between two dies. To the right of it are the stylised initials ‘LR’, referring to the national side’s designer Roman Lugár. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2024_sk_date">"September 2024"</string>
 
     <string name="twoeuro_comm_2024_be_2_title">"Fight against cancer in Belgium"</string>
-    <string name="twoeuro_comm_2024_be_2_desc">"Description:The design shows in the centre a ribbon, which is used as a universal symbol to express engagement in the fight against cancer. The shape of the ribbon extends further along the two sides in curved lines, symbolising the movement of a heartbeat on a monitor, as an expression of life and vitality. Three lines can be seen at the top, as a reference to a rainbow (symbolising hope and consolation). Inserted in the bottom line is the country code BE and the year 2024. In the lower part of the piece are inscriptions in French and Dutch: 'Lutte contre le cancer' - 'Strijd tegen kanker'. The initials of the designer Iris Bruijns are located on the left side above the inscriptions. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is located at the very bottom of the piece, together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_be_2_desc">"The          design shows in the centre a ribbon, which is used as a universal symbol to express engagement in the fight          against cancer. The shape of the ribbon extends further along the two sides in curved lines, symbolising the          movement of a heartbeat on a monitor, as an expression of life and vitality. Three lines can be seen at the          top, as a reference to a rainbow (symbolising hope and consolation). Inserted in the bottom line is the          country code BE and the year 2024. In the lower part of the piece are inscriptions in French and Dutch: 'Lutte          contre le cancer' - 'Strijd tegen kanker'. The initials of the designer Iris Bruijns are located on the left          side above the inscriptions. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury          staff is located at the very bottom of the piece, together with the Belgian mint director mintmark, an aster          flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European          flag."</string>
     <string name="twoeuro_comm_2024_be_2_volume">"2130000"</string>
-    <string name="twoeuro_comm_2024_be_2_date">"Issuing date:May 2024"</string>
+    <string name="twoeuro_comm_2024_be_2_date">"May          2024"</string>
 
-    <string name="twoeuro_comm_2024_be_title">"The Belgian presidency of the Council of the EU"</string>
-    <string name="twoeuro_comm_2024_be_desc">"Description:The design depicts a flock of birds (swallows), which is a symbol for the workings of the EU, by moving together as a group yet with each member having room to manoeuvre in an individual manner, thereby creating one complex, dynamic entity. The group therefore primarily stands for togetherness. During the flight of the swallows, there is always one who pulls the head and takes the group in tow, which will be Belgium in the first half of 2024. The 27 birds also symbolise the total number of EU member states. The country code ‘BE’ is located in between the birds, in the upper right side of the design. Underneath the flock of birds, a vacant space on the lower half is filled with the description ‘BELGIAN PRESIDENCY OF THE COUNCIL OF THE EU 2024’. At the far left are the initials of the designer Iris Bruijns. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is also located on the far left, above which stands the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_be_title">"The Belgian presidency of the Council of the          EU"</string>
+    <string name="twoeuro_comm_2024_be_desc">"The design depicts a flock of birds (swallows), which is a symbol          for the workings of the EU, by moving together as a group yet with each member having room to manoeuvre in an          individual manner, thereby creating one complex, dynamic entity. The group therefore primarily stands for          togetherness. During the flight of the swallows, there is always one who pulls the head and takes the group in          tow, which will be Belgium in the first half of 2024. The 27 birds also symbolise the total number of EU          member states. The country code ‘BE’ is located in between the birds, in the upper right side of the design.          Underneath the flock of birds, a vacant space on the lower half is filled with the description ‘BELGIAN          PRESIDENCY OF THE COUNCIL OF THE EU 2024’. At the far left are the initials of the designer Iris Bruijns. As          the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff is also located on the          far left, above which stands the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer          flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_be_volume">"2128500"</string>
-    <string name="twoeuro_comm_2024_be_date">"Issuing date:First quarter 2024"</string>
+    <string name="twoeuro_comm_2024_be_date">"First quarter 2024"</string>
 
-    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – the Old Town of Varaždin)"</string>
-    <string name="twoeuro_comm_2024_hr_desc">"Description:The design features the keep of the Varaždin Castle (12th – 16th century). Varaždin is first mentioned in 1181. Having suffered massive casualties in the Tatar invasion of 1242, it was built as a royal fortress, which would become known as the Old Town. Its appearance has changed through the centuries: from a strong medieval fortress surrounded by water-filled moats to the main fortress and armoury of Slavonian Military Border and Varaždin military headquarters and a beautiful Renaissance castle. At present, the Old Town is the most important and magnificent historical building of the City of Varaždin, a highest-category monument of the Croatian architectural heritage. The coin also features the name of the issuing country ‘HRVATSKA’ (Croatia), the year of issuance ‘2024’, and the words ‘STARI GRAD VARAŽDIN’ (the Old Town of Varaždin), which are all inscribed circularly at the top and the bottom of the design. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_hr_2_title">"The 500th anniversary of Marko Marulić’s enduring legacy"</string>
+    <string name="twoeuro_comm_2024_hr_2_desc">"In recognition of this significant milestone, the Government of the Republic of Croatia has proclaimed 2024 as the Year of Marko Marulić. The central motif of the national side of the coin is the portrait of Marko Marulić (1450-1524), Croatian writer. Marko Marulić (Marul) was born in Split in 1450 and is a prominent representative of European Christian humanism and Renaissance epics. His literary works, mostly written in Latin, are comprised of works in verse and prose, his literary models being the Bible, the Church Fathers' philosophy and classical antiquity. He wrote the epic poem Judita, his magnum opus, in Croatian. It is the first artistic epic in Croatian literature composed in the Croatian language to contain the underlying poetics of Virgil and the Biblical epics. In it, Marulić achieved a true Renaissance synthesis of Croatian, Latin and Italian literary tradition, thus creating a masterpiece. Completed in 1501, it was first published twenty years later. The coin also features the inscriptions of the two-letter issuing country code 'HR' (Croatia), the year of issuance '2024.' and the words 'MARKO MARULIĆ', which are all inscribed circularly along the edge of the coin's core. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_hr_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2024_hr_2_date">"October 2024"</string>
+
+    <string name="twoeuro_comm_2024_hr_title">"Varaždin (Stari grad Varaždin – the Old Town of          Varaždin)"</string>
+    <string name="twoeuro_comm_2024_hr_desc">"The design features the keep of the Varaždin Castle (12th          – 16th century). Varaždin is first mentioned in 1181. Having suffered massive casualties in the Tatar invasion          of 1242, it was built as a royal fortress, which would become known as the Old Town. Its appearance has          changed through the centuries: from a strong medieval fortress surrounded by water-filled moats to the main          fortress and armoury of Slavonian Military Border and Varaždin military headquarters and a beautiful          Renaissance castle. At present, the Old Town is the most important and magnificent historical building of the          City of Varaždin, a highest-category monument of the Croatian architectural heritage. The coin also features          the name of the issuing country ‘HRVATSKA’ (Croatia), the year of issuance ‘2024’, and the words ‘STARI GRAD          VARAŽDIN’ (the Old Town of Varaždin), which are all inscribed circularly at the top and the bottom of the          design. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_hr_volume">"200000"</string>
-    <string name="twoeuro_comm_2024_hr_date">"Issuing date:June 2024"</string>
+    <string name="twoeuro_comm_2024_hr_date">"June 2024"</string>
 
-    <string name="twoeuro_comm_2024_sm_title">"The 50th anniversary of the Declaration of Citizens' Rights and the Fundamental Principles of San Marino"</string>
-    <string name="twoeuro_comm_2024_sm_desc">"Description:In the centre is represented an open book bearing the inscription ‘I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI’ (The rights of the human person are inviolable), taken from Article 5 of the Law n°59 of 8 July 1974 ‘Declaration of Citizens' Rights and of the fundamental principles of the San Marinese legal order’. At the top are the silhouettes of the Statue of Liberty and the Public Palace, as well as the name of the issuing country ‘SAN MARINO’. On the left, the letter ‘R’, identifying the Mint of Rome. At the bottom centre is the year of issuance ‘2024’ and the initials of the engraver Emanuele Ferretti (‘E.F. INC. ’). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_sm_2_title">"530th anniversary of the death of Ghirlandaio"</string>
+    <string name="twoeuro_comm_2024_sm_2_desc">"In the centre is the Virgin in prayer, a detail of the painting ‘Adoration of the Shepherds’ by Domenico Ghirlandaio, kept in the Sassetti Chapel of Santa Trinità (Florence). On the left are the inscription ‘SAN MARINO’ and the letter ‘R’, the identifier of the Mint of Rome; on the right, the inscription ‘GHIRLANDAIO’ and the dates ‘1494’ and ‘2024’; at the bottom, the initials of the artist, Valerio de Seta (‘VdS’). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2024_sm_2_date">"September 2024"</string>
+
+    <string name="twoeuro_comm_2024_sm_title">"The 50th anniversary of the Declaration of Citizens' Rights and the          Fundamental Principles of San Marino"</string>
+    <string name="twoeuro_comm_2024_sm_desc">"In the centre is represented an          open book bearing the inscription ‘I DIRITTI DELLA PERSONA UMANA SONO INVIOLABILI’ (The rights of the human          person are inviolable), taken from Article 5 of the Law n°59 of 8 July 1974 ‘Declaration of Citizens' Rights          and of the fundamental principles of the San Marinese legal order’. At the top are the silhouettes of the          Statue of Liberty and the Public Palace, as well as the name of the issuing country ‘SAN MARINO’. On the left,          the letter ‘R’, identifying the Mint of Rome. At the bottom centre is the year of issuance ‘2024’ and the          initials of the engraver Emanuele Ferretti (‘E.F. INC. ’). The coin’s outer ring bears the 12 stars of the          European flag."</string>
     <string name="twoeuro_comm_2024_sm_volume">"56000"</string>
-    <string name="twoeuro_comm_2024_sm_date">"Issuing date:April 2024"</string>
+    <string name="twoeuro_comm_2024_sm_date">"April 2024"</string>
 
-    <string name="twoeuro_comm_2024_gr_title">"50 years from the restoration of democracy in Greece"</string>
-    <string name="twoeuro_comm_2024_gr_desc">"Description:The design features the Hellenic Parliament building, surrounded by the wording ‘50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ’ (‘50 YEARS FROM THE RESTORATION OF DEMOCRACY IN GREECE’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘HELLENIC REPUBLIC’). Below is inscribed a palmette (mintmark of the Greek Mint). The fall of the colonels’ junta on 24 July 1974 marked the restoration of democracy in Greece following a seven-year dictatorship. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_gr_title">"50 years from the restoration of democracy in          Greece"</string>
+    <string name="twoeuro_comm_2024_gr_desc">"The design features the Hellenic Parliament building,          surrounded by the wording ‘50 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΜΕΤΑΠΟΛΙΤΕΥΣΗ’ (‘50 YEARS FROM THE RESTORATION OF DEMOCRACY IN          GREECE’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘HELLENIC REPUBLIC’). Below is inscribed a palmette (mintmark of the Greek          Mint). The fall of the colonels’ junta on 24 July 1974 marked the restoration of democracy in Greece following          a seven-year dictatorship. The coin’s outer ring bears the 12 stars of the European          flag."</string>
     <string name="twoeuro_comm_2024_gr_volume">"750000"</string>
-    <string name="twoeuro_comm_2024_gr_date">"Issuing date:July 2024"</string>
+    <string name="twoeuro_comm_2024_gr_date">"July          2024"</string>
 
-    <string name="twoeuro_comm_2024_gr_2_title">"150 years from the birth of Penelope Delta"</string>
-    <string name="twoeuro_comm_2024_gr_2_desc">"Description:The design features a portrait of Penelope Delta. The theme is bordered by the wording ‘ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941’ (‘PENELOPE DELTA 1874-1941’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘HELLENIC REPUBLIC’). To the left is a palmette (mintmark of the Greek Mint) and to the right the minting year. Penelope Delta was a pioneer of children’s literature in Greece. Generations of Greek children have been raised with her books, which remain popular. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_gr_2_title">"150 years from the birth of Penelope          Delta"</string>
+    <string name="twoeuro_comm_2024_gr_2_desc">"The design features a portrait of Penelope Delta. The theme is          bordered by the wording ‘ΠΗΝΕΛΟΠΗ ΔΕΛΤΑ 1874-1941’ (‘PENELOPE DELTA 1874-1941’) and ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’          (‘HELLENIC REPUBLIC’). To the left is a palmette (mintmark of the Greek Mint) and to the right the minting          year. Penelope Delta was a pioneer of children’s literature in Greece. Generations of Greek children have been          raised with her books, which remain popular. The coin’s outer ring bears the 12 stars of the European          flag."</string>
     <string name="twoeuro_comm_2024_gr_2_volume">"750000"</string>
-    <string name="twoeuro_comm_2024_gr_2_date">"Issuing date:July 2024"</string>
+    <string name="twoeuro_comm_2024_gr_2_date">"July          2024"</string>
 
-    <string name="twoeuro_comm_2024_ee_title">"The cornflower – Estonian national flower"</string>
-    <string name="twoeuro_comm_2024_ee_desc">"Description:The design shows the silhouette of a cornflower with the text ‘CENTAUREA CYANUS’ (cornflower in Latin) at the top left, in semi-circle. At the bottom is the name of the issuing country ‘EESTI’ and underneath the year of issuance ‘2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_ee_title">"The cornflower – Estonian national          flower"</string>
+    <string name="twoeuro_comm_2024_ee_desc">"The design shows the silhouette of a cornflower with the text          ‘CENTAUREA CYANUS’ (cornflower in Latin) at the top left, in semi-circle. At the bottom is the name of the          issuing country ‘EESTI’ and underneath the year of issuance ‘2024’. The coin’s outer ring bears the 12 stars          of the European flag."</string>
     <string name="twoeuro_comm_2024_ee_volume">"1000000"</string>
-    <string name="twoeuro_comm_2024_ee_date">"Issuing date:Second quarter 2024"</string>
+    <string name="twoeuro_comm_2024_ee_date">"Second quarter 2024"</string>
 
     <string name="twoeuro_comm_2024_fr_2_title">"The Eiffel Tower"</string>
-    <string name="twoeuro_comm_2024_fr_2_desc">"Description:For the countdown to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as well as its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer Games. This is an event with international resonance, gradually building in intensity in the years leading up to the event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic Games. The design represents an expression of France through iconic buildings; the Eiffel Tower and the Notre Dame de la Garde Basilica situated in Marseille are united there. In the background, a tiare flower represents the island of Tahiti where the surfing competitions will take place. The Eiffel Tower is in motion, she carries the values of sport. Its arms are represented by 73 rivets signifying the host communities. For the first time, the Olympic and Paralympic symbols are brought together, to celebrate the Games for all. The year date, the indication of the issuing country ‘RF’ as well as the mintmarks are inserted on the athletics track. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fr_2_desc">"For the countdown          to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as well as          its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer Games.          This is an event with international resonance, gradually building in intensity in the years leading up to the          event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic Games.          The design represents an expression of France through iconic buildings; the Eiffel Tower and the Notre Dame de          la Garde Basilica situated in Marseille are united there. In the background, a tiare flower represents the          island of Tahiti where the surfing competitions will take place. The Eiffel Tower is in motion, she carries          the values of sport. Its arms are represented by 73 rivets signifying the host communities. For the first          time, the Olympic and Paralympic symbols are brought together, to celebrate the Games for all. The year date,          the indication of the issuing country ‘RF’ as well as the mintmarks are inserted on the athletics          track. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_fr_2_volume">"24000000"</string>
-    <string name="twoeuro_comm_2024_fr_2_date">"Issuing date:May 2024"</string>
+    <string name="twoeuro_comm_2024_fr_2_date">"May 2024"</string>
 
     <string name="twoeuro_comm_2024_fr_title">"Jeux Olympiques 2024 - Lutte"</string>
-    <string name="twoeuro_comm_2024_fr_desc">"Description:For the countdown to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as well as its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer Games. This is an event with international resonance, gradually building in intensity in the years leading up to the event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic Games. The design represents Hercules, a national figure and icon of French numismatics, practicing antique wrestling with Notre- Dame’s Chimera, in reference to the Olympic Games of the Ancient era. Both wrestlers are depicted in the foreground in front of Notre-Dame Cathedral. In the background, an athletics track in which the emblem of Paris 2024 is inserted on the left side, is represented. The yeardate, the RF indication, as well as the mintmarks are inserted on the athletics track. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_fr_desc">"For the          countdown to the Paris 2024 Olympic Games, Monnaie de Paris celebrates the road to the games through Paris as          well as its own heritage. 100 years after the 1924 Games, the French capital is once again hosting the Summer          Games. This is an event with international resonance, gradually building in intensity in the years leading up          to the event, culminating in 2024 with the issue of two commemorative two-euro coins dedicated to the Olympic          Games. The design represents Hercules, a national figure and icon of French numismatics, practicing antique          wrestling with Notre- Dame’s Chimera, in reference to the Olympic Games of the Ancient era. Both wrestlers are          depicted in the foreground in front of Notre-Dame Cathedral. In the background, an athletics track in which          the emblem of Paris 2024 is inserted on the left side, is represented. The yeardate, the RF indication, as          well as the mintmarks are inserted on the athletics track. The coin’s outer ring bears the 12 stars of the          European flag."</string>
     <string name="twoeuro_comm_2024_fr_volume">"510000"</string>
-    <string name="twoeuro_comm_2024_fr_date">"Issuing date:January 2024"</string>
+    <string name="twoeuro_comm_2024_fr_date">"January 2024"</string>
 
     <string name="twoeuro_comm_2024_mt_title">"The Maltese Honey Bee"</string>
-    <string name="twoeuro_comm_2024_mt_desc">"Description:The design was created by Maria Anna Frisone and depicts the Maltese honey bee (Apis Mellifera Ruttneri) which is one of the endemic species of flora and fauna found on the Maltese islands. The design shows a rendition of the bee with a flower and a honeycomb filling up the background. The coin raises awareness of one of Malta's endemic species and encapsulates the work of the bee which pollinates flowers and makes honey. At the left side is the inscription of the issuing country ‘MALTA’ and at the right side the year of issuance ‘2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_mt_desc">"The design was          created by Maria Anna Frisone and depicts the Maltese honey bee (Apis Mellifera Ruttneri) which is one of the          endemic species of flora and fauna found on the Maltese islands. The design shows a rendition of the bee with          a flower and a honeycomb filling up the background. The coin raises awareness of one of Malta's endemic          species and encapsulates the work of the bee which pollinates flowers and makes honey. At the left side is the          inscription of the issuing country ‘MALTA’ and at the right side the year of issuance ‘2024’. The coin’s outer          ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_mt_volume">"85500"</string>
-    <string name="twoeuro_comm_2024_mt_date">"Issuing date:June 2024"</string>
+    <string name="twoeuro_comm_2024_mt_date">"June 2024"</string>
 
-    <string name="twoeuro_comm_2024_mc_title">"500 years since the signature of the Treaty with Charles V"</string>
-    <string name="twoeuro_comm_2024_mc_desc">"Description:The design shows the effigy of Charles V. At the top, in semi-circle, is the name of the issuing country ‘MONACO’. At the bottom is the inscription ‘1524 - TRAITE AVEC CHARLES QUINT (Treaty with Charles V) - 2024’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_mc_title">"500 years since the signature of the Treaty with Charles          V"</string>
+    <string name="twoeuro_comm_2024_mc_desc">"The design shows the effigy of Charles V. At the top, in          semi-circle, is the name of the issuing country ‘MONACO’. At the bottom is the inscription ‘1524 - TRAITE AVEC          CHARLES QUINT (Treaty with Charles V) - 2024’. The coin’s outer ring bears the 12 stars of the European          flag."</string>
     <string name="twoeuro_comm_2024_mc_volume">"15000"</string>
-    <string name="twoeuro_comm_2024_mc_date">"Issuing date:June 2024"</string>
+    <string name="twoeuro_comm_2024_mc_date">"June          2024"</string>
 
-    <string name="twoeuro_comm_2024_es_title">"200 years since the creation of the National Police as a state security corp"</string>
-    <string name="twoeuro_comm_2024_es_desc">"Description:The design shows the emblem of the National Police. Surrounding it are the legends: ‘ESPANA- POLICIA NACIONAL 1824-2024’. In the lower right part of the emblem is the mint mark ‘Eme Coronada’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_es_title">"200 years since the creation of the National Police as a state security          corp"</string>
+    <string name="twoeuro_comm_2024_es_desc">"The design shows the emblem of the National Police. Surrounding it          are the legends: ‘ESPANA- POLICIA NACIONAL 1824-2024’. In the lower right part of the emblem is the mint mark          ‘Eme Coronada’. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_es_volume">"1500000"</string>
     <string name="twoeuro_comm_2024_es_date">"First quarter 2024"</string>
 
-    <string name="twoeuro_comm_2024_es_2_title">"The recognition of Seville (Archivo de Indias, Real Alcazar de Sevilla y Catedral de Sevilla) as a UNESCO World Heritage Site"</string>
-    <string name="twoeuro_comm_2024_es_2_desc">"Description:The design shows a view of the ‘Patio de las Doncellas’ of the Real Alcåzar of Seville. At the top, in a circular direction and in capital letters, the legend SEVILLA; below, the mint mark ‘Eme Coronada’. At the bottom, in a circular direction and in capital letters, the legend ESPANA and the year of issue 2024. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_es_2_title">"The recognition of Seville (Archivo de Indias, Real Alcazar de Sevilla y          Catedral de Sevilla) as a UNESCO World Heritage Site"</string>
+    <string name="twoeuro_comm_2024_es_2_desc">"The design          shows a view of the ‘Patio de las Doncellas’ of the Real Alcåzar of Seville. At the top, in a circular          direction and in capital letters, the legend SEVILLA; below, the mint mark ‘Eme Coronada’. At the bottom, in a          circular direction and in capital letters, the legend ESPANA and the year of issue 2024. The coin’s outer ring          bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_es_2_volume">"1500000"</string>
-    <string name="twoeuro_comm_2024_es_2_date">"Issuing date:First quarter 2024"</string>
+    <string name="twoeuro_comm_2024_es_2_date">"First          quarter 2024"</string>
 
-    <string name="twoeuro_comm_2024_va_2_title">"The 150th anniversary of the birth of Guglielmo Marconi"</string>
-    <string name="twoeuro_comm_2024_va_2_desc">"Description:The design features Marconi’s portrait at the center, the portraits of Pope Pius XI at the right, and future Pius XII at the left. At the top right, in semi-circle, is the inscription ‘GUGLIELMO MARCONI’ and underneath it the dates ‘1874’ and ‘2024’. At the bottom is the inscription ‘CITTÀ DEL VATICANO’ followed by the name of the artist ‘L. PANCOTTO’ (Loredana Pancotto). At the left is the mintmark ‘R’. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_va_title">"The 750th anniversary of the death of St. Thomas Aquinas"</string>
+    <string name="twoeuro_comm_2024_va_desc">"The design features St. Thomas Aquinas in the foreground in the vestments of the Dominican Order to which he belonged. In his left hand he holds a volume of his most important work, the Summa Theologiae, and in the other a pen. A shining sun stands out on the saint’s chest, a symbol of his great wisdom. Among the various titles he received, he is most widely known as the “Angelic Doctor”, which is quoted below and which glorifies his exceptional purity of soul and body. In the background on the left is the lily, a symbol of chastity, and the Church of St. Thomas of Roccasecca, the first religious building in the world built in honor of St. Thomas Aquinas, declared a saint on July 18, 1323 by Pope John XXII. At the top is the inscription “CITTÀ DEL VATICANO”. At the left is the year “1274” and at the right the year “2024” and underneath it are the mintmark “R” and the name of the artist “A. CICCONI”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_va_volume">"82900"</string>
+    <string name="twoeuro_comm_2024_va_date">"October 2024"</string>
+
+    <string name="twoeuro_comm_2024_va_2_title">"The 150th anniversary of the birth of Guglielmo          Marconi"</string>
+    <string name="twoeuro_comm_2024_va_2_desc">"The design features Marconi’s portrait at the center, the          portraits of Pope Pius XI at the right, and future Pius XII at the left. At the top right, in semi-circle, is          the inscription ‘GUGLIELMO MARCONI’ and underneath it the dates ‘1874’ and ‘2024’. At the bottom is the          inscription ‘CITTÀ DEL VATICANO’ followed by the name of the artist ‘L. PANCOTTO’ (Loredana Pancotto). At the          left is the mintmark ‘R’. The coin’s outer ring bears the 12 stars of the European          flag."</string>
     <string name="twoeuro_comm_2024_va_2_volume">"82900"</string>
-    <string name="twoeuro_comm_2024_va_2_date">"Issuing date:May 2024"</string>
+    <string name="twoeuro_comm_2024_va_2_date">"May 2024"</string>
 
-    <string name="twoeuro_comm_2024_de_2_title">"The 175th anniversary of the Frankfurt Constitution (also known as the St Paul’s Church Constitution, which was the first attempt to create a unified German nation state.)"</string>
-    <string name="twoeuro_comm_2024_de_2_desc">"Description:The design features several thematic layers. In the foreground is a perspective depiction of St Paul’s Church with the representatives of the national constitutional assembly filing in. This overlays a rendering of the constitutional document and a quill, representing the outcome of the Frankfurt Parliament. Finally, the design is crowned by three female allegories – Unity, Justice and Freedom – and the tricolour flag of black, red and gold. The vibrant three- dimensional relief evokes the timelessness of the basic democratic principles that were put down in writing for the first time and in a foundational way in the Frankfurt Constitution. The coin’s inner ring also features the inscription ‘PAULSKIRCHENVERFASSUNG 1849’ (‘St Paul’s Church Constitution 1849’) and, at the bottom, the year of issue ‘2024’, Germany’s issuing country code ‘D’, the mint mark of the respective mint (‘A’, ‘D’, ‘F’, ‘G’ or ‘J’), and the initials of the artist, Bodo Broschat from Berlin. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lv_title">"Himmeli"</string>
+    <string name="twoeuro_comm_2024_lv_desc">"Himmeli is an ancient Latvian Christmas decoration. The design shows the traditional module shape the decoration is made up: the octahedron which consists of 12 interconnected straws and it symbolises the year with its 12 months. The himmeli is one of the oldest Christmas decorations, being in use long before the Christmas tree. At the bottom left is inscribed the name of the country of issuance “LATVIJA”. At the bottom right is inscribed the year of issuance “2024”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lv_volume">"413000"</string>
+    <string name="twoeuro_comm_2024_lv_date">"October/November 2024"</string>
+
+    <string name="twoeuro_comm_2024_lt_title">"Lithuanian tradition of straw gardens inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity"</string>
+    <string name="twoeuro_comm_2024_lt_desc">"The design features a stylised straw garden consisting of geometric shapes of varying sizes, one tip of which is pointed upwards (to the sky) and the other downwards (to the underground). The design also bears the inscription “LIETUVA” (LITHUANIA), the year of issue (2024) and the mintmark of the Lithuanian Mint. Straw gardens are a Baltic cultural tradition that carries decorative and ceremonial significance and is related to well-being and spirituality. The national side of the coin is designed by Tomas Dragūnas. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2024_lt_date">"Fourth quarter of 2024"</string>
+
+    <string name="twoeuro_comm_2024_de_2_title">"The 175th anniversary of the Frankfurt Constitution (also known as the St          Paul’s Church Constitution, which was the first attempt to create a unified German nation          state.)"</string>
+    <string name="twoeuro_comm_2024_de_2_desc">"The design features several thematic layers. In the          foreground is a perspective depiction of St Paul’s Church with the representatives of the national          constitutional assembly filing in. This overlays a rendering of the constitutional document and a quill,          representing the outcome of the Frankfurt Parliament. Finally, the design is crowned by three female          allegories – Unity, Justice and Freedom – and the tricolour flag of black, red and gold. The vibrant three-          dimensional relief evokes the timelessness of the basic democratic principles that were put down in writing          for the first time and in a foundational way in the Frankfurt Constitution. The coin’s inner ring also          features the inscription ‘PAULSKIRCHENVERFASSUNG 1849’ (‘St Paul’s Church Constitution 1849’) and, at the          bottom, the year of issue ‘2024’, Germany’s issuing country code ‘D’, the mint mark of the respective mint          (‘A’, ‘D’, ‘F’, ‘G’ or ‘J’), and the initials of the artist, Bodo Broschat from Berlin. The coin’s outer          ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_de_2_volume">"30000000"</string>
-    <string name="twoeuro_comm_2024_de_2_date">"Issuing date:March 2024"</string>
+    <string name="twoeuro_comm_2024_de_2_date">"March 2024"</string>
 
     <string name="twoeuro_comm_2024_de_title">"Mecklenburg-Vorpommern"</string>
-    <string name="twoeuro_comm_2024_de_desc">"Description:The coin is dedicated to the German state (Land) of Mecklenburg-Western Pomerania. It is the second issuance in the second series of German 2-euro commemorative coins featuring the German states, or Länder. Each year, a coin pays tribute to one of the 16 Länder by depicting a significant building or landmark. The order of the states is based on the rotating presidency of the Bundesrat, which is one of the five permanent constitutional bodies of the Federal Republic of Germany and represents the interests of the Länder. The design shows the Königsstuhl, an iconic formation of chalk cliffs and beech forest located in Jasmund National Park on the island of Rügen. The cliffs are depicted from the perspective of the shoreline, thereby highlighting the monumentality of this unique natural landmark in a particularly effective manner. The beautifully detailed image provides scale through the combined rendering of sea, birdlife and humankind. The modern typography, in harmony with the flying seagull, is skilfully integrated into the relief. The upper half of the coin’s inner circle features the inscription ‘MECKLENBURG VORPOMMERN’, the year of issue ‘2024’, Germany’s issuing country code ‘D’ and, at the upper right, the letter ‘X’ as placeholder for the mint mark of the respective mint (‘A’, ‘D’, ‘F’, ‘G’ or ‘J’). The initials of the artist Michael Otto (from Rodenbach, Germany) are shown in the lower half of the inner circle. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_de_desc">"The coin is          dedicated to the German state (Land) of Mecklenburg-Western Pomerania. It is the second issuance in the second          series of German 2-euro commemorative coins featuring the German states, or Länder. Each year, a coin pays          tribute to one of the 16 Länder by depicting a significant building or landmark. The order of the states is          based on the rotating presidency of the Bundesrat, which is one of the five permanent constitutional bodies of          the Federal Republic of Germany and represents the interests of the Länder. The design shows the Königsstuhl,          an iconic formation of chalk cliffs and beech forest located in Jasmund National Park on the island of Rügen.          The cliffs are depicted from the perspective of the shoreline, thereby highlighting the monumentality of this          unique natural landmark in a particularly effective manner. The beautifully detailed image provides scale          through the combined rendering of sea, birdlife and humankind. The modern typography, in harmony with the          flying seagull, is skilfully integrated into the relief. The upper half of the coin’s inner circle features          the inscription ‘MECKLENBURG VORPOMMERN’, the year of issue ‘2024’, Germany’s issuing country code ‘D’ and, at          the upper right, the letter ‘X’ as placeholder for the mint mark of the respective mint (‘A’, ‘D’, ‘F’, ‘G’ or          ‘J’). The initials of the artist Michael Otto (from Rodenbach, Germany) are shown in the lower half of the          inner circle. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2024_de_date">"Issuing date:January 2024"</string>
+    <string name="twoeuro_comm_2024_de_date">"January          2024"</string>
 
     <string name="twoeuro_comm_2024_lu_2_title">":The 175th anniversary of the death of Grand Duke Guillaume II"</string>
-    <string name="twoeuro_comm_2024_lu_2_desc">":The design depicts on the left side the statue of Grand Duke Guillaume II on horseback and on the right side the effigy of Grand Duke Henri looking to the left. The texts ‘GROUSSHERZOGE VU LÉTZEBUERG’ and ‘GUILLAUME II 1792-1849’ are depicted in semicircular form in the upper left part of the design. The year-date ‘2024’ and the figure ‘175’ as indication of the anniversary appear below the effigy of Grand Duke Henri. As the producing mint is not yet known, the mint marks might be adapted within the spaceholder. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lu_2_desc">":The design depicts on the left side the statue of Grand Duke          Guillaume II on horseback and on the right side the effigy of Grand Duke Henri looking to the left. The texts          ‘GROUSSHERZOGE VU LÉTZEBUERG’ and ‘GUILLAUME II 1792-1849’ are depicted in semicircular form in the upper left          part of the design. The year-date ‘2024’ and the figure ‘175’ as indication of the anniversary appear below          the effigy of Grand Duke Henri. As the producing mint is not yet known, the mint marks might be adapted within          the spaceholder. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_lu_2_volume">"200000"</string>
     <string name="twoeuro_comm_2024_lu_2_date">":January 2024"</string>
 
-    <string name="twoeuro_comm_2024_lu_title">":The 100th anniversary of the signature by the Grand Duchess Charlotte of the Grand Ducal decree concerning the issuance of the divisional currency in nickel, commonly called ‘Feierstéppler’"</string>
-    <string name="twoeuro_comm_2024_lu_desc">":The design depicts in its centre the representation of the Luxembourg coin issued in 1924 showing a steel industry worker, this representation being integrated in the figure ‘100’ as indication of the anniversary of the first issuance of one of the longest circulating Luxembourg franc coins. The name of the issuing country LÉTZEBUERG as well as the year date 2024 appear at the top of the design. The bottom of the design depicts the word ‘FEIERSTÉPPLER’, the common and popular designation of this coin. The monogram (letter ‘H’ with a crown) is a representation of Grand Duke Henri. As the producing mint is not yet known, the mint marks might be adapted within the spaceholder. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_lu_title">":The 100th anniversary of the signature by the Grand Duchess          Charlotte of the Grand Ducal decree concerning the issuance of the divisional currency in nickel, commonly          called ‘Feierstéppler’"</string>
+    <string name="twoeuro_comm_2024_lu_desc">":The design depicts in its centre the representation of the          Luxembourg coin issued in 1924 showing a steel industry worker, this representation being integrated in the          figure ‘100’ as indication of the anniversary of the first issuance of one of the longest circulating          Luxembourg franc coins. The name of the issuing country LÉTZEBUERG as well as the year date 2024 appear at the          top of the design. The bottom of the design depicts the word ‘FEIERSTÉPPLER’, the common and popular          designation of this coin. The monogram (letter ‘H’ with a crown) is a representation of Grand Duke Henri. As          the producing mint is not yet known, the mint marks might be adapted within the spaceholder. The coin’s outer          ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_lu_volume">"200000"</string>
     <string name="twoeuro_comm_2024_lu_date">":January 2024"</string>
 
-    <string name="twoeuro_comm_2024_it_title">"The 250th anniversary of the foundation of the Guardia di Finanza Corps"</string>
-    <string name="twoeuro_comm_2024_it_desc">"Description:The design depicts, in the centre, a stylized version of the heraldic symbol of Guardia di Finanza Corps: it portrays the concept of security and provides a future vision of the Corps’ role celebrating the past, by combining it with the years to come and challenges they will continue to face. This emblem includes different elements: mountain, sea and the sky, which are the natural environments where Corps operate; the Griffon, a mythological animal which, according to the legend, supervises protection of the Treasury, represented by the chest of the State, and the turreted crown. At the top, in semi-circle, is the inscription ‘GUARDIA DI FINANZA’. Below, ‘RI’, acronym of the Italian Republic and the dates ‘1774-2024’, year of the establishment of the Guardia di Finanza Corps and year of coin’s issue respectively; on the right, ‘R’, identifying the Mint of Rome and ‘MB’, the initials of designer Marta Bonifacio. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_it_title">"The 250th anniversary of the foundation of the Guardia di Finanza          Corps"</string>
+    <string name="twoeuro_comm_2024_it_desc">"The design depicts, in the centre, a stylized version of the          heraldic symbol of Guardia di Finanza Corps: it portrays the concept of security and provides a future vision          of the Corps’ role celebrating the past, by combining it with the years to come and challenges they will          continue to face. This emblem includes different elements: mountain, sea and the sky, which are the natural          environments where Corps operate; the Griffon, a mythological animal which, according to the legend,          supervises protection of the Treasury, represented by the chest of the State, and the turreted crown. At the          top, in semi-circle, is the inscription ‘GUARDIA DI FINANZA’. Below, ‘RI’, acronym of the Italian Republic and          the dates ‘1774-2024’, year of the establishment of the Guardia di Finanza Corps and year of coin’s issue          respectively; on the right, ‘R’, identifying the Mint of Rome and ‘MB’, the initials of designer Marta          Bonifacio. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2024_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2024_it_date">"Issuing date:January 2024"</string>
+    <string name="twoeuro_comm_2024_it_date">"January 2024"</string>
 
     <string name="twoeuro_comm_2024_it_2_title">"Rita Levi-Montalcini"</string>
-    <string name="twoeuro_comm_2024_it_2_desc">"Description:The design depicts in the foreground, a half-length portrait of Rita Levi-Montalcini inspired by a Manuela Fabbri’s photography; in the background, a microscope, taken from a medal designed by Gino Levi-Montalcini, brother of the well renown scientist, whose base is horseshoe shaped, as a good luck charm for the awarding of the Nobel Prize for Medicine in the 1986. Above, the arch-shaped inscription ‘RITA LEVI-MONTALCINI’; on the left ‘RI’, acronym of the Italian Republic and ‘R’, identifying the Mint of Rome; below ‘2024’, the year of the coin’s issue; on the right, ‘SP’, initials of the designer Silvia Petrassi. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2024_it_2_desc">"The design          depicts in the foreground, a half-length portrait of Rita Levi-Montalcini inspired by a Manuela Fabbri’s          photography; in the background, a microscope, taken from a medal designed by Gino Levi-Montalcini, brother of          the well renown scientist, whose base is horseshoe shaped, as a good luck charm for the awarding of the Nobel          Prize for Medicine in the 1986. Above, the arch-shaped inscription ‘RITA LEVI-MONTALCINI’; on the left ‘RI’,          acronym of the Italian Republic and ‘R’, identifying the Mint of Rome; below ‘2024’, the year of the coin’s          issue; on the right, ‘SP’, initials of the designer Silvia Petrassi. The coin’s outer ring bears the 12 stars          of the European flag."</string>
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2024_it_2_date">"Issuing date:January 2024"</string>
+    <string name="twoeuro_comm_2024_it_2_date">"January 2024"</string>
+
+    <string name="twoeuro_comm_2025_po_title">"World scouting"</string>
+    <string name="twoeuro_comm_2025_po_desc">"The coin honours World Scouting and youth movements that promote cultural exchange, mutual understanding, and friendship, since in 2025, the 16th World Scout Moot will be held in Portugal, bringing together scouts aged 18 to 25 from around the world to learn from one another and develop new skills."</string>
+    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_2_title">"Sustainable development"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"The design shows a representation of planet Earth that is surrounded by the legend “Desenvolvimento Sustentável (Sustainable Development)”; on the left and upper edges, a branch-like row of 17 sets of leaves arranged in a triangle suggesting the universal recycling symbol, in a reference to the 17 Goals of the 2030 Agenda for Sustainable Development; on the lower and right edges the legend «Portugal», the national coat of arms of Portugal, the era, and the mintmark “Casa da Moeda” above the name of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_2_date">"First quarter 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Finnish state visits – diplomacy and foreign policy"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"The design features an abstract door symbolizing state visits, with a mirror-finish rectangular shape. The mintmark, the year 2025, and the lettering “FI” are positioned vertically along the left edge of the rectangle. The rectangle has a rounded top that follows the edge of the coin. Below and to the right, the surface is grooved with horizontal lines, while a circular shape intersects the curve of the image area. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"Spring 2025"</string>
+
+    <string name="twoeuro_comm_2025_sk_title">"100th anniversary of the first international sports tournament in the territory of the Slovak Republic – the Ice Hockey European Championship"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"The design depicts an ice hockey player in action, wearing a style of uniform typical of the period of the 1925 Ice Hockey European Championship. The player is set against a stylised panorama of the High Tatras, the Slovak mountain region where the championship took place. The inscription ‘MAJSTROVSTVÁ EURÓPY V HOKEJI’ (European championship in hockey) runs along the edge of the upper half of the coin’s inner circle. The years ‘1925’ and ‘2025’ appear in the upper left part of the design, one above the other. At the bottom is the name of the issuing country ‘SLOVENSKO’. To the right of the figure is the mint mark of Slovakia’s Kremnica Mint (Mincovňa Kremnica), the producer of the coin. Next to it are the initials ‘KL’ of the designer, Karol Ličko. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_sk_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_title">"National Lottery of Belgium"</string>
+    <string name="twoeuro_comm_2025_be_desc">"The design depicts in the centre the classical allegorical representation of good fortune, the goddess Fortuna, carrying the horn of plenty. On the right and below are 4 depictions of a four-leaf clover, another universal symbol of luck. Behind the image of Fortuna, the current National Lottery logo is visible. On the left side of the coin the text “loterie nationale loterij” is displayed. On the bottom left the country code BE and the year of issue 2025 are shown. At the bottom right, the initials of designer Iris Bruijns are visible. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff, is located underneath the year mark, together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_be_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"The 550th anniversary of the birth of Michelangelo"</string>
+    <string name="twoeuro_comm_2025_sm_desc">"The design depicts in the centre Cleopatra, detail of the drawing by Michelangelo Buonarroti, preserved at the Casa Buonarroti Foundation (Florence). At the left is the inscription “MICHELANGELO” in semi-circle, the letter R, identifying the Mint of Rome and the year “1475”, and at the right the name of issuing country “SAN MARINO” in semi-circle, the year “2025”. At the bottom are the initials of the author “SP” (Silvia Petrassi). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_date">"July 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"The design depicts in the centre a woman with an anchor, an allegory of Hope, while she takes a child by the hand, a symbol of humanity. On the left is the inscription “SAN MARINO”, four square sails, the letter “R”, identifying the Mint of Rome, and the initials of the author “DI MAULO” (Gabriele Di Maulo); at the top right an eight-pointed star, the inscription “IUBILAEUM 2025” and at the bottom the initials of the engraver “M.B.INC” (Marta Bonifacio). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_2_date">"March 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
+    <string name="twoeuro_comm_2025_fr_desc">"The design shows the facade of the Louvre on the east side, mixed with the iconic plan of the Museum's maze of extraordinary rooms. In the background, the pyramidion and the structure of the great pyramid illustrate the traditional and contemporary character of the Louvre. The year of issuance “”2025” and the indication of the country “RF”, as well as the mintmarks are inserted on the museum’s plan. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+    <string name="twoeuro_comm_2025_fr_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"Maltese ox (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"The design shows a rendition of the Maltese ox. The coin raises awareness of one of Malta’s indigenous breeds which is endangered. At the top, in semi-circle, is the inscription “IL-GENDUS MALTI”. At the bottom is the name of the issuing country “MALTA” and underneath is the year of issuance “2025”. At the bottom right are the initials of the designer “MAF” (Maria Anna Frisone). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
+    <string name="twoeuro_comm_2025_mc_desc">"The coin commemorates the fiefdom of Marquisate of Baux. This title was first held in 1642 by Hercule Grimaldi, son of Honoré II. Today, by historical tradition, it belongs to HSH Hereditary Prince Jacques. The design depicts the rock and the surrounding area of the village of Les Baux de Provence. At the top is the name of the issuing country 'MONACO.' At the bottom, in semi-circle is the inscription 'MARQUISAT DES BAUX.' The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_date">"November 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_2_title">"Comté de Carladès"</string>
+    <string name="twoeuro_comm_2025_mc_2_desc">"The coin commemorates the title of Count of Carladès, attributed, by historical tradition, to the second in the line of succession and which today belongs to Princess Gabriella. The design shows the facade of the hotel that belonged to the Grimaldi family until the Revolution. At the top is the name of the issuing country 'MONACO.' At the bottom, in semi-circle, is the inscription 'COMTE DE CARLADES.' The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_2_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"The recognition of Salamanca as a UNESCO World Heritage Site"</string>
+    <string name="twoeuro_comm_2025_es_desc">"The design shows a view of the 'Convento de San Esteban'. At the bottom, the legend ESPANA and the year of issue 2025. At the top, in capital letters, the word SALAMANCA and the mint mark 'Eme Coronada'. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"First quarter 2025"</string>
+
+    <string name="twoeuro_comm_2025_va_title">"The 550Th anniversary of the birth of Michelangelo"</string>
+    <string name="twoeuro_comm_2025_va_desc">"The design features the Dome of St. Peter's Basilica, designed by Michelangelo, who worked on it until his death in 1564. Below, a section of the vault of the Sistine Chapel, apportioned and frescoed by Michelangelo. On the left, vertically, appear Michelangelo's autograph signature 'michelagniolo', the letter 'R' identifying the Rome Mint, and the name of the coin 's designer 'D. LONGO' (Daniela Longo). The inscription 'CITTA’ DEL VATICANO', indicating the issuing State, is arranged in an arc above the Dome. Just below, the years '1475', Michelangelo's birth year, and '2025', the year of issuance are inscribed. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_va_volume">"80000"</string>
+    <string name="twoeuro_comm_2025_va_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_va_2_title">"Sede vacante 2025"</string>
+    <string name="twoeuro_comm_2025_va_2_desc">"The design depicts the coat of arms of the Cardinal Camerlengo positioned beneath the symbol of the Apostolic Chamber, represented by two crossed keys surmounted by a pavilion. The inscriptions “CITTA’ DEL VATICANO”, “SEDE VACANTE” and “MMXXV”, indicating the year of issue, are engraved along the coin’s edge. An abstract representation of a dove appears between the inscriptions “CITTA’ DEL VATICANO” and “SEDE VACANTE”. The letter “R”, identifying the Rome Mint, is placed below the Camerlengo’s coat of arms, flanked by the name of the coin’s engraver on the left, and the name of the coin’s designer on the right (“O. ROSSI” for Orietta Rossi). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
+    <string name="twoeuro_comm_2025_va_2_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_va_3_title">"Jubilee 2025"</string>
+    <string name="twoeuro_comm_2025_va_3_desc">"The design depicts the opening of the Holy Door at St. Peter's Basilica. To the right, vertically, the Latin inscription 'IVBILAEUM' and '2025,' indicating the year mark. At the bottom, in an arc, the inscription 'CITTA’ DEL VATICANO', indicating the issuing State. The letter 'R', identifying the Rome Mint, appears on the door; at the bottom left of the image, the inscription 'D. LONGO' features the name of the coin's designer (Daniela Longo). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
+    <string name="twoeuro_comm_2025_va_3_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"Defence"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"The design features the contours of Lithuania. The state borders are surrounded by a stylised spine barrier, symbolising the concept of holistic and whole-of-society defence. The image of the hedgehog also represents the openness and fragility of free societies, which must be defended, to the utmost, against external threats. Lithuania is presented as a hedgehog that remains at the ready to defend itself always. The centre of the design bears the inscription “LIETUVA” (LITHUANIA), the year of issue “2025”, and the mintmark of the Lithuanian Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"First quarter of 2025"</string>
+
+    <string name="twoeuro_comm_2025_de_title">"Federal state (Land) of Saarland"</string>
+    <string name="twoeuro_comm_2025_de_desc">"The design shows the Saarschleife bend in the Saar river, reduced to the key features of the motif of the meandering river, which characterises the hilly landscape. Groups of trees depicted along the course of the river symbolise the forested landscape around the picturesque Saarschleife. The bird’s-eye perspective means that the landmark natural waterway is seen embedded in the surrounding hills, which reach off into the distance. The inscription “Saarland” is positioned low down in the foreground, in order to not disturb the landscape’s sense of calmness and light. The upper half of the coin’s inner circle also features on the left the mark of the artist, Frankfurt-based Carsten Wolff, and on the right the letter “X” as placeholder for the mint mark of the respective mint (“A”, “D”, “F”, “G” or “J”). The lower half features the inscription “SAARLAND”, Germany’s issuing country code “D” and the year of issue, “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"The 75th anniversary of the Robert Schuman declaration of 9 May 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"The design depicts at the bottom a hand holding a pencil writing on a piece of paper. The upper part of the pencil ends up in an olive branch, continuing with doves, both being symbols of peace. The doves fly to the horizon showing six stars, representing the six Member States signing later the Treaty establishing the European Coal and Steel Community, for which the Schuman declaration set the basis. The upper part of the design shows the text 'DECLARATION SCHUMAN' as well as its date ' 09.05.1950 '. Below the number '75' represents the indication of the anniversary of the declaration. The name of the issuing country “LUXEMBOURG” as well as the year of issuance “2025” appear at the right of the design. The monogramme (letter 'H' with a crown) is a representation of Grand Duke Henri. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"February 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"The 25th anniversary of the accession to the throne of Grand Duke Henri"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"The design depicts in its centre the effigy of Grand Duke Henri and in the background the grand ducal Palace. The text '25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI' is depicted in semi-circular form above the effigy. The indication of the issuing country 'LETZEBUERG' as well as the year of issuance “2025” appear below the effigy. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"February 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"Jubilee 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"The design shows, in the centre, a depiction of the Holy Door located in the Basilica of Saint Peter. At the top, in semi-circle, the inscription 'IUBILAEUM', while at the bottom, always in semi-circle, closing the Latin inscription, a series of alternating empty and full fish, symbol of Christianity. On the left “2025”, year of the coin issuance and “R”, identifying the Mint of Rome; on the right “RI”, acronym of the Italian Republic and, “C.M.” author's initials (Claudia Momoni)”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"The design shows, in the center, a depiction of the Amerigo Vespucci Training Ship which, at full sail, plows the sea waves. In arch on the left, the writing ‘Amerigo Vespucci Tour Mondiale 2023-2025’; below on the left, ‘2025’, year of the coin issuance and ‘RI’, acronym of the Italian Republic; on the right, ‘R’, identifying the Mint of Rome; in exergue ‘E.FERRETTI’, signature of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"January 2025"</string>
 
     <!-- END auto generated code for language en -->
 
     <!-- BEGIN manual code for language en -->
 
-    <string name="twoeuro_comm_2023_po_2_title">"World youth day Lissabon 2023"</string>
-    <string name="twoeuro_comm_2023_po_2_desc">""</string>
-    <string name="twoeuro_comm_2023_po_2_volume">""</string>
-    <string name="twoeuro_comm_2023_po_2_date">"2023"</string>
-
-    <string name="twoeuro_comm_2024_ad_2_title">"100 Jahre Skisport in Andorra"</string>
-    <string name="twoeuro_comm_2024_ad_2_desc">""</string>
-    <string name="twoeuro_comm_2024_ad_2_volume">""</string>
-    <string name="twoeuro_comm_2024_ad_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_ad_title">"UCI Mountainbike-Weltmeisterschaften"</string>
-    <string name="twoeuro_comm_2024_ad_desc">""</string>
-    <string name="twoeuro_comm_2024_ad_volume">""</string>
-    <string name="twoeuro_comm_2024_ad_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_cy_title">"20 Jahre EU-Beitritt Zypern"</string>
-    <string name="twoeuro_comm_2024_cy_desc">""</string>
-    <string name="twoeuro_comm_2024_cy_volume">""</string>
-    <string name="twoeuro_comm_2024_cy_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_fi_2_title">"Architektur Finnlands – Gesellius, Lindgren, Saarinen"</string>
-    <string name="twoeuro_comm_2024_fi_2_desc">""</string>
-    <string name="twoeuro_comm_2024_fi_2_volume">""</string>
-    <string name="twoeuro_comm_2024_fi_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_hr_2_title">"500. Todestag von Marko Marulić"</string>
-    <string name="twoeuro_comm_2024_hr_2_desc">""</string>
-    <string name="twoeuro_comm_2024_hr_2_volume">""</string>
-    <string name="twoeuro_comm_2024_hr_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_sm_2_title">"530. Todestag von Ghirlandaio"</string>
-    <string name="twoeuro_comm_2024_sm_2_desc">""</string>
-    <string name="twoeuro_comm_2024_sm_2_volume">""</string>
-    <string name="twoeuro_comm_2024_sm_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_lt_title">"Strohgärten"</string>
-    <string name="twoeuro_comm_2024_lt_desc">""</string>
-    <string name="twoeuro_comm_2024_lt_volume">""</string>
-    <string name="twoeuro_comm_2024_lt_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_lv_title">"Himmeli - Strohkunst Puzuris"</string>
-    <string name="twoeuro_comm_2024_lv_desc">""</string>
-    <string name="twoeuro_comm_2024_lv_volume">""</string>
-    <string name="twoeuro_comm_2024_lv_date">"2024"</string>
-
     <string name="twoeuro_comm_2024_mt_2_title">"Stadtmauer Ċittadella Gozo"</string>
     <string name="twoeuro_comm_2024_mt_2_desc">""</string>
     <string name="twoeuro_comm_2024_mt_2_volume">""</string>
     <string name="twoeuro_comm_2024_mt_2_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_si_title">"250 Jahre National- und Universitätsbibliothek NARODNA IN UNIVERZITETNA KNIJŽNICA"</string>
-    <string name="twoeuro_comm_2024_si_desc">""</string>
-    <string name="twoeuro_comm_2024_si_volume">""</string>
-    <string name="twoeuro_comm_2024_si_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_sk_title">"100 Jahre Marathonlauf Košice"</string>
-    <string name="twoeuro_comm_2024_sk_desc">""</string>
-    <string name="twoeuro_comm_2024_sk_volume">""</string>
-    <string name="twoeuro_comm_2024_sk_date">"2024"</string>
-
-    <string name="twoeuro_comm_2024_va_title">"750. Todestag von Thomas von Aquin"</string>
-    <string name="twoeuro_comm_2024_va_desc">""</string>
-    <string name="twoeuro_comm_2024_va_volume">""</string>
-    <string name="twoeuro_comm_2024_va_date">"2024"</string>
-
 
     <string name="twoeuro_comm_2025_ad_title">"Der Bartgeier"</string>
     <string name="twoeuro_comm_2025_ad_desc">""</string>
@@ -2987,11 +3100,6 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_ad_2_desc">""</string>
     <string name="twoeuro_comm_2025_ad_2_volume">""</string>
     <string name="twoeuro_comm_2025_ad_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_be_title">"Rennstrecke Spa-Francorchamps"</string>
-    <string name="twoeuro_comm_2025_be_desc">""</string>
-    <string name="twoeuro_comm_2025_be_volume">""</string>
-    <string name="twoeuro_comm_2025_be_date">""</string>
 
     <string name="twoeuro_comm_2025_be_2_title">"Nationallotterie Belgien"</string>
     <string name="twoeuro_comm_2025_be_2_desc">""</string>
@@ -3008,11 +3116,6 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_hr_2_volume">""</string>
     <string name="twoeuro_comm_2025_hr_2_date">""</string>
 
-    <string name="twoeuro_comm_2025_de_title">"Saarschleife Saarland"</string>
-    <string name="twoeuro_comm_2025_de_desc">""</string>
-    <string name="twoeuro_comm_2025_de_volume">""</string>
-    <string name="twoeuro_comm_2025_de_date">""</string>
-
     <string name="twoeuro_comm_2025_de_2_title">"35 Jahre Deutsche Einheit"</string>
     <string name="twoeuro_comm_2025_de_2_desc">""</string>
     <string name="twoeuro_comm_2025_de_2_volume">""</string>
@@ -3023,25 +3126,10 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_ee_volume">""</string>
     <string name="twoeuro_comm_2025_ee_date">""</string>
 
-    <string name="twoeuro_comm_2025_es_title">"UNESCO-Weltkulturerbe – Altstadt von Salamanca"</string>
-    <string name="twoeuro_comm_2025_es_desc">""</string>
-    <string name="twoeuro_comm_2025_es_volume">""</string>
-    <string name="twoeuro_comm_2025_es_date">""</string>
-
-    <string name="twoeuro_comm_2025_fi_title">"Staatsbesuche Finnlands – Diplomatie und Außenpolitik"</string>
-    <string name="twoeuro_comm_2025_fi_desc">""</string>
-    <string name="twoeuro_comm_2025_fi_volume">""</string>
-    <string name="twoeuro_comm_2025_fi_date">""</string>
-
     <string name="twoeuro_comm_2025_fi_2_title">"100 Jahre Finnland-Schweden-Leichtathletikspiel"</string>
     <string name="twoeuro_comm_2025_fi_2_desc">""</string>
     <string name="twoeuro_comm_2025_fi_2_volume">""</string>
     <string name="twoeuro_comm_2025_fi_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_fr_title">"Louvre Museum"</string>
-    <string name="twoeuro_comm_2025_fr_desc">""</string>
-    <string name="twoeuro_comm_2025_fr_volume">""</string>
-    <string name="twoeuro_comm_2025_fr_date">""</string>
 
     <string name="twoeuro_comm_2025_fr_2_title">"Notre Dame"</string>
     <string name="twoeuro_comm_2025_fr_2_desc">""</string>
@@ -3058,110 +3146,55 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_gr_2_volume">""</string>
     <string name="twoeuro_comm_2025_gr_2_date">""</string>
 
-    <string name="twoeuro_comm_2025_it_title">"Jubiläum 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">""</string>
-    <string name="twoeuro_comm_2025_it_volume">""</string>
-    <string name="twoeuro_comm_2025_it_date">""</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Weltreise des Amerigo-Vespucci-Segelschulschiffes 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">""</string>
-    <string name="twoeuro_comm_2025_it_2_volume">""</string>
-    <string name="twoeuro_comm_2025_it_2_date">""</string>
-
     <string name="twoeuro_comm_2025_lv_title">"Sēlija"</string>
     <string name="twoeuro_comm_2025_lv_desc">""</string>
     <string name="twoeuro_comm_2025_lv_volume">""</string>
     <string name="twoeuro_comm_2025_lv_date">""</string>
-
-    <string name="twoeuro_comm_2025_lt_title">"Für die Verteidigung"</string>
-    <string name="twoeuro_comm_2025_lt_desc">""</string>
-    <string name="twoeuro_comm_2025_lt_volume">""</string>
-    <string name="twoeuro_comm_2025_lt_date">""</string>
 
     <string name="twoeuro_comm_2025_lt_2_title">"Litauische Ethnographische Regionen – Mažoji Lietuva"</string>
     <string name="twoeuro_comm_2025_lt_2_desc">""</string>
     <string name="twoeuro_comm_2025_lt_2_volume">""</string>
     <string name="twoeuro_comm_2025_lt_2_date">""</string>
 
-    <string name="twoeuro_comm_2025_lu_title">"25. Jahrestag der Thronbesteigung von Großherzog Henri"</string>
-    <string name="twoeuro_comm_2025_lu_desc">""</string>
-    <string name="twoeuro_comm_2025_lu_volume">""</string>
-    <string name="twoeuro_comm_2025_lu_date">""</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"75. Jahrestag der Schuman-Erklärung"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">""</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">""</string>
-    <string name="twoeuro_comm_2025_lu_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_mc_title">"Das alte Lehen der Familie Grimaldi: Baux"</string>
-    <string name="twoeuro_comm_2025_mc_desc">""</string>
-    <string name="twoeuro_comm_2025_mc_volume">""</string>
-    <string name="twoeuro_comm_2025_mc_date">""</string>
-
-    <string name="twoeuro_comm_2025_mc_2_title">"Das alte Lehen der Familie Grimaldi: Carladès"</string>
-    <string name="twoeuro_comm_2025_mc_2_desc">""</string>
-    <string name="twoeuro_comm_2025_mc_2_volume">""</string>
-    <string name="twoeuro_comm_2025_mc_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_mt_title">"Einheimische Arten: Der maltesische Ochse"</string>
-    <string name="twoeuro_comm_2025_mt_desc">""</string>
-    <string name="twoeuro_comm_2025_mt_volume">""</string>
-    <string name="twoeuro_comm_2025_mt_date">""</string>
-
     <string name="twoeuro_comm_2025_mt_2_title">"Maltesische Städte mit Stadtmauern: Mdina"</string>
     <string name="twoeuro_comm_2025_mt_2_desc">""</string>
     <string name="twoeuro_comm_2025_mt_2_volume">""</string>
     <string name="twoeuro_comm_2025_mt_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_po_title">"Nachhaltige Entwicklung"</string>
-    <string name="twoeuro_comm_2025_po_desc">""</string>
-    <string name="twoeuro_comm_2025_po_volume">""</string>
-    <string name="twoeuro_comm_2025_po_date">""</string>
-
-    <string name="twoeuro_comm_2025_po_2_title">"Weltpfadfinder- und Jugendbewegungen"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">""</string>
-    <string name="twoeuro_comm_2025_po_2_volume">""</string>
-    <string name="twoeuro_comm_2025_po_2_date">""</string>
 
     <string name="twoeuro_comm_2025_si_title">"100. Geburtstag von Miki Muster"</string>
     <string name="twoeuro_comm_2025_si_desc">""</string>
     <string name="twoeuro_comm_2025_si_volume">""</string>
     <string name="twoeuro_comm_2025_si_date">""</string>
 
-    <string name="twoeuro_comm_2025_sm_title">"Heiliges Jahr 2025 – Pilger der Hoffnung"</string>
-    <string name="twoeuro_comm_2025_sm_desc">""</string>
-    <string name="twoeuro_comm_2025_sm_volume">""</string>
-    <string name="twoeuro_comm_2025_sm_date">""</string>
+    <string name="twoeuro_comm_2026_de_title">"Konrad Adenauer"</string>
+    <string name="twoeuro_comm_2026_de_desc">""</string>
+    <string name="twoeuro_comm_2026_de_volume">""</string>
+    <string name="twoeuro_comm_2026_de_date">""</string>
 
-    <string name="twoeuro_comm_2025_sm_2_title">"550. Geburtstag von Michelangelo"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">""</string>
-    <string name="twoeuro_comm_2025_sm_2_volume">""</string>
-    <string name="twoeuro_comm_2025_sm_2_date">""</string>
+    <string name="twoeuro_comm_2026_de_2_title">"Bremen"</string>
+    <string name="twoeuro_comm_2026_de_2_desc">""</string>
+    <string name="twoeuro_comm_2026_de_2_volume">""</string>
+    <string name="twoeuro_comm_2026_de_2_date">""</string>
 
-    <string name="twoeuro_comm_2025_sk_title">"100 Jahre erstes internationales Sportturnier in der Slowakei – Eishockey-Europameisterschaft"</string>
-    <string name="twoeuro_comm_2025_sk_desc">""</string>
-    <string name="twoeuro_comm_2025_sk_volume">""</string>
-    <string name="twoeuro_comm_2025_sk_date">""</string>
+    <string name="twoeuro_comm_2026_lt_title">"Unabhängigkeit Litauens in der Energieversorgung"</string>
+    <string name="twoeuro_comm_2026_lt_desc">""</string>
+    <string name="twoeuro_comm_2026_lt_volume">""</string>
+    <string name="twoeuro_comm_2026_lt_date">""</string>
 
-    <string name="twoeuro_comm_2025_sl_title">"100. Geburtstag von Miki Muster"</string>
-    <string name="twoeuro_comm_2025_sl_desc">""</string>
-    <string name="twoeuro_comm_2025_sl_volume">""</string>
-    <string name="twoeuro_comm_2025_sl_date">""</string>
+    <string name="twoeuro_comm_2026_si_title">"150. Geburtstag von Ivan Cankar"</string>
+    <string name="twoeuro_comm_2026_si_desc">""</string>
+    <string name="twoeuro_comm_2026_si_volume">""</string>
+    <string name="twoeuro_comm_2026_si_date">""</string>
 
-    <string name="twoeuro_comm_2025_va_title">"Jubiläum 2025"</string>
-    <string name="twoeuro_comm_2025_va_desc">""</string>
-    <string name="twoeuro_comm_2025_va_volume">""</string>
-    <string name="twoeuro_comm_2025_va_date">"2025"</string>
+    <string name="twoeuro_comm_2026_sk_title">"Trenčín – Kulturhauptstadt Europas 2026"</string>
+    <string name="twoeuro_comm_2026_sk_desc">""</string>
+    <string name="twoeuro_comm_2026_sk_volume">""</string>
+    <string name="twoeuro_comm_2026_sk_date">""</string>
 
-    <string name="twoeuro_comm_2025_va_2_title">"550. Geburtstag von Michelangelo"</string>
-    <string name="twoeuro_comm_2025_va_2_desc">""</string>
-    <string name="twoeuro_comm_2025_va_2_volume">""</string>
-    <string name="twoeuro_comm_2025_va_2_date">"2025"</string>
-
-    <string name="twoeuro_comm_2025_va_3_title">"Sedisvakanz 2025"</string>
-    <string name="twoeuro_comm_2025_va_3_desc">""</string>
-    <string name="twoeuro_comm_2025_va_3_volume">""</string>
-    <string name="twoeuro_comm_2025_va_3_date">"2025"</string>
+    <string name="twoeuro_comm_2026_sk_2_title">"50. Jahrestag des Sieges der tschechoslowakischen Fußballmannschaft bei der EM 1976"</string>
+    <string name="twoeuro_comm_2026_sk_2_desc">""</string>
+    <string name="twoeuro_comm_2026_sk_2_volume">""</string>
+    <string name="twoeuro_comm_2026_sk_2_date">""</string>
 
     <!-- END manual code for language en -->
 
