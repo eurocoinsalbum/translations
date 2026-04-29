@@ -390,7 +390,7 @@
 	<string name="usage_secondary_device">"Sekundär enhet"</string>
 
 	<!-- version 7.12 -->
-	<string name="csv_header">"Land (Country);År (Year);Värde (Value);Tecken (Sign);Titel (Title);Skick (Condition);Officiell serie (Blister);Notering (Note);Tillagt datum (Added date);Betald (Paid);Byte blockerat (Block trading)"</string>
+	<string name="csv_header">"Land;År;Värde;Tecken;Titel;Skick;Officiell serie;Notering;Tillagt datum;Betald;Byte blockerat;Prägning"</string>
 
 	<!-- version 7.13 -->
 	<string name="collection_not_owner">"Samlingen '%1$s' har redan registrerats med en annan e-postadress. Vill du skapa en kopia?"</string>
@@ -403,6 +403,14 @@
 	<string name="rational_notifications">"Vänligen tillåt aviseringar för att få information om uppdaterade samlingar från dina vänner."</string>
 	<string name="notification_channel_collection_updates">"Uppdateringar av samlingar"</string>
 	<string name="ask_show_newest_coins">"Vill du se de senaste mynten?"</string>
+
+	<!-- version 7.15 -->
+	<string name="mints">"Myntpräglingar"</string>
+	<string name="gold">"Guld"</string>
+	<string name="silver">"Silver"</string>
+	<string name="polymer">"Polymer"</string>
+	<string name="custom_coin_collection_only">"Skapa för alla samlingar"</string>
+	<string name="coin_name_exists_already">"Myntet namn redan finns"</string>
 
 	<string name="how_trading_partner_works">"
 - Den handelsfunktionalitet är inte för nybörjare.
@@ -460,11 +468,10 @@ Lagt till nya myntbilder för Luxemburg 2026. Tack Guiseppe.
 Lagt till en notifikationskanal för samlingsuppdateringar.
 "</string>
 
-	<string name="version_history_current">"Version 7.13\n
-Fixat felaktig årsinställning i rubrikraden. Tack Jens.
-Fixat ett fel i migreringen av nya enheter. Tack Jochen.
-Lagt till offentliga euro-startpaket. Kan aktiveras i inställningarna.
-Lagt till bulgariska euromynt.
+	<string name="version_history_current">"Version 7.15\n
+Anpassade mynt för Tyskland stöder nu val av präglingsmärken. Tack till Florian.
+Landskoder har korrigerats för att följa ISO-standarden 3166-1 alfa-2. Tack till Thomas.
+Anpassade mynt kan nu skapas endast för en specifik samling.
 "</string>
 
 

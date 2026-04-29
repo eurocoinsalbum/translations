@@ -389,7 +389,8 @@
     <string name="usage_secondary_device">"Appareil secondaire"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Pays (Country);Année (Year);Valeur (Value);Signe (Sign);Titre (Title);État (Condition);Série officielle (Blister);Remarque (Note);Date ajoutée (Added date);Payé (Paid);Échange bloqué (Block trading)"</string>
+    <!-- version 7.12 -->
+    <string name="csv_header">"Pays;Année;Valeur;Signe;Titre;État;Série officielle;Remarque;Date ajoutée;Payé;Échange bloqué;Tirage"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"La collection '%1$s' a déjà été enregistrée avec une autre adresse e-mail. Voulez-vous créer une copie ?"</string>
@@ -402,6 +403,14 @@
     <string name="rational_notifications">"Veuillez autoriser les notifications pour être informé des collections mises à jour de vos amis."</string>
     <string name="notification_channel_collection_updates">"Mises à jour des collections"</string>
     <string name="ask_show_newest_coins">"Voulez-vous voir les pièces les plus récentes ?"</string>
+
+    <!-- version 7.15 -->
+    <string name="mints">"Ateliers monétaires"</string>
+    <string name="gold">"Or"</string>
+    <string name="silver">"Argent"</string>
+    <string name="polymer">"Polymère"</string>
+    <string name="custom_coin_collection_only">"Créer pour toutes les collections"</string>
+    <string name="coin_name_exists_already">"Le nom de la pièce existe déjà"</string>
 
     <string name="how_trading_partner_works">"
 - La fonctionnalité de trading n'est pas pour les débutants.
@@ -451,7 +460,7 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_current">"Version 7.14\n
+    <string name="version_history_last">"Version 7.14\n
 Ajout des pièces commémoratives 2€ manquantes 2026.
 Ajout de pièces commémoratives 2€ pour l'Allemagne, la Slovénie et la Slovaquie.
 Ajout de nouvelles images de pièces pour Monaco 2025 1€ et 2€. Merci Guiseppe.
@@ -459,11 +468,10 @@ Ajout de nouvelles images de pièces pour le Luxembourg 2026. Merci Guiseppe.
 Canal de notifications ajouté pour les mises à jour des collections.
 "</string>
 
-    <string name="version_history_last">"Version 7.13\n
-Correction d'un problème d'alignement de l'année dans la ligne d'en-tête. Merci Jens.
-Correction d'un bug dans la migration des nouveaux appareils. Merci Jochen.
-Ajout de kits de démarrage Euro publics. Peut être activé dans les paramètres.
-Ajout des pièces Euro bulgares.
+    <string name="version_history_current">"Version 7.15\n
+Les pièces personnalisées pour l'Allemagne prennent désormais en charge la sélection des marques de monnaie. Merci à Florian.
+Les codes de pays ont été corrigés pour respecter la norme ISO 3166-1 alpha-2. Merci à Thomas.
+Les pièces personnalisées peuvent désormais être créées uniquement pour une collection spécifique.
 "</string>
 
     <string name="coin_1cent">"1 Centime"</string>

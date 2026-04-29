@@ -16,7 +16,7 @@
     <string name="use_long_touch_to_force_details">"Kovanca ne obstaja. Uporabite dolg dotik, da odprete pogovorno okno podrobnosti kovancev."</string>
     <string name="mode_unlock_not_in_multiuser_or_eu">"Ni urejanja v pogledu Multiuser in EU"</string>
     <string name="yes">"Ja"</string>
-    <string name="no">"Ne"</string>
+    <string name="no">"nl"</string>
     <string name="multi_collection_view">"Več pogledov"</string>
     <string name="source_ecb">"Vir: EVROPSKA CENTRALNA BANKA"</string>
     <string name="ecb_info">"Informacije in slike vseh eurokovancev so brezplačno na voljo na spletni strani ECB"</string>
@@ -258,7 +258,7 @@
     <string name="usage_secondary_device">"Sekundarna naprava"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Država (Country);Leto (Year);Vrednost (Value);Znak (Sign);Naslov (Title);Stanje (Condition);Uradni set (Blister);Opomba (Note);Dodani datum (Added date);Plačano (Paid);Menjava blokirana (Block trading)"</string>
+    <string name="csv_header">"Država;Leto;Vrednost;Znak;Naslov;Stanje;Uradni set;Opomba;Dodani datum;Plačano;Menjava blokirana;Kovanje"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"Zbirka '%1$s' je že registrirana z drugim e-poštnim naslovom. Ali želite ustvariti kopijo?"</string>
@@ -272,7 +272,15 @@
     <string name="notification_channel_collection_updates">"Posodobitve zbirk"</string>
     <string name="ask_show_newest_coins">"Želite videti najnovejše kovance?"</string>
 
-    <string name="version_history_current">"Različica 7.14\n
+    <!-- version 7.15 -->
+    <string name="mints">"Kovničarne"</string>
+    <string name="gold">"Zlato"</string>
+    <string name="silver">"Srebro"</string>
+    <string name="polymer">"Polimer"</string>
+    <string name="custom_coin_collection_only">"Ustvari za vse zbirke"</string>
+    <string name="coin_name_exists_already">"Ime kovanca že obstaja"</string>
+
+    <string name="version_history_last">"Različica 7.14\n
 Dodani manjkajoči 2€ spominski kovanci 2026.
 Dodani 2€ spominski kovanci za Nemčijo, Slovenijo in Slovaško.
 Dodane nove slike kovancev za Monako 2025 1€ in 2€. Hvala Guiseppe.
@@ -280,11 +288,10 @@ Dodane nove slike kovancev za Luksemburg 2026. Hvala Guiseppe.
 Dodan kanal za obvestila za posodobitve zbirk.
 "</string>
 
-    <string name="version_history_last">"Različica 7.13\n
-Popravljena napačna uskladitev leta v glavi. Hvala, Jens.
-Popravljena napaka pri migraciji novih naprav. Hvala, Jochen.
-Dodani javni začetni kompleti evrov. Lahko se omogočijo v nastavitvah.
-Dodani bolgarski evrski kovanci.
+    <string name="version_history_current">"Različica 7.15\n
+Lastne kovance za Nemčijo sedaj podpirajo izbiro žigov. Hvala Florian.
+Kodekse države so bili odpravljeni v skladu z ISO standardom 3166-1 alfa-2. Hvala Thomas.
+Lastne kovance je mogoče zdaj ustvariti samo za določeno zbirko.
 "</string>
 
 

@@ -389,7 +389,7 @@
     <string name="usage_secondary_device">"Dispositivo secondario"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Paese (Country);Anno (Year);Valore (Value);Segno (Sign);Titolo (Title);Condizione (Condition);Serie ufficiale (Blister);Nota (Note);Data aggiunta (Added date);Pagato (Paid);Scambio bloccato (Block trading)"</string>
+    <string name="csv_header">"Paese;Anno;Valore;Segno;Titolo;Condizione;Serie ufficiale;Nota;Data aggiunta;Pagato;Scambio bloccato;Tiratura"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"La collezione '%1$s' è già stata registrata con un altro indirizzo e-mail. Vuoi creare una copia?"</string>
@@ -402,6 +402,14 @@
     <string name="rational_notifications">"Consenti le notifiche per essere informato sulle collezioni aggiornate dei tuoi amici."</string>
     <string name="notification_channel_collection_updates">"Aggiornamenti raccolte"</string>
     <string name="ask_show_newest_coins">"Vuoi vedere le monete più recenti?"</string>
+
+    <!-- version 7.15 -->
+    <string name="mints">"Zecche"</string>
+    <string name="gold">"Oro"</string>
+    <string name="silver">"Argento"</string>
+    <string name="polymer">"Polimero"</string>
+    <string name="custom_coin_collection_only">"Crea per tutte le collezioni"</string>
+    <string name="coin_name_exists_already">"Il nome della moneta esiste già"</string>
 
     <string name="how_trading_partner_works">"
 - La funzionalità di trading non è per principianti.
@@ -451,7 +459,7 @@
 - Se non si desidera avviare o continuare una sessione di negoziazione si può semplicemente eliminare la raccolta di trading. Vi verrà chiesto se si desidera eliminare la raccolta partner commerciale sottostante pure.
 "</string>
 
-    <string name="version_history_current">"Versione 7.14\n
+    <string name="version_history_last">"Versione 7.14\n
 Aggiunte le monete commemorative da 2€ mancanti del 2026.
 Aggiunte monete commemorative da 2€ per Germania, Slovenia e Slovacchia.
 Aggiunte nuove immagini delle monete per Monaco 2025 1€ e 2€. Grazie Guiseppe.
@@ -459,11 +467,10 @@ Aggiunte nuove immagini delle monete per Lussemburgo 2026. Grazie Guiseppe.
 Aggiunto canale di notifiche per gli aggiornamenti delle collezioni.
 "</string>.
 
-    <string name="version_history_last">"Versione 7.13\n
-Corretto l'allineamento errato dell'anno nella riga dell'intestazione. Grazie Jens.
-Corretto un bug nella migrazione dei nuovi dispositivi. Grazie Jochen.
-Aggiunti set iniziali Euro pubblici. Possono essere abilitati nelle impostazioni.
-Aggiunte monete Euro bulgare.
+    <string name="version_history_current">"Versione 7.15\n
+Le monete personalizzate per la Germania ora supportano la selezione dei segni di zecca. Grazie a Florian.
+I codici paese sono stati corretti per seguire lo standard ISO 3166-1 alpha-2. Grazie a Thomas.
+Le monete personalizzate possono ora essere create solo per una raccolta specifica.
 "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

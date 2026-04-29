@@ -17,7 +17,7 @@
 	<string name="use_long_touch_to_force_details">"Moneta neįvesta. Palaikykite nuspaudę iškviesti monetos detalių langą."</string>
 	<string name="mode_unlock_not_in_multiuser_or_eu">"Kelių vartotojų ir ES rodmenyse negalima redaguoti informacijos"</string>
 	<string name="yes">"Taip"</string>
-	<string name="no">"Ne"</string>
+	<string name="no">"ne"</string>
 	<string name="multi_collection_view">"Kelių kolekcija rodinys"</string>
 	<string name="source_ecb">"Šaltinis: Europos Centrinis Bankas"</string>
 	<string name="ecb_info">"Euromonetų informacija ir atvaizdai nemokamai prieinami ECB internetiniame puslapyje"</string>
@@ -165,7 +165,7 @@
 	<string name="usage_secondary_device">"Antrinis įrenginys"</string>
 
 	<!-- version 7.12 -->
-	<string name="csv_header">"Šalis (Country);Metai (Year);Vertė (Value);Ženklas (Sign);Pavadinimas (Title);Būklė (Condition);Oficialus rinkinys (Blister);Pastaba (Note);Pridėjimo data (Added date);Sumokėta (Paid);Keitimas užblokuotas (Block trading)"</string>
+	<string name="csv_header">"Šalis;Metai;Vertė;Ženklas;Pavadinimas;Būklė;Oficialus rinkinys;Pastaba;Pridėjimo data;Sumokėta;Keitimas užblokuotas;Kalimas"</string>
 
 	<!-- version 7.13 -->
 	<string name="collection_not_owner">"Kolekcija '%1$s' jau buvo užregistruota kitu el. pašto adresu. Ar norite sukurti kopiją?"</string>
@@ -179,7 +179,15 @@
 	<string name="notification_channel_collection_updates">"Kolekcijos atnaujinimai"</string>
 	<string name="ask_show_newest_coins">"Ar norite pamatyti naujausias monetas?"</string>
 
-	<string name="version_history_current">"Versija 7.14\n
+	<!-- version 7.15 -->
+	<string name="mints">"Monetos kalyklos"</string>
+	<string name="gold">"Auksas"</string>
+	<string name="silver">"Sidabras"</string>
+	<string name="polymer">"Polimeras"</string>
+	<string name="custom_coin_collection_only">"Kurti visoms kolekcijomsms"</string>
+	<string name="coin_name_exists_already">"Monetos pavadinimas jau egzistuoja"</string>
+
+	<string name="version_history_last">"Versija 7.14\n
 Pridėtos trūkstamos 2€ minėtos monetos 2026.
 Pridėtos 2€ minėtos monetos Vokietijai, Slovėnijai ir Slovakijai.
 Pridėtos naujos monetų nuotraukos Monakas 2025 1€ ir 2€. Ačiū Guiseppe.
@@ -187,11 +195,10 @@ Pridėtos naujos monetų nuotraukos Liuksemburgas 2026. Ačiū Guiseppe.
 Pridėtas pranešimų kanalas kolekcijų atnaujinimams.
 "</string>
 
-	<string name="version_history_last">"Versija 7.13\n
-Ištaisyta klaidinga metų nuoroda antraštės eilutėje. Ačiū, Jens.
-Ištaisyta klaida perkeliant naujus įrenginius. Ačiū, Jochen.
-Pridėti vieši euro pradedančiųjų rinkiniai. Juos galima įjungti nustatymuose.
-Pridėtos bulgarų euro monetos.
+	<string name="version_history_current">"Versija 7.15\n
+Pasirinktinės Vokietijos monetos dabar palaiko monetų ženklo pasirinkimą. Ačiū Florianui.
+Šalies kodai pataisyti, kad atitiktų ISO 3166-1 alfa-2 standartą. Ačiū Thomasui.
+Pasirinktines monetas dabar galima kurti tik konkrečiai kolekcijai.
 "</string>
 
 	<string name="coin_1cent">"1 centas"</string>

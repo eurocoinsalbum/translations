@@ -206,6 +206,7 @@
     <string name="collection_not_online_managed">"Collection is not online managed"</string>
     <string name="close">"Close"</string>
     <string name="pref_collect_german_mints">"Collect german mints"</string>
+    <string name="select_at_least_one_mint">"Please select at least one mint"</string>
     <string name="pref_collect_greece_2002_foreign_mints">"Collect greece 2002 foreign mints"</string>
     <string name="collect_no_years_but_german_mints_is_invalid">"Not collecting years but german mints is an unsupported combination"</string>
 
@@ -409,6 +410,14 @@
     <string name="notification_channel_collection_updates">"Collection updates"</string>
     <string name="ask_show_newest_coins">"Do you want to see the newest coins?"</string>
 
+    <!-- version 7.15 -->
+    <string name="mints">"Mints"</string>
+    <string name="gold">"Gold"</string>
+    <string name="silver">"Silver"</string>
+    <string name="polymer">"Polymer"</string>
+    <string name="custom_coin_collection_only">"Create for all collections"</string>
+    <string name="coin_name_exists_already">"Coin name exists already"</string>
+
     <!-- Trading text change -->
     <!-- version 8.0 -->
     <string name="interested_in_trading_title">"Trading with other users"</string>
@@ -465,7 +474,7 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_current">"Version 7.14
+    <string name="version_history_last">"Version 7.14
 Added missing 2€ commemorative coins 2026.
 Added 2€ commemorative coins for Germany, Slovenia and Slovakia.
 Added new coin images for Monaco 2025 1€ and 2€. Thanks Guiseppe.
@@ -473,11 +482,10 @@ Added new coin images for Luxembourg 2026. Thanks Guiseppe.
 Added notification channel for collection updates.
 "</string>
 
-    <string name="version_history_last">"Version 7.13
-Fixed wrong year alignment in the header line. Thanks Jens.
-Fixed a bug in new device migration. Thanks Jochen.
-Added public Euro starter sets. Can be enabled in the settings.
-Added Bulgarian Euro coins.
+    <string name="version_history_current">"Version 7.15
+Custom coins for Germany support now selection of mint marks. Thanks to Florian.
+Fixed country codes to follow ISO standard 3166-1 alpha-2. Thanks to Thomas.
+Custom coins can now be created for a specific collection only.
 "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
@@ -3181,6 +3189,26 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2026_lt_volume">""</string>
     <string name="twoeuro_comm_2026_lt_date">""</string>
 
+    <string name="twoeuro_comm_2026_mt_title">"Valletta"</string>
+    <string name="twoeuro_comm_2026_mt_desc">""</string>
+    <string name="twoeuro_comm_2026_mt_volume">""</string>
+    <string name="twoeuro_comm_2026_mt_date">"2026"</string>
+
+    <string name="twoeuro_comm_2026_mt_2_title">"Pharaonenhund"</string>
+    <string name="twoeuro_comm_2026_mt_2_desc">""</string>
+    <string name="twoeuro_comm_2026_mt_2_volume">""</string>
+    <string name="twoeuro_comm_2026_mt_2_date">"2026"</string>
+
+    <string name="twoeuro_comm_2026_po_title">"100 Jahre Rotary Club Portugal"</string>
+    <string name="twoeuro_comm_2026_po_desc">""</string>
+    <string name="twoeuro_comm_2026_po_volume">""</string>
+    <string name="twoeuro_comm_2026_po_date">"2026"</string>
+
+    <string name="twoeuro_comm_2026_po_2_title">"70 Jahre Calouste-Gulbenkian-Stiftung"</string>
+    <string name="twoeuro_comm_2026_po_2_desc">""</string>
+    <string name="twoeuro_comm_2026_po_2_volume">""</string>
+    <string name="twoeuro_comm_2026_po_2_date">"2026"</string>
+
     <string name="twoeuro_comm_2026_si_title">"150. Geburtstag von Ivan Cankar"</string>
     <string name="twoeuro_comm_2026_si_desc">""</string>
     <string name="twoeuro_comm_2026_si_volume">""</string>
@@ -3195,6 +3223,11 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2026_sk_2_desc">""</string>
     <string name="twoeuro_comm_2026_sk_2_volume">""</string>
     <string name="twoeuro_comm_2026_sk_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_it_title">"Pinocchio"</string>
+    <string name="twoeuro_comm_2026_it_desc">""</string>
+    <string name="twoeuro_comm_2026_it_volume">""</string>
+    <string name="twoeuro_comm_2026_it_date">""</string>
 
     <!-- END manual code for language en -->
 

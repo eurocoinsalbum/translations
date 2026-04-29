@@ -390,7 +390,7 @@
     <string name="usage_secondary_device">"Secundair apparaat"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Land (Country);Jaar (Year);Waarde (Value);Teken (Sign);Titel (Title);Staat (Condition);Officiële set (Blister);Opmerking (Note);Datum toegevoegd (Added date);Betaald (Paid);Ruil geblokkeerd (Block trading)"</string>
+    <string name="csv_header">"Land;Jaar;Waarde;Teken;Titel;Staat;Officiële set;Opmerking;Datum toegevoegd;Betaald;Ruil geblokkeerd;Oplage"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"De collectie '%1$s' is al geregistreerd met een ander e-mailadres. Wilt u een kopie maken?"</string>
@@ -403,6 +403,14 @@
     <string name="rational_notifications">"Sta meldingen toe om geïnformeerd te worden over bijgewerkte verzamelingen van uw vrienden."</string>
     <string name="notification_channel_collection_updates">"Collectie-updates"</string>
     <string name="ask_show_newest_coins">"Wilt u de nieuwste munten zien?"</string>
+
+    <!-- version 7.15 -->
+    <string name="mints">"Munt- en penningen"</string>
+    <string name="gold">"Goud"</string>
+    <string name="silver">"Zilver"</string>
+    <string name="polymer">"Polymeer"</string>
+    <string name="custom_coin_collection_only">"Maken voor alle collecties"</string>
+    <string name="coin_name_exists_already">"Muntennaam bestaat al"</string>
 
     <string name="how_trading_partner_works">"
 - De trading functionaliteit is niet voor beginners.
@@ -452,7 +460,7 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_current">"Version 7.14\n
+    <string name="version_history_last">"Version 7.14\n
 Toegevoegd ontbrekende 2€ herdenkingsmunten 2026.
 Toegevoegd 2€ herdenkingsmunten voor Duitsland, Slovenië en Slowakije.
 Toegevoegd nieuwe muntafbeeldingen voor Monaco 2025 1€ en 2€. Dank aan Guiseppe.
@@ -460,11 +468,10 @@ Toegevoegd nieuwe muntafbeeldingen voor Luxemburg 2026. Dank aan Guiseppe.
 Meldingskanaal toegevoegd voor collectie-updates.
 "</string>
 
-    <string name="version_history_last">"Versie 7.13\n
-Verkeerde jaaraanduiding in de koptekst gecorrigeerd. Bedankt, Jens.
-Bug in migratie van nieuwe apparaten verholpen. Bedankt, Jochen.
-Openbare euro-startersets toegevoegd. Kan worden ingeschakeld in de instellingen.
-Bulgaarse euromunten toegevoegd.
+    <string name="version_history_current">"Versie 7.15\n
+Aangepaste munten voor Duitsland ondersteunen nu de selectie van muntmerken. Bedankt aan Florian.
+Landencodes zijn gecorrigeerd volgens ISO-standaard 3166-1 alpha-2. Bedankt aan Thomas.
+Aangepaste munten kunnen nu alleen voor een specifieke verzameling worden gemaakt.
 "</string>
 
     <string name="coin_1cent">"1 Cent"</string>

@@ -138,7 +138,7 @@
     <string name="linked_collection_read_only">"Mit mir geteilte Sammlungen können nicht verändert werden."</string>
     <string name="load_file_error">"Fehler beim Laden der Datei %1$s"</string>
     <string name="no_cloud_features_activated">"Cloud (Internet) Funktionalitäten sind deaktiviert."</string>
-    <string name="not_saved_load_error">"User %1$s not saved because of previous load error. Unlock edit mode to force save."</string>
+    <string name="not_saved_load_error">"Sammlung %1$s wurde wegen vorangegangener Ladefehler nicht gespeichert. Drück auf das Schloss-Symbol und die Fehler zu ignorieren."</string>
     <string name="collection_infos_general">"Name: %1$s\nSammlung Nummer: %2$s\nGeteilt: %3$s\nÖffentlicher Name: %4$s\nBesitzer: %5$s\nSynchronisiert: %6$s\nTauschpartner: %7$s"</string>
     <string name="collection_deleted">"Sammlung '%1$s' gelöscht"</string>
     <string name="collection_sharing_retracted">"Mit mir geteilte Sammlung %1$s wurde vom Besitzer zurückgezogen"</string>
@@ -382,7 +382,7 @@
     <string name="usage_secondary_device">"Zweitgerät"</string>
 
     <!-- version 7.12 -->
-    <string name="csv_header">"Land (Country);Jahr (Year);Münzwert (Value);Münzzeichen (Sign);Bezeichnung (Title);Zustand (Condition);KMS (Blister);Notiz (Note);Datum hinzugefügt (Added date);Bezahlt (Paid);Tausch geblockt (Block trading), Auflage (Minted)"</string>
+    <string name="csv_header">"Land;Jahr;Münzwert;Münzzeichen;Bezeichnung;Zustand;KMS;Notiz;Datum hinzugefügt;Bezahlt;Tausch geblockt;Auflage"</string>
 
     <!-- version 7.13 -->
     <string name="collection_not_owner">"Die Sammlung '%1$s' wurde bereits mit einer anderen E-Mail-Adresse registriert. Möchten Sie eine Kopie erstellen?"</string>
@@ -395,6 +395,14 @@
     <string name="rational_notifications">"Bitte erlauben Sie Benachrichtigungen, um über aktualisierte Sammlungen Ihrer Freunde informiert zu werden."</string>
     <string name="notification_channel_collection_updates">"Sammlungsaktualisierungen"</string>
     <string name="ask_show_newest_coins">"Möchten Sie die neuesten Münzen sehen?"</string>
+
+    <!-- version 7.15 -->
+    <string name="mints">"Münzstätten"</string>
+    <string name="gold">"Gold"</string>
+    <string name="silver">"Silber"</string>
+    <string name="polymer">"Polymer"</string>
+    <string name="custom_coin_collection_only">"Für alle Sammlungen erstellen"</string>
+    <string name="coin_name_exists_already">"Münzbezeichnung existiert bereits"</string>
 
     <string name="how_trading_partner_works">"
     - Die Tauschfunktionalität ist NICHT für Anfänger.
@@ -443,7 +451,7 @@
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
 
-    <string name="version_history_current">"Version 7.14\n
+    <string name="version_history_last">"Version 7.14\n
 Fehlende 2€ Gedenkmünzen 2026 hinzugefügt.
 2€ Gedenkmünzen für Deutschland, Slowenien und Slowakei hinzugefügt.
 Neue Münzbilder für Monaco 2025 1€ und 2€ hinzugefügt. Danke Guiseppe.
@@ -451,11 +459,10 @@ Neue Münzbilder für Luxemburg 2026 hinzugefügt. Danke Guiseppe.
 Benachrichtigungen hinzugefügt, um über aktualisierte Sammlungen von Freunden informiert zu werden.
 "</string>
 
-    <string name="version_history_last">"Version 7.13\n
-Fehlerhafte Jahresangabe in der Kopfzeile korrigiert. Danke, Jens.
-Fehler bei der Migration neuer Geräte behoben. Danke, Jochen.
-Öffentliche Euro-Starter-Sets hinzugefügt. Kann in den Einstellungen aktiviert werden.
-Bulgarische Euro-Münzen hinzugefügt.
+    <string name="version_history_current">"Version 7.15\n
+Benutzerdefinierte Münzen für Deutschland unterstützen jetzt die Auswahl von Münzzeichen. Danke an Florian.
+Länder-Codes wurden korrigiert, um dem ISO-Standard 3166-1 Alpha-2 zu entsprechen. Danke an Thomas.
+Benutzerdefinierte Münzen können jetzt für eine bestimmte Sammlung erstellt werden.
 "</string>
 
     <string name="coin_1cent">"1 Cent"</string>
