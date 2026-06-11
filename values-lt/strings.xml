@@ -187,15 +187,12 @@
 	<string name="custom_coin_collection_only">"Kurti visoms kolekcijomsms"</string>
 	<string name="coin_name_exists_already">"Monetos pavadinimas jau egzistuoja"</string>
 
-	<string name="version_history_last">"Versija 7.14\n
+	<string name="version_history_current">"Versija 7.16\n
 Pridėtos trūkstamos 2€ minėtos monetos 2026.
-Pridėtos 2€ minėtos monetos Vokietijai, Slovėnijai ir Slovakijai.
-Pridėtos naujos monetų nuotraukos Monakas 2025 1€ ir 2€. Ačiū Guiseppe.
-Pridėtos naujos monetų nuotraukos Liuksemburgas 2026. Ačiū Guiseppe.
-Pridėtas pranešimų kanalas kolekcijų atnaujinimams.
+Ilgas paspaudimas ant monetos ES rodinyje dabar rodo visas monetas.
 "</string>
 
-	<string name="version_history_current">"Versija 7.15\n
+	<string name="version_history_last">"Versija 7.15\n
 Pasirinktinės Vokietijos monetos dabar palaiko monetų ženklo pasirinkimą. Ačiū Florianui.
 Šalies kodai pataisyti, kad atitiktų ISO 3166-1 alfa-2 standartą. Ačiū Thomasui.
 Pasirinktines monetas dabar galima kurti tik konkrečiai kolekcijai.
@@ -2627,6 +2624,131 @@ f	<string name="twoeuro_comm_2023_po_2_date">"2023 m. liepos mėn."</string>
 	<string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
 	<string name="twoeuro_comm_2024_it_2_date">"2024 m. sausio mėn."</string>
 
+	<string name="twoeuro_comm_2025_ad_title">"Europos mažųjų valstybių žaidynės (2025 m. surengtos Andoroje)"</string>
+	<string name="twoeuro_comm_2025_ad_desc">"monetoje vaizduojami kai kurių skirtingų šių varžybų sporto šakų simboliai kartu su užrašais „JOCS DELS PETITS ESTATS D’EUROPA“ (Europos mažųjų valstybių žaidynės) ir „ANDORRA 2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+	<string name="twoeuro_comm_2025_ad_date">"2025 m. antrasis pusmetis"</string>
+
+	<string name="twoeuro_comm_2025_ad_2_title">"avėdra"</string>
+	<string name="twoeuro_comm_2025_ad_2_desc">"siekiant didinti informuotumą apie laukinės gyvūnijos ir aplinkos apsaugos svarbą, monetoje stambiu planu vaizduojamas gresiančios išnykti rūšies paukštis avėdra (Gypaetus barbatos"</string>
+	<string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+	<string name="twoeuro_comm_2025_ad_2_date">"2025 m. antrasis pusmetis"</string>
+
+	<string name="twoeuro_comm_2025_be_2_title">"Belgijos Spa Frankoršano automobilių lenktynių trasa"</string>
+	<string name="twoeuro_comm_2025_be_2_desc">"monetos centre pavaizduota dabartinės Spa Frankoršano lenktynių trasos schema. Kairėje monetos pusėje iškaltas bendras trasos ilgis (metrais) „7.004 M“, o po juo – trasos įrengimo metai „1921“. Virš trasos schemos – tekstas „CIRCUIT DE SPA FRANCORCHAMPS“. Monetos apačioje – šalies kodas „BE“ ir monetos išleidimo metai „2025“, taip pat Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone ir Utrechto kalyklos ženklas – Merkurijaus lazda (nes monetas kaldins Karališkoji Nyderlandų monetų kalykla).  Dešinėje monetos pusėje – dizaino autorės Irisės Bruijnsės inicialai „IB“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+	<string name="twoeuro_comm_2025_be_2_date">"2025 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2025_be_title">"Belgijos nacionalinė loterija"</string>
+	<string name="twoeuro_comm_2025_be_desc">"monetos centre pavaizduota klasikinė sėkmės alegorija – gausybės ragą laikanti deivė Fortūna. Dešinėje ir apačioje iškalti keturi keturlapiai dobilai (dar vienas visuotinis sėkmės simbolis). Už Fortūnos atvaizdo matyti dabartinis Nacionalinės loterijos logotipas. Monetos kairėje – tekstas „loterie nationale loterij“. Apačioje kairėje – šalies kodas „BE“ ir monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės Irisės Bruijnsės inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, po metų nuoroda iškaltas Utrechto kalyklos ženklas – Merkurijaus lazda – ir Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_be_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_de_title">"Saro krašto federacinė žemė"</string>
+	<string name="twoeuro_comm_2025_de_desc">"monetoje iškalta Saro upės kilpa (Saarschleife"</string>
+	<string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+	<string name="twoeuro_comm_2025_de_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_ee_title">"pirmojo leidinio su estų kalbos žodžiais, žyminčio estų literatūrinės kalbos pradžią, 500-osios metinės"</string>
+	<string name="twoeuro_comm_2025_ee_desc">"monetos centre pavaizduota didžiąją raidę „E“ sudaranti knygų kompozicija, simbolizuojanti estų rašytinės kalbos tradiciją, įrašas „EESTI RAAMAT 500“ („500 metų knygoms estų kalba“) ir metai „1525“, kada pirmą kartą išleista knyga estų kalba. Monetoje taip pat iškalti monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+	<string name="twoeuro_comm_2025_ee_date">"2025 m. antrasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_es_title">"Salamankos pripažinimas UNESCO pasaulio paveldo objektu"</string>
+	<string name="twoeuro_comm_2025_es_desc">"monetoje pavaizduotas Šv. Stepono vienuolynas (Convento de San Esteban). Apačioje – įrašas „ESPANA“ ir monetos išleidimo metai „2025“. Viršuje didžiosiomis raidėmis – žodis „SALAMANCA“ ir kalyklos ženklas (karūnuota raidė M). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+	<string name="twoeuro_comm_2025_es_date">"2025 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_fi_2_title">"Suomijos ir Švedijos tarptautinės atletikos varžybos"</string>
+	<string name="twoeuro_comm_2025_fi_2_desc">"monetoje pavaizduotos dvi judančios kojos ir bėgimo taką vaizduojančios lenktos brūkšninės linijos. Monetoje, puoselėjant tiek Suomijos sporto tradiciją, tiek renginio kolektyvinę dvasią, įamžintos Suomijos ir Švedijos tarptautinių atletikos varžybų 100-osios metinės. Viršuje horizontaliai iškalti metai „2025“. Kompozicijos viduryje kairiajame pakraštyje – kalyklos ženklas, o dešiniajame – įrašas „FI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+	<string name="twoeuro_comm_2025_fi_2_date">"2025 m. ruduo"</string>
+
+	<string name="twoeuro_comm_2025_fi_title">"Suomijos valstybiniai vizitai (diplomatija ir užsienio politika)"</string>
+	<string name="twoeuro_comm_2025_fi_desc">"monetoje abstrakčiai pavaizduotos valstybinius vizitus simbolizuojančios durys – iki veidrodinio blizgesio nugludinta stačiakampio forma. Palei kairįjį stačiakampio kraštą vertikalia kryptimi iškaltas kalyklos ženklas, metai „2025“ ir raidės „FI“. Suapvalintas stačiakampio viršus sutampa su monetos vidinės dalies pakraščiu. Apačioje ir dešinėje monetos paviršius išraižytas vertikaliomis linijomis, o šias kerta ir apskritą figūrą suformuoja kreivė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+	<string name="twoeuro_comm_2025_fi_date">"2025 m. pavasaris"</string>
+
+	<string name="twoeuro_comm_2025_fr_2_title">"Paryžiaus Švč. Dievo Motinos katedra"</string>
+	<string name="twoeuro_comm_2025_fr_2_desc">"kalykla „Monnaie de Paris“ įamžina garsiąją Paryžiaus Švč. Dievo Motinos katedrą, kuriai atstatyti susibūrė šimtai amatininkų, o jos atidarymui 2024 m. gruodžio mėn. paminėti – milijonai žmonių. Monetos centre pavaizduotas iš aikštės matomas Paryžiaus Švč. Dievo Motinos katedros fasadas. Bokšto smailės fone matyti rožės formos vitražinis langas. Kairėje pusėje iškalti metai „2025“ ir įrašas „RF“ kartu su kalyklos „Monnaie de Paris“ ženklu. Dešinėje pusėje iškaltas pavadinimas „NOTRE-DAME DE PARIS“ kartu su kalyklos vyriausiojo graverio ženklu. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+	<string name="twoeuro_comm_2025_fr_2_date">"2025 m. rugsėjo mėn."</string>
+
+	<string name="twoeuro_comm_2025_fr_title">"Luvras"</string>
+	<string name="twoeuro_comm_2025_fr_desc">"monetoje pavaizduotas rytinis Luvro fasadas, iš dalies užklojantis garsųjį planą, vaizduojantį įspūdingų šio muziejaus salių labirintą. Fone pavaizduota piramidinė viršūnė ir didžiosios piramidės struktūra simbolizuoja, kad Luvras – vieta, kurioje tradicijos pinasi su modernumu. Ant muziejaus plano iškalti monetos išleidimo metai „2025“, šalies kodas „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+	<string name="twoeuro_comm_2025_fr_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_gr_title">"Laskarinos Bouboulinos 200-osios mirties metinės"</string>
+	<string name="twoeuro_comm_2025_gr_desc">"monetoje iškaltas Laskarinos Bouboulinos portretas, fone – stilizuotas laivo stiebas ir takelažas. Aplink atvaizdą pakraštyje iškalti įrašai „200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ“ („LASKARINOS BOUBOULINOS 200-OSIOS MIRTIES METINĖS“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“). Kairėje – palmetė (Graikijos kalyklos ženklas) ir kaldinimo metai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+	<string name="twoeuro_comm_2025_gr_date">"2025 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2025_gr_2_title">"Mikio Theodorakio 100-osios gimimo metinės"</string>
+	<string name="twoeuro_comm_2025_gr_2_desc">"monetoje pavaizduotas kompozitorius Mikis Theodorakis. Aplink jo atvaizdą pakraštyje iškalti įrašai „100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ“ („MIKIO THEODORAKIO 100-OSIOS GIMIMO METINĖS“) ir „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ („GRAIKIJOS RESPUBLIKA“); apačioje – kaldinimo metai, dešinėje – palmetė (Graikijos kalyklos ženklas), o kairėje – G raktas ir penklinė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+	<string name="twoeuro_comm_2025_gr_2_date">"2025 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2025_hr_title">"Kroatijos miestų serija, Pulos miesto arena"</string>
+	<string name="twoeuro_comm_2025_hr_desc">"pagrindinis kompozicijos elementas yra vienas iš garsiausių Kroatijos Respublikos senovinių paminklų – Pulos arena (amfiteatras). Iškaltas jos vaizdas nuo Adrijos jūros, kuri savo ruožtu vaizduojama po pagrindiniu elementu siekiant pabrėžti Kroatijos, kaip Viduržemio jūros regiono šalies, išskirtinumą. Dešinėje arenos pusėje pavaizduota XX a. 4-ajame dešimtmetyje pastatyta Šv. Antano bažnyčia, kuri yra Pulos miesto panoraminio vaizdo dalis. Palei monetos vidinės dalies kraštą lanku iškaltas monetą leidžiančios šalies pavadinimas „HRVATSKA“ (Kroatija), monetos išleidimo metai „2025.“ ir žodžiai „GRAD PULA-ARENA“ (Pulos miesto arena). Šios monetos nacionalinės pusės dizainą sukūrė skulptorius Duje Botteri. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_hr_date">"2025 m. spalio mėn."</string>
+
+	<string name="twoeuro_comm_2025_hr_2_title">"Kroatijos karalystės ir karaliaus Tomislavo karūnavimo 1100-osios metinės"</string>
+	<string name="twoeuro_comm_2025_hr_2_desc">"pagrindinis dizaino elementas – karalius Tomislavas ant žirgo. Kitas elementas yra išskirtinis ir atpažįstamas Kroatijos simbolis, vienas iš Kroatijos Respublikos herbo motyvų – kroatiškas šachmatinis raštas. Monetoje taip pat yra šie užrašai: žodžiai „KRALJ TOMISLAV“ (karalius Tomislavas), karaliaus Tomislavo karūnavimo metai „925.“, monetą leidžiančios šalies pavadinimas „REPUBLIKA HRVATSKA“ (Kroatijos Respublika) ir monetos išleidimo metai „2025.“. Jie visi lanku iškalti palei monetos vidinės dalies kraštą. Šios monetos nacionalinės pusės dizainą sukūrė skulptorius Nikola Vudrag. Pagrindiniam elementui jis adaptavo originalų 1938 m. kūrinį, kurio autorius – skulptorius Robert Franges Mihanovic. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+	<string name="twoeuro_comm_2025_hr_2_date">"2025 m. liepos mėn."</string>
+
+	<string name="twoeuro_comm_2025_it_title">"2025-ieji – Jubiliejiniai metai"</string>
+	<string name="twoeuro_comm_2025_it_desc">"monetos centre pavaizduotos Šv. Petro bazilikos šventosios durys. Viršuje puslankiu iškaltas įrašas „IUBILAEUM“, kurio pradžią ir pabaigą jungia apačioje puslankiu pakaitomis iškaltų tuščiavidurių ir pilnavidurių žuvų – krikščionybės simbolių – seka. Kairėje – monetos išleidimo metai „2025“ ir raidė „R“ (Romos kalyklos ženklas); dešinėje – Italijos Respublikos pavadinimo akronimas „RI“ ir dizaino autorės (Claudios Momoni) inicialai „C.M.“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+	<string name="twoeuro_comm_2025_it_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_it_2_title">"laivo „Amerigo Vespucci“ 2023–2025 m. kelionė aplink pasaulį"</string>
+	<string name="twoeuro_comm_2025_it_2_desc">"monetos centre pavaizduotas visas bures iškėlęs pratybų laivas „Amerigo Vespucci“, skrodžiantis jūros bangas. Kairėje lanku iškaltas įrašas „Amerigo Vespucci Tour Mondiale 2023-2025“; žemiau kairėje – monetos išleidimo metai „2025“ ir Italijos Respublikos pavadinimo akronimas „RI“; dešinėje – raidė „R“ (Romos kalyklos ženklas); apačioje – dizaino autoriaus parašas „E.FERRETTI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+	<string name="twoeuro_comm_2025_it_2_date">"2025 m. sausio mėn."</string>
+
+	<string name="twoeuro_comm_2025_lt_2_title">"Lietuvos etnografiniai regionai, Mažoji Lietuva"</string>
+	<string name="twoeuro_comm_2025_lt_2_desc">"monetoje pavaizduotas herbo skydas, jame – briedis, priekinėmis kojomis laikantis ietį, virš jo – šviečiantis švyturys. Abiejose skydo pusėse – kurėnai, žemiau – Vydūno citata „Spindulys esmi begalinės šviesos“. Kompoziciją juosia įrašai „Lietuva“, „Mažoji Lietuva“, monetos išleidimo metai „2025“ ir Lietuvos monetų kalyklos ženklas. Nacionalinę monetos pusę sukūrė Rolandas Rimkūnas (Mažosios Lietuvos etnografinio regiono didžiojo herbo autorius – Arvydas Každailis). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_lt_2_date">"2025 m. ketvirtasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_lt_title">"gynyba"</string>
+	<string name="twoeuro_comm_2025_lt_desc">"monetoje pavaizduotas Lietuvos kontūras. Valstybės sienas juosia stilizuotas spyglių barjeras, simbolizuojantis holistinės, visą visuomenę apimančios gynybos sampratą. Kartu ežys simbolizuoja laisvų visuomenių, kurias reikia visomis išgalėmis ginti nuo išorės grėsmių, atvirumą ir trapumą. Lietuva – tarsi visada pasiruošęs gintis ežys. Monetos centre iškaltas įrašas „LIETUVA“, monetos išleidimo metai „2025“ ir Lietuvos monetų kalyklos ženklas. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_lt_date">"2025 m. pirmasis ketvirtis"</string>
+
+	<string name="twoeuro_comm_2025_lu_title">"75-osios 1950 m. gegužės 9 d. Roberto Šumano deklaracijos metinės"</string>
+	<string name="twoeuro_comm_2025_lu_desc">"monetos apačioje pavaizduota ant popieriaus lapo pieštuku rašanti ranka. Pieštukas viršuje baigiasi alyvmedžio šakele, virstančia balandžiais (ir šakelė, ir balandžiai – taikos simboliai). Balandžiai skrenda link horizonto, kuriame – šešios žvaigždės, simbolizuojančios šešias valstybes nares, vėliau pasirašiusias Europos anglių ir plieno bendrijos steigimo sutartį, kuriai pagrindą padėjo Šumano deklaracija. Monetos viršutinėje dalyje – tekstas „DECLARATION SCHUMAN“ ir deklaracijos data – „ 09.05.1950“. Žemiau – deklaracijos sukaktį žymintis skaičius „75“. Monetos dešinėje – ją leidžiančios šalies pavadinimas „LUXEMBOURG“ ir jos išleidimo metai „2025“. Monetoje iškalta monograma (raidė „H“ su karūna) yra Didžiojo Hercogo Henri simbolis. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_date">"2025 m. vasario mėn."</string>
+
+	<string name="twoeuro_comm_2025_lu_2_title">"25-osios Didžiojo Hercogo Henri įžengimo į sostą metinės"</string>
+	<string name="twoeuro_comm_2025_lu_2_desc">"monetos centre – Didžiojo Hercogo Henri atvaizdas, o fone – Didžiojo hercogo rūmai. Virš atvaizdo puslankiu iškaltas tekstas „25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI“. Po atvaizdu – monetą leidžiančios šalies pavadinimas „LETZEBUERG“ ir monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_2_date">"2025 m. vasario mėn."</string>
+
+	<string name="twoeuro_comm_2025_mc_title">"Bo markizatas"</string>
+	<string name="twoeuro_comm_2025_mc_desc">"moneta įamžinama Bo markizato feodalinė valda. Bo markizo titulą pirmą kartą 1642 metais įgijo Onorė II sūnus Herkulis Grimaldis. Šiuo metu šis titulas pagal istorinę tradiciją priklauso Jo Šviesybei sosto įpėdiniui princui Žakui. Monetoje pavaizduota uola ir aplinkinė Provanso Bo kaimo teritorija. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje puslankiu iškaltas įrašas „MARQUISAT DES BAUX“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_date">"2025 m. lapkričio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mc_2_title">"Karladeso grafystė"</string>
+	<string name="twoeuro_comm_2025_mc_2_desc">"moneta įamžinamas Karladeso grafo titulas, pagal istorinę tradiciją suteikiamas antram pagal eilę įpėdiniui ir šiuo metu priklausantis Princesei Gabrielai. Monetoje pavaizduotas viešbučio, iki Prancūzijos revoliucijos priklausiusio Grimaldžių šeimai, fasadas. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje puslankiu iškaltas įrašas „COMTE DE CARLADES“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_2_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mt_2_title">"Mdinos miestas"</string>
+	<string name="twoeuro_comm_2025_mt_2_desc">"ši moneta priklauso serijai, skirtai siena apjuostiems Maltos miestams, kurie yra neatsiejama Maltos ir Europos kultūros paveldo dalis. Ji seka po 2024 m. išleistos monetos, kurioje pavaizduota Goco citadelė („Iċ-Ċittadella“). Monetoje pavaizduotas Mdinos miestas ir virš jo iškilusi katedra. Viršuje kairėje, iškaltas įrašas „MDINA“. Viršuje dešinėje – dizaino autoriaus inicialai „NGB“ (Noel Galea Bason). Apačioje – monetą leidžiančios šalies pavadinimas „MALTA“, o po juo – monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+	<string name="twoeuro_comm_2025_mt_2_date">"2025 m. birželio mėn."</string>
+
+	<string name="twoeuro_comm_2025_mt_title">"Maltos jautis"</string>
+	<string name="twoeuro_comm_2025_mt_desc">"monetoje pavaizduotas Maltos jautis. Tikslas – didinti vienos iš Maltos vietinių veislių, kuri šiuo metu nyksta, žinomumą. Monetos viršuje puslankiu iškaltas įrašas „IL-GENDUS MALTI“. Apačioje – monetą leidžiančios šalies pavadinimas „MALTA“, o po juo – monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės (Marios Annos Frisonės) inicialai „MAF“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+	<string name="twoeuro_comm_2025_mt_date">"2025 m. birželio mėn."</string>
+
 	<string name="twoeuro_comm_2025_po_title">"pasaulio skautų judėjimo organizacija „World scouting“"</string>
 	<string name="twoeuro_comm_2025_po_desc">"moneta pagerbiama pasaulio skautų judėjimo organizacija „World scouting“ ir jaunimo judėjimai, propaguojantys kultūrinius mainus, tarpusavio supratimą ir draugystę, nes 2025 m. Portugalijoje vyks 16-asis pasaulio skautų sąskrydis, į kurį mokytis vieni iš kitų ir įgyti naujų įgūdžių susirinks 18–25 m. skautai iš viso pasaulio."</string>
 	<string name="twoeuro_comm_2025_po_volume">"500000"</string>
@@ -2637,20 +2759,15 @@ f	<string name="twoeuro_comm_2023_po_2_date">"2023 m. liepos mėn."</string>
 	<string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
 	<string name="twoeuro_comm_2025_po_2_date">"2025 m. pirmasis ketvirtis"</string>
 
-	<string name="twoeuro_comm_2025_fi_title">"Suomijos valstybiniai vizitai (diplomatija ir užsienio politika)"</string>
-	<string name="twoeuro_comm_2025_fi_desc">"monetoje abstrakčiai pavaizduotos valstybinius vizitus simbolizuojančios durys – iki veidrodinio blizgesio nugludinta stačiakampio forma. Palei kairįjį stačiakampio kraštą vertikalia kryptimi iškaltas kalyklos ženklas, metai „2025“ ir raidės „FI“. Suapvalintas stačiakampio viršus sutampa su monetos vidinės dalies pakraščiu. Apačioje ir dešinėje monetos paviršius išraižytas vertikaliomis linijomis, o šias kerta ir apskritą figūrą suformuoja kreivė. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-	<string name="twoeuro_comm_2025_fi_date">"2025 m. pavasaris"</string>
+	<string name="twoeuro_comm_2025_si_title">"Mikio Musterio 100-osios gimimo metinės"</string>
+	<string name="twoeuro_comm_2025_si_desc">"ant monetos minkštojo reljefo būdu iškalti trys Mikio Musterio komiksų personažai, t. y. Zvitorepec, Lakotnik ir Trdonja. Po jais – kaldinimo metai „2025“ ir monetą leidžianti šalis „SLOVENIJA“. Viršuje kairėje pusėje yra iškalti gimimo metai „1925“ ir vardas „MIKI“, o viršuje dešinėje – pavardė „MUSTER“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
+	<string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_si_date">"2025 m. lapkričio mėn."</string>
 
 	<string name="twoeuro_comm_2025_sk_title">"pirmojo tarptautinio Slovakijos Respublikos teritorijoje surengto sporto turnyro – Europos ledo ritulio čempionato – 100-osios metinės"</string>
 	<string name="twoeuro_comm_2025_sk_desc">"monetoje pavaizduotas čiuožiantis ledo ritulio žaidėjas, vilkintis uniformą, kurios stilius būdingas laikmečiui, kuriuo vyko 1925 m. Europos ledo ritulio čempionatas. Žaidėjo fone – stilizuota Aukštųjų Tatrų – Slovakijos kalnų regiono, kuriame vyko čempionatas, panorama. Palei monetos vidinės dalies viršutinės pusės kraštą iškaltas įrašas „MAJSTROVSTVÁ EURÓPY V HOKEJI“. Viršutinėje kairėje monetos dalyje – metai „1925“, o po jais – metai „2025“. Apačioje – monetą leidžiančios šalies pavadinimas „SLOVENSKO“. Į dešinę nuo žaidėjo atvaizdo – monetos gamintojos, Slovakijos Kremnicos kalyklos (Mincovňa Kremnica), ženklas. Prie jo – dizaino autoriaus Karolio Ličko inicialai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
 	<string name="twoeuro_comm_2025_sk_date">"2025 m. sausio mėn."</string>
-
-	<string name="twoeuro_comm_2025_be_title">"Belgijos nacionalinė loterija"</string>
-	<string name="twoeuro_comm_2025_be_desc">"monetos centre pavaizduota klasikinė sėkmės alegorija – gausybės ragą laikanti deivė Fortūna. Dešinėje ir apačioje iškalti keturi keturlapiai dobilai (dar vienas visuotinis sėkmės simbolis). Už Fortūnos atvaizdo matyti dabartinis Nacionalinės loterijos logotipas. Monetos kairėje – tekstas „loterie nationale loterij“. Apačioje kairėje – šalies kodas „BE“ ir monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės Irisės Bruijnsės inicialai. Kadangi monetas kaldins Karališkoji Nyderlandų monetų kalykla, po metų nuoroda iškaltas Utrechto kalyklos ženklas – Merkurijaus lazda – ir Belgijos kalyklos direktoriaus ženklas – astras Erlenmejerio kolbos fone. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_be_volume">"1000000"</string>
-	<string name="twoeuro_comm_2025_be_date">"2025 m. sausio mėn."</string>
 
 	<string name="twoeuro_comm_2025_sm_title">"550-osios Mikelandželo gimimo metinės"</string>
 	<string name="twoeuro_comm_2025_sm_desc">"monetos centre pavaizduota Kleopatra – Mikelandželo Buonaročio piešinio, saugomo muziejuje Casa Buonarroti (Florencija), detalė. Kairėje – įrašas „MICHELANGELO“ (iškaltas puslankiu), raidė „R“ (Romos kalyklos ženklas) ir metai „1475“, dešinėje – monetą leidžiančios šalies pavadinimas „SAN MARINO“ (iškaltas puslankiu) ir metai „2025“. Apačioje – dizaino autorės (Silvios Petrassi) inicialai „SP“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
@@ -2661,31 +2778,6 @@ f	<string name="twoeuro_comm_2023_po_2_date">"2023 m. liepos mėn."</string>
 	<string name="twoeuro_comm_2025_sm_2_desc">"monetos centre pavaizduota moteris su inkaru – alegorinis vilties simbolis. Ji laiko už rankos vaiką – tai simbolizuoja žmoniškumą. Kairėje – įrašas „SAN MARINO“, keturios stačiakampės burės, raidė „R“ (Romos kalyklos ženklas) ir dizaino autoriaus (Gabrielės Di Maulo) inicialai „DI MAULO“. Viršuje dešinėje – aštuoniakampė žvaigždė, įrašas „IUBILAEUM 2025“, o apačioje – graverės (Martos Bonifacio) inicialai „M.B.INC“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
 	<string name="twoeuro_comm_2025_sm_2_date">"2025 m. kovo mėn."</string>
-
-	<string name="twoeuro_comm_2025_fr_title">"Luvras"</string>
-	<string name="twoeuro_comm_2025_fr_desc">"monetoje pavaizduotas rytinis Luvro fasadas, iš dalies užklojantis garsųjį planą, vaizduojantį įspūdingų šio muziejaus salių labirintą. Fone pavaizduota piramidinė viršūnė ir didžiosios piramidės struktūra simbolizuoja, kad Luvras – vieta, kurioje tradicijos pinasi su modernumu. Ant muziejaus plano iškalti monetos išleidimo metai „2025“, šalies kodas „RF“ ir kalyklos ženklai. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_fr_volume">"315000"</string>
-	<string name="twoeuro_comm_2025_fr_date">"2025 m. sausio mėn."</string>
-
-	<string name="twoeuro_comm_2025_mt_title">"Maltos jautis"</string>
-	<string name="twoeuro_comm_2025_mt_desc">"monetoje pavaizduotas Maltos jautis. Tikslas – didinti vienos iš Maltos vietinių veislių, kuri šiuo metu nyksta, žinomumą. Monetos viršuje puslankiu iškaltas įrašas „IL-GENDUS MALTI“. Apačioje – monetą leidžiančios šalies pavadinimas „MALTA“, o po juo – monetos išleidimo metai „2025“. Apačioje dešinėje – dizaino autorės (Marios Annos Frisonės) inicialai „MAF“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-	<string name="twoeuro_comm_2025_mt_date">"2025 m. birželio mėn."</string>
-
-	<string name="twoeuro_comm_2025_mc_title">"Bo markizatas"</string>
-	<string name="twoeuro_comm_2025_mc_desc">"moneta įamžinama Bo markizato feodalinė valda. Bo markizo titulą pirmą kartą 1642 metais įgijo Onorė II sūnus Herkulis Grimaldis. Šiuo metu šis titulas pagal istorinę tradiciją priklauso Jo Šviesybei sosto įpėdiniui princui Žakui. Monetoje pavaizduota uola ir aplinkinė Provanso Bo kaimo teritorija. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“. Apačioje puslankiu iškaltas įrašas „MARQUISAT DES BAUX“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_mc_volume">"15000"</string>
-	<string name="twoeuro_comm_2025_mc_date">"2025 m. lapkričio mėn."</string>
-
-	<string name="twoeuro_comm_2025_mc_2_title">"Karladeso grafystė"</string>
-	<string name="twoeuro_comm_2025_mc_2_desc">"moneta įamžinamas Karladeso grafo titulas, pagal istorinę tradiciją suteikiamas antram pagal eilę įpėdiniui ir šiuo metu priklausantis Princesei Gabrielai. Monetoje pavaizduotas viešbučio, iki Prancūzijos revoliucijos priklausiusio Grimaldžių šeimai, fasadas. Viršuje – monetą leidžiančios šalies pavadinimas „MONACO“.  Apačioje puslankiu iškaltas įrašas „COMTE DE CARLADES“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
-	<string name="twoeuro_comm_2025_mc_2_date">"2025 m. birželio mėn."</string>
-
-	<string name="twoeuro_comm_2025_es_title">"Salamankos pripažinimas UNESCO pasaulio paveldo objektu"</string>
-	<string name="twoeuro_comm_2025_es_desc">"monetoje pavaizduotas Šv. Stepono vienuolynas (Convento de San Esteban). Apačioje – įrašas „ESPANA“ ir monetos išleidimo metai „2025“. Viršuje didžiosiomis raidėmis – žodis „SALAMANCA“ ir kalyklos ženklas (karūnuota raidė M). Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-	<string name="twoeuro_comm_2025_es_date">"2025 m. pirmasis ketvirtis"</string>
 
 	<string name="twoeuro_comm_2025_va_title">"550-osios Mikelandželo gimimo metinės"</string>
 	<string name="twoeuro_comm_2025_va_desc">"monetoje pavaizduotas Mikelandželo suprojektuotas Šv. Petro bazilikos kupolas, prie kurio jis dirbo iki savo mirties 1564 m. Po juo – Siksto koplyčios skliauto, kurį Mikelandželas padalijo į segmentus ir ištapė freskomis, dalis. Kairėje vertikalia kryptimi iškaltas Mikelandželo autografas „michelagniolo“, raidė „R“ (Romos kalyklos ženklas) ir monetos dizaino autorės (Danielos Longo) asmenvardis „D. LONGO“. Virš kupolo lanku iškaltas monetą leidžiančios valstybės pavadinimas – „CITTA’ DEL VATICANO“. Iškart po juo – Mikelandželo gimimo metai „1475“ ir monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
@@ -2701,36 +2793,6 @@ f	<string name="twoeuro_comm_2023_po_2_date">"2023 m. liepos mėn."</string>
 	<string name="twoeuro_comm_2025_va_3_desc">"monetoje pavaizduotas Šv. Petro bazilikos šventųjų durų atidarymas. Dešinėje vertikalia kryptimi iškaltas įrašas lotynų kalba „IVBILAEUM“ ir metai „2025“. Apačioje lanku – monetą leidžiančios valstybės pavadinimas – „CITTA’ DEL VATICANO“. Ant durų – raidė „R“ (Romos kalyklos ženklas), o paveikslėlio apatinėje kairėje pusėje – monetos dizaino autorės (Danielos Longo) asmenvardis „D. LONGO“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
 	<string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
 	<string name="twoeuro_comm_2025_va_3_date">"2025 m. birželio mėn."</string>
-
-	<string name="twoeuro_comm_2025_lt_title">"gynyba"</string>
-	<string name="twoeuro_comm_2025_lt_desc">"monetoje pavaizduotas Lietuvos kontūras. Valstybės sienas juosia stilizuotas spyglių barjeras, simbolizuojantis holistinės, visą visuomenę apimančios gynybos sampratą. Kartu ežys simbolizuoja laisvų visuomenių, kurias reikia visomis išgalėmis ginti nuo išorės grėsmių, atvirumą ir trapumą. Lietuva – tarsi visada pasiruošęs gintis ežys. Monetos centre iškaltas įrašas „LIETUVA“, monetos išleidimo metai „2025“ ir Lietuvos monetų kalyklos ženklas. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-	<string name="twoeuro_comm_2025_lt_date">"2025 m. pirmasis ketvirtis"</string>
-
-	<string name="twoeuro_comm_2025_de_title">"Saro krašto federacinė žemė"</string>
-	<string name="twoeuro_comm_2025_de_desc">"monetoje iškalta Saro upės kilpa (Saarschleife"</string>
-	<string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-	<string name="twoeuro_comm_2025_de_date">"2025 m. sausio mėn."</string>
-
-	<string name="twoeuro_comm_2025_lu_title">"75-osios 1950 m. gegužės 9 d. Roberto Šumano deklaracijos metinės"</string>
-	<string name="twoeuro_comm_2025_lu_desc">"monetos apačioje pavaizduota ant popieriaus lapo pieštuku rašanti ranka. Pieštukas viršuje baigiasi alyvmedžio šakele, virstančia balandžiais (ir šakelė, ir balandžiai – taikos simboliai). Balandžiai skrenda link horizonto, kuriame – šešios žvaigždės, simbolizuojančios šešias valstybes nares, vėliau pasirašiusias Europos anglių ir plieno bendrijos steigimo sutartį, kuriai pagrindą padėjo Šumano deklaracija. Monetos viršutinėje dalyje – tekstas „DECLARATION SCHUMAN“ ir deklaracijos data – „ 09.05.1950“. Žemiau – deklaracijos sukaktį žymintis skaičius „75“. Monetos dešinėje – ją leidžiančios šalies pavadinimas „LUXEMBOURG“ ir jos išleidimo metai „2025“. Monetoje iškalta monograma (raidė „H“ su karūna) yra Didžiojo Hercogo Henri simbolis. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-	<string name="twoeuro_comm_2025_lu_date">"2025 m. vasario mėn."</string>
-
-	<string name="twoeuro_comm_2025_lu_2_title">"25-osios Didžiojo Hercogo Henri įžengimo į sostą metinės"</string>
-	<string name="twoeuro_comm_2025_lu_2_desc">"monetos centre – Didžiojo Hercogo Henri atvaizdas, o fone – Didžiojo hercogo rūmai. Virš atvaizdo  puslankiu iškaltas tekstas „25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI“. Po atvaizdu – monetą leidžiančios šalies pavadinimas „LETZEBUERG“ ir monetos išleidimo metai „2025“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-	<string name="twoeuro_comm_2025_lu_2_date">"2025 m. vasario mėn."</string>
-
-	<string name="twoeuro_comm_2025_it_title">"2025-ieji – Jubiliejiniai metai"</string>
-	<string name="twoeuro_comm_2025_it_desc">"monetos centre pavaizduotos Šv. Petro bazilikos šventosios durys. iršuje puslankiu iškaltas įrašas „IUBILAEUM“, kurio pradžią ir pabaigą jungia apačioje puslankiu pakaitomis iškaltų tuščiavidurių ir pilnavidurių žuvų – krikščionybės simbolių – seka. Kairėje – monetos išleidimo metai „2025“ ir raidė „R“ (Romos kalyklos ženklas); dešinėje – Italijos Respublikos pavadinimo akronimas „RI“ ir dizaino autorės (Claudios Momoni) inicialai „C.M.“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-	<string name="twoeuro_comm_2025_it_date">"2025 m. sausio mėn."</string>
-
-	<string name="twoeuro_comm_2025_it_2_title">"laivo „Amerigo Vespucci“ 2023–2025 m. kelionė aplink pasaulį"</string>
-	<string name="twoeuro_comm_2025_it_2_desc">"monetos centre pavaizduotas visas bures iškėlęs pratybų laivas „Amerigo Vespucci“, skrodžiantis jūros bangas. Kairėje lanku iškaltas įrašas „Amerigo Vespucci Tour Mondiale 2023-2025“; žemiau kairėje – monetos išleidimo metai „2025“ ir Italijos Respublikos pavadinimo akronimas „RI“; dešinėje – raidė „R“ (Romos kalyklos ženklas); apačioje – dizaino autoriaus parašas „E.FERRETTI“. Išorinėje dalyje (žiede) pavaizduota dvylika Europos Sąjungos vėliavos žvaigždžių."</string>
-	<string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-	<string name="twoeuro_comm_2025_it_2_date">"2025 m. sausio mėn."</string>
 
 	<!-- END auto generated code for language lt -->
 

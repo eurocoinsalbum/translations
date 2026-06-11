@@ -460,15 +460,12 @@
 - Om du inte vill starta eller fortsätta ett börshandel kan du helt enkelt ta bort handels samlingen. Du kommer att bli tillfrågad om du vill ta bort den underliggande handelspartner insamling samt.
 "</string>
 
-	<string name="version_history_last">"Version 7.14\n
+	<string name="version_history_current">"Version 7.16\n
 Lagt till saknade 2€ minnesmynt 2026.
-Lagt till 2€ minnesmynt för Tyskland, Slovenien och Slovakien.
-Lagt till nya myntbilder för Monaco 2025 1€ och 2€. Tack Guiseppe.
-Lagt till nya myntbilder för Luxemburg 2026. Tack Guiseppe.
-Lagt till en notifikationskanal för samlingsuppdateringar.
+Ett långt tryck på ett mynt i EU-vyn visar nu alla mynt.
 "</string>
 
-	<string name="version_history_current">"Version 7.15\n
+	<string name="version_history_last">"Version 7.15\n
 Anpassade mynt för Tyskland stöder nu val av präglingsmärken. Tack till Florian.
 Landskoder har korrigerats för att följa ISO-standarden 3166-1 alfa-2. Tack till Thomas.
 Anpassade mynt kan nu skapas endast för en specifik samling.
@@ -2910,110 +2907,175 @@ Användaren kan kontakta motsvarande institution för datasekretess.
 	<string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
 	<string name="twoeuro_comm_2024_it_2_date">"januari 2024"</string>
 
-	<string name="twoeuro_comm_2025_po_title">"World Scouting"</string>
-	<string name="twoeuro_comm_2025_po_desc">"Myntet uppmärksammar World Scouting och ungdomsrörelser som främjar kulturellt utbyte, ömsesidig förståelse och vänskap, eftersom den sextonde upplagan av World Scout Moot hålls i Portugal 2025. Till evenemanget flockas scouter i åldern 18–25 år från hela världen för att lära sig av varandra och utveckla nya färdigheter."</string>
-	<string name="twoeuro_comm_2025_po_volume">"500000"</string>
-	<string name="twoeuro_comm_2025_po_date">"juni 2025"</string>
+	<string name="twoeuro_comm_2025_ad_title">"Spelen för små stater i Europa (hölls i Andorra 2025)"</string>
+	<string name="twoeuro_comm_2025_ad_desc">"Myntets motiv visar några av spelens olika idrottsgrenar tillsammans med inskrifterna ”JOCS DELS PETITS ESTATS D’EUROPA” (”Spelen för små stater i Europa”) och ”ANDORRA 2025”. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+	<string name="twoeuro_comm_2025_ad_date">"Andra halvåret 2025"</string>
 
-	<string name="twoeuro_comm_2025_po_2_title">"Hållbar utveckling"</string>
-	<string name="twoeuro_comm_2025_po_2_desc">"Motivet föreställer jordklotet, med omskriften ”Desenvolvimento Sustentável” (hållbar utveckling). Längs det inre fältets vänstra kant sträcker sig en bladslinga uppåt. Den består av 17 grupper av blad som är arrangerade i en triangel som påminner om den universella symbolen för återvinning, som en hänvisning till de 17 målen i Agenda 2030 för hållbar utveckling. Längs nedre kanten och mot höger finns omskriften ”Portugal”, Portugals statsvapen, årtalet och myntmärket ”Casa da Moeda” ovanför formgivarens namn. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
-	<string name="twoeuro_comm_2025_po_2_date">"första kvartalet 2025"</string>
+	<string name="twoeuro_comm_2025_ad_2_title">"Lammgam"</string>
+	<string name="twoeuro_comm_2025_ad_2_desc">"Som ett sätt att öka medvetenheten om vikten av att skydda de vilda djuren, växterna och miljön pryds myntet av en närbild föreställande en lammgam (gypaetus barbatos), en utrotningshotad fågelart, och inskriften ”ANDORRA” samt utgivningsåret ”2025”. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+	<string name="twoeuro_comm_2025_ad_2_date">"Andra halvåret 2025"</string>
 
-	<string name="twoeuro_comm_2025_fi_title">"Finländska statsbesök – diplomati och utrikespolitik"</string>
-	<string name="twoeuro_comm_2025_fi_desc">"Motivet är en högblank stiliserad rektangulär dörr som symboliserar statsbesök. Myntmärket, årtalet 2025 och landskoden ”FI” syns i lodrät inskrift längs rektangelns vänstra kant. Rektangelns topp följer det inre fältets rundade kant. Undertill och till höger är ytan räfflad med vågräta linjer, medan en båge går i motsatt riktning mot det inre fältets rundning. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-	<string name="twoeuro_comm_2025_fi_date">"våren 2025"</string>
-
-	<string name="twoeuro_comm_2025_sk_title">"100-årsjubiléet av den första internationella idrottsturneringen på Slovakiens territorium – Europamästerskapet i ishockey"</string>
-	<string name="twoeuro_comm_2025_sk_desc">"Motivet föreställer en ishockeyspelare i full fart, i en tidstypisk utstyrsel för 1925 års Europamästerskap i ishockey.  I bakgrunden syns en stiliserad vy av Höga Tatra, den slovakiska bergsregion där mästerskapet ägde rum. Omskriften ”MAJSTROVSTVÁ EURÓPY V HOKEJI” (Europamästerskapet i hockey) syns överst i det inre fältet. Årtalen ”1925” och ”2025” finns under varandra till vänster om ishockeyspelaren. Nederst finns inskriften ”SLOVENSKO” för det utgivande landet. Till höger om ishockeyspelaren finns myntmärket för Slovakiens Kremnica Mint (Mincovňa Kremnica), som ger ut myntet. Bredvid myntmärket finns initialerna ”KL” för formgivaren Karol Ličko. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
-	<string name="twoeuro_comm_2025_sk_date">"januari 2025"</string>
+	<string name="twoeuro_comm_2025_be_2_title">"Spa-Francorchamps motortävlingsbana i Belgien"</string>
+	<string name="twoeuro_comm_2025_be_2_desc">"Åtsidan upptas av den nuvarande utformningen av tävlingsbanan i Spa-Francorchamps. På myntets vänstra sida visas banans totala sträcka (i meter), ”7.004 M”, och undertill visas även året då banan anlades, ”1921”. Ovanför bilden av banans utformning visas texten ”CIRCUIT DE SPA FRANCORCHAMPS”.  Nedtill syns landskoden ”BE” och utgivningsåret ”2025”, tillsammans med det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster, och Utrechts myntmärke, merkuriestaven (eftersom Kungliga nederländska myntverket kommer att prägla myntet). Till höger i myntets inre fält syns formgivaren Iris Bruijns initialer, ”IB”. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+	<string name="twoeuro_comm_2025_be_2_date">"Juli 2025"</string>
 
 	<string name="twoeuro_comm_2025_be_title">"Belgiens nationella lotteri"</string>
 	<string name="twoeuro_comm_2025_be_desc">"I mitten av det inre fältet syns den klassiska personifikationen av lyckan, gudinnan Fortuna, som bär ett ymnighetshorn. Omkring henne syns en annan universell symbol för lycka, nämligen fyrklövern, i fyra exemplar. Bakom Fortuna syns den nuvarande logotypen för det nationella lotteriet. Till vänster finns inskriften ”loterie nationale loterij”. Nere till vänster visas landskoden ”BE” och utgivningsåret ”2025”. Nere till höger syns formgivaren Iris Bruijns initialer. Eftersom mynten präglas av det kungliga nederländska myntverket finns Utrechts myntmärke, merkuriestaven, nedanför årtalet, tillsammans med det belgiska myntmästarmärket, en Erlenmeyerkolv bakom en aster. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2025_be_volume">"1000000"</string>
-	<string name="twoeuro_comm_2025_be_date">"januari 2025"</string>
-
-	<string name="twoeuro_comm_2025_sm_title">"550-årsjubiléet av Michelangelos födelse"</string>
-	<string name="twoeuro_comm_2025_sm_desc">"I mitten av det inre fältet syns Kleopatra, en detalj från Michelangelo Buonarrotis teckning som has om hand av Casa Buonarroti Foundation i Florens. Till vänster finns omskriften ”MICHELANGELO”, bokstaven ”R” för Roms myntverk och årtalet ”1475”. Till höger finns omskriften ”SAN MARINO” för det utgivande landet och årtalet ”2025”. Nederst syns upphovsmakarens initialer, ”SP” (Silvia Petrassi). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_sm_volume">"56000"</string>
-	<string name="twoeuro_comm_2025_sm_date">"juli 2025"</string>
-
-	<string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
-	<string name="twoeuro_comm_2025_sm_2_desc">"I mitten av det inre fältet syns en kvinna med ett ankare, en symbol för hopp. Hon håller ett barn i handen som en symbol för mänskligheten. Till vänster syns omskriften ”SAN MARINO”, fyra fyrkantiga segel, bokstaven ”R” för Roms myntverk och inskriften ”DI MAULO” för upphovsmakaren, Gabriele Di Maulo. Uppe till höger syns en åttauddig stjärna, och nedanför syns inskriften ”IUBILAEUM 2025”. Nederst finns gravörens initialer, ”M.B.INC” (Marta Bonifacio). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
-	<string name="twoeuro_comm_2025_sm_2_date">"mars 2025"</string>
-
-	<string name="twoeuro_comm_2025_fr_title">"Louvren"</string>
-	<string name="twoeuro_comm_2025_fr_desc">"Åtsidan visar Louvrens östra fasad, invävd i den ikoniska planritningen över museets myller av fantastiska rum. I bakgrunden återfinns pyramidionen och den stora pyramiden som illustrationer av Louvrens både traditionella och moderna karaktär. Utgivningsåret ”2025”, landskoden ”RF” och myntmärkena har infogats i planritningen. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_fr_volume">"315000"</string>
-	<string name="twoeuro_comm_2025_fr_date">"januari 2025"</string>
-
-	<string name="twoeuro_comm_2025_mt_title">"Maltesisk oxe (il-gendus Malti)"</string>
-	<string name="twoeuro_comm_2025_mt_desc">"Motivet föreställer en maltesisk oxe. Med myntet vill man öka medvetenheten om en av Maltas inhemska, utrotningshotade, raser. Överst i det inre fältet finns omskriften ”IL-GENDUS MALTI”. Nederst finns inskriften ”Malta” för det utgivande landet samt utgivningsåret ”2025”. Nederst till höger finns formgivarens initialer, ”MAF” (Maria Anna Frisone). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-	<string name="twoeuro_comm_2025_mt_date">"juni 2025"</string>
-
-	<string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
-	<string name="twoeuro_comm_2025_mc_desc">"Myntet uppmärksammar förläningen Marquisate des Baux. Titeln innehades för först gången 1642 av Hercule Grimaldi, son till Honoré II. I dag tillhör den, av hävd, tronarvingen prins Jacques. Motivet föreställer klippan och det omgivande området kring byn Les Baux de Provence. Överst finns omskriften ”MONACO” för det utgivande landet. Längst ner finns omskriften ”MARQUISAT DES BAUX”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_mc_volume">"15000"</string>
-	<string name="twoeuro_comm_2025_mc_date">"november 2025"</string>
-
-	<string name="twoeuro_comm_2025_mc_2_title">"Comté de Carladès"</string>
-	<string name="twoeuro_comm_2025_mc_2_desc">"Myntet uppmärksammar titeln Comté de Carladès, som av hävd tilldelas den andra personen i tronföljden och som i dag bärs av prinsessan Gabriella. Motivet föreställer fasaden på det hotell som tillhörde familjen Grimaldi fram till revolutionen. Överst finns omskriften ”MONACO” för det utgivande landet. Nederst finns omskriften ”COMTE DE CARLADES”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
-	<string name="twoeuro_comm_2025_mc_2_date">"juni 2025"</string>
-
-	<string name="twoeuro_comm_2025_es_title">"Erkännandet av Salamanca som en del av Unescos världsarv"</string>
-	<string name="twoeuro_comm_2025_es_desc">"Motivet föreställer Convento de San Esteban. Nederst finns omskriften ”ESPAÑA” och utgivningsåret ”2025”. Överst finns omskriften ”SALAMANCA” och myntmärket Eme Coronada. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-	<string name="twoeuro_comm_2025_es_date">"första kvartalet 2025"</string>
-
-	<string name="twoeuro_comm_2025_va_title">"550-årsjubiléet av Michelangelos födelse"</string>
-	<string name="twoeuro_comm_2025_va_desc">"Motivet föreställer Peterskyrkans kupol, formgiven av Michelangelo, som arbetade med den till sin död 1564. Nedanför syns ett utsnitt från Sixtinska kapellets valv, som Michelangelo delade in i sektioner och försåg med fresker.  Till vänster syns Michelangelos underskrift (”michelagniolo”) lodrätt, bokstaven ”R” för Roms myntverk och ”D. LONGO” för myntets formgivare (Daniela Longo). Omskriften ”CITTA’ DEL VATICANO” anger den utgivande staten ovanför kupolen. Strax nedanför finns inskriften ”1475” för Michelangelos födelseår och ”2025” för utgivningsåret. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_va_volume">"80000"</string>
-	<string name="twoeuro_comm_2025_va_date">"juni 2025"</string>
-
-	<string name="twoeuro_comm_2025_va_2_title">"Sede vacante 2025"</string>
-	<string name="twoeuro_comm_2025_va_2_desc">"Motivet föreställer den apostoliska kammarens emblem, en vapensköld tillhörig den kardinal som innehar ämbetet påvlig skattmästare (camerlengo), vilket representeras av två nycklar i kors under en baldakin. I omskrift längs det inre fältets kant står ”CITTA’ DEL VATICANO”, ”SEDE VACANTE” och ”MMXXV” (för utgivningsåret). En abstrakt bild av en duva syns mellan texten ”CITTA’ DEL VATICANO” och ”SEDE VACANTE”. Bokstaven ”R”, för Roms myntverk, syns nedanför Camerlengos vapen, med namnet på gravören till vänster och namnet på formgivaren till höger (”O. ROSSI” för Orietta Rossi). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
-	<string name="twoeuro_comm_2025_va_2_date">"juni 2025"</string>
-
-	<string name="twoeuro_comm_2025_va_3_title">"Jubelåret 2025"</string>
-	<string name="twoeuro_comm_2025_va_3_desc">"Motivet föreställer påven som öppnar Heliga porten i Peterskyrkan. Till höger syns lodrätt den latinska inskriften ”IVBILAEUM” och ”2025” för utgivningsåret. Nederst i det inre fältet återfinns den utgivande statens namn, ”CITTA’ DEL VATICANO”. Bokstaven ”R”, för Roms myntverk, syns på dörren, medan inskriften ”D. LONGO” till vänster i bildens nedre kant anger formgivaren av myntet (Daniela Longo). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
-	<string name="twoeuro_comm_2025_va_3_date">"juni 2025"</string>
-
-	<string name="twoeuro_comm_2025_lt_title">"Försvar"</string>
-	<string name="twoeuro_comm_2025_lt_desc">"På åtsidan syns konturerna av Litauen, som omgärdas av stiliserade taggar för att symbolisera ett holistiskt och samhällsomfattande försvar. Motivet kan också ses som en igelkott för att representera både öppenheten och skörheten i fria samhällen, vilka måste försvaras med all makt mot yttre hot. Litauen presenteras som en igelkott, alltid beredd att försvara sig själv. I mitten av det inre fältet finns inskriften ”LIETUVA” (Litauen), utgivningsåret ”2025” och det litauiska myntverkets myntmärke. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-	<string name="twoeuro_comm_2025_lt_date">"första kvartalet 2025"</string>
+	<string name="twoeuro_comm_2025_be_date">"Januari 2025"</string>
 
 	<string name="twoeuro_comm_2025_de_title">"Delstaten Saarland"</string>
 	<string name="twoeuro_comm_2025_de_desc">"Motivet föreställer flodkröken Saarschleife, i en stiliserad bild där floden Saar karakteristiskt böljar fram i det kuperade landskapet. Grupper av träd längs floden symboliserar skogslandskapet runt det pittoreska området vid Saarschleife. Den naturliga vattenvägen visas i fågelperspektiv där den sträcker ut sig mellan bergen mot horisonten. Inskriften ”Saarland” har placerats långt ner i förgrunden för att inte störa känslan av stillhet och ljus. I den övre halvan av myntets inre fält finns också till vänster märket för den Frankfurtbaserade konstnären Carsten Wolff. Till höger syns bokstaven ”X” som platshållare för respektive myntverks myntmärke (”A”, ”D”, ”F”, ”G” eller ”J”). I den nedre halvan finns inskriften ”SAARLAND”, landskoden ”D” för Tyskland (som utgivande land) och utfärdandeåret ”2025”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-	<string name="twoeuro_comm_2025_de_date">"januari 2025"</string>
+	<string name="twoeuro_comm_2025_de_date">"Januari 2025"</string>
 
-	<string name="twoeuro_comm_2025_lu_title">"75-årsjubiléet av Schumandeklarationen den 9 maj 1950"</string>
-	<string name="twoeuro_comm_2025_lu_desc">"Nederst i det inre fältet syns en hand som med en penna i sitt grepp skriver på ett papper. Pennan övergår i en olivkvist, som blir till duvor – båda dessa en symbol för fred. Duvorna flyger mot horisonten där sex stjärnor representerar de sex medlemsstater som senare undertecknade fördraget om upprättandet av Europeiska kol- och stålgemenskapen, som grundade sig på Schumandeklarationen. Överst i det inre fältet syns omskriften ”DECLARATION SCHUMAN” och datumet ” 09.05.1950 ”. Nedanför står ”75” för jubileumsåret. Till höger syns ”LUXEMBOURG” för det utgivande landet samt utgivningsåret ”2025”. Monogrammet (bokstaven ”H” med en krona) representerar storhertig Henri. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-	<string name="twoeuro_comm_2025_lu_date">"februari 2025"</string>
+	<string name="twoeuro_comm_2025_ee_title">"Femhundraårsminnet av det första tryckalstret med formuleringar på estniska och startpunkten för estniskan som litteraturspråk."</string>
+	<string name="twoeuro_comm_2025_ee_desc">"Det inre fältet upptas av en komposition av böcker som bildar ett versalt ”E” symboliserande det estniska skriftspråket, texten ”EESTI RAAMAT 500” (”500 år av böcker på estniska”) och årtalet 1525 för att markera utgivningen av den första boken på estniska. I omskrift står också utgivningsåret ”2025”. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+	<string name="twoeuro_comm_2025_ee_date">"Andra kvartalet 2025"</string>
 
-	<string name="twoeuro_comm_2025_lu_2_title">"25 år sedan storhertig Henri tillträdde tronen"</string>
-	<string name="twoeuro_comm_2025_lu_2_desc">"I mitten av myntets inre fält finns en halsbild av storhertig Henri, med storhertigens palats i bakgrunden. Omskriften ”25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI” finns ovanför halsbilden. Nedanför halsbilden finns inskriften ”LETZEBUERG” för det utgivande landet samt utgivningsåret ”2025”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
-	<string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-	<string name="twoeuro_comm_2025_lu_2_date">"februari 2025"</string>
+	<string name="twoeuro_comm_2025_es_title">"Erkännandet av Salamanca som en del av Unescos världsarv"</string>
+	<string name="twoeuro_comm_2025_es_desc">"Motivet föreställer Convento de San Esteban. Nederst finns omskriften ”ESPAÑA” och utgivningsåret ”2025”. Överst finns omskriften ”SALAMANCA” och myntmärket Eme Coronada. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+	<string name="twoeuro_comm_2025_es_date">"Första kvartalet 2025"</string>
+
+	<string name="twoeuro_comm_2025_fi_2_title">"Landskampen i friidrott mellan Finland och Sverige"</string>
+	<string name="twoeuro_comm_2025_fi_2_desc">"Åtsidan upptas av två ben i rörelse och svängda, streckade linjer som representerar löparbanor. Motivet återges till hundraårsminnet av den första landskampen i friidrott mellan Finland och Sverige som en hyllning till både den finländska idrottstraditionen och den laganda som utmärker evenemanget. Överst i det inre fältet visas årtalet ”2025” horisontellt. Myntmärket återges till vänster i fältet och bokstäverna ”FI” till höger. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+	<string name="twoeuro_comm_2025_fi_2_date">"Hösten 2025"</string>
+
+	<string name="twoeuro_comm_2025_fi_title">"Finländska statsbesök – diplomati och utrikespolitik"</string>
+	<string name="twoeuro_comm_2025_fi_desc">"Motivet är en högblank stiliserad rektangulär dörr som symboliserar statsbesök. Myntmärket, årtalet 2025 och landskoden ”FI” syns i lodrät inskrift längs rektangelns vänstra kant. Rektangelns topp följer det inre fältets rundade kant. Undertill och till höger är ytan räfflad med vågräta linjer, medan en båge går i motsatt riktning mot det inre fältets rundning. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+	<string name="twoeuro_comm_2025_fi_date">"Våren 2025"</string>
+
+	<string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+	<string name="twoeuro_comm_2025_fr_2_desc">"Monnaie de Paris hyllar Notre-Dame, den berömda Pariskatedralen, sedan hundratals hantverkare arbetat där för att återuppbygga den och miljontals människor samlats för att högtidlighålla återöppnandet i december 2024. Åtsidan upptas i mitten av Notre-Damekatedralen sedd framifrån. Rosettfönstret syns i fonden bakom spiran. Årtalet ”2025” och bokstäverna ”RF” återfinns till vänster vid sidan av Monnaie de Paris myntmärke. Inskriptionen ”NOTRE-DAME DE PARIS” framträder till höger i det inre fältet tillsammans med chefsgravörens myntmärke. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+	<string name="twoeuro_comm_2025_fr_2_date">"September 2025"</string>
+
+	<string name="twoeuro_comm_2025_fr_title">"Louvren"</string>
+	<string name="twoeuro_comm_2025_fr_desc">"Åtsidan visar Louvrens östra fasad, invävd i den ikoniska planritningen över museets myller av fantastiska rum. I bakgrunden återfinns pyramidionen och den stora pyramiden som illustrationer av Louvrens både traditionella och moderna karaktär. Utgivningsåret ”2025”, landskoden ”RF” och myntmärkena har infogats i planritningen. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+	<string name="twoeuro_comm_2025_fr_date">"Januari 2025"</string>
+
+	<string name="twoeuro_comm_2025_gr_title">"Tvåhundraårsminnet av Laskarina Bouboulinas död"</string>
+	<string name="twoeuro_comm_2025_gr_desc">"Åtsidan upptas av ett porträtt föreställande Laskarina Bouboulina, med en stiliserad mast och rigg i fonden. Runt det inre fältet syns omskrifterna ”200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ” (”200 år sedan Laskarina Boubolinas död”) och ”ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (”Republiken Grekland”). Till vänster i fältet syns en palmett (grekiska myntverkets myntmärke) och präglingsåret. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+	<string name="twoeuro_comm_2025_gr_date">"Juli 2025"</string>
+
+	<string name="twoeuro_comm_2025_gr_2_title">"Hundraårsminnet av Mikis Theodorakis födelsedag"</string>
+	<string name="twoeuro_comm_2025_gr_2_desc">"Åtsidan upptas av kompositören Mikis Theodorakis. Runt det inre fältet syns omskrifterna ”100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ” (”100 år sedan Mikis Theodorakis födelse”) och ”ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (”Republiken Grekland”). Nedtill i fältet återges präglingsåret, till höger en palmett (grekiska myntverkets myntmärke) och till vänster ett notsystem med en G-klav. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+	<string name="twoeuro_comm_2025_gr_2_date">"Juli 2025"</string>
+
+	<string name="twoeuro_comm_2025_hr_title">"Serien ”Kroatiska städer” – Grad Pula - Arena"</string>
+	<string name="twoeuro_comm_2025_hr_desc">"Det centrala motivet i åtsidans inre fält är amfiteatern i Pula, ett av Kroatiens främsta antika monument, visad från Adriatiska havet som antyds nedanför det centrala motivet som en symbol för Kroatien som Medelhavsland. Till höger i fältet syns en avbildning av Sankt Antoniuskyrkan från 1930-talet, som ingår i Pulas stadssilhuett. På åtsidan syns som omskrift runt myntets inre fält också det utgivande landets namn ”HRVATSKA” (Kroatien), utgivningsåret ”2025” och ”GRAD PULA-ARENA” (Staden Pulas arena). Åtsidan är utformad av skulptören Duje Botteri. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_hr_date">"Oktober 2025"</string>
+
+	<string name="twoeuro_comm_2025_hr_2_title">"Högtidlighållandet av Kroatiens grundande och kröningen av kung Tomislav för 1100 år sedan."</string>
+	<string name="twoeuro_comm_2025_hr_2_desc">"Det centrala motivet i åtsidans inre fält är kung Tomislav till häst. Det andra motivet är det distinkta kroatiska rutmönstret som representerar en del av Kroatiens riksvapen. På åtsidan som omskrift runt myntets mittfält återges orden ”KRALJ TOMISLAV” (”Kung Tomislav”), kung Tomislavs kröningsår ”925”, det utgivande landet ”REPUBLIKA HRVATSKA” (”Republiken Kroatien”) och utgivningsåret ”2025” Åtsidan är utformad av skulptören Nikola Vudrag. Det centrala motivet i åtsidans inre fält är hans adaption av en skulptur från 1938 av skulptören Robert Franges Mihanovic. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+	<string name="twoeuro_comm_2025_hr_2_date">"Juli 2025"</string>
 
 	<string name="twoeuro_comm_2025_it_title">"Jubelåret 2025"</string>
 	<string name="twoeuro_comm_2025_it_desc">"I mitten på åtsidan syns Heliga porten i Peterskyrkan. Längs det inre fältets kant finns överst omskriften ”IUBILAEUM” som bildar en cirkel tillsammans med en serie fiskar, ömsom med tunn kontur ömsom med markerad kontur, som symboler för kristendomen. Till vänster finns utgivningsåret ”2025” och bokstaven ”R” för Roms myntverk. Till höger finns ”RI”, Republiken Italiens akronym, och upphovsmakarens initialer ”C.M.” (Claudia Momoni). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-	<string name="twoeuro_comm_2025_it_date">"januari 2025"</string>
+	<string name="twoeuro_comm_2025_it_date">"Januari 2025"</string>
 
 	<string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023–2025"</string>
 	<string name="twoeuro_comm_2025_it_2_desc">"Motivet föreställer skolfartyget Amerigo Vespucci som med fulla segel plöjer havsvågorna. Till vänster finns omskriften ”Amerigo Vespucci Tour Mondiale 2023-2025”. Nedanför till vänster finns utgivningsåret ”2025” och ”RI”, Republiken Italiens akronym. Till höger finns bokstaven ”R” för Roms myntverk och nederst ”E.FERRETTI” för formgivaren. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
 	<string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-	<string name="twoeuro_comm_2025_it_2_date">"januari 2025"</string>
+	<string name="twoeuro_comm_2025_it_2_date">"Januari 2025"</string>
+
+	<string name="twoeuro_comm_2025_lt_2_title">"Litauiska etnografiska regioner – Lilla Litauen"</string>
+	<string name="twoeuro_comm_2025_lt_2_desc">"Åtsidans inre fält upptas av en vapensköld med en älg som håller ett spjut mellan frambenen och däröver av ett lysande fyrtorn. Kuriska ekor syns på ömse sidor om skölden och undertill återges ett citat av Vydūnas: ”Spindulys esmi begalinės šviesos” (”En stråle är det oändliga ljusets kärna”). Ovanför syns omskriften ”Lietuva” (”Litauen”), ”MAŽOJI LIETUVA” (”Lilla Litauen”), utgivningsåret ”2025” och litauiska myntverkets myntmärke. Åtsidan har utformats av Rolandas Rimkūnas (Lilla Litauens stora vapensköld är utformad av Arvydas Každailis). I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_lt_2_date">"Sista kvartalet 2025"</string>
+
+	<string name="twoeuro_comm_2025_lt_title">"Försvar"</string>
+	<string name="twoeuro_comm_2025_lt_desc">"På åtsidan syns konturerna av Litauen, som omgärdas av stiliserade taggar för att symbolisera ett holistiskt och samhällsomfattande försvar. Motivet kan också ses som en igelkott för att representera både öppenheten och skörheten i fria samhällen, vilka måste försvaras med all makt mot yttre hot. Litauen presenteras som en igelkott, alltid beredd att försvara sig själv. I mitten av det inre fältet finns inskriften ”LIETUVA” (Litauen), utgivningsåret ”2025” och det litauiska myntverkets myntmärke. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_lt_date">"Första kvartalet 2025"</string>
+
+	<string name="twoeuro_comm_2025_lu_title">"75-årsjubiléet av Schumandeklarationen den 9 maj 1950"</string>
+	<string name="twoeuro_comm_2025_lu_desc">"Nederst i det inre fältet syns en hand som med en penna i sitt grepp skriver på ett papper. Pennan övergår i en olivkvist, som blir till duvor – båda dessa en symbol för fred. Duvorna flyger mot horisonten där sex stjärnor representerar de sex medlemsstater som senare undertecknade fördraget om upprättandet av Europeiska kol- och stålgemenskapen, som grundade sig på Schumandeklarationen. Överst i det inre fältet syns omskriften ”DECLARATION SCHUMAN” och datumet ” 09.05.1950 ”. Nedanför står ”75” för jubileumsåret. Till höger syns ”LUXEMBOURG” för det utgivande landet samt utgivningsåret ”2025”. Monogrammet (bokstaven ”H” med en krona) representerar storhertig Henri. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_date">"Februari 2025"</string>
+
+	<string name="twoeuro_comm_2025_lu_2_title">"25 år sedan storhertig Henri tillträdde tronen"</string>
+	<string name="twoeuro_comm_2025_lu_2_desc">"I mitten av myntets inre fält finns en halsbild av storhertig Henri, med storhertigens palats i bakgrunden. Omskriften ”25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI” finns ovanför halsbilden. Nedanför halsbilden finns inskriften ”LETZEBUERG” för det utgivande landet samt utgivningsåret ”2025”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+	<string name="twoeuro_comm_2025_lu_2_date">"Februari 2025"</string>
+
+	<string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
+	<string name="twoeuro_comm_2025_mc_desc">"Myntet uppmärksammar förläningen Marquisate des Baux. Titeln innehades för först gången 1642 av Hercule Grimaldi, son till Honoré II. I dag tillhör den, av hävd, tronarvingen prins Jacques. Motivet föreställer klippan och det omgivande området kring byn Les Baux de Provence. Överst finns omskriften ”MONACO” för det utgivande landet. Längst ner finns omskriften ”MARQUISAT DES BAUX”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_date">"November 2025"</string>
+
+	<string name="twoeuro_comm_2025_mc_2_title">"Comté de Carladès"</string>
+	<string name="twoeuro_comm_2025_mc_2_desc">"Myntet uppmärksammar titeln Comté de Carladès, som av hävd tilldelas den andra personen i tronföljden och som i dag bärs av prinsessan Gabriella. Motivet föreställer fasaden på det hotell som tillhörde familjen Grimaldi fram till revolutionen. Överst finns omskriften ”MONACO” för det utgivande landet. Nederst finns omskriften ”COMTE DE CARLADES”. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+	<string name="twoeuro_comm_2025_mc_2_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_mt_2_title">"Staden Mdina"</string>
+	<string name="twoeuro_comm_2025_mt_2_desc">"Myntet är en del av en serie tillägnad muromgärdade städer på Malta, som är kännetecknande för det maltesiska och europeiska kulturarvet. Det följer på 2024 års utgivning av ett mynt för ”Iċ-Ċittadella” (citadellet) på Gozo. Motivet föreställer Mdina, med katedralen som tronar på toppen. Överst till vänster finns inskriften ”MDINA”.  Överst till höger finns formgivarens initialer, ”NGB” (Noel Galea Bason). Nederst finns inskriften ”MALTA” för det utgivande landet samt utgivningsåret ”2025”. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+	<string name="twoeuro_comm_2025_mt_2_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_mt_title">"Maltesisk oxe (il-gendus Malti)"</string>
+	<string name="twoeuro_comm_2025_mt_desc">"Motivet föreställer en maltesisk oxe. Med myntet vill man öka medvetenheten om en av Maltas inhemska, utrotningshotade, raser. Överst i det inre fältet finns omskriften ”IL-GENDUS MALTI”. Nederst finns inskriften ”Malta” för det utgivande landet samt utgivningsåret ”2025”. Nederst till höger finns formgivarens initialer, ”MAF” (Maria Anna Frisone). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+	<string name="twoeuro_comm_2025_mt_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_po_title">"World Scouting"</string>
+	<string name="twoeuro_comm_2025_po_desc">"Myntet uppmärksammar World Scouting och ungdomsrörelser som främjar kulturellt utbyte, ömsesidig förståelse och vänskap, eftersom den sextonde upplagan av World Scout Moot hålls i Portugal 2025. Till evenemanget flockas scouter i åldern 18–25 år från hela världen för att lära sig av varandra och utveckla nya färdigheter."</string>
+	<string name="twoeuro_comm_2025_po_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_po_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_po_2_title">"Hållbar utveckling"</string>
+	<string name="twoeuro_comm_2025_po_2_desc">"Motivet föreställer jordklotet, med omskriften ”Desenvolvimento Sustentável” (hållbar utveckling). Längs det inre fältets vänstra kant sträcker sig en bladslinga uppåt. Den består av 17 grupper av blad som är arrangerade i en triangel som påminner om den universella symbolen för återvinning, som en hänvisning till de 17 målen i Agenda 2030 för hållbar utveckling. Längs nedre kanten och mot höger finns omskriften ”Portugal”, Portugals statsvapen, årtalet och myntmärket ”Casa da Moeda” ovanför formgivarens namn. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+	<string name="twoeuro_comm_2025_po_2_date">"Första kvartalet 2025"</string>
+
+	<string name="twoeuro_comm_2025_si_title">"Hundraårsdagen av Miki Musters födelse"</string>
+	<string name="twoeuro_comm_2025_si_desc">"Tre hjältar från Miki Musters tecknade serier återges i dämpad relief i myntets inre fält: Zvitorepec, Lakotnik och Trdonja. Nedtill i omskrift visas präglingsåret ”2025” och det utgivande landets namn ”SLOVENIJA”. Uppe till vänster visas födelseåret ”1925” och namnet ”MIKI”, medan efternamnet ”MUSTER” visas uppe till höger. I myntets yttre fält finns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_si_date">"November 2025"</string>
+
+	<string name="twoeuro_comm_2025_sk_title">"100-årsjubiléet av den första internationella idrottsturneringen på Slovakiens territorium – Europamästerskapet i ishockey"</string>
+	<string name="twoeuro_comm_2025_sk_desc">"Motivet föreställer en ishockeyspelare i full fart, i en tidstypisk utstyrsel för 1925 års Europamästerskap i ishockey. I bakgrunden syns en stiliserad vy av Höga Tatra, den slovakiska bergsregion där mästerskapet ägde rum. Omskriften ”MAJSTROVSTVÁ EURÓPY V HOKEJI” (Europamästerskapet i hockey) syns överst i det inre fältet. Årtalen ”1925” och ”2025” finns under varandra till vänster om ishockeyspelaren. Nederst finns inskriften ”SLOVENSKO” för det utgivande landet. Till höger om ishockeyspelaren finns myntmärket för Slovakiens Kremnica Mint (Mincovňa Kremnica), som ger ut myntet. Bredvid myntmärket finns initialerna ”KL” för formgivaren Karol Ličko. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+	<string name="twoeuro_comm_2025_sk_date">"Januari 2025"</string>
+
+	<string name="twoeuro_comm_2025_sm_title">"550-årsjubiléet av Michelangelos födelse"</string>
+	<string name="twoeuro_comm_2025_sm_desc">"I mitten av det inre fältet syns Kleopatra, en detalj från Michelangelo Buonarrotis teckning som has om hand av Casa Buonarroti Foundation i Florens. Till vänster finns omskriften ”MICHELANGELO”, bokstaven ”R” för Roms myntverk och årtalet ”1475”. Till höger finns omskriften ”SAN MARINO” för det utgivande landet och årtalet ”2025”. Nederst syns upphovsmakarens initialer, ”SP” (Silvia Petrassi). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+	<string name="twoeuro_comm_2025_sm_date">"Juli 2025"</string>
+
+	<string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
+	<string name="twoeuro_comm_2025_sm_2_desc">"I mitten av det inre fältet syns en kvinna med ett ankare, en symbol för hopp. Hon håller ett barn i handen som en symbol för mänskligheten. Till vänster syns omskriften ”SAN MARINO”, fyra fyrkantiga segel, bokstaven ”R” för Roms myntverk och inskriften ”DI MAULO” för upphovsmakaren, Gabriele Di Maulo. Uppe till höger syns en åttauddig stjärna, och nedanför syns inskriften ”IUBILAEUM 2025”. Nederst finns gravörens initialer, ”M.B.INC” (Marta Bonifacio). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+	<string name="twoeuro_comm_2025_sm_2_date">"Mars 2025"</string>
+
+	<string name="twoeuro_comm_2025_va_title">"550-årsjubiléet av Michelangelos födelse"</string>
+	<string name="twoeuro_comm_2025_va_desc">"Motivet föreställer Peterskyrkans kupol, formgiven av Michelangelo, som arbetade med den till sin död 1564. Nedanför syns ett utsnitt från Sixtinska kapellets valv, som Michelangelo delade in i sektioner och försåg med fresker. Till vänster syns Michelangelos underskrift (”michelagniolo”) lodrätt, bokstaven ”R” för Roms myntverk och ”D. LONGO” för myntets formgivare (Daniela Longo). Omskriften ”CITTA’ DEL VATICANO” anger den utgivande staten ovanför kupolen. Strax nedanför finns inskriften ”1475” för Michelangelos födelseår och ”2025” för utgivningsåret. I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_va_volume">"80000"</string>
+	<string name="twoeuro_comm_2025_va_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_va_2_title">"Sede vacante 2025"</string>
+	<string name="twoeuro_comm_2025_va_2_desc">"Motivet föreställer den apostoliska kammarens emblem, en vapensköld tillhörig den kardinal som innehar ämbetet påvlig skattmästare (camerlengo), vilket representeras av två nycklar i kors under en baldakin. I omskrift längs det inre fältets kant står ”CITTA’ DEL VATICANO”, ”SEDE VACANTE” och ”MMXXV” (för utgivningsåret). En abstrakt bild av en duva syns mellan texten ”CITTA’ DEL VATICANO” och ”SEDE VACANTE”. Bokstaven ”R”, för Roms myntverk, syns nedanför Camerlengos vapen, med namnet på gravören till vänster och namnet på formgivaren till höger (”O. ROSSI” för Orietta Rossi). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
+	<string name="twoeuro_comm_2025_va_2_date">"Juni 2025"</string>
+
+	<string name="twoeuro_comm_2025_va_3_title">"Jubelåret 2025"</string>
+	<string name="twoeuro_comm_2025_va_3_desc">"Motivet föreställer påven som öppnar Heliga porten i Peterskyrkan. Till höger syns lodrätt den latinska inskriften ”IVBILAEUM” och ”2025” för utgivningsåret. Nederst i det inre fältet återfinns den utgivande statens namn, ”CITTA’ DEL VATICANO”. Bokstaven ”R”, för Roms myntverk, syns på dörren, medan inskriften ”D. LONGO” till vänster i bildens nedre kant anger formgivaren av myntet (Daniela Longo). I myntets yttre fält återfinns EU-flaggans tolv stjärnor."</string>
+	<string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
+	<string name="twoeuro_comm_2025_va_3_date">"Juni 2025"</string>
 
 	<!-- END auto generated code for language sv -->
 

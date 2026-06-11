@@ -460,15 +460,12 @@
 - Als u niet wilt beginnen of voort te zetten een handelssessie kunt u gewoon de trading collectie te verwijderen. U wordt gevraagd of u wilt de onderliggende handelspartner collectie ook verwijderen.
 "</string>
 
-    <string name="version_history_last">"Version 7.14\n
+    <string name="version_history_current">"Version 7.16\n
 Toegevoegd ontbrekende 2€ herdenkingsmunten 2026.
-Toegevoegd 2€ herdenkingsmunten voor Duitsland, Slovenië en Slowakije.
-Toegevoegd nieuwe muntafbeeldingen voor Monaco 2025 1€ en 2€. Dank aan Guiseppe.
-Toegevoegd nieuwe muntafbeeldingen voor Luxemburg 2026. Dank aan Guiseppe.
-Meldingskanaal toegevoegd voor collectie-updates.
+Een lang indrukken op een munt in de EU-weergave toont nu alle munten.
 "</string>
 
-    <string name="version_history_current">"Versie 7.15\n
+    <string name="version_history_last">"Versie 7.15\n
 Aangepaste munten voor Duitsland ondersteunen nu de selectie van muntmerken. Bedankt aan Florian.
 Landencodes zijn gecorrigeerd volgens ISO-standaard 3166-1 alpha-2. Bedankt aan Thomas.
 Aangepaste munten kunnen nu alleen voor een specifieke verzameling worden gemaakt.
@@ -2900,110 +2897,175 @@ De gebruiker kan contact opnemen met de betreffende instelling voor gegevensbesc
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"januari 2024"</string>
 
+    <string name="twoeuro_comm_2025_ad_title">"spelen van de Kleine Staten van Europa (in 2025 georganiseerd door Andorra)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"op het ontwerp van de munt staan enkele sportdisciplines van dit toernooi afgebeeld, samen met de inscripties ‘JOCS DELS PETITS ESTATS D’EUROPA’ (Spelen van de Kleine Staten van Europa) en ‘ANDORRA 2025’. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"tweede helft van 2025"</string>
+
+    <string name="twoeuro_comm_2025_ad_2_title">"lammergier"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"om het belang van de bescherming van wilde dieren en het milieu onder de aandacht te brengen, staat op de munt een close-up van een lammergier (Gypaetus barbatus), een vogelsoort die met uitsterven wordt bedreigd, met het opschrift ‘ANDORRA’ en het jaar van uitgifte ‘2025’. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"tweede helft van 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_2_title">"racecircuit van Spa-Francorchamps in België"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"centraal staat de huidige vorm van het racecircuit in Spa-Francorchamps afgebeeld. Op de linkerhelft van de munt wordt de totale afstand (in meters) van het circuit weergegeven, namelijk ‘7.004 M’, en daaronder ook ‘1921’, het jaar dat het circuit in gebruik werd genomen. Boven de afbeelding van het racecircuit staat de tekst ‘CIRCUIT DE SPA FRANCORCHAMPS’. Onderaan de munt staan de landcode ‘BE’ en het jaar van uitgifte ‘2025’, samen met het Belgische muntmeesterteken, een aster voor een erlenmeyer, en het muntteken van Utrecht, een mercuriusstaf (aangezien de Koninklijke Nederlandse Munt de munt zal slaan). Op de rechterhelft van de munt zijn de initialen ‘IB’ van ontwerpster Iris Bruijns aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_title">"Nationale Loterij van België"</string>
+    <string name="twoeuro_comm_2025_be_desc">"in het midden wordt de klassieke allegorische voorstelling van het geluk afgebeeld: de godin Fortuna die de hoorn des overvloeds vasthoudt. Aan de rechterkant en onderaan zijn in totaal vier klavertjesvier te zien, een ander universeel symbool van geluk. Achter Fortuna is het huidige logo van de Nationale Loterij zichtbaar. Aan de linkerkant van de munt staat de tekst 'loterie nationale loterij'. Linksonder staan de landcode 'BE' en het jaar van uitgifte '2025'. Rechtsonder staan de initialen van de ontwerper Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt zal slaan, bevindt zich onder het jaartal het muntteken van Utrecht, een mercuriusstaf, naast het Belgische muntmeesterteken, een aster voor een erlenmeyer. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_be_date">"januari 2025"</string>
+
+    <string name="twoeuro_comm_2025_de_title">"deelstaat (Land) Saarland"</string>
+    <string name="twoeuro_comm_2025_de_desc">"afgebeeld is de 'Saarschleife', de haarspeldbocht in de rivier de Saar, waarbij enkel de meest essentiële kenmerken van het motief van de meanderende rivier in het kenmerkende heuvelachtige landschap worden getoond. Langs de rivier zijn groepjes bomen afgebeeld die het beboste landschap rond de pittoreske Saarschleife verzinnebeelden. Vanuit vogelperspectief is de herkenbare natuurlijke waterweg te zien, ingesloten door de omliggende heuvels die tot in de verte reiken. Om de rustige en lichte sfeer van het landschap niet te verstoren, staat de inscriptie 'Saarland' onderaan op de voorgrond. De bovenste helft van de binnenste cirkel van de munt bevat aan de linkerkant ook de signatuur van de ontwerper, de in Frankfurt gevestigde Carsten Wolff, en aan de rechterkant de letter 'X' als plaatsvervanger voor het muntmerk van de desbetreffende munt ('A', 'D', 'F', 'G' of 'J'). Op de onderste helft staan de inscriptie 'SAARLAND', de code van Duitsland als land van uitgifte 'D' en het jaar van uitgifte '2025'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"januari 2025"</string>
+
+    <string name="twoeuro_comm_2025_ee_title">"500-jarig jubileum van de eerste publicatie met woorden in het Ests en het begin van de Estse literaire taal"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"in het midden van de munt staan vier boeken afgebeeld die samen de hoofdletter ‘E’ vormen, als symbool voor de traditie van de Estse geschreven taal, de tekst ‘EESTI RAAMAT 500’, wat ‘500 jaar boeken in het Ests’ betekent, en het jaar 1525, de publicatiedatum van het eerste boek in het Ests. Op het ontwerp staat ook het jaar van uitgifte ‘2025’. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"tweede kwartaal 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"de erkenning van Salamanca als Unesco-werelderfgoed"</string>
+    <string name="twoeuro_comm_2025_es_desc">"op het ontwerp is een uitzicht op het 'Convento de San Esteban' afgebeeld. Onderaan staan het randschrift ESPAÑA en het jaar van uitgifte 2025. Bovenaan zijn het woord SALAMANCA en het muntmerk 'Eme Coronada' te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"eerste kwartaal van 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"atletiekwedstrijd Finland-Zweden (Athletics International)"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"de afbeelding toont twee lopende benen in een hardloopbeweging en gebogen, onderbroken lijnen die een atletiekpiste voorstellen. De munt herdenkt het honderdjarig jubileum van de atletiekwedstrijd Finland-Zweden en viert zowel de Finse sporttraditie als het verbindende karakter van het evenement. Bovenaan staat het jaar ‘2025’ horizontaal weergegeven. Het muntteken staat in het midden links van de afbeelding, en de letters ‘FI’ staan rechts. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"najaar 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Finse staatsbezoeken – diplomatie en buitenlands beleid"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"op het ontwerp staat een abstracte deur die staatsbezoeken verzinnebeeldt, in een gladde, gepolijste rechthoekige vorm. Het muntmerk, het jaar 2025 en de letters 'FI' staan verticaal langs de linkerzijde van de rechthoek. De deur heeft een afgeronde bovenzijde die de rand van de munt volgt. Onderaan en aan de rechterkant zijn er horizontale groeven die door een cirkelvorm zijn doorsneden. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"voorjaar 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"de Monnaie de Paris brengt hulde aan de Notre-Dame, de beroemde Parijse kathedraal, voor de reconstructie waarvan honderden ambachtslieden samenwerkten en waarvan miljoenen mensen de feestelijke heropening vierden in december 2024. In het midden van het ontwerp staat de gevel van de Notre-Dame van Parijs zoals die eruitziet vanaf het voorplein. Het roosvenster is achter de torenspits weergegeven. Het jaar ‘2025’, de vermelding ‘RF’ en het muntteken van de Monnaie de Paris zijn aan de linkerkant aangebracht. De naam ‘NOTRE-DAME DE PARIS’ is aangebracht aan de rechterkant, samen met het muntteken van de eerste graveur. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"september 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
+    <string name="twoeuro_comm_2025_fr_desc">"de afbeelding toont de oostelijke gevel van het Louvre die is versmolten met de iconische plattegrond van het museum waarop het labyrint van de buitengewone zalen te zien is. Op de achtergrond illustreren de piramidion en de structuur van de grote piramide het traditionele en eigentijdse karakter van het Louvre. Op de plattegrond van het museum zijn het jaar van uitgifte '2025', de aanduiding van het land van uitgifte 'RF' en de muntmerken aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+    <string name="twoeuro_comm_2025_fr_date">"januari 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_title">"200e sterfdag van Laskarina Bouboulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"de munt toont het portret van Laskarina Bouboulina, met op de achtergrond een gestileerde mast en touwwerk. De afbeelding is omringd door de woorden ‘200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ’ (‘200e sterfdag van Laskarina Bouboulina’) en ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘Helleense Republiek’). Links van de afbeelding staan een palmet (het muntteken van de Griekse Munt) en het jaar van uitgifte. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"100e geboortedag van Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"de munt toont de componist Mikis Theodorakis. De afbeelding is omringd door de inscripties ‘100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ’ (‘100e geboortedag van Mikis Theodorakis’) en ‘ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ’ (‘Helleense Republiek’). Onder de afbeelding staat het jaar van uitgifte, rechts ervan een palmet (het muntteken van de Griekse Munt) en links ervan een notenbalk met een solsleutel. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"reeks gewijd aan Kroatische steden – Pula – Arena"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"de centrale tekening toont het amfitheater (de ‘Arena’) van Pula, een van de prominentste historische gebouwen in de Republiek Kroatië. Het amfitheater is weergegeven zoals het te zien is vanaf de Adriatische Zee, die ook is afgebeeld onder de centrale tekening om dit typisch mediterraanse kenmerk van Kroatië te benadrukken. Rechts van het amfitheater staat de kerk van Sint-Antonius van Padua afgebeeld, die werd gebouwd in de jaren 1930 en een van de herkenningspunten is van het panoramisch uitzicht over de stad Pula. Op de munt staan ook de inscriptie van het land van uitgifte ‘HRVATSKA’ (Kroatië), het jaar van uitgifte ‘2025.’ en de woorden ‘GRAD PULA-ARENA’ (amfitheater van de stad Pula), in een cirkel langs de binnenrand van de munt. De nationale zijde van de munt is ontworpen door de beeldhouwer Duje Botteri. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"oktober 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"1100-jarig jubileum van de Republiek Kroatië en van de kroning van koning Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"centraal is koning Tomislav te paard afgebeeld. Het andere thema is het kenmerkende en herkenbare symbool van Kroatië, het Kroatische dambord, dat deel uitmaakt van het wapenschild van de Republiek Kroatië. Het ontwerp bevat ook de volgende inscripties: de woorden ‘KRALJ TOMISLAV’ (koning Tomislav), het jaar waarin koning Tomislav is gekroond, ‘925.’, het land van uitgifte, ‘REPUBLIKA HRVATSKA’ (Republiek Kroatië) en het jaar van uitgifte, ‘2025.’, allemaal weergegeven in een cirkel langs de binnenrand van de munt. De nationale zijde van de munt is ontworpen door de beeldhouwer Nikola Vudrag. De centrale afbeelding is zijn bewerking van het originele beeldhouwwerk van Robert Franges Mihanovic van 1938. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"jubeljaar 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"in het midden is de Heilige Deur van de Sint-Pietersbasiliek afgebeeld. Bovenaan in een halve cirkel is de inscriptie 'IUBILAEUM' aangebracht, en onderaan staat in een aansluitende halve cirkel een reeks afwisselend lege en volle vissen, een symbool van het christendom. Aan de linkerkant zijn het jaar van uitgifte '2025' en de aanduiding van het munthuis van Rome ('R') te zien, aan de rechterkant staan het acroniem van de Italiaanse Republiek ('RI') en de initialen van de ontwerper 'C.M.' (Claudia Momoni). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"januari 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"in het midden staat het opleidingsschip Amerigo Vespucci dat met volle zeilen de zeegolven doorploegt. In de buiging aan de linkerkant is 'Amerigo Vespucci Tour Mondiale 2023-2025' zichtbaar; daaronder aan de linkerkant zijn het jaar van uitgifte '2025' en het acroniem van de Italiaanse Republiek ('RI') te zien; aan de rechterkant staat de aanduiding van het munthuis van Rome ('R'); in de afsnede staat de naam van de ontwerper, 'E.FERRETTI'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"januari 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"Litouwse etnografische regio’s – Klein-Litouwen"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"de munt toont het wapenschild, met een eland die met zijn voorpoten een speer vasthoudt en erboven het licht van een vuurtoren. Er zijn kurenkahns (traditionele houten vissersboten) aangebracht aan beide zijden van het schild, en eronder staat een quote van Vydūnas: ‘Spindulys esmi begalinės šviesos’ (Een straal is de essentie van oneindig licht). Rondom de compositie staan de opschriften ‘Lietuva’ (Litouwen), ‘Mažoji Lietuva’ (Klein-Litouwen), het jaar van uitgifte ‘2025’, en het muntteken van de Litouwse munt. De nationale zijde van de munt is van de hand van Rolandas Rimkūnas (naar Arvydas Každailis’ ontwerp van het grote wapenschild van de regio Klein-Litouwen). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"vierde kwartaal van 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"defensie"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"de afbeelding laat de contouren van Litouwen zien. De staatsgrenzen zijn omgeven door een gestileerde stekelige barrière die het concept van een holistische en maatschappijbrede defensie symboliseert. Het beeld van de egel staat ook voor de openheid en kwetsbaarheid van vrije samenlevingen die tot het uiterste tegen externe bedreigingen moeten worden verdedigd. Litouwen wordt als een egel voorgesteld die te allen tijde paraat blijft om zichzelf te verdedigen. In het midden staan de inscriptie 'LIETUVA' (LITOUWEN), het jaar van uitgifte '2025' en het muntmerk van het Litouwse munthuis. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"eerste kwartaal van 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"75-jarig jubileum van de Schumanverklaring van 9 mei 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"onderaan is een hand afgebeeld die een pen vasthoudt waarmee een vel papier wordt beschreven. De bovenkant van de pen eindigt in een olijftak en gaat vervolgens over in duiven, die allebei symbool staan voor vrede. De duiven vliegen richting de horizon waarop zes sterren te zien zijn; die staan voor de zes lidstaten die later het Verdrag tot oprichting van de Europese Gemeenschap voor Kolen en Staal ondertekenen, waarvoor de Schumanverklaring de basis heeft gelegd. Bovenaan zijn de tekst 'DECLARATION SCHUMAN' en de datum '09.05.1950' te zien. Daaronder staat het getal '75', dat op het jubileum van de verklaring wijst. Aan de rechterkant zijn de naam van het land van uitgifte 'LUXEMBOURG' en het jaar van uitgifte '2025' te zien. Het monogram (de letter 'H' met een kroon) staat voor groothertog Henri. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"februari 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"25-jarig jubileum van de troonsbestijging van groothertog Henri"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"in het midden is de beeltenis van groothertog Henri afgebeeld, en op de achtergrond staat het Groothertogelijk Paleis. De tekst '25. TROUNJUBILÄUM VUM GROUSSHERZOG HENRI' staat in een halve cirkel boven de beeltenis. Onder de beeltenis zijn de naam van het land van uitgifte 'LETZEBUERG' en het jaar van uitgifte '2025' te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"februari 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_title">"markgraafschap Les Baux"</string>
+    <string name="twoeuro_comm_2025_mc_desc">"de munt brengt een eerbetoon aan het feodale markgraafschap Les Baux. Hercule Grimaldi, zoon van Honoré II, droeg in 1642 als eerste de titel van markgraaf van Les Baux. Tegenwoordig draagt volgens aloude traditie Z.D. erfprins Jacques de titel. Op het ontwerp zijn de rots en het omliggende gebied van het dorp Les Baux-de-Provence afgebeeld. Bovenaan staat de naam van het land van uitgifte 'MONACO'. Onderaan staat in een halve cirkel de inscriptie 'MARQUISAT DES BAUX'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_date">"november 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_2_title">"het graafschap Carladès"</string>
+    <string name="twoeuro_comm_2025_mc_2_desc">"de munt brengt een eerbetoon aan de titel van graaf van Carladès, die volgens aloude traditie naar de tweede in lijn voor de troonsopvolging gaat; momenteel draagt prinses Gabriella de titel. Op het ontwerp is de voorgevel van het hotel afgebeeld dat tot aan de Revolutie eigendom was van de familie Grimaldi. Bovenaan staat de naam van het land van uitgifte 'MONACO'. Onderaan is in een halve cirkel de inscriptie 'COMTÉ DE CARLADÈS' te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_2_date">"juni 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_2_title">"de stad Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"deze munt is er een uit een reeks gewijd aan Maltese ommuurde steden, die intrinsiek deel uitmaken van het Maltese en Europese culturele erfgoed. Op de vorige munt, met jaar van uitgifte 2024, was ‘Iċ-Ċittadella’ (de citadel) van Gozo afgebeeld. Op het huidige ontwerp staat de stad Mdina met zijn kathedraal die erboven uittorent. Bovenaan links is de inscriptie ‘MDINA’ aangebracht. Bovenaan rechts staan de initialen ‘NGB’ van de ontwerper (Noel Galea Bason). Onderaan is de naam van het land van uitgifte ‘MALTA’ te zien, en daaronder het jaar van uitgifte ‘2025’. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"juni 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"de Maltese os (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"de afbeelding toont een Maltese os. De munt brengt een met uitsterven bedreigd inheems ras van Malta onder de aandacht. Bovenaan is in een halve cirkel de inscriptie 'IL-GENDUS MALTI' aangebracht. Onderaan is de naam van het land van uitgifte 'MALTA' te zien, en daaronder het jaar van uitgifte '2025'. Onderaan rechts staan de initialen 'MAF' van de ontwerper (Maria Anna Frisone). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"juni 2025"</string>
+
     <string name="twoeuro_comm_2025_po_title">"scouting wereldwijd"</string>
     <string name="twoeuro_comm_2025_po_desc">"de munt brengt een eerbetoon aan de wereldwijde scoutingbeweging en andere jeugdbewegingen die culturele uitwisseling, wederzijds begrip en vriendschap bevorderen. De aanleiding hiervoor vormt de 16e World Scout Moot, die in 2025 in Portugal wordt gehouden en die scouts tussen de 18 en 25 jaar van overal ter wereld samenbrengt om van elkaar te leren en nieuwe vaardigheden te ontwikkelen."</string>
     <string name="twoeuro_comm_2025_po_volume">"500000"</string>
     <string name="twoeuro_comm_2025_po_date">"juni 2025"</string>
 
     <string name="twoeuro_comm_2025_po_2_title">"duurzame ontwikkeling"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"de munt toont een voorstelling van de aardbol, omgeven door het randschrift “Desenvolvimento Sustentável” (duurzame ontwikkeling). Aan de linker- en bovenrand is een soort tak met 17 sets bladeren te zien die telkens samen een driehoek vormen, wat aan het universele symbool voor recyclage doet denken en naar de 17 doelstellingen van de Agenda 2030 voor duurzame ontwikkeling verwijst. Aan de onder- en rechterrand zijn het randschrift “Portugal”, het nationale wapenschild van Portugal, het jaar van uitgifte en, boven de naam van de ontwerper, het muntmerk “Casa da Moeda” aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"de munt toont een voorstelling van de aardbol, omgeven door het randschrift 'Desenvolvimento Sustentável' (duurzame ontwikkeling). Aan de linker- en bovenrand is een soort tak met 17 sets bladeren te zien die telkens samen een driehoek vormen, wat aan het universele symbool voor recyclage doet denken en naar de 17 doelstellingen van de Agenda 2030 voor duurzame ontwikkeling verwijst. Aan de onder- en rechterrand zijn het randschrift 'Portugal', het nationale wapenschild van Portugal, het jaar van uitgifte en, boven de naam van de ontwerper, het muntmerk 'Casa da Moeda' aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
     <string name="twoeuro_comm_2025_po_2_date">"eerste kwartaal van 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"Finse staatsbezoeken – diplomatie en buitenlands beleid"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"op het ontwerp staat een abstracte deur die staatsbezoeken verzinnebeeldt, in een gladde, gepolijste rechthoekige vorm. Het muntmerk, het jaar 2025 en de letters “FI” staan verticaal langs de linkerzijde van de rechthoek. De deur heeft een afgeronde bovenzijde die de rand van de munt volgt. Onderaan en aan de rechterkant zijn er horizontale groeven die door een cirkelvorm zijn doorsneden. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"voorjaar 2025"</string>
+    <string name="twoeuro_comm_2025_si_title">"100e geboortedag van Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">"de munt laat de drie helden uit de stripboeken van Miki Muster zien, namelijk Zvitorepec, Lakotnik en Trdonja, in een zacht reliëf afgebeeld. Daaronder staan het jaar van uitgifte ‘2025’ en het land van uitgifte ‘SLOVENIJA’. Linksboven staan het geboortejaar ‘1925’ en de naam ‘MIKI’, en rechtsboven prijkt de achternaam ‘MUSTER’. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"november 2025"</string>
 
     <string name="twoeuro_comm_2025_sk_title">"100-jarig jubileum van het eerste internationale sporttoernooi op het grondgebied van de Slowaakse Republiek – het Europees kampioenschap ijshockey"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"op het ontwerp staat een ijshockeyspeler in actie met een typische outfit uit de periode van het Europees kampioenschap ijshockey in 1925. De speler is afgebeeld tegen een gestileerd panorama van de Hoge Tatra, de Slowaakse bergregio waar het kampioenschap plaatsvond. Langs de rand van de binnenste cirkel is bovenaan de inscriptie “MAJSTROVSTVÁ EURÓPY V HOKEJI” (Europees kampioenschap hockey) aangebracht. Het jaartal “1925” staat boven “2025” aan de linkerbovenkant van het ontwerp. Onderaan staat de naam van het land van uitgifte “SLOVENSKO”, en aan de rechterkant het muntmerk van het Slowaakse munthuis in Kremnica (Mincovňa Kremnica), dat de munt slaat. Daarnaast zijn de initialen “KL” (Karol Ličko) van de ontwerper te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_sk_desc">"op het ontwerp staat een ijshockeyspeler in actie met een typische outfit uit de periode van het Europees kampioenschap ijshockey in 1925. De speler is afgebeeld tegen een gestileerd panorama van de Hoge Tatra, de Slowaakse bergregio waar het kampioenschap plaatsvond. Langs de rand van de binnenste cirkel is bovenaan de inscriptie 'MAJSTROVSTVÁ EURÓPY V HOKEJI' (Europees kampioenschap hockey) aangebracht. Het jaartal '1925' staat boven '2025' aan de linkerbovenkant van het ontwerp. Onderaan staat de naam van het land van uitgifte 'SLOVENSKO', en aan de rechterkant het muntmerk van het Slowaakse munthuis in Kremnica (Mincovňa Kremnica), dat de munt slaat. Daarnaast zijn de initialen 'KL' (Karol Ličko) van de ontwerper te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
     <string name="twoeuro_comm_2025_sk_date">"januari 2025"</string>
 
-    <string name="twoeuro_comm_2025_be_title">"Nationale Loterij van België"</string>
-    <string name="twoeuro_comm_2025_be_desc">"in het midden wordt de klassieke allegorische voorstelling van het geluk afgebeeld: de godin Fortuna die de hoorn des overvloeds vasthoudt. Aan de rechterkant en onderaan zijn in totaal vier klavertjesvier te zien, een ander universeel symbool van geluk. Achter Fortuna is het huidige logo van de Nationale Loterij zichtbaar. Aan de linkerkant van de munt staat de tekst “loterie nationale loterij”. Linksonder staan de landcode BE en het jaar van uitgifte 2025. Rechtsonder staan de initialen van de ontwerper Iris Bruijns. Aangezien de Koninklijke Nederlandse Munt de munt zal slaan, bevindt zich onder het jaartal het muntteken van Utrecht, een mercuriusstaf, naast het Belgische muntmeesterteken, een aster voor een erlenmeyer. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_be_date">"januari 2025"</string>
-
     <string name="twoeuro_comm_2025_sm_title">"de 550e geboortedag van Michelangelo"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"in het midden staat Cleopatra, in een reproductie van de schets van Michelangelo Buonarroti die bij de stichting Casa Buonarroti in Firenze (Florence) wordt bewaard. Aan de linkerkant zijn in een halve cirkel de inscriptie “MICHELANGELO”, de letter “R” (de aanduiding van het munthuis van Rome) en het jaartal “1475” aangebracht; aan de rechterkant staan in een halve cirkel het land van uitgifte “SAN MARINO” en het jaartal “2025”. Onderaan staan de initialen van de ontwerper, Silvia Petrassi, “SP”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_sm_desc">"in het midden staat Cleopatra, in een reproductie van de schets van Michelangelo Buonarroti die bij de stichting Casa Buonarroti in Firenze (Florence) wordt bewaard. Aan de linkerkant zijn in een halve cirkel de inscriptie 'MICHELANGELO', de letter 'R' (de aanduiding van het munthuis van Rome) en het jaartal '1475' aangebracht; aan de rechterkant staan in een halve cirkel het land van uitgifte 'SAN MARINO' en het jaartal '2025'. Onderaan staan de initialen van de ontwerper, Silvia Petrassi, 'SP'. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
     <string name="twoeuro_comm_2025_sm_date">"juli 2025"</string>
 
     <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 – Pellegrini di Speranza"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">"in het midden staat een vrouw met een anker, een allegorie van de hoop, terwijl ze een kind bij de hand houdt, een symbool van menselijkheid. Links staan de inscriptie “SAN MARINO”, vier vierkante zeilen, de letter “R” (voor het munthuis van Rome) en de achternaam “DI MAULO” van de ontwerper (Gabriele Di Maulo); bovenaan rechts staan een achtpuntige ster en de inscriptie “IUBILAEUM 2025” en onderaan de initialen “M.B.INC” van de graveur (Marta Bonifacio). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"in het midden staat een vrouw met een anker, een allegorie van de hoop, terwijl ze een kind bij de hand houdt, een symbool van menselijkheid. Links staan de inscriptie 'SAN MARINO', vier vierkante zeilen, de letter 'R' (voor het munthuis van Rome) en de achternaam 'DI MAULO' van de ontwerper (Gabriele Di Maulo); bovenaan rechts staan een achtpuntige ster en de inscriptie 'IUBILAEUM 2025' en onderaan de initialen 'M.B.INC' van de graveur (Marta Bonifacio). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
     <string name="twoeuro_comm_2025_sm_2_date">"maart 2025"</string>
 
-    <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
-    <string name="twoeuro_comm_2025_fr_desc">"de afbeelding toont de oostelijke gevel van het Louvre die is versmolten met de iconische plattegrond van het museum waarop het labyrint van de buitengewone zalen te zien is. Op de achtergrond illustreren de piramidion en de structuur van de grote piramide het traditionele en eigentijdse karakter van het Louvre. Op de plattegrond van het museum zijn het jaar van uitgifte “2025”, de aanduiding van het land van uitgifte “RF” en de muntmerken aangebracht. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
-    <string name="twoeuro_comm_2025_fr_date">"januari 2025"</string>
-
-    <string name="twoeuro_comm_2025_mt_title">"de Maltese os (il-gendus Malti)"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"de afbeelding toont een Maltese os. De munt brengt een met uitsterven bedreigd inheems ras van Malta onder de aandacht. Bovenaan is in een halve cirkel de inscriptie “IL-GENDUS MALTI” aangebracht. Onderaan is de naam van het land van uitgifte “MALTA” te zien, en daaronder het jaar van uitgifte “2025”. Onderaan rechts staan de initialen “MAF” van de ontwerper (Maria Anna Frisone). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_mc_title">"markgraafschap Les Baux"</string>
-    <string name="twoeuro_comm_2025_mc_desc">"de munt brengt een eerbetoon aan het feodale markgraafschap Les Baux. Hercule Grimaldi, zoon van Honoré II, droeg in 1642 als eerste de titel van markgraaf van Les Baux. Tegenwoordig draagt volgens aloude traditie Z.D. erfprins Jacques de titel. Op het ontwerp zijn de rots en het omliggende gebied van het dorp Les Baux-de-Provence afgebeeld. Bovenaan staat de naam van het land van uitgifte “MONACO”. Onderaan staat in een halve cirkel de inscriptie “MARQUISAT DES BAUX”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_mc_volume">"15000"</string>
-    <string name="twoeuro_comm_2025_mc_date">"november 2025"</string>
-
-    <string name="twoeuro_comm_2025_mc_2_title">"het graafschap Carladès"</string>
-    <string name="twoeuro_comm_2025_mc_2_desc">"de munt brengt een eerbetoon aan de titel van graaf van Carladès, die volgens aloude traditie naar de tweede in lijn voor de troonsopvolging gaat; momenteel draagt prinses Gabriella de titel. Op het ontwerp is de voorgevel van het hotel afgebeeld dat tot aan de Revolutie eigendom was van de familie Grimaldi. Bovenaan staat de naam van het land van uitgifte “MONACO”. Onderaan is in een halve cirkel de inscriptie “COMTÉ DE CARLADÈS” te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
-    <string name="twoeuro_comm_2025_mc_2_date">"juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_es_title">"de erkenning van Salamanca als Unesco-werelderfgoed"</string>
-    <string name="twoeuro_comm_2025_es_desc">"op het ontwerp is een uitzicht op het “Convento de San Esteban” afgebeeld. Onderaan staan het randschrift ESPAÑA en het jaar van uitgifte 2025. Bovenaan zijn het woord SALAMANCA en het muntmerk “Eme Coronada” te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"eerste kwartaal van 2025"</string>
-
     <string name="twoeuro_comm_2025_va_title">"de 550e geboortedag van Michelangelo"</string>
-    <string name="twoeuro_comm_2025_va_desc">"op het ontwerp staat de koepel van de Sint-Pietersbasiliek, die door Michelangelo is ontworpen en waaraan hij tot zijn dood in 1564 heeft gewerkt. Daaronder is een deel van het gewelf van de Sixtijnse Kapel te zien, dat door de gecontracteerde Michelangelo met fresco’s werd beschilderd. Aan de linkerkant staan verticaal de handtekening van Michelangelo “michelagniolo”, de aanduiding van het munthuis van Rome (“R”) en de naam van de ontwerper “D. LONGO” (Daniela Longo). De inscriptie “CITTA’ DEL VATICANO” (het land van uitgifte) is in een boog boven de koepel aangebracht. Net daaronder staan de jaartallen “1475” (het geboortejaar van Michelangelo) en “2025” (het jaar van uitgifte). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_va_desc">"op het ontwerp staat de koepel van de Sint-Pietersbasiliek, die door Michelangelo is ontworpen en waaraan hij tot zijn dood in 1564 heeft gewerkt. Daaronder is een deel van het gewelf van de Sixtijnse Kapel te zien, dat door de gecontracteerde Michelangelo met fresco’s werd beschilderd. Aan de linkerkant staan verticaal de handtekening van Michelangelo 'michelagniolo', de aanduiding van het munthuis van Rome ('R') en de naam van de ontwerper 'D. LONGO' (Daniela Longo). De inscriptie 'CITTA’ DEL VATICANO' (het land van uitgifte) is in een boog boven de koepel aangebracht. Net daaronder staan de jaartallen '1475' (het geboortejaar van Michelangelo) en '2025' (het jaar van uitgifte). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_va_volume">"80000"</string>
     <string name="twoeuro_comm_2025_va_date">"juni 2025"</string>
 
     <string name="twoeuro_comm_2025_va_2_title">"sede vacante 2025"</string>
-    <string name="twoeuro_comm_2025_va_2_desc">"de munt toont het wapenschild van de Kardinaal-kamerheer met daarboven het embleem van de Apostolische Kamer, twee gekruiste sleutels onder een baldakijn. De inscripties “CITTA’ DEL VATICANO”, “SEDE VACANTE” en “MMXXV” (het jaar van uitgifte) zijn langs de rand van de munt gegraveerd. Tussen de inscripties “CITTA’ DEL VATICANO” en “SEDE VACANTE” is een abstracte voorstelling van een duif te zien. Onder het wapenschild van de kamerheer staat de aanduiding van het munthuis van Rome (“R”), met links daarvan de naam van de graveur en rechts de naam van de ontwerper (“O. ROSSI” voor Orietta Rossi). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_va_2_desc">"de munt toont het wapenschild van de Kardinaal-kamerheer met daarboven het embleem van de Apostolische Kamer, twee gekruiste sleutels onder een baldakijn. De inscripties 'CITTA’ DEL VATICANO', 'SEDE VACANTE' en 'MMXXV' (het jaar van uitgifte) zijn langs de rand van de munt gegraveerd. Tussen de inscripties 'CITTA’ DEL VATICANO' en 'SEDE VACANTE' is een abstracte voorstelling van een duif te zien. Onder het wapenschild van de kamerheer staat de aanduiding van het munthuis van Rome ('R'), met links daarvan de naam van de graveur en rechts de naam van de ontwerper ('O. ROSSI' voor Orietta Rossi). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
     <string name="twoeuro_comm_2025_va_2_date">"juni 2025"</string>
 
     <string name="twoeuro_comm_2025_va_3_title">"jubeljaar 2025"</string>
-    <string name="twoeuro_comm_2025_va_3_desc">"op het ontwerp staat de Heilige Deur van de Sint-Pietersbasiliek die wordt geopend. Aan de rechterkant zijn verticaal de inscriptie “IVBILAEVM” en het jaar van uitgifte “2025” te zien. Onderaan is in een boog de inscriptie “CITTA’ DEL VATICANO”, het land van uitgifte, aangebracht. Op de deur staat de letter “R” (de aanduiding van het munthuis van Rome), en links onderin de afbeelding staat de inscriptie “D. LONGO” (Daniela Longo), de naam van de ontwerper. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
+    <string name="twoeuro_comm_2025_va_3_desc">"op het ontwerp staat de Heilige Deur van de Sint-Pietersbasiliek die wordt geopend. Aan de rechterkant zijn verticaal de inscriptie 'IVBILAEVM' en het jaar van uitgifte '2025' te zien. Onderaan is in een boog de inscriptie 'CITTA’ DEL VATICANO', het land van uitgifte, aangebracht. Op de deur staat de letter 'R' (de aanduiding van het munthuis van Rome), en links onderin de afbeelding staat de inscriptie 'D. LONGO' (Daniela Longo), de naam van de ontwerper. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_lt_title">"defensie"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"de afbeelding laat de contouren van Litouwen zien. De staatsgrenzen zijn omgeven door een gestileerde stekelige barrière die het concept van een holistische en maatschappijbrede defensie symboliseert. Het beeld van de egel staat ook voor de openheid en kwetsbaarheid van vrije samenlevingen die tot het uiterste tegen externe bedreigingen moeten worden verdedigd. Litouwen wordt als een egel voorgesteld die te allen tijde paraat blijft om zichzelf te verdedigen. In het midden staan de inscriptie “LIETUVA” (LITOUWEN), het jaar van uitgifte “2025” en het muntmerk van het Litouwse munthuis. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"eerste kwartaal van 2025"</string>
-
-    <string name="twoeuro_comm_2025_de_title">"deelstaat (Land) Saarland"</string>
-    <string name="twoeuro_comm_2025_de_desc">"afgebeeld is de “Saarschleife”, de haarspeldbocht in de rivier de Saar, waarbij enkel de meest essentiële kenmerken van het motief van de meanderende rivier in het kenmerkende heuvelachtige landschap worden getoond. Langs de rivier zijn groepjes bomen afgebeeld die het beboste landschap rond de pittoreske Saarschleife verzinnebeelden. Vanuit vogelperspectief is de herkenbare natuurlijke waterweg te zien, ingesloten door de omliggende heuvels die tot in de verte reiken. Om de rustige en lichte sfeer van het landschap niet te verstoren, staat de inscriptie “Saarland” onderaan op de voorgrond. De bovenste helft van de binnenste cirkel van de munt bevat aan de linkerkant ook de signatuur van de ontwerper, de in Frankfurt gevestigde Carsten Wolff, en aan de rechterkant de letter “X” als plaatsvervanger voor het muntmerk van de desbetreffende munt (“A”, “D”, “F”, “G” of “J”). Op de onderste helft staan de inscriptie “SAARLAND”, de code van Duitsland als land van uitgifte “D” en het jaar van uitgifte “2025”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"januari 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_title">"75-jarig jubileum van de Schumanverklaring van 9 mei 1950"</string>
-    <string name="twoeuro_comm_2025_lu_desc">"onderaan is een hand afgebeeld die een pen vasthoudt waarmee een vel papier wordt beschreven. De bovenkant van de pen eindigt in een olijftak en gaat vervolgens over in duiven, die allebei symbool staan voor vrede. De duiven vliegen richting de horizon waarop zes sterren te zien zijn; die staan voor de zes lidstaten die later het Verdrag tot oprichting van de Europese Gemeenschap voor Kolen en Staal ondertekenen, waarvoor de Schumanverklaring de basis heeft gelegd. Bovenaan zijn de tekst “DECLARATION SCHUMAN” en de datum “ 09.05.1950 ” te zien. Daaronder staat het getal “75”, dat op het jubileum van de verklaring wijst. Aan de rechterkant zijn de naam van het land van uitgifte “LUXEMBOURG” en het jaar van uitgifte “2025” te zien. Het monogram (de letter “H” met een kroon) staat voor groothertog Henri. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_date">"februari 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"25-jarig jubileum van de troonsbestijging van groothertog Henri"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">"in het midden is de beeltenis van groothertog Henri afgebeeld, en op de achtergrond staat het Groothertogelijk Paleis. De tekst “25. TROUNJUBILÄUM VUM GROUSSHERZOG HENRI” staat in een halve cirkel boven de beeltenis. Onder de beeltenis zijn de naam van het land van uitgifte “LETZEBUERG” en het jaar van uitgifte “2025” te zien. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_2_date">"februari 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_title">"jubeljaar 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">"in het midden is de Heilige Deur van de Sint-Pietersbasiliek afgebeeld. Bovenaan in een halve cirkel is de inscriptie “IUBILAEUM” aangebracht, en onderaan staat in een aansluitende halve cirkel een reeks afwisselend lege en volle vissen, een symbool van het christendom. Aan de linkerkant zijn het jaar van uitgifte “2025” en de aanduiding van het munthuis van Rome (“R”) te zien, aan de rechterkant staan het acroniem van de Italiaanse Republiek (“RI”) en de initialen van de ontwerper “C.M.” (Claudia Momoni). Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_date">"januari 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">"in het midden staat het opleidingsschip Amerigo Vespucci dat met volle zeilen de zeegolven doorploegt. In de buiging aan de linkerkant is “Amerigo Vespucci Tour Mondiale 2023-2025” zichtbaar; daaronder aan de linkerkant zijn het jaar van uitgifte “2025” en het acroniem van de Italiaanse Republiek (“RI”) te zien; aan de rechterkant staat de aanduiding van het munthuis van Rome (“R”); in de afsnede staat de naam van de ontwerper, “E.FERRETTI”. Langs de buitenrand van de munt zijn de twaalf sterren van de Europese vlag afgebeeld."</string>
-    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_2_date">"januari 2025"</string>
 
     <!-- END auto generated code for language nl -->
 

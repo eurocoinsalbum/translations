@@ -455,15 +455,12 @@
 - Si no desea iniciar o continuar una sesión de negociación puede simplemente eliminar la colección de negociación. Se le preguntará si desea eliminar la colección socio comercial subyacente también.
 "</string>
 
-    <string name="version_history_last">"Versión 7.14\n
+    <string name="version_history_current">"Versión 7.16\n
 Se agregaron las monedas conmemorativas de 2€ faltantes de 2026.
-Se agregaron monedas conmemorativas de 2€ para Alemania, Eslovenia y Eslovaquia.
-Se agregaron nuevas imágenes de monedas para Mónaco 2025 1€ y 2€. Gracias Guiseppe.
-Se agregaron nuevas imágenes de monedas para Luxemburgo 2026. Gracias Guiseppe.
-Canal de notificaciones añadido para las actualizaciones de las colecciones.
+Una pulsación prolongada sobre una moneda en la vista de la UE ahora muestra todas las monedas.
 "</string>
 
-    <string name="version_history_current">"Versión 7.15\n
+    <string name="version_history_last">"Versión 7.15\n
 Las monedas personalizadas para Alemania ahora admiten la selección de marcas de ceca. Gracias a Florian.
 Los códigos de país se han corregido para seguir el estándar ISO 3166-1 alfa-2. Gracias a Thomas.
 Las monedas personalizadas ahora se pueden crear solo para una colección específica.
@@ -2895,50 +2892,110 @@ Las monedas personalizadas ahora se pueden crear solo para una colección espec�
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"3 millones de monedasenero de 2024"</string>
 
-    <string name="twoeuro_comm_2025_po_title">"Movimiento escultista mundial"</string>
-    <string name="twoeuro_comm_2025_po_desc">"La moneda honra los movimientos escultista mundial y de juventud que promueven el intercambio cultural, el entendimiento mutuo y la amistad, ya que en 2025 se celebrará en Portugal la 16ª asamblea mundial escultista, reuniendo a escoltas de 18 a 25 años de todo el mundo para aprender unos de otros y desarrollar nuevas capacidades."</string>
-    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_date">"junio de 2025"</string>
+    <string name="twoeuro_comm_2025_ad_title">"Los Juegos de los Pequeños Estados de Europa (celebrados en Andorra en 2025)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"El diseño de la moneda reproduce algunas de las diferentes disciplinas deportivas de esta competición junto con las inscripciones «JOCS DELS PETITS ESTATS D’EUROPA» (Juegos de los Pequeños Estados de Europa) y «ANDORRA 2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"segundo semestre de 2025"</string>
 
-    <string name="twoeuro_comm_2025_po_2_title">"Desarrollo sostenible"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"El diseño muestra una representación del planeta Tierra rodeada por la leyenda «Desenvolvimento Sustentável» («desarrollo sostenible»); en el borde izquierdo y superior, una fila en forma de rama de diecisiete grupos de hojas dispuestas en triángulos que sugieren el símbolo universal de reciclado, en referencia a los diecisiete objetivos de la Agenda 2030 para el Desarrollo Sostenible; en el borde inferior y derecho, la leyenda «Portugal», el escudo nacional de Portugal, el año, y la marca de ceca «Casa da Moeda» encima del nombre de la diseñadora. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_2_date">"primer trimestre de 2025"</string>
+    <string name="twoeuro_comm_2025_ad_2_title">"El quebrantahuesos"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"Para sensibilizar sobre la importancia de proteger la fauna silvestre y el medio ambiente, el diseño de la moneda muestra un primer plano de un quebrantahuesos (Gypaetus barbatos), una especie de ave en peligro de extinción, con la inscripción «ANDORRA» y el año de emisión «2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"segundo semestre de 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"Visitas de Estado de Finlandia: diplomacia y política exterior"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"El diseño presenta una puerta abstracta que simboliza las visitas de Estado, de forma rectangular con acabado en espejo. La marca de ceca, el año 2025 y las letras «FI» se encuentran en posición vertical respecto del lado izquierdo del rectángulo y a lo largo de este lado. La parte superior del rectángulo es curva, y sigue el canto de la moneda. Por debajo y a la derecha, la superficie está gravada con líneas horizontales, y una forma circular corta la curva de la zona de la representación. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"primavera de 2025"</string>
-
-    <string name="twoeuro_comm_2025_sk_title">"100º aniversario del primer torneo deportivo internacional en el territorio de la República Eslovaca, el campeonato europeo de hockey sobre hielo"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"El diseño representa a un jugador de hockey sobre hielo en acción, con un estilo de uniforme típico del período del campeonato europeo de hockey sobre hielo de 1925. Al jugador lo enmarca un panorama estilizado del Alto Tatra, la región montañosa eslovaca en la que tuvo lugar el campeonato. En el borde de la parte superior del círculo interior de la moneda figura la inscripción «MAJSTROVSTVÁ EURÓPY V HOKEJI» (campeonato europeo de hockey). Los años «1925» y «2025» aparecen en la parte superior izquierda del diseño, uno sobre el otro. En la parte inferior figura el nombre del país emisor, «SLOVENSKO». En el lado derecho de la imagen figura la marca de ceca de la Casa de la Moneda de Kremnica (Mincovňa Kremnica), la entidad acuñadora. Junto a esta se muestran las iniciales, «KL», del diseñador, Karol Ličko. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_sk_date">"enero de 2025"</string>
+    <string name="twoeuro_comm_2025_be_2_title">"Circuito de carreras automovilísticas de Spa-Francorchamps, Bélgica"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"El diseño representa, en el centro, el trazado actual de la pista del circuito de carreras de Spa-Francorchamps. A la izquierda, se muestra la distancia total (en metros) del circuito, «7.004 M» y bajo ella el año de apertura de este, «1921». Encima de la representación del trazado, se muestra el texto «CIRCUIT DE SPA FRANCORCHAMPS». En la parte inferior de la moneda se muestran el código de país «BE» y el año de emisión «2025», acompañados de la marca del director de la ceca de Bélgica, una flor Aster delante de un matraz Erlenmeyer y la marca de la ceca de Utrecht, un caduceo (ya que la Real Fábrica de la Moneda de los Países Bajos acuñará las monedas). En la parte derecha, pueden verse las iniciales de la diseñadora Iris Bruijns, «IB». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"julio de 2025"</string>
 
     <string name="twoeuro_comm_2025_be_title">"Lotería Nacional de Bélgica"</string>
     <string name="twoeuro_comm_2025_be_desc">"El diseño representa en el centro la clásica figura alegórica de la buena fortuna, la diosa Fortuna portando el cuerno de la abundancia. A la derecha y abajo figuran cuatro tréboles de cuatro hojas, otro símbolo universal de la suerte. Detrás de la imagen de Fortuna, se ve el logotipo actual de la lotería nacional. En la parte izquierda de la moneda aparece el texto «loterie nationale loterij». En la parte inferior izquierda figuran el código de país, «BE», y el año de emisión, «2025». En la parte inferior derecha, pueden verse las iniciales de la diseñadora Iris Bruijns. Dado que las monedas serán acuñadas por la Real Casa de la Moneda de los Países Bajos, bajo el año figura la marca de ceca de Utrecht, un caduceo, junto a la marca de ceca del director de la Fábrica de la Moneda belga, una flor áster delante de un matraz de Erlenmeyer. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
     <string name="twoeuro_comm_2025_be_date">"enero de 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_title">"550° aniversario del nacimiento de Miguel Ángel"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"El diseño representa, en el centro, a Cleopatra, detalle del dibujo de Michelangelo Buonarroti, conservado en la Fundación Casa Buonarroti (Florencia). A la izquierda, figuran la inscripción «MICHELANGELO», la letra «R» por la que se identifica la Casa de la Moneda de Roma y el año «1475», y a la derecha, el nombre del país emisor, «SAN MARINO», en forma de semicírculo y el año «2025». En la parte inferior figuran las iniciales de la autora «SP» (Silvia Petrassi). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_date">"julio de 2025"</string>
+    <string name="twoeuro_comm_2025_de_title">"Estado federado (Land) de Sarre"</string>
+    <string name="twoeuro_comm_2025_de_desc">"El diseño muestra el meandro del río Sarre, reducido a las características clave del motivo del curso serpenteante del río, que caracteriza el paisaje montañoso. Los grupos de árboles representados a lo largo del río simbolizan el paisaje boscoso que rodea el pintoresco meandro. La vista de pájaro hace que la vía navegable natural histórica se vea integrada en las colinas circundantes, que se pierden en la distancia. La inscripción «Saarland» aparece en la parte inferior del primer plano, con el fin de no perturbar la calma y luz del paisaje. En la mitad superior del círculo interior de la moneda también figura a la izquierda la marca del artista de Fráncfort, Carsten Wolff, y a la derecha la letra «X» como espacio reservado para la marca de ceca de la fábrica de moneda correspondiente («A», «D», «F», «G» o «J»). En la mitad inferior consta la inscripción «SAARLAND», el código de país emisor correspondiente a Alemania, «D», y el año de emisión, «2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"enero de 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">"El diseño representa en el centro a una mujer con un ancla, una alegoría de la Esperanza, que lleva a un niño de la mano, símbolo de la humanidad. A la izquierda figura la inscripción «SAN MARINO», cuatro velas cuadras, la letra «R», que identifica la Casa de la Moneda de Roma, y el apellido del artista «DI MAULO» (Gabriele Di Maulo); en la parte superior derecha, una estrella de ocho puntas, la inscripción «IUBILAEUM 2025» y, en la parte inferior, la abreviatura de la grabadora «M.B.INC» (Marta Bonifacio). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_2_date">"marzo de 2025"</string>
+    <string name="twoeuro_comm_2025_ee_title">"El 500.oaniversario de la primera publicación que incluía palabras en estonio y el inicio del estonio literario"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"El centro de la moneda presenta una composición de libros que forman la letra mayúscula «E», simbolizando con ello la tradición de la lengua escrita estonia; el texto «EESTI RAAMAT 500», que significa «500 años de libros en estonio»; y el año 1525, que es la fecha de la primera publicación de un libro en estonio. El diseño incluye también el año de emisión, «2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"segundo trimestre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"El reconocimiento de Salamanca como Patrimonio Mundial de la Unesco"</string>
+    <string name="twoeuro_comm_2025_es_desc">"El diseño muestra una vista del Convento de San Esteban. En la parte inferior, figuran la leyenda «ESPAÑA» y el año de emisión, «2025». En la parte superior, en letra mayúscula, la palabra SALAMANCA y la marca de ceca, la «eme coronada». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"primer trimestre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"La competición internacional de atletismo Finlandia-Suecia"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"El diseño muestra dos piernas en movimiento y líneas discontinuas en forma de arco que representan una pista de atletismo. El diseño conmemora el 100.oaniversario de la competición internacional de atletismo Finlandia-Suecia, y celebra tanto la tradición deportiva finlandesa como el espíritu colectivo del evento. En la parte superior, se muestra el año «2025» horizontalmente. La marca de ceca aparece a la izquierda del centro del campo, y la inscripción «FI» se encuentra a la derecha del centro. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"otoño de 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Visitas de Estado de Finlandia: diplomacia y política exterior"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"El diseño presenta una puerta abstracta que simboliza las visitas de Estado, de forma rectangular con acabado en espejo. La marca de ceca, el año 2025 y las letras «FI» se encuentran en posición vertical respecto del lado izquierdo del rectángulo y a lo largo de este lado. La parte superior del rectángulo es curva, y sigue el canto de la moneda. Por debajo y a la derecha, la superficie está gravada con líneas horizontales, y una forma circular corta la curva de la zona de la representación. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"primavera de 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"La Fábrica de la Moneda de París rinde homenaje a Notre-Dame, la famosa catedral de París para cuya reconstrucción se reunió a cientos de artesanos y cuya reapertura, en diciembre de 2024, celebraron millones de personas. El diseño representa en su centro la fachada de Notre-Dame de París vista desde la anteiglesia. El rosetón se ve detrás de la aguja. El año «2025» y la mención «RF» se encuentran en el lado izquierdo, acompañados de la marca de ceca de Fábrica de la Moneda de París. El nombre «NOTRE-DAME DE PARIS» se inscribe en el lado derecho, acompañado de la marca del grabador general. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"septiembre de 2025"</string>
 
     <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
     <string name="twoeuro_comm_2025_fr_desc">"El diseño muestra la fachada este del Louvre, mezclada con el plano emblemático del laberinto de extraordinarias salas del museo. En el fondo, el piramidión y la estructura de la gran pirámide ilustran el carácter tradicional y contemporáneo del Louvre. El año de emisión, «2025», la indicación del país «RF» y las marcas de ceca se hallan en plano del museo. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
     <string name="twoeuro_comm_2025_fr_date">"enero de 2025"</string>
 
-    <string name="twoeuro_comm_2025_mt_title">"Buey maltés (il-gendus Malti)"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"El diseño muestra una reproducción del buey maltés. La moneda da a conocer una de las razas autóctonas maltesas en peligro de extinción. A la derecha, formando un semicírculo, figura la inscripción «IL-GENDUS MALTI». En la parte inferior, el nombre del país emisor, «MALTA», y bajo este, el año de emisión, «2025». En la parte inferior derecha figuran las iniciales de la diseñadora, «MAF» (Maria Anna Frisone). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"junio de 2025"</string>
+    <string name="twoeuro_comm_2025_gr_title">"Los 200 años de la muerte de Laskarina Bubulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"El diseño presenta un retrato de Laskarina Bubulina, con un mástil y una jarcia estilizados al fondo. El motivo está rodeado por las inscripciones «200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ» («200 AÑOS DE LA MUERTE DE LASKARINA BUBULINA») y «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» («REPÚBLICA HELÉNICA»). A la izquierda se encuentran una palmeta (marca de ceca de la Fábrica de la Moneda griega) y el año de acuñación. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"julio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"Los 100 años del nacimiento de Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"El diseño representa al compositor Mikis Theodorakis. El motivo está rodeado por las inscripciones «100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ» («100 AÑOS DEL NACIMIENTO DE MIKIS THEODORAKIS») y «ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ» («REPÚBLICA HELÉNICA»); debajo figura el año de acuñación, a la derecha, una palmeta (marca de ceca de la Fábrica de la Moneda griega) y, a la izquierda, la clave de sol y el pentagrama. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"julio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"Serie de ciudades croatas. Pula. Anfiteatro"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"El motivo central del diseño es el anfiteatro de Pula, uno de los monumentos antiguos más destacados de la República de Croacia, que se muestra desde la perspectiva del mar Adriático, representado debajo del motivo central, para destacar el carácter intrínsecamente mediterráneo de Croacia. A la derecha del anfiteatro se ve una imagen de la iglesia de San Antonio construida en la década de 1930, uno de los puntos de referencia de la vista panorámica de la ciudad de Pula. También figuran la inscripción del país emisor «HRVATSKA» (Croacia), el año de emisión «2025» y las palabras «GRAD PULA-ARENA» (Ciudad de Pula - Anfiteatro), formando una inscripción circular en el borde de la parte central de la moneda. La cara nacional de la moneda está diseñada por el escultor Duje Botteri. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"octubre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"El 1100.oaniversario del Reino de Croacia y la coronación del rey Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"El motivo central del diseño es el rey Tomislav a caballo. El otro motivo es el símbolo distintivo y reconocible de Croacia, el patrón ajedrezado croata, que representa parte del escudo de la República de Croacia. El diseño también incluye las inscripciones siguientes: las palabras «KRALJ TOMISLAV» (rey Tomislav), el año de la coronación del rey Tomislav «925», el país emisor «REPUBLIKA HRVATSKA» (República de Croacia) y el año de emisión, «2025», todo ello formando una inscripción circular en el borde de la parte central de la moneda. La cara nacional de la moneda está diseñada por el escultor Nikola Vudrag. El motivo central es su adaptación de la obra original del escultor Robert Franges Mihanovic, de 1938. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"julio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"Jubileo 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"El diseño muestra, en el centro, una representación de la Puerta Santa situada en la Basílica de San Pedro. En la parte superior, en sentido semicircular, la inscripción «IUBILAEUM», y en la parte inferior, también en sentido semicircular, la inscripción latina se encuentra cercada por una serie de peces, símbolo del cristianismo, que se alternan entre huecos y macizos. A la izquierda, «2025», año de emisión de la moneda, y «R», por la que se identifica la Casa de la Moneda de Roma; a la derecha, «RI», acrónimo de la República Italiana, y «C.M.», iniciales de la autora (Claudia Momoni). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"enero de 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Gira mundial del Amerigo Vespucci 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"El diseño muestra, en el centro, una representación del buque escuela Amerigo Vespucci que, a toda vela, surca las olas del mar. A la izquierda, la inscripción «Amerigo Vespucci Tour Mondiale 2023-2025» dispuesta en forma de arco; en la parte inferior izquierda, «2025», año de emisión de la moneda, y «RI», siglas de la República Italiana; a la derecha, «R», marca de ceca de la Casa de la Moneda de Roma; en el exergo aparece «E.FERRETTI», firma del diseñador. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"enero de 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"Regiones etnográficas lituanas. Lituania Menor"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"El diseño muestra el escudo de armas, con un alce sosteniendo una lanza con sus extremidades anteriores y la luz de un faro encima. A ambos lados del escudo se muestran sendos botes de Curlandia y debajo aparece una cita de Vydūnas: «Spindulys esmi begalinės šviesos» (Un rayo es la esencia de la luz infinita). La composición está rodeada de las inscripciones «Lietuva» (Lituania), «Mažoji Lietuva» (Lituana Menor), el año de emisión «2025» y la marca de ceca de la Fábrica de la Moneda de Lituania. La cara nacional de la moneda está diseñada por Rolandas Rimkūnas (el autor del gran escudo de armas de la región de Lituania Menor es Arvydas Každailis). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"cuarto trimestre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"La defensa"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"El diseño presenta la silueta de Lituania. Las fronteras estatales están rodeadas de una barrera espinosa estilizada, que simboliza el concepto de defensa holística y por parte de la sociedad en su conjunto. La imagen del erizo también representa la apertura y fragilidad de las sociedades libres, que deben defenderse al máximo contra las amenazas externas. Lituania se presenta como un erizo que está siempre listo para defenderse. El centro del diseño muestra la inscripción «LIETUVA» (LITUANIA), el año de emisión, «2025», y la marca de ceca de la fábrica de la Casa de la Moneda de Lituania. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"primer trimestre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"75º aniversario de la Declaración de Robert Schuman de 9 de mayo de 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"El diseño representa en la parte inferior una mano con un lápiz escribiendo en una hoja de papel. La parte superior del lápiz termina en una rama de olivo y, a continuación, palomas, siendo ambos símbolos de paz. Las palomas vuelan hacia el horizonte, que muestra seis estrellas, que representan a los seis Estados miembros que firmaron el Tratado constitutivo de la Comunidad Europea del Carbón y del Acero, para el que la Declaración Schuman sentó las bases. La parte superior del diseño muestra el texto «DECLARATION SCHUMAN», así como su fecha, «09.05.1950». Debajo, el número «75» representa la indicación del aniversario de la declaración. El nombre del país emisor, «LUXEMBOURG», así como el año de emisión, «2025», constan en la parte derecha del diseño. El monograma (la letra «H» coronada) hace referencia al gran duque Enrique (Henri en francés). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"febrero de 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"25º aniversario de la llegada al trono del gran duque Enrique"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"El diseño representa en su centro la efigie del gran duque Enrique y, al fondo, el Palacio Gran Ducal. El texto «25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI» se presenta en sentido semicircular sobre la efigie. La indicación del país emisor, «LETZEBUERG», así como el año de emisión, «2025», constan bajo la efigie. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"febrero de 2025"</string>
 
     <string name="twoeuro_comm_2025_mc_title">"Marquesado de los Baux"</string>
     <string name="twoeuro_comm_2025_mc_desc">"La moneda conmemora el feudo del marquesado de los Baux. Este título fue ostentado por primera vez en 1642 por Hércules Grimaldi, hijo de Honorato II. En la actualidad, por tradición histórica, pertenece a SAR el príncipe heredero Jaime. El diseño representa la roca y la zona circundante de la localidad de Les Baux en Provenza. En la parte superior consta el nombre del país emisor, «MONACO». En la parte inferior, en sentido semicircular, consta la inscripción «MARQUISAT DES BAUX». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
@@ -2950,12 +3007,47 @@ Las monedas personalizadas ahora se pueden crear solo para una colección espec�
     <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
     <string name="twoeuro_comm_2025_mc_2_date">"junio de 2025"</string>
 
-    <string name="twoeuro_comm_2025_es_title">"El reconocimiento de Salamanca como Patrimonio Mundial de la Unesco"</string>
-    <string name="twoeuro_comm_2025_es_desc">"El diseño muestra una vista del Convento de San Esteban. En la parte inferior, figuran la leyenda «ESPAÑA» y el año de emisión, «2025». En la parte superior, en letra mayúscula, la palabra SALAMANCA y la marca de ceca, la «eme coronada». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"primer trimestre de 2025"</string>
+    <string name="twoeuro_comm_2025_mt_2_title">"Ciudad de Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"Esta moneda se concibe como parte de una serie dedicada a las ciudades amuralladas maltesas, que son parte intrínseca del patrimonio cultural maltés y europeo. Sigue a la moneda emitida en 2024, en la que se representa la imagen de « Iċ-Ċittadella » (la Ciudadela) de Gozo. El diseño representa Mdina coronada por su iglesia catedral. En la parte superior izquierda aparece la inscripción «MDINA». En la parte superior derecha figuran las iniciales del diseñador, «NGB» (Noel Galea Bason). En la parte inferior, el nombre del país emisor, «MALTA», y bajo este, el año de emisión, «2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"junio de 2025"</string>
 
-    <string name="twoeuro_comm_2025_va_title">"550º aniversario del nacimiento de Miguel Ángel"</string>
+    <string name="twoeuro_comm_2025_mt_title">"Buey maltés (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"El diseño muestra una reproducción del buey maltés. La moneda da a conocer una de las razas autóctonas maltesas en peligro de extinción. A la derecha, formando un semicírculo, figura la inscripción «IL-GENDUS MALTI». En la parte inferior, el nombre del país emisor, «MALTA», y bajo este, el año de emisión, «2025». En la parte inferior derecha figuran las iniciales de la diseñadora, «MAF» (Maria Anna Frisone). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"junio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_title">"Movimiento escultista mundial"</string>
+    <string name="twoeuro_comm_2025_po_desc">"La moneda honra los movimientos escultista mundial y de juventud que promueven el intercambio cultural, el entendimiento mutuo y la amistad, ya que en 2025 se celebrará en Portugal la 16ª asamblea mundial escultista, reuniendo a escoltas de 18 a 25 años de todo el mundo para aprender unos de otros y desarrollar nuevas capacidades."</string>
+    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_date">"junio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_2_title">"Desarrollo sostenible"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"El diseño muestra una representación del planeta Tierra rodeada por la leyenda «Desenvolvimento Sustentável» («desarrollo sostenible»); en el borde izquierdo y superior, una fila en forma de rama de diecisiete grupos de hojas dispuestas en triángulos que sugieren el símbolo universal de reciclado, en referencia a los diecisiete objetivos de la Agenda 2030 para el Desarrollo Sostenible; en el borde inferior y derecho, la leyenda «Portugal», el escudo nacional de Portugal, el año, y la marca de ceca «Casa da Moeda» encima del nombre de la diseñadora. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_2_date">"primer trimestre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_si_title">"El 100.oaniversario del nacimiento de Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">"En la moneda se muestran tres héroes de las historietas de Miki Muster, a saber, Zvitorepec, Lakotnik y Trdonja, mediante la técnica de bajorrelieve. Debajo figuran el año de acuñación «2025» y el país emisor «SLOVENIJA». En la parte superior izquierda figura el año de nacimiento «1925» y el nombre «MIKI», mientras que en la parte superior derecha figura el apellido «MUSTER». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"noviembre de 2025"</string>
+
+    <string name="twoeuro_comm_2025_sk_title">"100º aniversario del primer torneo deportivo internacional en el territorio de la República Eslovaca, el campeonato europeo de hockey sobre hielo"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"El diseño representa a un jugador de hockey sobre hielo en acción, con un estilo de uniforme típico del período del campeonato europeo de hockey sobre hielo de 1925. Al jugador lo enmarca un panorama estilizado del Alto Tatra, la región montañosa eslovaca en la que tuvo lugar el campeonato. En el borde de la parte superior del círculo interior de la moneda figura la inscripción «MAJSTROVSTVÁ EURÓPY V HOKEJI» (campeonato europeo de hockey). Los años «1925» y «2025» aparecen en la parte superior izquierda del diseño, uno sobre el otro. En la parte inferior figura el nombre del país emisor, «SLOVENSKO». En el lado derecho de la imagen figura la marca de ceca de la Casa de la Moneda de Kremnica (Mincovňa Kremnica), la entidad acuñadora. Junto a esta se muestran las iniciales, «KL», del diseñador, Karol Ličko. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_sk_date">"enero de 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"550.oaniversario del nacimiento de Miguel Ángel"</string>
+    <string name="twoeuro_comm_2025_sm_desc">"El diseño representa, en el centro, a Cleopatra, detalle del dibujo de Michelangelo Buonarroti, conservado en la Fundación Casa Buonarroti (Florencia). A la izquierda, figuran la inscripción «MICHELANGELO», la letra «R» por la que se identifica la Casa de la Moneda de Roma y el año «1475», y a la derecha, el nombre del país emisor, «SAN MARINO», en forma de semicírculo y el año «2025». En la parte inferior figuran las iniciales de la autora «SP» (Silvia Petrassi). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_date">"julio de 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"El diseño representa en el centro a una mujer con un ancla, una alegoría de la Esperanza, que lleva a un niño de la mano, símbolo de la humanidad. A la izquierda figura la inscripción «SAN MARINO», cuatro velas cuadras, la letra «R», que identifica la Casa de la Moneda de Roma, y el apellido del artista «DI MAULO» (Gabriele Di Maulo); en la parte superior derecha, una estrella de ocho puntas, la inscripción «IUBILAEUM 2025» y, en la parte inferior, la abreviatura de la grabadora «M.B.INC» (Marta Bonifacio). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_2_date">"marzo de 2025"</string>
+
+    <string name="twoeuro_comm_2025_va_title">"550.º aniversario del nacimiento de Miguel Ángel"</string>
     <string name="twoeuro_comm_2025_va_desc">"El diseño presenta la cúpula de la Basílica de San Pedro, diseñada por Miguel Ángel, que trabajó en ella hasta su muerte en 1564. Debajo, una parte de la bóveda de la Capilla Sixtina, que Miguel Ángel dividió y pintó al fresco. A la izquierda, en vertical, aparece la firma autógrafa de Miguel Ángel, «michelagniolo», la letra «R» que identifica la Casa de la Moneda de Roma, y el nombre de la diseñadora de la moneda, «D. LONGO» (Daniela Longo). La inscripción «CITTA’ DEL VATICANO», que indica el Estado de emisión, se sitúa en un arco sobre la bóveda. Justo debajo, se inscriben los años «1475», año de nacimiento de Miguel Ángel, y «2025», año de emisión. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2025_va_volume">"80000"</string>
     <string name="twoeuro_comm_2025_va_date">"junio de 2025"</string>
@@ -2969,36 +3061,6 @@ Las monedas personalizadas ahora se pueden crear solo para una colección espec�
     <string name="twoeuro_comm_2025_va_3_desc">"El diseño representa la apertura de la Puerta Santa de la Basílica de San Pedro. A la derecha, en vertical, la inscripción en latín «IVBILAEUM» y el año, «2025». En la parte inferior, en un arco, la inscripción «CITTA’ DEL VATICANO», que indica el Estado de emisión. La letra «R», que identifica la Casa de la Moneda de Roma, aparece en la puerta; en la parte inferior izquierda de la imagen, la inscripción «D. LONGO» indica el nombre de la diseñadora de la moneda (Daniela Longo). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"junio de 2025"</string>
-
-    <string name="twoeuro_comm_2025_lt_title">"La defensa"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"El diseño presenta la silueta de Lituania. Las fronteras estatales están rodeadas de una barrera espinosa estilizada, que simboliza el concepto de defensa holística y por parte de la sociedad en su conjunto. La imagen del erizo también representa la apertura y fragilidad de las sociedades libres, que deben defenderse al máximo contra las amenazas externas. Lituania se presenta como un erizo que está siempre listo para defenderse. El centro del diseño muestra la inscripción «LIETUVA» (LITUANIA), el año de emisión, «2025», y la marca de ceca de la fábrica de la Casa de la Moneda de Lituania. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"primer trimestre de 2025"</string>
-
-    <string name="twoeuro_comm_2025_de_title">"Estado federado (Land) de Sarre"</string>
-    <string name="twoeuro_comm_2025_de_desc">"El diseño muestra el meandro del río Sarre, reducido a las características clave del motivo del curso serpenteante del río, que caracteriza el paisaje montañoso. Los grupos de árboles representados a lo largo del río simbolizan el paisaje boscoso que rodea el pintoresco meandro. La vista de pájaro hace que la vía navegable natural histórica se vea integrada en las colinas circundantes, que se pierden en la distancia. La inscripción «Saarland» aparece en la parte inferior del primer plano, con el fin de no perturbar la calma y luz del paisaje. En la mitad superior del círculo interior de la moneda también figura a la izquierda la marca del artista de Fráncfort, Carsten Wolff, y a la derecha la letra «X» como espacio reservado para la marca de ceca de la fábrica de moneda correspondiente («A», «D», «F», «G» o «J»). En la mitad inferior consta la inscripción «SAARLAND», el código de país emisor correspondiente a Alemania, «D», y el año de emisión, «2025». En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"enero de 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_title">"75º aniversario de la Declaración de Robert Schuman de 9 de mayo de 1950"</string>
-    <string name="twoeuro_comm_2025_lu_desc">"El diseño representa en la parte inferior una mano con un lápiz escribiendo en una hoja de papel. La parte superior del lápiz termina en una rama de olivo y, a continuación, palomas, siendo ambos símbolos de paz. Las palomas vuelan hacia el horizonte, que muestra seis estrellas, que representan a los seis Estados miembros que firmaron el Tratado constitutivo de la Comunidad Europea del Carbón y del Acero, para el que la Declaración Schuman sentó las bases. La parte superior del diseño muestra el texto «DECLARATION SCHUMAN», así como su fecha, «09.05.1950». Debajo, el número «75» representa la indicación del aniversario de la declaración. El nombre del país emisor, «LUXEMBOURG», así como el año de emisión, «2025», constan en la parte derecha del diseño. El monograma (la letra «H» coronada) hace referencia al gran duque Enrique (Henri en francés). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_date">"febrero de 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"25º aniversario de la llegada al trono del gran duque Enrique"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">"El diseño representa en su centro la efigie del gran duque Enrique y, al fondo, el Palacio Gran Ducal. El texto «25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI» se presenta en sentido semicircular sobre la efigie. La indicación del país emisor, «LETZEBUERG», así como el año de emisión, «2025», constan bajo la efigie. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_2_date">"febrero de 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_title">"Jubileo 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">"El diseño muestra, en el centro, una representación de la Puerta Santa situada en la Basílica de San Pedro. En la parte superior, en sentido semicircular, la inscripción «IUBILAEUM», y en la parte inferior, también en sentido semicircular, la inscripción latina se encuentra cercada por una serie de peces, símbolo del cristianismo, que se alternan entre huecos y macizos. A la izquierda, «2025», año de emisión de la moneda, y «R», por la que se identifica la Casa de la Moneda de Roma; a la derecha, «RI», acrónimo de la República Italiana, y «C.M.», iniciales de la autora (Claudia Momoni). En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_date">"enero de 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Gira mundial del Amerigo Vespucci 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">"El diseño muestra, en el centro, una representación del buque escuela Amerigo Vespucci que, a toda vela, surca las olas del mar. A la izquierda, la inscripción «Amerigo Vespucci Tour Mondiale 2023-2025» dispuesta en forma de arco; en la parte inferior izquierda, «2025», año de emisión de la moneda, y «RI», siglas de la República Italiana; a la derecha, «R», marca de ceca de la Casa de la Moneda de Roma; en el exergo aparece «E.FERRETTI», firma del diseñador. En la corona circular de la moneda figuran las doce estrellas de la bandera europea."</string>
-    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_2_date">"enero de 2025"</string>
 
     <!-- END auto generated code for language es -->
 

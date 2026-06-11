@@ -460,15 +460,12 @@
 - Si vous ne voulez pas commencer ou continuer une séance de négociation, vous pouvez simplement supprimer la collection de négociation. Il vous sera demandé si vous souhaitez supprimer la collection de partenaire commercial sous-jacent ainsi.
 "</string>
 
-    <string name="version_history_last">"Version 7.14\n
+    <string name="version_history_current">"Version 7.16\n
 Ajout des pièces commémoratives 2€ manquantes 2026.
-Ajout de pièces commémoratives 2€ pour l'Allemagne, la Slovénie et la Slovaquie.
-Ajout de nouvelles images de pièces pour Monaco 2025 1€ et 2€. Merci Guiseppe.
-Ajout de nouvelles images de pièces pour le Luxembourg 2026. Merci Guiseppe.
-Canal de notifications ajouté pour les mises à jour des collections.
+Un appui prolongé sur une pièce dans la vue « UE » affiche désormais toutes les pièces.
 "</string>
 
-    <string name="version_history_current">"Version 7.15\n
+    <string name="version_history_last">"Version 7.15\n
 Les pièces personnalisées pour l'Allemagne prennent désormais en charge la sélection des marques de monnaie. Merci à Florian.
 Les codes de pays ont été corrigés pour respecter la norme ISO 3166-1 alpha-2. Merci à Thomas.
 Les pièces personnalisées peuvent désormais être créées uniquement pour une collection spécifique.
@@ -482,6 +479,8 @@ Les pièces personnalisées peuvent désormais être créées uniquement pour un
     <string name="coin_50cent">"50 Centimes"</string>
     <string name="coin_1euro">"1 Euro"</string>
     <string name="coin_2euro">"2 Euros"</string>
+    <string name="coin_5euro">"5 Euros"</string>
+    <string name="coin_10euro">"10 Euros"</string>
 
     <string name="countryname_eu">"UE"</string>
     <string name="countryname_au">"Autriche"</string>
@@ -2898,50 +2897,20 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"janvier 2024"</string>
 
-    <string name="twoeuro_comm_2025_po_title">"Scoutisme mondial"</string>
-    <string name="twoeuro_comm_2025_po_desc">"La pièce célèbre le scoutisme mondial et les mouvements de jeunesse qui encouragent les échanges culturels, la compréhension mutuelle et l’amitié. En 2025, le Portugal accueillera en effet la 16eédition du Moot Scout Mondial, un événement au cours duquel des scouts âgés de 18 à 25 ans venus du monde entier auront l'occasion de se rencontrer pour apprendre les uns des autres et acquérir de nouvelles compétences."</string>
-    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_date">"juin 2025"</string>
+    <string name="twoeuro_comm_2025_lt_2_title">"Régions ethnographiques lituaniennes — Petite Lituanie"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"Le dessin représente l’écu des armoiries de la région, orné d'un élan tenant une lance dans ses pattes avant et surmonté d'un phare illuminé. Deuxkurenkahns"</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"quatrième trimestre 2025"</string>
 
-    <string name="twoeuro_comm_2025_po_2_title">"Développement durable"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"Le dessin consiste en une représentation de la planète Terre, entourée de la légende « Desenvolvimento Sustentável » (développement durable) ; sur le bord, à gauche et en partie supérieure, figure une guirlande de 17 ensembles de feuilles disposées en triangle évoquant le symbole universel du recyclage, en référence aux 17 objectifs du programme de développement durable à l’horizon 2030 ; en partie inférieure et à droite, le bord porte la légende « PORTUGAL », les armoiries nationales du Portugal, l’année et la marque d’atelier « Casa da Moeda » au-dessus du nom du créateur. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_2_date">"premier trimestre 2025"</string>
+    <string name="twoeuro_comm_2025_lt_title">"Défense"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"Le dessin représente les contours de la Lituanie. Les frontières de l’État sont hérissées d’épines stylisées qui forment une barrière et symbolisent une défense holistique mobilisant l’ensemble de la société. L’image du hérisson évoque également l’ouverture et la fragilité des sociétés libres, qu’il est essentiel de défendre contre les menaces extérieures. La Lituanie est représentée par un hérisson toujours prêt à se défendre. Au centre du dessin figurent l’inscription « LIETUVA » (LITUANIE), l’année d’émission, « 2025 », et la marque d’atelier de la Monnaie lituanienne. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"premier trimestre 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"Visites d’État finlandaises - diplomatie et politique étrangère"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"Sur le dessin figure la représentation stylisée d’une porte, de forme rectangulaire et au fini brillant, symbolisant les visites d’État. La marque d’atelier, l’année 2025 et la mention « FI » sont positionnées verticalement le long du côté gauche du rectangle, qui présente une partie supérieure arrondie suivant le bord de la pièce. En partie inférieure et à droite, la surface est rainurée de lignes horizontales, coupées par un arc de cercle. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"printemps 2025"</string>
-
-    <string name="twoeuro_comm_2025_sk_title">"100eanniversaire de la première compétition sportive internationale organisée sur le territoire de la République slovaque – le championnat d’Europe de hockey sur glace"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"Le dessin représente un joueur de hockey sur glace en action, habillé comme à l'époque du championnat d’Europe de hockey sur glace de 1925. Le joueur se détache devant la représentation stylisée des Hautes Tatras, la région montagneuse slovaque où a eu lieu le tournoi. La mention « MAJSTROVSTVÁ EURÓPY V HOKEJI » (championnat d’Europe de hockey) borde le pourtour supérieur du disque intérieur de la pièce. Les années « 1925 » et « 2025 » sont inscrites l’une au-dessus de l’autre dans la partie supérieure gauche du dessin. En bas est inscrit le nom du pays d’émission, « SLOVENSKO » (Slovaquie). À droite du personnage figure la marque d’atelier de la Monnaie slovaque de Kremnica (Mincovňa Kremnica), où est frappée la pièce. À côté sont inscrites les initiales « KL » de l’auteur du dessin, Karol Ličko. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_sk_date">"janvier 2025"</string>
-
-    <string name="twoeuro_comm_2025_be_title">"Loterie nationale de Belgique"</string>
-    <string name="twoeuro_comm_2025_be_desc">"Au centre du dessin figure la représentation allégorique classique de la bonne fortune, la déesse Fortuna, portant la corne d’abondance. Sur les parties droite et inférieure du dessin apparaissent quatre trèfles à quatre feuilles, un autre symbole universel de chance. Derrière Fortuna se trouve le logo actuel de la Loterie nationale. Sur la partie gauche de la pièce est inscrit le texte « loterie nationale loterij ». En bas à gauche sont indiqués le code pays « BE » et l’année d’émission, « 2025 ». En bas à droite, on peut apercevoir les initiales de la créatrice Iris Bruijns. Les pièces devant être frappées par la Monnaie royale des Pays-Bas, la marque d’atelier de l’Hôtel des monnaies d’Utrecht (un caducée) est représentée en dessous de l’année d’émission, à côté de la marque d’atelier du commissaire des monnaies belge (une fleur d’aster devant une fiole Erlenmeyer). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_be_date">"janvier 2025"</string>
-
-    <string name="twoeuro_comm_2025_sm_title">"550eanniversaire de la naissance de Michel-Ange"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"Au centre de la pièce figure un détail deCleopatra"</string>
-    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_date">"juillet 2025"</string>
-
-    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">"Le dessin représente une femme devant une ancre, allégorie de l’espoir, qui prend par la main un enfant, symbole de l’humanité. À gauche figurent l’inscription « SAN MARINO », quatre voiles carrées, la lettre « R » désignant la Monnaie de Rome, et le nom de l’auteur, « DI MAULO » (pour Gabriele Di Maulo) ; à droite se trouvent une étoile à huit branches, l’inscription « IUBILAEUM 2025 » et les initiales de la graveuse, « M.B.INC » (pour Marta Bonifacio). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_2_date">"mars 2025"</string>
-
-    <string name="twoeuro_comm_2025_fr_title">"Le Louvre"</string>
-    <string name="twoeuro_comm_2025_fr_desc">"Le dessin reproduit la façade orientale du Louvre, associée au plan emblématique du labyrinthe formé par les extraordinaires salles du musée. À l’arrière-plan, le pyramidion et la structure de la grande pyramide illustrent le caractère tant traditionnel que contemporain du Louvre. L’année d’émission, « 2025 », la mention du pays, « RF », et les marques d’atelier sont inscrites sur le plan du musée. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
-    <string name="twoeuro_comm_2025_fr_date">"janvier 2025"</string>
-
-    <string name="twoeuro_comm_2025_mt_title">"Bœuf maltais (il-gendus Malti"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"Le dessin est une représentation d’un bœuf maltais. La pièce vise à faire connaître l’une des races autochtones de Malte, qui est menacée. Dans la partie supérieure, en arc de cercle, on peut lire l’inscription « IL-GENDUS MALTI ». En partie inférieure figure le nom du pays émetteur, « MALTA », au-dessus de l’année d’émission, « 2025 ». En bas à droite figurent les initiales de la créatrice : « MAF » (Maria Anna Frisone). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"juin 2025"</string>
+    <string name="twoeuro_comm_2025_si_title">"100eanniversaire de la naissance de Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">"La technique de l’embossage, créant un léger relief, a été utilisée pour orner la pièce de trois héros des bandes dessinées de Miki Muster (Zvitorepec, Lakotnik et Trdonja). En dessous figurent l’année et le pays d’émission, « 2025 » et « SLOVENIJA ». En haut à gauche apparaissent l’année de naissance de l’artiste, « 1925 », et le nom « MIKI », tandis qu’en haut à droite est indiqué le patronyme « MUSTER ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"novembre 2025"</string>
 
     <string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
     <string name="twoeuro_comm_2025_mc_desc">"La pièce perpétue le souvenir du fief du Marquisat des Baux. Le titre de marquis des Baux a été porté pour la première fois en 1642 par Hercule Grimaldi, fils d’Honoré II. Aujourd’hui, par tradition historique, il est détenu par S.A.S. le Prince héréditaire Jacques. Le dessin représente le rocher des Baux de Provence et la zone environnant le village. Dans la partie supérieure est inscrit le nom du pays émetteur, « MONACO ». Dans la partie inférieure, en arc de cercle, figure l’inscription « MARQUISAT DES BAUX ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
@@ -2953,10 +2922,90 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
     <string name="twoeuro_comm_2025_mc_2_date">"juin 2025"</string>
 
-    <string name="twoeuro_comm_2025_es_title">"Inscription de Salamanque au patrimoine mondial de l’Unesco"</string>
-    <string name="twoeuro_comm_2025_es_desc">"Le dessin est une représentation du « Convento de San Esteban » (Couvent de San Esteban). En bas figurent le mot « ESPAÑA » et l’année d’émission, « 2025 ». En haut à droite apparaissent le mot « SALAMANCA » ainsi que la marque d’atelier de la Monnaie espagnole, à savoir un « M » surmonté d’une couronne. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"premier trimestre 2025"</string>
+    <string name="twoeuro_comm_2025_hr_title">"Série des villes croates — Grad Pula — Arène"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"Le motif central du dessin représente l’un des monuments anciens les plus importants de la République de Croatie, l’arène de Pula (l’amphithéâtre), telle qu’on la voit depuis la mer Adriatique, laquelle est représentée en dessous du motif central pour mettre en évidence le caractère distinctement méditerranéen de la Croatie. À droite de l’arène est représentée l’église Saint-Antoine, construite dans les années 1930, qui fait partie de la vue panoramique de la ville de Pula. Disposés en cercle sur la bordure de la partie centrale de la pièce sont également inscrits le nom du pays émetteur « HRVATSKA » (Croatie), l’année d’émission « 2025. » et les mots « GRAD PULA-ARENA » (ville de Pula - Arène). La face nationale de la pièce a été conçue par le sculpteur Duje Botteri. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"octobre 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"1 100eanniversaire du Royaume de Croatie et du couronnement du roi Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"Le motif central du dessin représente le roi Tomislav à cheval. L’autre motif est le damier croate, symbole distinctif de la Croatie, qui fait partie des armoiries de la République de Croatie. Le dessin comporte également les inscriptions suivantes, disposées en cercle au bord de la partie centrale de la pièce : les mots « KRALJ TOMISLAV » (roi Tomislav), l’année de son couronnement, « 925. », le pays émetteur « REPUBLIKA HRVATSKA » (République de Croatie) et l’année d’émission de la pièce, « 2025. ». La face nationale de la pièce a été conçue par le sculpteur Nikola Vudrag. Le motif central est une adaptation de l’œuvre originale du sculpteur Robert Franges Mihanovic datant de 1938. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"juillet 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"Compétition d’athlétisme finno-suédoise"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"Le dessin représente deux jambes fléchies en mouvement et des lignes discontinues symbolisant une piste de course. Il célèbre le 100eanniversaire de la compétition d’athlétisme finno-suédoise, rendant ainsi hommage à la tradition sportive finlandaise et à l’esprit collectif de cet événement. En haut de la pièce, l’année « 2025 » est inscrite à l’horizontale. À mi-hauteur de la pièce figurent la marque d’atelier, à gauche du dessin, et la mention « FI », à droite. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"automne 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Visites d’État finlandaises - diplomatie et politique étrangère"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"Sur le dessin figure la représentation stylisée d’une porte, de forme rectangulaire et au fini brillant, symbolisant les visites d’État. La marque d’atelier, l’année 2025 et la mention « FI » sont positionnées verticalement le long du côté gauche du rectangle, qui présente une partie supérieure arrondie suivant le bord de la pièce. En partie inférieure et à droite, la surface est rainurée de lignes horizontales, coupées par un arc de cercle. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"printemps 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame de Paris"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"La Monnaie de Paris rend hommage à Notre-Dame, la célèbre cathédrale parisienne qui a rassemblé des centaines d’artisans pour sa reconstruction ainsi que des millions de personnes pour célébrer sa réouverture en décembre 2024. Au centre du dessin figure la façade vue depuis le parvis. La rosace est insérée en arrière-plan, derrière la flèche. L’année « 2025 » et la mention « RF » sont inscrites sur le côté gauche de la pièce, accompagnées de la marque d’atelier de la Monnaie de Paris. Le nom « NOTRE-DAME DE PARIS » est inséré sur le côté droit de la pièce, accompagné de la marque d’atelier du graveur général. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"septembre 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_title">"Le Louvre"</string>
+    <string name="twoeuro_comm_2025_fr_desc">"Le dessin reproduit la façade orientale du Louvre, associée au plan emblématique du labyrinthe formé par les extraordinaires salles du musée. À l’arrière-plan, le pyramidion et la structure de la grande pyramide illustrent le caractère tant traditionnel que contemporain du Louvre. L’année d’émission, « 2025 », la mention du pays, « RF », et les marques d’atelier sont inscrites sur le plan du musée. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+    <string name="twoeuro_comm_2025_fr_date">"janvier 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"550eanniversaire de la naissance de Michel-Ange"</string>
+    <string name="twoeuro_comm_2025_sm_desc">"Au centre de la pièce figure un détail deCleopatra"</string>
+    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_date">"juillet 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"Le dessin représente une femme devant une ancre, allégorie de l’espoir, qui prend par la main un enfant, symbole de l’humanité. À gauche figurent l’inscription « SAN MARINO », quatre voiles carrées, la lettre « R » désignant la Monnaie de Rome, et le nom de l’auteur, « DI MAULO » (pour Gabriele Di Maulo) ; à droite se trouvent une étoile à huit branches, l’inscription « IUBILAEUM 2025 » et les initiales de la graveuse, « M.B.INC » (pour Marta Bonifacio). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_2_date">"mars 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_2_title">"Ville de Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"Cette pièce doit faire partie d’une série consacrée aux villes fortifiées maltaises, qui font partie intégrante du patrimoine culturel maltais et européen. Elle s’inscrit dans le prolongement de la pièce émise en 2024, qui représente « Iċ-Ċittadella » (La Citadelle) de Gozo. Le dessin représente Mdina surmontée par sa cathédrale. En haut à gauche figure l’inscription « Mdina ». En haut à droite sont inscrites les initiales du créateur, « NGB » (Noel Galea Bason). En bas aparaît le nom du pays émetteur « MALTA », au-dessus de l’année d’émission, « 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"juin 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"Bœuf maltais (il-gendus Malti"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"Le dessin est une représentation d’un bœuf maltais. La pièce vise à faire connaître l’une des races autochtones de Malte, qui est menacée. Dans la partie supérieure, en arc de cercle, on peut lire l’inscription « IL-GENDUS MALTI ». En partie inférieure figure le nom du pays émetteur, « MALTA », au-dessus de l’année d’émission, « 2025 ». En bas à droite figurent les initiales de la créatrice : « MAF » (Maria Anna Frisone). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"juin 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_title">"Bicentenaire de la mort de Laskarina Bouboulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"Le dessin représente un portrait de Laskarina Bouboulina avec, en arrière-plan, un mât et un gréement stylisés. Tout autour figurent les inscriptions « 200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ » (« BICENTENAIRE DE LA MORT DE LASKARINA BOUBOULINA ») et « ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ » (« RÉPUBLIQUE HELLÉNIQUE »). Sur la gauche se trouvent une palmette (marque d’atelier de la Monnaie grecque) et l’année d’émission. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"juillet 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"100eanniversaire de la naissance de Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"Le dessin représente le compositeur Mikis Theodorakis. Tout autour figurent les inscriptions « 100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ » (« 100 ANS DE LA NAISSANCE DE MIKIS THEODORAKIS ») et « ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ » (« RÉPUBLIQUE HELLÉNIQUE »). En bas de la pièce se trouvent l’année de frappe, à droite une palmette (marque d’atelier de la Monnaie grecque) et à gauche une clef de sol ainsi qu’une portée. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"juillet 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_2_title">"Circuit automobile de Spa-Francorchamps en Belgique"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"Le dessin représente, au centre, le tracé actuel du circuit automobile de Spa-Francorchamps. À gauche apparaît la distance totale du circuit en mètres (« 7.004 M ») et, en dessous, l’année de sa création (« 1921 »). La mention « CIRCUIT DE SPA FRANCORCHAMPS » apparaît au-dessus du tracé. En dessous figurent le code pays « BE » et l’année d’émission, « 2025 », accompagnés de la marque d’atelier du commissaire des monnaies belge (une fleur d’aster devant une fiole Erlenmeyer) et de la marque d’atelier de l’Hôtel des monnaies d’Utrecht (un caducée), les pièces devant être frappées par la Monnaie Royale des Pays-Bas. À droite apparaissent les initiales de l’artiste Iris Bruijns (« IB »). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"juillet 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_title">"Loterie nationale de Belgique"</string>
+    <string name="twoeuro_comm_2025_be_desc">"Au centre du dessin figure la représentation allégorique classique de la bonne fortune, la déesse Fortuna, portant la corne d’abondance. Sur les parties droite et inférieure du dessin apparaissent quatre trèfles à quatre feuilles, un autre symbole universel de chance. Derrière Fortuna se trouve le logo actuel de la Loterie nationale. Sur la partie gauche de la pièce est inscrit le texte « loterie nationale loterij ». En bas à gauche sont indiqués le code pays « BE » et l’année d’émission, « 2025 ». En bas à droite, on peut apercevoir les initiales de la créatrice Iris Bruijns. Les pièces devant être frappées par la Monnaie royale des Pays-Bas, la marque d’atelier de l’Hôtel des monnaies d’Utrecht (un caducée) est représentée en dessous de l’année d’émission, à côté de la marque d’atelier du commissaire des monnaies belge (une fleur d’aster devant une fiole Erlenmeyer). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_be_date">"janvier 2025"</string>
+
+    <string name="twoeuro_comm_2025_ad_title">"Jeux des petits États d’Europe (organisés en Andorre en 2025)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"Le dessin illustre différentes disciplines sportives représentées lors de cette compétition ainsi que les inscriptions « JOCS DELS PETITS ESTATS D’EUROPA » (Jeux des petits États d'Europe) et « ANDORRA 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"Second semestre 2025"</string>
+
+    <string name="twoeuro_comm_2025_ad_2_title">"Gypaète barbu"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"Afin de sensibiliser le public à l’importance de la protection de la faune et de l’environnement, le dessin de la pièce représente un gypaète barbu (Gypaetus barbatus"</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"Second semestre 2025"</string>
+
+    <string name="twoeuro_comm_2025_ee_title">"500eanniversaire de la première publication contenant des mots en estonien et de la naissance de la langue littéraire estonienne"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"Au centre de la pièce figure un assemblage de livres formant la lettre majuscule « E », ces livres symbolisant la tradition de la langue écrite estonienne. On retrouve également l’inscription « EESTI RAAMAT 500 », qui signifie « 500 ans de livres en estonien », ainsi que l’année 1525, date de la première publication d’un livre en estonien. Le dessin indique également l’année d’émission, « 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"deuxième trimestre 2025"</string>
 
     <string name="twoeuro_comm_2025_va_title">"550eanniversaire de la naissance de Michel-Ange"</string>
     <string name="twoeuro_comm_2025_va_desc">"Le dessin représente le dôme de la basilique Saint-Pierre, conçu par Michel-Ange, qui y a travaillé jusqu’à sa mort, en 1564. Au-dessous apparaît une partie du plafond de la chapelle Sixtine, peint par l’artiste. À gauche figurent la signature autographe de Michel-Ange, « michelagniolo », à la verticale, et la lettre « R », désignant la Monnaie de Rome, ainsi que le nom de la créatrice de la pièce, « D. LONGO » (Daniela Longo). L’inscription « CITTA’ DEL VATICANO », indiquant l’État d’émission, est disposée en arc au-dessus du dôme. Juste au-dessous sont apposés l’année de naissance de Michel-Ange, « 1475 », et le millésime, « 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
@@ -2973,15 +3022,20 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"juin 2025"</string>
 
-    <string name="twoeuro_comm_2025_lt_title">"Défense"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"Le dessin représente les contours de la Lituanie. Les frontières de l’État sont hérissées d’épines stylisées qui forment une barrière et symbolisent une défense holistique mobilisant l’ensemble de la société. L’image du hérisson évoque également l’ouverture et la fragilité des sociétés libres, qu’il est essentiel de défendre contre les menaces extérieures. La Lituanie est représentée par un hérisson toujours prêt à se défendre. Au centre du dessin figurent l’inscription « LIETUVA » (LITUANIE), l’année d’émission, « 2025 », et la marque d’atelier de la Monnaie lituanienne. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"premier trimestre 2025"</string>
+    <string name="twoeuro_comm_2025_po_title">"Scoutisme mondial"</string>
+    <string name="twoeuro_comm_2025_po_desc">"La pièce célèbre le scoutisme mondial et les mouvements de jeunesse qui encouragent les échanges culturels, la compréhension mutuelle et l’amitié. En 2025, le Portugal accueillera en effet la 16eédition du Moot Scout Mondial, un événement au cours duquel des scouts âgés de 18 à 25 ans venus du monde entier auront l'occasion de se rencontrer pour apprendre les uns des autres et acquérir de nouvelles compétences."</string>
+    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_date">"juin 2025"</string>
 
-    <string name="twoeuro_comm_2025_de_title">"État fédéral (Land) de Sarre"</string>
-    <string name="twoeuro_comm_2025_de_desc">"Le dessin reproduit la célèbre boucle de la Sarre, une rivière dont le méandre façonne le paysage vallonné alentour. Les groupes d’arbres représentés le long de la rivière évoquent la forêt qui entoure cette pittoresque boucle. La perspective en plongée montre le méandre emblématique incrusté entre les collines environnantes, qui s’étendent dans le lointain. L’inscription « SAARLAND » (Sarre) est placée en bas, au premier plan, de façon à ne pas perturber l’impression de calme et de luminosité qui se dégage du paysage. La moitié supérieure de la partie centrale de la pièce comporte également, à gauche, la marque de l’artiste, Carsten Wolff, basé à Francfort, et, à droite, la lettre « X », qui indique l’emplacement où doit figurer la marque d’atelier de la Monnaie concernée (« A », « D », « F », « G » ou « J »). La moitié inférieure comporte l’inscription « SAARLAND », le code de pays émetteur (« D » pour l'Allemagne) et l’année d’émission, « 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"janvier 2025"</string>
+    <string name="twoeuro_comm_2025_po_2_title">"Développement durable"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"Le dessin consiste en une représentation de la planète Terre, entourée de la légende « Desenvolvimento Sustentável » (développement durable) ; sur le bord, à gauche et en partie supérieure, figure une guirlande de 17 ensembles de feuilles disposées en triangle évoquant le symbole universel du recyclage, en référence aux 17 objectifs du programme de développement durable à l’horizon 2030 ; en partie inférieure et à droite, le bord porte la légende « PORTUGAL », les armoiries nationales du Portugal, l’année et la marque d’atelier « Casa da Moeda » au-dessus du nom du créateur. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_2_date">"premier trimestre 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"Inscription de Salamanque au patrimoine mondial de l’Unesco"</string>
+    <string name="twoeuro_comm_2025_es_desc">"Le dessin est une représentation du « Convento de San Esteban » (Couvent de San Esteban). En bas figurent le mot « ESPAÑA » et l’année d’émission, « 2025 ». En haut à droite apparaissent le mot « SALAMANCA » ainsi que la marque d’atelier de la Monnaie espagnole, à savoir un « M » surmonté d’une couronne. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"premier trimestre 2025"</string>
 
     <string name="twoeuro_comm_2025_lu_title">"75eanniversaire de la déclaration de Robert Schuman du 9 mai 1950"</string>
     <string name="twoeuro_comm_2025_lu_desc">"Le bas du dessin représente une main qui tient une plume et qui écrit sur une feuille de papier. La partie supérieure de la plume se termine par une branche d’olivier, qui se prolonge par des colombes – deux symboles de paix. Les colombes volent vers l’horizon, où se trouvent six étoiles, représentant les six États membres signataires du traité instituant la Communauté européenne du charbon et de l’acier, dont la déclaration Schuman a jeté les bases. Dans la partie supérieure du dessin figurent l’inscription « DÉCLARATION SCHUMAN » ainsi que la date de cette déclaration, « 09.05.1950 ». Au-dessous, le chiffre « 75 » fait référence à l'anniversaire de la déclaration. Le nom du pays émetteur, « LUXEMBOURG », et l’année d’émission, « 2025 », apparaissent sur la partie droite du dessin. Le monogramme (lettre « H » surmontée d’une couronne) représente le Grand-Duc Henri. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
@@ -2993,6 +3047,11 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
     <string name="twoeuro_comm_2025_lu_2_date">"février 2025"</string>
 
+    <string name="twoeuro_comm_2025_sk_title">"100eanniversaire de la première compétition sportive internationale organisée sur le territoire de la République slovaque – le championnat d’Europe de hockey sur glace"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"Le dessin représente un joueur de hockey sur glace en action, habillé comme à l'époque du championnat d’Europe de hockey sur glace de 1925. Le joueur se détache devant la représentation stylisée des Hautes Tatras, la région montagneuse slovaque où a eu lieu le tournoi. La mention « MAJSTROVSTVÁ EURÓPY V HOKEJI » (championnat d’Europe de hockey) borde le pourtour supérieur du disque intérieur de la pièce. Les années « 1925 » et « 2025 » sont inscrites l’une au-dessus de l’autre dans la partie supérieure gauche du dessin. En bas est inscrit le nom du pays d’émission, « SLOVENSKO » (Slovaquie). À droite du personnage figure la marque d’atelier de la Monnaie slovaque de Kremnica (Mincovňa Kremnica), où est frappée la pièce. À côté sont inscrites les initiales « KL » de l’auteur du dessin, Karol Ličko. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_sk_date">"janvier 2025"</string>
+
     <string name="twoeuro_comm_2025_it_title">"Jubilé 2025"</string>
     <string name="twoeuro_comm_2025_it_desc">"Au centre du dessin figure une représentation de la Porte Sainte située dans la basilique Saint-Pierre. En haut de la pièce, en arc de cercle, figure l’inscription « IUBILAEUM ». Le cercle est complété par une série de poissons alternativement pleins et vides, symbolisant le christianisme. À gauche, on peut lire « 2025 », année d’émission de la pièce, ainsi que la lettre « R », désignant la Monnaie de Rome. À droite se trouvent l’acronyme de la République italienne, « RI », et les initiales de la créatrice, « C.M. » (pour Claudia Momoni). L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
     <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
@@ -3002,6 +3061,11 @@ L'utilisateur peut contacter l'institution correspondante pour la confidentialit
     <string name="twoeuro_comm_2025_it_2_desc">"Au centre du dessin figure une représentation de l’Amerigo Vespucci, un navire-école qui fend les vagues, toutes voiles déployées. En arc de cercle, sur la partie gauche, on peut lire la mention « Amerigo Vespucci Tour Mondiale 2023-2025 » ; en bas à gauche se trouvent les inscriptions « 2025 », année d’émission de la pièce, et « RI », acronyme de la République italienne ; à droite apparaissent le sigle « R » de la Monnaie de Rome, et, en exergue, « E.FERRETTI », la signature du créateur. L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
     <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2025_it_2_date">"janvier 2025"</string>
+
+    <string name="twoeuro_comm_2025_de_title">"État fédéral (Land) de Sarre"</string>
+    <string name="twoeuro_comm_2025_de_desc">"Le dessin reproduit la célèbre boucle de la Sarre, une rivière dont le méandre façonne le paysage vallonné alentour. Les groupes d’arbres représentés le long de la rivière évoquent la forêt qui entoure cette pittoresque boucle. La perspective en plongée montre le méandre emblématique incrusté entre les collines environnantes, qui s’étendent dans le lointain. L’inscription « SAARLAND » (Sarre) est placée en bas, au premier plan, de façon à ne pas perturber l’impression de calme et de luminosité qui se dégage du paysage. La moitié supérieure de la partie centrale de la pièce comporte également, à gauche, la marque de l’artiste, Carsten Wolff, basé à Francfort, et, à droite, la lettre « X », qui indique l’emplacement où doit figurer la marque d’atelier de la Monnaie concernée (« A », « D », « F », « G » ou « J »). La moitié inférieure comporte l’inscription « SAARLAND », le code de pays émetteur (« D » pour l'Allemagne) et l’année d’émission, « 2025 ». L’anneau extérieur de la pièce est orné des douze étoiles du drapeau européen."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"janvier 2025"</string>
 
     <!-- END auto generated code for language fr -->
 </resources>

@@ -451,15 +451,12 @@
     - Wenn Sie eine Tauschsammlung nicht starten oder fortsetzen möchten, können Sie einfach die Tauschsammlung löschen. Sie werden gefragt, ob Sie auch die zugrunde liegende Tauschpartnersammlung löschen möchten.
 "</string>
 
-    <string name="version_history_last">"Version 7.14\n
+    <string name="version_history_current">"Version 7.16\n
 Fehlende 2€ Gedenkmünzen 2026 hinzugefügt.
-2€ Gedenkmünzen für Deutschland, Slowenien und Slowakei hinzugefügt.
-Neue Münzbilder für Monaco 2025 1€ und 2€ hinzugefügt. Danke Guiseppe.
-Neue Münzbilder für Luxemburg 2026 hinzugefügt. Danke Guiseppe.
-Benachrichtigungen hinzugefügt, um über aktualisierte Sammlungen von Freunden informiert zu werden.
+Langes Drücken auf eine Münze in der EU-Ansicht zeigt jetzt alle Münzen.
 "</string>
 
-    <string name="version_history_current">"Version 7.15\n
+    <string name="version_history_last">"Version 7.15\n
 Benutzerdefinierte Münzen für Deutschland unterstützen jetzt die Auswahl von Münzzeichen. Danke an Florian.
 Länder-Codes wurden korrigiert, um dem ISO-Standard 3166-1 Alpha-2 zu entsprechen. Danke an Thomas.
 Benutzerdefinierte Münzen können jetzt für eine bestimmte Sammlung erstellt werden.
@@ -473,6 +470,8 @@ Benutzerdefinierte Münzen können jetzt für eine bestimmte Sammlung erstellt w
     <string name="coin_50cent">"50 Cent"</string>
     <string name="coin_1euro">"1 Euro"</string>
     <string name="coin_2euro">"2 Euro"</string>
+    <string name="coin_5euro">"5 Euro"</string>
+    <string name="coin_10euro">"10 Euro"</string>
 
     <string name="countryname_eu">"EU"</string>
     <string name="countryname_ad">"Andorra"</string>
@@ -2912,33 +2911,153 @@ Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"Januar 2024"</string>
 
+    <string name="twoeuro_comm_2025_ad_title">"Spiele der kleinen Staaten von Europa (Andorra war 2025 Austragungsort)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"Das Münzmotiv zeigt einige der Disziplinen des Wettbewerbs, zusammen mit der Aufschrift „JOCS DELS PETITS ESTATS D’EUROPA“ („Spiele der kleinen Staaten von Europa“) sowie „ANDORRA 2025“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"Zweite Jahreshälfte 2025"</string>
+
+    <string name="twoeuro_comm_2025_ad_2_title">"Bartgeier"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"Das Münzmotiv zeigt die Nahaufnahme eines Bartgeiers (Gypaetus barbatus), einer vom Aussterben bedrohten Vogelart, um das Bewusstsein für die Bedeutung des Schutzes von Wildtieren und der Umwelt zu schärfen. Ebenfalls abgebildet sind die Aufschrift „ANDORRA“ und das Ausgabejahr (2025). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"Zweite Jahreshälfte 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_2_title">"Motorsport-Rennstrecke „Circuit de Spa-Francorchamps“ in Belgien"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"Das Münzmotiv zeigt in der Mitte den aktuellen Verlauf der Rennstrecke von Spa-Francorchamps. Auf der linken Seite der Münze werden die Gesamtlänge der Rennstrecke in Metern (7.004 M) und darunter das Jahr der Streckeneröffnung (1921) angegeben. Über der Rennstrecke erscheint der Schriftzug „CIRCUIT DE SPA FRANCORCHAMPS“. Am unteren Münzrand sind das Länderkürzel (BE) und das Ausgabejahr (2025) zu lesen, zwischen dem Münzzeichen des belgischen Münzdirektors (Asterblüte vor einem Erlenmeyerkolben) und dem Münzzeichen von Utrecht (Hermesstab), da die Königliche Niederländische Münzprägeanstalt die Münzen prägt. Auf der rechten Seite der Münze finden sich die Initialen der Münzgestalterin Iris Bruijns. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"Juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_be_title">"Belgische Nationallotterie"</string>
+    <string name="twoeuro_comm_2025_be_desc">"Das Münzmotiv zeigt in der Mitte die klassische allegorische Darstellung des Glückes in Form der Göttin Fortuna mit dem Füllhorn. Rechts unten sind vier vierblättrige Kleeblätter zu sehen, ein weiteres allgemein gebräuchliches Glückssymbol. Den Hintergrund bildet das Logo der Nationallotterie. Auf der linken Seite des Münzmotivs ist die Aufschrift „loterie nationale loterij“ zu lesen. Unten links stehen der Ländercode „BE“ und das Ausgabejahr „2025“. Rechts unten befinden sich die Initialen der Münzdesignerin Iris Bruijns. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, sind unter der Jahresangabe nebeneinander ein Hermesstab als Münzzeichen von Utrecht und eine Aster vor einem Erlenmeyerkolben als Zeichen der belgischen Münzmeister angeordnet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_be_date">"Januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_de_title">"Bundesland Saarland"</string>
+    <string name="twoeuro_comm_2025_de_desc">"Das Münzdesign zeigt die Saarschleife, vereinfacht dargestellt durch den gewundenen Flusslauf, der die hügelige Landschaft prägt. Baumgruppen entlang des Flusslaufs symbolisieren die bewaldete Landschaft rund um die malerische Saarschleife. Die Vogelperspektive bettet die charakteristische, natürliche Wasserstraße in sich in der Ferne verlierende Hügelkuppen ein. Unterhalb der Abbildung ist der Schriftzug „Saarland“ angebracht, um die Ruhe und Leichtigkeit der Landschaft nicht zu stören. In der oberen Hälfte des Kernbereichs befinden sich ferner die Initialen des Künstlers Carsten Wolff aus Frankfurt (links) und der Buchstabe „X“ (rechts) als Platzhalter für das Prägezeichen der jeweiligen Münzstätte („A“, „D“, „F“, „G“ oder „J“). In der unteren Hälfte finden sich der Schriftzug „SAARLAND“, der Buchstabe „D“ für das Ausgabeland und das Ausgabejahr „2025“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"Januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_ee_title">"500. Jahrestag der ersten Veröffentlichung mit Worten in Estnisch und der Anfänge der estnischen Sprache in der Literatur"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"Das Münzinnere zeigt auf- bzw. nebeneinanderliegende Bücher, die zusammen den Großbuchstaben „E“ ergeben, als Symbol für die Tradition der estnischen literarischen Sprache. Ebenfalls zu sehen sind die Aufschrift „EESTI RAAMAT 500“ („500 Jahre Bücher in Estnisch“), die Zahl „1525“ (Erscheinungsjahr des ersten Buches in estnischer Sprache) und das Ausgabejahr der Gedenkmünze (2025). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"Zweites Quartal 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"Anerkennung von Salamanca als UNESCO-Welterbestätte"</string>
+    <string name="twoeuro_comm_2025_es_desc">"Das Münzdesign zeigt die Kirche und das Kloster „Convento de San Esteban“. Am unteren Rand des Münzkerns sind der Schriftzug „ESPAÑA“ für das Ausgabeland und das Ausgabejahr „2025“ zu sehen. Am oberen Rand des Münzkerns befinden sich der Schriftzug „SALAMANCA“ und das Prägezeichen der Münzstätte „Eme Coronada“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"Erstes Quartal 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"Sportwettbewerb „Suomi–Ruotsi-maaottelu“"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"Das Münzmotiv zeigt jeweils ein Bein zweier Läufer in Bewegung vor gebogenen Linien, die eine Laufbahn darstellen sollen. Mit der Münze werden der 100. Jahrestag der Einführung dieses Leichtathletik-Länderkampfs zwischen Finnland und Schweden, die finnische Sporttradition und der Gemeinschaftsgeist der Veranstaltung gewürdigt. Oben im Motiv ist horizontal das Jahr „2025“ zu lesen. Das Münzzeichen befindet sich in der linken und die Aufprägung „FI“ in der rechten Motivmitte. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"Herbst 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Finnische Staatsbesuche – Diplomatie und Außenpolitik"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"Auf der Münze ist in abstrakter Form eine Tür dargestellt, in Form eines hochglänzenden Rechtecks und als Symbol für Staatsbesuche. Links am Rand des Rechtsecks sind vertikal das Münzzeichen, das Jahr „2025“ und der Schriftzug „FI“ angeordnet. Das Rechteck hat eine abgerundete Oberseite, die dem Münzrand folgt. Unterhalb des Rechtecks und rechts davon ist die Bildfläche geriffelt und besteht aus horizontalen Linien, wobei eine Kreisform die runde Seite der Fläche durchbricht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"Frühjahr 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"Die französische Münzprägeanstalt würdigt mit diesem 2-Euro-Stück die berühmte Pariser Kathedrale Notre-Dame, an deren Wiederaufbau Hunderte von Handwerkern beteiligt waren und deren Wiedereröffnung im Dezember 2024 Millionen von Menschen feierten. Das Münzmotiv zeigt in der Mitte die Fassade von Notre-Dame aus der Perspektive des Vorplatzes. Im Hintergrund des Vierungsturms ist das Rosenfenster abgebildet. Auf der linken Seite sind das Ausgabejahr (2025), die Angabe „RF“ sowie das Münzzeichen der Prägeanstalt zu sehen. Auf der rechten Seite stehen der Name „NOTRE-DAME DE PARIS“ und das Münzzeichen des Chefgraveurs. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"September 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
+    <string name="twoeuro_comm_2025_fr_desc">"Zu sehen ist die östliche Fassade des Louvre, verbunden mit dem emblematischen labyrinthartigen Grundriss des Museums mit seinen außergewöhnlichen Räumen. Im Hintergrund veranschaulichen das Pyramidion und die Struktur der großen Pyramide den traditionellen und den zeitgenössischen Charakter des Louvre. Ausgabejahr (2025) und -land (RF) sowie Münzzeichen wurden in den Museumsgrundriss integriert. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
+    <string name="twoeuro_comm_2025_fr_date">"Januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_title">"200. Todestag von Laskarina Bouboulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"Das Münzmotiv zeigt ein Porträt von Laskarina Bouboulina, einer Heldin des griechischen Befreiungskriegs, vor einer stilisierten Takelage. Um das Motiv herum verlaufen die Aufschriften „200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ“ (200. TODESTAG VON LASKARINA BOUBOULINA) und „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ (HELLENISCHE REPUBLIK). Links sind eine Palmette (Zeichen der griechischen Münze) und das Prägejahr zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"Juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"100. Geburtstag von Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"Das Münzmotiv zeigt den Komponisten Mikis Theodorakis. Um das Motiv herum verlaufen die Aufschriften „100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ“ (100. GEBURTSTAG VON MIKIS THEODORAKIS) und „ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ“ (HELLENISCHE REPUBLIK), darunter sind das Prägejahr, rechts eine Palmette (Zeichen der griechischen Münzprägeanstalt) und links ein Violinschlüssel mit Notenlinien zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"Juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"Serie „Kroatische Städte“ – Arena von Pula"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"Das zentrale Gestaltungsmotiv ist die Arena von Pula. Dieses Amphitheater ist eines der bekanntesten antiken Denkmäler der Republik Kroatien. Es wird aus der Perspektive der Adria gezeigt, die darunter abgebildet ist, um den eindeutig mediterranen Charakter Kroatiens zu unterstreichen. Rechterhand des Amphitheaters befindet sich ein Abbild der Kirche St. Antonius, die in den 1930er-Jahren errichtet wurde und zum Stadtpanorama gehört. Entlang des inneren Münzrings sind der Name des Ausgabelandes „HRVATSKA“ (Kroatien), das Ausgabejahr (2025) und der Schriftzug „GRAD PULA-ARENA“ (Stadt Pula-Arena) aufgeprägt. Die nationale Seite der Münze wurde von dem Bildhauer Duje Botteri gestaltet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"Oktober 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"1100-jähriges Jubiläum des Königreichs Kroatien und der Krönung von König Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"Das zentrale Münzmotiv ist König Tomislav zu Pferde. Das andere Motiv ist das charakteristische Emblem Kroatiens, das einen hohen Wiedererkennungswert hat: Das kroatische Schachbrett, das einen Teil des Wappens der Republik Kroatien darstellt. Entlang des inneren Münzrings verlaufen folgende Aufschriften: die Worte KRALJ TOMISLAV“ (König Tomislav), das Jahr seiner Krönung (925), das Ausgabeland REPUBLIKA HRVATSKA“ (Republik Kroatien) und das Ausgabejahr der Münze (2025). Die nationale Seite der Münze wurde von dem Bildhauer Nikola Vudrag gestaltet. Das zentrale Motiv ist seine Version des Originalwerks des Bildhauers Robert Franges Mihanovic aus dem Jahr 1938. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"Juli 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"Jubiläum 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"Das Münzmotiv zeigt in der Mitte die Heilige Pforte des Petersdoms. Oberhalb ist halbkreisförmig die Aufschrift „IUBILAEUM“ zu lesen, unterhalb – ebenfalls halbkreisförmig angeordnet und an die Aufschrift anschließend – sind Fische als Symbol des Christentums dargestellt, abwechselnd in je einer von zwei Ausführungen. Links der Pforte finden sich das Ausgabejahr (2025) und darunter das Zeichen der Münze Rom (R). Rechts der Pforte stehen das Akronym der Italienischen Republik „RI“ und die Initialen der Münzgestalterin „C.M.“ (Claudia Momoni). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"Januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"Das Münzmotiv zeigt in der Mitte das Segelschulschiff Amerigo Vespucci, das mit vollen Segeln durch die Meereswellen rauscht. Linkerhand findet sich halbkreisförmig die Aufschrift „Amerigo Vespucci Tour Mondiale 2023-2025“. Links unten stehen das Ausgabejahr „2025“ und darunter das Akronym der Italienischen Republik „RI“, rechts unten das Zeichen der Münze von Rom „R“. Am unteren inneren Münzrand ist der Name des Münzgestalters „E.FERRETTI“ aufgeprägt. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"Januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"Ethnografische Regionen Litauens – Kleinlitauen"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"Auf der Münze ist das Wappenschild Kleinlitauens abgebildet. Dieses zeigt einen Elch, der einen Speer in seinen Vorderläufen hält, sowie darüber das Leuchtfeuer eines Leuchtturms. Auf beiden Seiten des Schilds befinden sich Kurenkähne. Unter diesen traditionellen Holzsegelbooten ist ein Zitat des Dichters Vydūnas zu lesen: „Spindulys esmi begalinės šviesos“ („Ein Strahl ist die Essenz des unendlichen Lichts“). Entlang des inneren Münzrings sind die Schriftzüge „Lietuva“ (Litauen), „Mažoji Lietuva“ (Kleinlitauen), das Ausgabejahr (2025) und das Zeichen der litauischen Münzprägeanstalt aufgeprägt. Die nationale Seite der Münze wurde von Rolandas Rimkūnas geschaffen, Gestalter des großen Wappens Kleinlitauens ist Arvydas Každailis. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"Viertes Quartal 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"Verteidigung"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"Das Münzmotiv zeigt die Umrisse Litauens. Umgeben sind die Staatsgrenzen von einer stilisierten Stachelgrenze als Symbol für das Konzept einer ganzheitlichen und gesamtgesellschaftlichen Verteidigung. Das Bild des Igels steht auch für die Offenheit und Verwundbarkeit freier Gesellschaften, die mit aller Kraft vor externen Bedrohungen geschützt werden müssen. Litauen wird als Igel dargestellt, der jederzeit bereit ist, sich zu verteidigen. Ferner sind in der Münzmitte die Aufschrift „LIETUVA“ (LITAUEN), das Ausgabejahr „2025“ und das Münzzeichen der litauischen Münze zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"Erstes Quartal 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"75. Jahrestag der Schuman-Erklärung vom 9. Mai 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"Im unteren Bereich des Münzdesigns ist eine Hand abgebildet, die mit einer Feder ein Stück Papier beschreibt. Die Feder geht in einen Olivenzweig über und löst sich nach oben hin in fliegende Tauben auf – beides Symbole des Friedens. Die Tauben gehen in einem Horizont aus Sternen auf, die für die sechs Unterzeichnerstaaten des Vertrags über die Gründung der Europäischen Gemeinschaft für Kohle und Stahl stehen, für den die Schuman-Erklärung als Grundlage dient. Im oberen Teil des Münzkerns befinden sich der Schriftzug „DECLARATION SCHUMAN“ sowie das Datum „09.05.1950“. Darunter gibt die Zahl „75“ den Jahrestag der Erklärung an. Der Name des Ausgabelandes „LUXEMBOURG“ sowie das Ausgabejahr „2025“ sind auf der rechten Seite abgebildet. Das Monogramm (Buchstabe „H“ mit einer Krone) steht für Großherzog Henri. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"Februar 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"25. Jahrestag der Thronbesteigung von Großherzog Henri"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"Das Münzmotiv zeigt Großherzog Henri vor dem großherzoglichen Palast. Der Schriftzug „25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI“ ist halbkreisförmig darüber abgebildet. Der Name des Ausgabelandes „LETZEBUERG“ sowie das Ausgabejahr „2025“ sind am unteren Rand des Münzkerns angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"Februar 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
+    <string name="twoeuro_comm_2025_mc_desc">"Die Münze erinnert an das „Marquisat des Baux“ (Markgrafentum von Baux). Der Titel des Markgrafen von Baux wurde 1642 erstmals vergeben an Hercule Grimaldi, Sohn von Honoré II. Heute trägt ihn nach historischer Tradition S.D. Erbprinz Jacques. Abgebildet sind die Felsformation und die Umgebung des Dorfes Les Baux de Provence. Oberhalb ist der Name des Ausgabelandes „MONACO“ und unterhalb halbkreisförmig die Aufschrift „MARQUISAT DES BAUX“ zu lesen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_mc_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_date">"November 2025"</string>
+
+    <string name="twoeuro_comm_2025_mc_2_title">"Comté de Carladès"</string>
+    <string name="twoeuro_comm_2025_mc_2_desc">"Die Münze erinnert an den Adelstitel „Comte de Carladès“, der nach historischer Tradition dem Zweiten in der Erbfolge zukommt und den heute Prinzessin Gabriella trägt. Abgebildet ist die Fassade des Schlosses, das bis zur Französischen Revolution der Familie Grimaldi gehörte. Oberhalb ist der Name des Ausgabelandes „MONACO“ und unterhalb halbkreisförmig die Aufschrift „COMTE DE CARLADES“ zu lesen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
+    <string name="twoeuro_comm_2025_mc_2_date">"Juni 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_2_title">"Die Stadt Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"Diese Münze ist Teil der Serie „Maltesische Städte mit Stadtmauern“, die fester Bestandteil des maltesischen und europäischen Kulturerbes sind. Sie folgt auf die Gedenkmünze von 2024, die der „Iċ-Ċittadella“ (der Zitadelle von Gozo) gewidmet ist. Das Münzmotiv zeigt die Stadt Mdina, überragt von ihrer Kathdrale. Links darüber befindet sich der Schriftzug „MDINA“. Oben rechts sind die Initialen des Münzgestalters „NGB“ (Noel Galea Bason) zu sehen. Am unteren Rand befindet sich der Name des Ausgabelandes „MALTA“ und darunter das Ausgabejahr (2025). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"Juni 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"Maltesischer Ochse (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"Die Münze zeigt den maltesischen Ochsen und ist einer einheimischen Tierart Maltas gewidmet, die vom Aussterben bedroht ist. Am oberen Rand des Münzkerns steht der Schriftzug „IL-GENDUS MALTI“. Am unteren Rand befindet sich der Name des Ausgabelandes (MALTA) und darunter das Ausgabejahr (2025). Rechts unten sind die Initialen „MAF“ der Münzgestalterin Maria Anna Frisone angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"Juni 2025"</string>
+
     <string name="twoeuro_comm_2025_po_title">"Weltpfadfinderbewegung"</string>
-    <string name="twoeuro_comm_2025_po_desc">"Im Jahr 2025 findet in Portugal das 16. World Scout Moot statt, bei dem Pfadfinderinnen und Pfadfinder zwischen 18 und 25 Jahren aus der ganzen Welt zusammenkommen, um voneinander zu lernen und neue Fähigkeiten zu erwerben. Aus diesem Anlass werden mit der Münze die Weltpfadfinder- und Jugendbewegungen geehrt, die kulturellen Austausch, gegenseitiges Verständnis und Freundschaft fördern."</string>
+    <string name="twoeuro_comm_2025_po_desc">"Im Jahr 2025 fand das 16. World Scout Moot in Portugal statt, bei dem Pfadfinderinnen und Pfadfinder zwischen 18 und 25 Jahren aus der ganzen Welt zusammenkamen, um voneinander zu lernen und neue Fähigkeiten zu erwerben. Mit dieser Gedenkmünze werden die Weltpfadfinder- und Jugendbewegungen geehrt, die kulturellen Austausch, gegenseitiges Verständnis und Freundschaft fördern."</string>
     <string name="twoeuro_comm_2025_po_volume">"500000"</string>
     <string name="twoeuro_comm_2025_po_date">"Juni 2025"</string>
 
     <string name="twoeuro_comm_2025_po_2_title">"Nachhaltige Entwicklung"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"Das Münzmotiv zeigt eine Darstellung des Planeten Erde, die von der portugiesischen Inschrift „Desenvolvimento Sustentável“ (auf Deutsch: „Nachhaltige Entwicklung“) eingerahmt ist. Eine zweigartige Reihe von 17 Blattpaaren ziert den linken und oberen Rand des Motivs. Die Blätter sind in Anlehnung an das universelle Recyclingsymbol in Dreiecken angeordnet und symbolisieren die 17 Ziele der Agenda 2030 für nachhaltige Entwicklung. Am unteren und rechten Bildrand sind der Ausgabestaat „Portugal“, das nationale Wappen des Landes, die Jahreszahl sowie das Münzzeichen „Casa da Moeda“ und darunter der Name der Münzgestalterin abgebildet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"Das Münzmotiv zeigt eine Darstellung des Planeten Erde, die von der portugiesischen Inschrift „Desenvolvimento Sustentável“ („Nachhaltige Entwicklung“) eingerahmt ist. Eine zweigartige Reihe von 17 Blattpaaren ziert den linken und oberen Rand des Motivs. Die Blätter sind in Anlehnung an das universelle Recyclingsymbol in Dreiecken angeordnet und symbolisieren die 17 Ziele der Agenda 2030 für nachhaltige Entwicklung. Am unteren und rechten Bildrand sind das Ausgabeland „Portugal“, das Landeswappen, die Jahreszahl sowie das Münzzeichen „Casa da Moeda“ und darunter der Name der Münzgestalterin abgebildet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
     <string name="twoeuro_comm_2025_po_2_date">"Erstes Quartal 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"Finnische Staatsbesuche – Diplomatie und Außenpolitik"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"Auf der Münze ist in abstrakter Form eine Tür dargestellt, in Form eines hochglänzenden Rechtecks und als Symbol für Staatsbesuche. Links am Rand des Rechtsecks sind vertikal das Münzzeichen, das Jahr 2025 und der Schriftzug „FI“ angeordnet. Das Rechteck hat eine abgerundete Oberseite, die dem Münzrand folgt. Unterhalb des Rechtecks und rechts davon ist die Bildfläche geriffelt und besteht aus horizontalen Linien, wobei eine Kreisform die runde Seite der Fläche durchbricht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"Frühjahr 2025"</string>
+    <string name="twoeuro_comm_2025_si_title">"100. Geburtstag von Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">"Auf der Münze sind in der Technik des weichen Reliefschnitzens drei Helden aus den Comic-Heften von Miki Muster abgebildet, nämlich Zvitorepec, Lakotnik und Trdonja. Darunter stehen das Prägungsjahr (2025) und das Ausgabeland (SLOVENIJA).  Auf der oberen linken Seite sind das Geburtsjahr Musters (1925) und sein Vorname (MIKI) zu sehen, auf der oberen rechten Seite sein Nachname (MUSTER). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"November 2025"</string>
 
-    <string name="twoeuro_comm_2025_sk_title">"100. Jahrestag des ersten internationalen Sportturniers im Hoheitsgebiet der Slowakischen Republik – Eis-Hockey-Europameisterschaft"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"Das Münzmotiv zeigt einen Eishockey-Spieler während des Spiels. Seine Uniform ist typisch für den Stil der Zeit der Eishockey-Europameisterschaft 1925. Hinter dem Spieler erhebt sich stilisiert die slowakische Bergregion der Hohen Tatra, in der die Meisterschaft damals ausgerichtet wurde. Die Aufschrift „MAJSTROVSTVÁ EURÓPY V HOKEJI“ (Europäische Hockey-Meisterschaft) verläuft entlang des oberen inneren Münzrands. Im oberen linken Teil des Münzbilds sind übereinander die Jahre „1925“ und „2025“ angeordnet. Unten ist „SLOVENSKO“ als Name des Ausgabestaates zu lesen. Rechterhand des Spielers ist das Zeichen der die Münze herstellenden slowakischen Münze in Kremnica (Mincovňa Kremnica) aufgeprägt. Daneben stehen die Initialen „KL“ des Münzgestalters Karol Ličko. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_sk_title">"100. Jahrestag des ersten internationalen Sportturniers im Hoheitsgebiet der Slowakischen Republik – Eishockey-Europameisterschaft"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"Das Münzmotiv zeigt einen Eishockey-Spieler in Aktion, in typischer Sportkleidung für die damalige Zeit. Hinter dem Spieler erhebt sich stilisiert die slowakische Bergregion der Hohen Tatra, in der die Meisterschaft damals ausgerichtet wurde. Die Aufschrift „MAJSTROVSTVÁ EURÓPY V HOKEJI“ (Europäische Hockey-Meisterschaft) verläuft entlang des oberen inneren Münzrands. Im oberen linken Teil des Münzbilds sind übereinander die Jahre „1925“ und „2025“ angeordnet. Unten ist der Name des Ausgabelandes (SLOVENSKO) zu lesen. Rechterhand des Spielers ist das Zeichen der slowakischen Münze in Kremnica (Mincovňa Kremnica) aufgeprägt. Daneben stehen die Initialen des Münzgestalters Karol Ličko (KL ). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
     <string name="twoeuro_comm_2025_sk_date">"Januar 2025"</string>
 
-    <string name="twoeuro_comm_2025_be_title">"Belgische Nationallotterie"</string>
-    <string name="twoeuro_comm_2025_be_desc">"Das Münzmotiv zeigt in der Mitte die klassische allegorische Darstellung des Glückes in Form der Göttin Fortuna mit dem Füllhorn. Rechts und im unteren Teil sind vier vierblättrige Kleeblätter zu sehen, ein weiteres allgemein gebräuchliches Glückssymbol. Den Hintergrund bildet das Logo der Nationallotterie. Auf der linken Seite des Münzmotivs ist die Aufschrift „loterie nationale loterij“ zu lesen. Unten links stehen der Ländercode BE und das Ausgabejahr 2025. Unten rechts befinden sich die Initialen der Münzdesignerin Iris Bruijns. Da die Münzen von der Königlichen Niederländischen Münze geprägt werden, sind unter der Jahresangabe nebeneinander ein Hermesstab als Münzzeichen von Utrecht und eine Aster vor einem Erlenmeyer-Kolben als Zeichen der belgischen Münzmeister angeordnet. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_be_date">"Januar 2025"</string>
-
     <string name="twoeuro_comm_2025_sm_title">"550. Geburtstag von Michelangelo"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"Das Münzmotiv zeigt mittig Kleopatra als Ausschnitt der Zeichnung von Michelangelo Buonarroti, die in der Casa Buonarroti (Florenz) aufbewahrt wird. Auf der linken Seite befinden sich der halbkreisförmige Schriftzug „MICHELANGELO“, der Buchstabe „R“ als Zeichen der Münze Rom und die Jahreszahl „1475“, rechts die halbkreisförmige Bezeichnung des Ausgabestaates „SAN MARINO“ und die Jahreszahl „2025“. Unten sind die Initialen „SP“ der Münzgestalterin Silvia Petrassi zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_sm_desc">"Das Münzmotiv zeigt mittig Kleopatra als Ausschnitt der Zeichnung von Michelangelo Buonarroti, die im Casa Buonarroti in Florenz aufbewahrt wird. Auf der linken Seite befinden sich der halbkreisförmige Schriftzug „MICHELANGELO“, der Buchstabe „R“ als Zeichen der Münze Rom und die Jahreszahl „1475“, rechts die halbkreisförmige Bezeichnung des Ausgabelandes „SAN MARINO“ und die Jahreszahl „2025“. Unten sind die Initialen „SP“ der Münzgestalterin Silvia Petrassi zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
     <string name="twoeuro_comm_2025_sm_date">"Juli 2025"</string>
 
@@ -2947,75 +3066,20 @@ Der Benutzer kann sich an die zuständigen Behörde für Datenschutz wenden.
     <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
     <string name="twoeuro_comm_2025_sm_2_date">"März 2025"</string>
 
-    <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
-    <string name="twoeuro_comm_2025_fr_desc">"Zu sehen ist die östliche Fassade des Louvre, verbunden mit dem emblematischen labyrinthartigen Grundriss des Museums mit seinen außergewöhnlichen Räumen. Im Hintergrund veranschaulichen das Pyramidion und die Struktur der großen Pyramide den traditionellen und den zeitgenössischen Charakter des Louvre. Ausgabejahr „2025“ und Land „RF“ sowie Münzzeichen wurden in den Museumsgrundriss integriert. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
-    <string name="twoeuro_comm_2025_fr_date">"Januar 2025"</string>
-
-    <string name="twoeuro_comm_2025_mt_title">"Maltesischer Ochse (il-gendus Malti)"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"Die Münze zeigt den maltesischen Ochsen und ist einer einheimischen Tierart Maltas gewidmet, die vom Aussterben bedroht ist. Am oberen Rand des Münzkerns steht der Schriftzug „IL-GENDUS MALTI“. Am unteren Rand befindet sich der Name des Ausgabestaates „MALTA“ und darunter das Ausgabejahr „2025“. Unten rechts sind die Initialen „MAF“ der Münzgestalterin Maria Anna Frisone angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"Juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
-    <string name="twoeuro_comm_2025_mc_desc">"Die Münze erinnert an das „Marquisat des Baux“ (Markgrafentum von Baux). Der Titel des Markgrafen von Baux wurde 1642 erstmals vergeben an Hercule Grimaldi, Sohn von Honoré II. Heute trägt ihn nach historischer Tradition S.D. Erbprinz Jacques. Abgebildet sind die Felsformation und die Umgebung des Dorfes Les Baux de Provence.  Oberhalb ist der Name des Ausgabestaats „MONACO“ und unterhalb halbkreisförmig die Aufschrift „MARQUISAT DES BAUX“ zu lesen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_mc_volume">"15000"</string>
-    <string name="twoeuro_comm_2025_mc_date">"November 2025"</string>
-
-    <string name="twoeuro_comm_2025_mc_2_title">"Comté de Carladès"</string>
-    <string name="twoeuro_comm_2025_mc_2_desc">"Die Münze erinnert an den Adelstitel „Comte de Carladès“, der nach historischer Tradition dem Zweiten in der Erbfolge zukommt und den heute Prinzessin Gabriella trägt. Abgebildet ist die Fassade des Schlosses, das bis zur Französischen Revolution der Familie Grimaldi gehörte. Oberhalb ist der Name des Ausgabestaats „MONACO“ und unterhalb halbkreisförmig die Aufschrift „COMTE DE CARLADES“ zu lesen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
-    <string name="twoeuro_comm_2025_mc_2_date">"Juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_es_title">"Anerkennung von Salamanca als UNESCO-Welterbestätte"</string>
-    <string name="twoeuro_comm_2025_es_desc">"Das Münzdesign zeigt die Kirche und das Kloster „Convento de San Esteban“. Am unteren Rand des Münzkerns sind der Schriftzug „ESPAÑA“ für den Ausgabestaat Spanien und das Ausgabejahr „2025“ zu sehen. Am oberen Rand des Münzkerns befinden sich der Schriftzug „SALAMANCA“ und das Prägezeichen der Münzstätte „Eme Coronada“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"Erstes Quartal 2025"</string>
-
     <string name="twoeuro_comm_2025_va_title">"550. Geburtstag von Michelangelo"</string>
-    <string name="twoeuro_comm_2025_va_desc">"Das Münzmotiv zeigt die Kuppel des Petersdoms, die von Michelangelo entworfen wurde und an der er bis zu seinem Tod im Jahr 1564 arbeitete. Darunter befindet sich ein Ausschnitt des Gewölbes der Sixtinischen Kapelle, das von Michelangelo in Abschnitte gegliedert wurde und für dessen Fresko er verantwortlich zeichnet. Auf der linken Seite sind Michelangelos handschriftliche Signatur „michelagniolo“, der Buchstabe „R“ als Zeichen der Münze Rom und der Name „D. LONGO“ der Münzgestalterin Daniela Longo zu sehen. Der Schriftzug „CITTA’ DEL VATICANO“ zur Angabe des Ausgabestaates ist in einem Bogen über der Kuppel angeordnet. Darunter befinden sich Michelangelos Geburtsjahr „1475“ und das Ausstellungsjahr „2025“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_va_desc">"Das Münzmotiv zeigt die Kuppel des Petersdoms, die von Michelangelo entworfen wurde und an der er bis zu seinem Tod im Jahr 1564 arbeitete. Darunter befindet sich ein Ausschnitt des Gewölbes der Sixtinischen Kapelle, das von Michelangelo in Abschnitte gegliedert wurde und für dessen Fresko er verantwortlich zeichnet. Auf der linken Seite sind Michelangelos handschriftliche Signatur „michelagniolo“, der Buchstabe „R“ als Zeichen der Münze Rom und der Name „D. LONGO“ der Münzgestalterin Daniela Longo zu sehen. Der Schriftzug „CITTA’ DEL VATICANO“ zur Angabe des Ausgabelandes ist in einem Bogen über der Kuppel angeordnet. Darunter befinden sich Michelangelos Geburtsjahr (1475) und das Ausgabejahr der Münze (2025). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_va_volume">"80000"</string>
     <string name="twoeuro_comm_2025_va_date">"Juni 2025"</string>
 
     <string name="twoeuro_comm_2025_va_2_title">"Sedisvakanz 2025"</string>
-    <string name="twoeuro_comm_2025_va_2_desc">"Das Münzmotiv zeigt das Wappen des Kardinalkämmerers unter dem Symbol der Apostolischen Kammer, dargestellt durch zwei überkreuzte Schlüssel unterhalb eines Basilikaschirms. Die Schriftzüge „CITTA’ DEL VATICANO“, „SEDE VACANTE“ und „MMXXV“ (die Jahreszahl des Ausgabejahres) sind kreisförmig um das Münzmotiv herum angeordnet. Zwischen den Schriftzügen „CITTA’ DEL VATICANO“ und „SEDE VACANTE“ findet sich die abstrakte Darstellung einer Taube. Der Buchstabe „R“ als Zeichen der Münze Rom ist unter dem Wappen des Kardinalkämmerers angebracht, ergänzt durch den Namen des Münzgraveurs auf der linken Seite und den Namen der Münzgestalterin auf der rechten Seite („O. ROSSI“ für Orietta Rossi). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_va_2_desc">"Das Münzmotiv zeigt das Wappen des Kardinalkämmerers unter dem Symbol der Apostolischen Kammer, dargestellt durch zwei überkreuzte Schlüssel unterhalb eines Basilikaschirms. Die Schriftzüge „CITTA’ DEL VATICANO“, „SEDE VACANTE“ und „MMXXV“ (2025) sind kreisförmig um das Münzmotiv herum angeordnet. Zwischen den Schriftzügen „CITTA’ DEL VATICANO“ und „SEDE VACANTE“ findet sich die abstrakte Darstellung einer Taube. Der Buchstabe „R“ als Zeichen der Münze Rom ist unter dem Wappen des Kardinalkämmerers angebracht, ergänzt durch den Namen des Münzgraveurs auf der linken Seite und den Namen der Münzgestalterin auf der rechten Seite („O. ROSSI“ für Orietta Rossi). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_va_2_volume">"76000"</string>
     <string name="twoeuro_comm_2025_va_2_date">"Juni 2025"</string>
 
     <string name="twoeuro_comm_2025_va_3_title">"Jubiläum 2025"</string>
-    <string name="twoeuro_comm_2025_va_3_desc">"Das Münzmotiv zeigt die Öffnung der Heiligen Pforte im Petersdom. Auf der rechten Seite sind senkrecht der lateinische Schriftzug „IVBILAEUM“ und die Jahreszahl „2025“ angebracht. Am unteren Rand des Münzkerns gibt der bogenförmige Schriftzug „CITTA’ DEL VATICANO“ den Ausgabestaat an. Das Zeichen der Münze Rom ist in Form des Buchstabens „R“ auf der Tür dargestellt. Unten links ist der Name „D. LONGO“ der Münzgestalterin Daniela Longo zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
+    <string name="twoeuro_comm_2025_va_3_desc">"Das Münzmotiv zeigt die Öffnung der Heiligen Pforte im Petersdom. Auf der rechten Seite sind senkrecht der lateinische Schriftzug „IVBILAEUM“ und die Jahreszahl „2025“ angebracht. Am unteren Rand des Münzkerns gibt der bogenförmige Schriftzug „CITTA’ DEL VATICANO“ das Ausgabeland an. Das Zeichen der Münze Rom ist in Form des Buchstabens „R“ auf der Tür dargestellt. Unten links ist der Name „D. LONGO“ der Münzgestalterin Daniela Longo zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"Juni 2025"</string>
-
-    <string name="twoeuro_comm_2025_lt_title">"Verteidigung"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"Das Münzmotiv zeigt die Umrisse Litauens. Umgeben sind die Staatsgrenzen von einer stilisierten Stachelgrenze als Symbol für das Konzept einer ganzheitlichen und gesamtgesellschaftlichen Verteidigung. Das Bild des Igels steht auch für die Offenheit und Verwundbarkeit freier Gesellschaften, die mit aller Kraft vor externen Bedrohungen geschützt werden müssen. Litauen wird als Igel dargestellt, der jederzeit bereit ist, sich zu verteidigen. Ferner sind in der Münzmitte die Aufschrift „LIETUVA“ (LITAUEN), das Ausgabejahr „2025“ und das Münzzeichen der litauischen Münze zu sehen. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"Erstes Quartal 2025"</string>
-
-    <string name="twoeuro_comm_2025_de_title">"Bundesland Saarland"</string>
-    <string name="twoeuro_comm_2025_de_desc">"Das Münzdesign zeigt die Saarschleife, vereinfacht dargestellt durch den gewundenen Flusslauf, der die hügelige Landschaft prägt. Baumgruppen entlang des Flusslaufs symbolisieren die bewaldete Landschaft rund um die malerische Saarschleife. Die Vogelperspektive bettet die charakteristische, natürliche Wasserstraße in sich in der Ferne verlierende Hügelkuppen ein. Unterhalb der Abbildung ist der Schriftzug „Saarland“ angebracht, um die Ruhe und Leichtigkeit der Landschaft nicht zu stören. In der oberen Hälfte des Kernbereichs befinden sich ferner die Initialen des Künstlers Carsten Wolff aus Frankfurt (links) und der Buchstabe „X“ (rechts) als Platzhalter für das Prägezeigen der jeweiligen Münzstätte („A“, „D“, „F“, „G“ oder „J“). In der unteren Hälfte finden sich der Schriftzug „SAARLAND“, die Nationalitätenkennzeichnung „D“ für das Ausgabeland Deutschland und das Ausgabejahr „2025“. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"Januar 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_title">"75. Jahrestag der Schuman-Erklärung vom 9. Mai 1950"</string>
-    <string name="twoeuro_comm_2025_lu_desc">"Im unteren Bereich des Münzdesigns ist eine Hand abgebildet, die mit einer Feder ein Stück Papier beschreibt. Die Feder geht in einen Olivenzweig über und löst sich nach oben hin in fliegende Tauben auf – beides Symbole des Friedens. Die Tauben gehen in einem Horizont aus Sternen auf, die für die sechs Unterzeichnerstaaten des Vertrags über die Gründung der Europäischen Gemeinschaft für Kohle und Stahl stehen, für den die Schuman-Erklärung als Grundlage dient. Im oberen Teil des Münzkerns befinden sich der Schriftzug „DECLARATION SCHUMAN“ sowie das Datum „09.05.1950“. Darunter gibt die Zahl „75“ den Jahrestag der Erklärung an. Der Name des Ausgabestaates „LUXEMBOURG“ sowie das Ausgabejahr „2025“ sind auf der rechten Seite abgebildet. Das Monogramm (Buchstabe „H“ mit einer Krone) steht für Großherzog Henri. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_date">"Februar 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"25. Jahrestag der Thronbesteigung von Großherzog Henri"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">"Das Münzmotiv zeigt Großherzog Henri vor dem großherzoglichen Palast. Der Schriftzug „25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI“ ist halbkreisförmig darüber abgebildet. Der Name des Ausgabestaates „LETZEBUERG“ sowie das Ausgabejahr „2025“ sind am unteren Rand des Münzkerns angebracht. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_2_date">"Februar 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_title">"Jubiläum 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">"Das Münzmotiv zeigt in der Mitte die Heilige Pforte des Petersdoms. Oberhalb ist halbkreisförmig die Aufschrift „IUBILAEUM“ zu lesen, unterhalb – ebenfalls halbkreisförmig angeordnet und an die Aufschrift anschließend – sind Fische als Symbol des Christentums dargestellt, abwechselnd in je einer von zwei Ausführungen. Links der Pforte finden sich das Jahr der Münzausgabe „2025“ und darunter das Zeichen der Münze von Rom „R“, rechts der Pforte stehen das Akronym der Italienischen Republik „RI“ und die Initialen der Münzgestalterin „C.M.“ (Claudia Momoni). Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_date">"Januar 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">"Das Münzmotiv zeigt in der Mitte das Segelschulschiff Amerigo Vespucci, das mit vollen Segeln durch die Meereswellen rauscht. Linkerhand findet sich halbkreisförmig die Aufschrift „Amerigo Vespucci Tour Mondiale 2023-2025“. Links unten stehen das Ausgabejahr „2025“ und darunter das Akronym der Italienischen Republik „RI“, rechts unten das Zeichen der Münze von Rom „R“. Am unteren inneren Münzrand ist der Name des Münzgestalters „E.FERRETTI“ aufgeprägt. Auf dem äußeren Münzring sind die zwölf Sterne der Europaflagge dargestellt."</string>
-    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_2_date">"Januar 2025"</string>
 
     <!-- END auto generated code for language de -->
 

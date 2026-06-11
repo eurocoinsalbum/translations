@@ -474,15 +474,12 @@
         - At any time you can retract your collection from the public.
 "</string>
 
-    <string name="version_history_last">"Version 7.14
+    <string name="version_history_current">"Version 7.16
 Added missing 2€ commemorative coins 2026.
-Added 2€ commemorative coins for Germany, Slovenia and Slovakia.
-Added new coin images for Monaco 2025 1€ and 2€. Thanks Guiseppe.
-Added new coin images for Luxembourg 2026. Thanks Guiseppe.
-Added notification channel for collection updates.
+A long touch on a coin in the EU view shows now all coins.
 "</string>
 
-    <string name="version_history_current">"Version 7.15
+    <string name="version_history_last">"Version 7.15
 Custom coins for Germany support now selection of mint marks. Thanks to Florian.
 Fixed country codes to follow ISO standard 3166-1 alpha-2. Thanks to Thomas.
 Custom coins can now be created for a specific collection only.
@@ -2985,50 +2982,110 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"January 2024"</string>
 
-    <string name="twoeuro_comm_2025_po_title">"World scouting"</string>
-    <string name="twoeuro_comm_2025_po_desc">"The coin honours World Scouting and youth movements that promote cultural exchange, mutual understanding, and friendship, since in 2025, the 16th World Scout Moot will be held in Portugal, bringing together scouts aged 18 to 25 from around the world to learn from one another and develop new skills."</string>
-    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_date">"June 2025"</string>
+    <string name="twoeuro_comm_2025_ad_title">"Games of the Small States of Europe (held in Andorra in 2025)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"The design of the coin reproduces some of the different sporting disciplines of this competition together with the inscriptions “JOCS DELS PETITS ESTATS D’EUROPA” (Games of the Small States of Europe) and “ANDORRA 2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"Second half of 2025"</string>
 
-    <string name="twoeuro_comm_2025_po_2_title">"Sustainable development"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"The design shows a representation of planet Earth that is surrounded by the legend “Desenvolvimento Sustentável (Sustainable Development)”; on the left and upper edges, a branch-like row of 17 sets of leaves arranged in a triangle suggesting the universal recycling symbol, in a reference to the 17 Goals of the 2030 Agenda for Sustainable Development; on the lower and right edges the legend «Portugal», the national coat of arms of Portugal, the era, and the mintmark “Casa da Moeda” above the name of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_2_date">"First quarter 2025"</string>
+    <string name="twoeuro_comm_2025_ad_2_title">"Bearded vulture"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"To raise awareness about the importance of protecting wildlife and the environment, the design of the coin shows a close-up of a bearded vulture (Gypaetus barbatos), a bird species threatened with extinction, with the inscription “ANDORRA” and the year of issue “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"Second half of 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"Finnish state visits – diplomacy and foreign policy"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"The design features an abstract door symbolizing state visits, with a mirror-finish rectangular shape. The mintmark, the year 2025, and the lettering “FI” are positioned vertically along the left edge of the rectangle. The rectangle has a rounded top that follows the edge of the coin. Below and to the right, the surface is grooved with horizontal lines, while a circular shape intersects the curve of the image area. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"Spring 2025"</string>
-
-    <string name="twoeuro_comm_2025_sk_title">"100th anniversary of the first international sports tournament in the territory of the Slovak Republic – the Ice Hockey European Championship"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"The design depicts an ice hockey player in action, wearing a style of uniform typical of the period of the 1925 Ice Hockey European Championship. The player is set against a stylised panorama of the High Tatras, the Slovak mountain region where the championship took place. The inscription ‘MAJSTROVSTVÁ EURÓPY V HOKEJI’ (European championship in hockey) runs along the edge of the upper half of the coin’s inner circle. The years ‘1925’ and ‘2025’ appear in the upper left part of the design, one above the other. At the bottom is the name of the issuing country ‘SLOVENSKO’. To the right of the figure is the mint mark of Slovakia’s Kremnica Mint (Mincovňa Kremnica), the producer of the coin. Next to it are the initials ‘KL’ of the designer, Karol Ličko. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_sk_date">"January 2025"</string>
+    <string name="twoeuro_comm_2025_be_2_title">"Motor-racing circuit of Spa-Francorchamps in Belgium"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"The design depicts in the centre the current track layout of the racing circuit in Spa-Francorchamps. On the left side of the coin, the total distance (in meters) of the circuit, ‘7.004 M’, is displayed and below it also the year of the establishment of the circuit, ‘1921’, is shown. Above the depiction of the track layout, the text ‘CIRCUIT DE SPA FRANCORCHAMPS’ is displayed. On the bottom of the coin, the country code ‘BE’ and the year of issue ‘2025’ are shown, accompanied by the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask, and the mintmark of Utrecht, a mercury staff (as the Royal Dutch Mint will strike the coins). At the right side of the coin, the initials ‘IB’ of designer Iris Bruijns are visible. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"July 2025"</string>
 
     <string name="twoeuro_comm_2025_be_title">"National Lottery of Belgium"</string>
     <string name="twoeuro_comm_2025_be_desc">"The design depicts in the centre the classical allegorical representation of good fortune, the goddess Fortuna, carrying the horn of plenty. On the right and below are 4 depictions of a four-leaf clover, another universal symbol of luck. Behind the image of Fortuna, the current National Lottery logo is visible. On the left side of the coin the text “loterie nationale loterij” is displayed. On the bottom left the country code BE and the year of issue 2025 are shown. At the bottom right, the initials of designer Iris Bruijns are visible. As the Royal Dutch Mint will strike the coins, the mintmark of Utrecht, a mercury staff, is located underneath the year mark, together with the Belgian mint director mintmark, an aster flower in front of an Erlenmeyer flask. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
     <string name="twoeuro_comm_2025_be_date">"January 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_title">"The 550th anniversary of the birth of Michelangelo"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"The design depicts in the centre Cleopatra, detail of the drawing by Michelangelo Buonarroti, preserved at the Casa Buonarroti Foundation (Florence). At the left is the inscription “MICHELANGELO” in semi-circle, the letter R, identifying the Mint of Rome and the year “1475”, and at the right the name of issuing country “SAN MARINO” in semi-circle, the year “2025”. At the bottom are the initials of the author “SP” (Silvia Petrassi). The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_date">"July 2025"</string>
+    <string name="twoeuro_comm_2025_de_title">"Federal state (Land) of Saarland"</string>
+    <string name="twoeuro_comm_2025_de_desc">"The design shows the Saarschleife bend in the Saar river, reduced to the key features of the motif of the meandering river, which characterises the hilly landscape. Groups of trees depicted along the course of the river symbolise the forested landscape around the picturesque Saarschleife. The bird’s-eye perspective means that the landmark natural waterway is seen embedded in the surrounding hills, which reach off into the distance. The inscription “Saarland” is positioned low down in the foreground, in order to not disturb the landscape’s sense of calmness and light. The upper half of the coin’s inner circle also features on the left the mark of the artist, Frankfurt-based Carsten Wolff, and on the right the letter “X” as placeholder for the mint mark of the respective mint (“A”, “D”, “F”, “G” or “J”). The lower half features the inscription “SAARLAND”, Germany’s issuing country code “D” and the year of issue, “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"January 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">"The design depicts in the centre a woman with an anchor, an allegory of Hope, while she takes a child by the hand, a symbol of humanity. On the left is the inscription “SAN MARINO”, four square sails, the letter “R”, identifying the Mint of Rome, and the initials of the author “DI MAULO” (Gabriele Di Maulo); at the top right an eight-pointed star, the inscription “IUBILAEUM 2025” and at the bottom the initials of the engraver “M.B.INC” (Marta Bonifacio). The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_2_date">"March 2025"</string>
+    <string name="twoeuro_comm_2025_ee_title">"The 500th anniversary of the first publication containing words in Estonian and the start of the Estonian literary language"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"The centre of the coin presents a composition of books forming the capital letter 'E', as these books symbolise the tradition of the Estonian written language; the text 'EESTI RAAMAT 500', which means '500 years of books in Estonian'; and the year 1525, which is the date of the first publication of a book in Estonian. The design also shows the year of issue “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"Second quarter 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"The recognition of Salamanca as a UNESCO World Heritage Site"</string>
+    <string name="twoeuro_comm_2025_es_desc">"The design shows a view of the 'Convento de San Esteban'. At the bottom, the legend ESPANA and the year of issue 2025. At the top, in capital letters, the word SALAMANCA and the mint mark 'Eme Coronada'. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"First quarter 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"Finland–Sweden Athletics International"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"The design features two legs in motion and arching, dashed lines representing a running track. The design commemorates the 100th anniversary of the Finland–Sweden Athletics International, celebrating both Finnish sporting tradition and the event’s collective spirit. At the top, the year “2025” is displayed horizontally. The mintmark appears on the centre left of the image area, and the lettering “FI” is on the centre right. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"Autumn 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"Finnish state visits – diplomacy and foreign policy"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"The design features an abstract door symbolizing state visits, with a mirror-finish rectangular shape. The mintmark, the year 2025, and the lettering “FI” are positioned vertically along the left edge of the rectangle. The rectangle has a rounded top that follows the edge of the coin. Below and to the right, the surface is grooved with horizontal lines, while a circular shape intersects the curve of the image area. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"Spring 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"Monnaie de Paris pays tribute to Notre-Dame, the famous cathedral of Paris which brought together hundreds of craftsmen for its reconstruction as well as millions of people to celebrate its reopening in December 2024. The design represents in its centre, the facade of Notre-Dame de Paris seen from the forecourt. The rose window is inserted in the background of the spire. The year “2025” and the mention “RF” are inserted on the left side accompanied by Monnaie de Paris’ mintmark. The name 'NOTRE-DAME DE PARIS' is inserted on the right side accompanied by the General Engraver’s mintmark. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"September 2025"</string>
 
     <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
     <string name="twoeuro_comm_2025_fr_desc">"The design shows the facade of the Louvre on the east side, mixed with the iconic plan of the Museum's maze of extraordinary rooms. In the background, the pyramidion and the structure of the great pyramid illustrate the traditional and contemporary character of the Louvre. The year of issuance “”2025” and the indication of the country “RF”, as well as the mintmarks are inserted on the museum’s plan. The coin’s outer ring bears the 12 stars of the European flag."</string>
     <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
     <string name="twoeuro_comm_2025_fr_date">"January 2025"</string>
 
-    <string name="twoeuro_comm_2025_mt_title">"Maltese ox (il-gendus Malti)"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"The design shows a rendition of the Maltese ox. The coin raises awareness of one of Malta’s indigenous breeds which is endangered. At the top, in semi-circle, is the inscription “IL-GENDUS MALTI”. At the bottom is the name of the issuing country “MALTA” and underneath is the year of issuance “2025”. At the bottom right are the initials of the designer “MAF” (Maria Anna Frisone). The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"June 2025"</string>
+    <string name="twoeuro_comm_2025_gr_title">"200 Years from the Death of Laskarina Bouboulina"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"The design features a portrait of Laskarina Bouboulina, with background a stylized mast and rigging. The theme is bordered by the wording “200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ” (“200 YEARS FROM THE DEATH OF LASKARINA BOUBOULINA'') and “ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (“HELLENIC REPUBLIC”). To the left are a palmette (mintmark of the Greek Mint) and the minting year. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"July 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"100 years from the birth of Mikis Theodorakis"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"The design depicts the composer Mikis Theodorakis. The theme is bordered by the inscriptions “100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ” ('100 YEARS FROM THE BIRTH OF MIKIS THEODORAKIS') and “ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ” (“HELLENIC REPUBLIC”); below is the minting year, to the right a palmette (mintmark of the Greek Mint) and to the left the treble clef and staff. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"July 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"Croatian cities series – Grad Pula - Arena"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"The central motif on the design is the Pula's Arena (the amphitheatre), one among the most prominent ancient monuments in the Republic of Croatia, shown from the view of the Adriatic Sea depicted below the central motif to highlight the distinctly Mediterranean attribute of Croatia. On the right side of the Arena there is an image of the church of St. Anthony built in the 1930s, which is part of the panoramic view of the City of Pula. The coin also features the inscriptions of the issuing country 'HRVATSKA' (Croatia), the year of issuance '2025.' and the words 'GRAD PULA-ARENA' (City of Pula-Arena), which are all inscribed circularly along the edge of the coin's core. The national side of the coin is designed by sculptor Duje Botteri. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"October 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"The 1100th anniversary of the Croatian Kingdom and coronation of King Tomislav"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"The central motif of the design is King Tomislav on horseback. The other motif is Croatia's distinctive and recognisable symbol, the Croatian checkerboard, which represents part of the coat of arms of the Republic of Croatia. The design also features the following inscriptions: the words 'KRALJ TOMISLAV' (King Tomislav), the year of the coronation of King Tomislav '925.', the issuing country 'REPUBLIKA HRVATSKA' (Republic of Croatia) and the year of coin issuance '2025.', which are all inscribed circularly along the edge of the coin's core. The national side of the coin is designed by sculptor Nikola Vudrag. The central motif is his adaptation of the original work by sculptor Robert Franges Mihanovic from 1938. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"July 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"Jubilee 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"The design shows, in the centre, a depiction of the Holy Door located in the Basilica of Saint Peter. At the top, in semi-circle, the inscription 'IUBILAEUM', while at the bottom, always in semi-circle, closing the Latin inscription, a series of alternating empty and full fish, symbol of Christianity. On the left “2025”, year of the coin issuance and “R”, identifying the Mint of Rome; on the right “RI”, acronym of the Italian Republic and, “C.M.” author's initials (Claudia Momoni)”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"The design shows, in the center, a depiction of the Amerigo Vespucci Training Ship which, at full sail, plows the sea waves. In arch on the left, the writing ‘Amerigo Vespucci Tour Mondiale 2023-2025’; below on the left, ‘2025’, year of the coin issuance and ‘RI’, acronym of the Italian Republic; on the right, ‘R’, identifying the Mint of Rome; in exergue ‘E.FERRETTI’, signature of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"Lithuanian Ethnographic Regions – Lithuanian Minor"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"The design shows the shield of the coat of arms, with a moose holding a spear in its forelegs and a shining lighthouse above it. Kurenkahns are on both sides of the shield, and below it appears a quote by Vydūnas: “Spindulys esmi begalinės šviesos” (A ray is the essence of infinite light). The composition is surrounded by the inscriptions “Lietuva” (Lithuania), “Mažoji Lietuva” (Lithuania Minor), the year of issue “2025”, and the mintmark of the Lithuanian Mint. The national side of the coin is designed by Rolandas Rimkūnas (author of the great coat of arms of the Lithuania Minor region Arvydas Každailis). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"Fourth quarter of 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"Defence"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"The design features the contours of Lithuania. The state borders are surrounded by a stylised spine barrier, symbolising the concept of holistic and whole-of-society defence. The image of the hedgehog also represents the openness and fragility of free societies, which must be defended, to the utmost, against external threats. Lithuania is presented as a hedgehog that remains at the ready to defend itself always. The centre of the design bears the inscription “LIETUVA” (LITHUANIA), the year of issue “2025”, and the mintmark of the Lithuanian Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"First quarter of 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"The 75th anniversary of the Robert Schuman declaration of 9 May 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"The design depicts at the bottom a hand holding a pencil writing on a piece of paper. The upper part of the pencil ends up in an olive branch, continuing with doves, both being symbols of peace. The doves fly to the horizon showing six stars, representing the six Member States signing later the Treaty establishing the European Coal and Steel Community, for which the Schuman declaration set the basis. The upper part of the design shows the text 'DECLARATION SCHUMAN' as well as its date ' 09.05.1950 '. Below the number '75' represents the indication of the anniversary of the declaration. The name of the issuing country “LUXEMBOURG” as well as the year of issuance “2025” appear at the right of the design. The monogramme (letter 'H' with a crown) is a representation of Grand Duke Henri. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"February 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"The 25th anniversary of the accession to the throne of Grand Duke Henri"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"The design depicts in its centre the effigy of Grand Duke Henri and in the background the grand ducal Palace. The text '25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI' is depicted in semi-circular form above the effigy. The indication of the issuing country 'LETZEBUERG' as well as the year of issuance “2025” appear below the effigy. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"February 2025"</string>
 
     <string name="twoeuro_comm_2025_mc_title">"Marquisat des Baux"</string>
     <string name="twoeuro_comm_2025_mc_desc">"The coin commemorates the fiefdom of Marquisate of Baux. This title was first held in 1642 by Hercule Grimaldi, son of Honoré II. Today, by historical tradition, it belongs to HSH Hereditary Prince Jacques. The design depicts the rock and the surrounding area of the village of Les Baux de Provence. At the top is the name of the issuing country 'MONACO.' At the bottom, in semi-circle is the inscription 'MARQUISAT DES BAUX.' The coin’s outer ring bears the 12 stars of the European flag."</string>
@@ -3040,10 +3097,45 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
     <string name="twoeuro_comm_2025_mc_2_date">"June 2025"</string>
 
-    <string name="twoeuro_comm_2025_es_title">"The recognition of Salamanca as a UNESCO World Heritage Site"</string>
-    <string name="twoeuro_comm_2025_es_desc">"The design shows a view of the 'Convento de San Esteban'. At the bottom, the legend ESPANA and the year of issue 2025. At the top, in capital letters, the word SALAMANCA and the mint mark 'Eme Coronada'. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"First quarter 2025"</string>
+    <string name="twoeuro_comm_2025_mt_2_title">"City of Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"This coin is intended as part of a series dedicated to Maltese walled cities, which are an intrinsic part of Maltese and European cultural heritage. It follows on the coin issued in 2024 depicting “Iċ-Ċittadella” (The Citadel) of Gozo. The design depicts Mdina surmounted by its cathedral church. At the top left is the inscription “MDINA”. At the top right are the initial of the designer, “NGB” (Noel Galea Bason). At the bottom the name of the issuing country “MALTA” and underneath is the year of issuance “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"Maltese ox (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"The design shows a rendition of the Maltese ox. The coin raises awareness of one of Malta’s indigenous breeds which is endangered. At the top, in semi-circle, is the inscription “IL-GENDUS MALTI”. At the bottom is the name of the issuing country “MALTA” and underneath is the year of issuance “2025”. At the bottom right are the initials of the designer “MAF” (Maria Anna Frisone). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_title">"World scouting"</string>
+    <string name="twoeuro_comm_2025_po_desc">"The coin honours World Scouting and youth movements that promote cultural exchange, mutual understanding, and friendship, since in 2025, the 16th World Scout Moot will be held in Portugal, bringing together scouts aged 18 to 25 from around the world to learn from one another and develop new skills."</string>
+    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_date">"June 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_2_title">"Sustainable development"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"The design shows a representation of planet Earth that is surrounded by the legend “Desenvolvimento Sustentável (Sustainable Development)”; on the left and upper edges, a branch-like row of 17 sets of leaves arranged in a triangle suggesting the universal recycling symbol, in a reference to the 17 Goals of the 2030 Agenda for Sustainable Development; on the lower and right edges the legend «Portugal», the national coat of arms of Portugal, the era, and the mintmark “Casa da Moeda” above the name of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_2_date">"First quarter 2025"</string>
+
+    <string name="twoeuro_comm_2025_si_title">"The 100th anniversary of birth of Miki Muster"</string>
+    <string name="twoeuro_comm_2025_si_desc">"Three heroes of Miki Muster’s comic books are displayed on the coin using soft relief technique, i.e. Zvitorepec, Lakotnik and Trdonja. Below them are the mintage year “2025” and the issuing country “SLOVENIJA”. On the upper left side are the year of birth “1925” and the name “MIKI” while on the upper right side is the surname “MUSTER”. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"November 2025"</string>
+
+    <string name="twoeuro_comm_2025_sk_title">"100th anniversary of the first international sports tournament in the territory of the Slovak Republic – the Ice Hockey European Championship"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"The design depicts an ice hockey player in action, wearing a style of uniform typical of the period of the 1925 Ice Hockey European Championship. The player is set against a stylised panorama of the High Tatras, the Slovak mountain region where the championship took place. The inscription ‘MAJSTROVSTVÁ EURÓPY V HOKEJI’ (European championship in hockey) runs along the edge of the upper half of the coin’s inner circle. The years ‘1925’ and ‘2025’ appear in the upper left part of the design, one above the other. At the bottom is the name of the issuing country ‘SLOVENSKO’. To the right of the figure is the mint mark of Slovakia’s Kremnica Mint (Mincovňa Kremnica), the producer of the coin. Next to it are the initials ‘KL’ of the designer, Karol Ličko. The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_sk_date">"January 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"The 550th anniversary of the birth of Michelangelo"</string>
+    <string name="twoeuro_comm_2025_sm_desc">"The design depicts in the centre Cleopatra, detail of the drawing by Michelangelo Buonarroti, preserved at the Casa Buonarroti Foundation (Florence). At the left is the inscription “MICHELANGELO” in semi-circle, the letter R, identifying the Mint of Rome and the year “1475”, and at the right the name of issuing country “SAN MARINO” in semi-circle, the year “2025”. At the bottom are the initials of the author “SP” (Silvia Petrassi). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_date">"July 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 - Pellegrini di Speranza"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"The design depicts in the centre a woman with an anchor, an allegory of Hope, while she takes a child by the hand, a symbol of humanity. On the left is the inscription “SAN MARINO”, four square sails, the letter “R”, identifying the Mint of Rome, and the initials of the author “DI MAULO” (Gabriele Di Maulo); at the top right an eight-pointed star, the inscription “IUBILAEUM 2025” and at the bottom the initials of the engraver “M.B.INC” (Marta Bonifacio). The coin’s outer ring bears the 12 stars of the European flag."</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_2_date">"March 2025"</string>
 
     <string name="twoeuro_comm_2025_va_title">"The 550Th anniversary of the birth of Michelangelo"</string>
     <string name="twoeuro_comm_2025_va_desc">"The design features the Dome of St. Peter's Basilica, designed by Michelangelo, who worked on it until his death in 1564. Below, a section of the vault of the Sistine Chapel, apportioned and frescoed by Michelangelo. On the left, vertically, appear Michelangelo's autograph signature 'michelagniolo', the letter 'R' identifying the Rome Mint, and the name of the coin 's designer 'D. LONGO' (Daniela Longo). The inscription 'CITTA’ DEL VATICANO', indicating the issuing State, is arranged in an arc above the Dome. Just below, the years '1475', Michelangelo's birth year, and '2025', the year of issuance are inscribed. The coin’s outer ring bears the 12 stars of the European flag."</string>
@@ -3060,36 +3152,6 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"June 2025"</string>
 
-    <string name="twoeuro_comm_2025_lt_title">"Defence"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"The design features the contours of Lithuania. The state borders are surrounded by a stylised spine barrier, symbolising the concept of holistic and whole-of-society defence. The image of the hedgehog also represents the openness and fragility of free societies, which must be defended, to the utmost, against external threats. Lithuania is presented as a hedgehog that remains at the ready to defend itself always. The centre of the design bears the inscription “LIETUVA” (LITHUANIA), the year of issue “2025”, and the mintmark of the Lithuanian Mint. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"First quarter of 2025"</string>
-
-    <string name="twoeuro_comm_2025_de_title">"Federal state (Land) of Saarland"</string>
-    <string name="twoeuro_comm_2025_de_desc">"The design shows the Saarschleife bend in the Saar river, reduced to the key features of the motif of the meandering river, which characterises the hilly landscape. Groups of trees depicted along the course of the river symbolise the forested landscape around the picturesque Saarschleife. The bird’s-eye perspective means that the landmark natural waterway is seen embedded in the surrounding hills, which reach off into the distance. The inscription “Saarland” is positioned low down in the foreground, in order to not disturb the landscape’s sense of calmness and light. The upper half of the coin’s inner circle also features on the left the mark of the artist, Frankfurt-based Carsten Wolff, and on the right the letter “X” as placeholder for the mint mark of the respective mint (“A”, “D”, “F”, “G” or “J”). The lower half features the inscription “SAARLAND”, Germany’s issuing country code “D” and the year of issue, “2025”. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"January 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_title">"The 75th anniversary of the Robert Schuman declaration of 9 May 1950"</string>
-    <string name="twoeuro_comm_2025_lu_desc">"The design depicts at the bottom a hand holding a pencil writing on a piece of paper. The upper part of the pencil ends up in an olive branch, continuing with doves, both being symbols of peace. The doves fly to the horizon showing six stars, representing the six Member States signing later the Treaty establishing the European Coal and Steel Community, for which the Schuman declaration set the basis. The upper part of the design shows the text 'DECLARATION SCHUMAN' as well as its date ' 09.05.1950 '. Below the number '75' represents the indication of the anniversary of the declaration. The name of the issuing country “LUXEMBOURG” as well as the year of issuance “2025” appear at the right of the design. The monogramme (letter 'H' with a crown) is a representation of Grand Duke Henri. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_date">"February 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"The 25th anniversary of the accession to the throne of Grand Duke Henri"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">"The design depicts in its centre the effigy of Grand Duke Henri and in the background the grand ducal Palace. The text '25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI' is depicted in semi-circular form above the effigy. The indication of the issuing country 'LETZEBUERG' as well as the year of issuance “2025” appear below the effigy. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_2_date">"February 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_title">"Jubilee 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">"The design shows, in the centre, a depiction of the Holy Door located in the Basilica of Saint Peter. At the top, in semi-circle, the inscription 'IUBILAEUM', while at the bottom, always in semi-circle, closing the Latin inscription, a series of alternating empty and full fish, symbol of Christianity. On the left “2025”, year of the coin issuance and “R”, identifying the Mint of Rome; on the right “RI”, acronym of the Italian Republic and, “C.M.” author's initials (Claudia Momoni)”. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_date">"January 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">"The design shows, in the center, a depiction of the Amerigo Vespucci Training Ship which, at full sail, plows the sea waves. In arch on the left, the writing ‘Amerigo Vespucci Tour Mondiale 2023-2025’; below on the left, ‘2025’, year of the coin issuance and ‘RI’, acronym of the Italian Republic; on the right, ‘R’, identifying the Mint of Rome; in exergue ‘E.FERRETTI’, signature of the designer. The coin’s outer ring bears the 12 stars of the European flag."</string>
-    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_2_date">"January 2025"</string>
-
     <!-- END auto generated code for language en -->
 
     <!-- BEGIN manual code for language en -->
@@ -3099,80 +3161,35 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2024_mt_2_volume">""</string>
     <string name="twoeuro_comm_2024_mt_2_date">"2024"</string>
 
-    <string name="twoeuro_comm_2025_ad_title">"Der Bartgeier"</string>
-    <string name="twoeuro_comm_2025_ad_desc">""</string>
-    <string name="twoeuro_comm_2025_ad_volume">""</string>
-    <string name="twoeuro_comm_2025_ad_date">""</string>
-
-    <string name="twoeuro_comm_2025_ad_2_title">"Spiele der kleinen Staaten von Europa"</string>
-    <string name="twoeuro_comm_2025_ad_2_desc">""</string>
-    <string name="twoeuro_comm_2025_ad_2_volume">""</string>
-    <string name="twoeuro_comm_2025_ad_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_be_2_title">"Nationallotterie Belgien"</string>
-    <string name="twoeuro_comm_2025_be_2_desc">""</string>
-    <string name="twoeuro_comm_2025_be_2_volume">""</string>
-    <string name="twoeuro_comm_2025_be_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_hr_title">"Serie „Kroatische Städte“: Pula Arena"</string>
-    <string name="twoeuro_comm_2025_hr_desc">""</string>
-    <string name="twoeuro_comm_2025_hr_volume">""</string>
-    <string name="twoeuro_comm_2025_hr_date">""</string>
-
-    <string name="twoeuro_comm_2025_hr_2_title">"1100 Jahre Königreich Kroatien und die Krönung von König Tomislav"</string>
-    <string name="twoeuro_comm_2025_hr_2_desc">""</string>
-    <string name="twoeuro_comm_2025_hr_2_volume">""</string>
-    <string name="twoeuro_comm_2025_hr_2_date">""</string>
-
     <string name="twoeuro_comm_2025_de_2_title">"35 Jahre Deutsche Einheit"</string>
     <string name="twoeuro_comm_2025_de_2_desc">""</string>
     <string name="twoeuro_comm_2025_de_2_volume">""</string>
     <string name="twoeuro_comm_2025_de_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_ee_title">"500 Jahre erster Textdruck in estnischer Sprache"</string>
-    <string name="twoeuro_comm_2025_ee_desc">""</string>
-    <string name="twoeuro_comm_2025_ee_volume">""</string>
-    <string name="twoeuro_comm_2025_ee_date">""</string>
-
-    <string name="twoeuro_comm_2025_fi_2_title">"100 Jahre Finnland-Schweden-Leichtathletikspiel"</string>
-    <string name="twoeuro_comm_2025_fi_2_desc">""</string>
-    <string name="twoeuro_comm_2025_fi_2_volume">""</string>
-    <string name="twoeuro_comm_2025_fi_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_fr_2_title">"Notre Dame"</string>
-    <string name="twoeuro_comm_2025_fr_2_desc">""</string>
-    <string name="twoeuro_comm_2025_fr_2_volume">""</string>
-    <string name="twoeuro_comm_2025_fr_2_date">""</string>
-
-    <string name="twoeuro_comm_2025_gr_title">"200. Todestag von Laskarnia Bouboulina"</string>
-    <string name="twoeuro_comm_2025_gr_desc">""</string>
-    <string name="twoeuro_comm_2025_gr_volume">""</string>
-    <string name="twoeuro_comm_2025_gr_date">""</string>
-
-    <string name="twoeuro_comm_2025_gr_2_title">"100. Geburtstag von Mikis Theodorakis"</string>
-    <string name="twoeuro_comm_2025_gr_2_desc">""</string>
-    <string name="twoeuro_comm_2025_gr_2_volume">""</string>
-    <string name="twoeuro_comm_2025_gr_2_date">""</string>
 
     <string name="twoeuro_comm_2025_lv_title">"Sēlija"</string>
     <string name="twoeuro_comm_2025_lv_desc">""</string>
     <string name="twoeuro_comm_2025_lv_volume">""</string>
     <string name="twoeuro_comm_2025_lv_date">""</string>
 
-    <string name="twoeuro_comm_2025_lt_2_title">"Litauische Ethnographische Regionen – Mažoji Lietuva"</string>
-    <string name="twoeuro_comm_2025_lt_2_desc">""</string>
-    <string name="twoeuro_comm_2025_lt_2_volume">""</string>
-    <string name="twoeuro_comm_2025_lt_2_date">""</string>
+    <string name="twoeuro_comm_2026_be_title">"100 Jahre Belgischen Staatsbahnen SNCB"</string>
+    <string name="twoeuro_comm_2026_be_desc">""</string>
+    <string name="twoeuro_comm_2026_be_volume">""</string>
+    <string name="twoeuro_comm_2026_be_date">""</string>
 
-    <string name="twoeuro_comm_2025_mt_2_title">"Maltesische Städte mit Stadtmauern: Mdina"</string>
-    <string name="twoeuro_comm_2025_mt_2_desc">""</string>
-    <string name="twoeuro_comm_2025_mt_2_volume">""</string>
-    <string name="twoeuro_comm_2025_mt_2_date">""</string>
+    <string name="twoeuro_comm_2026_be_2_title">"50 Jahre Nationales Geographisches Institut und 200 Jahre Königlich Belgische Sternwarte"</string>
+    <string name="twoeuro_comm_2026_be_2_desc">""</string>
+    <string name="twoeuro_comm_2026_be_2_volume">""</string>
+    <string name="twoeuro_comm_2026_be_2_date">""</string>
 
-    <string name="twoeuro_comm_2025_si_title">"100. Geburtstag von Miki Muster"</string>
-    <string name="twoeuro_comm_2025_si_desc">""</string>
-    <string name="twoeuro_comm_2025_si_volume">""</string>
-    <string name="twoeuro_comm_2025_si_date">""</string>
+    <string name="twoeuro_comm_2026_bg_title">"Das Bulgarische Alphabet"</string>
+    <string name="twoeuro_comm_2026_bg_desc">""</string>
+    <string name="twoeuro_comm_2026_bg_volume">""</string>
+    <string name="twoeuro_comm_2026_bg_date">""</string>
+
+    <string name="twoeuro_comm_2026_cy_title">"EU-Ratspräsidentschaft"</string>
+    <string name="twoeuro_comm_2026_cy_desc">""</string>
+    <string name="twoeuro_comm_2026_cy_volume">""</string>
+    <string name="twoeuro_comm_2026_cy_date">""</string>
 
     <string name="twoeuro_comm_2026_de_title">"Konrad Adenauer"</string>
     <string name="twoeuro_comm_2026_de_desc">""</string>
@@ -3184,10 +3201,90 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2026_de_2_volume">""</string>
     <string name="twoeuro_comm_2026_de_2_date">""</string>
 
+    <string name="twoeuro_comm_2026_ee_title">"Sipsik"</string>
+    <string name="twoeuro_comm_2026_ee_desc">""</string>
+    <string name="twoeuro_comm_2026_ee_volume">""</string>
+    <string name="twoeuro_comm_2026_ee_date">""</string>
+
+    <string name="twoeuro_comm_2026_es_title">"UNESCO-Weltkulturerbe – Kloster von Poblet"</string>
+    <string name="twoeuro_comm_2026_es_desc">""</string>
+    <string name="twoeuro_comm_2026_es_volume">""</string>
+    <string name="twoeuro_comm_2026_es_date">""</string>
+
+    <string name="twoeuro_comm_2026_es_2_title">"Spanien &amp; Behinderung: Schutz, Rechte und Inklusion"</string>
+    <string name="twoeuro_comm_2026_es_2_desc">""</string>
+    <string name="twoeuro_comm_2026_es_2_volume">""</string>
+    <string name="twoeuro_comm_2026_es_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_fi_title">"100 Jahre Finnischer Rundfunk Yleisradio"</string>
+    <string name="twoeuro_comm_2026_fi_desc">""</string>
+    <string name="twoeuro_comm_2026_fi_volume">""</string>
+    <string name="twoeuro_comm_2026_fi_date">""</string>
+
+    <string name="twoeuro_comm_2026_fi_2_title">"Raili und Reima Pietilä"</string>
+    <string name="twoeuro_comm_2026_fi_2_desc">""</string>
+    <string name="twoeuro_comm_2026_fi_2_volume">""</string>
+    <string name="twoeuro_comm_2026_fi_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_fr_title">"Antoine de Saint-Exupéry – 80. Jahrestag der Veröffentlichung des Kleinen Prinzen"</string>
+    <string name="twoeuro_comm_2026_fr_desc">""</string>
+    <string name="twoeuro_comm_2026_fr_volume">""</string>
+    <string name="twoeuro_comm_2026_fr_date">""</string>
+
+    <string name="twoeuro_comm_2026_fr_2_title">"Die französische Marine – 400 Jahre Erfahrung"</string>
+    <string name="twoeuro_comm_2026_fr_2_desc">""</string>
+    <string name="twoeuro_comm_2026_fr_2_volume">""</string>
+    <string name="twoeuro_comm_2026_fr_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_gr_title">"200. Jahrestag des Exodus von Messolonghi"</string>
+    <string name="twoeuro_comm_2026_gr_desc">""</string>
+    <string name="twoeuro_comm_2026_gr_volume">""</string>
+    <string name="twoeuro_comm_2026_gr_date">""</string>
+
+    <string name="twoeuro_comm_2026_gr_2_title">"100. Jahrestag der Gründung der Akademie von Athen"</string>
+    <string name="twoeuro_comm_2026_gr_2_desc">""</string>
+    <string name="twoeuro_comm_2026_gr_2_volume">""</string>
+    <string name="twoeuro_comm_2026_gr_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_hr_title">"100 Jahre Kroatischer Rundfunk und Fernsehen"</string>
+    <string name="twoeuro_comm_2026_hr_desc">""</string>
+    <string name="twoeuro_comm_2026_hr_volume">""</string>
+    <string name="twoeuro_comm_2026_hr_date">""</string>
+
+    <string name="twoeuro_comm_2026_hr_2_title">"Stadt Vukovar – Schloss Eltz"</string>
+    <string name="twoeuro_comm_2026_hr_2_desc">""</string>
+    <string name="twoeuro_comm_2026_hr_2_volume">""</string>
+    <string name="twoeuro_comm_2026_hr_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_ir_title">"Pinocchio"</string>
+    <string name="twoeuro_comm_2026_ir_desc">""</string>
+    <string name="twoeuro_comm_2026_ir_volume">""</string>
+    <string name="twoeuro_comm_2026_ir_date">""</string>
+
+    <string name="twoeuro_comm_2026_it_title">"Pinocchio"</string>
+    <string name="twoeuro_comm_2026_it_desc">""</string>
+    <string name="twoeuro_comm_2026_it_volume">""</string>
+    <string name="twoeuro_comm_2026_it_date">""</string>
+
     <string name="twoeuro_comm_2026_lt_title">"Unabhängigkeit Litauens in der Energieversorgung"</string>
     <string name="twoeuro_comm_2026_lt_desc">""</string>
     <string name="twoeuro_comm_2026_lt_volume">""</string>
     <string name="twoeuro_comm_2026_lt_date">""</string>
+
+    <string name="twoeuro_comm_2026_lu_title">"Thronbesteigung und 45. Geburtstag des Großherzogs Guillaume"</string>
+    <string name="twoeuro_comm_2026_lu_desc">""</string>
+    <string name="twoeuro_comm_2026_lu_volume">""</string>
+    <string name="twoeuro_comm_2026_lu_date">""</string>
+
+    <string name="twoeuro_comm_2026_lu_2_title">"Verleihung des Internationalen Karlspreises an das luxemburgische Volk"</string>
+    <string name="twoeuro_comm_2026_lu_2_desc">""</string>
+    <string name="twoeuro_comm_2026_lu_2_volume">""</string>
+    <string name="twoeuro_comm_2026_lu_2_date">""</string>
+    
+    <string name="twoeuro_comm_2026_lv_title">"Weihnachtsmarkt Tradition"</string>
+    <string name="twoeuro_comm_2026_lv_desc">""</string>
+    <string name="twoeuro_comm_2026_lv_volume">""</string>
+    <string name="twoeuro_comm_2026_lv_date">""</string>
 
     <string name="twoeuro_comm_2026_mt_title">"Valletta"</string>
     <string name="twoeuro_comm_2026_mt_desc">""</string>
@@ -3224,10 +3321,25 @@ The user can contact the corresponding institution for data privacy.
     <string name="twoeuro_comm_2026_sk_2_volume">""</string>
     <string name="twoeuro_comm_2026_sk_2_date">""</string>
 
-    <string name="twoeuro_comm_2026_it_title">"Pinocchio"</string>
-    <string name="twoeuro_comm_2026_it_desc">""</string>
-    <string name="twoeuro_comm_2026_it_volume">""</string>
-    <string name="twoeuro_comm_2026_it_date">""</string>
+    <string name="twoeuro_comm_2026_sm_title">"450. Todestag von Tizian"</string>
+    <string name="twoeuro_comm_2026_sm_desc">""</string>
+    <string name="twoeuro_comm_2026_sm_volume">"52000"</string>
+    <string name="twoeuro_comm_2026_sm_date">"31.03.2026"</string>
+
+    <string name="twoeuro_comm_2026_sm_2_title">"800. Todestag von Franz von Assisi"</string>
+    <string name="twoeuro_comm_2026_sm_2_desc">""</string>
+    <string name="twoeuro_comm_2026_sm_2_volume">""</string>
+    <string name="twoeuro_comm_2026_sm_2_date">""</string>
+
+    <string name="twoeuro_comm_2026_va_title">"Magisterium von Papst Leo XIV."</string>
+    <string name="twoeuro_comm_2026_va_desc">""</string>
+    <string name="twoeuro_comm_2026_va_volume">""</string>
+    <string name="twoeuro_comm_2026_va_date">""</string>
+
+    <string name="twoeuro_comm_2026_va_2_title">"400. Jahrestag des Petersdoms"</string>
+    <string name="twoeuro_comm_2026_va_2_desc">""</string>
+    <string name="twoeuro_comm_2026_va_2_volume">""</string>
+    <string name="twoeuro_comm_2026_va_2_date">""</string>
 
     <!-- END manual code for language en -->
 

@@ -280,15 +280,12 @@
     <string name="custom_coin_collection_only">"Ustvari za vse zbirke"</string>
     <string name="coin_name_exists_already">"Ime kovanca že obstaja"</string>
 
-    <string name="version_history_last">"Različica 7.14\n
+    <string name="version_history_current">"Različica 7.16\n
 Dodani manjkajoči 2€ spominski kovanci 2026.
-Dodani 2€ spominski kovanci za Nemčijo, Slovenijo in Slovaško.
-Dodane nove slike kovancev za Monako 2025 1€ in 2€. Hvala Guiseppe.
-Dodane nove slike kovancev za Luksemburg 2026. Hvala Guiseppe.
-Dodan kanal za obvestila za posodobitve zbirk.
+Dolg dotik na kovanec v pogledu EU zdaj prikaže vse kovance.
 "</string>
 
-    <string name="version_history_current">"Različica 7.15\n
+    <string name="version_history_last">"Različica 7.15\n
 Lastne kovance za Nemčijo sedaj podpirajo izbiro žigov. Hvala Florian.
 Kodekse države so bili odpravljeni v skladu z ISO standardom 3166-1 alfa-2. Hvala Thomas.
 Lastne kovance je mogoče zdaj ustvariti samo za določeno zbirko.
@@ -2721,50 +2718,110 @@ Uporabnik se lahko za varovanje podatkov obrne na ustrezno institucijo.
     <string name="twoeuro_comm_2024_it_2_volume">"3000000"</string>
     <string name="twoeuro_comm_2024_it_2_date">"januar 2024"</string>
 
-    <string name="twoeuro_comm_2025_po_title">"svetovna skavtska organizacija"</string>
-    <string name="twoeuro_comm_2025_po_desc">"kovanec je namenjen počastitvi Svetovne skavtske organizacije in mladinskih gibanj, ki spodbujajo kulturno izmenjavo, medsebojno razumevanje in prijateljstvo. Leta 2025 bo 16. svetovno skavtsko srečanje namreč organizirano na Portugalskem, kjer se bodo zbrali skavti in taborniki, stari od 18 do 25 let, z vsega sveta, da bi se učili drug od drugega in razvili nove spretnosti."</string>
-    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_date">"junij 2025"</string>
+    <string name="twoeuro_comm_2025_ad_title">"igre malih evropskih držav (Andora, 2025)"</string>
+    <string name="twoeuro_comm_2025_ad_desc">"motiv prikazuje nekatere izmed različnih športnih disciplin tega prvenstva ter napisa »JOCS DELS PETITS ESTATS D’EUROPA« (igre malih evropskih držav) in »ANDORRA 2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_ad_volume">"64000"</string>
+    <string name="twoeuro_comm_2025_ad_date">"druga polovica leta 2025"</string>
 
-    <string name="twoeuro_comm_2025_po_2_title">"trajnostni razvoj"</string>
-    <string name="twoeuro_comm_2025_po_2_desc">"motiv prikazuje planet Zemljo, ki je obkrožen z napisom »DESENVOLVIMENTO SUSTENTÁVEL« (trajnostni razvoj). Ob levem in zgornjem robu jedra je veji podobna vrsta 17 skupin listov, razporejenih v trikotnik, kar spominja na univerzalni simbol recikliranja in se nanaša na 17 ciljev agende za trajnostni razvoj do leta 2030. Ob spodnjem in desnem robu jedra so napis »PORTUGAL«, državni grb Portugalske, letnica in oznaka kovnice »Casa da Moeda« nad imenom oblikovalke. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_po_2_date">"prvo četrtletje 2025"</string>
+    <string name="twoeuro_comm_2025_ad_2_title">"brkati ser"</string>
+    <string name="twoeuro_comm_2025_ad_2_desc">"motiv z namenom ozaveščanja o pomenu varstva divjih živali in okolja prikazuje brkatega sera (Gypaetus barbatus), vrsto ptice, ki ji grozi izumrtje, napis »ANDORRA« in leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_ad_2_volume">"60000"</string>
+    <string name="twoeuro_comm_2025_ad_2_date">"druga polovica leta 2025"</string>
 
-    <string name="twoeuro_comm_2025_fi_title">"finski državni obiski – diplomacija in zunanja politika"</string>
-    <string name="twoeuro_comm_2025_fi_desc">"motiv prikazuje abstraktna vrata pravokotne oblike z zrcalno površino, ki simbolizirajo državne obiske. Navpično ob levem robu pravokotnika so oznaka kovnice, leto 2025 in oznaka »FI«. Pravokotnik je na vrhu zaobljen vzporedno z robom kovanca. Spodaj in desno so v površino vgravirane vodoravne črte, okrogla oblika pa seka krivuljo površine s podobo. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
-    <string name="twoeuro_comm_2025_fi_date">"pomlad 2025"</string>
-
-    <string name="twoeuro_comm_2025_sk_title">"100. obletnica prvega mednarodnega športnega turnirja na ozemlju Slovaške republike – evropskega prvenstva v hokeju na ledu"</string>
-    <string name="twoeuro_comm_2025_sk_desc">"motiv prikazuje igralca hokeja na ledu v športnem dresu, značilnem za obdobje, v katerem je leta 1925 potekalo evropsko prvenstvo v hokeju na ledu. Za igralcem je upodobljena stilizirana panorama slovaške gorske regije Visoke Tatre, kjer je potekalo prvenstvo. V zgornji polovici je vzdolž roba jedra kovanca napis »MAJSTROVSTVÁ EURÓPY V HOKEJI« (evropsko prvenstvo v hokeju). V zgornjem levem delu motiva sta druga nad drugo letnici »1925« in »2025«. Na dnu je ime države izdajateljice »SLOVENSKO«. Desno od podobe igralca je oznaka slovaške kovnice Kremnica (Mincovňa Kremnica), ki je izdelala kovanec. Poleg nje sta začetnici oblikovalca Karola Ličke »KL«. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
-    <string name="twoeuro_comm_2025_sk_date">"januar 2025"</string>
+    <string name="twoeuro_comm_2025_be_2_title">"dirkališče Spa-Francorchamps v Belgiji"</string>
+    <string name="twoeuro_comm_2025_be_2_desc">"na sredini motiva je upodobljena sedanja trasa dirkališča v kraju Spa-Francorchamps. Na levi strani kovanca je izpisana celotna dolžina dirkališča (v metrih) »7.004 M«, pod njo pa leto ustanovitve dirkališča »1921«. Nad silhueto dirkališča je napis »CIRCUIT DE SPA FRANCORCHAMPS«. Na dnu kovanca sta oznaka države »BE« in letnica izdaje »2025«, ob njima pa sta oznaka direktorja belgijske kovnice, nebina pred erlenmajerico, in oznaka kovnice v Utrechtu, Hermesova palica (saj bo kovance kovala nizozemska kraljeva kovnica). Spodaj desno sta začetnici oblikovalke Iris Bruijns »IB«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_be_2_volume">"155000"</string>
+    <string name="twoeuro_comm_2025_be_2_date">"julij 2025"</string>
 
     <string name="twoeuro_comm_2025_be_title">"belgijska nacionalna loterija"</string>
     <string name="twoeuro_comm_2025_be_desc">"v jedru kovanca je klasična alegorična upodobitev sreče, boginje Fortuna, ki drži rog obilja. Desno in spodaj so štiri štiriperesne deteljice, ki so še en univerzalni simbol sreče. Za podobo Fortune je viden sedanji logotip nacionalne loterije. Na levi strani kovanca je besedilo »loterie nationale loterij«. Spodaj levo sta oznaka države BE in leto izdaje 2025. Spodaj desno sta začetnici oblikovalke Iris Bruijns. Ker bo kovance kovala nizozemska kraljeva kovnica, je pod letnico Hermesova palica, ki je oznaka kovnice v Utrechtu, ob njej pa oznaka direktorja belgijske kovnice, nebina pred erlenmajerico. Na kolobarju je 12 zvezd Evropske unije."</string>
     <string name="twoeuro_comm_2025_be_volume">"1000000"</string>
     <string name="twoeuro_comm_2025_be_date">"januar 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_title">"550. obletnica Michelangelovega rojstva"</string>
-    <string name="twoeuro_comm_2025_sm_desc">"v jedru kovanca je upodobljena Kleopatra, detajl risbe Michelangela Buonarrotija, ki jo hranijo v Fundaciji Casa Buonarroti (Firence). Na levi strani so polkrožni napis »MICHELANGELO«, črka R, ki označuje rimsko kovnico, in letnica »1475«, na desni strani pa sta ime države izdajateljice »SAN MARINO« v polkrogu in letnica »2025«. Na dnu sta začetnici oblikovalke »SP« (Silvia Petrassi). Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_date">"julij 2025"</string>
+    <string name="twoeuro_comm_2025_de_title">"zvezna dežela Posarje (Saarland)"</string>
+    <string name="twoeuro_comm_2025_de_desc">"motiv prikazuje meander reke Saar, imenovan Saarschleife, stilno minimaliziran na ključne značilnosti vijugajoče reke, ki zaznamuje gričevnato pokrajino. Skupine dreves vzdolž reke simbolizirajo gozdnato pokrajino ob slikovitem Saarschleife. Zaradi pogleda iz zraka je znamenita naravna plovna pot obdana z okoliškimi griči, ki segajo v daljavo. Napis »SAARLAND« je nizko v ospredju, da ne bi motil občutka mirnosti in svetlobe, ki ju vzbuja pokrajina. Na zgornji polovici jedra kovanca je na levi tudi oznaka umetnika Carstena Wolffa iz Frankfurta, na desni strani pa črka »X« kot prostor za oznako zadevne kovnice (»A«, »D«, »F«, »G« ali »J«). Na spodnji polovici so napis »SAARLAND«, oznaka države izdajateljice Nemčije »D« in leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
+    <string name="twoeuro_comm_2025_de_date">"januar 2025"</string>
 
-    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 – Pellegrini di Speranza"</string>
-    <string name="twoeuro_comm_2025_sm_2_desc">"v jedru kovanca je upodobljena ženska s sidrom, alegorija upanja, ki otroka drži za roko, kar je simbol človečnosti. Na levi strani so napis »SAN MARINO«, štiri kvadratna jadra, črka »R«, ki označuje rimsko kovnico, in priimek oblikovalca »DI MAULO« (Gabriele Di Maulo), zgoraj desno sta osemkraka zvezda in napis »IUBILAEUM 2025«, na dnu pa so začetnice graverke »M.B.INC« (Marta Bonifacio). Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
-    <string name="twoeuro_comm_2025_sm_2_date">"marec 2025"</string>
+    <string name="twoeuro_comm_2025_ee_title">"petstoletnica izdaje prvega dela, ki je vsebovalo estonske besede, in začetek estonskega knjižnega jezika"</string>
+    <string name="twoeuro_comm_2025_ee_desc">"v sredini kovanca je prikazana kompozicija knjig, ki tvorijo veliko črko »E«, te knjige pa simbolizirajo tradicijo estonskega pisnega jezika. Ob obodu sta napis »EESTI RAAMAT 500«, kar pomeni »petsto let knjig v estonščini«, in letnica »1525«, ko je bila izdana prva knjiga v estonščini. Motiv prikazuje tudi letnico izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_ee_volume">"850000"</string>
+    <string name="twoeuro_comm_2025_ee_date">"drugo četrtletje 2025"</string>
+
+    <string name="twoeuro_comm_2025_es_title">"priznanje Salamance kot območja Unescove svetovne dediščine"</string>
+    <string name="twoeuro_comm_2025_es_desc">"motiv prikazuje podobo samostana »Convento de San Esteban«. Na dnu sta napis ESPAÑA in leto izdaje 2025. Na vrhu jedra je z velikimi tiskanimi črkami beseda »SALAMANCA« in oznaka kovnice »Eme Coronada«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
+    <string name="twoeuro_comm_2025_es_date">"prvo četrtletje 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_2_title">"mednarodno atletsko prvenstvo Finske in Švedske"</string>
+    <string name="twoeuro_comm_2025_fi_2_desc">"motiv kovanca prikazuje dve nogi v gibanju in ukrivljene pretrgane linije, ki predstavljajo tekaško progo. Motiv obeležuje stoletnico mednarodnega atletskega prvenstva Finske in Švedske ter nosi sporočilo finske športne tradicije in kolektivnega duha dogodka. Na vrhu je vodoravno izpisana letnica »2025«. Na sredini, levo od motiva je oznaka kovnice, desno na sredini pa je kratica »FI«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_fi_2_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_2_date">"jesen 2025"</string>
+
+    <string name="twoeuro_comm_2025_fi_title">"finski državni obiski – diplomacija in zunanja politika"</string>
+    <string name="twoeuro_comm_2025_fi_desc">"motiv prikazuje abstraktna vrata pravokotne oblike z zrcalno površino, ki simbolizirajo državne obiske. Navpično ob levem robu pravokotnika so oznaka kovnice, leto 2025 in oznaka »FI«. Pravokotnik je na vrhu zaobljen vzporedno z robom kovanca. Spodaj in desno so v površino vgravirane vodoravne črte, okrogla oblika pa seka krivuljo površine s podobo. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_fi_volume">"204000"</string>
+    <string name="twoeuro_comm_2025_fi_date">"pomlad 2025"</string>
+
+    <string name="twoeuro_comm_2025_fr_2_title">"Notre-Dame"</string>
+    <string name="twoeuro_comm_2025_fr_2_desc">"pariška kovnica se poklanja slavni pariški katedrali Notre-Dame, pri rekonstrukciji katere je sodelovalo na stotine mojstrov in katere ponovno odprtje decembra 2024 je pozdravilo na milijone ljudi. Na sredini motiva je glavno pročelje pariške katedrale Notre-Dame. Za koničastim zvonikom v ozadju je prikazana značilna rozeta. Na levi strani so letnica »2025«, kratica države izdajateljice »RF« in oznaka pariške kovnice. Na desni sta ime pariške katedrale Notre-Dame »NOTRE-DAME DE PARIS« in oznaka generalnega graverja. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_fr_2_volume">"20000000"</string>
+    <string name="twoeuro_comm_2025_fr_2_date">"september 2025"</string>
 
     <string name="twoeuro_comm_2025_fr_title">"Louvre"</string>
     <string name="twoeuro_comm_2025_fr_desc">"motiv prikazuje vzhodno fasado muzeja Louvre, ki se prepleta z ikoničnim načrtom izjemnih soban v muzeju. Piramidion in struktura velike piramide v ozadju ponazarjata tradicionalni in sodobni značaj Louvra. Na načrtu muzeja so navedeni leto izdaje »2025«, oznaka države »RF« in oznake kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
     <string name="twoeuro_comm_2025_fr_volume">"315000"</string>
     <string name="twoeuro_comm_2025_fr_date">"januar 2025"</string>
 
-    <string name="twoeuro_comm_2025_mt_title">"malteški vol (il-gendus Malti)"</string>
-    <string name="twoeuro_comm_2025_mt_desc">"motiv prikazuje malteškega vola. Kovanec je namenjen ozaveščanju o eni izmed ogroženih avtohtonih živalskih vrst na Malti. Na vrhu jedra je v polkrogu napis »IL-GENDUS MALTI«. Na dnu je ime države izdajateljice »MALTA«, pod njim pa leto izdaje »2025«. Spodaj desno so začetnice oblikovalke »MAF« (Maria Anna Frisone). Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
-    <string name="twoeuro_comm_2025_mt_date">"junij 2025"</string>
+    <string name="twoeuro_comm_2025_gr_title">"dvestoletnica smrti Laskarine Boubouline"</string>
+    <string name="twoeuro_comm_2025_gr_desc">"motiv prikazuje portret Laskarine Boubouline, v ozadju pa sta jambor in ladijsko vrvje. Ob obodu sta napisa »200 ΧΡΟΝΙΑ ΑΠΟ ΤΟΝ ΘΑΝΑΤΟ ΤΗΣ ΛΑΣΚΑΡΙΝΑΣ ΜΠΟΥΜΠΟΥΛΙΝΑΣ« (200 let od smrti Laskarine Boubouline) in »ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ« (Helenska republika). Na levi sta palmeta (oznaka grške kovnice) in letnica kovanja. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_gr_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_date">"julij 2025"</string>
+
+    <string name="twoeuro_comm_2025_gr_2_title">"stoletnica rojstva Mikisa Theodorakisa"</string>
+    <string name="twoeuro_comm_2025_gr_2_desc">"motiv prikazuje skladatelja Mikisa Theodorakisa. Ob obodu sta napisa »100 ΧΡΟΝΙΑ ΑΠΟ ΤΗ ΓΕΝΝΗΣΗ ΤΟΥ ΜΙΚΗ ΘΕΟΔΩΡΑΚΗ« (100 let od rojstva Mikisa Theodorakisa) in »ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ« (Helenska republika). Spodaj je leto izdaje, na desni je palmeta (oznaka grške kovnice), zgoraj levo je notno črtovje z violinskim ključem. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_gr_2_volume">"750000"</string>
+    <string name="twoeuro_comm_2025_gr_2_date">"julij 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_title">"serija »hrvaška mesta« – mesto Pulj – arena"</string>
+    <string name="twoeuro_comm_2025_hr_desc">"osrednji motiv kovanca je puljska arena (amfiteater), eden od najznačilnejših zgodovinskih spomenikov Republike Hrvaške, prikazan s strani Jadranskega morja, upodobljenega pod osrednjim motivom, kar poudarja izrazito sredozemski značaj Hrvaške. Na desni strani arene je prikazana cerkev sv. Antona, ki je bila zgrajena v tridesetih letih dvajsetega stoletja in je del panoramskega pogleda na mesto Pulj. Poleg tega so vzdolž oboda jedra kovanca izpisani ime države izdajateljice »HRVATSKA«, leto izdaje »2025« in besede »GRAD PULA-ARENA«. Nacionalno stran kovanca je oblikoval kipar Duje Botteri. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_hr_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_hr_date">"oktober 2025"</string>
+
+    <string name="twoeuro_comm_2025_hr_2_title">"1100. obletnica hrvaškega kraljestva in kronanja kralja Tomislava"</string>
+    <string name="twoeuro_comm_2025_hr_2_desc">"osrednji motiv kovanca je kralj Tomislav na konju. Drugi motiv je značilni in prepoznavni simbol Hrvaške, hrvaška šahovnica, ki predstavlja del grba Republike Hrvaške. Del motiva so tudi naslednji napisi: »KRALJ TOMISLAV«, letnica kronanja kralja Tomislava »925«, ime države izdajateljice »REPUBLIKA HRVATSKA« in letnica izdaje kovanca »2025«, ki so nanizani krožno ob obodu jedra. Nacionalno stran kovanca je oblikoval kipar Nikola Vudrag. Osrednji motiv je njegova priredba izvirnega dela kiparja Roberta Frangeša Mihanovića iz leta 1938. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_hr_2_volume">"400000"</string>
+    <string name="twoeuro_comm_2025_hr_2_date">"julij 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_title">"sveto leto 2025"</string>
+    <string name="twoeuro_comm_2025_it_desc">"v jedru kovanca so upodobljena sveta vrata v baziliki svetega Petra. Zgoraj je v polkrogu napis »IUBILAEUM«, spodaj pa latinski napis prav tako v polkrogu dopolnjujejo izmenično prazne in polne ribe, ki so simbol krščanstva. Na levi strani sta leto izdaje »2025« in »R«, ki označuje rimsko kovnico, na desni pa kratica »RI« za Italijansko republiko in začetnici oblikovalke »C.M.« (Claudia Momoni). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_date">"januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
+    <string name="twoeuro_comm_2025_it_2_desc">"v jedru kovanca je šolska jadrnica Amerigo Vespucci, ki z napetimi jadri reže morske valove. Na levi je ob kolobarju napis »Amerigo Vespucci Tour Mondiale 2023-2025«, pod napisom na levi sta leto izdaje »2025« in kratica »RI« za Italijansko republiko, na desni je oznaka rimske kovnice »R«, pod podobo pa podpis oblikovalca »E.FERRETTI«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
+    <string name="twoeuro_comm_2025_it_2_date">"januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_2_title">"litovske etnografske pokrajine – Mala Litva"</string>
+    <string name="twoeuro_comm_2025_lt_2_desc">"motiv prikazuje grb v obliki ščita, na katerem je los, ki s sprednjima tacama drži sulico, nad njim pa žari luč svetilnika. Na vsaki strani grba je jadrnica kurenkahn, spodaj pa citat Vydūnasa: »SPINDULYS ESMI BEGALINĖS ŠVIESOS« (žarek je bistvo neskončne svetlobe). Kompozicijo obkrožajo napisi »LIETUVA« (Litva), »MAŽOJI LIETUVA« (Mala Litva), letnica izdaje »2025« in oznaka litovske kovnice. Nacionalno stran kovanca je oblikoval Rolandas Rimkūnas (avtor velikega grba pokrajine Male Litve pa je Arvydas Každailis). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_lt_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_2_date">"zadnje četrtletje 2025"</string>
+
+    <string name="twoeuro_comm_2025_lt_title">"obramba"</string>
+    <string name="twoeuro_comm_2025_lt_desc">"motiv prikazuje obris Litve. Državne meje so obdane s stiliziranimi bodicami, ki simbolizirajo koncept celostne obrambe celotne družbe. Podoba ježa predstavlja tudi odprtost in krhkost svobodnih družb, ki jih je treba v največji možni meri braniti pred zunanjimi grožnjami. Litva je predstavljena kot jež, ki se je vedno pripravljen braniti. V sredini motiva so napis »LIETUVA« (Litva), leto izdaje »2025« in oznaka litovske kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_lt_date">"prvo četrtletje 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_title">"75. obletnica deklaracije Roberta Schumana z dne 9. maja 1950"</string>
+    <string name="twoeuro_comm_2025_lu_desc">"na dnu motiva je prikazana roka, ki drži svinčnik, s katerim piše po listu papirja. Zgornji del svinčnika je oblikovan v oljčno vejico, ki se nadaljuje z golobi, oboje je simbol miru. Golobi letijo proti obzorju, na katerem je šest zvezd, ki predstavljajo šest držav članic, ki so pozneje podpisale Pogodbo o ustanovitvi Evropske skupnosti za premog in jeklo, ki je temeljila na Schumanovi deklaraciji. V zgornjem delu motiva sta besedilo »DECLARATION SCHUMAN« in datum deklaracije »09.05.1950«. Številka »75« pod besedilom označuje obletnico deklaracije. Na desni strani motiva sta ime države izdajateljice »LUXEMBOURG« in leto izdaje »2025«. Monogram (črka »H« s krono) predstavlja velikega vojvodo Henrija. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_date">"februar 2025"</string>
+
+    <string name="twoeuro_comm_2025_lu_2_title">"25. obletnica ustoličenja velikega vojvode Henrija"</string>
+    <string name="twoeuro_comm_2025_lu_2_desc">"v jedru kovanca je portret velikega vojvode Henrija, v ozadju pa palača velikega vojvode. Nad portretom je v polkrožni obliki besedilo »25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI«. Pod portretom sta ime države izdajateljice »LËTZEBUERG« in leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
+    <string name="twoeuro_comm_2025_lu_2_date">"februar 2025"</string>
 
     <string name="twoeuro_comm_2025_mc_title">"mejna grofija des Baux"</string>
     <string name="twoeuro_comm_2025_mc_desc">"kovanec obeležuje fevd mejnih grofov des Baux. Ta naziv je leta 1642 prvi prejel Hercule Grimaldi, sin Honoréja II. Po zgodovinski tradiciji danes pripada prestolonasledniku princu Jacquesu. Motiv prikazuje skalo in okolico vasi Les Baux de Provence. Na vrhu jedra je ime države izdajateljice »MONACO«. Na dnu je v polkrogu napis »MARQUISAT DES BAUX«. Na kolobarju je 12 zvezd Evropske unije."</string>
@@ -2776,10 +2833,45 @@ Uporabnik se lahko za varovanje podatkov obrne na ustrezno institucijo.
     <string name="twoeuro_comm_2025_mc_2_volume">"15000"</string>
     <string name="twoeuro_comm_2025_mc_2_date">"junij 2025"</string>
 
-    <string name="twoeuro_comm_2025_es_title">"priznanje Salamance kot območja Unescove svetovne dediščine"</string>
-    <string name="twoeuro_comm_2025_es_desc">"motiv prikazuje podobo samostana »Convento de San Esteban«. Na dnu sta napis ESPAÑA in leto izdaje 2025. Na vrhu jedra je z velikimi tiskanimi črkami beseda »SALAMANCA« in oznaka kovnice »Eme Coronada«. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_es_volume">"2000000"</string>
-    <string name="twoeuro_comm_2025_es_date">"prvo četrtletje 2025"</string>
+    <string name="twoeuro_comm_2025_mt_2_title">"mesto Mdina"</string>
+    <string name="twoeuro_comm_2025_mt_2_desc">"ta kovanec je del serije, posvečene malteškim mestom z obzidjem, ki so neločljivo povezana z malteško in evropsko kulturno dediščino. Sledi kovancu, ki je bil izdan leta 2024 in prikazuje »Iċ-Ċittadella« (citadelo) Gozo. Motiv upodablja mesto Mdina, nad katerim se dviguje katedrala. Zgoraj levo je napis »MDINA«. Zgoraj desno so začetnice oblikovalca »NGB« (Noel Galea Bason). Na dnu je ime države izdajateljice »MALTA«, pod njim pa leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_mt_2_volume">"152000"</string>
+    <string name="twoeuro_comm_2025_mt_2_date">"junij 2025"</string>
+
+    <string name="twoeuro_comm_2025_mt_title">"malteški vol (il-gendus Malti)"</string>
+    <string name="twoeuro_comm_2025_mt_desc">"motiv prikazuje malteškega vola. Kovanec je namenjen ozaveščanju o eni izmed ogroženih avtohtonih živalskih vrst na Malti. Na vrhu jedra je v polkrogu napis »IL-GENDUS MALTI«. Na dnu je ime države izdajateljice »MALTA«, pod njim pa leto izdaje »2025«. Spodaj desno so začetnice oblikovalke »MAF« (Maria Anna Frisone). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_mt_volume">"145000"</string>
+    <string name="twoeuro_comm_2025_mt_date">"junij 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_title">"Svetovna skavtska organizacija"</string>
+    <string name="twoeuro_comm_2025_po_desc">"kovanec je namenjen počastitvi Svetovne skavtske organizacije in mladinskih gibanj, ki spodbujajo kulturno izmenjavo, medsebojno razumevanje in prijateljstvo. Leta 2025 bo 16. svetovno skavtsko srečanje namreč organizirano na Portugalskem, kjer se bodo zbrali skavti in taborniki, stari od 18 do 25 let, z vsega sveta, da bi se učili drug od drugega in razvili nove spretnosti."</string>
+    <string name="twoeuro_comm_2025_po_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_date">"junij 2025"</string>
+
+    <string name="twoeuro_comm_2025_po_2_title">"trajnostni razvoj"</string>
+    <string name="twoeuro_comm_2025_po_2_desc">"motiv prikazuje planet Zemljo, ki je obkrožen z napisom »DESENVOLVIMENTO SUSTENTÁVEL« (trajnostni razvoj). Ob levem in zgornjem robu jedra je veji podobna vrsta 17 skupin listov, razporejenih v trikotnik, kar spominja na univerzalni simbol recikliranja in se nanaša na 17 ciljev agende za trajnostni razvoj do leta 2030. Ob spodnjem in desnem robu jedra so napis »PORTUGAL«, državni grb Portugalske, letnica in oznaka kovnice »Casa da Moeda« nad imenom oblikovalke. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_po_2_volume">"500000"</string>
+    <string name="twoeuro_comm_2025_po_2_date">"prvo četrtletje 2025"</string>
+
+    <string name="twoeuro_comm_2025_si_title">"stoletnica rojstva Mikija Mustra"</string>
+    <string name="twoeuro_comm_2025_si_desc">"na kovancu so v tehniki mehkega reliefa upodobljeni trije junaki iz stripov Mikija Mustra: Zvitorepec, Lakotnik in Trdonja. Pod njimi je letnica kovanja »2025« in ime države izdajateljice »SLOVENIJA«. Levo zgoraj je letnica rojstva »1925« in ime »MIKI«, desno zgoraj pa priimek »MUSTER«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_si_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_si_date">"november 2025"</string>
+
+    <string name="twoeuro_comm_2025_sk_title">"100. obletnica prvega mednarodnega športnega turnirja na ozemlju Slovaške republike – evropskega prvenstva v hokeju na ledu"</string>
+    <string name="twoeuro_comm_2025_sk_desc">"motiv prikazuje igralca hokeja na ledu v športnem dresu, značilnem za obdobje, v katerem je leta 1925 potekalo evropsko prvenstvo v hokeju na ledu. Za igralcem je upodobljena stilizirana panorama slovaške gorske regije Visoke Tatre, kjer je potekalo prvenstvo. V zgornji polovici je vzdolž roba jedra kovanca napis »MAJSTROVSTVÁ EURÓPY V HOKEJI« (evropsko prvenstvo v hokeju). V zgornjem levem delu motiva sta druga nad drugo letnici »1925« in »2025«. Na dnu je ime države izdajateljice »SLOVENSKO«. Desno od podobe igralca je oznaka slovaške kovnice Kremnica (Mincovňa Kremnica), ki je izdelala kovanec. Poleg nje sta začetnici oblikovalca Karola Ličke »KL«. Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_sk_volume">"1000000"</string>
+    <string name="twoeuro_comm_2025_sk_date">"januar 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_title">"550. obletnica Michelangelovega rojstva"</string>
+    <string name="twoeuro_comm_2025_sm_desc">"v jedru kovanca je upodobljena Kleopatra, detajl risbe Michelangela Buonarrotija, ki jo hranijo v Fundaciji Casa Buonarroti (Firence). Na levi strani so polkrožni napis »MICHELANGELO«, črka R, ki označuje rimsko kovnico, in letnica »1475«, na desni strani pa sta ime države izdajateljice »SAN MARINO« v polkrogu in letnica »2025«. Na dnu sta začetnici oblikovalke »SP« (Silvia Petrassi). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_sm_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_date">"julij 2025"</string>
+
+    <string name="twoeuro_comm_2025_sm_2_title">"Giubileo Anno Santo 2025 – Pellegrini di Speranza"</string>
+    <string name="twoeuro_comm_2025_sm_2_desc">"v jedru kovanca je upodobljena ženska s sidrom, alegorija upanja, ki otroka drži za roko, kar je simbol človečnosti. Na levi strani so napis »SAN MARINO«, štiri kvadratna jadra, črka »R«, ki označuje rimsko kovnico, in priimek oblikovalca »DI MAULO« (Gabriele Di Maulo), zgoraj desno sta osemkraka zvezda in napis »IUBILAEUM 2025«, na dnu pa so začetnice graverke »M.B.INC« (Marta Bonifacio). Na kolobarju je 12 zvezd Evropske unije."</string>
+    <string name="twoeuro_comm_2025_sm_2_volume">"56000"</string>
+    <string name="twoeuro_comm_2025_sm_2_date">"marec 2025"</string>
 
     <string name="twoeuro_comm_2025_va_title">"550. obletnica Michelangelovega rojstva"</string>
     <string name="twoeuro_comm_2025_va_desc">"motiv prikazuje kupolo bazilike sv. Petra, ki jo je zasnoval Michelangelo. Pri njeni postavitvi je sodeloval vse do svoje smrti leta 1564. Pod podobo kupole je obokan strop Sikstinske kapele, ki ga je Michelangelo razdelil na sorazmerne dele in jih poslikal s freskami. Na levi strani so navpično slikarjev lastnoročni podpis »michelagniolo«, črka »R«, ki označuje rimsko kovnico, in ime oblikovalke kovanca »D. LONGO« (Daniela Longo). Nad kupolo je v loku napis »CITTA’ DEL VATICANO«, ki označuje državo izdajateljico. Pod njim sta letnica Michelangelovega rojstva »1475« in letnica izdaje kovanca »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
@@ -2795,36 +2887,6 @@ Uporabnik se lahko za varovanje podatkov obrne na ustrezno institucijo.
     <string name="twoeuro_comm_2025_va_3_desc">"motiv prikazuje odprtje svetih vrat v baziliki sv. Petra. Na desni strani sta navpično latinski napis »IVBILAEUM« in letnica »2025«. Na dnu je v loku napis »CITTA’ DEL VATICANO«, ki označuje državo izdajateljico. Na motivu vrat je črka »R«, ki pomeni rimsko kovnico, na spodnji levi strani motiva pa je ime oblikovalke »D. LONGO« (Daniela Longo). Na kolobarju je 12 zvezd Evropske unije."</string>
     <string name="twoeuro_comm_2025_va_3_volume">"91000"</string>
     <string name="twoeuro_comm_2025_va_3_date">"junij 2025"</string>
-
-    <string name="twoeuro_comm_2025_lt_title">"obramba"</string>
-    <string name="twoeuro_comm_2025_lt_desc">"motiv prikazuje obris Litve. Državne meje so obdane s stiliziranimi bodicami, ki simbolizirajo koncept celostne obrambe celotne družbe. Podoba ježa predstavlja tudi odprtost in krhkost svobodnih družb, ki jih je treba v največji možni meri braniti pred zunanjimi grožnjami. Litva je predstavljena kot jež, ki se je vedno pripravljen braniti. V sredini motiva so napis »LIETUVA« (Litva), leto izdaje »2025« in oznaka litovske kovnice. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_lt_volume">"500000"</string>
-    <string name="twoeuro_comm_2025_lt_date">"prvo četrtletje 2025"</string>
-
-    <string name="twoeuro_comm_2025_de_title">"zvezna dežela Posarje (Saarland)"</string>
-    <string name="twoeuro_comm_2025_de_desc">"motiv prikazuje meander reke Saar, imenovan Saarschleife, stilno minimaliziran na ključne značilnosti vijugajoče reke, ki zaznamuje gričevnato pokrajino. Skupine dreves vzdolž reke simbolizirajo gozdnato pokrajino ob slikovitem Saarschleife. Zaradi pogleda iz zraka je znamenita naravna plovna pot obdana z okoliškimi griči, ki segajo v daljavo. Napis »SAARLAND« je nizko v ospredju, da ne bi motil občutka mirnosti in svetlobe, ki ju vzbuja pokrajina. Na zgornji polovici jedra kovanca je na levi tudi oznaka umetnika Carstena Wolffa iz Frankfurta, na desni strani pa črka »X« kot prostor za oznako zadevne kovnice (»A«, »D«, »F«, »G« ali »J«). Na spodnji polovici so napis »SAARLAND«, oznaka države izdajateljice Nemčije »D« in leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_de_volume">"30000000"</string>
-    <string name="twoeuro_comm_2025_de_date">"januar 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_title">"75. obletnica deklaracije Roberta Schumana z dne 9. maja 1950"</string>
-    <string name="twoeuro_comm_2025_lu_desc">"na dnu motiva je prikazana roka, ki drži svinčnik, s katerim piše po listu papirja. Zgornji del svinčnika je oblikovan v oljčno vejico, ki se nadaljuje z golobi, oboje je simbol miru. Golobi letijo proti obzorju, na katerem je šest zvezd, ki predstavljajo šest držav članic, ki so pozneje podpisale Pogodbo o ustanovitvi Evropske skupnosti za premog in jeklo, ki je temeljila na Schumanovi deklaraciji. V zgornjem delu motiva sta besedilo »DECLARATION SCHUMAN« in datum deklaracije » 09.05.1950 «. Številka »75« pod besedilom označuje obletnico deklaracije. Na desni strani motiva sta ime države izdajateljice »LUXEMBOURG« in leto izdaje »2025«. Monogram (črka »H« s krono) predstavlja velikega vojvodo Henrija. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_lu_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_date">"februar 2025"</string>
-
-    <string name="twoeuro_comm_2025_lu_2_title">"25. obletnica ustoličenja velikega vojvode Henrija"</string>
-    <string name="twoeuro_comm_2025_lu_2_desc">"v jedru kovanca je portret velikega vojvode Henrija, v ozadju pa palača velikega vojvode. Nad portretom je v polkrožni obliki besedilo »25. TROUNJUBILAUM VUM GROUSSHERZOG HENRI«. Pod portretom sta ime države izdajateljice »LËTZEBUERG« in leto izdaje »2025«. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_lu_2_volume">"200000"</string>
-    <string name="twoeuro_comm_2025_lu_2_date">"februar 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_title">"sveto leto 2025"</string>
-    <string name="twoeuro_comm_2025_it_desc">"v jedru kovanca so upodobljena sveta vrata v baziliki svetega Petra. Zgoraj je v polkrogu napis »IUBILAEUM«, spodaj pa latinski napis prav tako v polkrogu dopolnjujejo izmenično prazne in polne ribe, ki so simbol krščanstva. Na levi strani sta leto izdaje »2025« in »R«, ki označuje rimsko kovnico, na desni pa kratica »RI« za Italijansko republiko in začetnici oblikovalke »C.M.« (Claudia Momoni). Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_it_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_date">"januar 2025"</string>
-
-    <string name="twoeuro_comm_2025_it_2_title">"Amerigo Vespucci Tour Mondiale 2023-2025"</string>
-    <string name="twoeuro_comm_2025_it_2_desc">"v jedru kovanca je šolska jadrnica Amerigo Vespucci, ki z napetimi jadri reže morske valove. Na levi je ob kolobarju napis »Amerigo Vespucci Tour Mondiale 2023-2025«, pod napisom na levi sta leto izdaje »2025« in kratica »RI« za Italijansko republiko, na desni je oznaka rimske kovnice »R«, pod podobo pa podpis oblikovalca »E.FERRETTI«. Na kolobarju je 12 zvezd Evropske unije."</string>
-    <string name="twoeuro_comm_2025_it_2_volume">"3000000"</string>
-    <string name="twoeuro_comm_2025_it_2_date">"januar 2025"</string>
 
     <!-- END auto generated code for language sl -->
 
